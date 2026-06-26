@@ -101,11 +101,9 @@
         "SID": {
           "ident": "8",
           "configurations": {
-            "Est": {
+            "Nominale": {
               "04L": "A",
-              "04R": "A"
-            },
-            "Ouest": {
+              "04R": "A",
               "22L": "X",
               "22R": "X"
             }
@@ -135,11 +133,9 @@
       },
       "LFML": {
         "strategies": {
-          "Nominale Sud": {
+          "Nominale": {
             "13L": ["ETREK", "FJR", "LERGA", "LUC", "MADRA", "MAMES", "MTL", "NASIK", "SOSUR", "TINOT", "VATIR"],
-            "13R": ["ETREK", "FJR", "LERGA", "LUC", "MADRA", "MAMES", "MTL", "NASIK", "SOSUR", "TINOT", "VATIR"]
-          },
-          "Nominale Nord": {
+            "13R": ["ETREK", "FJR", "LERGA", "LUC", "MADRA", "MAMES", "MTL", "NASIK", "SOSUR", "TINOT", "VATIR"],
             "31L": ["ETREK", "FJR", "LERGA", "LUC", "MAMES", "MTG", "MTL", "NASIK", "SOSUR", "TINOT", "VATIR"],
             "31R": ["ETREK", "FJR", "LERGA", "LUC", "MAMES", "MTG", "MTL", "NASIK", "SOSUR", "TINOT", "VATIR"]
           }
@@ -147,66 +143,54 @@
         "SID": {
           "ident": "6",
           "configurations": {
-            "Sud": {
+            "Nominale": {
               "13L": "S",
-              "13R": "S"
-            },
-            "Nord": {
+              "13R": "S",
               "31L": "N",
               "31R": "N"
-            }
+            },
           }
         }
       },
       "LFKB": {
         "strategies": {
-          "Nominale Sud": {
-            "16": ["AJO", "AKUTI", "BREMO", "KERIT", "LIBLO", "MEGER", "MOULE", "SODRI"]
-          },
-          "Nominale Nord": {
+          "Nominale": {
+            "16": ["AJO", "AKUTI", "BREMO", "KERIT", "LIBLO", "MEGER", "MOULE", "SODRI"]?
             "34": ["AJO", "AKUTI", "BREMO", "KERIT", "LIBLO", "MEGER", "MOULE", "NORKA", "SODRI"]
           }
         },
         "SID": {
           "ident": "2",
           "configurations": {
-            "Sud": {
-              "16": "V"
-            },
-            "Nord": {
+            "Nominale": {
+              "16": "V",
               "34": "R"
-            }
+            },
           }
         }
       },
       "LFMT": {
         "strategies": {
-          "Nominale Sud-Est": {
-            "12L": ["BRUSC", "ETREK", "KELAM", "MARRI", "MASAM", "MEN", "MTL", "NG", "PPG"]
-          },
-          "Nominale Nord-Ouest": {
+          "Nominale": {
+            "12L": ["BRUSC", "ETREK", "KELAM", "MARRI", "MASAM", "MEN", "MTL", "NG", "PPG"],
             "30R": ["BRUSC", "ETREK", "KELAM", "MARRI", "MEN", "MTL", "NG", "PPG"]
-          }
+          },
         },
         "SID": {
           "ident": "8",
           "configurations": {
-            "Sud-Est": {
-              "12L": "L"
-            },
-            "Nord-Ouest": {
+            "Nominale": {
+              "12L": "L",
               "30R": "R"
-            }
+            },
           }
         }
       },
       "LFLL": {
         "strategies": {
-          "Nominale Sud": {
+          "Nominale": {
             "17L": ["ALURA", "BELEP", "BELUS", "BUSIL", "MABES", "MADOT", "MOKIP", "MURRO", "REPSI", "ROMAM", "RISOR"],
-            "17R": ["ALURA", "BELEP", "BELUS", "BUSIL", "MABES", "MADOT", "MOKIP", "MURRO", "REPSI", "ROMAM", "RISOR"]
-          },
-          "Nominale Nord": {
+            "17R": ["ALURA", "BELEP", "BELUS", "BUSIL", "MABES", "MADOT", "MOKIP", "MURRO", "REPSI", "ROMAM", "RISOR"],
             "35L": ["ALURA", "BELEP", "BELUS", "BUSIL", "MABES", "MOKIP", "MURRO", "REPSI", "ROMAM", "RISOR"],
             "35R": ["ALURA", "BELEP", "BELUS", "BUSIL", "MABES", "MOKIP", "MURRO", "REPSI", "ROMAM", "RISOR"]
           }
@@ -214,11 +198,9 @@
         "SID": {
           "ident": "8",
           "configurations": {
-            "Sud": {
+            "Nominale": {
               "17L": "S",
-              "17R": "S"
-            },
-            "Nord": {
+              "17R": "S",
               "35L": "N",
               "35R": "N"
             }
