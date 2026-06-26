@@ -148,7 +148,7 @@
               "13R": "S",
               "31L": "N",
               "31R": "N"
-            },
+            }
           }
         }
       },
@@ -165,7 +165,7 @@
             "Nominale": {
               "16": "V",
               "34": "R"
-            },
+            }
           }
         }
       },
@@ -174,7 +174,7 @@
           "Nominale": {
             "12L": ["BRUSC", "ETREK", "KELAM", "MARRI", "MASAM", "MEN", "MTL", "NG", "PPG"],
             "30R": ["BRUSC", "ETREK", "KELAM", "MARRI", "MEN", "MTL", "NG", "PPG"]
-          },
+          }
         },
         "SID": {
           "ident": "8",
@@ -182,7 +182,7 @@
             "Nominale": {
               "12L": "L",
               "30R": "R"
-            },
+            }
           }
         }
       },
