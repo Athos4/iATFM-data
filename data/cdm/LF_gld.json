@@ -155,7 +155,7 @@
       "LFKB": {
         "strategies": {
           "Nominale": {
-            "16": ["AJO", "AKUTI", "BREMO", "KERIT", "LIBLO", "MEGER", "MOULE", "SODRI"]?
+            "16": ["AJO", "AKUTI", "BREMO", "KERIT", "LIBLO", "MEGER", "MOULE", "SODRI"],
             "34": ["AJO", "AKUTI", "BREMO", "KERIT", "LIBLO", "MEGER", "MOULE", "NORKA", "SODRI"]
           }
         },
@@ -211,7 +211,7 @@
         "strategies": {
           "Nominale": {
             "03": ["ANG","LUGEN","LUSON","ERIGA","ERBIN","RIMON","BALNI"],
-            "21": ["ANG","LUGEN","LUSON","ERIGA","ERBIN","RIMON","BALNI"],
+            "21": ["ANG","LUGEN","LUSON","ERIGA","ERBIN","RIMON","BALNI"]
           }
         },
         "SID": {
@@ -223,12 +223,12 @@
             }
           }
         }
-      }
+      },
       "LFRB": {
         "strategies": {
           "Nominale": {
             "07R": ["NORBU","SOMEN","ROSPO","QPR"],
-            "25L": ["NORBU","SOMEN","ROSPO","QPR"],
+            "25L": ["NORBU","SOMEN","ROSPO","QPR"]
           }
         },
         "SID": {
@@ -245,7 +245,7 @@
         "strategies": {
           "Nominale": {
             "10": ["ATNIS","LABUL","TABIL","GODAN"],
-            "28": ["ATNIS","LABUL","TABIL","GODAN"],
+            "28": ["ATNIS","LABUL","TABIL","GODAN"]
           }
         },
         "SID": {
