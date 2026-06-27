@@ -161,7 +161,7 @@
             "LFFFTL",
             "LFFFTM",
             "LFFFUS",
-            "LFFFUJ",
+            "LFFFUJ"
         ],
         "capacity": {
             "maxEntryPerHour": 46,
