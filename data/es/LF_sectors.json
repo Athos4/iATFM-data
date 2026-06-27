@@ -8576,7 +8576,7 @@
   },
   {
     "id": "LFFFS",
-    "positionPriority": ["LFFF_E_CTR","LFFF_CTR"],
+    "positionPriority": ["LFFF_S_CTR","LFFF_E_CTR","LFFF_CTR"],
     "blocks": [
       {
         "id":"LFFFS",
@@ -9449,7 +9449,7 @@
   },
   {
     "id": "LFFFUP",
-    "positionPriority": ["LFFF_E_CTR","LFFF_CTR"],
+    "positionPriority": ["LFFF_S_CTR","LFFF_E_CTR","LFFF_CTR"],
     "blocks": [
       {
         "id":"LFFFUP1",
