@@ -8162,13 +8162,76 @@
       }
     ]
   },
-  {
-    "id": "LFFFDOGS",
-    "positionPriority": ["LFFF_E_CTR","LFFF_CTR"],
+{
+    "id": "LFFFDO",
+    "positionPriority": ["LFFF_S_CTR","LFFF_E_CTR","LFFF_CTR"],
     "blocks": [
       {
-        "id":"LFFFDODG",
-        "floorFt": 17500,
+        "id":"LFFFDO1",
+        "floorFt": 12500,
+        "ceilingFt": 25000,
+        "polygon": [
+          { "lat": 47.7190, "lon": 2.0560 },
+          { "lat": 47.7190, "lon": 2.7040 },
+          { "lat": 47.7950, "lon": 3.3630 },
+          { "lat": 47.9990, "lon": 3.2350 },
+          { "lat": 48.2830, "lon": 2.9190 },
+          { "lat": 48.3950, "lon": 2.7930 },
+          { "lat": 48.5030, "lon": 2.9200 },
+          { "lat": 48.5030, "lon": 2.0540 },
+          { "lat": 48.5030, "lon": 1.8750 },
+          { "lat": 48.5030, "lon": 1.8750 },
+          { "lat": 48.2970, "lon": 1.8970 },
+          { "lat": 48.1330, "lon": 1.7820 },
+          { "lat": 48.1100, "lon": 1.7680 },
+          { "lat": 47.9540, "lon": 1.7150 },
+          { "lat": 47.8320, "lon": 1.6910 },
+          { "lat": 47.7190, "lon": 2.0560 }
+        ]
+      },
+      {
+        "id":"LFFFDO2",
+        "floorFt": 19500,
+        "ceilingFt": 26500,
+        "polygon": [
+          { "lat": 46.8820, "lon": 1.8140 },
+          { "lat": 47.1790, "lon": 2.4340 },
+          { "lat": 47.3140, "lon": 3.0650 },
+          { "lat": 47.4970, "lon": 3.5480 },
+          { "lat": 47.7950, "lon": 3.3630 },
+          { "lat": 47.7190, "lon": 2.7040 },
+          { "lat": 47.7190, "lon": 2.0560 },
+          { "lat": 47.8320, "lon": 1.6910 },
+          { "lat": 47.8320, "lon": 1.6910 },
+          { "lat": 47.5500, "lon": 1.6340 },
+          { "lat": 47.1670, "lon": 1.4670 },
+          { "lat": 46.8820, "lon": 1.8140 }
+        ]
+      },
+      {
+        "id":"LFFFDO3",
+        "floorFt": 12500,
+        "ceilingFt": 0,
+        "polygon": [
+          { "lat": 48.2830, "lon": 1.8880 },
+          { "lat": 48.2830, "lon": 2.9190 },
+          { "lat": 48.3950, "lon": 2.7930 },
+          { "lat": 48.5030, "lon": 2.9200 },
+          { "lat": 48.5030, "lon": 1.8750 },
+          { "lat": 48.5030, "lon": 1.8750 },
+          { "lat": 48.2970, "lon": 1.8970 },
+          { "lat": 48.2830, "lon": 1.8880 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LFFFDG",
+    "positionPriority": ["LFFF_S_CTR","LFFF_E_CTR","LFFF_CTR"],
+    "blocks": [
+      {
+        "id":"LFFFDG1",
+        "floorFt": 0,
         "ceilingFt": 26500,
         "polygon": [
           { "lat": 48.3950, "lon": 2.7930 },
@@ -8176,31 +8239,47 @@
           { "lat": 48.5830, "lon": 3.0170 },
           { "lat": 49.0000, "lon": 2.5420 },
           { "lat": 49.0000, "lon": 2.0000 },
+          { "lat": 49.0000, "lon": 2.0000 },
           { "lat": 48.7830, "lon": 1.7000 },
           { "lat": 48.7320, "lon": 1.7430 },
           { "lat": 48.6380, "lon": 1.8210 },
           { "lat": 48.5830, "lon": 1.8670 },
+          { "lat": 48.5030, "lon": 1.8750 },
+          { "lat": 48.5030, "lon": 2.0540 },
+          { "lat": 48.3950, "lon": 2.7930 }
+        ]
+      },
+      {
+        "id":"LFFFDG2",
+        "floorFt": 18500,
+        "ceilingFt": 26500,
+        "polygon": [
+          { "lat": 47.7190, "lon": 2.0560 },
+          { "lat": 47.7190, "lon": 2.7040 },
+          { "lat": 47.7950, "lon": 3.3630 },
+          { "lat": 47.9990, "lon": 3.2350 },
+          { "lat": 48.2830, "lon": 2.9190 },
+          { "lat": 48.3950, "lon": 2.7930 },
+          { "lat": 48.5030, "lon": 2.0540 },
+          { "lat": 48.5030, "lon": 1.8750 },
           { "lat": 48.5030, "lon": 1.8750 },
           { "lat": 48.2970, "lon": 1.8970 },
           { "lat": 48.1330, "lon": 1.7820 },
           { "lat": 48.1100, "lon": 1.7680 },
           { "lat": 47.9540, "lon": 1.7150 },
           { "lat": 47.8320, "lon": 1.6910 },
-          { "lat": 47.5500, "lon": 1.6340 },
-          { "lat": 47.1670, "lon": 1.4670 },
-          { "lat": 46.8820, "lon": 1.8140 },
-          { "lat": 47.1790, "lon": 2.4340 },
-          { "lat": 47.3140, "lon": 3.0650 },
-          { "lat": 47.4970, "lon": 3.5480 },
-          { "lat": 47.7950, "lon": 3.3630 },
-          { "lat": 47.9990, "lon": 3.2350 },
-          { "lat": 48.2830, "lon": 2.9190 },
-          { "lat": 48.3950, "lon": 2.7930 }
+          { "lat": 47.7190, "lon": 2.0560 }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "LFFFDS",
+    "positionPriority": ["LFFF_S_CTR","LFFF_E_CTR","LFFF_CTR"],
+    "blocks": [
       {
-        "id":"LFFFDS",
-        "floorFt": 11500,
+        "id":"LFFFDODG",
+        "floorFt": 0,
         "ceilingFt": 17500,
         "polygon": [
           { "lat": 47.7190, "lon": 2.0560 },
@@ -8221,7 +8300,7 @@
   },
   {
     "id": "LFFFHP",
-    "positionPriority": ["LFFF_E_CTR","LFFF_CTR"],
+    "positionPriority": ["LFFF_S_CTR","LFFF_E_CTR","LFFF_CTR"],
     "blocks": [
       {
         "id":"LFFFHP",
@@ -8395,7 +8474,7 @@
   },
   {
     "id": "LFFFPU",
-    "positionPriority": ["LFFF_E_CTR","LFFF_CTR"],
+    "positionPriority": ["LFFF_S_CTR","LFFF_E_CTR","LFFF_CTR"],
     "blocks": [
       {
         "id":"LFFFPU",
@@ -8422,7 +8501,7 @@
   },
   {
     "id": "LFFFPW",
-    "positionPriority": ["LFFF_E_CTR","LFFF_CTR"],
+    "positionPriority": ["LFFF_S_CTR","LFFF_E_CTR","LFFF_CTR"],
     "blocks": [
       {
         "id":"LFFFPW",
@@ -9212,7 +9291,7 @@
   },
   {
     "id": "LFFFTU",
-    "positionPriority": ["LFFF_E_CTR","LFFF_CTR"],
+    "positionPriority": ["LFFF_S_CTR","LFFF_E_CTR","LFFF_CTR"],
     "blocks": [
       {
         "id":"LFFFTU",
@@ -9234,7 +9313,7 @@
   },
   {
     "id": "LFFFTW",
-    "positionPriority": ["LFFF_E_CTR","LFFF_CTR"],
+    "positionPriority": ["LFFF_S_CTR","LFFF_E_CTR","LFFF_CTR"],
     "blocks": [
       {
         "id":"LFFFTW",
@@ -9446,7 +9525,7 @@
   },
   {
     "id": "LFFFUT",
-    "positionPriority": ["LFFF_E_CTR","LFFF_CTR"],
+    "positionPriority": ["LFFF_S_CTR","LFFF_E_CTR","LFFF_CTR"],
     "blocks": [
       {
         "id":"LFFFUT",
