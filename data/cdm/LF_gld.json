@@ -26,7 +26,13 @@
             "09": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
             "26": ["PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL"],
             "27": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"]
-          }
+          },
+          "Coeur de Nuit": {
+            "08": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "DIKOL", "RANUX","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "NIPOR"],
+            "09": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "DIKOL", "RANUX","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "NIPOR"],
+            "26": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "DIKOL", "RANUX","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "NIPOR"],
+            "27": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "DIKOL", "RANUX","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "NIPOR"]
+          },
         },
         "SID": {
           "ident": "6",
