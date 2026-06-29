@@ -1173,7 +1173,7 @@
             "LFMLMB"
         ],
         "FlowEx": [
-            "ADLFMLG>"
+            "<ADLFMLG"
         ],
         "capacity": {"maxEntryPerHour": 6}
     },
@@ -1184,7 +1184,7 @@
             "LFMLME"
         ],
         "FlowEx": [
-            "ADLFMLG>"
+            "<ADLFMLG"
         ],
         "capacity": {"maxEntryPerHour": 6}
     },
@@ -1196,7 +1196,7 @@
             "LFMLMB"
         ],
         "FlowEx": [
-            "ADLFMLG>"
+            "<ADLFMLG"
         ],
         "capacity": {"maxEntryPerHour": 6}
     },
