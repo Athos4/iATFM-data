@@ -1,0 +1,95 @@
+{
+    "volumes": [
+    {
+        "id": "DTTARR",
+        "label": "DTTARR",
+        "arrival": ["DTTA"],
+        "capacity": {"maxEntryPerHour": 10}
+    },
+      {
+        "id": "DTTADEP",
+        "label": "DTTADEP",
+        "departure": ["DTTA"],
+        "capacity": {"maxEntryPerHour": 10}
+    },
+      {
+        "id": "DTTAG",
+        "label": "DTTAG",
+        "arrival": ["DTTA"],
+        "departure": ["DTTA"],
+        "capacity": {"maxEntryPerHour": 24}
+    },
+      {
+        "id": "DTTAG",
+        "label": "DTTAG",
+        "arrival": ["DTTA","DTNH","DTMB"],
+        "departure": ["DTTA","DTNH","DTMB"],
+        "capacity": {"maxEntryPerHour": 27}
+    },
+      {
+        "id": "DTTANHMB",
+        "label": "DTTANHMB",
+        "sectorIds": ["DTTA"],
+        "FlowEx": ["<AZDTTCTMAG"]
+    },
+      {
+        "id": "DTTCACC",
+        "label": "DTTCACC",
+        "sectorIds": ["DTTCNL","DTTCNU","DTTCSL","DTTCSU"],
+    },
+      {
+        "id": "DTTCACC2",
+        "label": "DTTCACC2",
+        "sectorIds": ["DTTCNL","DTTCNU","DTTCSL","DTTCSU"],
+        "FlowEx": ["<AZDTTCCTAG"]
+    },
+      {
+        "id": "DTTCACC3",
+        "label": "DTTCACC3",
+        "sectorIds": ["DTTCNL","DTTCNU","DTTCSL","DTTCSU"],
+        "FlowEx": ["<AZDTTCCTAG","RALAK>EBA","BIRSA>ELO"]
+    },
+      {
+        "id": "DTTCAZ",
+        "label": "DTTCAZ",
+        "sectorIds": ["DTTCNL","DTTCNU","DTTCSL","DTTCSU"],
+        "FlowIn": ["<AZDTTCCTAG"]
+    },
+      {
+        "id": "DTTCNOR",
+        "label": "DTTCNOR",
+        "sectorIds": ["DTTCNL","DTTCNU"],
+        "capacity": {"maxEntryPerHour": 32}
+    },
+      {
+        "id": "DTTCNORL",
+        "label": "DTTCNORL",
+        "sectorIds": ["DTTCNL"]
+    },
+      {
+        "id": "DTTCNORU",
+        "label": "DTTCNORU",
+        "sectorIds": ["DTTCNU"],
+    },
+      {
+        "id": "DTTCSUD",
+        "label": "DTTCSUD",
+        "sectorIds": ["DTTCSL","DTTCSU"],
+    },
+      {
+        "id": "DTTJ",
+        "label": "DTTJ",
+        "arrival": ["DTTJ"],
+        "departure": ["DTTJ"],
+        "capacity": {"maxEntryPerHour": 14}
+    },
+      {
+        "id": "DTTX",
+        "label": "DTTX",
+        "arrival": ["DTTX"],
+        "departure": ["DTTX"],
+        "capacity": {"maxEntryPerHour": 8}
+    }
+      
+]
+}
