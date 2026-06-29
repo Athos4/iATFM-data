@@ -1,7 +1,7 @@
 [
   {
     "id": "DTKA",
-    "positionPriority": ["DTKA_TWR"],
+    "positionPriority": ["DTKA_TWR","DTKA_APP","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTKA",
@@ -56,7 +56,7 @@
   },
   {
     "id": "DTMB",
-    "positionPriority": ["DTMB_TWR"],
+    "positionPriority": ["DTMB_TWR","DTMB_APP","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTMB",
@@ -93,7 +93,7 @@
   },
   {
     "id": "DTNH",
-    "positionPriority": ["DTNH_TWR"],
+    "positionPriority": ["DTNH_TWR","DTNH_APP","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTNH",
@@ -148,7 +148,7 @@
   },
   {
     "id": "DTTA",
-    "positionPriority": ["DTTA_TWR"],
+    "positionPriority": ["DTTA_TWR","DTTA_APP","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTA",
@@ -205,7 +205,7 @@
   },
   {
     "id": "DTTF",
-    "positionPriority": ["DTTF_TWR"],
+    "positionPriority": ["DTTF_TWR","DTTF_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTF",
@@ -240,7 +240,7 @@
   },
   {
     "id": "DTTG",
-    "positionPriority": ["DTTG_TWR"],
+    "positionPriority": ["DTTG_TWR","DTTG_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTG",
@@ -308,7 +308,7 @@
   },
   {
     "id": "DTTJ",
-    "positionPriority": ["DTTJ_TWR"],
+    "positionPriority": ["DTTJ_TWR","DTTJ_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTJ",
@@ -355,7 +355,7 @@
   },
   {
     "id": "DTTX",
-    "positionPriority": ["DTTX_TWR"],
+    "positionPriority": ["DTTX_TWR","DTTX_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTX",
@@ -392,7 +392,7 @@
   },
   {
     "id": "DTTZ",
-    "positionPriority": ["DTTZ_TWR"],
+    "positionPriority": ["DTTZ_TWR","DTTZ_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTZ",
@@ -447,7 +447,7 @@
   },
   {
     "id": "DTKA",
-    "positionPriority": ["DTKA_APP"],
+    "positionPriority": ["DTKA_APP","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTKA",
@@ -510,7 +510,7 @@
   },
   {
     "id": "DTKA",
-    "positionPriority": ["DTKA_APP"],
+    "positionPriority": ["DTKA_APP","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTKA",
@@ -542,7 +542,7 @@
   },
   {
     "id": "DTKA",
-    "positionPriority": ["DTKA_APP"],
+    "positionPriority": ["DTKA_APP","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTKA",
@@ -574,7 +574,7 @@
   },
   {
     "id": "DTKA",
-    "positionPriority": ["DTKA_APP"],
+    "positionPriority": ["DTKA_APP","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTKA",
@@ -638,7 +638,7 @@
   },
   {
     "id": "DTKA",
-    "positionPriority": ["DTKA_TWR"],
+    "positionPriority": ["DTKA_TWR","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTKA",
@@ -700,7 +700,7 @@
   },
   {
     "id": "DTNH",
-    "positionPriority": ["DTNH_APP"],
+    "positionPriority": ["DTNH_APP","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTNH",
@@ -737,7 +737,7 @@
   },
   {
     "id": "DTNH",
-    "positionPriority": ["DTNH_APP"],
+    "positionPriority": ["DTNH_APP","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTNH",
@@ -800,7 +800,7 @@
   },
   {
     "id": "DTNH",
-    "positionPriority": ["DTNH_TWR"],
+    "positionPriority": ["DTNH_TWR","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTNH",
@@ -865,7 +865,7 @@
   },
   {
     "id": "DTTA",
-    "positionPriority": ["DTNH_APP"],
+    "positionPriority": ["DTTA_APP","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTA",
@@ -929,7 +929,7 @@
   },
   {
     "id": "DTTA",
-    "positionPriority": ["DTTA_APP"],
+    "positionPriority": ["DTTA_APP","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTA",
@@ -995,7 +995,7 @@
   },
   {
     "id": "DTTA",
-    "positionPriority": ["DTTA_APP"],
+    "positionPriority": ["DTTA_APP","DTTC_N_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTA",
@@ -1098,7 +1098,7 @@
   },
   {
     "id": "DTTF",
-    "positionPriority": ["DTTA_APP"],
+    "positionPriority": ["DTTF_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTF",
@@ -1161,7 +1161,7 @@
   },
   {
     "id": "DTTF",
-    "positionPriority": ["DTTF_APP"],
+    "positionPriority": ["DTTF_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTF",
@@ -1199,7 +1199,7 @@
   },
   {
     "id": "DTTF",
-    "positionPriority": ["DTTF_APP"],
+    "positionPriority": ["DTTF_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTF",
@@ -1233,7 +1233,7 @@
   },
   {
     "id": "DTTF",
-    "positionPriority": ["DTTF_APP"],
+    "positionPriority": ["DTTF_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTF",
@@ -1286,7 +1286,7 @@
   },
   {
     "id": "DTTF",
-    "positionPriority": ["DTTF_APP"],
+    "positionPriority": ["DTTF_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTF",
@@ -1339,7 +1339,7 @@
   },
   {
     "id": "DTTG",
-    "positionPriority": ["DTTG_APP"],
+    "positionPriority": ["DTTG_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTG",
@@ -1361,7 +1361,7 @@
   },
   {
     "id": "DTTG",
-    "positionPriority": ["DTTG_APP"],
+    "positionPriority": ["DTTG_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTG",
@@ -1391,7 +1391,7 @@
   },
   {
     "id": "DTTG",
-    "positionPriority": ["DTTG_APP"],
+    "positionPriority": ["DTTG_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTG",
@@ -1424,7 +1424,7 @@
   },
   {
     "id": "DTTJ",
-    "positionPriority": ["DTTJ_APP"],
+    "positionPriority": ["DTTJ_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTJ",
@@ -1481,7 +1481,7 @@
   },
   {
     "id": "DTTJ",
-    "positionPriority": ["DTTJ_APP"],
+    "positionPriority": ["DTTJ_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTJ",
@@ -1558,7 +1558,7 @@
   },
   {
     "id": "DTTJ",
-    "positionPriority": ["DTTJ_APP"],
+    "positionPriority": ["DTTJ_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTJ",
@@ -1593,7 +1593,7 @@
   },
   {
     "id": "DTTX",
-    "positionPriority": ["DTTX_APP"],
+    "positionPriority": ["DTTX_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTX",
@@ -1651,7 +1651,7 @@
   },
   {
     "id": "DTTX",
-    "positionPriority": ["DTTX_APP"],
+    "positionPriority": ["DTTX_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTX",
@@ -1710,7 +1710,7 @@
   },
   {
     "id": "DTTZ",
-    "positionPriority": ["DTTZ_APP"],
+    "positionPriority": ["DTTZ_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTZ",
@@ -1768,7 +1768,7 @@
   },
   {
     "id": "DTTZ",
-    "positionPriority": ["DTTZ_APP"],
+    "positionPriority": ["DTTZ_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTZ",
@@ -1830,7 +1830,7 @@
   },
   {
     "id": "DTTZ",
-    "positionPriority": ["DTTZ_APP"],
+    "positionPriority": ["DTTZ_APP","DTTC_S_CTR","DTTC_CTR"],
     "blocks": [
       {
         "id": "DTTZ",
