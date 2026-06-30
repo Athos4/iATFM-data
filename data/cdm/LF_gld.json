@@ -72,7 +72,8 @@
           "configurations": {
             "WL": {
               "24": "W",
-              "25": "X"
+              "25": "X",
+              "20": "Y"
             },
             "EL": {
               "06": "F",
@@ -80,22 +81,50 @@
             },
             "IPOW": {
               "24": "Q",
-              "25": "R"
+              "25": "R",
+              "20": "S"
             },
             "IPGW": {
               "06": "H",
               "07": "G"
+          }
+        }
+      },
+      "LFPB": {
+        "strategies": {
+          "Nominale": {
+            "07": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
+            "09": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
+            "25": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
+            "21": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"]
+          },
+        },
+        "SID": {
+          "ident": "6",
+          "configurations": {
+            "WL": {
+              "25": "C",
+              "21": "P"
             },
-            "WL20": {
-              "20": "Y"
-            }
-            ,
-            "IPOW20": {
-              "20": "S"
+            "EL": {
+              "07": "Q",
+              "09": "J",
+              "21": "Q"
+            },
+            "IPOW": {
+              "07": "Q",
+              "09": "M",
+              "21": "Q"
+            },
+            "IPGW": {
+              "25": "F",
+              "21": "P"
+            },
             }
           }
         }
-      },"LFMN": {
+      },
+      "LFMN": {
         "strategies": {
           "Nominale": {
             "04L": ["BADOD", "BASIP", "BODRU", "EPOLO", "IRMAR", "LANKO", "LONSU", "OKTET", "PERUS", "RUBAS", "RUBIT", "SODRI", "TURIL", "VAREK"],
