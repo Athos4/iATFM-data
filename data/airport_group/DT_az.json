@@ -1,1 +1,27 @@
-
+[
+  {
+    "azId": "DTTCTMAG",
+    "Name": "DTTC TMA GROUP",
+    "list": [
+      "DTTA",
+      "DTNH",
+      "DTMB"
+    ]
+  },
+  {
+    "azId": "DTTCCTAG",
+    "Name": "DTTC CTA GROUP",
+    "list": [
+      "DTKA",
+      "DTMB",
+      "DTNH",
+      "DTTA",
+      "DTTF",
+      "DTTG",
+      "DTTI",
+      "DTTJ",
+      "DTTX",
+      "DTTZ"
+    ]
+  }
+]
