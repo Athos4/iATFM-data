@@ -1,0 +1,19 @@
+{
+  "volumes": [
+    {
+      "id": "AZDTTCCTAG",
+      "departure": ["DTTCCTAG"],
+      "arrival": ["DTTCCTAG"]
+    },
+    {
+      "id": "PTRALAK>PTEB",
+      "entry": ["RALAK"],
+      "exit": ["TEB"]
+    },
+    {
+      "id": "PTBIRSA>PTELO",
+      "entry": ["BIRSA"],
+      "exit": ["ELO"]
+    }
+  ]
+}
