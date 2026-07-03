@@ -1,0 +1,47 @@
+{
+  "properties": {
+    "airports": {
+      "DTTA": {
+        "strategies": {
+          "Nominale": {
+            "01": ["NOLSI", "MANEX", "MARSA", "NIREM", "DIDON", "SONAK", "KEMIR", "MORJA", "TUPAL", "SUSIP", "TUC", "NBA", "MON", "CBN", "ABDAB", "DIMAO", "DOPEL", "TABOT", "TANIT", "GOLLA"],
+            "19": ["NOLSI", "MANEX", "MARSA", "NIREM", "DIDON", "SONAK", "KEMIR", "MORJA", "TUPAL", "SUSIP", "TUC", "NBA", "MON", "CBN", "ABDAB", "DIMAO", "DOPEL", "TABOT", "TANIT", "GOLLA"],
+            "11": ["NOLSI", "MANEX", "MARSA", "NIREM", "DIDON", "SONAK", "KEMIR", "MORJA", "TUPAL", "SUSIP", "TUC", "NBA", "MON", "CBN", "ABDAB", "DIMAO", "DOPEL", "TABOT", "TANIT", "GOLLA"],
+            "29": ["NOLSI", "MANEX", "MARSA", "NIREM", "DIDON", "SONAK", "KEMIR", "MORJA", "TUPAL", "SUSIP", "TUC", "NBA", "MON", "CBN", "ABDAB", "DIMAO", "DOPEL", "TABOT", "TANIT", "GOLLA"]
+  
+        },
+        "SID": {
+          "ident": "1", "2"
+          "configurations": {
+              "01": "A",
+              "19": "B",
+              "11": "C",
+              "29": "D"
+            },
+      "DTNH": {
+        "strategies": {
+          "Nominale": {
+            "09": ["TABOT", "DOPEL", "TANIT", "OSMAR", "TUC", "TUPAL", "TUNEX", "OMENI", "ATLEL", "MOVAR", "LOBNA", "TBK", "KEMIR","MORJA", "BAROG", "RASEM", "ELJEM", "MON", "DIMAO", "CBN", "NBA"],
+            "27": ["TABOT", "DOPEL", "TANIT", "OSMAR", "TUC", "TUPAL", "TUNEX", "OMENI", "ATLEL", "MOVAR", "LOBNA", "TBK", "KEMIR","MORJA", "BAROG", "RASEM", "ELJEM", "MON", "DIMAO", "CBN", "NBA"],
+      },
+
+        "SID": {
+          "ident": "1", 
+          "configurations": {
+              "09": "C",
+              "27": "D",
+      },
+      "DTMB": {
+        "strategies": {
+          "Nominale": {
+            "07": ["TABOT", "DOPEL", "TANIT", "OSMAR", "TUC", "TUPAL", "TUNEX", "OMENI", "ATLEL", "MOVAR", "LOBNA", "TBK", "KEMIR","MORJA", "BAROG", "RASEM", "ELJEM", "MON", "DIMAO", "CBN", "NBA", "KURAT", "RINOS"],
+            "25": ["TABOT", "DOPEL", "TANIT", "OSMAR", "TUC", "TUPAL", "TUNEX", "OMENI", "ATLEL", "MOVAR", "LOBNA", "TBK", "KEMIR","MORJA", "BAROG", "RASEM", "ELJEM", "MON", "DIMAO", "CBN", "NBA", "KURAT", "RINOS"],
+          }
+        },
+        "SID": {
+          "ident": "1", "2" 
+          "configurations": {
+              "07": "A",
+              "25": "B"
+            }
+          

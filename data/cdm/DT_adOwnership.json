@@ -1,0 +1,47 @@
+[
+    {
+        "icao": "DTTA",
+        "positionPriority": ["DTTA_GND","DTTA_TWR","DTTA_APP","DTTC_N_CTR","DTTC_CTR"]
+    },
+    {
+        "icao": "DTNH",
+        "positionPriority": ["DTNH_GND","DTNH_TWR","DTNH_APP","DTTC_N_CTR","DTTC_CTR","DTTC_S_CTR"]
+    },
+    {
+        "icao": "DTMB",
+        "positionPriority": ["DTMB_TWR","DTNH_APP","DTTC_N_CTR","DTTC_CTR","DTTC_S_CTR"]
+    },
+    {
+        "icao": "DTTX",
+        "positionPriority": ["DTTX_TWR","DTTX_APP","DTTC_S_CTR","DTTC_CTR"]
+    },
+    {
+        "icao": "DTTJ",
+        "positionPriority": ["DTTJ_TWR","DTTJ_APP","DTTC_S_CTR","DTTC_CTR"]
+    },
+    {
+        "icao": "DTTG",
+        "positionPriority": ["DTTG_TWR","DTTG_APP","DTTC_CTR","DTTC_S_CTR"]
+    },
+    {
+
+        "icao": "DTTZ",
+        "positionPriority": ["DTTZ_TWR","DTTZ_APP","DTTC_S_CTR","DTTC_CTR"]
+    },
+    {
+        "icao": "DTTF",
+        "positionPriority": ["DTTF_TWR","DTTF_APP","DTTC_S_CTR","DTTC_CTR"]
+    },
+    {
+        "icao": "DTKA",
+        "positionPriority": ["DTKA_TWR","DTKA_APP","DTTC_N_CTR","DTTC_CTR"]
+    },
+    {
+        "icao": "DTTI",
+        "positionPriority": ["DTTI_TWR","DTTA_APP","DTTC_N_CTR","DTTC_CTR","DTTC_FSS"]
+    },
+    {
+        "icao": "DTTR",
+        "positionPriority": ["DTTC_S_CTR","DTTC_CTR"]
+    }
+]
