@@ -1,7 +1,7 @@
 [
   {
     "id": "LIRRUS7",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_US_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRUS7",
@@ -29,7 +29,7 @@
   },
   {
     "id": "LIRRUS4",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_US_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRUS4",
@@ -57,7 +57,7 @@
   },
   {
     "id": "LIRRUS3",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_US_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRUS3",
@@ -85,7 +85,7 @@
   },
   {
     "id": "LIRRUS2",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_US_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRUS2",
@@ -113,7 +113,7 @@
   },
   {
     "id": "LIRRTS7",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_TS_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRTS7",
@@ -141,7 +141,7 @@
   },
   {
     "id": "LIRRTS3",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_TS_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRTS3",
@@ -169,7 +169,7 @@
   },
   {
     "id": "LIRRTS2",
-    "positionPriority": [],
+    "positionPriority": "LIRR_TS_CTR","LIRR_TS_CTR","LIRR_NE_CTR"[],
     "blocks": [
       {
         "id": "LIRRTS2",
@@ -197,7 +197,7 @@
   },
   {
     "id": "LIRRTS1",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_TS_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRTS1",
@@ -225,7 +225,7 @@
   },
   {
     "id": "LIRRSU7",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_SU_CTR"],
     "blocks": [
       {
         "id": "LIRRSU7",
@@ -255,7 +255,7 @@
   },
   {
     "id": "LIRRSU3",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_SU_CTR"],
     "blocks": [
       {
         "id": "LIRRSU3",
@@ -285,7 +285,7 @@
   },
   {
     "id": "LIRRSU2",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_SU_CTR"],
     "blocks": [
       {
         "id": "LIRRSU2",
@@ -315,7 +315,7 @@
   },
   {
     "id": "LIRRSU1",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_SU_CTR"],
     "blocks": [
       {
         "id": "LIRRSU1",
@@ -345,7 +345,7 @@
   },
   {
     "id": "LIRROV7",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_OV_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRROV7",
@@ -371,7 +371,7 @@
   },
   {
     "id": "LIRROV3",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_OV_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRROV3",
@@ -397,7 +397,7 @@
   },
   {
     "id": "LIRROV2",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_OV_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRROV2",
@@ -423,7 +423,7 @@
   },
   {
     "id": "LIRROV1",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_OV_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRROV1",
@@ -449,7 +449,7 @@
   },
   {
     "id": "LIRRNW7",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NW_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRNW7",
@@ -477,7 +477,7 @@
   },
   {
     "id": "LIRRNW3",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NW_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRNW3",
@@ -505,7 +505,7 @@
   },
   {
     "id": "LIRRNW2",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NW_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRNW2",
@@ -533,7 +533,7 @@
   },
   {
     "id": "LIRRNW1",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NW_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRNW1",
@@ -561,7 +561,7 @@
   },
   {
     "id": "LIRRNN7",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRNN7",
@@ -591,7 +591,7 @@
   },
   {
     "id": "LIRRNN3",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRNN3",
@@ -621,7 +621,7 @@
   },
   {
     "id": "LIRRNN2",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRNN2",
@@ -651,7 +651,7 @@
   },
   {
     "id": "LIRRNN1",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRNN1",
@@ -678,7 +678,7 @@
   },
   {
     "id": "LIRRNE7",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRNE7",
@@ -705,7 +705,7 @@
   },
   {
     "id": "LIRRNE3",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRNE3",
@@ -732,7 +732,7 @@
   },
   {
     "id": "LIRRNE2",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRNE2",
@@ -759,7 +759,7 @@
   },
   {
     "id": "LIRRNE1",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRNE1",
@@ -785,7 +785,7 @@
   },
   {
     "id": "LIRREW7",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_EW_CTR"],
     "blocks": [
       {
         "id": "LIRREW7",
@@ -810,7 +810,7 @@
   },
   {
     "id": "LIRREW3",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_EW_CTR"],
     "blocks": [
       {
         "id": "LIRREW3",
@@ -835,7 +835,7 @@
   },
   {
     "id": "LIRREW2",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_EW_CTR"],
     "blocks": [
       {
         "id": "LIRREW2",
@@ -860,7 +860,7 @@
   },
   {
     "id": "LIRREW1",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_EW_CTR"],
     "blocks": [
       {
         "id": "LIRREW1",
@@ -885,7 +885,7 @@
   },
   {
     "id": "LIRRES7",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_SU_CTR"],
     "blocks": [
       {
         "id": "LIRRES7",
@@ -916,7 +916,7 @@
   },
   {
     "id": "LIRRES3",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_SU_CTR"],
     "blocks": [
       {
         "id": "LIRRES3",
@@ -947,7 +947,7 @@
   },
   {
     "id": "LIRRES2",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_SU_CTR"],
     "blocks": [
       {
         "id": "LIRRES2",
@@ -978,7 +978,7 @@
   },
   {
     "id": "LIRRES1",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_SU_CTR"],
     "blocks": [
       {
         "id": "LIRRES1",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "LIRREE7",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_EW_CTR"],
     "blocks": [
       {
         "id": "LIRREE7",
@@ -1034,7 +1034,7 @@
   },
   {
     "id": "LIRREE5",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_EW_CTR"],
     "blocks": [
       {
         "id": "LIRREE5",
@@ -1059,7 +1059,7 @@
   },
   {
     "id": "LIRREE4",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_EW_CTR"],
     "blocks": [
       {
         "id": "LIRREE4",
@@ -1084,7 +1084,7 @@
   },
   {
     "id": "LIRREE3",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_EW_CTR"],
     "blocks": [
       {
         "id": "LIRREE3",
@@ -1109,7 +1109,7 @@
   },
   {
     "id": "LIRRNC7",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NC_CTR"],
     "blocks": [
       {
         "id": "LIRRNC7",
@@ -1153,7 +1153,7 @@
   },
   {
     "id": "LIRRNC3",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NC_CTR"],
     "blocks": [
       {
         "id": "LIRRNC3",
@@ -1197,7 +1197,7 @@
   },
   {
     "id": "LIRRNC2",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NC_CTR"],
     "blocks": [
       {
         "id": "LIRRNC2",
@@ -1241,7 +1241,7 @@
   },
   {
     "id": "LIRRNC1",
-    "positionPriority": [],
+    "positionPriority": ["LIRR_NC_CTR"],
     "blocks": [
       {
         "id": "LIRRNC1",
@@ -1285,7 +1285,7 @@
   },
   {
     "id": "LIMMWS5",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_WS5_CTR","LIMM_ES5_CTR","LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMWS5",
@@ -1327,7 +1327,7 @@
   },
   {
     "id": "LIMMWS4",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMWS4",
@@ -1369,7 +1369,7 @@
   },
   {
     "id": "LIMMWS3",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMWS3",
@@ -1411,7 +1411,7 @@
   },
   {
     "id": "LIMMWS2",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMWS2",
@@ -1453,7 +1453,7 @@
   },
   {
     "id": "LIMMWS1",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMWS1",
@@ -1497,7 +1497,7 @@
   },
   {
     "id": "LIMMWN4",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_WS5_CTR","LIMM_ES5_CTR","LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMWN4",
@@ -1539,7 +1539,7 @@
   },
   {
     "id": "LIMMWN3",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMWN3",
@@ -1581,7 +1581,7 @@
   },
   {
     "id": "LIMMWN2",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMWN2",
@@ -1623,7 +1623,7 @@
   },
   {
     "id": "LIMMWN1",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMWN1",
@@ -1794,7 +1794,7 @@
   },
   {
     "id": "LIMMES4",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_ES5_CTR","LIMM_ES2_CTR","LIMM_WS5_CTR","LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMES4",
@@ -1832,7 +1832,7 @@
   },
   {
     "id": "LIMMES3",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_ES2_CTR","LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMES3",
@@ -1870,7 +1870,7 @@
   },
   {
     "id": "LIMMES2",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_ES2_CTR","LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMES2",
@@ -1908,7 +1908,7 @@
   },
   {
     "id": "LIMMES1",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_ES2_CTR","LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMES1",
@@ -1957,7 +1957,7 @@
   },
   {
     "id": "LIMMEN4",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_ES5_CTR","LIMM_ES2_CTR","LIMM_WS5_CTR","LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMEN4",
@@ -2217,7 +2217,7 @@
   },
   {
     "id": "LIMMEN3",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_ES2_CTR","LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMEN3",
@@ -2477,7 +2477,7 @@
   },
   {
     "id": "LIMMEN2",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_ES2_CTR","LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMEN2",
@@ -2737,7 +2737,7 @@
   },
   {
     "id": "LIMMEN1",
-    "positionPriority": [],
+    "positionPriority": ["LIMM_ES2_CTR","LIMM_WS2_CTR"],
     "blocks": [
       {
         "id": "LIMMEN1",
@@ -3002,11 +3002,11 @@
     ]
   },
   {
-    "id": "LIBBSUD_UIR",
-    "positionPriority": [],
+    "id": "LIBBEU",
+    "positionPriority": ["LIBB_EU_CTR","LIBB_ES_CTR"],
     "blocks": [
       {
-        "id": "LIBBSUD_UIR",
+        "id": "LIBBEU",
         "floorFt": 30500,
         "ceilingFt": 66000,
         "polygon": [
@@ -3038,11 +3038,11 @@
     ]
   },
   {
-    "id": "LIBBSUD_UIR",
-    "positionPriority": [],
+    "id": "LIBBES",
+    "positionPriority": ["LIBB_ES_CTR"],
     "blocks": [
       {
-        "id": "LIBBSUD_UIR",
+        "id": "LIBBES",
         "floorFt": 24500,
         "ceilingFt": 30500,
         "polygon": [
@@ -3074,11 +3074,11 @@
     ]
   },
   {
-    "id": "LIBBSUD_UIR",
-    "positionPriority": [],
+    "id": "LIBBES",
+    "positionPriority": ["LIBB_ES_CTR"],
     "blocks": [
       {
-        "id": "LIBBSUD_UIR",
+        "id": "LIBBES",
         "floorFt": 19500,
         "ceilingFt": 24500,
         "polygon": [
@@ -3110,11 +3110,11 @@
     ]
   },
   {
-    "id": "LIBBSUD_FIR",
-    "positionPriority": [],
+    "id": "LIBBES",
+    "positionPriority": ["LIBB_ES_CTR"],
     "blocks": [
       {
-        "id": "LIBBSUD_FIR",
+        "id": "LIBBES",
         "floorFt": 0,
         "ceilingFt": 19500,
         "polygon": [
@@ -3146,11 +3146,11 @@
     ]
   },
   {
-    "id": "LIRZAPP2",
-    "positionPriority": [],
+    "id": "LIRZAPP",
+    "positionPriority": ["LIRZ_APP"],
     "blocks": [
       {
-        "id": "LIRZAPP2",
+        "id": "LIRZAPP",
         "floorFt": 2500,
         "ceilingFt": 11500,
         "polygon": [
@@ -3221,11 +3221,11 @@
     ]
   },
   {
-    "id": "LIRZAPP1",
-    "positionPriority": [],
+    "id": "LIRZAPP",
+    "positionPriority": ["LIRZ_APP"],
     "blocks": [
       {
-        "id": "LIRZAPP1",
+        "id": "LIRZAPP",
         "floorFt": 0,
         "ceilingFt": 2500,
         "polygon": [
@@ -3283,11 +3283,11 @@
     ]
   },
   {
-    "id": "LIRSAPP5",
-    "positionPriority": [],
+    "id": "LIRSAPP",
+    "positionPriority": ["LIRS_APP"],
     "blocks": [
       {
-        "id": "LIRSAPP5",
+        "id": "LIRSAPP",
         "floorFt": 1500,
         "ceilingFt": 3000,
         "polygon": [
@@ -3303,11 +3303,11 @@
     ]
   },
   {
-    "id": "LIRSAPP4",
-    "positionPriority": [],
+    "id": "LIRSAPP",
+    "positionPriority": ["LIRS_APP"],
     "blocks": [
       {
-        "id": "LIRSAPP4",
+        "id": "LIRSAPP",
         "floorFt": 3000,
         "ceilingFt": 19500,
         "polygon": [
@@ -3324,11 +3324,11 @@
     ]
   },
   {
-    "id": "LIRSAPP3",
-    "positionPriority": [],
+    "id": "LIRSAPP",
+    "positionPriority": ["LIRS_APP"],
     "blocks": [
       {
-        "id": "LIRSAPP3",
+        "id": "LIRSAPP",
         "floorFt": 3000,
         "ceilingFt": 19500,
         "polygon": [
@@ -3342,11 +3342,11 @@
     ]
   },
   {
-    "id": "LIRSAPP2",
-    "positionPriority": [],
+    "id": "LIRSAPP",
+    "positionPriority": ["LIRS_APP"],
     "blocks": [
       {
-        "id": "LIRSAPP2",
+        "id": "LIRSAPP",
         "floorFt": 3000,
         "ceilingFt": 17500,
         "polygon": [
@@ -3362,11 +3362,11 @@
     ]
   },
   {
-    "id": "LIRSAPP1",
-    "positionPriority": [],
+    "id": "LIRSAPP",
+    "positionPriority": ["LIRS_APP"],
     "blocks": [
       {
-        "id": "LIRSAPP1",
+        "id": "LIRSAPP",
         "floorFt": 0,
         "ceilingFt": 3000,
         "polygon": [
@@ -3410,11 +3410,11 @@
     ]
   },
   {
-    "id": "LIRRPN1APP",
-    "positionPriority": [],
+    "id": "LIRRPN1",
+    "positionPriority": ["LIRR_PN1_APP","LIRR_TW1_APP"],
     "blocks": [
       {
-        "id": "LIRRPN1APP",
+        "id": "LIRRPN1",
         "floorFt": 2500,
         "ceilingFt": 24500,
         "polygon": [
@@ -3433,8 +3433,8 @@
     ]
   },
   {
-    "id": "LIRRPS1APP",
-    "positionPriority": [],
+    "id": "LIRRPS1",
+    "positionPriority": ["LIRR_PS1_APP","LIRR_PN1_APP"],
     "blocks": [
       {
         "id": "LIRRPS1APP",
