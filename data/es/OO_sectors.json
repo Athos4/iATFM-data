@@ -1297,57 +1297,18 @@
         }
     },
   "atcColors": [
-    {
-      "callsign": "FSS/GULF",
-      "color": "#1e6eb8"
-    },
-    {
-      "callsign": "FSS/GULFE",
-      "color": "#b8511e"
-    },
-    {
-      "callsign": "MCA",
-      "color": "#bfab1f"
-    },
-    {
-      "callsign": "MCB",
-      "color": "#f0d72d"
-    },
-    {
-      "callsign": "MCC",
-      "color": "#d92db6"
-    },
-    {
-      "callsign": "MCM",
-      "color": "#62e90c"
-    },
-    {
-      "callsign": "MCN",
-      "color": "#4efdc7"
-    },
-    {
-      "callsign": "MCS",
-      "color": "#f14f3d"
-    },
-    {
-      "callsign": "MCW",
-      "color": "#1fbcaf"
-    },
-    {
-      "callsign": "MSR",
-      "color": "#06227f"
-    },
-    {
-      "callsign": "MST",
-      "color": "#b81e61"
-    },
-    {
-      "callsign": "SAR",
-      "color": "#06227f"
-    },
-    {
-      "callsign": "SAT",
-      "color": "#1eb857"
-    }
+    { "callsign": "FSS/GULF", "color": "#1e6eb8" },
+    { "callsign": "FSS/GULFE", "color": "#b8511e" },
+    { "callsign": "MCA", "color": "#bfab1f" },
+    { "callsign": "MCB", "color": "#f0d72d" },
+    { "callsign": "MCC", "color": "#d92db6" },
+    { "callsign": "MCM", "color": "#62e90c" },
+    { "callsign": "MCN", "color": "#4efdc7" },
+    { "callsign": "MCS", "color": "#f14f3d" },
+    { "callsign": "MCW", "color": "#1fbcaf" },
+    { "callsign": "MSR", "color": "#06227f" },
+    { "callsign": "MST", "color": "#b81e61" },
+    { "callsign": "SAR", "color": "#06227f" },
+    { "callsign": "SAT", "color": "#1eb857" }
   ]
 }

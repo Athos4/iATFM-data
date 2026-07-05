@@ -1179,141 +1179,39 @@
     "OIZS": { "callsign": "Saravan", "coord": ["27.418611", "62.316111"] }
   },
   "atcColors": [
-    {
-      "callsign": "FMT",
-      "color": "#541eb8"
-    },
-    {
-      "callsign": "FSS/GULF",
-      "color": "#1e6eb8"
-    },
-    {
-      "callsign": "FSS/GULFE",
-      "color": "#b8511e"
-    },
-    {
-      "callsign": "IIA",
-      "color": "#cc3333"
-    },
-    {
-      "callsign": "KBA",
-      "color": "#cc3333"
-    },
-    {
-      "callsign": "MMA",
-      "color": "#cc3333"
-    },
-    {
-      "callsign": "SSA",
-      "color": "#cc3333"
-    },
-    {
-      "callsign": "T1E",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "T1N",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "T1W",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "T2E",
-      "color": "#591eb8"
-    },
-    {
-      "callsign": "T2W",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "T3N",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "T3S",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "T4E",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "T4S",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "T4W",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "T5E",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "T5W",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "T6E",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "T6W",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "TC",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "TC1",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "TC2",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "TC3",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "TC4",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "TC5",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "TC6",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "TC7",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "TCE",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "TCN",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "TCS",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "TCW",
-      "color": "#1c39bb"
-    },
-    {
-      "callsign": "TTA",
-      "color": "#cc3333"
-    }
+    { "callsign": "FMT", "color": "#541eb8" },
+    { "callsign": "FSS/GULF", "color": "#1e6eb8" },
+    { "callsign": "FSS/GULFE", "color": "#b8511e" },
+    { "callsign": "IIA", "color": "#cc3333" },
+    { "callsign": "KBA", "color": "#cc3333" },
+    { "callsign": "MMA", "color": "#cc3333" },
+    { "callsign": "SSA", "color": "#cc3333" },
+    { "callsign": "T1E", "color": "#1c39bb" },
+    { "callsign": "T1N", "color": "#1c39bb" },
+    { "callsign": "T1W", "color": "#1c39bb" },
+    { "callsign": "T2E", "color": "#591eb8" },
+    { "callsign": "T2W", "color": "#1c39bb" },
+    { "callsign": "T3N", "color": "#1c39bb" },
+    { "callsign": "T3S", "color": "#1c39bb" },
+    { "callsign": "T4E", "color": "#1c39bb" },
+    { "callsign": "T4S", "color": "#1c39bb" },
+    { "callsign": "T4W", "color": "#1c39bb" },
+    { "callsign": "T5E", "color": "#1c39bb" },
+    { "callsign": "T5W", "color": "#1c39bb" },
+    { "callsign": "T6E", "color": "#1c39bb" },
+    { "callsign": "T6W", "color": "#1c39bb" },
+    { "callsign": "TC", "color": "#1c39bb" },
+    { "callsign": "TC1", "color": "#1c39bb" },
+    { "callsign": "TC2", "color": "#1c39bb" },
+    { "callsign": "TC3", "color": "#1c39bb" },
+    { "callsign": "TC4", "color": "#1c39bb" },
+    { "callsign": "TC5", "color": "#1c39bb" },
+    { "callsign": "TC6", "color": "#1c39bb" },
+    { "callsign": "TC7", "color": "#1c39bb" },
+    { "callsign": "TCE", "color": "#1c39bb" },
+    { "callsign": "TCN", "color": "#1c39bb" },
+    { "callsign": "TCS", "color": "#1c39bb" },
+    { "callsign": "TCW", "color": "#1c39bb" },
+    { "callsign": "TTA", "color": "#cc3333" }
   ]
 }

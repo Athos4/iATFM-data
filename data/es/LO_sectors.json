@@ -3924,12 +3924,7 @@
       }
     ]
   },
-  {
-    "atcColors": [
-      {
-        "callsign": "LOVV_CTR",
-        "color": "#b81e8d"
-      }
-    ]
-  }
+  { "atcColors": [
+    { "callsign": "LOVV_CTR", "color": "#b81e8d" }
+  ] }
 ]

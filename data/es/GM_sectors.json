@@ -5587,173 +5587,47 @@
         "GMTT": { "callsign": "Ibn Batouta", "coord": [35.731667, -5.921167], "topdown": ["CN", "CR", "CRA"] }
       },
   "atcColors": [
-    {
-      "callsign": "ADA",
-      "color": "#dde332"
-    },
-    {
-      "callsign": "ADT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "AGT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "AO",
-      "color": "#8bb54c"
-    },
-    {
-      "callsign": "AOS",
-      "color": "#67bf7f"
-    },
-    {
-      "callsign": "AR",
-      "color": "#c0de95"
-    },
-    {
-      "callsign": "AW",
-      "color": "#2ab04e"
-    },
-    {
-      "callsign": "AWS",
-      "color": "#8eed77"
-    },
-    {
-      "callsign": "CE",
-      "color": "#dd6499"
-    },
-    {
-      "callsign": "CN",
-      "color": "#dd2726"
-    },
-    {
-      "callsign": "CNE",
-      "color": "#c24327"
-    },
-    {
-      "callsign": "CR",
-      "color": "#ad5050"
-    },
-    {
-      "callsign": "CRA",
-      "color": "#de3c3c"
-    },
-    {
-      "callsign": "CS",
-      "color": "#cc7676"
-    },
-    {
-      "callsign": "FFA",
-      "color": "#dde332"
-    },
-    {
-      "callsign": "FFT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "FIT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "FOA",
-      "color": "#dde332"
-    },
-    {
-      "callsign": "FOT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "FSS/AFRN",
-      "color": "#1e80b8"
-    },
-    {
-      "callsign": "MBT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "MDT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "MEA",
-      "color": "#dde332"
-    },
-    {
-      "callsign": "MET",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "MHA",
-      "color": "#dde332"
-    },
-    {
-      "callsign": "MHT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "MIT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "MLA",
-      "color": "#dde332"
-    },
-    {
-      "callsign": "MLT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "MNA",
-      "color": "#dde332"
-    },
-    {
-      "callsign": "MND",
-      "color": "#dde332"
-    },
-    {
-      "callsign": "MNT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "MTT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "MWT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "MXA",
-      "color": "#dde332"
-    },
-    {
-      "callsign": "MXD",
-      "color": "#dde332"
-    },
-    {
-      "callsign": "MXT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "MZA",
-      "color": "#dde332"
-    },
-    {
-      "callsign": "MZT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "TNT",
-      "color": "#add8e6"
-    },
-    {
-      "callsign": "TTA",
-      "color": "#dde332"
-    },
-    {
-      "callsign": "TTT",
-      "color": "#add8e6"
-    }
+    { "callsign": "ADA", "color": "#dde332" },
+    { "callsign": "ADT", "color": "#add8e6" },
+    { "callsign": "AGT", "color": "#add8e6" },
+    { "callsign": "AO", "color": "#8bb54c" },
+    { "callsign": "AOS", "color": "#67bf7f" },
+    { "callsign": "AR", "color": "#c0de95" },
+    { "callsign": "AW", "color": "#2ab04e" },
+    { "callsign": "AWS", "color": "#8eed77" },
+    { "callsign": "CE", "color": "#dd6499" },
+    { "callsign": "CN", "color": "#dd2726" },
+    { "callsign": "CNE", "color": "#c24327" },
+    { "callsign": "CR", "color": "#ad5050" },
+    { "callsign": "CRA", "color": "#de3c3c" },
+    { "callsign": "CS", "color": "#cc7676" },
+    { "callsign": "FFA", "color": "#dde332" },
+    { "callsign": "FFT", "color": "#add8e6" },
+    { "callsign": "FIT", "color": "#add8e6" },
+    { "callsign": "FOA", "color": "#dde332" },
+    { "callsign": "FOT", "color": "#add8e6" },
+    { "callsign": "FSS/AFRN", "color": "#1e80b8" },
+    { "callsign": "MBT", "color": "#add8e6" },
+    { "callsign": "MDT", "color": "#add8e6" },
+    { "callsign": "MEA", "color": "#dde332" },
+    { "callsign": "MET", "color": "#add8e6" },
+    { "callsign": "MHA", "color": "#dde332" },
+    { "callsign": "MHT", "color": "#add8e6" },
+    { "callsign": "MIT", "color": "#add8e6" },
+    { "callsign": "MLA", "color": "#dde332" },
+    { "callsign": "MLT", "color": "#add8e6" },
+    { "callsign": "MNA", "color": "#dde332" },
+    { "callsign": "MND", "color": "#dde332" },
+    { "callsign": "MNT", "color": "#add8e6" },
+    { "callsign": "MTT", "color": "#add8e6" },
+    { "callsign": "MWT", "color": "#add8e6" },
+    { "callsign": "MXA", "color": "#dde332" },
+    { "callsign": "MXD", "color": "#dde332" },
+    { "callsign": "MXT", "color": "#add8e6" },
+    { "callsign": "MZA", "color": "#dde332" },
+    { "callsign": "MZT", "color": "#add8e6" },
+    { "callsign": "TNT", "color": "#add8e6" },
+    { "callsign": "TTA", "color": "#dde332" },
+    { "callsign": "TTT", "color": "#add8e6" }
   ]
 }

@@ -26306,100 +26306,29 @@
       }
     ]
   },
-  {
-    "atcColors": [
-      {
-        "callsign": "EGPX_BDS_CTR",
-        "color": "#b8421e"
-      },
-      {
-        "callsign": "EGPX_CTR",
-        "color": "#b88f1e"
-      },
-      {
-        "callsign": "EGPX_DX_CTR",
-        "color": "#8d1eb8"
-      },
-      {
-        "callsign": "EGPX_GRP_CTR",
-        "color": "#94b81e"
-      },
-      {
-        "callsign": "EGPX_L2_CTR",
-        "color": "#1eb83f"
-      },
-      {
-        "callsign": "EGPX_M_CTR",
-        "color": "#1eb823"
-      },
-      {
-        "callsign": "EGPX_PEN_CTR",
-        "color": "#2d1eb8"
-      },
-      {
-        "callsign": "EGPX_U1_CTR",
-        "color": "#a11eb8"
-      },
-      {
-        "callsign": "EGPX_U2_CTR",
-        "color": "#b8a41e"
-      },
-      {
-        "callsign": "EGTL_CTR",
-        "color": "#7b1eb8"
-      },
-      {
-        "callsign": "EGTL_E_CTR",
-        "color": "#1e57b8"
-      },
-      {
-        "callsign": "EGTL_NE_CTR",
-        "color": "#1eb842"
-      },
-      {
-        "callsign": "EGTL_NW_CTR",
-        "color": "#1eb870"
-      },
-      {
-        "callsign": "EGTL_N_CTR",
-        "color": "#1e3fb8"
-      },
-      {
-        "callsign": "EGTL_SE_CTR",
-        "color": "#1eb89c"
-      },
-      {
-        "callsign": "EGTL_SW_CTR",
-        "color": "#1ea6b8"
-      },
-      {
-        "callsign": "EGTL_S_CTR",
-        "color": "#33b81e"
-      },
-      {
-        "callsign": "EGTT_CTR",
-        "color": "#1eb88f"
-      },
-      {
-        "callsign": "EGTT_C_CTR",
-        "color": "#1e99b8"
-      },
-      {
-        "callsign": "EGTT_NED_CTR",
-        "color": "#1e6bb8"
-      },
-      {
-        "callsign": "EGTT_N_CTR",
-        "color": "#7db81e"
-      },
-      {
-        "callsign": "EGTT_S_CTR",
-        "color": "#b81e70"
-      },
-      {
-        "callsign": "EGTT_W_CTR",
-        "color": "#66b81e"
-      }
-    ]
-  }
+  { "atcColors": [
+    { "callsign": "EGPX_BDS_CTR", "color": "#b8421e" },
+    { "callsign": "EGPX_CTR", "color": "#b88f1e" },
+    { "callsign": "EGPX_DX_CTR", "color": "#8d1eb8" },
+    { "callsign": "EGPX_GRP_CTR", "color": "#94b81e" },
+    { "callsign": "EGPX_L2_CTR", "color": "#1eb83f" },
+    { "callsign": "EGPX_M_CTR", "color": "#1eb823" },
+    { "callsign": "EGPX_PEN_CTR", "color": "#2d1eb8" },
+    { "callsign": "EGPX_U1_CTR", "color": "#a11eb8" },
+    { "callsign": "EGPX_U2_CTR", "color": "#b8a41e" },
+    { "callsign": "EGTL_CTR", "color": "#7b1eb8" },
+    { "callsign": "EGTL_E_CTR", "color": "#1e57b8" },
+    { "callsign": "EGTL_NE_CTR", "color": "#1eb842" },
+    { "callsign": "EGTL_NW_CTR", "color": "#1eb870" },
+    { "callsign": "EGTL_N_CTR", "color": "#1e3fb8" },
+    { "callsign": "EGTL_SE_CTR", "color": "#1eb89c" },
+    { "callsign": "EGTL_SW_CTR", "color": "#1ea6b8" },
+    { "callsign": "EGTL_S_CTR", "color": "#33b81e" },
+    { "callsign": "EGTT_CTR", "color": "#1eb88f" },
+    { "callsign": "EGTT_C_CTR", "color": "#1e99b8" },
+    { "callsign": "EGTT_NED_CTR", "color": "#1e6bb8" },
+    { "callsign": "EGTT_N_CTR", "color": "#7db81e" },
+    { "callsign": "EGTT_S_CTR", "color": "#b81e70" },
+    { "callsign": "EGTT_W_CTR", "color": "#66b81e" }
+  ] }
 ]

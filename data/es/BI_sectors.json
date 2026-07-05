@@ -3445,149 +3445,41 @@
     "EKVG": { "callsign": "Vagar", "coord": [62.063628, -7.277219], "topdown": ["E1", "E2", "E3", "S1", "S2", "S3"] }
   },
   "atcColors": [
-    {
-      "callsign": "AII",
-      "color": "#352253"
-    },
-    {
-      "callsign": "ART",
-      "color": "#920c00"
-    },
-    {
-      "callsign": "BWI",
-      "color": "#2d1d38"
-    },
-    {
-      "callsign": "CC1",
-      "color": "#412e80"
-    },
-    {
-      "callsign": "CC2",
-      "color": "#27d8c3"
-    },
-    {
-      "callsign": "COI",
-      "color": "#c7ea3b"
-    },
-    {
-      "callsign": "E1",
-      "color": "#25cece"
-    },
-    {
-      "callsign": "E2",
-      "color": "#aa1704"
-    },
-    {
-      "callsign": "E3",
-      "color": "#b9f040"
-    },
-    {
-      "callsign": "EGI",
-      "color": "#9b0f00"
-    },
-    {
-      "callsign": "GHI",
-      "color": "#f8c329"
-    },
-    {
-      "callsign": "JNI",
-      "color": "#30e7aa"
-    },
-    {
-      "callsign": "KFA",
-      "color": "#e14412"
-    },
-    {
-      "callsign": "KFT",
-      "color": "#ff7f1d"
-    },
-    {
-      "callsign": "KKI",
-      "color": "#8dfc55"
-    },
-    {
-      "callsign": "MQI",
-      "color": "#95fb51"
-    },
-    {
-      "callsign": "PTI",
-      "color": "#ebd22e"
-    },
-    {
-      "callsign": "QQI",
-      "color": "#3c286a"
-    },
-    {
-      "callsign": "RKA",
-      "color": "#2da2f3"
-    },
-    {
-      "callsign": "RKT",
-      "color": "#ff9921"
-    },
-    {
-      "callsign": "S1",
-      "color": "#3d7cf7"
-    },
-    {
-      "callsign": "S2",
-      "color": "#940c00"
-    },
-    {
-      "callsign": "S3",
-      "color": "#4a54d7"
-    },
-    {
-      "callsign": "SFA",
-      "color": "#ec5015"
-    },
-    {
-      "callsign": "SFT",
-      "color": "#4b4dcd"
-    },
-    {
-      "callsign": "SI",
-      "color": "#b01b06"
-    },
-    {
-      "callsign": "SIS",
-      "color": "#c92d0c"
-    },
-    {
-      "callsign": "SSI",
-      "color": "#f0cd2c"
-    },
-    {
-      "callsign": "THA",
-      "color": "#29aeec"
-    },
-    {
-      "callsign": "UKI",
-      "color": "#cf330e"
-    },
-    {
-      "callsign": "UQI",
-      "color": "#ffb827"
-    },
-    {
-      "callsign": "VGI",
-      "color": "#a51403"
-    },
-    {
-      "callsign": "VMI",
-      "color": "#f55d17"
-    },
-    {
-      "callsign": "W1",
-      "color": "#900c00"
-    },
-    {
-      "callsign": "W2",
-      "color": "#4b47c1"
-    },
-    {
-      "callsign": "W3",
-      "color": "#ff851e"
-    }
+    { "callsign": "AII", "color": "#352253" },
+    { "callsign": "ART", "color": "#920c00" },
+    { "callsign": "BWI", "color": "#2d1d38" },
+    { "callsign": "CC1", "color": "#412e80" },
+    { "callsign": "CC2", "color": "#27d8c3" },
+    { "callsign": "COI", "color": "#c7ea3b" },
+    { "callsign": "E1", "color": "#25cece" },
+    { "callsign": "E2", "color": "#aa1704" },
+    { "callsign": "E3", "color": "#b9f040" },
+    { "callsign": "EGI", "color": "#9b0f00" },
+    { "callsign": "GHI", "color": "#f8c329" },
+    { "callsign": "JNI", "color": "#30e7aa" },
+    { "callsign": "KFA", "color": "#e14412" },
+    { "callsign": "KFT", "color": "#ff7f1d" },
+    { "callsign": "KKI", "color": "#8dfc55" },
+    { "callsign": "MQI", "color": "#95fb51" },
+    { "callsign": "PTI", "color": "#ebd22e" },
+    { "callsign": "QQI", "color": "#3c286a" },
+    { "callsign": "RKA", "color": "#2da2f3" },
+    { "callsign": "RKT", "color": "#ff9921" },
+    { "callsign": "S1", "color": "#3d7cf7" },
+    { "callsign": "S2", "color": "#940c00" },
+    { "callsign": "S3", "color": "#4a54d7" },
+    { "callsign": "SFA", "color": "#ec5015" },
+    { "callsign": "SFT", "color": "#4b4dcd" },
+    { "callsign": "SI", "color": "#b01b06" },
+    { "callsign": "SIS", "color": "#c92d0c" },
+    { "callsign": "SSI", "color": "#f0cd2c" },
+    { "callsign": "THA", "color": "#29aeec" },
+    { "callsign": "UKI", "color": "#cf330e" },
+    { "callsign": "UQI", "color": "#ffb827" },
+    { "callsign": "VGI", "color": "#a51403" },
+    { "callsign": "VMI", "color": "#f55d17" },
+    { "callsign": "W1", "color": "#900c00" },
+    { "callsign": "W2", "color": "#4b47c1" },
+    { "callsign": "W3", "color": "#ff851e" }
   ]
 }

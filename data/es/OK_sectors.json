@@ -776,33 +776,12 @@
       }
     },
   "atcColors": [
-    {
-      "callsign": "BKA",
-      "color": "#0000fd"
-    },
-    {
-      "callsign": "BKT",
-      "color": "#00a200"
-    },
-    {
-      "callsign": "FSS/GULF",
-      "color": "#1e6eb8"
-    },
-    {
-      "callsign": "FSS/GULFE",
-      "color": "#b8511e"
-    },
-    {
-      "callsign": "KAF",
-      "color": "#000052"
-    },
-    {
-      "callsign": "KR",
-      "color": "#158c00"
-    },
-    {
-      "callsign": "KRU",
-      "color": "#e98c00"
-    }
+    { "callsign": "BKA", "color": "#0000fd" },
+    { "callsign": "BKT", "color": "#00a200" },
+    { "callsign": "FSS/GULF", "color": "#1e6eb8" },
+    { "callsign": "FSS/GULFE", "color": "#b8511e" },
+    { "callsign": "KAF", "color": "#000052" },
+    { "callsign": "KR", "color": "#158c00" },
+    { "callsign": "KRU", "color": "#e98c00" }
   ]
 }

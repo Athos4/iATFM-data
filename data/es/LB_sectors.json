@@ -2539,53 +2539,17 @@
         }
   },
   "atcColors": [
-    {
-      "callsign": "BSS",
-      "color": "#1cffff"
-    },
-    {
-      "callsign": "SES",
-      "color": "#52ffff"
-    },
-    {
-      "callsign": "SOF",
-      "color": "#00cd00"
-    },
-    {
-      "callsign": "TMB",
-      "color": "#000027"
-    },
-    {
-      "callsign": "TMS",
-      "color": "#00000e"
-    },
-    {
-      "callsign": "TMV",
-      "color": "#000001"
-    },
-    {
-      "callsign": "TWB",
-      "color": "#00de00"
-    },
-    {
-      "callsign": "TWG",
-      "color": "#003600"
-    },
-    {
-      "callsign": "TWP",
-      "color": "#003600"
-    },
-    {
-      "callsign": "TWS",
-      "color": "#00de00"
-    },
-    {
-      "callsign": "TWV",
-      "color": "#00de00"
-    },
-    {
-      "callsign": "VAR",
-      "color": "#4bffff"
-    }
+    { "callsign": "BSS", "color": "#1cffff" },
+    { "callsign": "SES", "color": "#52ffff" },
+    { "callsign": "SOF", "color": "#00cd00" },
+    { "callsign": "TMB", "color": "#000027" },
+    { "callsign": "TMS", "color": "#00000e" },
+    { "callsign": "TMV", "color": "#000001" },
+    { "callsign": "TWB", "color": "#00de00" },
+    { "callsign": "TWG", "color": "#003600" },
+    { "callsign": "TWP", "color": "#003600" },
+    { "callsign": "TWS", "color": "#00de00" },
+    { "callsign": "TWV", "color": "#00de00" },
+    { "callsign": "VAR", "color": "#4bffff" }
   ]
 }

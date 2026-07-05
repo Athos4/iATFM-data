@@ -348,7 +348,7 @@
         },
         {
             "id":"EDYYNIKL",
-            "floorFt": 31500,
+            "floorFt": 24500,
             "ceilingFt": 35500,
             "polygon": [
                 { "lat": 50.0580, "lon": 4.3920 },
@@ -1498,184 +1498,50 @@
         }
     ]
     },
-  {
-    "atcColors": [
-      {
-        "callsign": "EBBU_CTR",
-        "color": "#b81e57"
-      },
-      {
-        "callsign": "EBBU_E_CTR",
-        "color": "#85b81e"
-      },
-      {
-        "callsign": "EBBU_W_CTR",
-        "color": "#57b81e"
-      },
-      {
-        "callsign": "EDWW_CTR",
-        "color": "#1eb873"
-      },
-      {
-        "callsign": "EDWW_W_CTR",
-        "color": "#b8871e"
-      },
-      {
-        "callsign": "EDYY_BKH_CTR",
-        "color": "#1eb89c"
-      },
-      {
-        "callsign": "EDYY_BKL_CTR",
-        "color": "#a61eb8"
-      },
-      {
-        "callsign": "EDYY_BKN_CTR",
-        "color": "#1eb8ab"
-      },
-      {
-        "callsign": "EDYY_BLH_CTR",
-        "color": "#b81e85"
-      },
-      {
-        "callsign": "EDYY_BLL_CTR",
-        "color": "#7bb81e"
-      },
-      {
-        "callsign": "EDYY_BNH_CTR",
-        "color": "#571eb8"
-      },
-      {
-        "callsign": "EDYY_BNL_CTR",
-        "color": "#b8611e"
-      },
-      {
-        "callsign": "EDYY_BRU_CTR",
-        "color": "#821eb8"
-      },
-      {
-        "callsign": "EDYY_BXH_CTR",
-        "color": "#b81e66"
-      },
-      {
-        "callsign": "EDYY_BXL_CTR",
-        "color": "#5cb81e"
-      },
-      {
-        "callsign": "EDYY_CTR",
-        "color": "#b81e59"
-      },
-      {
-        "callsign": "EDYY_DCL_CTR",
-        "color": "#6e1eb8"
-      },
-      {
-        "callsign": "EDYY_DDH_CTR",
-        "color": "#b31eb8"
-      },
-      {
-        "callsign": "EDYY_DDL_CTR",
-        "color": "#b3b81e"
-      },
-      {
-        "callsign": "EDYY_DDM_CTR",
-        "color": "#1eb1b8"
-      },
-      {
-        "callsign": "EDYY_DEC_CTR",
-        "color": "#1e7bb8"
-      },
-      {
-        "callsign": "EDYY_DEL_CTR",
-        "color": "#1e63b8"
-      },
-      {
-        "callsign": "EDYY_DHH_CTR",
-        "color": "#1eb3b8"
-      },
-      {
-        "callsign": "EDYY_DHL_CTR",
-        "color": "#b81ea9"
-      },
-      {
-        "callsign": "EDYY_DJH_CTR",
-        "color": "#1eb828"
-      },
-      {
-        "callsign": "EDYY_DJL_CTR",
-        "color": "#331eb8"
-      },
-      {
-        "callsign": "EDYY_DJM_CTR",
-        "color": "#b8351e"
-      },
-      {
-        "callsign": "EDYY_DLH_CTR",
-        "color": "#a9b81e"
-      },
-      {
-        "callsign": "EDYY_DLM_CTR",
-        "color": "#b81e9c"
-      },
-      {
-        "callsign": "EDYY_DRH_CTR",
-        "color": "#3d1eb8"
-      },
-      {
-        "callsign": "EDYY_DRL_CTR",
-        "color": "#b8471e"
-      },
-      {
-        "callsign": "EDYY_DRM_CTR",
-        "color": "#1eb84a"
-      },
-      {
-        "callsign": "EDYY_HAN_CTR",
-        "color": "#1e5eb8"
-      },
-      {
-        "callsign": "EDYY_HOL_CTR",
-        "color": "#b86e1e"
-      },
-      {
-        "callsign": "EDYY_JEV_CTR",
-        "color": "#63b81e"
-      },
-      {
-        "callsign": "EDYY_LNO_CTR",
-        "color": "#301eb8"
-      },
-      {
-        "callsign": "EDYY_LUX_CTR",
-        "color": "#1e30b8"
-      },
-      {
-        "callsign": "EDYY_MNH_CTR",
-        "color": "#1e45b8"
-      },
-      {
-        "callsign": "EDYY_MNL_CTR",
-        "color": "#b81e3a"
-      },
-      {
-        "callsign": "EDYY_MNM_CTR",
-        "color": "#38b81e"
-      },
-      {
-        "callsign": "EDYY_MNS_CTR",
-        "color": "#28b81e"
-      },
-      {
-        "callsign": "EDYY_NIK_CTR",
-        "color": "#1e94b8"
-      },
-      {
-        "callsign": "EDYY_RHR_CTR",
-        "color": "#801eb8"
-      },
-      {
-        "callsign": "EHAA_CTR",
-        "color": "#b87d1e"
-      }
-    ]
-  }
+  { "atcColors": [
+    { "callsign": "EBBU_CTR", "color": "#b81e57" },
+    { "callsign": "EBBU_E_CTR", "color": "#85b81e" },
+    { "callsign": "EBBU_W_CTR", "color": "#57b81e" },
+    { "callsign": "EDWW_CTR", "color": "#1eb873" },
+    { "callsign": "EDWW_W_CTR", "color": "#b8871e" },
+    { "callsign": "EDYY_BKH_CTR", "color": "#1eb89c" },
+    { "callsign": "EDYY_BKL_CTR", "color": "#a61eb8" },
+    { "callsign": "EDYY_BKN_CTR", "color": "#1eb8ab" },
+    { "callsign": "EDYY_BLH_CTR", "color": "#b81e85" },
+    { "callsign": "EDYY_BLL_CTR", "color": "#7bb81e" },
+    { "callsign": "EDYY_BNH_CTR", "color": "#571eb8" },
+    { "callsign": "EDYY_BNL_CTR", "color": "#b8611e" },
+    { "callsign": "EDYY_BRU_CTR", "color": "#821eb8" },
+    { "callsign": "EDYY_BXH_CTR", "color": "#b81e66" },
+    { "callsign": "EDYY_BXL_CTR", "color": "#5cb81e" },
+    { "callsign": "EDYY_CTR", "color": "#b81e59" },
+    { "callsign": "EDYY_DCL_CTR", "color": "#6e1eb8" },
+    { "callsign": "EDYY_DDH_CTR", "color": "#b31eb8" },
+    { "callsign": "EDYY_DDL_CTR", "color": "#b3b81e" },
+    { "callsign": "EDYY_DDM_CTR", "color": "#1eb1b8" },
+    { "callsign": "EDYY_DEC_CTR", "color": "#1e7bb8" },
+    { "callsign": "EDYY_DEL_CTR", "color": "#1e63b8" },
+    { "callsign": "EDYY_DHH_CTR", "color": "#1eb3b8" },
+    { "callsign": "EDYY_DHL_CTR", "color": "#b81ea9" },
+    { "callsign": "EDYY_DJH_CTR", "color": "#1eb828" },
+    { "callsign": "EDYY_DJL_CTR", "color": "#331eb8" },
+    { "callsign": "EDYY_DJM_CTR", "color": "#b8351e" },
+    { "callsign": "EDYY_DLH_CTR", "color": "#a9b81e" },
+    { "callsign": "EDYY_DLM_CTR", "color": "#b81e9c" },
+    { "callsign": "EDYY_DRH_CTR", "color": "#3d1eb8" },
+    { "callsign": "EDYY_DRL_CTR", "color": "#b8471e" },
+    { "callsign": "EDYY_DRM_CTR", "color": "#1eb84a" },
+    { "callsign": "EDYY_HAN_CTR", "color": "#1e5eb8" },
+    { "callsign": "EDYY_HOL_CTR", "color": "#b86e1e" },
+    { "callsign": "EDYY_JEV_CTR", "color": "#63b81e" },
+    { "callsign": "EDYY_LNO_CTR", "color": "#301eb8" },
+    { "callsign": "EDYY_LUX_CTR", "color": "#1e30b8" },
+    { "callsign": "EDYY_MNH_CTR", "color": "#1e45b8" },
+    { "callsign": "EDYY_MNL_CTR", "color": "#b81e3a" },
+    { "callsign": "EDYY_MNM_CTR", "color": "#38b81e" },
+    { "callsign": "EDYY_MNS_CTR", "color": "#28b81e" },
+    { "callsign": "EDYY_NIK_CTR", "color": "#1e94b8" },
+    { "callsign": "EDYY_RHR_CTR", "color": "#801eb8" },
+    { "callsign": "EHAA_CTR", "color": "#b87d1e" }
+  ] }
 ]

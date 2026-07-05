@@ -6564,141 +6564,39 @@
     }
   },
   "atcColors": [
-    {
-      "callsign": "AT1",
-      "color": "#00ad00"
-    },
-    {
-      "callsign": "AT2",
-      "color": "#001f00"
-    },
-    {
-      "callsign": "BT1",
-      "color": "#005400"
-    },
-    {
-      "callsign": "BV1",
-      "color": "#00004b"
-    },
-    {
-      "callsign": "BV2",
-      "color": "#000080"
-    },
-    {
-      "callsign": "BV3",
-      "color": "#000005"
-    },
-    {
-      "callsign": "BV4",
-      "color": "#000077"
-    },
-    {
-      "callsign": "BV5",
-      "color": "#000024"
-    },
-    {
-      "callsign": "DA1",
-      "color": "#000057"
-    },
-    {
-      "callsign": "DDR",
-      "color": "#cd8c00"
-    },
-    {
-      "callsign": "DER",
-      "color": "#00007e"
-    },
-    {
-      "callsign": "DET",
-      "color": "#007200"
-    },
-    {
-      "callsign": "DRT",
-      "color": "#009900"
-    },
-    {
-      "callsign": "DT1",
-      "color": "#00f900"
-    },
-    {
-      "callsign": "HPT",
-      "color": "#000300"
-    },
-    {
-      "callsign": "HT1",
-      "color": "#001d00"
-    },
-    {
-      "callsign": "HV2",
-      "color": "#000032"
-    },
-    {
-      "callsign": "HV3",
-      "color": "#0000be"
-    },
-    {
-      "callsign": "KFC",
-      "color": "#8f8c00"
-    },
-    {
-      "callsign": "KT1",
-      "color": "#008500"
-    },
-    {
-      "callsign": "LA1",
-      "color": "#0000e3"
-    },
-    {
-      "callsign": "LIA",
-      "color": "#000072"
-    },
-    {
-      "callsign": "LIT",
-      "color": "#00f600"
-    },
-    {
-      "callsign": "LLR",
-      "color": "#208c00"
-    },
-    {
-      "callsign": "LNT",
-      "color": "#008900"
-    },
-    {
-      "callsign": "LRT",
-      "color": "#009400"
-    },
-    {
-      "callsign": "LT1",
-      "color": "#003c00"
-    },
-    {
-      "callsign": "ODA",
-      "color": "#000000"
-    },
-    {
-      "callsign": "OOR",
-      "color": "#3b8c00"
-    },
-    {
-      "callsign": "OTI",
-      "color": "#00e500"
-    },
-    {
-      "callsign": "UCR",
-      "color": "#c68c00"
-    },
-    {
-      "callsign": "UT1",
-      "color": "#006200"
-    },
-    {
-      "callsign": "ZB",
-      "color": "#b81e5c"
-    },
-    {
-      "callsign": "ZT1",
-      "color": "#002300"
-    }
+    { "callsign": "AT1", "color": "#00ad00" },
+    { "callsign": "AT2", "color": "#001f00" },
+    { "callsign": "BT1", "color": "#005400" },
+    { "callsign": "BV1", "color": "#00004b" },
+    { "callsign": "BV2", "color": "#000080" },
+    { "callsign": "BV3", "color": "#000005" },
+    { "callsign": "BV4", "color": "#000077" },
+    { "callsign": "BV5", "color": "#000024" },
+    { "callsign": "DA1", "color": "#000057" },
+    { "callsign": "DDR", "color": "#cd8c00" },
+    { "callsign": "DER", "color": "#00007e" },
+    { "callsign": "DET", "color": "#007200" },
+    { "callsign": "DRT", "color": "#009900" },
+    { "callsign": "DT1", "color": "#00f900" },
+    { "callsign": "HPT", "color": "#000300" },
+    { "callsign": "HT1", "color": "#001d00" },
+    { "callsign": "HV2", "color": "#000032" },
+    { "callsign": "HV3", "color": "#0000be" },
+    { "callsign": "KFC", "color": "#8f8c00" },
+    { "callsign": "KT1", "color": "#008500" },
+    { "callsign": "LA1", "color": "#0000e3" },
+    { "callsign": "LIA", "color": "#000072" },
+    { "callsign": "LIT", "color": "#00f600" },
+    { "callsign": "LLR", "color": "#208c00" },
+    { "callsign": "LNT", "color": "#008900" },
+    { "callsign": "LRT", "color": "#009400" },
+    { "callsign": "LT1", "color": "#003c00" },
+    { "callsign": "ODA", "color": "#000000" },
+    { "callsign": "OOR", "color": "#3b8c00" },
+    { "callsign": "OTI", "color": "#00e500" },
+    { "callsign": "UCR", "color": "#c68c00" },
+    { "callsign": "UT1", "color": "#006200" },
+    { "callsign": "ZB", "color": "#b81e5c" },
+    { "callsign": "ZT1", "color": "#002300" }
   ]
 }

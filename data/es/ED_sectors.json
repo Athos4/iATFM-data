@@ -8838,32 +8838,12 @@
       }
     ]
   },
-  {
-    "atcColors": [
-      {
-        "callsign": "EDDM_CTR",
-        "color": "#b8751e"
-      },
-      {
-        "callsign": "EDDM_S_CTR",
-        "color": "#4cb81e"
-      },
-      {
-        "callsign": "EDGG_CTR",
-        "color": "#1eb821"
-      },
-      {
-        "callsign": "EDMM_CTR",
-        "color": "#b81e97"
-      },
-      {
-        "callsign": "EDUU_CTR",
-        "color": "#b81e6e"
-      },
-      {
-        "callsign": "EDWW_CTR",
-        "color": "#1eb873"
-      }
-    ]
-  }
+  { "atcColors": [
+    { "callsign": "EDDM_CTR", "color": "#b8751e" },
+    { "callsign": "EDDM_S_CTR", "color": "#4cb81e" },
+    { "callsign": "EDGG_CTR", "color": "#1eb821" },
+    { "callsign": "EDMM_CTR", "color": "#b81e97" },
+    { "callsign": "EDUU_CTR", "color": "#b81e6e" },
+    { "callsign": "EDWW_CTR", "color": "#1eb873" }
+  ] }
 ]

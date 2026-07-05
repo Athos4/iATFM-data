@@ -638,12 +638,7 @@
       }
     ]
   },
-  {
-    "atcColors": [
-      {
-        "callsign": "NTTT_CTR",
-        "color": "#1e5cb8"
-      }
-    ]
-  }
+  { "atcColors": [
+    { "callsign": "NTTT_CTR", "color": "#1e5cb8" }
+  ] }
 ]
