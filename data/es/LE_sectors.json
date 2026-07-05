@@ -6,7 +6,7 @@
       {
         "id": "LECB·LEAL_TWR",
         "floorFt": 500,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.166667, "lon": -0.454167 },
           { "lat": 38.271111, "lon": -0.431111 },
@@ -26,7 +26,7 @@
       {
         "id": "LECB·LEAL_TWR_E",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 38.355278, "lon": -0.411389 },
           { "lat": 38.271111, "lon": -0.431111 },
@@ -47,7 +47,7 @@
       {
         "id": "LECB·LEAL_TWR_W",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 38.395833, "lon": -0.661667 },
           { "lat": 38.306111, "lon": -0.681944 },
@@ -97,7 +97,7 @@
       {
         "id": "LECB·LEBL_N_TWR_LOW",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 41.303611, "lon": 2.106667 },
           { "lat": 41.305556, "lon": 2.105556 },
@@ -172,7 +172,7 @@
       {
         "id": "LECB·LEBL_S_TWR_LOW",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 41.303611, "lon": 2.106667 },
           { "lat": 41.298333, "lon": 2.104444 },
@@ -207,7 +207,7 @@
       {
         "id": "LECB·LEBT_H_TWR",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 39.669444, "lon": -0.4725 },
           { "lat": 39.668611, "lon": -0.461111 },
@@ -437,7 +437,7 @@
       {
         "id": "LECB·LEDA_TWR_E",
         "floorFt": 0,
-        "ceilingFt": 1400,
+        "ceilingFt": 1500,
         "polygon": [
           { "lat": 41.7475, "lon": 0.666667 },
           { "lat": 41.766389, "lon": 0.659167 },
@@ -470,7 +470,7 @@
       {
         "id": "LECB·LEDA_TWR_W",
         "floorFt": 0,
-        "ceilingFt": 1400,
+        "ceilingFt": 1500,
         "polygon": [
           { "lat": 41.708611, "lon": 0.403889 },
           { "lat": 41.728056, "lon": 0.401389 },
@@ -505,7 +505,7 @@
       {
         "id": "LECB·LEIB_TWR",
         "floorFt": 500,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.719722, "lon": 1.283611 },
           { "lat": 38.773056, "lon": 1.412222 },
@@ -529,7 +529,7 @@
       {
         "id": "LECB·LEIB_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 38.719722, "lon": 1.283611 },
           { "lat": 38.867222, "lon": 1.356944 },
@@ -556,7 +556,7 @@
       {
         "id": "LECB·LEIB_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 38.719722, "lon": 1.283611 },
           { "lat": 38.773056, "lon": 1.412222 },
@@ -843,7 +843,7 @@
       {
         "id": "LECB·LELC_TWR_L_N",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 37.785556, "lon": -0.902222 },
           { "lat": 37.786667, "lon": -0.806389 },
@@ -979,7 +979,7 @@
       {
         "id": "LECB·LELC_TWR_L_S",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 37.785556, "lon": -0.902222 },
           { "lat": 37.786667, "lon": -0.806389 },
@@ -1134,7 +1134,7 @@
       {
         "id": "LECB·LELL_TWR",
         "floorFt": 500,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 41.593056, "lon": 2.105 },
           { "lat": 41.592778, "lon": 2.1025 },
@@ -1403,7 +1403,7 @@
       {
         "id": "LECB·LELL_TWR_E",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 41.448889, "lon": 2.105 },
           { "lat": 41.448889, "lon": 2.1075 },
@@ -1548,7 +1548,7 @@
       {
         "id": "LECB·LELL_TWR_W",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 41.593056, "lon": 2.105 },
           { "lat": 41.592778, "lon": 2.1025 },
@@ -1726,7 +1726,7 @@
       {
         "id": "LECB·LEMH_A_E",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 39.779167, "lon": 4.218611 },
           { "lat": 39.332222, "lon": 4.083333 },
@@ -1764,7 +1764,7 @@
       {
         "id": "LECB·LEMH_A_W",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 39.779167, "lon": 4.218611 },
           { "lat": 39.780833, "lon": 4.1975 },
@@ -1804,7 +1804,7 @@
       {
         "id": "LECB·LEMH_TWR",
         "floorFt": 500,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 39.945833, "lon": 4.218611 },
           { "lat": 39.944167, "lon": 4.239722 },
@@ -1850,7 +1850,7 @@
       {
         "id": "LECB·LEMH_TWR_E",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 39.945833, "lon": 4.218611 },
           { "lat": 39.944167, "lon": 4.239722 },
@@ -1886,7 +1886,7 @@
       {
         "id": "LECB·LEMH_TWR_W",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 39.779167, "lon": 4.218611 },
           { "lat": 39.85, "lon": 4.216667 },
@@ -1974,7 +1974,7 @@
       {
         "id": "LECB·LEMI_TWR_L_N",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 37.9025, "lon": -1.141667 },
           { "lat": 37.900556, "lon": -1.096667 },
@@ -2009,7 +2009,7 @@
       {
         "id": "LECB·LEMI_TWR_S_L",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 37.7775, "lon": -1.002778 },
           { "lat": 37.786111, "lon": -1.000278 },
@@ -2172,7 +2172,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 39.620833, "lon": 2.765 },
           { "lat": 39.618056, "lon": 2.774722 },
@@ -2274,7 +2274,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 39.620833, "lon": 2.765 },
           { "lat": 39.618056, "lon": 2.774722 },
@@ -2312,7 +2312,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 39.589722, "lon": 2.817778 },
           { "lat": 39.579167, "lon": 2.825278 },
@@ -2514,7 +2514,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 39.589722, "lon": 2.817778 },
           { "lat": 39.579167, "lon": 2.825278 },
@@ -2662,7 +2662,7 @@
       {
         "id": "LECB·LERS_TWR1",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 41.238333, "lon": 1.395278 },
           { "lat": 41.153611, "lon": 1.183333 },
@@ -2698,7 +2698,7 @@
       {
         "id": "LECB·LERS_TWR2",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 41.238333, "lon": 1.395278 },
           { "lat": 41.222778, "lon": 1.405278 },
@@ -2739,7 +2739,7 @@
       {
         "id": "LECB·LERS_TWR3",
         "floorFt": 500,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 41.238333, "lon": 1.395278 },
           { "lat": 41.222778, "lon": 1.405278 },
@@ -2785,7 +2785,7 @@
       {
         "id": "LECB·LESU_I_TWR",
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 42.414444, "lon": 1.38 },
           { "lat": 42.4025, "lon": 1.4975 },
@@ -2818,7 +2818,7 @@
       {
         "id": "LECB·LEVC_TWR",
         "floorFt": 500,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 39.566944, "lon": -0.489722 },
           { "lat": 39.453056, "lon": -0.561944 },
@@ -2836,7 +2836,7 @@
       {
         "id": "LECB·LEVC_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 39.484722, "lon": -0.463611 },
           { "lat": 39.494722, "lon": -0.475 },
@@ -2861,7 +2861,7 @@
       {
         "id": "LECB·LEVC_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 39.453056, "lon": -0.561944 },
           { "lat": 39.419167, "lon": -0.461111 },
@@ -2882,7 +2882,7 @@
       {
         "id": "LECM·LEHC_TWR",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 41.996389, "lon": 0.003611 },
           { "lat": 42.015833, "lon": 0.019444 },
@@ -2906,7 +2906,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 39.385833, "lon": 2.1625 },
           { "lat": 39.327778, "lon": 2.273611 },
@@ -2934,7 +2934,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 39.323889, "lon": 2.280833 },
           { "lat": 39.280556, "lon": 2.363889 },
@@ -2959,7 +2959,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 39.893889, "lon": 3.249444 },
           { "lat": 39.730556, "lon": 2.861667 },
@@ -2989,7 +2989,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 39.589722, "lon": 2.817778 },
           { "lat": 39.579167, "lon": 2.825278 },
@@ -3023,7 +3023,7 @@
           "06L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.288889, "lon": 2.062222 },
           { "lat": 41.268056, "lon": 1.990833 },
@@ -3091,7 +3091,7 @@
           "06L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.077778, "lon": 1.873056 },
           { "lat": 41.242778, "lon": 2.027222 },
@@ -3116,7 +3116,7 @@
           "06L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.203056, "lon": 1.825278 },
           { "lat": 41.268056, "lon": 1.990833 },
@@ -3141,7 +3141,7 @@
           "06L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.203056, "lon": 1.825278 },
           { "lat": 41.141111, "lon": 1.646667 },
@@ -3162,7 +3162,7 @@
           "06L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.077778, "lon": 1.873056 },
           { "lat": 40.992778, "lon": 1.794167 },
@@ -3245,7 +3245,7 @@
           "02/06R"
         ],
         "floorFt": 0,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 40.874444, "lon": 2.063333 },
           { "lat": 40.868333, "lon": 2.029167 },
@@ -3274,7 +3274,7 @@
           "24L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.166944, "lon": 2.209167 },
           { "lat": 41.303611, "lon": 2.106667 },
@@ -3342,7 +3342,7 @@
           "24L/R"
         ],
         "floorFt": 3500,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.453333, "lon": 2.137778 },
           { "lat": 41.416667, "lon": 2.128333 },
@@ -3476,7 +3476,7 @@
           "24L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 41.588056, "lon": 2.298056 },
           { "lat": 41.594167, "lon": 2.344444 },
@@ -3572,7 +3572,7 @@
       {
         "id": "LECB·BL1_HI",
         "floorFt": 10500,
-        "ceilingFt": 19400,
+        "ceilingFt": 19500,
         "polygon": [
           { "lat": 41.303611, "lon": 2.106667 },
           { "lat": 41.324444, "lon": 2.166944 },
@@ -3615,7 +3615,7 @@
       {
         "id": "LECB·BL1_LOW35",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 42.025278, "lon": 1.8075 },
           { "lat": 41.758889, "lon": 1.855833 },
@@ -3687,7 +3687,7 @@
       {
         "id": "LECB·BL1_LOW65",
         "floorFt": 3500,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 42.025278, "lon": 1.8075 },
           { "lat": 41.758889, "lon": 1.855833 },
@@ -3739,7 +3739,7 @@
       {
         "id": "LECB·BL1_MID",
         "floorFt": 6500,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 42.025278, "lon": 1.8075 },
           { "lat": 41.758889, "lon": 1.855833 },
@@ -3786,7 +3786,7 @@
       {
         "id": "LECB·BL2",
         "floorFt": 0,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 40.500556, "lon": 3.366667 },
           { "lat": 40.5, "lon": 3.139444 },
@@ -3829,7 +3829,7 @@
       {
         "id": "LECB·BL2",
         "floorFt": 6500,
-        "ceilingFt": 19400,
+        "ceilingFt": 19500,
         "polygon": [
           { "lat": 40.500556, "lon": 3.366667 },
           { "lat": 40.5, "lon": 3.139444 },
@@ -3870,7 +3870,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 16400,
+        "ceilingFt": 16500,
         "polygon": [
           { "lat": 40.071111, "lon": 2.361389 },
           { "lat": 39.954444, "lon": 2.483611 },
@@ -3894,7 +3894,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 16400,
+        "ceilingFt": 16500,
         "polygon": [
           { "lat": 40.145, "lon": 3.601111 },
           { "lat": 39.983611, "lon": 3.374722 },
@@ -3916,7 +3916,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.755278, "lon": 3.635556 },
           { "lat": 39.893611, "lon": 3.623333 },
@@ -3937,7 +3937,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 39.730556, "lon": 2.861667 },
           { "lat": 39.663611, "lon": 2.973611 },
@@ -3969,7 +3969,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 39.841389, "lon": 2.602778 },
           { "lat": 39.884167, "lon": 2.672222 },
@@ -3991,7 +3991,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 39.663611, "lon": 2.973611 },
           { "lat": 39.653889, "lon": 2.952778 },
@@ -4018,7 +4018,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 8400,
+        "ceilingFt": 8500,
         "polygon": [
           { "lat": 39.583056, "lon": 3.128889 },
           { "lat": 39.456389, "lon": 3.079167 },
@@ -4040,7 +4040,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 39.456389, "lon": 3.079167 },
           { "lat": 39.325556, "lon": 3.185 },
@@ -4061,7 +4061,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 39.630278, "lon": 3.646667 },
           { "lat": 39.755278, "lon": 3.635556 },
@@ -4084,7 +4084,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.813611, "lon": 3.388333 },
           { "lat": 39.7275, "lon": 3.393889 },
@@ -4110,7 +4110,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.893889, "lon": 3.249444 },
           { "lat": 39.777222, "lon": 3.204722 },
@@ -4132,7 +4132,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 9400,
+        "ceilingFt": 9500,
         "polygon": [
           { "lat": 39.586667, "lon": 2.215 },
           { "lat": 39.648056, "lon": 2.448333 },
@@ -4161,7 +4161,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 9400,
+        "ceilingFt": 9500,
         "polygon": [
           { "lat": 39.212778, "lon": 2.491944 },
           { "lat": 39.198889, "lon": 2.518611 },
@@ -4226,7 +4226,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 39.323889, "lon": 2.280833 },
           { "lat": 39.280556, "lon": 2.363889 },
@@ -4247,7 +4247,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 39.556667, "lon": 2.103611 },
           { "lat": 39.456111, "lon": 2.028056 },
@@ -4273,7 +4273,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 16400,
+        "ceilingFt": 16500,
         "polygon": [
           { "lat": 39.648056, "lon": 2.448333 },
           { "lat": 39.586667, "lon": 2.215 },
@@ -4296,7 +4296,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 39.179722, "lon": 2.6125 },
           { "lat": 39.256111, "lon": 2.910833 },
@@ -4316,7 +4316,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.256111, "lon": 2.910833 },
           { "lat": 39.325556, "lon": 3.185 },
@@ -4338,7 +4338,7 @@
           "24L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.288889, "lon": 2.062222 },
           { "lat": 41.268056, "lon": 1.990833 },
@@ -4406,7 +4406,7 @@
           "24L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.077778, "lon": 1.873056 },
           { "lat": 41.101667, "lon": 1.959444 },
@@ -4433,7 +4433,7 @@
           "24L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.077778, "lon": 1.873056 },
           { "lat": 41.101667, "lon": 1.959444 },
@@ -4505,7 +4505,7 @@
           "24L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.077778, "lon": 1.873056 },
           { "lat": 40.992778, "lon": 1.794167 },
@@ -4534,7 +4534,7 @@
           "24L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.203056, "lon": 1.825278 },
           { "lat": 41.268056, "lon": 1.990833 },
@@ -4559,7 +4559,7 @@
           "02/06R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.203056, "lon": 1.825278 },
           { "lat": 41.268056, "lon": 1.990833 },
@@ -4584,7 +4584,7 @@
           "24L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.203056, "lon": 1.825278 },
           { "lat": 41.141111, "lon": 1.646667 },
@@ -4605,7 +4605,7 @@
           "02/06R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.203056, "lon": 1.825278 },
           { "lat": 41.141111, "lon": 1.646667 },
@@ -4699,7 +4699,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 40.874444, "lon": 2.063333 },
           { "lat": 40.868333, "lon": 2.029167 },
@@ -4729,7 +4729,7 @@
           "06L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.303611, "lon": 2.106667 },
           { "lat": 41.324444, "lon": 2.166944 },
@@ -4897,7 +4897,7 @@
           "06L/R"
         ],
         "floorFt": 3500,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.453333, "lon": 2.137778 },
           { "lat": 41.416667, "lon": 2.128333 },
@@ -4934,7 +4934,7 @@
           "06L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 41.588056, "lon": 2.298056 },
           { "lat": 41.594167, "lon": 2.344444 },
@@ -5034,7 +5034,7 @@
           "06L/R"
         ],
         "floorFt": 10500,
-        "ceilingFt": 19400,
+        "ceilingFt": 19500,
         "polygon": [
           { "lat": 40.984444, "lon": 2.368056 },
           { "lat": 40.874444, "lon": 2.063333 },
@@ -5057,7 +5057,7 @@
           "24L/R"
         ],
         "floorFt": 10500,
-        "ceilingFt": 19400,
+        "ceilingFt": 19500,
         "polygon": [
           { "lat": 40.984444, "lon": 2.368056 },
           { "lat": 40.874444, "lon": 2.063333 },
@@ -5081,7 +5081,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 19400,
+        "ceilingFt": 19500,
         "polygon": [
           { "lat": 40.874444, "lon": 2.063333 },
           { "lat": 40.651944, "lon": 2.041389 },
@@ -5106,7 +5106,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 19400,
+        "ceilingFt": 19500,
         "polygon": [
           { "lat": 40.874444, "lon": 2.063333 },
           { "lat": 40.651944, "lon": 2.041389 },
@@ -5128,7 +5128,7 @@
       {
         "id": "LECB·GONA_125",
         "floorFt": 5500,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 40.741944, "lon": 0.719444 },
           { "lat": 40.945, "lon": 1.195 },
@@ -5147,7 +5147,7 @@
       {
         "id": "LECB·GONA_95",
         "floorFt": 5500,
-        "ceilingFt": 9400,
+        "ceilingFt": 9500,
         "polygon": [
           { "lat": 40.945, "lon": 1.195 },
           { "lat": 40.950556, "lon": 1.231667 },
@@ -5185,7 +5185,7 @@
       {
         "id": "LECB·GONA_LOW",
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.741944, "lon": 0.719444 },
           { "lat": 40.945, "lon": 1.195 },
@@ -5232,7 +5232,7 @@
       {
         "id": "LECB·GR1",
         "floorFt": 19500,
-        "ceilingFt": 25400,
+        "ceilingFt": 25500,
         "polygon": [
           { "lat": 42.497778, "lon": 1.731667 },
           { "lat": 42.5, "lon": 1.745278 },
@@ -5265,7 +5265,7 @@
       {
         "id": "LECB·GR3",
         "floorFt": 0,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.979167, "lon": 3.391389 },
           { "lat": 42.025556, "lon": 3.394167 },
@@ -5286,7 +5286,7 @@
       {
         "id": "LECB·GR3_L",
         "floorFt": 6500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 41.979167, "lon": 3.391389 },
           { "lat": 42.025556, "lon": 3.394167 },
@@ -5307,7 +5307,7 @@
       {
         "id": "LECB·GR3_M",
         "floorFt": 24500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 42.194722, "lon": 4.041111 },
           { "lat": 42.3575, "lon": 3.508333 },
@@ -5329,7 +5329,7 @@
       {
         "id": "LECB·GR3_N_L",
         "floorFt": 19500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.465, "lon": 2.875833 },
           { "lat": 42.483056, "lon": 2.949444 },
@@ -5357,7 +5357,7 @@
       {
         "id": "LECB·GR3_N_M",
         "floorFt": 24500,
-        "ceilingFt": 25400,
+        "ceilingFt": 25500,
         "polygon": [
           { "lat": 42.025556, "lon": 3.394167 },
           { "lat": 41.979167, "lon": 3.391389 },
@@ -5387,7 +5387,7 @@
           "06"
         ],
         "floorFt": 8500,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 39.248333, "lon": 1.689722 },
           { "lat": 39.178889, "lon": 1.528611 },
@@ -5409,7 +5409,7 @@
           "06"
         ],
         "floorFt": 8500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.305, "lon": 1.6575 },
           { "lat": 39.248333, "lon": 1.689722 },
@@ -5430,7 +5430,7 @@
           "24"
         ],
         "floorFt": 8500,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 39.086389, "lon": 1.098889 },
           { "lat": 39.080278, "lon": 1.205556 },
@@ -5454,7 +5454,7 @@
           "24"
         ],
         "floorFt": 8500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.086389, "lon": 1.098889 },
           { "lat": 39.080278, "lon": 1.205556 },
@@ -5473,7 +5473,7 @@
       {
         "id": "LECB·IAX",
         "floorFt": 2500,
-        "ceilingFt": 8400,
+        "ceilingFt": 8500,
         "polygon": [
           { "lat": 38.608611, "lon": 1.884167 },
           { "lat": 38.733611, "lon": 2.185556 },
@@ -5506,7 +5506,7 @@
       {
         "id": "LECB·IAXE",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.608611, "lon": 1.884167 },
           { "lat": 38.733611, "lon": 2.185556 },
@@ -5534,7 +5534,7 @@
       {
         "id": "LECB·IAXW",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.608333, "lon": 1.116667 },
           { "lat": 38.719722, "lon": 1.283611 },
@@ -5570,7 +5570,7 @@
           "06"
         ],
         "floorFt": 8500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.314722, "lon": 1.936667 },
           { "lat": 39.133611, "lon": 2.021111 },
@@ -5604,7 +5604,7 @@
           "06"
         ],
         "floorFt": 10500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.248333, "lon": 1.689722 },
           { "lat": 39.178889, "lon": 1.528611 },
@@ -5626,7 +5626,7 @@
           "06"
         ],
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.305, "lon": 1.6575 },
           { "lat": 39.248333, "lon": 1.689722 },
@@ -5647,7 +5647,7 @@
           "06"
         ],
         "floorFt": 8500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.290556, "lon": 1.168889 },
           { "lat": 39.296667, "lon": 1.383056 },
@@ -5687,7 +5687,7 @@
           "24"
         ],
         "floorFt": 8500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.057222, "lon": 1.821944 },
           { "lat": 39.0275, "lon": 1.746389 },
@@ -5720,7 +5720,7 @@
           "24"
         ],
         "floorFt": 10500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.086389, "lon": 1.098889 },
           { "lat": 39.080278, "lon": 1.205556 },
@@ -5744,7 +5744,7 @@
           "24"
         ],
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.086389, "lon": 1.098889 },
           { "lat": 39.080278, "lon": 1.205556 },
@@ -5766,7 +5766,7 @@
           "24"
         ],
         "floorFt": 8500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.290556, "lon": 1.168889 },
           { "lat": 39.269444, "lon": 0.470833 },
@@ -5801,7 +5801,7 @@
       {
         "id": "LECB·IRX_2",
         "floorFt": 0,
-        "ceilingFt": 8400,
+        "ceilingFt": 8500,
         "polygon": [
           { "lat": 39.323889, "lon": 2.280833 },
           { "lat": 39.280556, "lon": 2.363889 },
@@ -5829,7 +5829,7 @@
       {
         "id": "LECB·IRX_3",
         "floorFt": 8500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.323889, "lon": 2.280833 },
           { "lat": 39.280556, "lon": 2.363889 },
@@ -5860,7 +5860,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 39.893889, "lon": 3.249444 },
           { "lat": 39.954444, "lon": 2.483611 },
@@ -5881,7 +5881,7 @@
           "06L/R"
         ],
         "floorFt": 12500,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 39.954444, "lon": 2.483611 },
           { "lat": 39.841389, "lon": 2.602778 },
@@ -5903,7 +5903,7 @@
           "06L/R"
         ],
         "floorFt": 10500,
-        "ceilingFt": 16400,
+        "ceilingFt": 16500,
         "polygon": [
           { "lat": 39.730556, "lon": 2.861667 },
           { "lat": 39.663611, "lon": 2.973611 },
@@ -5935,7 +5935,7 @@
           "06L/R"
         ],
         "floorFt": 14500,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 39.893889, "lon": 3.249444 },
           { "lat": 39.777222, "lon": 3.204722 },
@@ -5957,7 +5957,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 16400,
+        "ceilingFt": 16500,
         "polygon": [
           { "lat": 39.551667, "lon": 2.645556 },
           { "lat": 39.554167, "lon": 2.594444 },
@@ -5988,7 +5988,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.385833, "lon": 2.1625 },
           { "lat": 39.456111, "lon": 2.028056 },
@@ -6011,7 +6011,7 @@
           "06L/R"
         ],
         "floorFt": 3500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.4275, "lon": 2.473889 },
           { "lat": 39.464444, "lon": 2.553333 },
@@ -6039,7 +6039,7 @@
           "24L/R"
         ],
         "floorFt": 12500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.556667, "lon": 2.103611 },
           { "lat": 39.456111, "lon": 2.028056 },
@@ -6065,7 +6065,7 @@
           "24L/R"
         ],
         "floorFt": 9500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.464444, "lon": 2.553333 },
           { "lat": 39.4275, "lon": 2.473889 },
@@ -6095,7 +6095,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 16400,
+        "ceilingFt": 16500,
         "polygon": [
           { "lat": 39.551667, "lon": 2.645556 },
           { "lat": 39.554167, "lon": 2.594444 },
@@ -6130,7 +6130,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 40.172778, "lon": 2.381944 },
           { "lat": 40.071111, "lon": 2.361389 },
@@ -6154,7 +6154,7 @@
           "24L/R"
         ],
         "floorFt": 3500,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 39.893889, "lon": 3.249444 },
           { "lat": 39.777222, "lon": 3.204722 },
@@ -6176,7 +6176,7 @@
           "24L/R"
         ],
         "floorFt": 3500,
-        "ceilingFt": 16400,
+        "ceilingFt": 16500,
         "polygon": [
           { "lat": 39.663611, "lon": 2.973611 },
           { "lat": 39.653889, "lon": 2.952778 },
@@ -6200,7 +6200,7 @@
       {
         "id": "LECB·L1X_1",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.5, "lon": 3.025556 },
           { "lat": 40.5, "lon": 2.908889 },
@@ -6225,7 +6225,7 @@
           "06L/R"
         ],
         "floorFt": 10500,
-        "ceilingFt": 16400,
+        "ceilingFt": 16500,
         "polygon": [
           { "lat": 39.633611, "lon": 3.024444 },
           { "lat": 39.663611, "lon": 2.973611 },
@@ -6253,7 +6253,7 @@
           "06L/R"
         ],
         "floorFt": 3500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.323889, "lon": 2.280833 },
           { "lat": 39.280556, "lon": 2.363889 },
@@ -6278,7 +6278,7 @@
           "06L/R"
         ],
         "floorFt": 16500,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 40.145, "lon": 3.601111 },
           { "lat": 39.908889, "lon": 3.621944 },
@@ -6300,7 +6300,7 @@
           "06L/R"
         ],
         "floorFt": 14500,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 39.813611, "lon": 3.388333 },
           { "lat": 39.983611, "lon": 3.374722 },
@@ -6328,7 +6328,7 @@
           "06L/R"
         ],
         "floorFt": 10500,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 39.7275, "lon": 3.393889 },
           { "lat": 39.667778, "lon": 3.1625 },
@@ -6350,7 +6350,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 16400,
+        "ceilingFt": 16500,
         "polygon": [
           { "lat": 39.583056, "lon": 3.128889 },
           { "lat": 39.456389, "lon": 3.079167 },
@@ -6371,7 +6371,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 13400,
+        "ceilingFt": 13500,
         "polygon": [
           { "lat": 39.456389, "lon": 3.079167 },
           { "lat": 39.325556, "lon": 3.185 },
@@ -6393,7 +6393,7 @@
           "06L/R"
         ],
         "floorFt": 12500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.456389, "lon": 3.079167 },
           { "lat": 39.325556, "lon": 3.185 },
@@ -6414,7 +6414,7 @@
           "06L/R"
         ],
         "floorFt": 8500,
-        "ceilingFt": 16400,
+        "ceilingFt": 16500,
         "polygon": [
           { "lat": 39.516667, "lon": 2.820278 },
           { "lat": 39.524167, "lon": 2.825278 },
@@ -6436,7 +6436,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.280556, "lon": 2.363889 },
           { "lat": 39.212778, "lon": 2.491944 },
@@ -6498,7 +6498,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 39.813611, "lon": 3.388333 },
           { "lat": 39.7275, "lon": 3.393889 },
@@ -6525,7 +6525,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 16400,
+        "ceilingFt": 16500,
         "polygon": [
           { "lat": 39.596389, "lon": 3.617778 },
           { "lat": 39.630278, "lon": 3.646667 },
@@ -6552,7 +6552,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 13400,
+        "ceilingFt": 13500,
         "polygon": [
           { "lat": 39.325556, "lon": 3.185 },
           { "lat": 39.358611, "lon": 3.316389 },
@@ -6574,7 +6574,7 @@
           "24L/R"
         ],
         "floorFt": 12500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.179722, "lon": 2.6125 },
           { "lat": 39.256111, "lon": 2.910833 },
@@ -6594,7 +6594,7 @@
           "24L/R"
         ],
         "floorFt": 9500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.212778, "lon": 2.491944 },
           { "lat": 39.198889, "lon": 2.518611 },
@@ -6658,7 +6658,7 @@
           "24L/R"
         ],
         "floorFt": 12500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 39.323889, "lon": 2.280833 },
           { "lat": 39.280556, "lon": 2.363889 },
@@ -6679,7 +6679,7 @@
           "24L/R"
         ],
         "floorFt": 3500,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 39.893889, "lon": 3.249444 },
           { "lat": 39.777222, "lon": 3.204722 },
@@ -6705,7 +6705,7 @@
           "24L/R"
         ],
         "floorFt": 3500,
-        "ceilingFt": 16400,
+        "ceilingFt": 16500,
         "polygon": [
           { "lat": 39.663611, "lon": 2.973611 },
           { "lat": 39.633611, "lon": 3.024444 },
@@ -6729,7 +6729,7 @@
       {
         "id": "LECB·L2X_1",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.145, "lon": 3.601111 },
           { "lat": 40.5, "lon": 3.569167 },
@@ -6750,7 +6750,7 @@
       {
         "id": "LECB·LEDA_TWR",
         "floorFt": 3500,
-        "ceilingFt": 19400,
+        "ceilingFt": 19500,
         "polygon": [
           { "lat": 41.63, "lon": 0.561389 },
           { "lat": 41.635556, "lon": 0.586667 },
@@ -6796,7 +6796,7 @@
       {
         "id": "LECB·LEGE_A_ATZ",
         "floorFt": 500,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 41.972778, "lon": 2.760556 },
           { "lat": 41.971944, "lon": 2.775556 },
@@ -6850,7 +6850,7 @@
       {
         "id": "LECB·LEGE_A_ATZ_E",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 41.969167, "lon": 2.790556 },
           { "lat": 41.965, "lon": 2.804444 },
@@ -6890,7 +6890,7 @@
       {
         "id": "LECB·LEGE_A_ATZ_W",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 41.893611, "lon": 2.758611 },
           { "lat": 41.916111, "lon": 2.767222 },
@@ -6927,7 +6927,7 @@
       {
         "id": "LECB·LEGE_A_E",
         "floorFt": 0,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 42.0975, "lon": 2.921111 },
           { "lat": 42.072778, "lon": 2.961944 },
@@ -6980,7 +6980,7 @@
       {
         "id": "LECB·LEGE_A_W",
         "floorFt": 0,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 42.131389, "lon": 2.771944 },
           { "lat": 42.1275, "lon": 2.719444 },
@@ -7033,7 +7033,7 @@
       {
         "id": "LECB·LEGE_ATZ_H",
         "floorFt": 3500,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 41.972778, "lon": 2.760556 },
           { "lat": 41.971944, "lon": 2.775556 },
@@ -7087,7 +7087,7 @@
       {
         "id": "LECB·LEGE_TWR_DEL2",
         "floorFt": 0,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 42.374722, "lon": 3.375556 },
           { "lat": 42.025556, "lon": 3.394167 },
@@ -7135,7 +7135,7 @@
       {
         "id": "LECB·LELC_APP_H",
         "floorFt": 3000,
-        "ceilingFt": 8400,
+        "ceilingFt": 8500,
         "polygon": [
           { "lat": 37.800278, "lon": -0.498611 },
           { "lat": 37.801944, "lon": -0.498889 },
@@ -8747,7 +8747,7 @@
       {
         "id": "LECB·LELC_CTA_H",
         "floorFt": 8500,
-        "ceilingFt": 11400,
+        "ceilingFt": 11500,
         "polygon": [
           { "lat": 37.328333, "lon": -0.661111 },
           { "lat": 37.328889, "lon": -0.658889 },
@@ -10933,7 +10933,7 @@
       {
         "id": "LECB·LELC_CTA_M_N_2",
         "floorFt": 3300,
-        "ceilingFt": 8400,
+        "ceilingFt": 8500,
         "polygon": [
           { "lat": 38.116667, "lon": -0.866667 },
           { "lat": 38.116667, "lon": -0.466389 },
@@ -12183,7 +12183,7 @@
       {
         "id": "LECB·LELC_CTA_M_S_2",
         "floorFt": 3300,
-        "ceilingFt": 8400,
+        "ceilingFt": 8500,
         "polygon": [
           { "lat": 37.897778, "lon": -1.584167 },
           { "lat": 37.669722, "lon": -1.6425 },
@@ -13127,7 +13127,7 @@
       {
         "id": "LECB·LEPA_APP_TWR",
         "floorFt": 3000,
-        "ceilingFt": 9400,
+        "ceilingFt": 9500,
         "polygon": [
           { "lat": 39.620833, "lon": 2.765 },
           { "lat": 39.618056, "lon": 2.774722 },
@@ -13202,7 +13202,7 @@
           "06L/R"
         ],
         "floorFt": 9500,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 39.620833, "lon": 2.765 },
           { "lat": 39.618056, "lon": 2.774722 },
@@ -13277,7 +13277,7 @@
           "24L/R"
         ],
         "floorFt": 9500,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 39.620833, "lon": 2.765 },
           { "lat": 39.618056, "lon": 2.774722 },
@@ -13349,7 +13349,7 @@
       {
         "id": "LECB·LEPA_APP_TWR_4",
         "floorFt": 10500,
-        "ceilingFt": 16400,
+        "ceilingFt": 16500,
         "polygon": [
           { "lat": 39.620833, "lon": 2.765 },
           { "lat": 39.618056, "lon": 2.774722 },
@@ -13421,7 +13421,7 @@
       {
         "id": "LECB·MXX",
         "floorFt": 6000,
-        "ceilingFt": 13400,
+        "ceilingFt": 13500,
         "polygon": [
           { "lat": 39.325556, "lon": 3.185 },
           { "lat": 39.358611, "lon": 3.316389 },
@@ -13457,7 +13457,7 @@
       {
         "id": "LECB·MXX",
         "floorFt": 13500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.503056, "lon": 3.774444 },
           { "lat": 40.500833, "lon": 3.986389 },
@@ -13492,7 +13492,7 @@
       {
         "id": "LECB·MXX",
         "floorFt": 16500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.583056, "lon": 3.128889 },
           { "lat": 39.456389, "lon": 3.079167 },
@@ -13510,7 +13510,7 @@
       {
         "id": "LECB·MXX",
         "floorFt": 20500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.145, "lon": 3.601111 },
           { "lat": 39.908889, "lon": 3.621944 },
@@ -13595,7 +13595,7 @@
           "10"
         ],
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.860833, "lon": -1.343056 },
           { "lat": 38.998056, "lon": -1.119444 },
@@ -13619,7 +13619,7 @@
           "10"
         ],
         "floorFt": 2500,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 38.998056, "lon": -1.119444 },
           { "lat": 38.985556, "lon": -0.746389 },
@@ -13644,7 +13644,7 @@
           "28"
         ],
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.860833, "lon": -1.343056 },
           { "lat": 38.345556, "lon": -1.013056 },
@@ -13668,7 +13668,7 @@
           "28"
         ],
         "floorFt": 2500,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 38.998056, "lon": -1.119444 },
           { "lat": 38.985556, "lon": -0.746389 },
@@ -13693,7 +13693,7 @@
           "10"
         ],
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.345556, "lon": -1.013056 },
           { "lat": 38.306111, "lon": -0.681944 },
@@ -13715,7 +13715,7 @@
           "10"
         ],
         "floorFt": 2500,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 38.116667, "lon": -0.866667 },
           { "lat": 38.201944, "lon": -0.705 },
@@ -13738,7 +13738,7 @@
           "28"
         ],
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.345556, "lon": -1.013056 },
           { "lat": 38.234444, "lon": -0.94 },
@@ -13760,7 +13760,7 @@
           "28"
         ],
         "floorFt": 2500,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 38.345556, "lon": -1.013056 },
           { "lat": 38.234444, "lon": -0.94 },
@@ -13783,7 +13783,7 @@
           "24L/R"
         ],
         "floorFt": 6500,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 41.203056, "lon": 1.825278 },
           { "lat": 41.268056, "lon": 1.990833 },
@@ -13811,7 +13811,7 @@
           "06L/R"
         ],
         "floorFt": 6500,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 41.203056, "lon": 1.825278 },
           { "lat": 41.268056, "lon": 1.990833 },
@@ -13835,7 +13835,7 @@
       {
         "id": "LECB·NW4_HI",
         "floorFt": 6500,
-        "ceilingFt": 19400,
+        "ceilingFt": 19500,
         "polygon": [
           { "lat": 42.497778, "lon": 1.731667 },
           { "lat": 42.4925, "lon": 1.701667 },
@@ -14023,7 +14023,7 @@
       {
         "id": "LECB·NW4_LOW2",
         "floorFt": 3000,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 41.7475, "lon": 0.666667 },
           { "lat": 42.262778, "lon": 1.414722 },
@@ -14060,7 +14060,7 @@
       {
         "id": "LECB·NW4_LOW2_S",
         "floorFt": 3000,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 42.497778, "lon": 1.731667 },
           { "lat": 42.4925, "lon": 1.701667 },
@@ -14127,7 +14127,7 @@
       {
         "id": "LECB·NW4_MID",
         "floorFt": 5500,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 42.45, "lon": 1.458333 },
           { "lat": 42.485, "lon": 1.664444 },
@@ -14181,7 +14181,7 @@
           "06L/R"
         ],
         "floorFt": 3500,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 41.480556, "lon": 1.97 },
           { "lat": 41.416667, "lon": 2.014722 },
@@ -14210,7 +14210,7 @@
           "24L/R"
         ],
         "floorFt": 3500,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 41.480556, "lon": 1.97 },
           { "lat": 41.416667, "lon": 2.014722 },
@@ -14238,7 +14238,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 41.416667, "lon": 2.014722 },
           { "lat": 41.480556, "lon": 1.97 },
@@ -14430,7 +14430,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 41.416667, "lon": 2.014722 },
           { "lat": 41.480556, "lon": 1.97 },
@@ -14621,7 +14621,7 @@
           "06L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 41.293611, "lon": 2.075833 },
           { "lat": 41.363333, "lon": 2.041667 },
@@ -14644,7 +14644,7 @@
           "24L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 41.293611, "lon": 2.075833 },
           { "lat": 41.363333, "lon": 2.041667 },
@@ -14663,7 +14663,7 @@
       {
         "id": "LECB·SW3_HI",
         "floorFt": 12500,
-        "ceilingFt": 19400,
+        "ceilingFt": 19500,
         "polygon": [
           { "lat": 40.301111, "lon": 2.108056 },
           { "lat": 40.217778, "lon": 2.002222 },
@@ -14698,7 +14698,7 @@
       {
         "id": "LECB·SW3_LOW",
         "floorFt": 0,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 40.539444, "lon": 1.356389 },
           { "lat": 40.741944, "lon": 0.719444 },
@@ -14744,7 +14744,7 @@
       {
         "id": "LECB·SW3_MID125",
         "floorFt": 9500,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 40.539444, "lon": 1.356389 },
           { "lat": 40.741944, "lon": 0.719444 },
@@ -14781,7 +14781,7 @@
       {
         "id": "LECB·SW3_MID95",
         "floorFt": 6500,
-        "ceilingFt": 9400,
+        "ceilingFt": 9500,
         "polygon": [
           { "lat": 40.539444, "lon": 1.356389 },
           { "lat": 40.741944, "lon": 0.719444 },
@@ -14823,7 +14823,7 @@
       {
         "id": "LECB·VALT",
         "floorFt": 0,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 38.345556, "lon": -1.013056 },
           { "lat": 38.234444, "lon": -0.94 },
@@ -14847,7 +14847,7 @@
       {
         "id": "LECB·VALT",
         "floorFt": 6500,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 38.345556, "lon": -1.013056 },
           { "lat": 38.234444, "lon": -0.94 },
@@ -14866,7 +14866,7 @@
       {
         "id": "LECB·VALT_2",
         "floorFt": 6500,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 38.289722, "lon": -0.548889 },
           { "lat": 38.166667, "lon": -0.454167 },
@@ -14886,7 +14886,7 @@
       {
         "id": "LECB·VALT_3",
         "floorFt": 0,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 38.116667, "lon": -0.866667 },
           { "lat": 38.201944, "lon": -0.705 },
@@ -14905,7 +14905,7 @@
       {
         "id": "LECB·VALT_4",
         "floorFt": 0,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 37.956389, "lon": -0.267222 },
           { "lat": 38, "lon": -0.333333 },
@@ -15184,7 +15184,7 @@
       {
         "id": "LECB·VALT_5",
         "floorFt": 0,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 37.284167, "lon": -1.740556 },
           { "lat": 37.125, "lon": -1.774722 },
@@ -15303,7 +15303,7 @@
       {
         "id": "LECB·VALT_6",
         "floorFt": 2500,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 38.289722, "lon": -0.548889 },
           { "lat": 38.166667, "lon": -0.454167 },
@@ -15323,7 +15323,7 @@
           "06L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 41.303611, "lon": 2.106667 },
           { "lat": 41.077778, "lon": 2.079444 },
@@ -15344,7 +15344,7 @@
           "24L/R"
         ],
         "floorFt": 3000,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 41.166944, "lon": 2.209167 },
           { "lat": 41.303611, "lon": 2.106667 },
@@ -15364,7 +15364,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 41.078889, "lon": 2.083611 },
           { "lat": 40.874444, "lon": 2.063333 },
@@ -15386,7 +15386,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 41.078889, "lon": 2.083611 },
           { "lat": 40.874444, "lon": 2.063333 },
@@ -15407,7 +15407,7 @@
           "06L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 41.078889, "lon": 2.083611 },
           { "lat": 41.166944, "lon": 2.209167 },
@@ -15428,7 +15428,7 @@
           "24L/R"
         ],
         "floorFt": 0,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 41.078889, "lon": 2.083611 },
           { "lat": 41.166944, "lon": 2.209167 },
@@ -15445,7 +15445,7 @@
       {
         "id": "LECB·VKAT",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.545833, "lon": -0.241944 },
           { "lat": 38.968056, "lon": -0.189722 },
@@ -15466,7 +15466,7 @@
       {
         "id": "LECB·VKAT",
         "floorFt": 2500,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 38.985556, "lon": -0.746389 },
           { "lat": 38.968056, "lon": -0.189722 },
@@ -15491,7 +15491,7 @@
           "10"
         ],
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.176111, "lon": 0.276111 },
           { "lat": 38, "lon": 0.166667 },
@@ -15513,7 +15513,7 @@
           "10"
         ],
         "floorFt": 2500,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 38.289722, "lon": -0.548889 },
           { "lat": 38.271111, "lon": -0.431111 },
@@ -15536,7 +15536,7 @@
           "10"
         ],
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.924167, "lon": 0.483333 },
           { "lat": 38.751667, "lon": 0.483333 },
@@ -15563,7 +15563,7 @@
           "10"
         ],
         "floorFt": 2500,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 38.924167, "lon": 0.483333 },
           { "lat": 38.968056, "lon": -0.189722 },
@@ -15591,7 +15591,7 @@
           "28"
         ],
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.271111, "lon": -0.431111 },
           { "lat": 38.176111, "lon": 0.276111 },
@@ -15613,7 +15613,7 @@
           "28"
         ],
         "floorFt": 2500,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 38.289722, "lon": -0.548889 },
           { "lat": 38.271111, "lon": -0.431111 },
@@ -15636,7 +15636,7 @@
           "28"
         ],
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.545833, "lon": -0.241944 },
           { "lat": 38.968056, "lon": -0.189722 },
@@ -15663,7 +15663,7 @@
           "28"
         ],
         "floorFt": 2500,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 38.289722, "lon": -0.548889 },
           { "lat": 38.355278, "lon": -0.411389 },
@@ -15688,7 +15688,7 @@
       {
         "id": "LECB·VSAL",
         "floorFt": 12500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 38.416667, "lon": -2.073611 },
           { "lat": 38.2, "lon": -2.033333 },
@@ -15907,7 +15907,7 @@
       {
         "id": "LECB·VSAL",
         "floorFt": 17500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.250833, "lon": -0.151667 },
           { "lat": 38.968056, "lon": -0.189722 },
@@ -15925,7 +15925,7 @@
       {
         "id": "LECB·VSAL",
         "floorFt": 19500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.250833, "lon": -0.151667 },
           { "lat": 39.136389, "lon": 0.4825 },
@@ -15945,7 +15945,7 @@
       {
         "id": "LECB·VSAL_2",
         "floorFt": 11500,
-        "ceilingFt": 12400,
+        "ceilingFt": 12500,
         "polygon": [
           { "lat": 37.328333, "lon": -0.661111 },
           { "lat": 37.328889, "lon": -0.658889 },
@@ -16506,7 +16506,7 @@
       {
         "id": "LECB·VSVC",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.566667, "lon": -1.65 },
           { "lat": 39.538889, "lon": -1.745278 },
@@ -16529,7 +16529,7 @@
       {
         "id": "LECB·VSVC",
         "floorFt": 12500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 38.545833, "lon": -0.241944 },
           { "lat": 38.968056, "lon": -0.189722 },
@@ -16550,7 +16550,7 @@
       {
         "id": "LECB·VSVC",
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 38.985556, "lon": -0.746389 },
           { "lat": 38.968056, "lon": -0.189722 },
@@ -16574,7 +16574,7 @@
       {
         "id": "LECB·VSVC",
         "floorFt": 21500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.230833, "lon": -0.933056 },
           { "lat": 40.233333, "lon": -0.413889 },
@@ -16596,7 +16596,7 @@
       {
         "id": "LECB·VVLC",
         "floorFt": 0,
-        "ceilingFt": 17400,
+        "ceilingFt": 17500,
         "polygon": [
           { "lat": 38.924167, "lon": 0.483333 },
           { "lat": 39.136389, "lon": 0.4825 },
@@ -16614,7 +16614,7 @@
       {
         "id": "LECB·VVLC",
         "floorFt": 0,
-        "ceilingFt": 19400,
+        "ceilingFt": 19500,
         "polygon": [
           { "lat": 39.250833, "lon": -0.151667 },
           { "lat": 39.649722, "lon": -0.100278 },
@@ -16634,7 +16634,7 @@
       {
         "id": "LECB·VVLC",
         "floorFt": 0,
-        "ceilingFt": 21400,
+        "ceilingFt": 21500,
         "polygon": [
           { "lat": 40.230833, "lon": -0.933056 },
           { "lat": 39.649722, "lon": -0.100278 },
@@ -16698,7 +16698,7 @@
       {
         "id": "LECB·VVLC",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.233333, "lon": -0.093889 },
           { "lat": 40.233333, "lon": -0.413889 },
@@ -16801,7 +16801,7 @@
       {
         "id": "LECB·VVLC",
         "floorFt": 2500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 40.230833, "lon": -0.933056 },
           { "lat": 40.001667, "lon": -1.010278 },
@@ -16825,7 +16825,7 @@
       {
         "id": "LECB·VVLC",
         "floorFt": 4000,
-        "ceilingFt": 21400,
+        "ceilingFt": 21500,
         "polygon": [
           { "lat": 40.233889, "lon": 0.201389 },
           { "lat": 40.232222, "lon": 0.201944 },
@@ -16882,7 +16882,7 @@
       {
         "id": "LECB·VVLC",
         "floorFt": 4000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.233889, "lon": 0.201389 },
           { "lat": 40.233333, "lon": -0.093889 },
@@ -16979,7 +16979,7 @@
       {
         "id": "LECB·VVLC_VCTE",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 39.250833, "lon": -0.151667 },
           { "lat": 38.968056, "lon": -0.189722 },
@@ -17019,7 +17019,7 @@
       {
         "id": "LECB·VVLC_VCTW",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 38.985556, "lon": -0.746389 },
           { "lat": 39.453056, "lon": -0.561944 },
@@ -17059,7 +17059,7 @@
       {
         "id": "LECM·LEAB_CTA_HIGH",
         "floorFt": 3500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 38.615833, "lon": -2.110278 },
           { "lat": 38.425, "lon": -2.454722 },
@@ -17104,7 +17104,7 @@
       {
         "id": "LECM·LEAB_E_CTA_LOW",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 39.455278, "lon": -1.832222 },
           { "lat": 39.043889, "lon": -1.440833 },
@@ -17140,7 +17140,7 @@
       {
         "id": "LECM·LEAB_W_CTA_LOW",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 39.455278, "lon": -1.832222 },
           { "lat": 39.056944, "lon": -1.863333 },
@@ -17199,7 +17199,7 @@
       {
         "id": "LECM·LEZG_APP",
         "floorFt": 3500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.461667, "lon": -1.246944 },
           { "lat": 42.608333, "lon": -1.633333 },
@@ -17232,7 +17232,7 @@
       {
         "id": "LECM·LEZG_APP_NL",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 42.461667, "lon": -1.246944 },
           { "lat": 42.608333, "lon": -1.633333 },
@@ -17274,7 +17274,7 @@
       {
         "id": "LECM·LEZG_APP_SL",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 41.033333, "lon": -2.5 },
           { "lat": 41.033333, "lon": -2.4225 },
@@ -17320,7 +17320,7 @@
       {
         "id": "LECB·BND",
         "floorFt": 32500,
-        "ceilingFt": 34400,
+        "ceilingFt": 34500,
         "polygon": [
           { "lat": 42.497778, "lon": 1.731667 },
           { "lat": 42.486111, "lon": 1.731111 },
@@ -17352,7 +17352,7 @@
       {
         "id": "LECB·CCL",
         "floorFt": 24500,
-        "ceilingFt": 33400,
+        "ceilingFt": 33500,
         "polygon": [
           { "lat": 40.014722, "lon": 2.258333 },
           { "lat": 40.423611, "lon": 2.903611 },
@@ -17375,7 +17375,7 @@
       {
         "id": "LECB·CCL",
         "floorFt": 30500,
-        "ceilingFt": 33400,
+        "ceilingFt": 33500,
         "polygon": [
           { "lat": 41.8225, "lon": 2.652222 },
           { "lat": 41.491944, "lon": 2.962778 },
@@ -17397,7 +17397,7 @@
       {
         "id": "LECB·CCL",
         "floorFt": 30500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 42.497778, "lon": 1.731667 },
           { "lat": 42.486111, "lon": 1.731111 },
@@ -17422,7 +17422,7 @@
       {
         "id": "LECB·CCL_L",
         "floorFt": 19500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.8675, "lon": 2.927222 },
           { "lat": 40.5, "lon": 2.908889 },
@@ -17445,7 +17445,7 @@
       {
         "id": "LECB·CCL_M",
         "floorFt": 24500,
-        "ceilingFt": 33400,
+        "ceilingFt": 33500,
         "polygon": [
           { "lat": 40.651944, "lon": 2.041389 },
           { "lat": 40.8675, "lon": 2.927222 },
@@ -17468,7 +17468,7 @@
       {
         "id": "LECB·CCL2",
         "floorFt": 24500,
-        "ceilingFt": 33400,
+        "ceilingFt": 33500,
         "polygon": [
           { "lat": 41.083333, "lon": 2.935278 },
           { "lat": 40.8675, "lon": 2.927222 },
@@ -17488,7 +17488,7 @@
       {
         "id": "LECB·CCU",
         "floorFt": 30500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 42.194722, "lon": 4.041111 },
           { "lat": 41.803889, "lon": 3.74 },
@@ -17517,7 +17517,7 @@
       {
         "id": "LECB·CCU",
         "floorFt": 33500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 40.998889, "lon": 1.985556 },
           { "lat": 40.651944, "lon": 2.041389 },
@@ -17545,7 +17545,7 @@
       {
         "id": "LECB·DDN",
         "floorFt": 24500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 41.139722, "lon": -0.621667 },
           { "lat": 41.233333, "lon": 0.033333 },
@@ -17566,7 +17566,7 @@
       {
         "id": "LECB·DDN_L",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.143056, "lon": -0.260556 },
           { "lat": 42.015833, "lon": 0.019444 },
@@ -17596,7 +17596,7 @@
       {
         "id": "LECB·DDN_M",
         "floorFt": 24500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 42.143056, "lon": -0.260556 },
           { "lat": 42.015833, "lon": 0.019444 },
@@ -17626,7 +17626,7 @@
       {
         "id": "LECB·DDN_TMA_L",
         "floorFt": 19500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.45, "lon": 1.458333 },
           { "lat": 42.610556, "lon": 1.448333 },
@@ -17666,7 +17666,7 @@
       {
         "id": "LECB·DDN_TMA_M",
         "floorFt": 24500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 42.45, "lon": 1.458333 },
           { "lat": 42.610556, "lon": 1.448333 },
@@ -17706,7 +17706,7 @@
       {
         "id": "LECB·DDN325",
         "floorFt": 30500,
-        "ceilingFt": 32400,
+        "ceilingFt": 32500,
         "polygon": [
           { "lat": 42.497778, "lon": 1.731667 },
           { "lat": 42.486111, "lon": 1.731111 },
@@ -17738,7 +17738,7 @@
       {
         "id": "LECB·DDS",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.090556, "lon": 1.849722 },
           { "lat": 39.951389, "lon": 1.683889 },
@@ -17761,7 +17761,7 @@
       {
         "id": "LECB·DDS",
         "floorFt": 19500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.301111, "lon": 2.108056 },
           { "lat": 40.651944, "lon": 2.041389 },
@@ -17782,7 +17782,7 @@
       {
         "id": "LECB·DDS",
         "floorFt": 24500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 40.231389, "lon": 0.698611 },
           { "lat": 39.7725, "lon": 0.147778 },
@@ -17804,7 +17804,7 @@
       {
         "id": "LECB·DDS_L",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.230833, "lon": -0.933056 },
           { "lat": 41.139722, "lon": -0.621667 },
@@ -17833,7 +17833,7 @@
       {
         "id": "LECB·DDS_M",
         "floorFt": 24500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 40.373333, "lon": 1.075556 },
           { "lat": 40.209444, "lon": 0.841944 },
@@ -17860,7 +17860,7 @@
       {
         "id": "LECB·DDS_TMA_L",
         "floorFt": 19500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 41.283333, "lon": 1.936944 },
           { "lat": 41.103889, "lon": 1.966944 },
@@ -17880,7 +17880,7 @@
       {
         "id": "LECB·DDS_TMA_M",
         "floorFt": 24500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 41.283333, "lon": 1.936944 },
           { "lat": 41.103889, "lon": 1.966944 },
@@ -17900,7 +17900,7 @@
       {
         "id": "LECB·G1R",
         "floorFt": 24500,
-        "ceilingFt": 34400,
+        "ceilingFt": 34500,
         "polygon": [
           { "lat": 40.998889, "lon": 1.985556 },
           { "lat": 40.651944, "lon": 2.041389 },
@@ -17924,7 +17924,7 @@
       {
         "id": "LECB·G1R",
         "floorFt": 30500,
-        "ceilingFt": 34400,
+        "ceilingFt": 34500,
         "polygon": [
           { "lat": 40.998889, "lon": 1.985556 },
           { "lat": 40.539444, "lon": 1.356389 },
@@ -17947,7 +17947,7 @@
       {
         "id": "LECB·GO2",
         "floorFt": 34500,
-        "ceilingFt": 36400,
+        "ceilingFt": 36500,
         "polygon": [
           { "lat": 40.301111, "lon": 2.108056 },
           { "lat": 40.651944, "lon": 2.041389 },
@@ -17993,7 +17993,7 @@
       {
         "id": "LECB·GO3",
         "floorFt": 36500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 40.301111, "lon": 2.108056 },
           { "lat": 40.651944, "lon": 2.041389 },
@@ -18039,7 +18039,7 @@
       {
         "id": "LECB·GTL",
         "floorFt": 24500,
-        "ceilingFt": 32400,
+        "ceilingFt": 32500,
         "polygon": [
           { "lat": 39.25, "lon": 0.483333 },
           { "lat": 39.136389, "lon": 0.4825 },
@@ -18061,7 +18061,7 @@
       {
         "id": "LECB·GXX",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.269444, "lon": 0.470833 },
           { "lat": 39.290556, "lon": 1.168889 },
@@ -18091,7 +18091,7 @@
       {
         "id": "LECB·GXX_1",
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.586667, "lon": 2.215 },
           { "lat": 39.541111, "lon": 2.377222 },
@@ -18112,7 +18112,7 @@
       {
         "id": "LECB·GXX_2",
         "floorFt": 16500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.556667, "lon": 2.103611 },
           { "lat": 39.586667, "lon": 2.215 },
@@ -18129,7 +18129,7 @@
       {
         "id": "LECB·LAG",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 38.608333, "lon": 1.116667 },
           { "lat": 38.608333, "lon": 1.054722 },
@@ -18341,7 +18341,7 @@
       {
         "id": "LECB·LAG",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 39.016667, "lon": -1.291944 },
           { "lat": 38.998056, "lon": -1.119444 },
@@ -18563,7 +18563,7 @@
       {
         "id": "LECB·LAG",
         "floorFt": 32500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 39.25, "lon": 0.483333 },
           { "lat": 39.136389, "lon": 0.4825 },
@@ -18585,7 +18585,7 @@
       {
         "id": "LECB·LAG2",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 38.608333, "lon": 1.116667 },
           { "lat": 38.608333, "lon": 1.054722 },
@@ -18797,7 +18797,7 @@
       {
         "id": "LECB·LVL",
         "floorFt": 24500,
-        "ceilingFt": 32400,
+        "ceilingFt": 32500,
         "polygon": [
           { "lat": 40.230833, "lon": -0.933056 },
           { "lat": 40.233333, "lon": -0.413889 },
@@ -18828,7 +18828,7 @@
       {
         "id": "LECB·LVL",
         "floorFt": 30500,
-        "ceilingFt": 32400,
+        "ceilingFt": 32500,
         "polygon": [
           { "lat": 40.233333, "lon": 0.343333 },
           { "lat": 40.231944, "lon": -0.025 },
@@ -18850,7 +18850,7 @@
       {
         "id": "LECB·LVU",
         "floorFt": 32500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 39.016667, "lon": -1.291944 },
           { "lat": 38.998056, "lon": -1.119444 },
@@ -18883,7 +18883,7 @@
       {
         "id": "LECB·MMS",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.332222, "lon": 4.083333 },
           { "lat": 39.276667, "lon": 3.957222 },
@@ -18905,7 +18905,7 @@
       {
         "id": "LECB·MMS",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 39.716667, "lon": 4.666667 },
           { "lat": 39.989722, "lon": 4.666667 },
@@ -18934,7 +18934,7 @@
       {
         "id": "LECB·MMS2",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 38.333333, "lon": 3.75 },
           { "lat": 39.08, "lon": 3.513889 },
@@ -18956,7 +18956,7 @@
       {
         "id": "LECB·MNL",
         "floorFt": 24500,
-        "ceilingFt": 32400,
+        "ceilingFt": 32500,
         "polygon": [
           { "lat": 40.9175, "lon": 3.874722 },
           { "lat": 40.883056, "lon": 4.069722 },
@@ -18975,7 +18975,7 @@
       {
         "id": "LECB·MNL",
         "floorFt": 30500,
-        "ceilingFt": 32400,
+        "ceilingFt": 32500,
         "polygon": [
           { "lat": 41.777222, "lon": 4.071111 },
           { "lat": 40.9175, "lon": 3.874722 },
@@ -18992,7 +18992,7 @@
       {
         "id": "LECB·MNL_L",
         "floorFt": 19500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.651111, "lon": 3.815556 },
           { "lat": 40.503056, "lon": 3.774444 },
@@ -19009,7 +19009,7 @@
       {
         "id": "LECB·MNL_LO",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.883056, "lon": 4.069722 },
           { "lat": 40.572222, "lon": 4.067222 },
@@ -19031,7 +19031,7 @@
       {
         "id": "LECB·MNL_M",
         "floorFt": 24500,
-        "ceilingFt": 32400,
+        "ceilingFt": 32500,
         "polygon": [
           { "lat": 40.651111, "lon": 3.815556 },
           { "lat": 40.503056, "lon": 3.774444 },
@@ -19048,7 +19048,7 @@
       {
         "id": "LECB·MNL_ME",
         "floorFt": 24500,
-        "ceilingFt": 32400,
+        "ceilingFt": 32500,
         "polygon": [
           { "lat": 40.883056, "lon": 4.069722 },
           { "lat": 40.572222, "lon": 4.067222 },
@@ -19070,7 +19070,7 @@
       {
         "id": "LECB·MNU",
         "floorFt": 32500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 40.5, "lon": 4.666667 },
           { "lat": 41.141667, "lon": 4.666667 },
@@ -19093,7 +19093,7 @@
       {
         "id": "LECB·P2R",
         "floorFt": 30500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 40.230833, "lon": -0.933056 },
           { "lat": 40.233333, "lon": -0.413889 },
@@ -19121,7 +19121,7 @@
       {
         "id": "LECB·TXX",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.071111, "lon": 2.361389 },
           { "lat": 40.172778, "lon": 2.381944 },
@@ -19147,7 +19147,7 @@
       {
         "id": "LECB·TXX",
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.323889, "lon": 2.280833 },
           { "lat": 39.280556, "lon": 2.363889 },
@@ -19218,7 +19218,7 @@
       {
         "id": "LECB·TXX",
         "floorFt": 16500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.071111, "lon": 2.361389 },
           { "lat": 39.954444, "lon": 2.483611 },
@@ -19295,7 +19295,7 @@
       {
         "id": "LECB·TXX",
         "floorFt": 20500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.071111, "lon": 2.361389 },
           { "lat": 39.954444, "lon": 2.483611 },
@@ -19320,7 +19320,7 @@
       {
         "id": "LECB·VNI",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 40.185, "lon": 3.708611 },
           { "lat": 40.503056, "lon": 3.774444 },
@@ -19342,7 +19342,7 @@
       {
         "id": "LECB·VNI",
         "floorFt": 30500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 41.083333, "lon": 2.935278 },
           { "lat": 41.491944, "lon": 2.962778 },
@@ -19365,7 +19365,7 @@
       {
         "id": "LECB·VNI_L",
         "floorFt": 19500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.5, "lon": 2.908889 },
           { "lat": 40.8675, "lon": 2.927222 },
@@ -19389,7 +19389,7 @@
       {
         "id": "LECB·VNI_M",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 40.9275, "lon": 3.1775 },
           { "lat": 40.984722, "lon": 3.436667 },
@@ -19413,7 +19413,7 @@
       {
         "id": "LECB·VNI2",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 40.9275, "lon": 3.1775 },
           { "lat": 40.984722, "lon": 3.436667 },
@@ -19434,7 +19434,7 @@
       {
         "id": "LECB·VVS",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 38.333333, "lon": 3.75 },
           { "lat": 39.08, "lon": 3.513889 },
@@ -19455,7 +19455,7 @@
       {
         "id": "LECB·VVS",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 40.014722, "lon": 2.258333 },
           { "lat": 39.723611, "lon": 1.921111 },
@@ -19482,7 +19482,7 @@
       {
         "id": "LECB·VVS2",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 37.724722, "lon": 2.123333 },
           { "lat": 38.608611, "lon": 1.884167 },
@@ -19503,7 +19503,7 @@
       {
         "id": "LECB·XAR",
         "floorFt": 0,
-        "ceilingFt": 19400,
+        "ceilingFt": 19500,
         "polygon": [
           { "lat": 40.9275, "lon": 3.1775 },
           { "lat": 40.984722, "lon": 3.436667 },
@@ -19526,7 +19526,7 @@
       {
         "id": "LECB·XAR",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.9275, "lon": 3.1775 },
           { "lat": 40.984722, "lon": 3.436667 },
@@ -19548,7 +19548,7 @@
       {
         "id": "LECB·XAR",
         "floorFt": 19500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.651944, "lon": 2.041389 },
           { "lat": 40.8675, "lon": 2.927222 },
@@ -19570,7 +19570,7 @@
       {
         "id": "LECB·XAR",
         "floorFt": 25500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 42.025278, "lon": 1.8075 },
           { "lat": 41.758889, "lon": 1.855833 },
@@ -19609,7 +19609,7 @@
       {
         "id": "LECB·XAR_L",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.9175, "lon": 3.874722 },
           { "lat": 41.024167, "lon": 3.265 },
@@ -19634,7 +19634,7 @@
       {
         "id": "LECB·XAR_M",
         "floorFt": 24500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 40.9175, "lon": 3.874722 },
           { "lat": 41.024167, "lon": 3.265 },
@@ -19659,7 +19659,7 @@
       {
         "id": "LECB·XAR_TMA_L",
         "floorFt": 19500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 41.854722, "lon": 2.523611 },
           { "lat": 41.758889, "lon": 1.855833 },
@@ -19690,7 +19690,7 @@
       {
         "id": "LECB·XAR_TMA_M",
         "floorFt": 24500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 41.854722, "lon": 2.523611 },
           { "lat": 41.758889, "lon": 1.855833 },
@@ -19721,7 +19721,7 @@
       {
         "id": "LECM·CJL_CTR_N_LOW",
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.230833, "lon": -0.933056 },
           { "lat": 41.139722, "lon": -0.621667 },
@@ -19765,7 +19765,7 @@
       {
         "id": "LECM·CJL_CTR_S_LOW",
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 39.008333, "lon": -3.413611 },
           { "lat": 39.580556, "lon": -3.198056 },
@@ -19821,7 +19821,7 @@
       {
         "id": "LECM·LECB_DEL_HIGH_",
         "floorFt": 30500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 37.098889, "lon": -1.781111 },
           { "lat": 36.439722, "lon": -1.948056 },
@@ -19843,7 +19843,7 @@
       {
         "id": "LECM·LECB_DEL_LOW_EN",
         "floorFt": 0,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 36.445278, "lon": -1.935556 },
           { "lat": 36.503056, "lon": -1.847222 },
@@ -19870,7 +19870,7 @@
       {
         "id": "LECM·LECB_DEL_LOW_ES",
         "floorFt": 0,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 35.833333, "lon": -2.1 },
           { "lat": 36.252222, "lon": -1.495 },
@@ -19890,7 +19890,7 @@
       {
         "id": "LECM·LECB_DEL_MID_S",
         "floorFt": 14500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 35.833333, "lon": -2.1 },
           { "lat": 36.252222, "lon": -1.495 },
@@ -19910,7 +19910,7 @@
       {
         "id": "LECM·LECB_MID_DEL_N",
         "floorFt": 14500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 36.445278, "lon": -1.935556 },
           { "lat": 36.439722, "lon": -1.948056 },
@@ -19930,7 +19930,7 @@
       {
         "id": "LECM·LECM_CJL_CTR",
         "floorFt": 5500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.008333, "lon": -3.413611 },
           { "lat": 39.580556, "lon": -3.198056 },
@@ -19980,7 +19980,7 @@
       {
         "id": "LECM·LECM_CJU_CTR",
         "floorFt": 24500,
-        "ceilingFt": 32400,
+        "ceilingFt": 32500,
         "polygon": [
           { "lat": 41.139722, "lon": -0.621667 },
           { "lat": 41.033333, "lon": -1.333333 },
@@ -20017,7 +20017,7 @@
       {
         "id": "LECM·LECM_CJU_CTR",
         "floorFt": 32500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 41.139722, "lon": -0.621667 },
           { "lat": 41.033333, "lon": -1.333333 },
@@ -20054,7 +20054,7 @@
       {
         "id": "LECM·LECM_ZGZ_CTR",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.143056, "lon": -0.260556 },
           { "lat": 42.7, "lon": -0.066667 },
@@ -20077,7 +20077,7 @@
       {
         "id": "LECM·LECM_ZGZ_TER",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 41.033333, "lon": -2.4225 },
           { "lat": 41.034444, "lon": -2.158333 },
@@ -20103,7 +20103,7 @@
       {
         "id": "LECM·LECS_ALML_LOW1",
         "floorFt": 0,
-        "ceilingFt": 8900,
+        "ceilingFt": 9000,
         "polygon": [
           { "lat": 36.401944, "lon": -2.4825 },
           { "lat": 36.445278, "lon": -2.583333 },
@@ -20176,7 +20176,7 @@
       {
         "id": "LECM·LECS_CEN",
         "floorFt": 24500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 36.337222, "lon": -3.866667 },
           { "lat": 36.401944, "lon": -2.4825 },
@@ -20219,7 +20219,7 @@
       {
         "id": "LECM·LECS_EC_CTR",
         "floorFt": 9000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 36.401944, "lon": -2.4825 },
           { "lat": 36.445278, "lon": -2.583333 },
@@ -20292,7 +20292,7 @@
       {
         "id": "LECM·LECS_EN_CTR",
         "floorFt": 9000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.01, "lon": -3.635556 },
           { "lat": 39.008333, "lon": -3.541389 },
@@ -20385,7 +20385,7 @@
       {
         "id": "LECM·LECS_LXE_CTR_LOW",
         "floorFt": 0,
-        "ceilingFt": 8900,
+        "ceilingFt": 9000,
         "polygon": [
           { "lat": 39.01, "lon": -3.635556 },
           { "lat": 39.008333, "lon": -3.541389 },
@@ -20478,7 +20478,7 @@
       {
         "id": "LECM·LECS_NO1",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 37.959444, "lon": -1.675 },
           { "lat": 37.521944, "lon": -2.828611 },
@@ -20520,7 +20520,7 @@
       {
         "id": "LECM·LECS_SUR_N",
         "floorFt": 30500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 36.337222, "lon": -3.866667 },
           { "lat": 36.401944, "lon": -2.4825 },
@@ -20563,7 +20563,7 @@
       {
         "id": "LECM·GEML_GND",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 35.279167, "lon": -2.959444 },
           { "lat": 35.275833, "lon": -2.956944 },
@@ -20581,7 +20581,7 @@
       {
         "id": "LECM·LEAB_GND",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 38.949444, "lon": -1.845556 },
           { "lat": 38.955556, "lon": -1.848611 },
@@ -20603,7 +20603,7 @@
       {
         "id": "LECM·LEAM_GND",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 36.84, "lon": -2.388333 },
           { "lat": 36.848889, "lon": -2.351944 },
@@ -20623,7 +20623,7 @@
       {
         "id": "LECM·LEAS_GND",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 43.566111, "lon": -6.048333 },
           { "lat": 43.559722, "lon": -6.021111 },
@@ -20641,7 +20641,7 @@
       {
         "id": "LECM·LEBB_GND_N",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 43.295556, "lon": -2.894444 },
           { "lat": 43.297778, "lon": -2.893056 },
@@ -20661,7 +20661,7 @@
       {
         "id": "LECM·LEBB_GND_S",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 43.302222, "lon": -2.928611 },
           { "lat": 43.303056, "lon": -2.938889 },
@@ -20704,7 +20704,7 @@
       {
         "id": "LECM·LECO_GND",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 43.303889, "lon": -8.377222 },
           { "lat": 43.298333, "lon": -8.381667 },
@@ -20722,7 +20722,7 @@
       {
         "id": "LECM·LECU_GND",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.370833, "lon": -3.794444 },
           { "lat": 40.369722, "lon": -3.775556 },
@@ -20758,7 +20758,7 @@
       {
         "id": "LECM·LEGT_GND",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.296111, "lon": -3.707222 },
           { "lat": 40.306111, "lon": -3.707222 },
@@ -20781,7 +20781,7 @@
       {
         "id": "LECM·LEJR_GND",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 36.734722, "lon": -6.065833 },
           { "lat": 36.755278, "lon": -6.055833 },
@@ -20801,7 +20801,7 @@
       {
         "id": "LECM·LEMD_GND_CN",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.486111, "lon": -3.578056 },
           { "lat": 40.486667, "lon": -3.577222 },
@@ -20829,7 +20829,7 @@
       {
         "id": "LECM·LEMD_GND_CS",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.484722, "lon": -3.583611 },
           { "lat": 40.484722, "lon": -3.580278 },
@@ -20858,7 +20858,7 @@
       {
         "id": "LECM·LEMD_GND_EN",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.489167, "lon": -3.573056 },
           { "lat": 40.489167, "lon": -3.569722 },
@@ -20882,7 +20882,7 @@
       {
         "id": "LECM·LEMD_GND_ES",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.482222, "lon": -3.569444 },
           { "lat": 40.480833, "lon": -3.567778 },
@@ -20908,7 +20908,7 @@
       {
         "id": "LECM·LEMD_GND_SN",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.479167, "lon": -3.574444 },
           { "lat": 40.476389, "lon": -3.571667 },
@@ -20938,7 +20938,7 @@
       {
         "id": "LECM·LEMD_GND_SS",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.468333, "lon": -3.561111 },
           { "lat": 40.455556, "lon": -3.548333 },
@@ -20965,7 +20965,7 @@
       {
         "id": "LECM·LEMD_GND_WN",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.491389, "lon": -3.593889 },
           { "lat": 40.491389, "lon": -3.586667 },
@@ -20986,7 +20986,7 @@
       {
         "id": "LECM·LEMD_GND_WS",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.491389, "lon": -3.593889 },
           { "lat": 40.491389, "lon": -3.586667 },
@@ -21007,7 +21007,7 @@
       {
         "id": "LECM·LEMG_E_GND",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 36.685, "lon": -4.506389 },
           { "lat": 36.687778, "lon": -4.503333 },
@@ -21040,7 +21040,7 @@
       {
         "id": "LECM·LEMG_W_GND",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 36.677778, "lon": -4.494167 },
           { "lat": 36.671667, "lon": -4.485556 },
@@ -21075,7 +21075,7 @@
       {
         "id": "LECM·LEMG_W_GND_MIL",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 36.667778, "lon": -4.495278 },
           { "lat": 36.663611, "lon": -4.489444 },
@@ -21095,7 +21095,7 @@
       {
         "id": "LECM·LEPP_GND",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 42.767222, "lon": -1.643333 },
           { "lat": 42.763056, "lon": -1.640278 },
@@ -21189,7 +21189,7 @@
       {
         "id": "LECM·LERT_GND_N",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 36.646944, "lon": -6.358889 },
           { "lat": 36.644444, "lon": -6.334167 },
@@ -21207,7 +21207,7 @@
       {
         "id": "LECM·LERT_GND_S",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 36.646667, "lon": -6.371389 },
           { "lat": 36.6425, "lon": -6.327222 },
@@ -21226,7 +21226,7 @@
       {
         "id": "LECM·LESA_GND_N",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 40.953611, "lon": -5.5 },
           { "lat": 40.9625, "lon": -5.493611 },
@@ -21244,7 +21244,7 @@
       {
         "id": "LECM·LESA_GND_S",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 40.951944, "lon": -5.497222 },
           { "lat": 40.948889, "lon": -5.499167 },
@@ -21265,7 +21265,7 @@
       {
         "id": "LECM·LESO_GND",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 43.358333, "lon": -1.789444 },
           { "lat": 43.359722, "lon": -1.790556 },
@@ -21283,7 +21283,7 @@
       {
         "id": "LECM·LEST_GND",
         "floorFt": 0,
-        "ceilingFt": 1400,
+        "ceilingFt": 1500,
         "polygon": [
           { "lat": 42.912222, "lon": -8.421111 },
           { "lat": 42.883056, "lon": -8.411389 },
@@ -21303,7 +21303,7 @@
       {
         "id": "LECM·LETO_GND",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.49, "lon": -3.467222 },
           { "lat": 40.493333, "lon": -3.46 },
@@ -21328,7 +21328,7 @@
       {
         "id": "LECM·LEVT_GND",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 42.87, "lon": -2.738333 },
           { "lat": 42.896667, "lon": -2.711944 },
@@ -21348,7 +21348,7 @@
       {
         "id": "LECM·LEVX_GND",
         "floorFt": 0,
-        "ceilingFt": 1400,
+        "ceilingFt": 1500,
         "polygon": [
           { "lat": 42.228333, "lon": -8.628056 },
           { "lat": 42.218889, "lon": -8.630833 },
@@ -21367,7 +21367,7 @@
       {
         "id": "LECM·LEXJ_GND",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 43.43, "lon": -3.8325 },
           { "lat": 43.423889, "lon": -3.81 },
@@ -21385,7 +21385,7 @@
       {
         "id": "LECM·LEZG_GND_C",
         "floorFt": 0,
-        "ceilingFt": 1400,
+        "ceilingFt": 1500,
         "polygon": [
           { "lat": 41.677222, "lon": -1.073056 },
           { "lat": 41.663333, "lon": -1.040833 },
@@ -21403,7 +21403,7 @@
       {
         "id": "LECM·LEZG_GND_N",
         "floorFt": 0,
-        "ceilingFt": 1400,
+        "ceilingFt": 1500,
         "polygon": [
           { "lat": 41.670833, "lon": -1.040833 },
           { "lat": 41.655833, "lon": -1.005278 },
@@ -21421,7 +21421,7 @@
       {
         "id": "LECM·LEZG_GND_S",
         "floorFt": 0,
-        "ceilingFt": 1400,
+        "ceilingFt": 1500,
         "polygon": [
           { "lat": 41.68, "lon": -1.083611 },
           { "lat": 41.677778, "lon": -1.085278 },
@@ -21441,7 +21441,7 @@
       {
         "id": "LECM·LEZL_GND_N",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 37.418333, "lon": -5.913889 },
           { "lat": 37.418611, "lon": -5.872222 },
@@ -21460,7 +21460,7 @@
       {
         "id": "LECM·LEZL_GND_S",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 37.4175, "lon": -5.903889 },
           { "lat": 37.4175, "lon": -5.8725 },
@@ -21532,7 +21532,7 @@
       {
         "id": "LECM·LEAB_TWR_ABG",
         "floorFt": 500,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 38.949444, "lon": -1.845556 },
           { "lat": 38.955556, "lon": -1.848611 },
@@ -21554,7 +21554,7 @@
       {
         "id": "LECM·LEAB_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 39.056944, "lon": -1.863333 },
           { "lat": 39.055, "lon": -1.836111 },
@@ -21589,7 +21589,7 @@
       {
         "id": "LECM·LEAB_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 38.969722, "lon": -1.726667 },
           { "lat": 38.948611, "lon": -1.724167 },
@@ -21626,7 +21626,7 @@
       {
         "id": "LECM·LEAM_TWR_AMG",
         "floorFt": 500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 36.84, "lon": -2.388333 },
           { "lat": 36.848889, "lon": -2.351944 },
@@ -21646,7 +21646,7 @@
       {
         "id": "LECM·LEAM_TWR_E_LOW",
         "floorFt": 0,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 36.439722, "lon": -1.948056 },
           { "lat": 36.445278, "lon": -1.935556 },
@@ -21671,7 +21671,7 @@
       {
         "id": "LECM·LEAM_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 36.742222, "lon": -2.831389 },
           { "lat": 36.84, "lon": -2.388333 },
@@ -21706,7 +21706,7 @@
       {
         "id": "LECM·LEAM_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 37.098889, "lon": -1.781111 },
           { "lat": 36.439722, "lon": -1.948056 },
@@ -21867,7 +21867,7 @@
       {
         "id": "LECM·LEAS_TMA",
         "floorFt": 3500,
-        "ceilingFt": 15400,
+        "ceilingFt": 15500,
         "polygon": [
           { "lat": 44.047778, "lon": -6.126389 },
           { "lat": 44.085, "lon": -6.135833 },
@@ -21937,7 +21937,7 @@
       {
         "id": "LECM·LEAS_TMA_E",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 43.058056, "lon": -6.041111 },
           { "lat": 43.491667, "lon": -6.034722 },
@@ -22001,7 +22001,7 @@
       {
         "id": "LECM·LEAS_TMA_W",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 43.491667, "lon": -6.034722 },
           { "lat": 43.493056, "lon": -6.054167 },
@@ -22057,7 +22057,7 @@
       {
         "id": "LECM·LEAS_TWR_ASG",
         "floorFt": 500,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 43.566111, "lon": -6.048333 },
           { "lat": 43.559722, "lon": -6.021111 },
@@ -22075,7 +22075,7 @@
       {
         "id": "LECM·LEAS_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 43.635556, "lon": -6.034722 },
           { "lat": 43.634167, "lon": -6.015278 },
@@ -22108,7 +22108,7 @@
       {
         "id": "LECM·LEAS_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 43.563611, "lon": -5.935278 },
           { "lat": 43.549444, "lon": -5.937222 },
@@ -22169,7 +22169,7 @@
       {
         "id": "LECM·LEBB_TWR",
         "floorFt": 500,
-        "ceilingFt": 4400,
+        "ceilingFt": 4500,
         "polygon": [
           { "lat": 43.3675, "lon": -2.872778 },
           { "lat": 43.361111, "lon": -2.855556 },
@@ -22215,7 +22215,7 @@
       {
         "id": "LECM·LEBB_TWR_CTRE",
         "floorFt": 0,
-        "ceilingFt": 4400,
+        "ceilingFt": 4500,
         "polygon": [
           { "lat": 43.3675, "lon": -2.872778 },
           { "lat": 43.361111, "lon": -2.855556 },
@@ -22278,7 +22278,7 @@
       {
         "id": "LECM·LEBB_TWR_CTRW",
         "floorFt": 0,
-        "ceilingFt": 4400,
+        "ceilingFt": 4500,
         "polygon": [
           { "lat": 43.3675, "lon": -2.872778 },
           { "lat": 43.409444, "lon": -2.855833 },
@@ -22338,7 +22338,7 @@
       {
         "id": "LECM·LEBB_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 43.3675, "lon": -2.872778 },
           { "lat": 43.361111, "lon": -2.855556 },
@@ -22378,7 +22378,7 @@
       {
         "id": "LECM·LEBB_TWR_RWY",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 43.303056, "lon": -2.938889 },
           { "lat": 43.302222, "lon": -2.928611 },
@@ -22396,7 +22396,7 @@
       {
         "id": "LECM·LEBB_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 43.286944, "lon": -2.813611 },
           { "lat": 43.273611, "lon": -2.819167 },
@@ -22430,7 +22430,7 @@
       {
         "id": "LECM·LEBG_TWR",
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 42.33, "lon": -3.391944 },
           { "lat": 42.318333, "lon": -3.395278 },
@@ -22520,7 +22520,7 @@
       {
         "id": "LECM·LEBZ_TWR_BZG",
         "floorFt": 1000,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 38.898333, "lon": -6.838333 },
           { "lat": 38.901389, "lon": -6.835556 },
@@ -22545,7 +22545,7 @@
       {
         "id": "LECM·LEBZ_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 38.891389, "lon": -6.728889 },
           { "lat": 38.893611, "lon": -6.816111 },
@@ -22580,7 +22580,7 @@
       {
         "id": "LECM·LEBZ_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 38.891389, "lon": -6.728889 },
           { "lat": 38.877222, "lon": -6.730556 },
@@ -22678,7 +22678,7 @@
       {
         "id": "LECM·LECU_LEGT",
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.343889, "lon": -3.791389 },
           { "lat": 40.345, "lon": -3.790278 },
@@ -22704,7 +22704,7 @@
       {
         "id": "LECM·LECU_TWR",
         "floorFt": 2500,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.370556, "lon": -3.820833 },
           { "lat": 40.375833, "lon": -3.82 },
@@ -22748,7 +22748,7 @@
       {
         "id": "LECM·LECU_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.370556, "lon": -3.820833 },
           { "lat": 40.375833, "lon": -3.82 },
@@ -22781,7 +22781,7 @@
       {
         "id": "LECM·LECU_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.344167, "lon": -3.792222 },
           { "lat": 40.343889, "lon": -3.791389 },
@@ -22814,7 +22814,7 @@
       {
         "id": "LECM·LECV_H_TWR",
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.630833, "lon": -3.726944 },
           { "lat": 40.626667, "lon": -3.744722 },
@@ -22862,7 +22862,7 @@
       {
         "id": "LECM·LEGA_TWR",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 37.178056, "lon": -3.635556 },
           { "lat": 37.177222, "lon": -3.624444 },
@@ -22910,7 +22910,7 @@
       {
         "id": "LECM·LEGR_GND_TWR",
         "floorFt": 2000,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 37.184722, "lon": -3.761389 },
           { "lat": 37.184444, "lon": -3.793889 },
@@ -22928,7 +22928,7 @@
       {
         "id": "LECM·LEGR_TWR_E_LOW",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 37.007222, "lon": -3.675833 },
           { "lat": 37.087778, "lon": -3.635556 },
@@ -22982,7 +22982,7 @@
       {
         "id": "LECM·LEGR_TWR_HIGH",
         "floorFt": 3500,
-        "ceilingFt": 8900,
+        "ceilingFt": 9000,
         "polygon": [
           { "lat": 37, "lon": -4.05 },
           { "lat": 37.0175, "lon": -4.058889 },
@@ -23018,7 +23018,7 @@
       {
         "id": "LECM·LEGR_TWR_W_LOW",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 37.184444, "lon": -3.793889 },
           { "lat": 37.184722, "lon": -3.761389 },
@@ -23058,7 +23058,7 @@
       {
         "id": "LECM·LEGT_TWR",
         "floorFt": 2500,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.343889, "lon": -3.791389 },
           { "lat": 40.343611, "lon": -3.785278 },
@@ -23110,7 +23110,7 @@
       {
         "id": "LECM·LEGT_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.294167, "lon": -3.818056 },
           { "lat": 40.308333, "lon": -3.816111 },
@@ -23151,7 +23151,7 @@
       {
         "id": "LECM·LEGT_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.288889, "lon": -3.735278 },
           { "lat": 40.294167, "lon": -3.818056 },
@@ -23189,7 +23189,7 @@
       {
         "id": "LECM·LEJR_TWR_E",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 36.861389, "lon": -6.06 },
           { "lat": 36.859167, "lon": -6.031667 },
@@ -23223,7 +23223,7 @@
       {
         "id": "LECM·LEJR_TWR_JRG",
         "floorFt": 500,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 36.734722, "lon": -6.065833 },
           { "lat": 36.755278, "lon": -6.055833 },
@@ -23243,7 +23243,7 @@
       {
         "id": "LECM·LEJR_TWR_W",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 36.734722, "lon": -6.065833 },
           { "lat": 36.735278, "lon": -6.0675 },
@@ -23281,7 +23281,7 @@
       {
         "id": "LECM·LELN_CTA",
         "floorFt": 3500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 42.821944, "lon": -6.001111 },
           { "lat": 42.903333, "lon": -5.756944 },
@@ -23330,7 +23330,7 @@
       {
         "id": "LECM·LELN_CTA_E",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 42.660556, "lon": -5.656111 },
           { "lat": 42.659167, "lon": -5.636944 },
@@ -23381,7 +23381,7 @@
       {
         "id": "LECM·LELN_CTA_W",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 42.953333, "lon": -5.606111 },
           { "lat": 42.660556, "lon": -5.656111 },
@@ -23429,7 +23429,7 @@
       {
         "id": "LECM·LELN_TWR",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 42.660556, "lon": -5.656111 },
           { "lat": 42.659167, "lon": -5.636944 },
@@ -23475,7 +23475,7 @@
       {
         "id": "LECM·LEMD_NE_TWR",
         "floorFt": 2500,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.480833, "lon": -3.567778 },
           { "lat": 40.482222, "lon": -3.569444 },
@@ -23500,7 +23500,7 @@
       {
         "id": "LECM·LEMD_NE_TWR_L",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.5025, "lon": -3.573056 },
           { "lat": 40.5025, "lon": -3.561111 },
@@ -23522,7 +23522,7 @@
       {
         "id": "LECM·LEMD_NW_TWR",
         "floorFt": 2500,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.482222, "lon": -3.569444 },
           { "lat": 40.482222, "lon": -3.5725 },
@@ -23551,7 +23551,7 @@
       {
         "id": "LECM·LEMD_NW_TWR_L",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.499167, "lon": -3.583611 },
           { "lat": 40.5, "lon": -3.583611 },
@@ -23581,7 +23581,7 @@
       {
         "id": "LECM·LEMD_SE_TWR",
         "floorFt": 2500,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.430556, "lon": -3.45 },
           { "lat": 40.471389, "lon": -3.528056 },
@@ -23603,7 +23603,7 @@
       {
         "id": "LECM·LEMD_SE_TWR_L",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.430556, "lon": -3.45 },
           { "lat": 40.471389, "lon": -3.528056 },
@@ -23625,7 +23625,7 @@
       {
         "id": "LECM·LEMD_SW_TWR",
         "floorFt": 2500,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.480833, "lon": -3.567778 },
           { "lat": 40.427778, "lon": -3.511111 },
@@ -23652,7 +23652,7 @@
       {
         "id": "LECM·LEMD_SW_TWR_L",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.400556, "lon": -3.517222 },
           { "lat": 40.427778, "lon": -3.511111 },
@@ -23697,7 +23697,7 @@
       {
         "id": "LECM·LEMG_E_TWR",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 36.722778, "lon": -4.565833 },
           { "lat": 36.725833, "lon": -4.562778 },
@@ -23734,7 +23734,7 @@
       {
         "id": "LECM·LEMG_E_TWR_IN",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 36.684167, "lon": -4.505278 },
           { "lat": 36.683333, "lon": -4.503889 },
@@ -23754,7 +23754,7 @@
       {
         "id": "LECM·LEMG_E_TWR_MGEG",
         "floorFt": 500,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 36.685, "lon": -4.506389 },
           { "lat": 36.687778, "lon": -4.503333 },
@@ -23787,7 +23787,7 @@
       {
         "id": "LECM·LEMG_NW_TWR",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 36.604444, "lon": -4.516667 },
           { "lat": 36.608611, "lon": -4.533611 },
@@ -23823,7 +23823,7 @@
       {
         "id": "LECM·LEMG_SW_TWR",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 36.6425, "lon": -4.419722 },
           { "lat": 36.635, "lon": -4.424444 },
@@ -23862,7 +23862,7 @@
       {
         "id": "LECM·LEMG_W_TWR_MGWG",
         "floorFt": 500,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 36.677778, "lon": -4.494167 },
           { "lat": 36.671667, "lon": -4.485556 },
@@ -23897,7 +23897,7 @@
       {
         "id": "LECM·LEMG_W_TWR_MILG",
         "floorFt": 500,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 36.667778, "lon": -4.495278 },
           { "lat": 36.663611, "lon": -4.489444 },
@@ -23917,7 +23917,7 @@
       {
         "id": "LECM·LEMO_TWR",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 37.246944, "lon": -5.616111 },
           { "lat": 37.245556, "lon": -5.598611 },
@@ -23963,7 +23963,7 @@
       {
         "id": "LECM·LEPP_TWR",
         "floorFt": 2500,
-        "ceilingFt": 9400,
+        "ceilingFt": 9500,
         "polygon": [
           { "lat": 42.995, "lon": -1.5 },
           { "lat": 42.716667, "lon": -1.491667 },
@@ -23990,7 +23990,7 @@
       {
         "id": "LECM·LEPP_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 42.767222, "lon": -1.643333 },
           { "lat": 42.768611, "lon": -1.639444 },
@@ -24014,7 +24014,7 @@
       {
         "id": "LECM·LEPP_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 42.630833, "lon": -2.193056 },
           { "lat": 42.631944, "lon": -2.042222 },
@@ -24039,7 +24039,7 @@
       {
         "id": "LECM·LERJ_TWR",
         "floorFt": 0,
-        "ceilingFt": 9400,
+        "ceilingFt": 9500,
         "polygon": [
           { "lat": 42.345833, "lon": -2.752222 },
           { "lat": 42.427778, "lon": -2.7375 },
@@ -24210,7 +24210,7 @@
       {
         "id": "LECM·LESA_TWR",
         "floorFt": 3500,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.951944, "lon": -5.406667 },
           { "lat": 40.937778, "lon": -5.408333 },
@@ -24256,7 +24256,7 @@
       {
         "id": "LECM·LESA_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 40.951944, "lon": -5.406667 },
           { "lat": 40.951944, "lon": -5.497222 },
@@ -24292,7 +24292,7 @@
       {
         "id": "LECM·LESA_TWR_RWY",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 40.953611, "lon": -5.5 },
           { "lat": 40.954722, "lon": -5.495278 },
@@ -24310,7 +24310,7 @@
       {
         "id": "LECM·LESA_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 40.951944, "lon": -5.406667 },
           { "lat": 40.937778, "lon": -5.408333 },
@@ -24349,7 +24349,7 @@
       {
         "id": "LECM·LESO_TWR",
         "floorFt": 500,
-        "ceilingFt": 9400,
+        "ceilingFt": 9500,
         "polygon": [
           { "lat": 42.976667, "lon": -1.823056 },
           { "lat": 43.258333, "lon": -2.127222 },
@@ -24394,7 +24394,7 @@
       {
         "id": "LECM·LESO_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 43.358333, "lon": -1.789444 },
           { "lat": 43.359722, "lon": -1.790556 },
@@ -24422,7 +24422,7 @@
       {
         "id": "LECM·LESO_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 42.995, "lon": -1.5 },
           { "lat": 43.077778, "lon": -1.666667 },
@@ -24461,7 +24461,7 @@
       {
         "id": "LECM·LEST_TWR_E",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 42.968333, "lon": -8.415278 },
           { "lat": 42.966944, "lon": -8.396111 },
@@ -24494,7 +24494,7 @@
       {
         "id": "LECM·LEST_TWR_STG",
         "floorFt": 1500,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 42.912222, "lon": -8.421111 },
           { "lat": 42.883056, "lon": -8.411389 },
@@ -24514,7 +24514,7 @@
       {
         "id": "LECM·LEST_TWR_W",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 42.968333, "lon": -8.415278 },
           { "lat": 42.912222, "lon": -8.421111 },
@@ -24551,7 +24551,7 @@
       {
         "id": "LECM·LETL_TWR",
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.38, "lon": -1.116389 },
           { "lat": 40.365556, "lon": -1.126389 },
@@ -24597,7 +24597,7 @@
       {
         "id": "LECM·LETO_TWR",
         "floorFt": 2500,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.498333, "lon": -3.507222 },
           { "lat": 40.562778, "lon": -3.488333 },
@@ -24630,7 +24630,7 @@
       {
         "id": "LECM·LETO_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.498333, "lon": -3.507222 },
           { "lat": 40.49, "lon": -3.467222 },
@@ -24665,7 +24665,7 @@
       {
         "id": "LECM·LETO_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 40.495278, "lon": -3.433611 },
           { "lat": 40.498889, "lon": -3.350833 },
@@ -24731,7 +24731,7 @@
       {
         "id": "LECM·LEVT_CTA1",
         "floorFt": 2500,
-        "ceilingFt": 9400,
+        "ceilingFt": 9500,
         "polygon": [
           { "lat": 42.345833, "lon": -2.752222 },
           { "lat": 42.358333, "lon": -3.033889 },
@@ -24765,7 +24765,7 @@
       {
         "id": "LECM·LEVT_CTA2",
         "floorFt": 5500,
-        "ceilingFt": 9400,
+        "ceilingFt": 9500,
         "polygon": [
           { "lat": 42.33, "lon": -3.391944 },
           { "lat": 42.318333, "lon": -3.395278 },
@@ -24845,7 +24845,7 @@
       {
         "id": "LECM·LEVT_CTA2_LN",
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 42.7025, "lon": -3.374444 },
           { "lat": 42.6875, "lon": -3.6475 },
@@ -24930,7 +24930,7 @@
       {
         "id": "LECM·LEVT_CTA2_LS",
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 42.341111, "lon": -4.062778 },
           { "lat": 42.315, "lon": -4.059722 },
@@ -24990,7 +24990,7 @@
       {
         "id": "LECM·LEVT_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 43.006667, "lon": -2.525278 },
           { "lat": 43.083333, "lon": -2.683333 },
@@ -25016,7 +25016,7 @@
       {
         "id": "LECM·LEVT_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 42.630833, "lon": -2.193056 },
           { "lat": 42.629167, "lon": -2.346389 },
@@ -25048,7 +25048,7 @@
       {
         "id": "LECM·LEVX_TWR_E",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 42.218889, "lon": -8.630833 },
           { "lat": 42.228333, "lon": -8.628056 },
@@ -25118,7 +25118,7 @@
       {
         "id": "LECM·LEVX_TWR_VXG",
         "floorFt": 1500,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 42.228333, "lon": -8.628056 },
           { "lat": 42.218889, "lon": -8.630833 },
@@ -25137,7 +25137,7 @@
       {
         "id": "LECM·LEVX_TWR_W",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 42.353889, "lon": -8.641667 },
           { "lat": 42.353333, "lon": -8.648889 },
@@ -25220,7 +25220,7 @@
       {
         "id": "LECM·LEXJ_TWR",
         "floorFt": 500,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 43.426944, "lon": -3.720833 },
           { "lat": 43.412778, "lon": -3.722778 },
@@ -25266,7 +25266,7 @@
       {
         "id": "LECM·LEXJ_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 43.426944, "lon": -3.919167 },
           { "lat": 43.43, "lon": -3.8325 },
@@ -25299,7 +25299,7 @@
       {
         "id": "LECM·LEXJ_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 400,
+        "ceilingFt": 500,
         "polygon": [
           { "lat": 43.426944, "lon": -3.720833 },
           { "lat": 43.412778, "lon": -3.722778 },
@@ -25334,7 +25334,7 @@
       {
         "id": "LECM·LEZG_TWR",
         "floorFt": 1500,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 41.643611, "lon": -0.890833 },
           { "lat": 41.590278, "lon": -0.763889 },
@@ -25380,7 +25380,7 @@
       {
         "id": "LECM·LEZG_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 1400,
+        "ceilingFt": 1500,
         "polygon": [
           { "lat": 41.643611, "lon": -0.890833 },
           { "lat": 41.655833, "lon": -1.005278 },
@@ -25421,7 +25421,7 @@
       {
         "id": "LECM·LEZG_TWR_RWY",
         "floorFt": 0,
-        "ceilingFt": 1400,
+        "ceilingFt": 1500,
         "polygon": [
           { "lat": 41.68, "lon": -1.083611 },
           { "lat": 41.663056, "lon": -1.043611 },
@@ -25442,7 +25442,7 @@
       {
         "id": "LECM·LEZG_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 1400,
+        "ceilingFt": 1500,
         "polygon": [
           { "lat": 41.643611, "lon": -0.890833 },
           { "lat": 41.590278, "lon": -0.763889 },
@@ -25478,7 +25478,7 @@
       {
         "id": "LECM·LEZL_TWR_N",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 37.418333, "lon": -5.913889 },
           { "lat": 37.420278, "lon": -5.914167 },
@@ -25503,7 +25503,7 @@
       {
         "id": "LECM·LEZL_TWR_S",
         "floorFt": 0,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 37.376667, "lon": -5.736389 },
           { "lat": 37.4175, "lon": -5.8725 },
@@ -25540,7 +25540,7 @@
       {
         "id": "LECM·LEZL_TWR_ZLGN",
         "floorFt": 500,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 37.418333, "lon": -5.913889 },
           { "lat": 37.418611, "lon": -5.872222 },
@@ -25559,7 +25559,7 @@
       {
         "id": "LECM·LEZL_TWR_ZLGS",
         "floorFt": 500,
-        "ceilingFt": 2400,
+        "ceilingFt": 2500,
         "polygon": [
           { "lat": 37.4175, "lon": -5.903889 },
           { "lat": 37.4175, "lon": -5.8725 },
@@ -25579,7 +25579,7 @@
       {
         "id": "LECM·LXGB",
         "floorFt": 0,
-        "ceilingFt": 8900,
+        "ceilingFt": 9000,
         "polygon": [
           { "lat": 36.153056, "lon": -5.316944 },
           { "lat": 36.119722, "lon": -5.324444 },
@@ -25602,7 +25602,7 @@
           "30/31"
         ],
         "floorFt": 0,
-        "ceilingFt": 7400,
+        "ceilingFt": 7500,
         "polygon": [
           { "lat": 36.401667, "lon": -3.866667 },
           { "lat": 36.337222, "lon": -3.866667 },
@@ -25639,7 +25639,7 @@
           "12/13"
         ],
         "floorFt": 0,
-        "ceilingFt": 9400,
+        "ceilingFt": 9500,
         "polygon": [
           { "lat": 36.635, "lon": -4.573889 },
           { "lat": 36.6475, "lon": -4.582222 },
@@ -25679,7 +25679,7 @@
       {
         "id": "LECM·LEBB_TMA1",
         "floorFt": 4500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 42.81, "lon": -3.105556 },
           { "lat": 43.051389, "lon": -3.443611 },
@@ -25708,7 +25708,7 @@
       {
         "id": "LECM·LEBB_TMA1_N",
         "floorFt": 0,
-        "ceilingFt": 4400,
+        "ceilingFt": 4500,
         "polygon": [
           { "lat": 43.263056, "lon": -3.086944 },
           { "lat": 43.273333, "lon": -3.091111 },
@@ -25764,7 +25764,7 @@
       {
         "id": "LECM·LEBB_TMA1_S",
         "floorFt": 0,
-        "ceilingFt": 4400,
+        "ceilingFt": 4500,
         "polygon": [
           { "lat": 43.051389, "lon": -3.443611 },
           { "lat": 42.81, "lon": -3.105556 },
@@ -25816,7 +25816,7 @@
       {
         "id": "LECM·LEBB_TMA2",
         "floorFt": 9500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 42.809444, "lon": -2.876667 },
           { "lat": 42.811389, "lon": -2.620278 },
@@ -25838,7 +25838,7 @@
       {
         "id": "LECM·LEBZ_APP_BZT",
         "floorFt": 3500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 38.891389, "lon": -6.728889 },
           { "lat": 38.877222, "lon": -6.730556 },
@@ -25884,7 +25884,7 @@
       {
         "id": "LECM·LEBZ_APP_N",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39, "lon": -6.204722 },
           { "lat": 38.905, "lon": -6.174444 },
@@ -25923,7 +25923,7 @@
       {
         "id": "LECM·LEBZ_APP_S",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 38.891389, "lon": -6.728889 },
           { "lat": 38.877222, "lon": -6.730556 },
@@ -25981,7 +25981,7 @@
           "32/36"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 39.915556, "lon": -2.984167 },
           { "lat": 40.013333, "lon": -2.716389 },
@@ -26043,7 +26043,7 @@
           "32/36"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.427778, "lon": -3.511111 },
           { "lat": 40.400556, "lon": -3.517222 },
@@ -26185,7 +26185,7 @@
           "32/36"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.593056, "lon": -3.568611 },
           { "lat": 40.816389, "lon": -3.5625 },
@@ -26265,7 +26265,7 @@
           "32/36"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.816389, "lon": -3.5625 },
           { "lat": 40.593056, "lon": -3.568611 },
@@ -26307,7 +26307,7 @@
           "32/36"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.630833, "lon": -3.726944 },
           { "lat": 40.626667, "lon": -3.744722 },
@@ -26399,7 +26399,7 @@
           "32/36"
         ],
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 41.499722, "lon": -3.418056 },
           { "lat": 41.500556, "lon": -3.189167 },
@@ -26436,7 +26436,7 @@
           "32/36"
         ],
         "floorFt": 16000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.995556, "lon": -3.3025 },
           { "lat": 40.994444, "lon": -2.933333 },
@@ -26465,7 +26465,7 @@
           "32/36"
         ],
         "floorFt": 13000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.609722, "lon": -3.123333 },
           { "lat": 40.825, "lon": -2.933056 },
@@ -26487,7 +26487,7 @@
           "32/36"
         ],
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.717222, "lon": -2.158056 },
           { "lat": 40.617222, "lon": -2.559167 },
@@ -26539,7 +26539,7 @@
           "32/36"
         ],
         "floorFt": 13000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.861667, "lon": -3.330278 },
           { "lat": 39.915556, "lon": -2.984167 },
@@ -26665,7 +26665,7 @@
           "32/36"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 39.861667, "lon": -3.330278 },
           { "lat": 39.735278, "lon": -4.184444 },
@@ -26718,7 +26718,7 @@
           "32/36"
         ],
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 41.499722, "lon": -3.418056 },
           { "lat": 41.500556, "lon": -3.631389 },
@@ -26753,7 +26753,7 @@
           "32/36"
         ],
         "floorFt": 16000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 41.099722, "lon": -3.8275 },
           { "lat": 40.994722, "lon": -3.829722 },
@@ -26780,7 +26780,7 @@
           "32/36"
         ],
         "floorFt": 13000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.419444, "lon": -3.9725 },
           { "lat": 40.485, "lon": -4.235278 },
@@ -26802,7 +26802,7 @@
           "32/36"
         ],
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.221944, "lon": -4.342222 },
           { "lat": 40.154167, "lon": -4.611111 },
@@ -26846,7 +26846,7 @@
           "32/36"
         ],
         "floorFt": 13000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.861667, "lon": -3.330278 },
           { "lat": 40.427778, "lon": -3.511111 },
@@ -26895,7 +26895,7 @@
           "14/18"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.593056, "lon": -3.568611 },
           { "lat": 40.816389, "lon": -3.5625 },
@@ -26948,7 +26948,7 @@
           "14/18"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.593056, "lon": -3.568611 },
           { "lat": 40.589444, "lon": -3.596111 },
@@ -27050,7 +27050,7 @@
           "14/18"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.297222, "lon": -3.3 },
           { "lat": 40.143056, "lon": -3.216111 },
@@ -27085,7 +27085,7 @@
           "14/18"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.562778, "lon": -3.488333 },
           { "lat": 40.744444, "lon": -3.301389 },
@@ -27119,7 +27119,7 @@
           "14/18"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.427778, "lon": -3.511111 },
           { "lat": 40.297222, "lon": -3.3 },
@@ -27167,7 +27167,7 @@
           "14/18"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.311111, "lon": -3.908056 },
           { "lat": 40.321667, "lon": -3.810833 },
@@ -27229,7 +27229,7 @@
           "14/18"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.041111, "lon": -3.160556 },
           { "lat": 40.143056, "lon": -3.216111 },
@@ -27275,7 +27275,7 @@
           "14/18"
         ],
         "floorFt": 16000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.427778, "lon": -3.511111 },
           { "lat": 40.297222, "lon": -3.3 },
@@ -27301,7 +27301,7 @@
           "14/18"
         ],
         "floorFt": 13000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 41.094444, "lon": -3.491667 },
           { "lat": 41.287222, "lon": -2.785 },
@@ -27331,7 +27331,7 @@
           "14/18"
         ],
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.717222, "lon": -2.158056 },
           { "lat": 40.780556, "lon": -2.663889 },
@@ -27383,7 +27383,7 @@
           "14/18"
         ],
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.088889, "lon": -2.158333 },
           { "lat": 40.717222, "lon": -2.158056 },
@@ -27434,7 +27434,7 @@
           "14/18"
         ],
         "floorFt": 13000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.475556, "lon": -2.947222 },
           { "lat": 40.544444, "lon": -2.623056 },
@@ -27476,7 +27476,7 @@
           "14/18"
         ],
         "floorFt": 16000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.297222, "lon": -3.3 },
           { "lat": 40.143056, "lon": -3.216111 },
@@ -27500,7 +27500,7 @@
           "14/18"
         ],
         "floorFt": 13000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.900278, "lon": -3.084444 },
           { "lat": 39.916667, "lon": -2.983333 },
@@ -27521,7 +27521,7 @@
           "14/18"
         ],
         "floorFt": 16000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.143056, "lon": -3.216111 },
           { "lat": 40.041111, "lon": -3.160556 },
@@ -27650,7 +27650,7 @@
           "14/18"
         ],
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 41.220833, "lon": -4.549167 },
           { "lat": 41.175278, "lon": -4.611389 },
@@ -27686,7 +27686,7 @@
           "14/18"
         ],
         "floorFt": 13000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 41.220833, "lon": -4.549167 },
           { "lat": 41.5, "lon": -4.204167 },
@@ -27713,7 +27713,7 @@
           "14/18"
         ],
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 41.094444, "lon": -3.491667 },
           { "lat": 41.5, "lon": -4.204167 },
@@ -27735,7 +27735,7 @@
           "14/18"
         ],
         "floorFt": 13000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 41.500556, "lon": -3.189167 },
           { "lat": 41.499722, "lon": -3.418056 },
@@ -27755,7 +27755,7 @@
           "14/18"
         ],
         "floorFt": 16000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.646389, "lon": -3.834444 },
           { "lat": 40.646111, "lon": -3.961944 },
@@ -27782,7 +27782,7 @@
           "14/18"
         ],
         "floorFt": 13000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.640556, "lon": -4.610278 },
           { "lat": 40.650556, "lon": -4.611111 },
@@ -27845,7 +27845,7 @@
           "14/18"
         ],
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.640556, "lon": -4.610278 },
           { "lat": 40.646111, "lon": -3.961944 },
@@ -27875,7 +27875,7 @@
           "30/31"
         ],
         "floorFt": 7500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 36.864167, "lon": -4.780833 },
           { "lat": 36.668611, "lon": -4.506111 },
@@ -27966,7 +27966,7 @@
           "30/31"
         ],
         "floorFt": 3000,
-        "ceilingFt": 7400,
+        "ceilingFt": 7500,
         "polygon": [
           { "lat": 37.383333, "lon": -4.706944 },
           { "lat": 37.383333, "lon": -4.717778 },
@@ -28004,7 +28004,7 @@
           "30/31"
         ],
         "floorFt": 7500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 36.327222, "lon": -4.028611 },
           { "lat": 36.668611, "lon": -4.506111 },
@@ -28077,7 +28077,7 @@
           "30/31"
         ],
         "floorFt": 3000,
-        "ceilingFt": 7400,
+        "ceilingFt": 7500,
         "polygon": [
           { "lat": 36.442778, "lon": -5.021111 },
           { "lat": 36.85, "lon": -5.148611 },
@@ -28110,7 +28110,7 @@
           "12/13"
         ],
         "floorFt": 9500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 36.864167, "lon": -4.780833 },
           { "lat": 36.716389, "lon": -4.573333 },
@@ -28203,7 +28203,7 @@
           "12/13"
         ],
         "floorFt": 3000,
-        "ceilingFt": 9400,
+        "ceilingFt": 9500,
         "polygon": [
           { "lat": 36.751667, "lon": -4.534444 },
           { "lat": 36.702222, "lon": -4.469167 },
@@ -28242,7 +28242,7 @@
           "12/13"
         ],
         "floorFt": 9500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 37.383333, "lon": -4.9675 },
           { "lat": 37.383333, "lon": -4.815 },
@@ -28321,7 +28321,7 @@
           "12/13"
         ],
         "floorFt": 3000,
-        "ceilingFt": 9400,
+        "ceilingFt": 9500,
         "polygon": [
           { "lat": 37.383333, "lon": -4.9675 },
           { "lat": 36.902778, "lon": -4.961111 },
@@ -28355,7 +28355,7 @@
       {
         "id": "LECM·LESA_APP",
         "floorFt": 5500,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 41.019722, "lon": -5.311111 },
           { "lat": 40.970833, "lon": -5.293056 },
@@ -28403,7 +28403,7 @@
       {
         "id": "LECM·LESA_APP_N",
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 41.019722, "lon": -5.311111 },
           { "lat": 40.970833, "lon": -5.293056 },
@@ -28453,7 +28453,7 @@
       {
         "id": "LECM·LESA_APP_S",
         "floorFt": 0,
-        "ceilingFt": 5400,
+        "ceilingFt": 5500,
         "polygon": [
           { "lat": 40.951944, "lon": -5.336389 },
           { "lat": 40.9275, "lon": -5.339722 },
@@ -28501,7 +28501,7 @@
       {
         "id": "LECM·LEST_APP_COT",
         "floorFt": 3000,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 43.324722, "lon": -8.123889 },
           { "lat": 43.458889, "lon": -8.429722 },
@@ -28519,7 +28519,7 @@
       {
         "id": "LECM·LEST_APP_E",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 43.110833, "lon": -8.349444 },
           { "lat": 42.768056, "lon": -8.208889 },
@@ -28553,7 +28553,7 @@
       {
         "id": "LECM·LEST_APP_W",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 43.139722, "lon": -8.276389 },
           { "lat": 43.261667, "lon": -8.591111 },
@@ -28589,7 +28589,7 @@
       {
         "id": "LECM·LEST_TMA",
         "floorFt": 3500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 41.935, "lon": -9.399444 },
           { "lat": 41.885556, "lon": -9.0325 },
@@ -28688,7 +28688,7 @@
       {
         "id": "LECM·LEST_TMA_E",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 42.0575, "lon": -8.626389 },
           { "lat": 42.05, "lon": -8.622222 },
@@ -28823,7 +28823,7 @@
       {
         "id": "LECM·LEST_TMA_W",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 42.353889, "lon": -8.641667 },
           { "lat": 42.353333, "lon": -8.648889 },
@@ -28931,7 +28931,7 @@
       {
         "id": "LECM·LEXJ_APP",
         "floorFt": 3500,
-        "ceilingFt": 14400,
+        "ceilingFt": 14500,
         "polygon": [
           { "lat": 43.25, "lon": -4.333333 },
           { "lat": 42.957778, "lon": -4.138611 },
@@ -28954,7 +28954,7 @@
       {
         "id": "LECM·LEXJ_APP_N",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 43.25, "lon": -4.333333 },
           { "lat": 43.426944, "lon": -3.919167 },
@@ -28990,7 +28990,7 @@
       {
         "id": "LECM·LEXJ_APP_S",
         "floorFt": 0,
-        "ceilingFt": 3400,
+        "ceilingFt": 3500,
         "polygon": [
           { "lat": 43.579722, "lon": -3.316667 },
           { "lat": 43.166667, "lon": -3.316667 },
@@ -29027,7 +29027,7 @@
       {
         "id": "LECM·LEZG_M_APP",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.033333, "lon": -1.366667 },
           { "lat": 42.183333, "lon": -1.166667 },
@@ -29045,7 +29045,7 @@
       {
         "id": "LECM·LEZL_APP_ASVLEMG",
         "floorFt": 14500,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 36.442778, "lon": -5.021111 },
           { "lat": 36.894722, "lon": -5.045278 },
@@ -29063,7 +29063,7 @@
       {
         "id": "LECM·LEZL_APP_ASVN",
         "floorFt": 0,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 36.85, "lon": -6.527778 },
           { "lat": 36.861667, "lon": -6.505 },
@@ -29099,7 +29099,7 @@
       {
         "id": "LECM·LEZL_APP_ASVS",
         "floorFt": 0,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 36.998333, "lon": -5.725833 },
           { "lat": 37.031111, "lon": -5.440556 },
@@ -29261,7 +29261,7 @@
       {
         "id": "LECM·LEZL_APP_E",
         "floorFt": 3000,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 37.000833, "lon": -5.148611 },
           { "lat": 37.175, "lon": -5.525833 },
@@ -29302,7 +29302,7 @@
       {
         "id": "LECM·LEZL_APP_E",
         "floorFt": 10500,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 37.000833, "lon": -5.148611 },
           { "lat": 37.175, "lon": -5.525833 },
@@ -29333,7 +29333,7 @@
       {
         "id": "LECM·LEZL_APP_JRT",
         "floorFt": 2500,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 36.861389, "lon": -6.06 },
           { "lat": 36.859167, "lon": -6.031667 },
@@ -29381,7 +29381,7 @@
       {
         "id": "LECM·LEZL_APP_MOT",
         "floorFt": 3500,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 37.246944, "lon": -5.616111 },
           { "lat": 37.245556, "lon": -5.598611 },
@@ -29427,7 +29427,7 @@
       {
         "id": "LECM·LEZL_APP_RTT",
         "floorFt": 4000,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 36.836667, "lon": -6.149167 },
           { "lat": 36.827222, "lon": -6.163056 },
@@ -29504,7 +29504,7 @@
       {
         "id": "LECM·LEZL_APP_W",
         "floorFt": 0,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 37.501944, "lon": -5.736944 },
           { "lat": 37.500556, "lon": -6.078056 },
@@ -29568,7 +29568,7 @@
       {
         "id": "LECM·LEZL_APP_ZLT",
         "floorFt": 2500,
-        "ceilingFt": 20400,
+        "ceilingFt": 20500,
         "polygon": [
           { "lat": 37.376667, "lon": -5.736389 },
           { "lat": 37.501944, "lon": -5.736944 },
@@ -29599,7 +29599,7 @@
       {
         "id": "LECM·GEML",
         "floorFt": 3000,
-        "ceilingFt": 6400,
+        "ceilingFt": 6500,
         "polygon": [
           { "lat": 35.833333, "lon": -3.5 },
           { "lat": 35.833333, "lon": -2.333333 },
@@ -29808,7 +29808,7 @@
       {
         "id": "LECM·LEAM_TWR_S_HIGH",
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 36.401944, "lon": -2.4825 },
           { "lat": 36.439722, "lon": -1.948056 },
@@ -29828,7 +29828,7 @@
       {
         "id": "LECM·LEAS_TMA_AWY",
         "floorFt": 0,
-        "ceilingFt": 15400,
+        "ceilingFt": 15500,
         "polygon": [
           { "lat": 43.058056, "lon": -6.041111 },
           { "lat": 42.821944, "lon": -6.001111 },
@@ -29848,7 +29848,7 @@
       {
         "id": "LECM·LECM_ASL_CTR",
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.373889, "lon": -5.6725 },
           { "lat": 42.975, "lon": -5.246944 },
@@ -29880,7 +29880,7 @@
       {
         "id": "LECM·LECM_ASL_CTR",
         "floorFt": 15500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.821944, "lon": -6.001111 },
           { "lat": 42.903333, "lon": -5.756944 },
@@ -29944,13 +29944,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_BLL_CTR",
-    "positionPriority": [],
+    "id": "LECMBLL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_BLL_CTR",
+        "id": "LECMBLL",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 43.25, "lon": -4.333333 },
           { "lat": 43.766667, "lon": -4.333333 },
@@ -30009,13 +30009,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_BLL_CTR",
-    "positionPriority": [],
+    "id": "LECMBLL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_BLL_CTR",
+        "id": "LECMBLL",
         "floorFt": 9500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.811389, "lon": -2.620278 },
           { "lat": 42.62, "lon": -2.514722 },
@@ -30057,13 +30057,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_BLL_CTR",
-    "positionPriority": [],
+    "id": "LECMBLL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_BLL_CTR",
+        "id": "LECMBLL",
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 43.051389, "lon": -3.443611 },
           { "lat": 42.957778, "lon": -3.546389 },
@@ -30084,13 +30084,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_BLL_CTR_2",
-    "positionPriority": [],
+    "id": "LECMBLL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_BLL_CTR_2",
+        "id": "LECMBLL",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.358333, "lon": -3.033889 },
           { "lat": 42.345833, "lon": -2.752222 },
@@ -30106,13 +30106,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_BLL_CTR_2",
-    "positionPriority": [],
+    "id": "LECMBLL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_BLL_CTR_2",
+        "id": "LECMBLL",
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.373889, "lon": -5.6725 },
           { "lat": 42.975, "lon": -5.246944 },
@@ -30132,13 +30132,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_BLL_CTR_3",
-    "positionPriority": [],
+    "id": "LECMBLL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_BLL_CTR_3",
+        "id": "LECMBLL",
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.809444, "lon": -2.876667 },
           { "lat": 42.811389, "lon": -2.620278 },
@@ -30149,13 +30149,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_BLU_CTR",
-    "positionPriority": [],
+    "id": "LECMBLU",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_BLU_CTR",
+        "id": "LECMBLU",
         "floorFt": 24500,
-        "ceilingFt": 34400,
+        "ceilingFt": 34500,
         "polygon": [
           { "lat": 44.376111, "lon": -4.231944 },
           { "lat": 42.373889, "lon": -5.6725 },
@@ -30177,13 +30177,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_BLU_CTR",
-    "positionPriority": [],
+    "id": "LECMBLU",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_BLU_CTR",
+        "id": "LECMBLU",
         "floorFt": 34500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 44.376111, "lon": -4.231944 },
           { "lat": 42.373889, "lon": -5.6725 },
@@ -30205,13 +30205,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_DGL_CTR",
-    "positionPriority": [],
+    "id": "LECMDGL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_DGL_CTR",
+        "id": "LECMDGL",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.340278, "lon": -4.381944 },
           { "lat": 42.136111, "lon": -4.428611 },
@@ -30283,13 +30283,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_DGL_CTR",
-    "positionPriority": [],
+    "id": "LECMDGL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_DGL_CTR",
+        "id": "LECMDGL",
         "floorFt": 9500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.1975, "lon": -3.549167 },
           { "lat": 42.198889, "lon": -3.544444 },
@@ -30334,13 +30334,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_DGL_CTR",
-    "positionPriority": [],
+    "id": "LECMDGL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_DGL_CTR",
+        "id": "LECMDGL",
         "floorFt": 10000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.136111, "lon": -4.428611 },
           { "lat": 41.374722, "lon": -4.6775 },
@@ -30362,13 +30362,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_DGL_CTR2",
-    "positionPriority": [],
+    "id": "LECMDGL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_DGL_CTR2",
+        "id": "LECMDGL2",
         "floorFt": 9500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.171111, "lon": -2.615278 },
           { "lat": 42.256389, "lon": -2.624722 },
@@ -30380,13 +30380,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_DGU_CTR",
-    "positionPriority": [],
+    "id": "LECMDGU",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_DGU_CTR",
+        "id": "LECMDGU",
         "floorFt": 24500,
-        "ceilingFt": 34400,
+        "ceilingFt": 34500,
         "polygon": [
           { "lat": 42.340278, "lon": -4.381944 },
           { "lat": 42.318889, "lon": -4.064722 },
@@ -30407,13 +30407,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_DGU_CTR",
-    "positionPriority": [],
+    "id": "LECMDGU",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_DGU_CTR",
+        "id": "LECMDGU",
         "floorFt": 34500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 42.340278, "lon": -4.381944 },
           { "lat": 42.318889, "lon": -4.064722 },
@@ -30434,13 +30434,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_PAL_CTR",
-    "positionPriority": [],
+    "id": "LECMPAL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_PAL_CTR",
+        "id": "LECMPAL",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 43.583333, "lon": -1.783333 },
           { "lat": 43.680278, "lon": -2.070278 },
@@ -30456,13 +30456,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_PAL_CTR",
-    "positionPriority": [],
+    "id": "LECMPAL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_PAL_CTR",
+        "id": "LECMPAL",
         "floorFt": 9500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.811389, "lon": -2.620278 },
           { "lat": 42.803889, "lon": -2.088333 },
@@ -30511,13 +30511,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_PAL_CTR",
-    "positionPriority": [],
+    "id": "LECMPAL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_PAL_CTR",
+        "id": "LECMPAL",
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.811389, "lon": -2.620278 },
           { "lat": 43.006667, "lon": -2.525278 },
@@ -30534,13 +30534,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_PAL_CTR_2",
+    "id": "LECMPAL",
     "positionPriority": [],
     "blocks": [
       {
-        "id": "LECM·LECM_PAL_CTR_2",
+        "id": "LECMPAL",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.716667, "lon": -1.491667 },
           { "lat": 42.608333, "lon": -1.633333 },
@@ -30562,13 +30562,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_PAL_CTR_3",
-    "positionPriority": [],
+    "id": "LECMPAL",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_PAL_CTR_3",
+        "id": "LECMPAL",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 41.501667, "lon": -2.776111 },
           { "lat": 41.501667, "lon": -2.368889 },
@@ -30581,13 +30581,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_PAU_CTR",
-    "positionPriority": [],
+    "id": "LECMPAU",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_PAU_CTR",
+        "id": "LECMPAU",
         "floorFt": 24500,
-        "ceilingFt": 34400,
+        "ceilingFt": 34500,
         "polygon": [
           { "lat": 41.501667, "lon": -2.776111 },
           { "lat": 42.171111, "lon": -2.615278 },
@@ -30636,13 +30636,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_PAU_CTR",
-    "positionPriority": [],
+    "id": "LECMPAU",
+    "positionPriority": ["LECM_BDP_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_PAU_CTR",
+        "id": "LECMPAU",
         "floorFt": 34500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 41.501667, "lon": -2.776111 },
           { "lat": 42.171111, "lon": -2.615278 },
@@ -30691,13 +30691,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_SAO_CTR",
-    "positionPriority": [],
+    "id": "LECMSAO",
+    "positionPriority": ["LECM_SAI_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_SAO_CTR",
+        "id": "LECMSAO",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 43, "lon": -13 },
           { "lat": 42, "lon": -10 },
@@ -30724,13 +30724,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_SAO_CTR",
-    "positionPriority": [],
+    "id": "LECMSAO",
+    "positionPriority": ["LECM_SAI_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_SAO_CTR",
+        "id": "LECMSAO",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 42.615, "lon": -9.475 },
           { "lat": 43.76, "lon": -8.466111 },
@@ -30746,13 +30746,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_SLE_ASL",
-    "positionPriority": [],
+    "id": "LECMASU",
+    "positionPriority": ["LECM_SAI_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_SLE_ASL",
+        "id": "LECMASU",
         "floorFt": 34500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 42, "lon": -10 },
           { "lat": 41.935, "lon": -9.399444 },
@@ -30782,13 +30782,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_SLE_ASL_CTR",
-    "positionPriority": [],
+    "id": "LECMASL",
+    "positionPriority": ["LECM_SAS_CTR","LECM_SAI_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_SLE_ASL_CTR",
+        "id": "LECMASL",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 44.910556, "lon": -7.405278 },
           { "lat": 43.76, "lon": -8.466111 },
@@ -30898,13 +30898,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_SLE_ASL_CTR",
-    "positionPriority": [],
+    "id": "LECMASL",
+    "positionPriority": ["LECM_SAS_CTR","LECM_SAI_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_SLE_ASL_CTR",
+        "id": "LECMASL",
         "floorFt": 24500,
-        "ceilingFt": 34400,
+        "ceilingFt": 34500,
         "polygon": [
           { "lat": 42, "lon": -10 },
           { "lat": 41.935, "lon": -9.399444 },
@@ -30934,13 +30934,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_SLE_CTR_S",
-    "positionPriority": [],
+    "id": "LECMSAO",
+    "positionPriority": ["LECM_SAI_CTR","LECM_R1_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_SLE_CTR_S",
+        "id": "LECMSAO",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42, "lon": -10 },
           { "lat": 42.615, "lon": -9.475 },
@@ -30954,13 +30954,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_TLL_CTR",
-    "positionPriority": [],
+    "id": "LECMTLL",
+    "positionPriority": ["LECM_ZTI_CTR","LECM_R2_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_TLL_CTR",
+        "id": "LECMTLL",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.006944, "lon": -3.849722 },
           { "lat": 39.011389, "lon": -3.845833 },
@@ -31025,13 +31025,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_TLL_CTR_1",
-    "positionPriority": [],
+    "id": "LECMTLL",
+    "positionPriority": ["LECM_ZTI_CTR","LECM_R2_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_TLL_CTR_1",
-        "floorFt": 4400,
-        "ceilingFt": 24400,
+        "id": "LECMTLL",
+        "floorFt": 4500,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.006944, "lon": -3.849722 },
           { "lat": 39.011389, "lon": -3.845833 },
@@ -31078,13 +31078,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_TLU",
-    "positionPriority": [],
+    "id": "LECMTLU",
+    "positionPriority": "LECM_ZTI_CTR","LECM_R2_CTR"[],
     "blocks": [
       {
-        "id": "LECM·LECM_TLU",
+        "id": "LECMTLU",
         "floorFt": 24500,
-        "ceilingFt": 34400,
+        "ceilingFt": 34500,
         "polygon": [
           { "lat": 39.01, "lon": -3.635556 },
           { "lat": 39.008333, "lon": -3.704167 },
@@ -31120,13 +31120,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_TLU",
-    "positionPriority": [],
+    "id": "LECMTLU",
+    "positionPriority": ["LECM_ZTI_CTR","LECM_R2_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_TLU",
+        "id": "LECMTLU",
         "floorFt": 34500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 39.01, "lon": -3.635556 },
           { "lat": 39.008333, "lon": -3.704167 },
@@ -31163,12 +31163,12 @@
   },
   {
     "id": "LECM·LECM_ZML",
-    "positionPriority": [],
+    "positionPriority": ["LECM_ZTI_CTR","LECM_R2_CTR"],
     "blocks": [
       {
         "id": "LECM·LECM_ZML",
         "floorFt": 10500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39.108889, "lon": -7.028333 },
           { "lat": 39.118333, "lon": -6.320833 },
@@ -31220,13 +31220,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_ZML_CTR",
-    "positionPriority": [],
+    "id": "LECMZML",
+    "positionPriority": ["LECM_ZTI_CTR","LECM_R2_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_ZML_CTR",
+        "id": "LECMZML",
         "floorFt": 0,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 40.583611, "lon": -6.3025 },
           { "lat": 39.524444, "lon": -6.434722 },
@@ -31295,13 +31295,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_ZML_CTR",
-    "positionPriority": [],
+    "id": "LECMZML",
+    "positionPriority": ["LECM_ZTI_CTR","LECM_R2_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_ZML_CTR",
+        "id": "LECMZML",
         "floorFt": 10000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.136111, "lon": -4.428611 },
           { "lat": 42.174444, "lon": -4.525278 },
@@ -31322,13 +31322,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_ZML_CTR",
-    "positionPriority": [],
+    "id": "LECMZML",
+    "positionPriority": ["LECM_ZTI_CTR","LECM_R2_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_ZML_CTR",
+        "id": "LECMZML",
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 42.373889, "lon": -5.6725 },
           { "lat": 41.979167, "lon": -6.048333 },
@@ -31347,13 +31347,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_ZMU_CTR",
-    "positionPriority": [],
+    "id": "LECMZMU",
+    "positionPriority": ["LECM_ZTI_CTR","LECM_R2_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_ZMU_CTR",
+        "id": "LECMZMU",
         "floorFt": 24500,
-        "ceilingFt": 34400,
+        "ceilingFt": 34500,
         "polygon": [
           { "lat": 41.979167, "lon": -6.048333 },
           { "lat": 42.373889, "lon": -5.6725 },
@@ -31386,13 +31386,13 @@
     ]
   },
   {
-    "id": "LECM·LECM_ZMU_CTR",
-    "positionPriority": [],
+    "id": "LECMZMU",
+    "positionPriority": ["LECM_ZTI_CTR","LECM_R2_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECM_ZMU_CTR",
+        "id": "LECMZMU",
         "floorFt": 34500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 41.979167, "lon": -6.048333 },
           { "lat": 42.373889, "lon": -5.6725 },
@@ -31425,13 +31425,13 @@
     ]
   },
   {
-    "id": "LECM·LECS_ALCL",
-    "positionPriority": [],
+    "id": "LECSALCL",
+    "positionPriority": ["LECS_SEL_CTR","LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_ALCL",
+        "id": "LECSALCL",
         "floorFt": 4800,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 38, "lon": -4.080556 },
           { "lat": 37.770833, "lon": -4.226389 },
@@ -31485,13 +31485,13 @@
     ]
   },
   {
-    "id": "LECM·LECS_ALCL",
-    "positionPriority": [],
+    "id": "LECSALCL",
+    "positionPriority": ["LECS_SEL_CTR","LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_ALCL",
+        "id": "LECSALCL",
         "floorFt": 10500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39, "lon": -3.707222 },
           { "lat": 38.854167, "lon": -3.759722 },
@@ -31510,13 +31510,13 @@
     ]
   },
   {
-    "id": "LECM·LECS_ALCL_1",
+    "id": "LECSALCL_1",
     "positionPriority": [],
     "blocks": [
       {
-        "id": "LECM·LECS_ALCL_1",
-        "floorFt": 4400,
-        "ceilingFt": 10400,
+        "id": "LECSALCL_1",
+        "floorFt": 4500,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 39.006944, "lon": -3.849722 },
           { "lat": 39.002222, "lon": -3.853333 },
@@ -31565,13 +31565,13 @@
     ]
   },
   {
-    "id": "LECM·LECS_ALCL_H",
-    "positionPriority": [],
+    "id": "LECSALCL",
+    "positionPriority": ["LECS_SEL_CTR","LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_ALCL_H",
+        "id": "LECSALCL",
         "floorFt": 24500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 39, "lon": -3.707222 },
           { "lat": 38.854167, "lon": -3.759722 },
@@ -31590,11 +31590,11 @@
     ]
   },
   {
-    "id": "LECM·LECS_ALCL_L_N",
-    "positionPriority": [],
+    "id": "LECMALCL",
+    "positionPriority": ["LECS_SEL_CTR","LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_ALCL_L_N",
+        "id": "LECMALCL",
         "floorFt": 0,
         "ceilingFt": 4700,
         "polygon": [
@@ -31627,11 +31627,11 @@
     ]
   },
   {
-    "id": "LECM·LECS_ALCL_L_S",
-    "positionPriority": [],
+    "id": "LECMALCL",
+    "positionPriority": ["LECS_SEL_CTR","LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_ALCL_L_S",
+        "id": "LECMALCL",
         "floorFt": 0,
         "ceilingFt": 4700,
         "polygon": [
@@ -31730,13 +31730,13 @@
     ]
   },
   {
-    "id": "LECM·LECS_ALCU",
-    "positionPriority": [],
+    "id": "LECSALCU",
+    "positionPriority": ["LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_ALCU",
+        "id": "LECSALCU",
         "floorFt": 30500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 39, "lon": -3.707222 },
           { "lat": 38.854167, "lon": -3.759722 },
@@ -31755,13 +31755,13 @@
     ]
   },
   {
-    "id": "LECM·LECS_AM_TMA",
-    "positionPriority": [],
+    "id": "LECSAM",
+    "positionPriority": ["LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_AM_TMA",
+        "id": "LECSAM",
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 37.098889, "lon": -1.781111 },
           { "lat": 37.163056, "lon": -1.847222 },
@@ -31790,13 +31790,13 @@
     ]
   },
   {
-    "id": "LECM·LECS_CTR_GRT",
-    "positionPriority": [],
+    "id": "LECSGRT",
+    "positionPriority": ["LECS_CEN_CTR","LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_CTR_GRT",
+        "id": "LECSGRT",
         "floorFt": 9000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 37, "lon": -4.05 },
           { "lat": 37.0175, "lon": -4.058889 },
@@ -31826,13 +31826,13 @@
     ]
   },
   {
-    "id": "LECM·LECS_CTR_SVLNCS",
-    "positionPriority": [],
+    "id": "LECSNCS",
+    "positionPriority": ["LECS_SEL_CTR","LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_CTR_SVLNCS",
+        "id": "LECSNCS",
         "floorFt": 20500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 36.161944, "lon": -5.665833 },
           { "lat": 37.031111, "lon": -5.440556 },
@@ -31845,13 +31845,13 @@
     ]
   },
   {
-    "id": "LECM·LECS_CTR_SVL_SM2",
-    "positionPriority": [],
+    "id": "LECSSM2",
+    "positionPriority": ["LECS_SEL_CTR","LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_CTR_SVL_SM2",
+        "id": "LECSSM2",
         "floorFt": 20500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 35.833333, "lon": -5.700833 },
           { "lat": 35.833333, "lon": -5.759167 },
@@ -31880,13 +31880,13 @@
     ]
   },
   {
-    "id": "LECM·LECS_ES_CTR",
-    "positionPriority": [],
+    "id": "LECSE",
+    "positionPriority": ["LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_ES_CTR",
+        "id": "LECSE",
         "floorFt": 9000,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 35.833333, "lon": -4.910833 },
           { "lat": 35.833333, "lon": -3.5 },
@@ -31913,13 +31913,13 @@
     ]
   },
   {
-    "id": "LECM·LECS_E_CTR_1",
-    "positionPriority": ["LECS_E_CTR"],
+    "id": "LECSE",
+    "positionPriority": ["LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_E_CTR_1",
-        "floorFt": 4400,
-        "ceilingFt": 24400,
+        "id": "LECSE",
+        "floorFt": 4500,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39, "lon": -3.707222 },
           { "lat": 39.008333, "lon": -3.704167 },
@@ -31975,12 +31975,12 @@
   },
   {
     "id": "LEMGAPPE",
-    "positionPriority": ["LEMG_E_APP"],
+    "positionPriority": ["LEMG_E_APP","LECS_CTR"],
     "blocks": [
       {
         "id": "LEMGAPPE",
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 36.894722, "lon": -5.045278 },
           { "lat": 36.442778, "lon": -5.021111 },
@@ -32006,12 +32006,12 @@
   },
   {
     "id": "LEMGAPPW",
-    "positionPriority": ["LEMG_W_APP"],
+    "positionPriority": ["LEMG_W_APP","LEMG_E_APP","LECS_CTR"],
     "blocks": [
       {
         "id": "LEMGAPPW",
         "floorFt": 14500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 36.894722, "lon": -5.045278 },
           { "lat": 36.930556, "lon": -5.148611 },
@@ -32032,13 +32032,13 @@
     ]
   },
   {
-    "id": "LECM·LECS_LXE_CTR_LOW1",
-    "positionPriority": ["LECS_LXE_CTR"],
+    "id": "LECSLXE",
+    "positionPriority": ["LECS_CEN_CTR","LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_LXE_CTR_LOW1",
+        "id": "LECSLXE",
         "floorFt": 0,
-        "ceilingFt": 8900,
+        "ceilingFt": 9000,
         "polygon": [
           { "lat": 35.833333, "lon": -5.501111 },
           { "lat": 36.103889, "lon": -5.333333 },
@@ -32066,13 +32066,13 @@
     ]
   },
   {
-    "id": "LECM·LECS_LXW_CTR_LOW",
-    "positionPriority": ["LECS_LXW_CTR"],
+    "id": "LECSLXW",
+    "positionPriority": ["LECS_CEN_CTR","LECS_CTR"],
     "blocks": [
       {
-        "id": "LECM·LECS_LXW_CTR_LOW",
+        "id": "LECMLXW",
         "floorFt": 0,
-        "ceilingFt": 8900,
+        "ceilingFt": 9000,
         "polygon": [
           { "lat": 36.161944, "lon": -5.665833 },
           { "lat": 35.833333, "lon": -5.700833 },
@@ -32095,7 +32095,7 @@
       {
         "id": "LECSMALU",
         "floorFt": 30500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 37.031111, "lon": -5.440556 },
           { "lat": 36.930556, "lon": -5.148611 },
@@ -32118,7 +32118,7 @@
       {
         "id": "LECSMARX",
         "floorFt": 24500,
-        "ceilingFt": 30400,
+        "ceilingFt": 30500,
         "polygon": [
           { "lat": 37.031111, "lon": -5.440556 },
           { "lat": 36.930556, "lon": -5.148611 },
@@ -32141,7 +32141,7 @@
       {
         "id": "LECSSUR",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 35.833333, "lon": -5.700833 },
           { "lat": 36.161944, "lon": -5.665833 },
@@ -32170,7 +32170,7 @@
       {
         "id": "LECSSEL",
         "floorFt": 0,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 39, "lon": -5.358333 },
           { "lat": 39, "lon": -6.204722 },
@@ -32275,7 +32275,7 @@
       {
         "id": "LECSSEL",
         "floorFt": 10500,
-        "ceilingFt": 24400,
+        "ceilingFt": 24500,
         "polygon": [
           { "lat": 39, "lon": -5.358333 },
           { "lat": 39, "lon": -6.204722 },
@@ -32389,7 +32389,7 @@
       {
         "id": "LECSSEL",
         "floorFt": 24500,
-        "ceilingFt": 65900,
+        "ceilingFt": 66000,
         "polygon": [
           { "lat": 35.833333, "lon": -5.700833 },
           { "lat": 35.833333, "lon": -5.759167 },
@@ -32437,7 +32437,7 @@
       {
         "id": "LECMZNLT",
         "floorFt": 0,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 40.951944, "lon": -5.6675 },
           { "lat": 40.976389, "lon": -5.664167 },
@@ -32497,7 +32497,7 @@
       {
         "id": "LECMZSLT",
         "floorFt": 0,
-        "ceilingFt": 10400,
+        "ceilingFt": 10500,
         "polygon": [
           { "lat": 40.951944, "lon": -5.6675 },
           { "lat": 40.9275, "lon": -5.664167 },
