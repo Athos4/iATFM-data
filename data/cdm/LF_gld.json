@@ -32,7 +32,7 @@
             "09": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "DIKOL", "RANUX","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "NIPOR"],
             "26": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "DIKOL", "RANUX","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "NIPOR"],
             "27": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "DIKOL", "RANUX","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "NIPOR"]
-          },
+          }
         },
         "SID": {
           "ident": "6",
@@ -97,7 +97,7 @@
             "09": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
             "25": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
             "21": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL","ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"]
-          },
+          }
         },
         "SID": {
           "ident": "6",
@@ -119,7 +119,7 @@
             "IPGW": {
               "25": "F",
               "21": "P"
-            },
+            }
             }
           }
         }
