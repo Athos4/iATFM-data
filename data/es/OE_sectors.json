@@ -10030,5 +10030,291 @@
     "OEWD": { "callsign": "Wadi Al Dawasser", "coord": ["20.504236","45.199044"] },
     "OEWJ": { "callsign": "Wejh", "coord": ["26.198378","36.475581"] },
     "OEYN": { "callsign": "Yenbo", "coord": ["24.144983","38.063756"] }
-  }
+  },
+  "atcColors": [
+    {
+      "callsign": "ABA",
+      "color": "#0000a3"
+    },
+    {
+      "callsign": "ABL",
+      "color": "#0000b9"
+    },
+    {
+      "callsign": "ABT",
+      "color": "#009c00"
+    },
+    {
+      "callsign": "AHI",
+      "color": "#00cf00"
+    },
+    {
+      "callsign": "APFE",
+      "color": "#00001c"
+    },
+    {
+      "callsign": "APFW",
+      "color": "#00001c"
+    },
+    {
+      "callsign": "BAI",
+      "color": "#000100"
+    },
+    {
+      "callsign": "BHI",
+      "color": "#00aa00"
+    },
+    {
+      "callsign": "BNI",
+      "color": "#002700"
+    },
+    {
+      "callsign": "BTI",
+      "color": "#000c00"
+    },
+    {
+      "callsign": "DFA",
+      "color": "#0000b0"
+    },
+    {
+      "callsign": "DFL",
+      "color": "#00001b"
+    },
+    {
+      "callsign": "DFTW",
+      "color": "#004f00"
+    },
+    {
+      "callsign": "DRTE",
+      "color": "#00f000"
+    },
+    {
+      "callsign": "DRTW",
+      "color": "#001900"
+    },
+    {
+      "callsign": "FSS/GULF",
+      "color": "#1e6eb8"
+    },
+    {
+      "callsign": "FSS/GULFW",
+      "color": "#b8801e"
+    },
+    {
+      "callsign": "GNA",
+      "color": "#1eb875"
+    },
+    {
+      "callsign": "GNT",
+      "color": "#007e00"
+    },
+    {
+      "callsign": "GSA",
+      "color": "#0000aa"
+    },
+    {
+      "callsign": "GST",
+      "color": "#00ed00"
+    },
+    {
+      "callsign": "HLA",
+      "color": "#0000a7"
+    },
+    {
+      "callsign": "HLT",
+      "color": "#007a00"
+    },
+    {
+      "callsign": "JBT",
+      "color": "#00cb00"
+    },
+    {
+      "callsign": "JC1",
+      "color": "#4b8c00"
+    },
+    {
+      "callsign": "JC2",
+      "color": "#168c00"
+    },
+    {
+      "callsign": "JC3",
+      "color": "#758c00"
+    },
+    {
+      "callsign": "JCC",
+      "color": "#348c00"
+    },
+    {
+      "callsign": "JCE",
+      "color": "#f18c00"
+    },
+    {
+      "callsign": "JCN",
+      "color": "#858c00"
+    },
+    {
+      "callsign": "JCNE",
+      "color": "#b08c00"
+    },
+    {
+      "callsign": "JCS",
+      "color": "#de8c00"
+    },
+    {
+      "callsign": "JCSE",
+      "color": "#fb8c00"
+    },
+    {
+      "callsign": "JCU",
+      "color": "#648c00"
+    },
+    {
+      "callsign": "JCW",
+      "color": "#a98c00"
+    },
+    {
+      "callsign": "JCW1",
+      "color": "#ae8c00"
+    },
+    {
+      "callsign": "JNA",
+      "color": "#0000cf"
+    },
+    {
+      "callsign": "JNTC",
+      "color": "#1eb826"
+    },
+    {
+      "callsign": "JNTW",
+      "color": "#00b900"
+    },
+    {
+      "callsign": "JTC1",
+      "color": "#6c8c00"
+    },
+    {
+      "callsign": "JTC2",
+      "color": "#ef8c00"
+    },
+    {
+      "callsign": "JTWU",
+      "color": "#1e1eb8"
+    },
+    {
+      "callsign": "KKI",
+      "color": "#00a000"
+    },
+    {
+      "callsign": "KMT",
+      "color": "#00c000"
+    },
+    {
+      "callsign": "MAA",
+      "color": "#0000ff"
+    },
+    {
+      "callsign": "MAL",
+      "color": "#0000df"
+    },
+    {
+      "callsign": "MAT",
+      "color": "#002400"
+    },
+    {
+      "callsign": "NGT",
+      "color": "#008d00"
+    },
+    {
+      "callsign": "NNI",
+      "color": "#00f300"
+    },
+    {
+      "callsign": "OMT",
+      "color": "#009600"
+    },
+    {
+      "callsign": "RC1",
+      "color": "#108c00"
+    },
+    {
+      "callsign": "RCE",
+      "color": "#c18c00"
+    },
+    {
+      "callsign": "RCN",
+      "color": "#208c00"
+    },
+    {
+      "callsign": "RCNE",
+      "color": "#1f8c00"
+    },
+    {
+      "callsign": "RKA",
+      "color": "#0000c7"
+    },
+    {
+      "callsign": "RKFE",
+      "color": "#00006b"
+    },
+    {
+      "callsign": "RKFW",
+      "color": "#00006b"
+    },
+    {
+      "callsign": "RKL",
+      "color": "#00006b"
+    },
+    {
+      "callsign": "RKTE",
+      "color": "#003b00"
+    },
+    {
+      "callsign": "RKTW",
+      "color": "#005e00"
+    },
+    {
+      "callsign": "RTCN",
+      "color": "#b81e4f"
+    },
+    {
+      "callsign": "RTCS",
+      "color": "#b81e42"
+    },
+    {
+      "callsign": "RYT",
+      "color": "#001900"
+    },
+    {
+      "callsign": "SKT",
+      "color": "#001f00"
+    },
+    {
+      "callsign": "STT",
+      "color": "#003500"
+    },
+    {
+      "callsign": "TBA",
+      "color": "#00007d"
+    },
+    {
+      "callsign": "TBT",
+      "color": "#002100"
+    },
+    {
+      "callsign": "TFA",
+      "color": "#00002b"
+    },
+    {
+      "callsign": "TFT",
+      "color": "#008a00"
+    },
+    {
+      "callsign": "WII",
+      "color": "#004100"
+    },
+    {
+      "callsign": "YNT",
+      "color": "#007600"
+    }
+  ]
 }

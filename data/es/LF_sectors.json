@@ -21855,5 +21855,381 @@
         ]
       }
     ]
+  },
+  {
+    "atcColors": [
+      {
+        "callsign": "LFBB_CTR",
+        "color": "#b8b81e"
+      },
+      {
+        "callsign": "LFBB_N_CTR",
+        "color": "#b8b61e"
+      },
+      {
+        "callsign": "LFBB_S_CTR",
+        "color": "#b81eae"
+      },
+      {
+        "callsign": "LFBD_APP",
+        "color": "#b8a91e"
+      },
+      {
+        "callsign": "LFBD_BE_APP",
+        "color": "#1eaeb8"
+      },
+      {
+        "callsign": "LFBD_BW_APP",
+        "color": "#1e80b8"
+      },
+      {
+        "callsign": "LFBH_APP",
+        "color": "#1eb8b3"
+      },
+      {
+        "callsign": "LFBI_APP",
+        "color": "#b61eb8"
+      },
+      {
+        "callsign": "LFBL_APP",
+        "color": "#b81eb3"
+      },
+      {
+        "callsign": "LFBO_AE_APP",
+        "color": "#1e8ab8"
+      },
+      {
+        "callsign": "LFBO_APP",
+        "color": "#b81eab"
+      },
+      {
+        "callsign": "LFBO_EB_APP",
+        "color": "#87b81e"
+      },
+      {
+        "callsign": "LFBO_WB_APP",
+        "color": "#7d1eb8"
+      },
+      {
+        "callsign": "LFBP_APP",
+        "color": "#a9b81e"
+      },
+      {
+        "callsign": "LFBZ_APP",
+        "color": "#1e8fb8"
+      },
+      {
+        "callsign": "LFEE_CTR",
+        "color": "#1eb87b"
+      },
+      {
+        "callsign": "LFFF_CTR",
+        "color": "#a4b81e"
+      },
+      {
+        "callsign": "LFFF_E_CTR",
+        "color": "#b8231e"
+      },
+      {
+        "callsign": "LFFF_S_CTR",
+        "color": "#471eb8"
+      },
+      {
+        "callsign": "LFFF_W_CTR",
+        "color": "#b8511e"
+      },
+      {
+        "callsign": "LFKB_APP",
+        "color": "#69b81e"
+      },
+      {
+        "callsign": "LFKJ_APP",
+        "color": "#b81e54"
+      },
+      {
+        "callsign": "LFLC_APP",
+        "color": "#b8261e"
+      },
+      {
+        "callsign": "LFLC_CF_APP",
+        "color": "#b81e92"
+      },
+      {
+        "callsign": "LFLL_APP",
+        "color": "#b83d1e"
+      },
+      {
+        "callsign": "LFLL_LB_APP",
+        "color": "#b81eb6"
+      },
+      {
+        "callsign": "LFLL_VE_APP",
+        "color": "#b8421e"
+      },
+      {
+        "callsign": "LFLL_VW_APP",
+        "color": "#b8701e"
+      },
+      {
+        "callsign": "LFML_APP",
+        "color": "#1eb88d"
+      },
+      {
+        "callsign": "LFML_MAC_APP",
+        "color": "#b8261e"
+      },
+      {
+        "callsign": "LFML_MB_APP",
+        "color": "#b8921e"
+      },
+      {
+        "callsign": "LFML_ME_APP",
+        "color": "#b8991e"
+      },
+      {
+        "callsign": "LFML_MZ_APP",
+        "color": "#a1b81e"
+      },
+      {
+        "callsign": "LFMM_CTR",
+        "color": "#1eb8a4"
+      },
+      {
+        "callsign": "LFMM_E_CTR",
+        "color": "#b81e6b"
+      },
+      {
+        "callsign": "LFMM_LS_CTR",
+        "color": "#b81e61"
+      },
+      {
+        "callsign": "LFMM_W_CTR",
+        "color": "#b81e3d"
+      },
+      {
+        "callsign": "LFMN_APP",
+        "color": "#b8921e"
+      },
+      {
+        "callsign": "LFMN_ND_APP",
+        "color": "#b8a41e"
+      },
+      {
+        "callsign": "LFMN_NE_APP",
+        "color": "#1eb8a6"
+      },
+      {
+        "callsign": "LFMN_NO_APP",
+        "color": "#b81eb1"
+      },
+      {
+        "callsign": "LFMP_SJ_APP",
+        "color": "#a6b81e"
+      },
+      {
+        "callsign": "LFMT_APP",
+        "color": "#b8a11e"
+      },
+      {
+        "callsign": "LFMT_FA_APP",
+        "color": "#54b81e"
+      },
+      {
+        "callsign": "LFMT_FB_APP",
+        "color": "#1e51b8"
+      },
+      {
+        "callsign": "LFMT_FE_APP",
+        "color": "#1e4ab8"
+      },
+      {
+        "callsign": "LFOB_APP",
+        "color": "#b81e5e"
+      },
+      {
+        "callsign": "LFOB_AW_APP",
+        "color": "#b31eb8"
+      },
+      {
+        "callsign": "LFOB_E_APP",
+        "color": "#1e8db8"
+      },
+      {
+        "callsign": "LFOB_W_APP",
+        "color": "#1e5eb8"
+      },
+      {
+        "callsign": "LFPG_APP",
+        "color": "#b83a1e"
+      },
+      {
+        "callsign": "LFPG_FN_APP",
+        "color": "#5c1eb8"
+      },
+      {
+        "callsign": "LFPG_FS_APP",
+        "color": "#1eb869"
+      },
+      {
+        "callsign": "LFPG_N_APP",
+        "color": "#381eb8"
+      },
+      {
+        "callsign": "LFPG_S_APP",
+        "color": "#1eb845"
+      },
+      {
+        "callsign": "LFPM_APP",
+        "color": "#b84a1e"
+      },
+      {
+        "callsign": "LFPM_SI_APP",
+        "color": "#b81e1e"
+      },
+      {
+        "callsign": "LFPM_SK_APP",
+        "color": "#231eb8"
+      },
+      {
+        "callsign": "LFPO_APP",
+        "color": "#4f1eb8"
+      },
+      {
+        "callsign": "LFPT_APP",
+        "color": "#1eb85c"
+      },
+      {
+        "callsign": "LFQQ_APP",
+        "color": "#a41eb8"
+      },
+      {
+        "callsign": "LFQQ_QA_APP",
+        "color": "#9cb81e"
+      },
+      {
+        "callsign": "LFQQ_QD_APP",
+        "color": "#94b81e"
+      },
+      {
+        "callsign": "LFQQ_QE_APP",
+        "color": "#1e92b8"
+      },
+      {
+        "callsign": "LFQQ_QR_APP",
+        "color": "#b81e70"
+      },
+      {
+        "callsign": "LFQQ_QW_APP",
+        "color": "#1e63b8"
+      },
+      {
+        "callsign": "LFRB_APP",
+        "color": "#a4b81e"
+      },
+      {
+        "callsign": "LFRH_APP",
+        "color": "#94b81e"
+      },
+      {
+        "callsign": "LFRJ_APP",
+        "color": "#b81e8f"
+      },
+      {
+        "callsign": "LFRN_APP",
+        "color": "#85b81e"
+      },
+      {
+        "callsign": "LFRN_DD_APP",
+        "color": "#b8b61e"
+      },
+      {
+        "callsign": "LFRN_JC_APP",
+        "color": "#1eb828"
+      },
+      {
+        "callsign": "LFRN_JD_APP",
+        "color": "#2b1eb8"
+      },
+      {
+        "callsign": "LFRN_RN_APP",
+        "color": "#1eb859"
+      },
+      {
+        "callsign": "LFRR_CTR",
+        "color": "#66b81e"
+      },
+      {
+        "callsign": "LFRS_APP",
+        "color": "#b81e78"
+      },
+      {
+        "callsign": "LFRS_LU_APP",
+        "color": "#b81e73"
+      },
+      {
+        "callsign": "LFRS_NA_APP",
+        "color": "#b8351e"
+      },
+      {
+        "callsign": "LFRS_NB_APP",
+        "color": "#1eb838"
+      },
+      {
+        "callsign": "LFRS_RM_APP",
+        "color": "#5e1eb8"
+      },
+      {
+        "callsign": "LFRS_RS_APP",
+        "color": "#6e1eb8"
+      },
+      {
+        "callsign": "LFSB_APP",
+        "color": "#1e54b8"
+      },
+      {
+        "callsign": "LFSB_BA_APP",
+        "color": "#b81e73"
+      },
+      {
+        "callsign": "LFSB_BC_APP",
+        "color": "#1e6eb8"
+      },
+      {
+        "callsign": "LFSB_BM_APP",
+        "color": "#b81e54"
+      },
+      {
+        "callsign": "LFSB_BO_APP",
+        "color": "#1e4fb8"
+      },
+      {
+        "callsign": "LFSB_BU_APP",
+        "color": "#1e3fb8"
+      },
+      {
+        "callsign": "LFST_APP",
+        "color": "#1e26b8"
+      },
+      {
+        "callsign": "LFST_RE_APP",
+        "color": "#b8351e"
+      },
+      {
+        "callsign": "LFST_RW_APP",
+        "color": "#b8631e"
+      },
+      {
+        "callsign": "LFST_SC_APP",
+        "color": "#801eb8"
+      },
+      {
+        "callsign": "LFST_SU_APP",
+        "color": "#ae1eb8"
+      },
+      {
+        "callsign": "LFTH_APP",
+        "color": "#b8471e"
+      }
+    ]
   }
 ]

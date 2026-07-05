@@ -3702,5 +3702,155 @@
                 "AE1"
             ]
         }
+    },
+  "atcColors": [
+    {
+      "callsign": "ABT",
+      "color": "#1eb878"
+    },
+    {
+      "callsign": "AE1",
+      "color": "#028a0f"
+    },
+    {
+      "callsign": "AE2",
+      "color": "#32612d"
+    },
+    {
+      "callsign": "AE3",
+      "color": "#1e5eb8"
+    },
+    {
+      "callsign": "AE4",
+      "color": "#daa520"
+    },
+    {
+      "callsign": "AEA",
+      "color": "#4682b4"
+    },
+    {
+      "callsign": "AEC",
+      "color": "#800000"
+    },
+    {
+      "callsign": "AED",
+      "color": "#da70d6"
+    },
+    {
+      "callsign": "AEE",
+      "color": "#f4bb44"
+    },
+    {
+      "callsign": "AEG",
+      "color": "#fafa33"
+    },
+    {
+      "callsign": "AER",
+      "color": "#6f4e37"
+    },
+    {
+      "callsign": "AEW",
+      "color": "#028a0f"
+    },
+    {
+      "callsign": "AEY",
+      "color": "#98fb98"
+    },
+    {
+      "callsign": "ALT",
+      "color": "#45b81e"
+    },
+    {
+      "callsign": "ARC",
+      "color": "#1f51ff"
+    },
+    {
+      "callsign": "ARE",
+      "color": "#000080"
+    },
+    {
+      "callsign": "ARW",
+      "color": "#6f8faf"
+    },
+    {
+      "callsign": "ATN",
+      "color": "#b81e3f"
+    },
+    {
+      "callsign": "ATS",
+      "color": "#ef3340"
+    },
+    {
+      "callsign": "BYI",
+      "color": "#b84c1e"
+    },
+    {
+      "callsign": "DA",
+      "color": "#fdda0d"
+    },
+    {
+      "callsign": "DDN",
+      "color": "#0047ab"
+    },
+    {
+      "callsign": "DDS",
+      "color": "#87ceeb"
+    },
+    {
+      "callsign": "DF",
+      "color": "#ffc000"
+    },
+    {
+      "callsign": "DLT",
+      "color": "#3db81e"
+    },
+    {
+      "callsign": "DTN",
+      "color": "#b81e38"
+    },
+    {
+      "callsign": "DTS",
+      "color": "#ef3340"
+    },
+    {
+      "callsign": "DWT",
+      "color": "#6eb81e"
+    },
+    {
+      "callsign": "FA",
+      "color": "#702963"
+    },
+    {
+      "callsign": "FSS/GULFE",
+      "color": "#b8511e"
+    },
+    {
+      "callsign": "FT",
+      "color": "#61b81e"
+    },
+    {
+      "callsign": "MA",
+      "color": "#ff3131"
+    },
+    {
+      "callsign": "MR",
+      "color": "#800080"
+    },
+    {
+      "callsign": "RA",
+      "color": "#d22b2b"
+    },
+    {
+      "callsign": "RAR",
+      "color": "#d22b2b"
+    },
+    {
+      "callsign": "RT",
+      "color": "#42b81e"
+    },
+    {
+      "callsign": "ST",
+      "color": "#009739"
     }
+  ]
 }

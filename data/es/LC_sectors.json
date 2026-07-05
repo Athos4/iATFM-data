@@ -833,5 +833,47 @@
       "LCLK": { "callsign": "Larnaca", "coord": [34.878888, 33.630277], "topdown": ["NC6", "NC3", "NC1"] },
       "LCPH": { "callsign": "Pafos", "coord": [34.718077, 32.485072], "topdown": ["NC6", "NC3", "NC1"] },
       "LCRA": { "callsign": "Akrotiri", "coord": [34.590372, 32.987780], "default": false, "topdown": ["RAA", "NC6", "NC3", "NC1"] }
-  }
+  },
+  "atcColors": [
+    {
+      "callsign": "FSS/EUCSE",
+      "color": "#1eb8a4"
+    },
+    {
+      "callsign": "LCA",
+      "color": "#4169e1"
+    },
+    {
+      "callsign": "NC1",
+      "color": "#ffd700"
+    },
+    {
+      "callsign": "NC2",
+      "color": "#ff4500"
+    },
+    {
+      "callsign": "NC3",
+      "color": "#228b22"
+    },
+    {
+      "callsign": "NC4",
+      "color": "#dc143c"
+    },
+    {
+      "callsign": "NC5",
+      "color": "#ba55d3"
+    },
+    {
+      "callsign": "NC6",
+      "color": "#00bfff"
+    },
+    {
+      "callsign": "NC7",
+      "color": "#ff69b4"
+    },
+    {
+      "callsign": "PFO",
+      "color": "#c71585"
+    }
+  ]
 }

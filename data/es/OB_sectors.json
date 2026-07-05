@@ -1579,5 +1579,63 @@
                 "BB1"
             ]
         }
+    },
+  "atcColors": [
+    {
+      "callsign": "BA",
+      "color": "#0115b2"
+    },
+    {
+      "callsign": "BB1",
+      "color": "#ce1126"
+    },
+    {
+      "callsign": "BB2",
+      "color": "#2663c0"
+    },
+    {
+      "callsign": "BB3",
+      "color": "#9832ff"
+    },
+    {
+      "callsign": "BBCH",
+      "color": "#850b18"
+    },
+    {
+      "callsign": "BBCL",
+      "color": "#590710"
+    },
+    {
+      "callsign": "BBE",
+      "color": "#0f52ba"
+    },
+    {
+      "callsign": "BBN",
+      "color": "#7f00ff"
+    },
+    {
+      "callsign": "BSA",
+      "color": "#1eaeb8"
+    },
+    {
+      "callsign": "BST",
+      "color": "#1e7db8"
+    },
+    {
+      "callsign": "BT",
+      "color": "#b81e6b"
+    },
+    {
+      "callsign": "FSS/GULF",
+      "color": "#1e6eb8"
+    },
+    {
+      "callsign": "FSS/GULFE",
+      "color": "#b8511e"
+    },
+    {
+      "callsign": "KHT",
+      "color": "#1e35b8"
     }
+  ]
 }

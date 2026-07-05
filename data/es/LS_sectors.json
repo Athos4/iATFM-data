@@ -19754,5 +19754,49 @@
         ]
       }
     ]
+  },
+  {
+    "atcColors": [
+      {
+        "callsign": "LSAG_INS_CTR",
+        "color": "#1e8ab8"
+      },
+      {
+        "callsign": "LSAZ_CTR",
+        "color": "#4c1eb8"
+      },
+      {
+        "callsign": "LSAZ_E_CTR",
+        "color": "#b8ae1e"
+      },
+      {
+        "callsign": "LSAZ_N_CTR",
+        "color": "#abb81e"
+      },
+      {
+        "callsign": "LSAZ_S_CTR",
+        "color": "#b81e9f"
+      },
+      {
+        "callsign": "LSAZ_W_CTR",
+        "color": "#94b81e"
+      },
+      {
+        "callsign": "LSGG_APP",
+        "color": "#b8b11e"
+      },
+      {
+        "callsign": "LSMD_APP",
+        "color": "#1e1eb8"
+      },
+      {
+        "callsign": "LSME_APP",
+        "color": "#b8211e"
+      },
+      {
+        "callsign": "LSZH_W_APP",
+        "color": "#301eb8"
+      }
+    ]
   }
 ]

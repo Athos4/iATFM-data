@@ -20683,5 +20683,13 @@
         ]
       }
     ]
+  },
+  {
+    "atcColors": [
+      {
+        "callsign": "EISN_CTR",
+        "color": "#b8351e"
+      }
+    ]
   }
 ]

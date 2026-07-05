@@ -6721,5 +6721,57 @@
         ]
       }
     ]
+  },
+  {
+    "atcColors": [
+      {
+        "callsign": "LRBB_ARG_CTR",
+        "color": "#1eb845"
+      },
+      {
+        "callsign": "LRBB_BAC_CTR",
+        "color": "#b81e78"
+      },
+      {
+        "callsign": "LRBB_BUD_CTR",
+        "color": "#1e42b8"
+      },
+      {
+        "callsign": "LRBB_CTR",
+        "color": "#b85c1e"
+      },
+      {
+        "callsign": "LRBB_DIN_CTR",
+        "color": "#6bb81e"
+      },
+      {
+        "callsign": "LRBB_KOM_CTR",
+        "color": "#611eb8"
+      },
+      {
+        "callsign": "LRBB_LOM_CTR",
+        "color": "#631eb8"
+      },
+      {
+        "callsign": "LRBB_M1_CTR",
+        "color": "#b81e21"
+      },
+      {
+        "callsign": "LRBB_M2_CTR",
+        "color": "#1eb81e"
+      },
+      {
+        "callsign": "LRBB_MOP_CTR",
+        "color": "#b8451e"
+      },
+      {
+        "callsign": "LRBB_NAP_CTR",
+        "color": "#b3b81e"
+      },
+      {
+        "callsign": "LRBB_NER_CTR",
+        "color": "#1ea4b8"
+      }
+    ]
   }
 ]

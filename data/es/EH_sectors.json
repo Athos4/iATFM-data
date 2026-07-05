@@ -2775,5 +2775,13 @@
         ]
       }
     ]
+  },
+  {
+    "atcColors": [
+      {
+        "callsign": "EHAA_CTR",
+        "color": "#b87d1e"
+      }
+    ]
   }
 ]

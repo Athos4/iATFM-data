@@ -4573,5 +4573,21 @@
         ]
       }
     ]
+  },
+  {
+    "atcColors": [
+      {
+        "callsign": "EBBU_CTR",
+        "color": "#b81e57"
+      },
+      {
+        "callsign": "EBBU_E_CTR",
+        "color": "#85b81e"
+      },
+      {
+        "callsign": "EBBU_W_CTR",
+        "color": "#57b81e"
+      }
+    ]
   }
 ]

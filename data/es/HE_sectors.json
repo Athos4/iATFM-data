@@ -12388,5 +12388,199 @@
       "coord": [28.209028, 33.645517],
       "topdown": ["TRT", "CCC", "CC3X", "CC3", "CC1"]
     }
-  }
+  },
+  "atcColors": [
+    {
+      "callsign": "ALT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "ARA",
+      "color": "#ffff00"
+    },
+    {
+      "callsign": "ART",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "ATT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "AXR",
+      "color": "#ffff00"
+    },
+    {
+      "callsign": "AXT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "BLT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "CAT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "CC1",
+      "color": "#00ff00"
+    },
+    {
+      "callsign": "CC1X",
+      "color": "#00ff00"
+    },
+    {
+      "callsign": "CC2",
+      "color": "#00ff00"
+    },
+    {
+      "callsign": "CC2X",
+      "color": "#00ff00"
+    },
+    {
+      "callsign": "CC3",
+      "color": "#00ff00"
+    },
+    {
+      "callsign": "CC3X",
+      "color": "#00ff00"
+    },
+    {
+      "callsign": "CC4",
+      "color": "#00ff00"
+    },
+    {
+      "callsign": "CC46",
+      "color": "#00ff00"
+    },
+    {
+      "callsign": "CC4X",
+      "color": "#00ff00"
+    },
+    {
+      "callsign": "CC5",
+      "color": "#00ff00"
+    },
+    {
+      "callsign": "CC5X",
+      "color": "#00ff00"
+    },
+    {
+      "callsign": "CC6",
+      "color": "#00ff00"
+    },
+    {
+      "callsign": "CC6X",
+      "color": "#00ff00"
+    },
+    {
+      "callsign": "CCA",
+      "color": "#00ffff"
+    },
+    {
+      "callsign": "CCC",
+      "color": "#00ffff"
+    },
+    {
+      "callsign": "CD1",
+      "color": "#ffff00"
+    },
+    {
+      "callsign": "CD2",
+      "color": "#9acd32"
+    },
+    {
+      "callsign": "CPT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "FSS/GULF",
+      "color": "#1e6eb8"
+    },
+    {
+      "callsign": "FSS/GULFW",
+      "color": "#b8801e"
+    },
+    {
+      "callsign": "GNR",
+      "color": "#ffff00"
+    },
+    {
+      "callsign": "GNT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "KGT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "LXR",
+      "color": "#ffff00"
+    },
+    {
+      "callsign": "LXT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "MAT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "MMT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "OCT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "PST",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "SCT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "SGA",
+      "color": "#ffff00"
+    },
+    {
+      "callsign": "SGT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "SHR",
+      "color": "#ffff00"
+    },
+    {
+      "callsign": "SHT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "SNR",
+      "color": "#ffff00"
+    },
+    {
+      "callsign": "SNT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "SXT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "TBA",
+      "color": "#ffff00"
+    },
+    {
+      "callsign": "TBT",
+      "color": "#ff0000"
+    },
+    {
+      "callsign": "TRT",
+      "color": "#ff0000"
+    }
+  ]
 }

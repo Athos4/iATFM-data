@@ -3151,5 +3151,13 @@
         ]
       }
     ]
+  },
+  {
+    "atcColors": [
+      {
+        "callsign": "DAAG_CTR",
+        "color": "#3f1eb8"
+      }
+    ]
   }
 ]

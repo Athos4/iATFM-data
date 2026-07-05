@@ -3166,5 +3166,101 @@
         ]
       }
     ]
+  },
+  {
+    "atcColors": [
+      {
+        "callsign": "DTKA_APP",
+        "color": "#1eb85c"
+      },
+      {
+        "callsign": "DTKA_TWR",
+        "color": "#571eb8"
+      },
+      {
+        "callsign": "DTMB_APP",
+        "color": "#1e73b8"
+      },
+      {
+        "callsign": "DTMB_TWR",
+        "color": "#b81e78"
+      },
+      {
+        "callsign": "DTNH_APP",
+        "color": "#b8281e"
+      },
+      {
+        "callsign": "DTNH_TWR",
+        "color": "#1eb823"
+      },
+      {
+        "callsign": "DTTA_APP",
+        "color": "#b1b81e"
+      },
+      {
+        "callsign": "DTTA_TWR",
+        "color": "#1eb6b8"
+      },
+      {
+        "callsign": "DTTC_CTR",
+        "color": "#1e97b8"
+      },
+      {
+        "callsign": "DTTC_N_CTR",
+        "color": "#1eb8ae"
+      },
+      {
+        "callsign": "DTTC_S_CTR",
+        "color": "#b6b81e"
+      },
+      {
+        "callsign": "DTTC_U_CTR",
+        "color": "#b81eb1"
+      },
+      {
+        "callsign": "DTTF_APP",
+        "color": "#b81ea4"
+      },
+      {
+        "callsign": "DTTF_TWR",
+        "color": "#a9b81e"
+      },
+      {
+        "callsign": "DTTG_APP",
+        "color": "#a1b81e"
+      },
+      {
+        "callsign": "DTTG_TWR",
+        "color": "#1ea6b8"
+      },
+      {
+        "callsign": "DTTI_TWR",
+        "color": "#a1b81e"
+      },
+      {
+        "callsign": "DTTJ_APP",
+        "color": "#99b81e"
+      },
+      {
+        "callsign": "DTTJ_TWR",
+        "color": "#1e9fb8"
+      },
+      {
+        "callsign": "DTTX_APP",
+        "color": "#b81e75"
+      },
+      {
+        "callsign": "DTTX_TWR",
+        "color": "#7bb81e"
+      },
+      {
+        "callsign": "DTTZ_APP",
+        "color": "#1e70b8"
+      },
+      {
+        "callsign": "DTTZ_TWR",
+        "color": "#b81e75"
+      }
+    ]
   }
 ]

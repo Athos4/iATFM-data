@@ -637,5 +637,13 @@
         ]
       }
     ]
+  },
+  {
+    "atcColors": [
+      {
+        "callsign": "NTTT_CTR",
+        "color": "#1e5cb8"
+      }
+    ]
   }
 ]

@@ -1923,5 +1923,63 @@
                 "16"
             ]
         }
+    },
+  "atcColors": [
+    {
+      "callsign": "AUT",
+      "color": "#f0e68c"
+    },
+    {
+      "callsign": "DAE",
+      "color": "#1434a4"
+    },
+    {
+      "callsign": "DAW",
+      "color": "#a52a2a"
+    },
+    {
+      "callsign": "DCN",
+      "color": "#ffc300"
+    },
+    {
+      "callsign": "DCS",
+      "color": "#c3b1e1"
+    },
+    {
+      "callsign": "DDE",
+      "color": "#1434a4"
+    },
+    {
+      "callsign": "DDW",
+      "color": "#a52a2a"
+    },
+    {
+      "callsign": "DRN",
+      "color": "#00ff7f"
+    },
+    {
+      "callsign": "DRS",
+      "color": "#cc7722"
+    },
+    {
+      "callsign": "DT1",
+      "color": "#b81e82"
+    },
+    {
+      "callsign": "GC",
+      "color": "#3db81e"
+    },
+    {
+      "callsign": "GCE",
+      "color": "#1eb8b1"
+    },
+    {
+      "callsign": "HTE",
+      "color": "#8a1538"
+    },
+    {
+      "callsign": "HTW",
+      "color": "#261eb8"
     }
+  ]
 }

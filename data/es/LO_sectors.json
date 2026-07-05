@@ -3923,5 +3923,13 @@
         ]
       }
     ]
+  },
+  {
+    "atcColors": [
+      {
+        "callsign": "LOVV_CTR",
+        "color": "#b81e8d"
+      }
+    ]
   }
 ]
