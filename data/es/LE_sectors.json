@@ -31079,7 +31079,7 @@
   },
   {
     "id": "LECMTLU",
-    "positionPriority": "LECM_ZTI_CTR","LECM_R2_CTR"[],
+    "positionPriority": ["LECM_ZTI_CTR","LECM_R2_CTR"],
     "blocks": [
       {
         "id": "LECMTLU",
