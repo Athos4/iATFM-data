@@ -32541,13 +32541,14 @@
     ]
   },
   { "atcColors": [
+    { "callsign": "LECM_BDP_CTR", "color": "#b81e7b" },
+    { "callsign": "LECM_R1_CTR", "color": "#541eb8" },
     { "callsign": "LECM_R2_CTR", "color": "#b8571e" },
+    { "callsign": "LECM_SAI_CTR", "color": "#1eb8b1" },
+    { "callsign": "LECM_SAS_CTR", "color": "#b81ea6" },
     { "callsign": "LECM_ZTI_CTR", "color": "#7d1eb8" },
     { "callsign": "LECS_CEN_CTR", "color": "#b8331e" },
     { "callsign": "LECS_CTR", "color": "#3fb81e" },
-    { "callsign": "LECS_E_CTR", "color": "#b8211e" },
-    { "callsign": "LECS_LXE_CTR", "color": "#1e78b8" },
-    { "callsign": "LECS_LXW_CTR", "color": "#1e4ab8" },
     { "callsign": "LECS_MAR_CTR", "color": "#42b81e" },
     { "callsign": "LECS_SEL_CTR", "color": "#61b81e" },
     { "callsign": "LEMG_E_APP", "color": "#b84f1e" },

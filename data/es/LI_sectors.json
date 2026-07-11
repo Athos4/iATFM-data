@@ -113,7 +113,7 @@
   },
   {
     "id": "LIRRTS7",
-    "positionPriority": ["LIRR_TS_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
+    "positionPriority": ["LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRTS7",
@@ -141,7 +141,7 @@
   },
   {
     "id": "LIRRTS3",
-    "positionPriority": ["LIRR_TS_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
+    "positionPriority": ["LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRTS3",
@@ -169,7 +169,7 @@
   },
   {
     "id": "LIRRTS2",
-    "positionPriority": "LIRR_TS_CTR","LIRR_TS_CTR","LIRR_NE_CTR"[],
+    "positionPriority": ["LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRTS2",
@@ -197,7 +197,7 @@
   },
   {
     "id": "LIRRTS1",
-    "positionPriority": ["LIRR_TS_CTR","LIRR_TS_CTR","LIRR_NE_CTR"],
+    "positionPriority": ["LIRR_TS_CTR","LIRR_NE_CTR"],
     "blocks": [
       {
         "id": "LIRRTS1",
@@ -11488,5 +11488,25 @@
       }
     ]
   },
-  { "atcColors": [] }
+  { "atcColors": [
+    { "callsign": "LIBB_ES_CTR", "color": "#381eb8" },
+    { "callsign": "LIBB_EU_CTR", "color": "#1eb83d" },
+    { "callsign": "LIMM_ES2_CTR", "color": "#b8a41e" },
+    { "callsign": "LIMM_ES5_CTR", "color": "#b8ab1e" },
+    { "callsign": "LIMM_WS2_CTR", "color": "#b8571e" },
+    { "callsign": "LIMM_WS5_CTR", "color": "#b85e1e" },
+    { "callsign": "LIRR_EW_CTR", "color": "#2d1eb8" },
+    { "callsign": "LIRR_NC_CTR", "color": "#5e1eb8" },
+    { "callsign": "LIRR_NE_CTR", "color": "#1eb863" },
+    { "callsign": "LIRR_NW_CTR", "color": "#1eb892" },
+    { "callsign": "LIRR_OV_CTR", "color": "#1e92b8" },
+    { "callsign": "LIRR_PN1_APP", "color": "#1e54b8" },
+    { "callsign": "LIRR_PS1_APP", "color": "#421eb8" },
+    { "callsign": "LIRR_SU_CTR", "color": "#b81e8a" },
+    { "callsign": "LIRR_TS_CTR", "color": "#1e3fb8" },
+    { "callsign": "LIRR_TW1_APP", "color": "#1eb857" },
+    { "callsign": "LIRR_US_CTR", "color": "#b84c1e" },
+    { "callsign": "LIRS_APP", "color": "#99b81e" },
+    { "callsign": "LIRZ_APP", "color": "#1e87b8" }
+  ] }
 ]
