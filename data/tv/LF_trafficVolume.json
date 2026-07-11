@@ -654,6 +654,11 @@
             "LFMMBT",
             "LFMMAJ",
             "LFMMMN",
+            "LFMMLO",
+            "LFMMLS",
+            "LFMMLE",
+            "LFMMMO",
+            "LFMMML",
             "LFMMG1",
             "LFMMG2",
             "LFMMG3",
@@ -675,7 +680,21 @@
             "LFMME3",
             "LFMMK1",
             "LFMMK2",
-            "LFMMK3"
+            "LFMMK3",
+            "LFMMW1",
+            "LFMMW2",
+            "LFMMW3",
+            "LFMMM1",
+            "LFMMM2",
+            "LFMMM3",
+            "LFMMM4",
+            "LFMMF1",
+            "LFMMF2",
+            "LFMMF3",
+            "LFMMF4",
+            "LFMMDD",
+            "LFMMZL",
+            "LFMMZH",
         ],
         "capacity": {
             "maxEntryPerHour": 45,
@@ -928,6 +947,20 @@
             "maxEntryPerHour": 40,
             "sustain": 24,
             "peak": 28
+        }
+    },
+        {
+        "id": "LFMMDZ",
+        "label": "LFMMDZ",
+        "sectorIds": [
+            "LFMMDD",
+            "LFMMZL",
+            "LFMMZH",
+        ],
+        "capacity": {
+            "maxEntryPerHour": 40,
+            "sustain": 20,
+            "peak": 24
         }
     },
     {
