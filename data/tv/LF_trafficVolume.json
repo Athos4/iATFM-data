@@ -694,7 +694,7 @@
             "LFMMF4",
             "LFMMDD",
             "LFMMZL",
-            "LFMMZH",
+            "LFMMZH"
         ],
         "capacity": {
             "maxEntryPerHour": 45,
@@ -955,7 +955,7 @@
         "sectorIds": [
             "LFMMDD",
             "LFMMZL",
-            "LFMMZH",
+            "LFMMZH"
         ],
         "capacity": {
             "maxEntryPerHour": 40,
