@@ -4655,12 +4655,13 @@
       }
     ]
   },
+  [
   {
-    "id": "LFMMAA",
+    "id": "LFMMA1",
     "positionPriority": ["LFMM_E_CTR","LFMM_W_CTR","LFMM_CTR"],
     "blocks": [
       {
-        "id":"LFMMA1.1",
+        "id": "LFMMA1.1",
         "floorFt": 19500,
         "ceilingFt": 24500,
         "polygon": [
@@ -4679,7 +4680,7 @@
         ]
       },
       {
-        "id":"LFMMA1.2",
+        "id": "LFMMA1.2",
         "floorFt": 24500,
         "ceilingFt": 30500,
         "polygon": [
@@ -4706,9 +4707,15 @@
           { "lat": 43.5990, "lon": 5.7510 },
           { "lat": 43.5960, "lon": 5.7910 }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "LFMMA2",
+    "positionPriority": ["LFMM_E_CTR","LFMM_W_CTR","LFMM_CTR"],
+    "blocks": [
       {
-        "id":"LFMMA2",
+        "id": "LFMMA2",
         "floorFt": 30500,
         "ceilingFt": 35500,
         "polygon": [
@@ -4735,9 +4742,15 @@
           { "lat": 43.5990, "lon": 5.7510 },
           { "lat": 43.5960, "lon": 5.7910 }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "LFMM3",
+    "positionPriority": ["LFMM_E_CTR","LFMM_W_CTR","LFMM_CTR"],
+    "blocks": [
       {
-        "id":"LFMM3",
+        "id": "LFMM3",
         "floorFt": 35500,
         "ceilingFt": 37500,
         "polygon": [
@@ -4764,9 +4777,15 @@
           { "lat": 43.5990, "lon": 5.7510 },
           { "lat": 43.5960, "lon": 5.7910 }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "LFMMA4",
+    "positionPriority": ["LFMM_E_CTR","LFMM_W_CTR","LFMM_CTR"],
+    "blocks": [
       {
-        "id":"LFMMA4",
+        "id": "LFMMA4",
         "floorFt": 37500,
         "ceilingFt": 66000,
         "polygon": [
