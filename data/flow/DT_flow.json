@@ -6,9 +6,9 @@
       "arrival": ["DTTCCTAG"]
     },
     {
-      "id": "PTRALAK>PTEB",
+      "id": "PTRALAK>PTEBA",
       "entry": ["RALAK"],
-      "exit": ["TEB"]
+      "exit": ["PTEBA"]
     },
     {
       "id": "PTBIRSA>PTELO",
