@@ -2070,6 +2070,94 @@
         "07": 1,
         "25": 1
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [8.7935, 41.9170],
+            [8.7985, 41.9180],
+            [8.7960, 41.9235],
+            [8.7925, 41.9225],
+            [8.7935, 41.9170]
+          ]
+        ]
+      ,
+      "properties": {
+        "icao": "LFKJ",
+        "label": "Terminal",
+        "taxiout": true,
+        "02": 4,
+        "20": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [8.7910, 41.9210],
+            [8.7955, 41.9210],
+            [8.7955, 41.9230],
+            [8.7910, 41.9230],
+            [8.7910, 41.9210]
+          ]
+        ]
+      },
+      "properties": {
+        "icao": "LFKJ",
+        "label": "Aviation Generale",
+        "taxiout": true,
+        "02": 4,
+        "20": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.4815, 42.5425],
+            [9.4845, 42.5425],
+            [9.4825, 42.5515],
+            [9.4795, 42.5515],
+            [9.4815, 42.5425]
+          ]
+        ]
+      },
+      "properties": {
+        "icao": "LFKB",
+        "label": "Terminal Principal",
+        "taxiout": true,
+        "34": 4,
+        "16": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.4775, 42.5485],
+            [9.4800, 42.5485],
+            [9.4800, 42.5510],
+            [9.4775, 42.5510],
+            [9.4775, 42.5485]
+          ]
+        ]
+      },
+      "properties": {
+        "icao": "LFKB",
+        "label": "Aviation Generale",
+        "taxiout": true,
+        "34": 5,
+        "16": 5
+      }
     }
   ]
 }
