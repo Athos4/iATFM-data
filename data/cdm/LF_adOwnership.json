@@ -14,8 +14,7 @@
     {
         "icao": "LFLL",
         "positionPriority": ["LFLL_DEL","LFLL_GND","LFLL_TWR","LFLL_APP","LFMM_W_CTR","LFMM_CTR"]
-    }
-    ,
+    },
     {
         "icao": "LFLY",
         "positionPriority": ["LFLY_GND","LFLY_TWR","LFLL_APP","LFMM_W_CTR","LFMM_CTR"]
@@ -27,6 +26,10 @@
     {
         "icao": "LFMN",
         "positionPriority": ["LFMN_DEL","LFMN_GND","LFMN_TWR","LFMN_APP","LFMM_E_CTR","LFMM_CTR"]
+    },
+    {
+        "icao": "LFMD",
+        "positionPriority": ["LFMD_GND","LFMD_TWR","LFMN_APP","LFMM_E_CTR","LFMM_CTR"]
     },
     {
         "icao": "LFKJ",
