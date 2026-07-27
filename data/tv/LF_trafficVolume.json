@@ -1156,7 +1156,7 @@
         "id": "LFPOASE",
         "label": "LFPOASE",
         "FlowIn": [
-            ">PTMOLBA"
+            "PTMOLBA>"
         ],
         "arrival": ["LFPO"],
         "capacity": {"maxEntryPerHour": 15}
@@ -1166,7 +1166,7 @@
         "id": "LFPOASW",
         "label": "LFPOASW",
         "FlowIn": [
-            ">PTODILO"
+            "PTODILO>"
         ],
         "arrival": ["LFPO"],
         "capacity": {"maxEntryPerHour": 15}
@@ -1176,7 +1176,7 @@
         "id": "LFPOANV",
         "label": "LFPOANV",
         "FlowIn": [
-            ">PTVEBEK"
+            "PTVEBEK>"
         ],
         "arrival": ["LFPO"],
         "capacity": {"maxEntryPerHour": 15}
