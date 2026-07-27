@@ -1153,6 +1153,36 @@
         
     },
     {
+        "id": "LFPOASE",
+        "label": "LFPOASE",
+        "FlowIn": [
+            ">PTMOLBA",
+        ],
+        "arrival": ["LFPO"],
+        "capacity": {"maxEntryPerHour": 15}
+        
+    },
+    {
+        "id": "LFPOASW",
+        "label": "LFPOASW",
+        "FlowIn": [
+            ">PTODILO",
+        ],
+        "arrival": ["LFPO"],
+        "capacity": {"maxEntryPerHour": 15}
+        
+    },
+    {
+        "id": "LFPOANV",
+        "label": "LFPOANV",
+        "FlowIn": [
+            ">PTVEBEK",
+        ],
+        "arrival": ["LFPO"],
+        "capacity": {"maxEntryPerHour": 15}
+        
+    },
+    {
         "id": "LFPOALL",
         "label": "LFPOALL",
         "arrival": ["LFPO"],
