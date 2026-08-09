@@ -1162,7 +1162,7 @@
         "id": "LFPOARR",
         "label": "LFPOARR",
         "arrival": ["LFPO"],
-        "capacity": {"maxEntryPerHour": 38}
+        "capacity": {"maxEntryPerHour": 30}
         
     },
     {
@@ -1199,7 +1199,8 @@
         "id": "LFPOALL",
         "label": "LFPOALL",
         "arrival": ["LFPO"],
-        "capacity": {"maxEntryPerHour": 38}
+        "departure": ["LFPO"],
+        "capacity": {"maxEntryPerHour": 45}
         
     },
     {
