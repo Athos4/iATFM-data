@@ -3,6 +3,7 @@
     {
         "id": "LFFFPAR",
         "label": "LFFFPAR",
+        "ignoreHeatmap": true,
         "sectorIds": [
             "LFFFOT",
             "LFFFRT",
@@ -43,6 +44,7 @@
     {
         "id": "LFFFRPAE",
         "label": "LFFFRPAE",
+        "ignoreHeatmap": true,
         "sectorIds": [
             "LFFFAO",
             "LFFFAR",
@@ -71,6 +73,7 @@
     {
         "id": "LFFFRPAW",
         "label": "LFFFRPAW",
+        "ignoreHeatmap": true,
         "sectorIds": [
             "LFFFOT",
             "LFFFRT",
@@ -206,6 +209,7 @@
     {
         "id": "LFRRBREST",
         "label": "LFRRBREST",
+        "ignoreHeatmap": true,
         "sectorIds": [
             "LFRRAS",
             "LFRRAI",
@@ -390,6 +394,7 @@
     {
         "id": "LFBBBDX",
         "label": "LFBBBDX",
+        "ignoreHeatmap": true,
         "sectorIds": [
             "LFBBBN",
             "LFBBLM",
@@ -445,6 +450,7 @@
     {
         "id": "LFBBUNOR",
         "label": "LFBBUNOR",
+        "ignoreHeatmap": true,
         "sectorIds": [
             "LFBBR1",
             "LFBBR2",
@@ -474,6 +480,7 @@
     {
         "id": "LFBBUSUD",
         "label": "LFBBUSUD",
+        "ignoreHeatmap": true,
         "sectorIds": [
             "LFBBZ1",
             "LFBBZ2",
@@ -505,6 +512,7 @@
     {
         "id": "LFBBUBDX",
         "label": "LFBBUBDX",
+        "ignoreHeatmap": true,
         "sectorIds": [
             "LFBBR1",
             "LFBBR2",
@@ -552,6 +560,7 @@
     {
         "id": "LFBBFBDX",
         "label": "LFBBFBDX",
+        "ignoreHeatmap": true,
         "sectorIds": [
             "LFBBBN",
             "LFBBLM",
@@ -649,6 +658,7 @@
     {
         "id": "LFMMMAR",
         "label": "LFMMMAR",
+        "ignoreHeatmap": true,
         "sectorIds": [
             "LFMMST",
             "LFMMBT",
@@ -705,6 +715,7 @@
     {
         "id": "LFMMRAE",
         "label": "LFMMRAE",
+        "ignoreHeatmap": true,
         "sectorIds": [
             "LFMMST",
             "LFMMBT",
@@ -737,6 +748,7 @@
     {
         "id": "LFMMRAW",
         "label": "LFMMRAW",
+        "ignoreHeatmap": true,
         "sectorIds": [
             "LFMMMO",
             "LFMMML",
@@ -966,6 +978,7 @@
     {
         "id": "LFEERMS",
         "label": "LFEERMS",
+        "ignoreHeatmap": true,
         "sectorIds": [
             "LFEEUF",
             "LFEEKF",
@@ -1149,7 +1162,7 @@
         "id": "LFPOARR",
         "label": "LFPOARR",
         "arrival": ["LFPO"],
-        "capacity": {"maxEntryPerHour": 38}
+        "capacity": {"maxEntryPerHour": 30}
         
     },
     {
@@ -1186,7 +1199,8 @@
         "id": "LFPOALL",
         "label": "LFPOALL",
         "arrival": ["LFPO"],
-        "capacity": {"maxEntryPerHour": 38}
+        "departure": ["LFPO"],
+        "capacity": {"maxEntryPerHour": 45}
         
     },
     {
