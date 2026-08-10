@@ -64,6 +64,7 @@
         "strategies": {
           "Nominale": {
             "07": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
+            "20": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"],
             "24": ["LANVI", "ALIMO", "BAXIR", "BUBLI", "PILUL", "DORDI", "OKASI", "LATRA", "MONOT", "OLZOM", "ERIXU", "AGOPA", "LGL", "ELCOB", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "NIPOR", "RANUX"]
           }
         },
@@ -73,7 +74,7 @@
             "WL": {
               "24": "W",
               "25": "X",
-              "20": "Y"
+              "20": "A"
             },
             "EL": {
               "06": "F",
@@ -82,7 +83,7 @@
             "IPOW": {
               "24": "Q",
               "25": "R",
-              "20": "S"
+              "20": "B"
             },
             "IPGW": {
               "06": "H",
