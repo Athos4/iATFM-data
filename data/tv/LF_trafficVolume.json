@@ -975,6 +975,39 @@
             "peak": 24
         }
     },
+        {
+        "id": "LFMMGY",
+        "label": "LFMMGY",
+        "sectorIds": [
+            "LFMMG1",
+            "LFMMG2",
+            "LFMMG3",
+            "LFMMG4",
+            "LFMMY1",
+            "LFMMY2",
+            "LFMMY3",
+            "LFMMY4"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 46,
+            "sustain": 22,
+            "peak": 16
+        }
+    },
+        {
+        "id": "LFMMWW",
+        "label": "LFMMWW",
+        "sectorIds": [
+            "LFMMW1",
+            "LFMMW2",
+            "LFMMW3",
+        ],
+        "capacity": {
+            "maxEntryPerHour": 48,
+            "sustain": 21,
+            "peak": 16
+        }
+    },
     {
         "id": "LFEERMS",
         "label": "LFEERMS",
@@ -1049,6 +1082,21 @@
             "maxEntryPerHour": 46,
             "sustain": 13,
             "peak": 15
+        }
+    },
+        {
+        "id": "LFEE4H",
+        "label": "LFEE4H",
+        "sectorIds": [
+            "LFEEUH",
+            "LFEEXH",
+            "LFEEKH",
+            "LFEEHH",
+        ],
+        "capacity": {
+            "maxEntryPerHour": 45,
+            "sustain": 11,
+            "peak": 13
         }
     },
     {
@@ -1409,9 +1457,22 @@
     }
     ,
     {
+        "id": "LFST",
+        "label": "LFST",
+        "arrival": ["LFST"],
+        "departure": ["LFST"],
+        "capacity": {"maxEntryPerHour": 12}
+    },
+    {
         "id": "LFSTARR",
         "label": "LFSTARR",
         "arrival": ["LFST"],
+        "capacity": {"maxEntryPerHour": 6}
+    },
+    {
+        "id": "LFSTDEP",
+        "label": "LFSTDEP",
+        "departure": ["LFST"],
         "capacity": {"maxEntryPerHour": 6}
     },
     {

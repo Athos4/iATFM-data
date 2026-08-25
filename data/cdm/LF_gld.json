@@ -125,6 +125,27 @@
           }
         }
       },
+      "LFOB": {
+        "strategies": {
+          "Nominale": {
+            "12": ["LANVI", "BAXIR", "BUBLI", "PILUL", "OKASI", "LATRA", "ERIXU", "AGOPA", "LGL", "ELCOB", "MATID", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "RANUX"],
+            "30": ["LANVI", "BAXIR", "BUBLI", "PILUL", "OKASI", "LATRA", "ERIXU", "AGOPA", "LGL", "ELCOB", "MATID", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "RANUX"],
+          }
+        },
+        "SID": {
+          "ident": "1",
+          "configurations": {
+            "PGW": {
+              "12": "V",
+              "30": "W"
+            },
+            "PGE": {
+              "12": "S",
+              "30": "T",
+            }
+          }
+        }
+      },
       "LFMN": {
         "strategies": {
           "Nominale": {
