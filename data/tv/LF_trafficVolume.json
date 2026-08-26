@@ -990,8 +990,8 @@
         ],
         "capacity": {
             "maxEntryPerHour": 46,
-            "sustain": 22,
-            "peak": 16
+            "sustain": 16,
+            "peak": 22
         }
     },
         {
@@ -1000,12 +1000,12 @@
         "sectorIds": [
             "LFMMW1",
             "LFMMW2",
-            "LFMMW3",
+            "LFMMW3"
         ],
         "capacity": {
             "maxEntryPerHour": 48,
-            "sustain": 21,
-            "peak": 16
+            "sustain": 16,
+            "peak": 21
         }
     },
     {
