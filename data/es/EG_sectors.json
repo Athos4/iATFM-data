@@ -8511,7 +8511,7 @@
   },
   {
     "id": "EGPXNOR",
-    "positionPriority": ["EGTL_E_CTR","EGTL_N_CTR","EGTL_CTR","EGTT_S_CTR","EGTT_CTR"],
+    "positionPriority": ["EGPX_M_CTR"],
     "blocks": [
       {
         "id": "EGPXNOR",
