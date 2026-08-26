@@ -129,7 +129,7 @@
         "strategies": {
           "Nominale": {
             "12": ["LANVI", "BAXIR", "BUBLI", "PILUL", "OKASI", "LATRA", "ERIXU", "AGOPA", "LGL", "ELCOB", "MATID", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "RANUX"],
-            "30": ["LANVI", "BAXIR", "BUBLI", "PILUL", "OKASI", "LATRA", "ERIXU", "AGOPA", "LGL", "ELCOB", "MATID", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "RANUX"],
+            "30": ["LANVI", "BAXIR", "BUBLI", "PILUL", "OKASI", "LATRA", "ERIXU", "AGOPA", "LGL", "ELCOB", "MATID", "OPALE", "ATREX", "NURMO", "EGOZE", "DIKOL", "RANUX"]
           }
         },
         "SID": {
