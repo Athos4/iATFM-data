@@ -1091,7 +1091,7 @@
             "LFEEUH",
             "LFEEXH",
             "LFEEKH",
-            "LFEEHH",
+            "LFEEHH"
         ],
         "capacity": {
             "maxEntryPerHour": 45,
