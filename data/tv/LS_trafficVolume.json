@@ -1,0 +1,284 @@
+{
+    "volumes": [
+      {
+        "id": "LSGL1C",
+        "label": "LSGL1C",
+        "sectorIds": [
+            "LSAGL1"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 51
+        }
+    },
+    {
+        "id": "LSGL12C",
+        "label": "LSGL12C",
+        "sectorIds": [
+            "LSAGL1",
+            "LSAGL2"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 51
+        }
+    },
+      {
+        "id": "LSGL13C",
+        "label": "LSGL13C",
+        "sectorIds": [
+            "LSAGL1",
+            "LSAGL2",
+            "LSAGL3"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 53
+        }
+    },
+      {
+        "id": "LSGL14C",
+        "label": "LSGL14C",
+        "sectorIds": [
+            "LSAGL1",
+            "LSAGL2",
+            "LSAGL3",
+            "LSAGL4"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 53
+        }
+    },
+      {
+        "id": "LSGL15C",
+        "label": "LSGL15C",
+        "sectorIds": [
+            "LSAGL1",
+            "LSAGL2",
+            "LSAGL3",
+            "LSAGL4",
+            "LSAGL5"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 51
+        }
+    },
+      {
+        "id": "LSGL17C",
+        "label": "LSGL17C",
+        "sectorIds": [
+            "LSAGL1",
+            "LSAGL2",
+            "LSAGL3",
+            "LSAGL4",
+            "LSAGL5",
+            "LSAGL6",
+            "LSAGL7"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 54
+        }
+    },
+      {
+        "id": "LSGL2C",
+        "label": "LSGL2C",
+        "sectorIds": [
+            "LSAGL2"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 52
+        }
+    },
+      {
+        "id": "LSGL23C",
+        "label": "LSGL23C",
+        "sectorIds": [
+            "LSAGL2",
+            "LSAGL3"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 50
+        }
+    },
+      {
+        "id": "LSGL24C",
+        "label": "LSGL24C",
+        "sectorIds": [
+            "LSAGL2",
+            "LSAGL3",
+            "LSAGL4"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 50
+        }
+    },
+      {
+        "id": "LSGL25C",
+        "label": "LSGL25C",
+        "sectorIds": [
+            "LSAGL2",
+            "LSAGL3",
+            "LSAGL4",
+            "LSAGL5"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 50
+        }
+    },
+      {
+        "id": "LSGL3C",
+        "label": "LSGL3C",
+        "sectorIds": [
+            "LSAGL3"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 50
+        }
+    },
+      {
+        "id": "LSGL3C",
+        "label": "LSGL3C",
+        "sectorIds": [
+            "LSAGL2",
+            "LSAGL3"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 47
+        }
+    },
+      {
+        "id": "LSGL34C",
+        "label": "LSGL34C",
+        "sectorIds": [
+            "LSAGL3",
+            "LSAGL4"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 52
+        }
+    },
+      {
+        "id": "LSGL35C",
+        "label": "LSGL35C",
+        "sectorIds": [
+            "LSAGL3",
+            "LSAGL4",
+            "LSAGL5"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 50
+        }
+    },
+      {
+        "id": "LSGL36C",
+        "label": "LSGL36C",
+        "sectorIds": [
+            "LSAGL3",
+            "LSAGL4",
+            "LSAGL5",
+            "LSAGL6"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 50
+        }
+    },
+      {
+        "id": "LSGL37C",
+        "label": "LSGL37C",
+        "sectorIds": [
+            "LSAGL3",
+            "LSAGL4",
+            "LSAGL5",
+            "LSAGL6",
+            "LSAGL7"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 50
+        }
+    },
+      {
+        "id": "LSGL4C",
+        "label": "LSGL4C",
+        "sectorIds": [
+            "LSAGL4"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 47
+        }
+    },
+      {
+        "id": "LSGL45C",
+        "label": "LSGL45C",
+        "sectorIds": [
+            "LSAGL4",
+            "LSAGL5"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 50
+        }
+    },
+      {
+        "id": "LSGL47C",
+        "label": "LSGL47C",
+        "sectorIds": [
+            "LSAGL4",
+            "LSAGL5",
+            "LSAGL6",
+            "LSAGL7"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 54
+        }
+    },
+      {
+        "id": "LSGL5C",
+        "label": "LSGL5C",
+        "sectorIds": [
+            "LSAGL5"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 49
+        }
+    },
+      {
+        "id": "LSGL57C",
+        "label": "LSGL57C",
+        "sectorIds": [
+            "LSAGL5",
+            "LSAGL6",
+            "LSAGL7"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 53
+        }
+    },
+      {
+        "id": "LSGL6C",
+        "label": "LSGL6C",
+        "sectorIds": [
+            "LSAGL6"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 43
+        }
+    },
+      {
+        "id": "LSGL67C",
+        "label": "LSGL67C",
+        "sectorIds": [
+            "LSAGL6",
+            "LSAGL7"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 49
+        }
+    },
+      {
+        "id": "LSGL7C",
+        "label": "LSGL7C",
+        "sectorIds": [
+            "LSAGL7"
+        ],
+        "capacity": {
+            "maxEntryPerHour": 43
+        }
+    }
+]
+}
