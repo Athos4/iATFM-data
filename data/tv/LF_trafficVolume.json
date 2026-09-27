@@ -1480,5 +1480,102 @@
         "label": "LFSBARR",
         "arrival": ["LFSB"]
     }
+        ,
+    {
+        "id": "LFRH",
+        "label": "LFRH",
+        "arrival": ["LFRH"],
+        "departure": ["LFRH"]
+    }
+        ,
+    {
+        "id": "LFRHDEP",
+        "label": "LFRHDEP",
+        "arrival": ["LFRH"]
+    }
+        ,
+    {
+        "id": "LFRHARR",
+        "label": "LFRHARR",
+        "arrival": ["LFRH"]
+    }
+        ,
+    {
+        "id": "LFRHTMA",
+        "label": "LFRHTMA",
+        "sectorIds": [
+            "LFRBRH"
+        ],
+        "capacity": {"maxEntryPerHour": 10}
+    }
+        ,
+    {
+        "id": "LFRNADG",
+        "label": "LFRN",
+        "arrival": ["LFRN"],
+        "departure": ["LFRN"],
+        "capacity": {"maxEntryPerHour": 12}
+    }
+        ,
+        {
+        "id": "LFRGARR",
+        "label": "LFRGARR",
+        "arrival": ["LFRG"],
+        "capacity": {"maxEntryPerHour": 8}
+    },
+        {
+        "id": "LFRGHK",
+        "label": "LFRGHK",
+        "arrival": ["LFRG","LFRK","LFOH"],
+        "capacity": {"maxEntryPerHour": 12}
+    },
+    {
+        "id": "LFRNGLOB",
+        "label": "LFRNGLOB",
+        "sectorIds": [
+            "LFRNJC",
+            "LFRNJD",
+            "LFRNDD",
+            "LFRNRN"
+        ],
+        "FlowEx": [
+            ">EGHH",
+            ">EGHI"
+        ],
+        "capacity": {"maxEntryPerHour": 18}
+    },
+        {
+        "id": "LFRNNORD",
+        "label": "LFRNNORD",
+        "sectorIds": [
+            "LFRNDD"
+        ],
+        "FlowEx": [
+            ">EGHH",
+            ">EGHI"
+        ],
+        "capacity": {"maxEntryPerHour": 6}
+    },
+        {
+        "id": "LFRNCOT",
+        "label": "LFRNCOT",
+        "sectorIds": [
+            "LFRNJC",
+            "LFRNJD"
+        ],
+        "FlowEx": [
+            ">EGHH",
+            ">EGHI"
+        ],
+        "capacity": {"maxEntryPerHour": 12}
+    },
+        {
+        "id": "LFRNSUD",
+        "label": "LFRNSUD",
+        "sectorIds": [
+            "LFRNRN"
+        ],
+        "capacity": {"maxEntryPerHour": 14}
+    },
 ]
 }
