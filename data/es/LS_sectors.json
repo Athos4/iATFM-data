@@ -1,10 +1,10 @@
 [
   {
-    "id": "LSGL7",
+    "id": "LSAGL7",
     "positionPriority": ["LSAG_INS_CTR"],
     "blocks": [
       {
-        "id": "LSGL7",
+        "id": "LSAGL7",
         "floorFt": 38500,
         "ceilingFt": 66000,
         "polygon": [
@@ -195,11 +195,11 @@
     ]
   },
   {
-    "id": "LSGL6",
+    "id": "LSAGL6",
     "positionPriority": ["LSAG_INS_CTR"],
     "blocks": [
       {
-        "id": "LSGL6",
+        "id": "LSAGL6",
         "floorFt": 37500,
         "ceilingFt": 38500,
         "polygon": [
@@ -390,11 +390,11 @@
     ]
   },
   {
-    "id": "LSGL5",
+    "id": "LSAGL5",
     "positionPriority": ["LSAG_INS_CTR"],
     "blocks": [
       {
-        "id": "LSGL5",
+        "id": "LSAGL5",
         "floorFt": 35500,
         "ceilingFt": 37500,
         "polygon": [
@@ -585,11 +585,11 @@
     ]
   },
   {
-    "id": "LSGL4",
+    "id": "LSAGL4",
     "positionPriority": ["LSAG_INS_CTR"],
     "blocks": [
       {
-        "id": "LSGL4",
+        "id": "LSAGL4",
         "floorFt": 33500,
         "ceilingFt": 35500,
         "polygon": [
@@ -780,11 +780,11 @@
     ]
   },
   {
-    "id": "LSGL3",
+    "id": "LSAGL3",
     "positionPriority": ["LSAG_INS_CTR"],
     "blocks": [
       {
-        "id": "LSGL3",
+        "id": "LSAGL3",
         "floorFt": 31500,
         "ceilingFt": 33500,
         "polygon": [
@@ -1170,11 +1170,11 @@
     ]
   },
   {
-    "id": "LSGL1",
+    "id": "LSAGL1",
     "positionPriority": ["LSAG_INS_CTR"],
     "blocks": [
       {
-        "id": "LSGL1",
+        "id": "LSAGL1",
         "floorFt": 24500,
         "ceilingFt": 28500,
         "polygon": [
