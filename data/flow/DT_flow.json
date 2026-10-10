@@ -1,14 +1,14 @@
 {
   "flow": [
     {
-      "id": "AZDTTCCTAG",
+      "id": "DTTC",
       "departure": ["DTTCCTAG"],
       "arrival": ["DTTCCTAG"]
     },
     {
-      "id": "PTRALAK>PTEB",
+      "id": "PTRALAK>PTEBA",
       "entry": ["RALAK"],
-      "exit": ["TEB"]
+      "exit": ["EBA"]
     },
     {
       "id": "PTBIRSA>PTELO",
