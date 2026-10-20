@@ -4,10 +4,10 @@
       "DTTA": {
         "strategies": {
           "Nominale": {
-            "01": ["NOLSI", "MANEX", "MARSA", "NIREM", "DIDON", "SONAK", "KEMIR", "MORJA", "TUPAL", "SUSIP", "TUC", "NBA", "MON", "CBN", "ABDAB", "DIMAO", "DOPEL", "TABOT", "TANIT", "GOLLA"],
-            "19": ["NOLSI", "MANEX", "MARSA", "NIREM", "DIDON", "SONAK", "KEMIR", "MORJA", "TUPAL", "SUSIP", "TUC", "NBA", "MON", "CBN", "ABDAB", "DIMAO", "DOPEL", "TABOT", "TANIT", "GOLLA"],
-            "11": ["NOLSI", "MANEX", "MARSA", "NIREM", "DIDON", "SONAK", "KEMIR", "MORJA", "TUPAL", "SUSIP", "TUC", "NBA", "MON", "CBN", "ABDAB", "DIMAO", "DOPEL", "TABOT", "TANIT", "GOLLA"],
-            "29": ["NOLSI", "MANEX", "MARSA", "NIREM", "DIDON", "SONAK", "KEMIR", "MORJA", "TUPAL", "SUSIP", "TUC", "NBA", "MON", "CBN", "ABDAB", "DIMAO", "DOPEL", "TABOT", "TANIT", "GOLLA"]
+            "01": ["NOLSI", "MANEX", "MARSA", "NIREM", "DIDON", "SONAK", "FIBAQ", "KEMIR", "MORJA", "TUPAL", "SUSIP", "TUC", "NBA", "MON", "CBN", "ABDAB", "DIMAO", "DOPEL", "TEMRI", "TABOT", "TANIT", "GOLLA"],
+            "19": ["NOLSI", "MANEX", "MARSA", "NIREM", "DIDON", "SONAK", "FIBAQ", "KEMIR", "MORJA", "TUPAL", "SUSIP", "TUC", "NBA", "MON", "CBN", "ABDAB", "DIMAO", "DOPEL", "TEMRI", "TABOT", "TANIT", "GOLLA"],
+            "11": ["NOLSI", "MANEX", "MARSA", "NIREM", "DIDON", "SONAK", "FIBAQ", "KEMIR", "MORJA", "TUPAL", "SUSIP", "TUC", "NBA", "MON", "CBN", "ABDAB", "DIMAO", "DOPEL", "TEMRI", "TABOT", "TANIT", "GOLLA"],
+            "29": ["NOLSI", "MANEX", "MARSA", "NIREM", "DIDON", "SONAK", "FIBAQ", "KEMIR", "MORJA", "TUPAL", "SUSIP", "TUC", "NBA", "MON", "CBN", "ABDAB", "DIMAO", "DOPEL", "TEMRI", "TABOT", "TANIT", "GOLLA"]
   
         },
         "SID": {
@@ -21,8 +21,8 @@
       "DTNH": {
         "strategies": {
           "Nominale": {
-            "09": ["TABOT", "DOPEL", "TANIT", "OSMAR", "TUC", "TUPAL", "TUNEX", "OMENI", "ATLEL", "MOVAR", "LOBNA", "TBK", "KEMIR","MORJA", "BAROG", "RASEM", "ELJEM", "MON", "DIMAO", "CBN", "NBA"],
-            "27": ["TABOT", "DOPEL", "TANIT", "OSMAR", "TUC", "TUPAL", "TUNEX", "OMENI", "ATLEL", "MOVAR", "LOBNA", "TBK", "KEMIR","MORJA", "BAROG", "RASEM", "ELJEM", "MON", "DIMAO", "CBN", "NBA"],
+            "09": ["TABOT", "DOPEL", "TANIT", "OSMAR", "TEMRI", "TUC", "TUPAL", "TUNEX", "OMENI", "ATLEL", "MOVAR", "LOBNA", "TBK", "KEMIR", "FIBAQ", "MORJA", "BAROG", "RASEM", "ELJEM", "MON", "DIMAO", "CBN", "NBA"],
+            "27": ["TABOT", "DOPEL", "TANIT", "OSMAR", "TEMRI", "TUC", "TUPAL", "TUNEX", "OMENI", "ATLEL", "MOVAR", "LOBNA", "TBK", "KEMIR", "FIBAQ", "MORJA", "BAROG", "RASEM", "ELJEM", "MON", "DIMAO", "CBN", "NBA"],
       },
 
         "SID": {
@@ -34,8 +34,8 @@
       "DTMB": {
         "strategies": {
           "Nominale": {
-            "07": ["TABOT", "DOPEL", "TANIT", "OSMAR", "TUC", "TUPAL", "TUNEX", "OMENI", "ATLEL", "MOVAR", "LOBNA", "TBK", "KEMIR","MORJA", "BAROG", "RASEM", "ELJEM", "MON", "DIMAO", "CBN", "NBA", "KURAT", "RINOS"],
-            "25": ["TABOT", "DOPEL", "TANIT", "OSMAR", "TUC", "TUPAL", "TUNEX", "OMENI", "ATLEL", "MOVAR", "LOBNA", "TBK", "KEMIR","MORJA", "BAROG", "RASEM", "ELJEM", "MON", "DIMAO", "CBN", "NBA", "KURAT", "RINOS"],
+            "07": ["TABOT", "DOPEL", "TANIT", "OSMAR", "TEMRI", "TUC", "TUPAL", "TUNEX", "OMENI", "ATLEL", "MOVAR", "LOBNA", "TBK", "KEMIR", "FIBAQ", "MORJA", "BAROG", "RASEM", "ELJEM", "MON", "DIMAO", "CBN", "NBA", "KURAT", "RINOS"],
+            "25": ["TABOT", "DOPEL", "TANIT", "OSMAR", "TEMRI", "TUC", "TUPAL", "TUNEX", "OMENI", "ATLEL", "MOVAR", "LOBNA", "TBK", "KEMIR", "FIBAQ", "MORJA", "BAROG", "RASEM", "ELJEM", "MON", "DIMAO", "CBN", "NBA", "KURAT", "RINOS"],
           }
         },
         "SID": {
