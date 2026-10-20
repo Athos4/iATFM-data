@@ -1,0 +1,50 @@
+[
+  {
+    "azId": "ECLJEDM3",
+    "Name": "EDM* AERODROMES",
+    "list": [
+      "EDMA",
+      "EDMB",
+      "EDMC",
+      "EDMD",
+      "EDME",
+      "EDMF",
+      "EDMG",
+      "EDMH",
+      "EDMI",
+      "EDMJ",
+      "EDMK",
+      "EDML",
+      "EDMN",
+      "EDMO",
+      "EDMP",
+      "EDMQ",
+      "EDMR",
+      "EDMS",
+      "EDMT",
+      "EDMU",
+      "EDMV",
+      "EDMW",
+      "EDMX",
+      "EDMY",
+      "EDMZ"
+    ]
+  },
+  {
+    "azId": "ECLJLIP11",
+    "Name": "LIPQ/PZ/PR/PO/PE/PA/PH/PY/PX, LIRQ/RP",
+    "list": [
+      "LIPA",
+      "LIPE",
+      "LIPH",
+      "LIPO",
+      "LIPQ",
+      "LIPR",
+      "LIPX",
+      "LIPY",
+      "LIPZ",
+      "LIRP",
+      "LIRQ"
+    ]
+  }
+]
