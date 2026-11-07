@@ -1,0 +1,281 @@
+[
+  {
+    "id": "LIMFCR",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMJCR",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMADE",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMANE1",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMANN",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMANW",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMASW",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMCE1",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMCE2",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMCE3",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMCE4",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMCE5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMCE6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMCE7",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMCE8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMCTAETH",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMCTAETL",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMCTAWTH",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMCTAWTL",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMEE1",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMEN2",
+    "positionPriority": [
+      "LIMM_ES2_CTR",
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMEN3",
+    "positionPriority": [
+      "LIMM_ES2_CTR",
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMEN4",
+    "positionPriority": [
+      "LIMM_ES5_CTR",
+      "LIMM_ES2_CTR",
+      "LIMM_WS5_CTR",
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMEN5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMEN6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMEN7",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMEN8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMES0",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMES1",
+    "positionPriority": [
+      "LIMM_ES2_CTR",
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMES2",
+    "positionPriority": [
+      "LIMM_ES2_CTR",
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMES3",
+    "positionPriority": [
+      "LIMM_ES2_CTR",
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMES4",
+    "positionPriority": [
+      "LIMM_ES5_CTR",
+      "LIMM_ES2_CTR",
+      "LIMM_WS5_CTR",
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMES5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMES6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMES7",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMES8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMLAR",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMMAP",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMMAR",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMWN0",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMWN1",
+    "positionPriority": [
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMWN2",
+    "positionPriority": [
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMWN3",
+    "positionPriority": [
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMWN4",
+    "positionPriority": [
+      "LIMM_WS5_CTR",
+      "LIMM_ES5_CTR",
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMWN5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMWN6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMWN7",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMWN8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMWS0",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMWS1",
+    "positionPriority": [
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMWS2",
+    "positionPriority": [
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMWS3",
+    "positionPriority": [
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMWS4",
+    "positionPriority": [
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMWS5",
+    "positionPriority": [
+      "LIMM_WS5_CTR",
+      "LIMM_ES5_CTR",
+      "LIMM_WS2_CTR"
+    ]
+  },
+  {
+    "id": "LIMMWS6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMWS7",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMMWS8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIMSCR",
+    "positionPriority": []
+  }
+]

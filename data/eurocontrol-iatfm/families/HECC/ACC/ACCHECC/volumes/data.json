@@ -1,0 +1,1112 @@
+{
+  "volumes": [
+    {
+      "id": "HECCALL",
+      "label": "HECCALL",
+      "sectorIds": [
+        "HECCALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:eed9b978-0438-492a-aae0-c598b902d8ee",
+        "groups": [
+          "ACCHECC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "9A75C46700600F00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e5aaf95f-a1f6-4b60-8c30-58c45e34e783"
+            },
+            "locationId": "HECCALL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "HECCCRI",
+      "label": "HECCCRI",
+      "sectorIds": [
+        "HECCALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:c4f85b87-629f-4839-bec9-89400f7c34de",
+        "groups": [
+          "ACCHECC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "E64DC46700A00400E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:12b8f1de-07d2-4211-b8fd-e8d82b242581"
+            },
+            "locationId": "HECCCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT ",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "HE_LG",
+      "label": "HE_LG",
+      "sectorIds": [
+        "HECCALL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ASLGGGCTA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:5c870dc0-b903-46a9-83cf-50d4e5cc2b1d",
+        "groups": [
+          "ACCHECC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "FFBF2B56000700004288E5D1",
+          "name": "WESTBOUND FLTS VIA HECC TO LGGG",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:12b8f1de-07d2-4211-b8fd-e8d82b242581"
+            },
+            "locationId": "HECCCTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:eb1201d7-f81b-4400-b47e-a29bc70f0180"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1447286400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "KIMEPAO1",
+      "label": "KIMEPAO1",
+      "sectorIds": [
+        "HECCALL"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRUKET"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTBA"
+            ],
+            [
+              "PTARH"
+            ],
+            [
+              "PTPASOS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRUKET"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTSISIK"
+            ],
+            [
+              "PTNOZ"
+            ],
+            [
+              "PTMETRU"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRUKET"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTSISIK"
+            ],
+            [
+              "PTNOZ"
+            ],
+            [
+              "PTTANSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRUKET"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTSISIK"
+            ],
+            [
+              "PTNOZ"
+            ],
+            [
+              "PTANTAR"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTPASOS"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTBA"
+            ],
+            [
+              "PTARH"
+            ],
+            [
+              "PTRUKET"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTPASOS"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTBA"
+            ],
+            [
+              "PTARH"
+            ],
+            [
+              "PTMETSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTMETSA"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTBA"
+            ],
+            [
+              "PTARH"
+            ],
+            [
+              "PTPASOS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRAGPU"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTKAPIT"
+            ],
+            [
+              "PTNOZ"
+            ],
+            [
+              "PTANTAR"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:74772f9b-0e63-466b-a886-a11703440630",
+        "groups": [
+          "ACCHECC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1408579200000,
+            "end": 32503593600000
+          },
+          "stateId": "8863085400A00000F78B58A1",
+          "name": "TRAFFIC OVERFLYING EGYPTIAN AIRSPACE COMING FROM CFMU AREA \nTO THE EAST AND COMING FROM THE EAST TO CFMU AREA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:12b8f1de-07d2-4211-b8fd-e8d82b242581"
+            },
+            "locationId": "HECCCTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c712f094-3afc-49c5-ac6d-d9979c737a9c"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:658c0b50-00a7-49ad-8438-49837dd081a9"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9623eb0d-775d-485a-a981-e788339e0895"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:160a6376-af59-4157-880d-4fee0b5e6bd3"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:826d12e1-8bb3-4e59-9eba-750a1755d9a4"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:00a6780a-a82e-4321-8e4b-915efe3f91ff"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:263b5b2b-e4db-4a0c-aa5e-674984e289dd"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:bd28518a-876d-42b7-b7e3-cd5e0de55a10"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "KIMEPAOV",
+      "label": "KIMEPAOV",
+      "sectorIds": [
+        "HECCALL"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRUKET"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTMETRU"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRUKET"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTANSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRUKET"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTANTAR"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRUKET"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPASOS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTMETSA"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTMETRU"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTMETSA"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTANSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTMETSA"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTANTAR"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTMETSA"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPASOS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRAGPU"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTMETRU"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRAGPU"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTANSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRAGPU"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTANTAR"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRAGPU"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPASOS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTPASOS"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTMETRU"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTPASOS"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTRUKET"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:23b4d4c8-4df6-44d8-9a58-d29c89fb1270",
+        "groups": [
+          "ACCHECC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1408579200000,
+            "end": 32503593600000
+          },
+          "stateId": "3C2E075400160000F78B58A1",
+          "name": "TRAFFIC OVERFLYING EGYPTIAN AIRSPACE \nCOMING FROM CFMU AREA TO THE EAST\nAND \nCOMING FROM THE EAST TO THE CFMU AREA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:12b8f1de-07d2-4211-b8fd-e8d82b242581"
+            },
+            "locationId": "HECCCTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:e5b112c5-2b55-4c9c-af57-21ba65977c83"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f9a51e5b-3656-4455-b62e-c0cee8f88fad"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:36c7b4a3-0967-4c65-80f1-8a296bd6ec01"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2de5683b-d4b0-4666-98d4-74bf70b0aa80"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a708a91a-d2dc-4f81-9ca4-70c1210afe7a"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c741cae1-6e31-4229-9558-8984266f4503"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c3eb3789-cb5d-44db-a4c4-d80a26b59a55"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:54e4c037-c16f-4b91-a366-f493c22e7ce6"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:03b8d0aa-0cb0-4d97-9aac-806ece6b37c0"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f8e59bb2-1969-4ddd-8f88-c21c9ebe2830"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:adea0458-f161-470a-8a72-cdf981c4eaba"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b3d86d21-16af-4d64-8047-c46750c6ea8a"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:0051818a-460f-4c89-98e8-4b21d9235a71"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b01cee8c-dc6a-4686-94fc-5b4e6fa31bf6"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LGSTRDE7",
+      "label": "LGSTRDE7",
+      "sectorIds": [
+        "HECCALL"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECAF8C688A024763BC3703"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC7129AEAB14F283A797A3"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECAF8C688A024763BC3703"
+            ],
+            [
+              "ASLCCCCTA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:dfca68e3-77f1-47aa-8227-018a5e2533fa",
+        "groups": [
+          "ACCHECC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1604534400000,
+            "end": 32503593600000
+          },
+          "stateId": "617B7D5F007000007DF1321B",
+          "name": "STRIKE DEPS VIA HECC",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:12b8f1de-07d2-4211-b8fd-e8d82b242581"
+            },
+            "locationId": "HECCCTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:36178c0b-70fb-4495-92de-2d91e6a60a4e"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b452271f-0bd2-41a5-bb6b-0cf63e9ca313"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:fad85a6f-f296-49fb-adce-525de65c1511"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LG_HE1",
+      "label": "LG_HE1",
+      "sectorIds": [
+        "HECCALL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLGGGCTA"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLGGGCTA"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASLCCCCTA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:b09b393c-5bc0-4d71-8013-8c078e27fd97",
+        "groups": [
+          "ACCHECC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "C9BD2B56004500004288E5D1",
+          "name": "EASTBOUND ONLOAD LGGG AND HECC",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:12b8f1de-07d2-4211-b8fd-e8d82b242581"
+            },
+            "locationId": "HECCCTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:8161b986-1895-4a8a-9bb4-298242530d67"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:91c35895-73f0-4815-ae07-53ca074b9021"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1447286400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "PASAMOV",
+      "label": "PASAMOV",
+      "sectorIds": [
+        "HECCALL"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRAGPU"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTCVO"
+            ],
+            [
+              "PTNOZ"
+            ],
+            [
+              "PTTANSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRAGPU"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTCVO"
+            ],
+            [
+              "PTNOZ"
+            ],
+            [
+              "PTMETRU"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRAGPU"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTCVO"
+            ],
+            [
+              "PTMELDO"
+            ],
+            [
+              "PTRASDA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:180defc8-0f8b-4a03-b892-e4a8309a5f28",
+        "groups": [
+          "ACCHECC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1408579200000,
+            "end": 32503593600000
+          },
+          "stateId": "711EFA5300870000F78B58A1",
+          "name": "TFC FROM OE.. VIA HECCCTA EXITING TO CFMU\nAREA VIA METRU/RASDA OR TANSA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:12b8f1de-07d2-4211-b8fd-e8d82b242581"
+            },
+            "locationId": "HECCCTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a3a5e976-3682-4d35-b63c-914664489553"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:7a721099-e0e6-4e81-b567-392a4f524e31"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:64733749-a3a4-4d6d-8ba5-e84ff8213eed"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1408579200000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

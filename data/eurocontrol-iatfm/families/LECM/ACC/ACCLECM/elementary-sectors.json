@@ -1,0 +1,744 @@
+[
+  {
+    "id": "LEABTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LEASTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LEBBTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LECGTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMASL",
+    "positionPriority": [
+      "LECM_SAS_CTR",
+      "LECM_SAI_CTR",
+      "LECM_R1_CTR"
+    ]
+  },
+  {
+    "id": "LECMASLF",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMASU",
+    "positionPriority": [
+      "LECM_SAI_CTR",
+      "LECM_R1_CTR"
+    ]
+  },
+  {
+    "id": "LECMBLL",
+    "positionPriority": [
+      "LECM_BDP_CTR",
+      "LECM_R1_CTR"
+    ]
+  },
+  {
+    "id": "LECMBLU",
+    "positionPriority": [
+      "LECM_BDP_CTR",
+      "LECM_R1_CTR"
+    ]
+  },
+  {
+    "id": "LECMCJL",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMCJU",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMDGL",
+    "positionPriority": [
+      "LECM_BDP_CTR",
+      "LECM_R1_CTR"
+    ]
+  },
+  {
+    "id": "LECMDGLT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMDGLZ",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMDGU",
+    "positionPriority": [
+      "LECM_BDP_CTR",
+      "LECM_R1_CTR"
+    ]
+  },
+  {
+    "id": "LECMDGUT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMDGUZ",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMOC",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMPAL",
+    "positionPriority": [
+      "LECM_BDP_CTR",
+      "LECM_R1_CTR"
+    ]
+  },
+  {
+    "id": "LECMPALT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMPALZ",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMPAU",
+    "positionPriority": [
+      "LECM_BDP_CTR",
+      "LECM_R1_CTR"
+    ]
+  },
+  {
+    "id": "LECMPAUT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMPAUZ",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMSAMT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMSANF",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMSAO",
+    "positionPriority": [
+      "LECM_SAI_CTR",
+      "LECM_R1_CTR"
+    ]
+  },
+  {
+    "id": "LECMSLE",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMSLFT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMSTUT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMSTVT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMTELT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMTER",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMTEUT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMTLL",
+    "positionPriority": [
+      "LECM_ZTI_CTR",
+      "LECM_R2_CTR"
+    ]
+  },
+  {
+    "id": "LECMTLLT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMTLLZ",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMTLU",
+    "positionPriority": [
+      "LECM_ZTI_CTR",
+      "LECM_R2_CTR"
+    ]
+  },
+  {
+    "id": "LECMTLUT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMTLUZ",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMZGLT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMZGUT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMZGZ",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMZML",
+    "positionPriority": [
+      "LECM_ZTI_CTR",
+      "LECM_R2_CTR"
+    ]
+  },
+  {
+    "id": "LECMZMM",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMZMU",
+    "positionPriority": [
+      "LECM_ZTI_CTR",
+      "LECM_R2_CTR"
+    ]
+  },
+  {
+    "id": "LECMZNLT",
+    "positionPriority": [
+      "LECM_ZTI_CTR",
+      "LECM_R2_CTR"
+    ]
+  },
+  {
+    "id": "LECMZNMT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMZNUT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMZSLT",
+    "positionPriority": [
+      "LECM_ZTI_CTR",
+      "LECM_R2_CTR"
+    ]
+  },
+  {
+    "id": "LECMZSMT",
+    "positionPriority": []
+  },
+  {
+    "id": "LECMZSUT",
+    "positionPriority": []
+  },
+  {
+    "id": "LELNTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD125A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD147A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD153A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD154A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD155A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD156A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD157A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD930",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD931A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD931B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD932A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD932B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD933",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD934A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD934B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD935A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD935B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD936",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD937A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD937B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD937C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD938A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD938B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD939",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD940A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD940B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD940C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD941",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD942A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD942B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD942C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD943A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD943B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD945A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD948A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD948B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD948C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD949A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD949B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD949C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD950A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD950B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD950C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD950D",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD951A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD951B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD951C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD951D",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD952A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD952B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD952C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD953B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD953C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD953D",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD954A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD954B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD956",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD957B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD957C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD957D",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD958A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD958B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD958C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD959A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD959B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD959C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD960A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD960B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD961A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD961B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD962",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD963A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD963B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD964A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD964B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD965A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD965B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD965C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD966A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD966B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD967A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD967B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD967C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD968A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD968B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD969A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD969B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD970A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD970B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD970C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD971A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD971B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD971C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD972B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD972C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD972D",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD973A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD973B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD975B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD975C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD975D",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD976A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD976B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD976C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD976Z",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD977A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD977B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD977C",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD978A",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD978B",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD979Z",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD980Z",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMD981Z",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMDASWS",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMDAVES",
+    "positionPriority": []
+  },
+  {
+    "id": "LEPPTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LESATA",
+    "positionPriority": []
+  },
+  {
+    "id": "LESOTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LEVTTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LEXJTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LEZGTA",
+    "positionPriority": []
+  }
+]

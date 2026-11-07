@@ -1,0 +1,51 @@
+[
+  {
+    "id": "EGPXBDS",
+    "positionPriority": [
+      "EGPX_BDS_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXGRP",
+    "positionPriority": [
+      "EGPX_GRP_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXHUE",
+    "positionPriority": [
+      "EGPX_U1_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXHUW",
+    "positionPriority": [
+      "EGPX_U1_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXPEN",
+    "positionPriority": [
+      "EGPX_PEN_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXSOL",
+    "positionPriority": [
+      "EGPX_DX_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXTYN",
+    "positionPriority": [
+      "EGPX_U1_CTR",
+      "EGPX_CTR"
+    ]
+  }
+]

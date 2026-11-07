@@ -1,0 +1,190 @@
+{
+  "volumes": [
+    {
+      "id": "FL1TOP37",
+      "label": "FL1TOP37",
+      "sectorIds": [
+        "LQSB380",
+        "LQSB390",
+        "LQSBTOP39"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZEC105192DB25A82987CAC2"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:17008e44-06d0-42c2-a37b-b82c639648aa",
+        "groups": [
+          "ACC1LQSB",
+          "ACCLQSB",
+          "FICLQSB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "7DEA7B6200010000BF639C4A",
+          "name": "FROM: ANY\nTO: LW..\nNOT ALLOWED VIA LQSBTOP37\nREFILE BELOW FL375 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cbb9d91d-6e4e-49b1-b4ab-d2fa8c521625"
+            },
+            "locationId": "LQSBTOP37",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:314614dd-2840-49e4-b159-84e266698c94"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1UHT38",
+      "label": "FL1UHT38",
+      "sectorIds": [
+        "LQSB350",
+        "LQSB360",
+        "LQSB370",
+        "LQSB380",
+        "LQSB390",
+        "LQSBTOP39"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC2C3E98CA9A8591BA4EAA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:677e56a4-82ff-4214-ae86-5fc1a371f525",
+        "groups": [
+          "ACC1LQSB",
+          "ACCLQSB",
+          "FICLQSB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "97EB7B6200150000BF639C4A",
+          "name": "FROM: LA..\nTO: ANY\nNOT ALLOWED VIA LQSBUHT38 SECTOR\nREFILE BELOW FL345 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6768c2a3-43e4-494f-94bf-95852d8e5c48"
+            },
+            "locationId": "LQSBUHT38",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a6f813b4-a7f5-497e-a7c7-2cb5fc01a4c3"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2UHT38",
+      "label": "FL2UHT38",
+      "sectorIds": [
+        "LQSB350",
+        "LQSB360",
+        "LQSB370",
+        "LQSB380",
+        "LQSB390",
+        "LQSBTOP39"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADBKPRD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:f0ee7e95-797b-4e6b-9571-c5e888af75a7",
+        "groups": [
+          "ACC1LQSB",
+          "ACCLQSB",
+          "FICLQSB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "97EB7B6200390000BF639C4A",
+          "name": "FROM: BKPR\nTO: ANY\nNOT ALLOWED VIA LQSBUHT38 SECTOR\nREFILE BELOW FL345 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6768c2a3-43e4-494f-94bf-95852d8e5c48"
+            },
+            "locationId": "LQSBUHT38",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:8d1f5977-0703-44bd-b771-27f3fa3671db"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

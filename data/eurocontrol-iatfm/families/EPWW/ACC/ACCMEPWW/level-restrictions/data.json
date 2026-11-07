@@ -1,0 +1,533 @@
+{
+  "volumes": [
+    {
+      "id": "FL1SFIR4",
+      "label": "FL1SFIR4",
+      "sectorIds": [
+        "EPWWCH",
+        "EPWWEH",
+        "EPWWJH",
+        "EPWWRH",
+        "EPWWTEH",
+        "EPWWTWH"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEPGDD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTRASAN"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEPGDD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTBABKO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEPGDD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTLENOV"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:059b34ac-5b4e-4a2e-9aa2-2756a77c88b0",
+        "groups": [
+          "ACCEPWW",
+          "ACCEPWWT",
+          "ACCMEPWW",
+          "FICEPWW"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1456963200000,
+            "end": 32503593600000
+          },
+          "stateId": "176CF15600B800003C48A6D5",
+          "name": "EPGD DEPARTURES VIA RASAN,LENOV OR BABKO\nSHALL NOT ENTER THE SFIR HIGH SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cd1f476a-cd41-45ea-844f-04631ed93712"
+            },
+            "locationId": "EPWWSFIRH",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5c88be22-b2a8-4707-9ba7-3c93d99f1423"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:800ee126-e58c-4248-9fa2-ae52df262421"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:05877bbf-3c3f-49cb-bdd3-fdd06772c217"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2NFIR6",
+      "label": "FL2NFIR6",
+      "sectorIds": [
+        "EPWWBH",
+        "EPWWDEH",
+        "EPWWDWH",
+        "EPWWFH",
+        "EPWWGH",
+        "EPWWNH"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEPGDD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTBODLA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEPGDD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTALUKA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:b6da3137-eb0e-476f-9305-92f9939cda9a",
+        "groups": [
+          "ACCEPWW",
+          "ACCEPWWT",
+          "ACCMEPWW",
+          "FICEPWW"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1522281600000,
+            "end": 32503593600000
+          },
+          "stateId": "1C95A15A0050000066D9F2BE",
+          "name": "/FROM: EPGD VIA BODLA OR ALUKA\nTO: ANY\nNOT ALLOWED VIA EPWWNFIRH SECTOR\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ee58ce96-2c91-40d6-bb7a-a46a6f164272"
+            },
+            "locationId": "EPWWNFIRH",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3237f889-9bf6-4635-becb-0f33dda820cb"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ebc3e738-cc23-4ff0-9b2c-29f288dad138"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2SFIR4",
+      "label": "FL2SFIR4",
+      "sectorIds": [
+        "EPWWCH",
+        "EPWWEH",
+        "EPWWJH",
+        "EPWWRH",
+        "EPWWTEH",
+        "EPWWTWH"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEPWAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTOMTI"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEPWAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTBABKO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEPWAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTUSIN"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:7f2d5a67-c30b-44cf-b95d-c71a0f9ea27a",
+        "groups": [
+          "ACCEPWW",
+          "ACCEPWWT",
+          "ACCMEPWW",
+          "FICEPWW"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1456963200000,
+            "end": 32503593600000
+          },
+          "stateId": "166CF156005D01003C48A6D5",
+          "name": "EPWA DEPARTURES VIA TOMTI,BABKO OR TUSIN\nSHALL NOT ENTER THE SFIR HIGH SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cd1f476a-cd41-45ea-844f-04631ed93712"
+            },
+            "locationId": "EPWWSFIRH",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d5fe31f5-0d19-47e9-9102-076daff7193b"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2d0b9a0f-4d7d-43cf-8767-d67c63c8f668"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:fc47bcd4-990f-4e5f-ae9e-622cb09d83ca"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL3SFIR6",
+      "label": "FL3SFIR6",
+      "sectorIds": [
+        "EPWWCH",
+        "EPWWEH",
+        "EPWWJH",
+        "EPWWRH",
+        "EPWWTEH",
+        "EPWWTWH"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEPKKD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTLASIS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEPKTD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTLASIS"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:027e13d0-cb8f-4ec6-a14e-04a3f855ba8d",
+        "groups": [
+          "ACCEPWW",
+          "ACCEPWWT",
+          "ACCMEPWW",
+          "FICEPWW"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1456963200000,
+            "end": 32503593600000
+          },
+          "stateId": "176CF156002300003C48A6D5",
+          "name": "EPKK AND EPKT DEPARTURES VIA LASIS\nSHALL NOT ENTER THE SFIR HIGH SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cd1f476a-cd41-45ea-844f-04631ed93712"
+            },
+            "locationId": "EPWWSFIRH",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1b9820db-dd78-4d0f-9edf-e919d3233bb9"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ccb55ef7-6548-40c4-b8d6-0d9276aac906"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL4NFIR1",
+      "label": "FL4NFIR1",
+      "sectorIds": [
+        "EPWWBH",
+        "EPWWDEH",
+        "EPWWDWH",
+        "EPWWFH",
+        "EPWWGH",
+        "EPWWNH"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEPWAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTDEVEL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEPWAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTMOTAD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:a7246dad-9c7e-4c0f-a496-12027f32f108",
+        "groups": [
+          "ACCEPWW",
+          "ACCEPWWT",
+          "ACCMEPWW",
+          "FICEPWW"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1456963200000,
+            "end": 32503593600000
+          },
+          "stateId": "3C66F156003300003C48A6D5",
+          "name": "EPWA DEPARTURES VIA MOTAD OR DEVEL\nSHALL NOT ENTER THE NFIR HIGH SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ee58ce96-2c91-40d6-bb7a-a46a6f164272"
+            },
+            "locationId": "EPWWNFIRH",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d711630a-6bff-4fac-beef-2657a8a56656"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:89e05ff7-911d-4d59-bfe8-d94cf22c9760"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

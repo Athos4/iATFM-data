@@ -1,0 +1,718 @@
+{
+  "volumes": [
+    {
+      "id": "EYVCALL",
+      "label": "EYVCALL",
+      "sectorIds": [
+        "EYVCE",
+        "EYVCL",
+        "EYVCM",
+        "EYVCU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 17,
+            "sustained": 12,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 17,
+        "sustain": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6c4e7052-5491-4402-bfc3-ae45279d7cc3",
+        "groups": [
+          "ACCEYVC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "E73AF36900A5070010F0E534",
+          "name": "EYVC CTA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e490329f-eb63-4494-95e8-df084aaeed07"
+            },
+            "locationId": "EYVCALL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 17,
+              "sustained": 12,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EYVCALL1",
+      "label": "EYVCALL1",
+      "sectorIds": [
+        "EYVCE",
+        "EYVCL",
+        "EYVCM",
+        "EYVCU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 55
+      },
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASEPWWCTA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ASEPWWCTA"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASUMKKCTA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ASUMKKCTA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:30c4fdbc-65ae-464d-8a08-6bde6ebf2af1",
+        "groups": [
+          "ACCEYVC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "AF2D6962008306002B54B13C",
+          "name": "EYVC CTA TO AND FROM EPWW EXCLUDING UMKKFIR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e490329f-eb63-4494-95e8-df084aaeed07"
+            },
+            "locationId": "EYVCALL",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:38201dcd-42de-4444-84b1-d68437980aa8"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:0811471f-3f35-4452-a887-97b554f99906"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:55fc1827-22dc-4784-a042-c6891352d687"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4ae6fc61-aa8c-42ed-a5dd-8026c18869f2"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 55
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EYVCCRI",
+      "label": "EYVCCRI",
+      "sectorIds": [
+        "EYVCE",
+        "EYVCL",
+        "EYVCM",
+        "EYVCU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 55
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f6b8398f-c64e-4db1-a9b5-973f36193a71",
+        "groups": [
+          "ACCEYVC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "A74DC467004B0D00E5F73002",
+          "name": "EYVC CTA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e490329f-eb63-4494-95e8-df084aaeed07"
+            },
+            "locationId": "EYVCALL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 55
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EYVCE",
+      "label": "EYVCE",
+      "sectorIds": [
+        "EYVCE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:47964f25-50a0-4695-9031-508f75ed3bcb",
+        "groups": [
+          "ACCEYVC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "E73AF369007C0B0010F0E534",
+          "name": "EAST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b642a490-538a-491f-b95a-01b3ed384e8c"
+            },
+            "locationId": "EYVCE",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EYVCEL",
+      "label": "EYVCEL",
+      "sectorIds": [
+        "EYVCE",
+        "EYVCL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-10-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 9,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 9,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:842e8aa0-f643-4b67-a1a8-0d30e272ba5f",
+        "groups": [
+          "ACCEYVC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1761782400000,
+            "end": 32503593600000
+          },
+          "stateId": "8C35FB6800C00000A8E59326",
+          "name": "EYVCE + EYVCL SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6821b80b-faca-46e7-94d7-420d149b18e8"
+            },
+            "locationId": "EYVCEL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1761782400000,
+              "til": 32503593600000,
+              "peak": 9,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EYVCL",
+      "label": "EYVCL",
+      "sectorIds": [
+        "EYVCL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-10-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 6,
+            "sustained": 4,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 6,
+        "sustain": 4
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:14f3f55a-9203-4d71-ad78-ea6ef79f947c",
+        "groups": [
+          "ACCEYVC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1761782400000,
+            "end": 32503593600000
+          },
+          "stateId": "8C35FB6800E90000A8E59326",
+          "name": "LOW SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d26d330b-d6c7-4ebe-aa72-c222300e6b2e"
+            },
+            "locationId": "EYVCL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1761782400000,
+              "til": 32503593600000,
+              "peak": 6,
+              "sustained": 4,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EYVCLMU",
+      "label": "EYVCLMU",
+      "sectorIds": [
+        "EYVCL",
+        "EYVCM",
+        "EYVCU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8ac24780-3fa5-43af-b87e-9217d569d9da",
+        "groups": [
+          "ACCEYVC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "E73AF36900CF070010F0E534",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2b337e23-6343-4a63-9720-91a96994b175"
+            },
+            "locationId": "EYVCLMU",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EYVCM",
+      "label": "EYVCM",
+      "sectorIds": [
+        "EYVCM"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 44,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-10-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 13,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 13,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d90f0efb-cf48-4cfd-80eb-d6e066f00cac",
+        "groups": [
+          "ACCEYVC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1761782400000,
+            "end": 32503593600000
+          },
+          "stateId": "8D35FB68008A0000A8E59326",
+          "name": "MIDDLE SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b5bc0ae1-ed13-4df9-b704-e9bcf0e656f2"
+            },
+            "locationId": "EYVCM",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 44
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1761782400000,
+              "til": 32503593600000,
+              "peak": 13,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EYVCMU",
+      "label": "EYVCMU",
+      "sectorIds": [
+        "EYVCM",
+        "EYVCU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 53,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-10-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 20,
+            "sustained": 17,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 20,
+        "sustain": 17
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:03359a97-840f-4613-8f9d-87ce66574c6a",
+        "groups": [
+          "ACCEYVC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1761782400000,
+            "end": 32503593600000
+          },
+          "stateId": "8D35FB6800380000A8E59326",
+          "name": "MIDDLE+ UPPER SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f9e3d3d9-7cd6-4302-8800-bd77014692e7"
+            },
+            "locationId": "EYVCMU",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 53
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1761782400000,
+              "til": 32503593600000,
+              "peak": 20,
+              "sustained": 17,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EYVCU",
+      "label": "EYVCU",
+      "sectorIds": [
+        "EYVCU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 53,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-10-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 19,
+            "sustained": 16,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 19,
+        "sustain": 16
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3f449551-32b6-4aa4-a544-2a943c42b553",
+        "groups": [
+          "ACCEYVC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1761782400000,
+            "end": 32503593600000
+          },
+          "stateId": "8D35FB6800610000A8E59326",
+          "name": "UPPER SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7b3314ce-4132-44ee-bfbc-050199292b2b"
+            },
+            "locationId": "EYVCU",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 53
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1761782400000,
+              "til": 32503593600000,
+              "peak": 19,
+              "sustained": 16,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

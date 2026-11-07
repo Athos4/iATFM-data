@@ -1,0 +1,296 @@
+{
+  "summary": {
+    "ref": {
+      "@class": "eurocontrol.nconect.airspace.em.rs.RestrictionRef",
+      "backendId": "BIEGPX500A",
+      "uuid": "8e996013-2d75-4daa-93c2-3646ae18a29e",
+      "restrictionId": "BIEGPX500A"
+    },
+    "flightPlanProcessing": "FRA_DCT_LIMIT"
+  },
+  "data": {
+    "ref": {
+      "@class": "eurocontrol.nconect.airspace.em.rs.RestrictionRef",
+      "backendId": "BIEGPX500A",
+      "uuid": "8e996013-2d75-4daa-93c2-3646ae18a29e",
+      "restrictionId": "BIEGPX500A"
+    },
+    "states": [
+      {
+        "@class": "eurocontrol.nconect.airspace.em.rs.FraDctLimitRestrictionState",
+        "period": {
+          "start": 1793232000000,
+          "end": 32503593600000
+        },
+        "stateId": "CF69C36A00480000991307FA",
+        "condition": {
+          "@class": "eurocontrol.nconect.airspace.em.rs.CrossingBorderDctLimitRestrictionCondition",
+          "dctLimit": 0,
+          "crossingBorderAirspaceIds": [
+            {
+              "fromAirspaceId": {
+                "@class": "eurocontrol.nconect.airspace.em.as.AirspaceSummary",
+                "ref": {
+                  "@class": "eurocontrol.nconect.airspace.em.as.AirspaceRef",
+                  "backendId": "BIRDOCA1",
+                  "uuid": "6435a182-8f82-4761-b30f-11b44a4a9c6e",
+                  "airspaceId": "BIRDOCA1"
+                }
+              },
+              "toAirspaceId": {
+                "@class": "eurocontrol.nconect.airspace.em.as.AirspaceSummary",
+                "ref": {
+                  "@class": "eurocontrol.nconect.airspace.em.as.AirspaceRef",
+                  "backendId": "EGPXFRA",
+                  "uuid": "e0911369-a86a-4ad9-bdb9-ca0909b97f8e",
+                  "airspaceId": "EGPXFRA"
+                }
+              }
+            },
+            {
+              "fromAirspaceId": {
+                "@class": "eurocontrol.nconect.airspace.em.as.AirspaceSummary",
+                "ref": {
+                  "@class": "eurocontrol.nconect.airspace.em.as.AirspaceRef",
+                  "backendId": "EGPXFRA",
+                  "uuid": "e0911369-a86a-4ad9-bdb9-ca0909b97f8e",
+                  "airspaceId": "EGPXFRA"
+                }
+              },
+              "toAirspaceId": {
+                "@class": "eurocontrol.nconect.airspace.em.as.AirspaceSummary",
+                "ref": {
+                  "@class": "eurocontrol.nconect.airspace.em.as.AirspaceRef",
+                  "backendId": "BIRDOCA1",
+                  "uuid": "6435a182-8f82-4761-b30f-11b44a4a9c6e",
+                  "airspaceId": "BIRDOCA1"
+                }
+              }
+            }
+          ]
+        },
+        "applicabilities": [
+          {
+            "weeklyDayPeriodPattern": {
+              "timePattern": [
+                {
+                  "@class": "eurocontrol.nconect.airspace.em.common.time.WeeklyDayPeriod",
+                  "weekDays": [
+                    "SUNDAY",
+                    "MONDAY",
+                    "TUESDAY",
+                    "WEDNESDAY",
+                    "THURSDAY",
+                    "FRIDAY",
+                    "SATURDAY"
+                  ],
+                  "wef": 0,
+                  "til": 0
+                }
+              ],
+              "timeFrame": {
+                "start": 1793232000000,
+                "end": 1798070400000
+              }
+            },
+            "altitudeRange": {
+              "min": {
+                "@class": "eurocontrol.nconect.flight.em.FlightLevel",
+                "discriminator": "LIMIT",
+                "LIMIT": "MIN_NOT_DEFINED"
+              },
+              "max": {
+                "@class": "eurocontrol.nconect.flight.em.FlightLevel",
+                "discriminator": "LIMIT",
+                "LIMIT": "MAX_NOT_DEFINED"
+              }
+            }
+          }
+        ],
+        "duringApplicability": true,
+        "enabled": "Enabled_TRUE",
+        "eventApplicabilities": [
+          {
+            "timeFrame": {
+              "@class": "eurocontrol.nconect.airspace.em.common.time.ExtendedPeriod",
+              "discriminator": "ExtendedDatesPair",
+              "ExtendedDatesPair": {
+                "@class": "eurocontrol.nconect.airspace.em.common.time.ExtendedDatesPair",
+                "wef": {
+                  "@class": "eurocontrol.nconect.airspace.em.common.time.ExtendedDate",
+                  "discriminator": "Concrete",
+                  "Concrete": 1793232000000
+                },
+                "til": {
+                  "@class": "eurocontrol.nconect.airspace.em.common.time.ExtendedDate",
+                  "discriminator": "Concrete",
+                  "Concrete": 32503593600000
+                }
+              }
+            },
+            "specialDayPeriod": {
+              "timePattern": {
+                "period": {
+                  "@class": "eurocontrol.nconect.airspace.em.common.time.WeeklyDayPeriod",
+                  "weekDays": [
+                    "MONDAY",
+                    "TUESDAY",
+                    "WEDNESDAY",
+                    "THURSDAY",
+                    "FRIDAY",
+                    "SATURDAY",
+                    "SUNDAY"
+                  ],
+                  "wef": 0,
+                  "til": 0
+                }
+              },
+              "wefExtTimeInDay": {
+                "@class": "eurocontrol.nconect.airspace.em.common.time.ExtTimeInDay",
+                "timeReference": "MIDNIGHT",
+                "offset": 0
+              },
+              "tilExtTimeInDay": {
+                "@class": "eurocontrol.nconect.airspace.em.common.time.ExtTimeInDay",
+                "timeReference": "MIDNIGHT",
+                "offset": 86400000
+              },
+              "excludeTimePattern": false
+            }
+          }
+        ],
+        "operationalGoal": "CROSS BORDER FRA LIMITATION FROM RAS BIRDOCA1 TO RAS EGPXFRA AND FROM RAS EGPXFRA TO RAS BIRDOCA1",
+        "restrictionType": "MANDATORY",
+        "autoDSTChangeEnabled": false,
+        "externallyAvailable": true,
+        "airborneOnly": false,
+        "dynamicallyActivated": false,
+        "ioatPortion": "NON_IOAT",
+        "routing": {
+          "sequences": [
+            {
+              "elements": [
+                {
+                  "@class": "eurocontrol.nconect.airspace.em.rs.RoutingElementPoint",
+                  "id": {
+                    "@class": "eurocontrol.nconect.airspace.em.pt.PointSummary",
+                    "ref": {
+                      "@class": "eurocontrol.nconect.airspace.em.pt.DefaultPointRef",
+                      "backendId": "MATIK",
+                      "uuid": "06ff0745-4a8a-44d3-8b19-b981d5a445ab",
+                      "pointId": "MATIK"
+                    }
+                  },
+                  "fraType": "ENTRY_EXIT"
+                }
+              ]
+            },
+            {
+              "elements": [
+                {
+                  "@class": "eurocontrol.nconect.airspace.em.rs.RoutingElementPoint",
+                  "id": {
+                    "@class": "eurocontrol.nconect.airspace.em.pt.PointSummary",
+                    "ref": {
+                      "@class": "eurocontrol.nconect.airspace.em.pt.DefaultPointRef",
+                      "backendId": "NALAN",
+                      "uuid": "94429ec9-7914-4cac-9fdf-e1aa0f4cf129",
+                      "pointId": "NALAN"
+                    }
+                  },
+                  "fraType": "ENTRY_EXIT"
+                }
+              ]
+            },
+            {
+              "elements": [
+                {
+                  "@class": "eurocontrol.nconect.airspace.em.rs.RoutingElementPoint",
+                  "id": {
+                    "@class": "eurocontrol.nconect.airspace.em.pt.PointSummary",
+                    "ref": {
+                      "@class": "eurocontrol.nconect.airspace.em.pt.DefaultPointRef",
+                      "backendId": "PEMOS",
+                      "uuid": "b4b1a5d4-4b53-4ed0-95db-c2aae8f5d384",
+                      "pointId": "PEMOS"
+                    }
+                  },
+                  "fraType": "ENTRY_EXIT"
+                }
+              ]
+            },
+            {
+              "elements": [
+                {
+                  "@class": "eurocontrol.nconect.airspace.em.rs.RoutingElementPoint",
+                  "id": {
+                    "@class": "eurocontrol.nconect.airspace.em.pt.PointSummary",
+                    "ref": {
+                      "@class": "eurocontrol.nconect.airspace.em.pt.DefaultPointRef",
+                      "backendId": "RATSU",
+                      "uuid": "031cd252-b9c7-4980-ba83-fdddaf8fe2fe",
+                      "pointId": "RATSU"
+                    }
+                  },
+                  "fraType": "ENTRY_EXIT"
+                }
+              ]
+            },
+            {
+              "elements": [
+                {
+                  "@class": "eurocontrol.nconect.airspace.em.rs.RoutingElementPoint",
+                  "id": {
+                    "@class": "eurocontrol.nconect.airspace.em.pt.PointSummary",
+                    "ref": {
+                      "@class": "eurocontrol.nconect.airspace.em.pt.DefaultPointRef",
+                      "backendId": "RIXUN",
+                      "uuid": "a39e2499-6bc5-4ec9-81cd-cebc15b07779",
+                      "pointId": "RIXUN"
+                    }
+                  },
+                  "fraType": "ENTRY_EXIT"
+                }
+              ]
+            },
+            {
+              "elements": [
+                {
+                  "@class": "eurocontrol.nconect.airspace.em.rs.RoutingElementPoint",
+                  "id": {
+                    "@class": "eurocontrol.nconect.airspace.em.pt.PointSummary",
+                    "ref": {
+                      "@class": "eurocontrol.nconect.airspace.em.pt.DefaultPointRef",
+                      "backendId": "SOSAR",
+                      "uuid": "8f2b8248-6d9d-472b-85ac-3eff88f41203",
+                      "pointId": "SOSAR"
+                    }
+                  },
+                  "fraType": "ENTRY_EXIT"
+                }
+              ]
+            },
+            {
+              "elements": [
+                {
+                  "@class": "eurocontrol.nconect.airspace.em.rs.RoutingElementPoint",
+                  "id": {
+                    "@class": "eurocontrol.nconect.airspace.em.pt.PointSummary",
+                    "ref": {
+                      "@class": "eurocontrol.nconect.airspace.em.pt.DefaultPointRef",
+                      "backendId": "OSBON",
+                      "uuid": "9101cec6-6d23-4329-9f8b-7b68ff5ac3db",
+                      "pointId": "OSBON"
+                    }
+                  },
+                  "fraType": "ENTRY_EXIT"
+                }
+              ]
+            }
+          ]
+        },
+        "enableFraPtGeneration": false
+      }
+    ]
+  }
+}

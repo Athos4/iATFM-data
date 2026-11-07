@@ -1,0 +1,42 @@
+[
+  {
+    "azId": "EC33544F9EAAC750EA81A2",
+    "list": [
+      "OJAQ",
+      "OJKF",
+      "OJPH"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:66a07a9d-e0cd-415e-8440-7cda25046b3d",
+      "id": "OJOJAQ"
+    }
+  },
+  {
+    "azId": "ECBB2A6D4D07F95510D665",
+    "list": [
+      "LLER",
+      "LLHB",
+      "LLNV",
+      "LLOV",
+      "LLRM"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:44fcfcd4-4795-48df-8d9d-7ae057c7f9ef",
+      "id": "LLOV+4"
+    }
+  },
+  {
+    "azId": "ECF54A5BD793E5E6A91B28",
+    "list": [
+      "OJAI",
+      "OJAM",
+      "OJHF",
+      "OJKA",
+      "OJMS"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:e96487fe-1b00-44d3-8a7c-6598882abe81",
+      "id": "OJAIAM"
+    }
+  }
+]

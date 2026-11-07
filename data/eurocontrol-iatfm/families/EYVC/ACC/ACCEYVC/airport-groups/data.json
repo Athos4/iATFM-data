@@ -1,0 +1,43 @@
+[
+  {
+    "azId": "ECD2D49805083F52DE0000",
+    "list": [
+      "EYAL",
+      "EYBI",
+      "EYDR",
+      "EYIG",
+      "EYKA",
+      "EYKL",
+      "EYKP",
+      "EYKS",
+      "EYKT",
+      "EYMA",
+      "EYMM",
+      "EYMO",
+      "EYNA",
+      "EYNI",
+      "EYPA",
+      "EYPH",
+      "EYPI",
+      "EYPN",
+      "EYPR",
+      "EYRD",
+      "EYRO",
+      "EYSA",
+      "EYSB",
+      "EYSE",
+      "EYSI",
+      "EYTL",
+      "EYTR",
+      "EYUT",
+      "EYVI",
+      "EYVK",
+      "EYVP",
+      "EYZA"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:3aeebc75-30b2-418b-8581-030201ac2264",
+      "id": "EY"
+    }
+  }
+]

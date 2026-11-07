@@ -1,0 +1,1053 @@
+{
+  "volumes": [
+    {
+      "id": "UBBA5ELS",
+      "label": "UBBA5ELS",
+      "sectorIds": [
+        "UBBA5ELS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b515e2f2-c489-4fca-aea1-65d32c0678eb",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "9F5C2C6A00050000FE8A30B6",
+          "name": "BAKU ACC EAST LOWER GND - FL355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0d0acb2f-2b0f-49ca-b411-6cf56f960603"
+            },
+            "locationId": "UBBA5ELS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBA5EUS",
+      "label": "UBBA5EUS",
+      "sectorIds": [
+        "UBBA6EUS",
+        "UBBAEMD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 52
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:cc43e291-0a68-42b5-8ecd-796e3f21c061",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "B4592C6A000D0000FE8A30B6",
+          "name": "BAKU ACC EAST UPPER FL355 - UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4a832e42-06cb-4cea-a270-cd2786945928"
+            },
+            "locationId": "UBBA5EUS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 52
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBA5LS",
+      "label": "UBBA5LS",
+      "sectorIds": [
+        "UBBA5ELS",
+        "UBBA5WLS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0d818fa1-0be0-43d5-824f-4102a3a5d849",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "3D5A2C6A000F0000FE8A30B6",
+          "name": "BAKU ACC EAST + WEST LOWER GND - FL355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:70a14e81-0e15-421b-a322-254747bd01ae"
+            },
+            "locationId": "UBBA5LS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBA5US",
+      "label": "UBBA5US",
+      "sectorIds": [
+        "UBBA6EUS",
+        "UBBA6WUS",
+        "UBBAEMD",
+        "UBBAWMD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 37
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c0b17ae1-20c8-4617-9e5d-de5dc270d3a0",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "145B2C6A001A0000FE8A30B6",
+          "name": "BAKU ACC EAST + WEST UPPER FL355 - UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f875dba1-088b-4684-af6e-0868f8c9c22b"
+            },
+            "locationId": "UBBA5US",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 37
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBA5WLS",
+      "label": "UBBA5WLS",
+      "sectorIds": [
+        "UBBA5WLS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 38
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c9bae781-5223-4efd-815a-c92e94c38b23",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "005C2C6A000A0000FE8A30B6",
+          "name": "BAKU ACC WEST LOWER GND - FL355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3e2fc132-ad5c-49f6-9455-b78aefbbb722"
+            },
+            "locationId": "UBBA5WLS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 38
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBA5WUS",
+      "label": "UBBA5WUS",
+      "sectorIds": [
+        "UBBA6WUS",
+        "UBBAWMD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 41
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:7fe1e5aa-6b13-4cac-bb60-bb79f2967f72",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "36592C6A001C0000FE8A30B6",
+          "name": "BAKU ACC WEST UPPER FL355 - UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b0e3e483-619c-454f-8f2b-288c8c607a0b"
+            },
+            "locationId": "UBBA5WUS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 41
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBA6ELS",
+      "label": "UBBA6ELS",
+      "sectorIds": [
+        "UBBA5ELS",
+        "UBBAEMD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 49
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f758419d-5b16-4f4c-a095-3d95da4af730",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "54242D6A00C90400FE8A30B6",
+          "name": "BAKU ACC EAST LOWER GND - FL365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9493e882-86c8-45db-976e-eebc9b79c7cb"
+            },
+            "locationId": "UBBA6ELS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 49
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBA6EUS",
+      "label": "UBBA6EUS",
+      "sectorIds": [
+        "UBBA6EUS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 52
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4485dedb-4e62-40ac-9fc7-0ad87068ee9b",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "DA5E2C6A001A0000FE8A30B6",
+          "name": "BAKU ACC EAST UPPER FL365 - UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e0aa8da4-7942-4c84-9ad9-4874524890df"
+            },
+            "locationId": "UBBA6EUS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 52
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBA6LS",
+      "label": "UBBA6LS",
+      "sectorIds": [
+        "UBBA5ELS",
+        "UBBA5WLS",
+        "UBBAEMD",
+        "UBBAWMD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 34
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:172ce1bb-6934-4336-8a96-52afafbe14ae",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "D25D2C6A002F0000FE8A30B6",
+          "name": "BAKU ACC EAST + WEST LOWER GND - FL365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:188dfbfb-a310-432e-a40d-a7ee35a9888c"
+            },
+            "locationId": "UBBA6LS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 34
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBA6US",
+      "label": "UBBA6US",
+      "sectorIds": [
+        "UBBA6EUS",
+        "UBBA6WUS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8da1ca36-6b27-4939-a2a2-eb8bd3fd5bc1",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "3F242D6A00301300FE8A30B6",
+          "name": "BAKU ACC EAST + WEST UPPER FL365 - UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0ce692fe-4c60-47ef-87d6-fd99e3dcd5a5"
+            },
+            "locationId": "UBBA6US",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBA6WLS",
+      "label": "UBBA6WLS",
+      "sectorIds": [
+        "UBBA5WLS",
+        "UBBAWMD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:a0948159-d0f3-483a-a340-f952280f7590",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "E8242D6A007D0000FE8A30B6",
+          "name": "BAKU ACC WEST LOWER GND - FL365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:283ce70e-632c-490d-82fb-1f0a9d41a482"
+            },
+            "locationId": "UBBA6WLS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBA6WUS",
+      "label": "UBBA6WUS",
+      "sectorIds": [
+        "UBBA6WUS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e6d50252-f6e8-4cd1-bb96-dfdcdd4ef083",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "225F2C6A000F0000FE8A30B6",
+          "name": "BAKU ACC WEST UPPER FL365 - UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:eec3efe9-0b6f-482d-9c8e-0577d2c42978"
+            },
+            "locationId": "UBBA6WUS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBAALL",
+      "label": "UBBAALL",
+      "sectorIds": [
+        "UBBA5ELS",
+        "UBBA5WLS",
+        "UBBA6EUS",
+        "UBBA6WUS",
+        "UBBAEMD",
+        "UBBASS",
+        "UBBAWMD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8f6afb4f-2bd0-4cbc-9238-60bf896e0b45",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1488412800000,
+            "end": 32503593600000
+          },
+          "stateId": "606D8358002200007EE87E88",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d81d514f-c5f1-423c-bf8c-5bb2a91490bb"
+            },
+            "locationId": "UBBAALL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBACRI",
+      "label": "UBBACRI",
+      "sectorIds": [
+        "UBBA5ELS",
+        "UBBA5WLS",
+        "UBBA6EUS",
+        "UBBA6WUS",
+        "UBBAEMD",
+        "UBBASS",
+        "UBBAWMD"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:7cef6f96-9dac-4924-bd69-9f3e7a001937",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "836EC46700E60D00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0d6ae91e-5735-4b80-b266-c2c1d2385222"
+            },
+            "locationId": "UBBACTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBAEMD",
+      "label": "UBBAEMD",
+      "sectorIds": [
+        "UBBAEMD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 998
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:14bf8a11-7ecd-4bdf-b289-415f28640774",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1752105600000,
+            "end": 32503593600000
+          },
+          "stateId": "1636546800B201002B475421",
+          "name": "BAKU FIR ACC MIDDLE EAST FL325 - FL375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e335ed2d-ab48-4c4f-afbd-abf00b4ed112"
+            },
+            "locationId": "UBBAEMD",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 998
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBAES",
+      "label": "UBBAES",
+      "sectorIds": [
+        "UBBA5ELS",
+        "UBBA6EUS",
+        "UBBAEMD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 57
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:28027008-646f-46a1-9886-e50534abfb74",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "E1572C6A00450000FE8A30B6",
+          "name": "BAKU ACC EAST ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3f8907ee-5529-4c8a-bb7e-1369e8904504"
+            },
+            "locationId": "UBBAES",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 57
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBASS",
+      "label": "UBBASS",
+      "sectorIds": [
+        "UBBASS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d2968b45-ceed-4521-bf48-20245c576e8f",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "EB302D6A000E0000FE8A30B6",
+          "name": "BAKU ACC SOUTH",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:392b1296-0617-48a2-9fa7-2acaf900f678"
+            },
+            "locationId": "UBBASS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 15
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBAWMD",
+      "label": "UBBAWMD",
+      "sectorIds": [
+        "UBBAWMD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 998
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e87292b6-850b-4630-a0c2-de063638d605",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1752105600000,
+            "end": 32503593600000
+          },
+          "stateId": "6736546800BC00002B475421",
+          "name": "BAKU FIR ACC MIDDLE WEST FL325 - FL375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:5df4926e-e5fa-481d-b8ea-e909f4bcad12"
+            },
+            "locationId": "UBBAWMD",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 998
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBAWS",
+      "label": "UBBAWS",
+      "sectorIds": [
+        "UBBA5WLS",
+        "UBBA6WUS",
+        "UBBAWMD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:be58d455-3220-483f-90fa-13b6ce1232cd",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1752105600000,
+            "end": 32503593600000
+          },
+          "stateId": "7C395468001E00002B475421",
+          "name": "BAKU ACC WEST ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b2fd3306-40c3-4be6-89fc-4e8adb1979f6"
+            },
+            "locationId": "UBBAWS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBB",
+      "label": "UBBB",
+      "arrival": [
+        "UBBB"
+      ],
+      "departure": [
+        "UBBB"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:73f4eeb3-618b-46fa-9aab-6c17ef2c5176",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1560988800000,
+            "end": 32503593600000
+          },
+          "stateId": "4DB4E65C000A0000138A2EB3",
+          "name": "UBBB DEPS ARRS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:22ddccf5-4cc9-483a-a2fa-7b27c3a16dd4"
+            },
+            "locationId": "UBBB",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBBARR",
+      "label": "UBBBARR",
+      "arrival": [
+        "UBBB"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:d725a78c-7fbf-4d3b-92bb-40e536be2779",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1560988800000,
+            "end": 32503593600000
+          },
+          "stateId": "4DB4E65C002E0000138A2EB3",
+          "name": "UBBB  ARRS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ce329f58-a10a-4f16-9a8a-b0d00c69aab0"
+            },
+            "locationId": "UBBB",
+            "category": "ARRIVAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBBDEP",
+      "label": "UBBBDEP",
+      "departure": [
+        "UBBB"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:ed8efb17-f245-4bee-9e58-d194fb3ba54b",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1560988800000,
+            "end": 32503593600000
+          },
+          "stateId": "4DB4E65C00520000138A2EB3",
+          "name": "UBBB DEPS ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ed9f80e6-9d17-4791-a49f-05b2edd4d532"
+            },
+            "locationId": "UBBB",
+            "category": "DEPARTURE"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBBTA",
+      "label": "UBBBTA",
+      "sectorIds": [
+        "UBBBTA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:76f8a0ac-3c20-4d84-9249-eb0afddbeccc",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1488412800000,
+            "end": 32503593600000
+          },
+          "stateId": "3C798358003000007EE87E88",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9beb2b28-0e8d-41c2-abdf-de96f8215a87"
+            },
+            "locationId": "UBBBTA",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBGTA",
+      "label": "UBBGTA",
+      "sectorIds": [
+        "UBBGTA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c29899c7-a3c4-4c5e-80da-651368bd0b99",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1488412800000,
+            "end": 32503593600000
+          },
+          "stateId": "45798358000A00007EE87E88",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ebbe0437-cc3f-4237-bb5f-d841538bd254"
+            },
+            "locationId": "UBBGTA",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UBBNTA",
+      "label": "UBBNTA",
+      "sectorIds": [
+        "UBBNTA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8aac8ff8-406c-466a-b5ca-38b0c1bd199c",
+        "groups": [
+          "ACCUBBA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1488412800000,
+            "end": 32503593600000
+          },
+          "stateId": "4F798358001000007EE87E88",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:626038cb-2c9e-407a-ad72-19d73afe47ee"
+            },
+            "locationId": "UBBNTA",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

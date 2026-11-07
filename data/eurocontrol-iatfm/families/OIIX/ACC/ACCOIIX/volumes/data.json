@@ -1,0 +1,38 @@
+{
+  "volumes": [
+    {
+      "id": "OIIXCRI",
+      "label": "OIIXCRI",
+      "sectorIds": [
+        "OIIXALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:d4871d3e-9df9-4bae-9a78-d37fc1680115",
+        "groups": [
+          "ACCOIIX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "3A6EC46700BB0100E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:55279728-0056-48c9-858c-4f7eb1f71293"
+            },
+            "locationId": "OIIXCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT ",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

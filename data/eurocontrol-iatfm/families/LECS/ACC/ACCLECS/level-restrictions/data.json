@@ -1,0 +1,242 @@
+{
+  "volumes": [
+    {
+      "id": "FL1SEU",
+      "label": "FL1SEU",
+      "sectorIds": [
+        "LECSSEU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC750FE532F6294719C449"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLPFRD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADGMTTD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:a64664da-e202-4b8c-b6d4-f2c3aa564935",
+        "groups": [
+          "ACCLECM",
+          "ACCLECS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "01DD056900110000A8E59326",
+          "name": "/FROM: LEZL/JR/MO/RT/MG, LPFR,GMTT\nTO: ANY\nNOT ALLOWED VIA SECTOR LECSSEU       \nFILE BELOW FL355 UNTIL CLEAR OF SECTOR\nIF RAD LE2388B/C BLOCKS THE ROUTE\nFILE VIA HIJ DCT PARKA DCT SOTUK",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:533b3401-7a68-4e4f-b172-54973ecc95fe"
+            },
+            "locationId": "LECSSEU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:692f65a9-fc27-4571-9cfa-9c6667088795"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:317e2e1e-7c77-4d21-a220-a1c7e06422c1"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c4303dfe-9ab5-4f0a-b77d-1d1e83e5cfbd"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1SUR",
+      "label": "FL1SUR",
+      "sectorIds": [
+        "LECSBER",
+        "LECSGAL"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC0A7672135596BE7D8793"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTRESTU"
+            ],
+            [
+              "PTALT"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:10961dc9-6914-4253-9c0c-35205444b994",
+        "groups": [
+          "ACCLECM",
+          "ACCLECS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1677110400000,
+            "end": 32503593600000
+          },
+          "stateId": "C296DF63004B00001DD7DADF",
+          "name": "/FROM: LEMG/GR VIA RESTU AND THEN ALT \nTO: ANY \nNOT ALLOWED VIA LECSSUR SECTOR\nREFILE BELOW FL305 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:04b50df4-7771-41a6-82f1-05efdec2f12d"
+            },
+            "locationId": "LECSSUR",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6894ba78-1259-4645-b264-d37187d5f369"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2SEU",
+      "label": "FL2SEU",
+      "sectorIds": [
+        "LECSSEU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLEMDD"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLEMDD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPIMOS"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:1f2b689c-e068-45c3-b5f9-08b36daccd90",
+        "groups": [
+          "ACCLECM",
+          "ACCLECS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1715817600000,
+            "end": 32503593600000
+          },
+          "stateId": "31BC3866001C00001F4A8CD8",
+          "name": "/FROM:LEMD\nTO:ANY\nNOT ALLOWED VIA SECTOR LECSSEU \nFILE BELOW FL355 UNTIL CLEAR OF SECTOR LECSSEVU ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:533b3401-7a68-4e4f-b172-54973ecc95fe"
+            },
+            "locationId": "LECSSEU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:820d6f61-f2c7-4f4a-96e0-c71ea1dbb738"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:67ed4dc7-fae3-4986-8bb9-4df2841b7f25"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

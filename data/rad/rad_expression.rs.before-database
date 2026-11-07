@@ -1,0 +1,932 @@
+// Extended RAD operators. Position in the trajectory matters: AND-THEN is not
+// interchangeable with &, and a boundary crossing is not two independent visits.
+fn rad_bool(value: bool) -> RadTruth {
+    if value { RadTruth::Yes } else { RadTruth::No }
+}
+fn rad_level_compare(h: f64, node: &RadValue) -> RadTruth {
+    let Some(limit) = node["value"].as_f64() else {
+        return RadTruth::Unknown;
+    };
+    match rad_str(node, "comparison") {
+        "ABV" => rad_bool(h > limit),
+        "BLW" => rad_bool(h < limit),
+        "AT OR ABV" => rad_bool(h >= limit),
+        "AT OR BLW" => rad_bool(h <= limit),
+        "BTN" => node["upper"]
+            .as_f64()
+            .map(|upper| rad_bool(h >= limit && h <= upper))
+            .unwrap_or(RadTruth::Unknown),
+        "FL" => rad_bool((h - limit).abs() < 0.5),
+        _ => RadTruth::Unknown,
+    }
+}
+fn rad_summer(at: DateTime<Utc>) -> bool {
+    let last_sunday = |month| {
+        let d = chrono::NaiveDate::from_ymd_opt(at.year(), month, 31).unwrap();
+        (d - ChronoDuration::days(i64::from(d.weekday().num_days_from_sunday())))
+            .and_hms_opt(1, 0, 0)
+            .unwrap()
+            .and_utc()
+    };
+    at >= last_sunday(3) && at < last_sunday(10)
+}
+fn rad_airac_month(year: i32, month: u32, last: bool) -> Option<chrono::NaiveDate> {
+    let mut d = chrono::NaiveDate::from_ymd_opt(year, month, 1)?;
+    let anchor = chrono::NaiveDate::from_ymd_opt(2020, 1, 2)?;
+    d += ChronoDuration::days((28 - (d - anchor).num_days().rem_euclid(28)).rem_euclid(28));
+    if last && (d + ChronoDuration::days(28)).month() == month {
+        d += ChronoDuration::days(28);
+    }
+    Some(d)
+}
+fn rad_merge_spans(mut spans: Vec<(f64, f64)>) -> Vec<(f64, f64)> {
+    spans.sort_by(|a, b| a.0.total_cmp(&b.0));
+    let mut out: Vec<(f64, f64)> = Vec::new();
+    for (start, end) in spans {
+        if let Some(last) = out.last_mut()
+            && start <= last.1 + 1e-7
+        {
+            last.1 = last.1.max(end);
+        } else {
+            out.push((start, end));
+        }
+    }
+    out
+}
+
+impl RadContext<'_> {
+    fn route_tokens(&self) -> Vec<String> {
+        let Some(plan) = self.pilot.flight_plan.as_ref() else {
+            return Vec::new();
+        };
+        std::iter::once(plan.departure_id.as_deref().unwrap_or(""))
+            .chain(plan.route.as_deref().unwrap_or("").split_whitespace())
+            .chain(std::iter::once(plan.arrival_id.as_deref().unwrap_or("")))
+            .map(|s| s.split('/').next().unwrap_or(s).to_ascii_uppercase())
+            .collect()
+    }
+    fn expanded_route_tokens(&self) -> Vec<String> {
+        let filed = self.route_tokens();
+        let mut out = Vec::new();
+        let mut i = 0;
+        while i < filed.len() {
+            out.push(filed[i].clone());
+            if i + 2 < filed.len()
+                && (self.reference.navdata.airways.contains_key(&filed[i + 1])
+                    || self
+                        .reference
+                        .navdata
+                        .airway_segments
+                        .contains_key(&filed[i + 1]))
+            {
+                let starts = self
+                    .points
+                    .iter()
+                    .enumerate()
+                    .filter(|(_, p)| p.name == filed[i])
+                    .map(|(n, _)| n)
+                    .collect::<Vec<_>>();
+                let ends = self
+                    .points
+                    .iter()
+                    .enumerate()
+                    .filter(|(_, p)| p.name == filed[i + 2])
+                    .map(|(n, _)| n)
+                    .collect::<Vec<_>>();
+                if starts.len() == 1 && ends.len() == 1 && starts[0] < ends[0] {
+                    for p in &self.points[starts[0] + 1..ends[0]] {
+                        if self.reference.navdata.points.contains_key(&p.name) {
+                            out.push(filed[i + 1].clone());
+                            out.push(p.name.clone());
+                        }
+                    }
+                }
+                out.push(filed[i + 1].clone());
+                i += 2;
+                continue;
+            }
+            i += 1;
+        }
+        out
+    }
+    fn route_complete(&self) -> bool {
+        self.points.len() > 1
+            && self
+                .points
+                .iter()
+                .all(|p| p.position.is_some() && p.minute_offset.is_some())
+    }
+    fn route_matches(&self, node: &RadValue) -> Vec<(usize, usize)> {
+        let parts: Vec<Vec<&str>> = if let Some(parts) = node["parts"].as_array() {
+            parts
+                .iter()
+                .map(|a| {
+                    a.as_array()
+                        .into_iter()
+                        .flatten()
+                        .filter_map(RadValue::as_str)
+                        .collect()
+                })
+                .collect()
+        } else {
+            rad_values(node).into_iter().map(|s| vec![s]).collect()
+        };
+        if parts.is_empty() {
+            return vec![];
+        }
+        let tokens = self.expanded_route_tokens();
+        let mut found = Vec::new();
+        for start in 0..tokens.len() {
+            if !parts[0]
+                .iter()
+                .any(|c| *c == "*" || rad_wildcard(c, &tokens[start]))
+            {
+                continue;
+            }
+            let mut positions = vec![start + 1];
+            let mut part = 1;
+            while part < parts.len() {
+                let mut next = vec![];
+                let paired = parts[part].iter().all(|s| {
+                    *s == "DCT"
+                        || self.reference.navdata.airways.contains_key(*s)
+                        || self.reference.navdata.airway_segments.contains_key(*s)
+                }) && part + 1 < parts.len();
+                for pos in positions {
+                    if pos >= tokens.len() {
+                        continue;
+                    }
+                    for choice in &parts[part] {
+                        if *choice != "*" && !rad_wildcard(choice, &tokens[pos]) {
+                            continue;
+                        }
+                        let airway = self.reference.navdata.airways.contains_key(&tokens[pos])
+                            || self
+                                .reference
+                                .navdata
+                                .airway_segments
+                                .contains_key(&tokens[pos]);
+                        if paired && airway {
+                            let mut p = pos;
+                            while p + 1 < tokens.len() && tokens[p] == tokens[pos] {
+                                if parts[part + 1]
+                                    .iter()
+                                    .any(|c| *c == "*" || rad_wildcard(c, &tokens[p + 1]))
+                                {
+                                    next.push(p + 2);
+                                }
+                                p += 2;
+                            }
+                        } else if paired {
+                            if pos + 1 < tokens.len()
+                                && parts[part + 1]
+                                    .iter()
+                                    .any(|c| *c == "*" || rad_wildcard(c, &tokens[pos + 1]))
+                            {
+                                next.push(pos + 2);
+                            }
+                        } else {
+                            next.push(pos + 1);
+                        }
+                    }
+                }
+                next.sort_unstable();
+                next.dedup();
+                positions = next;
+                part += if paired { 2 } else { 1 };
+            }
+            found.extend(positions.into_iter().map(|p| (start, p - 1)));
+        }
+        found
+    }
+    // Return known occurrence intervals plus whether additional occurrences are
+    // unresolved. This preserves uncertainty through alternatives and route gaps.
+    fn events(&mut self, node: &RadValue) -> (Vec<(f64, f64)>, bool) {
+        match rad_str(node, "op") {
+            "scheduled" => {
+                let (e, u) = self.events(&node["condition"]);
+                let schedule = self.eval(&node["schedule"]);
+                (
+                    if schedule == RadTruth::Yes { e } else { vec![] },
+                    u || schedule == RadTruth::Unknown,
+                )
+            }
+            "via" => {
+                let mut all = Vec::new();
+                let mut unknown = false;
+                for id in rad_values(node) {
+                    let truth = self.via(id);
+                    unknown |= truth == RadTruth::Unknown;
+                    all.extend(
+                        self.points
+                            .iter()
+                            .filter(|p| p.name == id)
+                            .filter_map(|p| p.minute_offset.map(|m| (f64::from(m), f64::from(m)))),
+                    );
+                    all.extend(self.spans.get(id).into_iter().flatten().copied());
+                }
+                (rad_merge_spans(all), unknown)
+            }
+            "dep" | "arr" => {
+                let truth = self.eval(node);
+                let minute = if rad_str(node, "op") == "dep" {
+                    Some(0.)
+                } else {
+                    self.points
+                        .last()
+                        .and_then(|p| p.minute_offset)
+                        .map(f64::from)
+                };
+                (
+                    if truth == RadTruth::Yes {
+                        minute.map(|t| vec![(t, t)]).unwrap_or_default()
+                    } else {
+                        vec![]
+                    },
+                    truth == RadTruth::Unknown || minute.is_none(),
+                )
+            }
+            "or" => {
+                let mut all = Vec::new();
+                let mut unknown = false;
+                for arg in node["args"].as_array().into_iter().flatten() {
+                    let (e, u) = self.events(arg);
+                    all.extend(e);
+                    unknown |= u;
+                }
+                (all, unknown)
+            }
+            "ordered" => {
+                let mut paths: Vec<(f64, f64)> = vec![];
+                let mut unknown = false;
+                for (i, arg) in node["args"].as_array().into_iter().flatten().enumerate() {
+                    let (events, u) = self.events(arg);
+                    unknown |= u;
+                    if i == 0 {
+                        paths = events;
+                    } else {
+                        paths = paths
+                            .iter()
+                            .filter_map(|(first, end)| {
+                                events
+                                    .iter()
+                                    .filter(|e| e.0 >= *end)
+                                    .min_by(|a, b| a.1.total_cmp(&b.1))
+                                    .map(|e| (*first, e.1))
+                            })
+                            .collect();
+                    }
+                }
+                (paths, unknown)
+            }
+            "and" => {
+                let mut events = vec![];
+                let mut unknown = false;
+                for arg in node["args"].as_array().into_iter().flatten() {
+                    let truth = self.eval(arg);
+                    if truth == RadTruth::No {
+                        return (vec![], false);
+                    }
+                    unknown |= truth == RadTruth::Unknown;
+                    if matches!(
+                        rad_str(arg, "op"),
+                        "via" | "boundary" | "ordered" | "route" | "level"
+                    ) {
+                        let (e, u) = self.events(arg);
+                        events.extend(e);
+                        unknown |= u;
+                    }
+                }
+                if events.is_empty() {
+                    return (vec![], true);
+                }
+                let first = events.iter().map(|e| e.0).fold(f64::INFINITY, f64::min);
+                let last = events.iter().map(|e| e.1).fold(f64::NEG_INFINITY, f64::max);
+                (if unknown { vec![] } else { vec![(first, last)] }, unknown)
+            }
+            "boundary" => {
+                let (a, ua) = self.events(&node["from"]);
+                let (b, ub) = self.events(&node["to"]);
+                let mut events = Vec::new();
+                for aa in &a {
+                    for bb in &b {
+                        if aa.1 > aa.0 && bb.1 > bb.0 && aa.0 < bb.0 && (aa.1 - bb.0).abs() < 1e-5 {
+                            events.push((aa.1, aa.1));
+                        }
+                        if node["bidirectional"] == true
+                            && bb.0 < aa.0
+                            && bb.1 > bb.0
+                            && aa.1 > aa.0
+                            && (bb.1 - aa.0).abs() < 1e-5
+                        {
+                            events.push((bb.1, bb.1));
+                        }
+                    }
+                }
+                (events, ua || ub || !self.route_complete())
+            }
+            "boundaryAny" => {
+                let (e, u) = self.events(&node["area"]);
+                let end = self
+                    .points
+                    .last()
+                    .and_then(|p| p.minute_offset)
+                    .map(f64::from)
+                    .unwrap_or(0.);
+                (
+                    e.iter()
+                        .flat_map(|(s, e)| [*s, *e])
+                        .filter(|t| *t > 0. && *t < end)
+                        .map(|t| (t, t))
+                        .collect(),
+                    u || !self.route_complete(),
+                )
+            }
+            "route" | "sequence" | "direct" => {
+                let tokens = self.expanded_route_tokens();
+                let pattern = if rad_str(node, "op") == "direct" {
+                    rad_json!({"op":"route","parts":[[node["values"][0]], ["DCT"], [node["values"][1]]]})
+                } else {
+                    node.clone()
+                };
+                let matches = self.route_matches(&pattern);
+                let mut events = vec![];
+                let mut unknown = false;
+                for (start, end) in matches {
+                    let a = self
+                        .points
+                        .iter()
+                        .find(|p| p.name == tokens[start])
+                        .and_then(|p| p.minute_offset);
+                    let b = self
+                        .points
+                        .iter()
+                        .rev()
+                        .find(|p| p.name == tokens[end])
+                        .and_then(|p| p.minute_offset);
+                    match (a, b) {
+                        (Some(a), Some(b)) if b >= a => events.push((f64::from(a), f64::from(b))),
+                        _ => unknown = true,
+                    }
+                }
+                (events, unknown)
+            }
+            "level" if node.get("location").is_some() => {
+                let (e, u) = self.events(&node["location"]);
+                let mut result = vec![];
+                let mut unknown = u;
+                let requested = node["requested"] == true;
+                for (start, end) in e {
+                    // Split at every profile/filed-level change, then at crossings
+                    // of the restriction level. Entry/exit alone misses climbs,
+                    // descents and intermediate RFL changes inside an airspace.
+                    let mut times = vec![start, end];
+                    times.extend(
+                        self.points
+                            .iter()
+                            .filter_map(|p| p.minute_offset)
+                            .map(f64::from)
+                            .filter(|t| *t > start && *t < end),
+                    );
+                    times.sort_by(f64::total_cmp);
+                    times.dedup();
+                    if !requested {
+                        let mut crossings = vec![];
+                        for w in times.windows(2) {
+                            if let (Some(a), Some(b), Some(limit)) = (
+                                self.altitude_at(w[0], false),
+                                self.altitude_at(w[1], false),
+                                node["value"].as_f64(),
+                            ) && (b - a).abs() > 1e-9
+                            {
+                                let limits = if rad_str(node, "comparison") == "FL" {
+                                    vec![limit - 0.5, limit + 0.5]
+                                } else if rad_str(node, "comparison") == "BTN" {
+                                    vec![limit, node["upper"].as_f64().unwrap_or(limit)]
+                                } else {
+                                    vec![limit]
+                                };
+                                for h in limits {
+                                    let ratio = (h - a) / (b - a);
+                                    if ratio > 0. && ratio < 1. {
+                                        crossings.push(w[0] + ratio * (w[1] - w[0]));
+                                    }
+                                }
+                            }
+                        }
+                        times.extend(crossings);
+                        times.sort_by(f64::total_cmp);
+                        times.dedup();
+                    }
+                    let at = |t| {
+                        self.altitude_at(t, requested)
+                            .map(|h| rad_level_compare(h, node))
+                            .unwrap_or(RadTruth::Unknown)
+                    };
+                    for &t in &times {
+                        match at(t) {
+                            RadTruth::Yes => result.push((t, t)),
+                            RadTruth::Unknown => unknown = true,
+                            RadTruth::No => {}
+                        }
+                    }
+                    for w in times.windows(2) {
+                        match at((w[0] + w[1]) / 2.) {
+                            RadTruth::Yes => {
+                                let epsilon = (w[1] - w[0]) * 1e-9;
+                                let a = w[0]
+                                    + if at(w[0]) == RadTruth::Yes {
+                                        0.
+                                    } else {
+                                        epsilon
+                                    };
+                                let b = w[1]
+                                    - if at(w[1]) == RadTruth::Yes {
+                                        0.
+                                    } else {
+                                        epsilon
+                                    };
+                                result.push((a, b));
+                            }
+                            RadTruth::Unknown => unknown = true,
+                            RadTruth::No => {}
+                        }
+                    }
+                }
+                (rad_merge_spans(result), unknown)
+            }
+            _ => (vec![], self.eval(node) != RadTruth::No),
+        }
+    }
+    fn altitude_at(&self, minute: f64, requested: bool) -> Option<f64> {
+        if requested {
+            let mut h = self.filed_altitude()?;
+            for token in self
+                .pilot
+                .flight_plan
+                .as_ref()?
+                .route
+                .as_deref()
+                .unwrap_or("")
+                .split_whitespace()
+            {
+                let Some((id, change)) = token.split_once('/') else {
+                    continue;
+                };
+                if let Some(t) = self
+                    .points
+                    .iter()
+                    .find(|p| p.name == id)
+                    .and_then(|p| p.minute_offset)
+                    && f64::from(t) <= minute
+                {
+                    if let Some(i) = change.find('F').or_else(|| change.find('A'))
+                        && let Ok(fl) = change[i + 1..].parse::<f64>()
+                    {
+                        h = fl * 100.;
+                    }
+                }
+            }
+            return Some(h);
+        }
+        if let Some(h) = self
+            .points
+            .iter()
+            .find(|p| {
+                p.minute_offset
+                    .is_some_and(|t| (f64::from(t) - minute).abs() < 1e-7)
+            })
+            .and_then(|p| p.altitude_ft)
+        {
+            return Some(h);
+        }
+        self.points.windows(2).find_map(|w| {
+            let (a, b) = (
+                f64::from(w[0].minute_offset?),
+                f64::from(w[1].minute_offset?),
+            );
+            if a <= minute && minute <= b && b > a {
+                Some(
+                    w[0].altitude_ft?
+                        + (w[1].altitude_ft? - w[0].altitude_ft?) * (minute - a) / (b - a),
+                )
+            } else {
+                None
+            }
+        })
+    }
+    fn eval_extended(&mut self, node: &RadValue) -> RadTruth {
+        match rad_str(node, "op") {
+            "activeAtLevel" => {
+                let minute = (self.at - self.takeoff).num_milliseconds() as f64 / 60000.;
+                let Some(level) = self.altitude_at(minute, true) else {
+                    return RadTruth::Unknown;
+                };
+                rad_values(node).iter().fold(RadTruth::No, |state, id| {
+                    let found = self.area_indices(id);
+                    let value = if found.len() == 1 {
+                        let area = &self.areas.areas[found[0]];
+                        match (area.floor, area.ceiling) {
+                            (Some(floor), Some(ceiling)) if level < floor || level > ceiling => {
+                                RadTruth::No
+                            }
+                            (Some(_), Some(_)) => self.area_active(found[0], self.at),
+                            _ => RadTruth::Unknown,
+                        }
+                    } else {
+                        RadTruth::Unknown
+                    };
+                    state.or(value)
+                })
+            }
+            "flightPurpose" => {
+                let record = self.support_flight();
+                let Some(purposes) = record["purposes"].as_array() else {
+                    return RadTruth::Unknown;
+                };
+                rad_bool(
+                    rad_values(node)
+                        .iter()
+                        .any(|v| purposes.iter().any(|p| p.as_str() == Some(v))),
+                )
+            }
+            "activationWindows" => {
+                let mut value = None;
+                for window in node["windows"]
+                    .as_array()
+                    .into_iter()
+                    .flatten()
+                    .filter(|w| rad_support_valid(w, self.at))
+                {
+                    if let Some(active) = window["value"].as_bool() {
+                        if value.is_some_and(|v| v != active) {
+                            return RadTruth::Unknown;
+                        }
+                        value = Some(active);
+                    }
+                }
+                value.map(rad_bool).unwrap_or(RadTruth::Unknown)
+            }
+            "engineType" => {
+                let plan = self.pilot.flight_plan.as_ref();
+                let supplied = if rad_support_valid(&self.support, self.at) {
+                    self.support["aircraft"]
+                        [plan.and_then(|p| p.aircraft_id.as_deref()).unwrap_or("")]["engineType"]
+                        .as_str()
+                } else {
+                    None
+                };
+                let actual = plan
+                    .and_then(|p| p.aircraft.as_ref())
+                    .and_then(|a| a.engine_type.as_deref())
+                    .or(supplied);
+                match actual.map(str::to_ascii_uppercase).as_deref() {
+                    Some(s) => {
+                        let s = match s {
+                            "JET" => "J",
+                            "TURBOPROP" => "T",
+                            "PISTON" => "P",
+                            s => s,
+                        };
+                        if !matches!(s, "J" | "T" | "P") {
+                            RadTruth::Unknown
+                        } else {
+                            rad_bool(rad_values(node).contains(&s))
+                        }
+                    }
+                    None => RadTruth::Unknown,
+                }
+            }
+            "holiday" => {
+                if !rad_support_valid(&self.support, self.at) {
+                    return RadTruth::Unknown;
+                }
+                let country = node["calendar"]
+                    .as_str()
+                    .filter(|s| !s.is_empty())
+                    .unwrap_or(self.rule_id.get(..2).unwrap_or(""));
+                let calendar = &self.support["holidays"][country];
+                if !rad_support_valid(calendar, self.at) {
+                    return RadTruth::Unknown;
+                }
+                let Some(dates) = calendar["dates"].as_array() else {
+                    return RadTruth::Unknown;
+                };
+                let day = self.at.format("%Y-%m-%d").to_string();
+                rad_bool(dates.iter().any(|d| d.as_str() == Some(&day)))
+            }
+            "false" => RadTruth::No,
+            "routeAtTime" => {
+                let tokens = self.route_tokens();
+                let minute = (self.at - self.takeoff).num_milliseconds() as f64 / 60000.;
+                let mut result = RadTruth::No;
+                let mut located = false;
+                for w in tokens.windows(3) {
+                    let airway = self.reference.navdata.airways.contains_key(&w[1])
+                        || self.reference.navdata.airway_segments.contains_key(&w[1]);
+                    if w[1] != "DCT" && !airway {
+                        continue;
+                    }
+                    let a = self
+                        .points
+                        .iter()
+                        .find(|p| p.name == w[0])
+                        .and_then(|p| p.minute_offset);
+                    let b = self
+                        .points
+                        .iter()
+                        .rev()
+                        .find(|p| p.name == w[2])
+                        .and_then(|p| p.minute_offset);
+                    let Some((a, b)) = a.zip(b) else { continue };
+                    if minute < f64::from(a) || minute >= f64::from(b) {
+                        continue;
+                    }
+                    located = true;
+                    result = result.or(match rad_str(node, "kind") {
+                        "airway" => rad_bool(airway),
+                        "direct" => rad_bool(w[1] == "DCT"),
+                        "named" => rad_bool(rad_values(node).iter().any(|v| *v == w[1])),
+                        "fraDirect" => {
+                            if w[1] != "DCT" {
+                                RadTruth::No
+                            } else {
+                                let ids = self
+                                    .sector_lookup
+                                    .keys()
+                                    .filter(|id| id.contains("FRA"))
+                                    .cloned()
+                                    .collect::<Vec<_>>();
+                                let mut confirmed = false;
+                                for id in ids {
+                                    self.via(&id);
+                                    confirmed |= self.spans.get(&id).is_some_and(|s| {
+                                        s.iter().any(|(a, b)| *a <= minute && minute < *b)
+                                    });
+                                }
+                                if confirmed {
+                                    RadTruth::Yes
+                                } else {
+                                    RadTruth::Unknown
+                                }
+                            }
+                        }
+                        _ => RadTruth::Unknown,
+                    });
+                }
+                if located { result } else { RadTruth::Unknown }
+            }
+            "scheduled" => {
+                let a = self.eval(&node["condition"]);
+                a.and(self.eval(&node["schedule"]))
+            }
+            "dctLength" => {
+                let (spans, unknown) = self.events(&node["location"]);
+                let mut result = if unknown {
+                    RadTruth::Unknown
+                } else {
+                    RadTruth::No
+                };
+                let tokens = self.route_tokens();
+                for w in tokens.windows(3).filter(|w| w[1] == "DCT") {
+                    let a = self.points.iter().find(|p| p.name == w[0]);
+                    let b = self.points.iter().find(|p| p.name == w[2]);
+                    let Some((a, b)) = a.zip(b) else {
+                        result = result.or(RadTruth::Unknown);
+                        continue;
+                    };
+                    let Some((start, end)) = a.minute_offset.zip(b.minute_offset) else {
+                        result = result.or(RadTruth::Unknown);
+                        continue;
+                    };
+                    if spans
+                        .iter()
+                        .any(|(s, e)| *s <= f64::from(start) && *e >= f64::from(end))
+                    {
+                        if let Some((a, b)) = a.position.zip(b.position) {
+                            let (lat1, lat2) = (a.lat.to_radians(), b.lat.to_radians());
+                            let dlat = lat2 - lat1;
+                            let dlon = (b.lon - a.lon).to_radians();
+                            let hav = (dlat / 2.).sin().powi(2)
+                                + lat1.cos() * lat2.cos() * (dlon / 2.).sin().powi(2);
+                            let nm = 3440.065 * 2. * hav.clamp(0., 1.).sqrt().asin();
+                            result = result.or(rad_bool(
+                                nm > node["value"].as_f64().unwrap_or(f64::INFINITY),
+                            ));
+                        }
+                    } else if spans
+                        .iter()
+                        .any(|(s, e)| *s < f64::from(end) && *e > f64::from(start))
+                    {
+                        result = result.or(RadTruth::Unknown);
+                    }
+                }
+                result
+            }
+            "route" => {
+                if !self.route_matches(node).is_empty() {
+                    RadTruth::Yes
+                } else if self.route_complete() {
+                    RadTruth::No
+                } else {
+                    RadTruth::Unknown
+                }
+            }
+            "ordered" | "boundary" | "boundaryAny" => {
+                let (e, u) = self.events(node);
+                if !e.is_empty() {
+                    RadTruth::Yes
+                } else if u {
+                    RadTruth::Unknown
+                } else {
+                    RadTruth::No
+                }
+            }
+            "reverse" => {
+                let Some(mut arg) = node["args"].as_array().and_then(|a| a.first()).cloned() else {
+                    return RadTruth::Unknown;
+                };
+                match rad_str(&arg, "op") {
+                    "route" => {
+                        arg["parts"].as_array_mut().unwrap().reverse();
+                    }
+                    "ordered" => {
+                        arg["args"].as_array_mut().unwrap().reverse();
+                    }
+                    "boundary" => {
+                        let a = arg["from"].clone();
+                        arg["from"] = arg["to"].clone();
+                        arg["to"] = a;
+                    }
+                    _ => return RadTruth::Unknown,
+                }
+                self.eval(&arg)
+            }
+            "flightStatus" | "flightRules" => {
+                let Some(plan) = self.pilot.flight_plan.as_ref() else {
+                    return RadTruth::Unknown;
+                };
+                let actual = if rad_str(node, "op") == "flightRules" {
+                    plan.flight_rules.as_deref()
+                } else {
+                    plan.remarks
+                        .as_deref()
+                        .and_then(|r| r.split_whitespace().find_map(|s| s.strip_prefix("STS/")))
+                };
+                match actual {
+                    Some(s) => rad_bool(
+                        rad_values(node)
+                            .iter()
+                            .any(|v| s.split('/').any(|a| a == *v)),
+                    ),
+                    None => {
+                        if rad_str(node, "op") == "flightStatus" {
+                            RadTruth::No
+                        } else {
+                            RadTruth::Unknown
+                        }
+                    }
+                }
+            }
+            "season" => rad_bool(rad_summer(self.at) == (node["value"] == "SUMMER")),
+            "annualDates" => {
+                let today = u64::from(self.at.month() * 100 + self.at.day());
+                let (Some(start), Some(end)) = (node["start"].as_u64(), node["end"].as_u64())
+                else {
+                    return RadTruth::Unknown;
+                };
+                rad_bool(if start <= end {
+                    today >= start && today <= end
+                } else {
+                    today >= start || today <= end
+                })
+            }
+            "airacToDate" => {
+                let (Some(a), Some(b), Some(day)) = (
+                    node["startMonth"].as_u64(),
+                    node["endMonth"].as_u64(),
+                    node["endDay"].as_u64(),
+                ) else {
+                    return RadTruth::Unknown;
+                };
+                if !(1..=12).contains(&a) || !(1..=12).contains(&b) {
+                    return RadTruth::Unknown;
+                }
+                let year = self.at.year() - i32::from(a > b && u64::from(self.at.month()) < a);
+                match (
+                    rad_airac_month(year, a as u32, node["startLast"] == true),
+                    chrono::NaiveDate::from_ymd_opt(year + i32::from(a > b), b as u32, day as u32),
+                ) {
+                    (Some(start), Some(end)) => {
+                        rad_bool(self.at.date_naive() >= start && self.at.date_naive() <= end)
+                    }
+                    _ => RadTruth::Unknown,
+                }
+            }
+            "weekRange" => {
+                let t = u64::from(
+                    self.at.weekday().num_days_from_monday() * 1440
+                        + self.at.hour() * 60
+                        + self.at.minute(),
+                );
+                let (a, b) = (
+                    node["start"].as_u64().unwrap_or(0),
+                    node["end"].as_u64().unwrap_or(0),
+                );
+                rad_bool(if a <= b {
+                    t >= a && t < b
+                } else {
+                    t >= a || t < b
+                })
+            }
+            "timeAt" => {
+                let (events, unknown) = self.events(&node["location"]);
+                let original = self.at;
+                let mut result = if unknown {
+                    RadTruth::Unknown
+                } else {
+                    RadTruth::No
+                };
+                for (start, end) in events {
+                    let seconds = if start == end {
+                        vec![(start * 60.) as i64]
+                    } else {
+                        self.sample_seconds(start, end)
+                    };
+                    for offset in seconds {
+                        self.at = self.takeoff + ChronoDuration::seconds(offset);
+                        result = result.or(self.eval(&node["schedule"]));
+                    }
+                }
+                self.at = original;
+                result
+            }
+            "months" => {
+                let m = u64::from(self.at.month());
+                let (a, b) = (
+                    node["start"].as_u64().unwrap_or(0),
+                    node["end"].as_u64().unwrap_or(0),
+                );
+                rad_bool(if a <= b {
+                    m >= a && m <= b
+                } else {
+                    m >= a || m <= b
+                })
+            }
+            "dates" => {
+                let d = self.at.format("%Y-%m-%d").to_string();
+                rad_bool(d.as_str() >= rad_str(node, "start") && d.as_str() <= rad_str(node, "end"))
+            }
+            "airacPeriod" => {
+                let (a, b) = (
+                    node["startMonth"].as_u64().unwrap_or(0) as u32,
+                    node["endMonth"].as_u64().unwrap_or(0) as u32,
+                );
+                let d = self.at.date_naive();
+                let y = self.at.year() - i32::from(a > b && self.at.month() < a);
+                match (
+                    rad_airac_month(y, a, node["startLast"] == true),
+                    rad_airac_month(y + i32::from(a > b), b, node["endLast"] == true),
+                ) {
+                    (Some(start), Some(end)) => {
+                        rad_bool(d >= start && d < end + ChronoDuration::days(28))
+                    }
+                    _ => RadTruth::Unknown,
+                }
+            }
+            "weekSchedule" => self.week_schedule(&node["schedule"], &node["days"]),
+            _ => RadTruth::Unknown,
+        }
+    }
+    fn week_schedule(&mut self, node: &RadValue, days: &RadValue) -> RadTruth {
+        match rad_str(node, "op") {
+            "and" => node["args"]
+                .as_array()
+                .into_iter()
+                .flatten()
+                .fold(RadTruth::Yes, |s, n| s.and(self.week_schedule(n, days))),
+            "or" => node["args"]
+                .as_array()
+                .into_iter()
+                .flatten()
+                .fold(RadTruth::No, |s, n| s.or(self.week_schedule(n, days))),
+            "time" | "true" => {
+                let mut day = self.at.weekday().num_days_from_monday();
+                let (start, end) = (
+                    node["start"].as_u64().unwrap_or(0),
+                    node["end"].as_u64().unwrap_or(0),
+                );
+                if start > end && u64::from(self.at.hour() * 60 + self.at.minute()) < end {
+                    day = (day + 6) % 7;
+                }
+                let allowed = days
+                    .as_array()
+                    .into_iter()
+                    .flatten()
+                    .any(|v| v.as_u64() == Some(u64::from(day)));
+                rad_bool(allowed).and(self.eval(node))
+            }
+            _ => self.eval(node),
+        }
+    }
+}

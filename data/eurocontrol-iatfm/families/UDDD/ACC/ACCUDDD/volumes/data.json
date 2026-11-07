@@ -1,0 +1,1207 @@
+{
+  "volumes": [
+    {
+      "id": "UDDDALL",
+      "label": "UDDDALL",
+      "sectorIds": [
+        "UDDD315325",
+        "UDDD325335",
+        "UDDD335345",
+        "UDDD345355",
+        "UDDD355365",
+        "UDDD365375",
+        "UDDD375385",
+        "UDDD385660",
+        "UDDDGND315"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 55,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 13,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15,
+        "sustain": 13
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2dacfa3e-55b6-4b72-b6c5-f0d376b0043f",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "4FBFEC6900CE000010F0E534",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9118dbcf-4576-43c8-9a3d-7bd5fa25e47a"
+            },
+            "locationId": "UDDDALL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 55
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 13,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDL1",
+      "label": "UDDDL1",
+      "sectorIds": [
+        "UDDDGND315"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ec0b9a0e-611e-488b-bc47-54da3c1c8b99",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "B0BAEC690001000010F0E534",
+          "name": "UDDD GND-315",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:11dbb6b5-4c16-4d8f-9cc1-74acc2913330"
+            },
+            "locationId": "UDDDGND315",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDL2",
+      "label": "UDDDL2",
+      "sectorIds": [
+        "UDDD315325",
+        "UDDDGND315"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e817c2dd-1949-43e3-b73a-96ce24e1fd6b",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "F4BAEC69001F000010F0E534",
+          "name": "UDDD GND-325",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4a337483-b2a0-4537-b46a-73d55169bb86"
+            },
+            "locationId": "UDDDL2",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDL3",
+      "label": "UDDDL3",
+      "sectorIds": [
+        "UDDD315325",
+        "UDDD325335",
+        "UDDDGND315"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6bffc775-a411-4e24-9998-bb379d378d4a",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "FCBCEC690014000010F0E534",
+          "name": "UDDD GND-335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:44d983ce-ae6c-48d7-8587-08e25c8a7ea3"
+            },
+            "locationId": "UDDDL3",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDL4",
+      "label": "UDDDL4",
+      "sectorIds": [
+        "UDDD315325",
+        "UDDD325335",
+        "UDDD335345",
+        "UDDDGND315"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:de0be26a-494d-48c0-9a20-5d75335a9fff",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "2EBDEC690008000010F0E534",
+          "name": "UDDD GND-345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9434ef93-0689-4cbe-a9e1-e1638938745d"
+            },
+            "locationId": "UDDDL4",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDL5",
+      "label": "UDDDL5",
+      "sectorIds": [
+        "UDDD315325",
+        "UDDD325335",
+        "UDDD335345",
+        "UDDD345355",
+        "UDDDGND315"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:7aa277c3-4a14-4e8b-a4a7-29b03a084ba5",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "8CBDEC690003000010F0E534",
+          "name": "UDDD GND-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:da032a9c-0c65-4ec9-948a-17f4617b5397"
+            },
+            "locationId": "UDDDL5",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDL6",
+      "label": "UDDDL6",
+      "sectorIds": [
+        "UDDD315325",
+        "UDDD325335",
+        "UDDD335345",
+        "UDDD345355",
+        "UDDD355365",
+        "UDDDGND315"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e5d94408-98fe-4b51-9800-421c144fcd60",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "E9BDEC690093000010F0E534",
+          "name": "UDDD GND-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c792a1b1-b474-45cb-b974-d9d4be3d6f01"
+            },
+            "locationId": "UDDDL6",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDL7",
+      "label": "UDDDL7",
+      "sectorIds": [
+        "UDDD315325",
+        "UDDD325335",
+        "UDDD335345",
+        "UDDD345355",
+        "UDDD355365",
+        "UDDD365375",
+        "UDDDGND315"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d0dde478-3f50-4430-8ccf-4d88d45c7729",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "E8BDEC690092000010F0E534",
+          "name": "UDDD GND-375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9a988bca-a5a6-48df-a08a-53673ed04d39"
+            },
+            "locationId": "UDDDL7",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDL8",
+      "label": "UDDDL8",
+      "sectorIds": [
+        "UDDD315325",
+        "UDDD325335",
+        "UDDD335345",
+        "UDDD345355",
+        "UDDD355365",
+        "UDDD365375",
+        "UDDD375385",
+        "UDDDGND315"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:750f9000-2d0d-4af2-8a15-7062753b47ec",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "E1BDEC690025010010F0E534",
+          "name": "UDDD GND-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:54c9a6d3-38cf-4d78-9e60-f64929b7396f"
+            },
+            "locationId": "UDDDL8",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDU1",
+      "label": "UDDDU1",
+      "sectorIds": [
+        "UDDD315325",
+        "UDDD325335",
+        "UDDD335345",
+        "UDDD345355",
+        "UDDD355365",
+        "UDDD365375",
+        "UDDD375385",
+        "UDDD385660"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 11,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 16,
+        "sustain": 11
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:82e5efed-9d2e-4427-9127-e4a7606d2de1",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "3BBEEC69000E000010F0E534",
+          "name": "UDDD 315-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0f6d3390-64fa-4f25-92fe-f0ea1cd03e54"
+            },
+            "locationId": "UDDDU1",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 11,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDU2",
+      "label": "UDDDU2",
+      "sectorIds": [
+        "UDDD325335",
+        "UDDD335345",
+        "UDDD345355",
+        "UDDD355365",
+        "UDDD365375",
+        "UDDD375385",
+        "UDDD385660"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 12,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 16,
+        "sustain": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e73d7bd8-9c7b-49b5-b24b-ec1b15204eed",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "B3BEEC690076000010F0E534",
+          "name": "UDDD 325-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4bb999a5-5357-41b3-8e83-4f68313aa82f"
+            },
+            "locationId": "UDDDU2",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 12,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDU3",
+      "label": "UDDDU3",
+      "sectorIds": [
+        "UDDD335345",
+        "UDDD345355",
+        "UDDD355365",
+        "UDDD365375",
+        "UDDD375385",
+        "UDDD385660"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 12,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 16,
+        "sustain": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3a84eb48-e101-4b92-a594-da44d26ea5e9",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "5ABEEC69006E000010F0E534",
+          "name": "UDDD 335-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:57b5f97f-6028-4389-8a78-8ce7e7dabde3"
+            },
+            "locationId": "UDDDU3",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 12,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDU4",
+      "label": "UDDDU4",
+      "sectorIds": [
+        "UDDD345355",
+        "UDDD355365",
+        "UDDD365375",
+        "UDDD375385",
+        "UDDD385660"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 12,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 16,
+        "sustain": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0725f39a-ec42-4976-9e93-a6602cc096db",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "7DBEEC690076000010F0E534",
+          "name": "UDDD 345-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3c3d970f-02ab-42ea-b4a0-c3de0cd6cce5"
+            },
+            "locationId": "UDDDU4",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 12,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDU5",
+      "label": "UDDDU5",
+      "sectorIds": [
+        "UDDD355365",
+        "UDDD365375",
+        "UDDD375385",
+        "UDDD385660"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 12,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 16,
+        "sustain": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:58582ade-f5a0-4054-bfa5-04f19b4aabdd",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "91BEEC690024000010F0E534",
+          "name": "UDDD 355-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:865a57f3-a200-4135-9396-d591f5e1bfd3"
+            },
+            "locationId": "UDDDU5",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 12,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDU6",
+      "label": "UDDDU6",
+      "sectorIds": [
+        "UDDD365375",
+        "UDDD375385",
+        "UDDD385660"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 13,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15,
+        "sustain": 13
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:7718cdc9-72f2-43b6-a5fd-adaed6222b8f",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "D2BEEC69006D000010F0E534",
+          "name": "UDDD 365-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9ac93eea-5b2b-4c8b-9973-874d63f5dfa8"
+            },
+            "locationId": "UDDDU6",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 13,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDU7",
+      "label": "UDDDU7",
+      "sectorIds": [
+        "UDDD375385",
+        "UDDD385660"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 13,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15,
+        "sustain": 13
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:49733c80-1300-40fb-b435-2102618d2711",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "FABEEC69005C000010F0E534",
+          "name": "UDDD 375-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:140d088a-4e15-4f69-ba4c-1653b278aca3"
+            },
+            "locationId": "UDDDU7",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 13,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UDDDU8",
+      "label": "UDDDU8",
+      "sectorIds": [
+        "UDDD385660"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-05-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 13,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15,
+        "sustain": 13
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:a1a13351-e4f3-4a8f-ab63-63cc40291bd4",
+        "groups": [
+          "ACCUDDD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "EEBEEC6900AA000010F0E534",
+          "name": "UDDD 385-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ea3bc60e-22a5-4b6a-b81e-a4ced342cb52"
+            },
+            "locationId": "UDDD385660",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1778716800000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 13,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+[
+  {
+    "id": "LICACR",
+    "positionPriority": []
+  },
+  {
+    "id": "LICJCR",
+    "positionPriority": []
+  },
+  {
+    "id": "LICTCR",
+    "positionPriority": []
+  },
+  {
+    "id": "LICZCR",
+    "positionPriority": []
+  },
+  {
+    "id": "LIEACR",
+    "positionPriority": []
+  },
+  {
+    "id": "LIEDCR",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRLCR",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRMRTA1",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRMRTA2",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRNCR",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRPCR",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRAEL",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRAEM",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRAET",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRAWL",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRAWM",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRCN1",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRCN2",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRCN3",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRCN4",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRCN5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRCN6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRCN7",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRCN8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRD67",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRREE1",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRREE2",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRREE3",
+    "positionPriority": [
+      "LIRR_EW_CTR"
+    ]
+  },
+  {
+    "id": "LIRREE4",
+    "positionPriority": [
+      "LIRR_EW_CTR"
+    ]
+  },
+  {
+    "id": "LIRREE5",
+    "positionPriority": [
+      "LIRR_EW_CTR"
+    ]
+  },
+  {
+    "id": "LIRREE6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRREE7",
+    "positionPriority": [
+      "LIRR_EW_CTR"
+    ]
+  },
+  {
+    "id": "LIRREE8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRES0",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRES1",
+    "positionPriority": [
+      "LIRR_SU_CTR"
+    ]
+  },
+  {
+    "id": "LIRRES2",
+    "positionPriority": [
+      "LIRR_SU_CTR"
+    ]
+  },
+  {
+    "id": "LIRRES3",
+    "positionPriority": [
+      "LIRR_SU_CTR"
+    ]
+  },
+  {
+    "id": "LIRRES4",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRES5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRES6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRES7",
+    "positionPriority": [
+      "LIRR_SU_CTR"
+    ]
+  },
+  {
+    "id": "LIRRES8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRREW0",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRREW1",
+    "positionPriority": [
+      "LIRR_EW_CTR"
+    ]
+  },
+  {
+    "id": "LIRREW2",
+    "positionPriority": [
+      "LIRR_EW_CTR"
+    ]
+  },
+  {
+    "id": "LIRREW3",
+    "positionPriority": [
+      "LIRR_EW_CTR"
+    ]
+  },
+  {
+    "id": "LIRREW4",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRREW5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRREW6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRREW7",
+    "positionPriority": [
+      "LIRR_EW_CTR"
+    ]
+  },
+  {
+    "id": "LIRREW8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRREWA",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRND1",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRND2",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRND3",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRND4",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRND5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRND6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRND7",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRND8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRNE1",
+    "positionPriority": [
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRNE2",
+    "positionPriority": [
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRNE3",
+    "positionPriority": [
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRNE4",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRNE5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRNE6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRNE7",
+    "positionPriority": [
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRNE8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRNN0",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRNW1",
+    "positionPriority": [
+      "LIRR_NW_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRNW2",
+    "positionPriority": [
+      "LIRR_NW_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRNW3",
+    "positionPriority": [
+      "LIRR_NW_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRNW4",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRNW5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRNW6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRNW7",
+    "positionPriority": [
+      "LIRR_NW_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRNW8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRROV1",
+    "positionPriority": [
+      "LIRR_OV_CTR",
+      "LIRR_TS_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRROV2",
+    "positionPriority": [
+      "LIRR_OV_CTR",
+      "LIRR_TS_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRROV3",
+    "positionPriority": [
+      "LIRR_OV_CTR",
+      "LIRR_TS_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRROV4",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRROV5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRROV6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRROV7",
+    "positionPriority": [
+      "LIRR_OV_CTR",
+      "LIRR_TS_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRROV8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRPN1",
+    "positionPriority": [
+      "LIRR_PN1_APP",
+      "LIRR_TW1_APP"
+    ]
+  },
+  {
+    "id": "LIRRPS1",
+    "positionPriority": [
+      "LIRR_PS1_APP",
+      "LIRR_PN1_APP"
+    ]
+  },
+  {
+    "id": "LIRRSU1",
+    "positionPriority": [
+      "LIRR_SU_CTR"
+    ]
+  },
+  {
+    "id": "LIRRSU2",
+    "positionPriority": [
+      "LIRR_SU_CTR"
+    ]
+  },
+  {
+    "id": "LIRRSU3",
+    "positionPriority": [
+      "LIRR_SU_CTR"
+    ]
+  },
+  {
+    "id": "LIRRSU4",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRSU5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRSU6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRSU7",
+    "positionPriority": [
+      "LIRR_SU_CTR"
+    ]
+  },
+  {
+    "id": "LIRRSU8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRTE1",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRTS1",
+    "positionPriority": [
+      "LIRR_TS_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRTS2",
+    "positionPriority": [
+      "LIRR_TS_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRTS3",
+    "positionPriority": [
+      "LIRR_TS_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRTS4",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRTS5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRTS6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRTS7",
+    "positionPriority": [
+      "LIRR_TS_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRTS8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRTW1",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRUS0",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRUS1",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRUS2",
+    "positionPriority": [
+      "LIRR_US_CTR",
+      "LIRR_TS_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRUS3",
+    "positionPriority": [
+      "LIRR_US_CTR",
+      "LIRR_TS_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRUS4",
+    "positionPriority": [
+      "LIRR_US_CTR",
+      "LIRR_TS_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRUS5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRUS6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRUS7",
+    "positionPriority": [
+      "LIRR_US_CTR",
+      "LIRR_TS_CTR",
+      "LIRR_NE_CTR"
+    ]
+  },
+  {
+    "id": "LIRRUS8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRUSA",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRWE1",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRWE2",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRWE3",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRWE4",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRWE5",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRWE6",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRWE7",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRRWE8",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRSCR",
+    "positionPriority": []
+  },
+  {
+    "id": "LIRZCR",
+    "positionPriority": []
+  }
+]

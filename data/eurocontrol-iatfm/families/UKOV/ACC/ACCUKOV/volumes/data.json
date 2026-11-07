@@ -1,0 +1,1127 @@
+{
+  "volumes": [
+    {
+      "id": "UKOCNC",
+      "label": "UKOCNC",
+      "sectorIds": [
+        "UKOVC",
+        "UKOVN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 38,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2020-12-03T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 9
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d8096620-39c3-46d0-a7bd-3b78dec96a13",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1606953600000,
+            "end": 32503593600000
+          },
+          "stateId": "8DB4AE5F00000000E5EAFBAC",
+          "name": "ODESA-NORTH OVN+OVC ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:98827047-99ae-47d2-851c-0bc3b041390f"
+            },
+            "locationId": "UKOVNC",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 38
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1606953600000,
+              "til": 32503593600000,
+              "peak": 9
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOH",
+      "label": "UKOH",
+      "arrival": [
+        "UKOH"
+      ],
+      "departure": [
+        "UKOH"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:48836a9b-6d95-4b43-9d76-bd9b4db9bb47",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1573084800000,
+            "end": 32503593600000
+          },
+          "stateId": "6DE1B25D00D702008DCBBB8F",
+          "name": "UKOH ARR  DEP",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9f25e9de-3827-4351-b368-3b3a7e11bd35"
+            },
+            "locationId": "UKOH",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 14400000,
+              "til": 72000000,
+              "validityPeriod": {
+                "start": 1573084800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKON",
+      "label": "UKON",
+      "arrival": [
+        "UKON"
+      ],
+      "departure": [
+        "UKON"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:1d7b679a-ac20-4b6e-9557-6e136dd7abca",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1534377600000,
+            "end": 32503593600000
+          },
+          "stateId": "BBA34C5B002A00004D85CD9D",
+          "name": "UKON GLOBAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e5f12458-5769-4fd7-a84f-0f8e8ae6dfd2"
+            },
+            "locationId": "UKON",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOO",
+      "label": "UKOO",
+      "arrival": [
+        "UKOO"
+      ],
+      "departure": [
+        "UKOO"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 14
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d8fa1ee3-02cd-4db1-b896-6ba35487879a",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1628726400000,
+            "end": 32503593600000
+          },
+          "stateId": "12E7EE6000282500B9D9E7A5",
+          "name": "UKOO GLOBAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cb99cf77-36cf-4cfa-87b7-3d6822e39a5b"
+            },
+            "locationId": "UKOO",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1628726400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 14
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOOARR",
+      "label": "UKOOARR",
+      "arrival": [
+        "UKOO"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:7294bebd-3537-4b84-b70a-e27782ebda86",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1534377600000,
+            "end": 32503593600000
+          },
+          "stateId": "81A14C5B009C03004D85CD9D",
+          "name": "UKOO ARRIVAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:98865d40-9e40-4d49-bf9f-df4b9b28829c"
+            },
+            "locationId": "UKOO",
+            "category": "ARRIVAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1534377600000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 9
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOODEP",
+      "label": "UKOODEP",
+      "departure": [
+        "UKOO"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:cbe015ce-13b4-4e62-aa03-81c5f78339bf",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1628726400000,
+            "end": 32503593600000
+          },
+          "stateId": "00E1EE6000020000B9D9E7A5",
+          "name": "UKOO DEPARTURE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1e9e8c11-5d58-4a83-a062-1f130039e9df"
+            },
+            "locationId": "UKOO",
+            "category": "DEPARTURE"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1628726400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 9
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOVACC",
+      "label": "UKOVACC",
+      "sectorIds": [
+        "UKOVC",
+        "UKOVL",
+        "UKOVN",
+        "UKOVS",
+        "UKOVTC1",
+        "UKOVTC2",
+        "UKOVU"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:98d0a620-ebac-4102-b6da-dfd24b185f28",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1674691200000,
+            "end": 32503593600000
+          },
+          "stateId": "E54FB463000F0700D130A440",
+          "name": "ODESA CTA AND TMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:90161e79-63b4-4e13-ba2c-ab3368390346"
+            },
+            "locationId": "UKOVACC",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOVC",
+      "label": "UKOVC",
+      "sectorIds": [
+        "UKOVC"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 51,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e9686ac3-4af8-43e0-bca1-69e761177382",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "1D202256008900004288E5D1",
+          "name": "ODESA NORTH OVC",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d3ba3f08-a99a-4046-a352-b180c0bd3455"
+            },
+            "locationId": "UKOVC",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 51
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 14
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOVCS",
+      "label": "UKOVCS",
+      "sectorIds": [
+        "UKOVC",
+        "UKOVS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-12-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b8cc8ea6-319f-4951-bd28-31e5b9c18150",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1640822400000,
+            "end": 32503593600000
+          },
+          "stateId": "007EA861009F020058AB616B",
+          "name": "ODESA NORTH OVC+ODESA SOUTH OVS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9e3be693-6ad7-48ca-a1b1-dd652d7e9f67"
+            },
+            "locationId": "UKOVCS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1640822400000,
+              "til": 32503593600000,
+              "peak": 15
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOVCTA",
+      "label": "UKOVCTA",
+      "sectorIds": [
+        "UKOVC",
+        "UKOVL",
+        "UKOVN",
+        "UKOVS",
+        "UKOVU"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:7106d12a-36c1-401f-a564-e7eb8a99d152",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1638403200000,
+            "end": 32503593600000
+          },
+          "stateId": "77608D61005D0B0034F6DA38",
+          "name": "UKOVCTA GND-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:53cd7d7b-7559-4832-b45c-5f0b0aca8933"
+            },
+            "locationId": "UKOVCTA",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1638403200000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "note": "UKODSFRA DMR_232757",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOVL",
+      "label": "UKOVL",
+      "sectorIds": [
+        "UKOVL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 17
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 17
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f9401eaa-5c50-4162-aeb1-2eab22403cf8",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "52222256004E00004288E5D1",
+          "name": "ODESA SOUTH OVL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d4745ed7-a103-4dbf-ab71-d99a9e38b023"
+            },
+            "locationId": "UKOVL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 17
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOVLU",
+      "label": "UKOVLU",
+      "sectorIds": [
+        "UKOVL",
+        "UKOVU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 16
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:bc461cb8-3fab-40e1-9063-6b79b4d989bd",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "DA242256002B00004288E5D1",
+          "name": "ODESA SOUTH OVL+OVU",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d410eb0a-7155-468b-9b76-7e91d2cf6c98"
+            },
+            "locationId": "UKOVLU",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 16
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOVN",
+      "label": "UKOVN",
+      "sectorIds": [
+        "UKOVN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 18
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 18
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:84a25e65-24e9-4e4e-aae6-9d5f2d3a4d22",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "D7232256003300004288E5D1",
+          "name": "ODESA NORTH OVN",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9c137846-c7ba-44aa-9fee-9c4af12f0101"
+            },
+            "locationId": "UKOVN",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 18
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOVNC",
+      "label": "UKOVNC",
+      "sectorIds": [
+        "UKOVC",
+        "UKOVN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 38,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-12-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 9
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:1f42f153-dc92-4a67-9d22-28f807552aae",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1640822400000,
+            "end": 32503593600000
+          },
+          "stateId": "CC94B96100750000127D8C06",
+          "name": "ODESA-NORTH OVN+OVC ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:98827047-99ae-47d2-851c-0bc3b041390f"
+            },
+            "locationId": "UKOVNC",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 38
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1640822400000,
+              "til": 32503593600000,
+              "peak": 9
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOVS",
+      "label": "UKOVS",
+      "sectorIds": [
+        "UKOVS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 43,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e4955071-7c2e-4d21-94b3-c38d5199c729",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "81212256004D00004288E5D1",
+          "name": "ODESA SOUTH OVS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1db2d5e8-f5e5-45c5-a231-76541bd317b4"
+            },
+            "locationId": "UKOVS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 43
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 15
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOVSLU",
+      "label": "UKOVSLU",
+      "sectorIds": [
+        "UKOVL",
+        "UKOVS",
+        "UKOVU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 18
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 18
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:7ba58a02-6af9-46f1-943f-b06ee31e7010",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "78242256003500004288E5D1",
+          "name": "ODESA SOUTH OVS+OVL+OVU",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1b2fc01c-0bf0-47b3-8846-bb996d5252a9"
+            },
+            "locationId": "UKOVSLU",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 18
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOVT",
+      "label": "UKOVT",
+      "sectorIds": [
+        "UKOVTC1",
+        "UKOVTC2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 34
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8b6999c2-9497-4269-9fbc-e39f1869146e",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "A9903C56000900001F9DF6D8",
+          "name": "ODESA TMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a4277e6c-a4ac-46c7-bf5e-188760fb21fd"
+            },
+            "locationId": "UKOVT",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1447286400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 34
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOVTMA",
+      "label": "UKOVTMA",
+      "sectorIds": [
+        "UKOVTC1",
+        "UKOVTC2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:87d22e34-4a77-4f37-a709-70f5efeec518",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1389225600000,
+            "end": 32503593600000
+          },
+          "stateId": "4092D152004A0000704B2247",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:79a0e4cb-dd58-4b37-a47b-508c8c984121"
+            },
+            "locationId": "UKOVTMA",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1389225600000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKOVU",
+      "label": "UKOVU",
+      "sectorIds": [
+        "UKOVU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 44,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 16
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c2563ea4-fa66-4684-b52c-1079054e6c86",
+        "groups": [
+          "ACCUKOV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "DC222256004500004288E5D1",
+          "name": "ODESA SOUTH OVU",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:be29dcde-3cb4-4736-b330-378bb385ab4a"
+            },
+            "locationId": "UKOVU",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 44
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 16
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

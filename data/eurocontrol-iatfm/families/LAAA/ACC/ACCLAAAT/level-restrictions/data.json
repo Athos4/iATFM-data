@@ -1,0 +1,119 @@
+{
+  "volumes": [
+    {
+      "id": "FL1LIB58",
+      "label": "FL1LIB58",
+      "sectorIds": [
+        "LIBBCS5",
+        "LIBBCS6",
+        "LIBBCS7",
+        "LIBBCS8",
+        "LIBBES5",
+        "LIBBES6",
+        "LIBBES7",
+        "LIBBES8"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECDC70AFABBBE62C526268"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTAIOSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECDC70AFABBBE62C526268"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTGISAM"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECDC70AFABBBE62C526268"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTBEVIS"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:431c4fa7-2477-4404-a674-d42f6cda0764",
+        "groups": [
+          "ACCLAAA",
+          "ACCLAAAT",
+          "ACCLIBB",
+          "FICLAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1686787200000,
+            "end": 32503593600000
+          },
+          "stateId": "5A027264006C0000F0FB7786",
+          "name": "/FROM LGKR/PZ/KF VIA POINTS AIOSA,GISAM,BEVIS\nTO : ANY\nNOT ALLOWED  VIA LIBBSC58\nREFILE BELOW FL345 UNTIL CLEAR OF SECTOR ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7e8c6182-93b9-4198-9afe-f4686392ca8b"
+            },
+            "locationId": "LIBBSC58",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:336acfeb-c3b3-47ac-b29c-93ba5e345474"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:60138d3c-c8a1-446f-af47-de0a5f9b4b06"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4c9b5625-9fdc-40e0-84bc-5cafd7a798ab"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

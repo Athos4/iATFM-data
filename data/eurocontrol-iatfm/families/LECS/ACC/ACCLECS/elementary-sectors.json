@@ -1,0 +1,105 @@
+[
+  {
+    "id": "LEAMTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LECSALCL",
+    "positionPriority": [
+      "LECS_SEL_CTR",
+      "LECS_CTR"
+    ]
+  },
+  {
+    "id": "LECSALCU",
+    "positionPriority": [
+      "LECS_CTR"
+    ]
+  },
+  {
+    "id": "LECSALML",
+    "positionPriority": []
+  },
+  {
+    "id": "LECSASN",
+    "positionPriority": []
+  },
+  {
+    "id": "LECSASV",
+    "positionPriority": []
+  },
+  {
+    "id": "LECSBER",
+    "positionPriority": []
+  },
+  {
+    "id": "LECSBLNX",
+    "positionPriority": []
+  },
+  {
+    "id": "LECSGAL",
+    "positionPriority": []
+  },
+  {
+    "id": "LECSMALL",
+    "positionPriority": []
+  },
+  {
+    "id": "LECSMARX",
+    "positionPriority": [
+      "LECS_MAR_CTR",
+      "LECS_CTR"
+    ]
+  },
+  {
+    "id": "LECSSEL",
+    "positionPriority": [
+      "LECS_SEL_CTR",
+      "LECS_CTR"
+    ]
+  },
+  {
+    "id": "LECSSEU",
+    "positionPriority": []
+  },
+  {
+    "id": "LECSSEVL",
+    "positionPriority": []
+  },
+  {
+    "id": "LECSSEVU",
+    "positionPriority": []
+  },
+  {
+    "id": "LECSYES",
+    "positionPriority": []
+  },
+  {
+    "id": "LEGRTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMGFDE",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMGFDW",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMGFNNE",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMGFNNW",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMGFNSE",
+    "positionPriority": []
+  },
+  {
+    "id": "LEMGFNSW",
+    "positionPriority": []
+  }
+]

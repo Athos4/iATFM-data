@@ -1,0 +1,140 @@
+{
+  "volumes": [
+    {
+      "id": "OLBA",
+      "label": "OLBA",
+      "arrival": [
+        "OLBA"
+      ],
+      "departure": [
+        "OLBA"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:71db9c91-453b-4349-a274-f3deebac68fa",
+        "groups": [
+          "ACCOLBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1418256000000,
+            "end": 32503593600000
+          },
+          "stateId": "BD1BAC54001A0000A04E3B93",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:5641cfd4-1173-4a58-b290-457487765fc1"
+            },
+            "locationId": "OLBA",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "OLBAARR",
+      "label": "OLBAARR",
+      "arrival": [
+        "OLBA"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:6b98444e-bf0e-48ed-8d36-847df8001187",
+        "groups": [
+          "ACCOLBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1418256000000,
+            "end": 32503593600000
+          },
+          "stateId": "BD1BAC54003E0000A04E3B93",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d7332ae4-f14c-4523-b7eb-1d66b7fe529d"
+            },
+            "locationId": "OLBA",
+            "category": "ARRIVAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "OLBADEP",
+      "label": "OLBADEP",
+      "departure": [
+        "OLBA"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:6920632f-f6e3-4e0b-a6a8-56b190209f5f",
+        "groups": [
+          "ACCOLBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1418256000000,
+            "end": 32503593600000
+          },
+          "stateId": "BD1BAC5400620000A04E3B93",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:28ae6531-23b0-47ec-8b4d-8aaa8c1be5a8"
+            },
+            "locationId": "OLBA",
+            "category": "DEPARTURE"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "OLBBCRI",
+      "label": "OLBBCRI",
+      "sectorIds": [
+        "OLBBALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:6298ba8f-e738-41ef-8344-7210fc7479be",
+        "groups": [
+          "ACCOLBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "5F6EC46700620F00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a7daf5af-2f65-4394-a204-0f79b008b2ba"
+            },
+            "locationId": "OLBBCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT ",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

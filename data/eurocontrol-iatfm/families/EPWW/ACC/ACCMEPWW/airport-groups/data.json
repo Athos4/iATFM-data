@@ -1,0 +1,68 @@
+[
+  {
+    "azId": "EC33AEF571E30867DA47AE",
+    "list": [
+      "EYKA",
+      "EYKS",
+      "EYVI"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:3f765995-973f-404d-8b37-1ad5c6ccf267",
+      "id": "EYKA+2"
+    }
+  },
+  {
+    "azId": "ECC428E07E9FCE01FC8C59",
+    "list": [
+      "UUDD",
+      "UUEE",
+      "UUMO",
+      "UUWW"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:b03d9950-69ad-49c3-8840-3790f9f37b10",
+      "id": "MOS4"
+    }
+  },
+  {
+    "azId": "ECD2D49805083F52DE0000",
+    "list": [
+      "EYAL",
+      "EYBI",
+      "EYDR",
+      "EYIG",
+      "EYKA",
+      "EYKL",
+      "EYKP",
+      "EYKS",
+      "EYKT",
+      "EYMA",
+      "EYMM",
+      "EYMO",
+      "EYNA",
+      "EYNI",
+      "EYPA",
+      "EYPH",
+      "EYPI",
+      "EYPN",
+      "EYPR",
+      "EYRD",
+      "EYRO",
+      "EYSA",
+      "EYSB",
+      "EYSE",
+      "EYSI",
+      "EYTL",
+      "EYTR",
+      "EYUT",
+      "EYVI",
+      "EYVK",
+      "EYVP",
+      "EYZA"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:3aeebc75-30b2-418b-8581-030201ac2264",
+      "id": "EY"
+    }
+  }
+]

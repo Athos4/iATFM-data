@@ -1,0 +1,305 @@
+[
+  {
+    "id": "LFRBFIS",
+    "positionPriority": [
+      "LFRB_FIS_APP",
+      "LFRB_APP",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRHTA",
+    "positionPriority": [
+      "LFRB_FIS_APP",
+      "LFRB_APP",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRNDD",
+    "positionPriority": [
+      "LFRN_DD_APP",
+      "LFRN_APP",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRNJC",
+    "positionPriority": [
+      "LFRN_JC_APP",
+      "LFRN_APP",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRNJD",
+    "positionPriority": [
+      "LFRN_JD_APP",
+      "LFRN_APP",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRNRN",
+    "positionPriority": [
+      "LFRN_RN_APP",
+      "LFRN_APP",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRR7A",
+    "positionPriority": []
+  },
+  {
+    "id": "LFRRAI",
+    "positionPriority": [
+      "LFRR_NGA_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRAS",
+    "positionPriority": [
+      "LFRR_NGA_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRAU",
+    "positionPriority": [
+      "LFRR_NGA_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRGI",
+    "positionPriority": [
+      "LFRR_NGA_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRGS",
+    "positionPriority": [
+      "LFRR_NGA_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRGU",
+    "positionPriority": [
+      "LFRR_NGA_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRJF",
+    "positionPriority": [
+      "LFRR_NOR_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRJI",
+    "positionPriority": [
+      "LFRR_NOR_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRJS",
+    "positionPriority": [
+      "LFRR_NOR_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRJU",
+    "positionPriority": [
+      "LFRR_NOR_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRKI",
+    "positionPriority": [
+      "LFRR_NOR_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRKS",
+    "positionPriority": [
+      "LFRR_NOR_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRKU",
+    "positionPriority": [
+      "LFRR_NOR_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRMI",
+    "positionPriority": [
+      "LFRR_E_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRMS",
+    "positionPriority": [
+      "LFRR_E_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRMU",
+    "positionPriority": [
+      "LFRR_E_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRNF",
+    "positionPriority": [
+      "LFRR_NGA_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRNI",
+    "positionPriority": [
+      "LFRR_NGA_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRNS",
+    "positionPriority": [
+      "LFRR_NGA_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRNST",
+    "positionPriority": [
+      "LFRR_NGA_CTR"
+    ]
+  },
+  {
+    "id": "LFRRNU",
+    "positionPriority": [
+      "LFRR_NGA_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRQI",
+    "positionPriority": [
+      "LFRR_E_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRQS",
+    "positionPriority": [
+      "LFRR_E_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRQU",
+    "positionPriority": [
+      "LFRR_E_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRVI",
+    "positionPriority": [
+      "LFRR_NOR_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRVS",
+    "positionPriority": [
+      "LFRR_NOR_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRVU",
+    "positionPriority": [
+      "LFRR_NOR_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRWI",
+    "positionPriority": [
+      "LFRR_NOR_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRWS",
+    "positionPriority": [
+      "LFRR_NOR_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRWU",
+    "positionPriority": [
+      "LFRR_NOR_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRXI",
+    "positionPriority": [
+      "LFRR_E_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRXS",
+    "positionPriority": [
+      "LFRR_E_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRXU",
+    "positionPriority": [
+      "LFRR_E_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRZI",
+    "positionPriority": [
+      "LFRR_E_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRZS",
+    "positionPriority": [
+      "LFRR_E_CTR",
+      "LFRR_CTR"
+    ]
+  },
+  {
+    "id": "LFRRZU",
+    "positionPriority": [
+      "LFRR_E_CTR",
+      "LFRR_CTR"
+    ]
+  }
+]

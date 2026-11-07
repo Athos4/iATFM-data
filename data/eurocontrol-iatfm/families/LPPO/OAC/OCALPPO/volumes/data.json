@@ -1,0 +1,232 @@
+{
+  "volumes": [
+    {
+      "id": "LPPDARR",
+      "label": "LPPDARR",
+      "arrival": [
+        "LPPD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:34a76710-8e51-4967-9017-a3a773890c75",
+        "groups": [
+          "OCALPPO"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1597276800000,
+            "end": 32503593600000
+          },
+          "stateId": "E75D0D5F003900007D777396",
+          "name": "LPPD ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b38f3e05-c55e-458f-8669-4d7a2ce0e507"
+            },
+            "locationId": "LPPD",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 8
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LPSTRD1X",
+      "label": "LPSTRD1X",
+      "sectorIds": [
+        "LPPOALL"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECCDCB98C562293B0D2D31"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC6FD12FF3376B0F0894A3"
+            ]
+          ]
+        }
+      ],
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECCDCB98C562293B0D2D31"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECCDCB98C562293B0D2D31"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:37fddff3-d7ec-4cb1-b457-52aa683a2730",
+        "groups": [
+          "OCALPPO"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1389225600000,
+            "end": 32503593600000
+          },
+          "stateId": "2EC0E7520058020053CD0F0B",
+          "name": "LP STRIKE, DEPS LP VIA LPPOOCA AIRSPACE ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:741e7e24-8210-4b0b-b01e-6b6f40c0c6ff"
+            },
+            "locationId": "LPPOOCA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6fcbf9ef-8caf-4ebc-a0c1-beed7ceae050"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:60000c83-4643-46ff-9cb7-8d9a219021b4"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:58348d94-5802-4a77-bbcc-8f6e354fa4e1"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "note": "LP STRIKE, DEPS LP VIA LPPOOCA AIRSPACE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LPSTRDE1",
+      "label": "LPSTRDE1",
+      "sectorIds": [
+        "LPPOALL"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECCDCB98C562293B0D2D31"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC6FD12FF3376B0F0894A3"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:6321ab97-c3b8-4927-a953-b838f02fac24",
+        "groups": [
+          "OCALPPO"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1321488000000,
+            "end": 32503593600000
+          },
+          "stateId": "8651C54E00DB00005E7A6785",
+          "name": "LP STRIKE, DEPS LP VIA LPPOOCA AIRSPACE (EXC MIL) ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:741e7e24-8210-4b0b-b01e-6b6f40c0c6ff"
+            },
+            "locationId": "LPPOOCA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6fcbf9ef-8caf-4ebc-a0c1-beed7ceae050"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:60000c83-4643-46ff-9cb7-8d9a219021b4"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "note": "LP STRIKE, DEPS LP VIA LPPOOCA AIRSPACE (EXC MIL) ",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

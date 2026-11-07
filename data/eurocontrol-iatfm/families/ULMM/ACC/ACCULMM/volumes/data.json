@@ -1,0 +1,72 @@
+{
+  "volumes": [
+    {
+      "id": "ULMMNCRI",
+      "label": "ULMMNCRI",
+      "sectorIds": [
+        "ULMMALL1"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:e816c159-edd6-4f4c-803e-17b5d276245a",
+        "groups": [
+          "ACCULMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "D66EC46700B60700E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:00d57a58-c40b-4cb7-87c7-6e81ffb52f94"
+            },
+            "locationId": "ULMMNCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ULMMSCRI",
+      "label": "ULMMSCRI",
+      "sectorIds": [
+        "ULMMALL2"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:cb6eb44d-c4d6-450d-8a30-b854b0a43894",
+        "groups": [
+          "ACCULMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "DD6EC46700650F00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a51a7b01-de4a-40f0-b9b1-8650d588d61d"
+            },
+            "locationId": "ULMMSCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

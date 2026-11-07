@@ -1,0 +1,2009 @@
+{
+  "volumes": [
+    {
+      "id": "EE-HKDEP",
+      "label": "EE-HKDEP",
+      "sectorIds": [
+        "EETTFED",
+        "EETTW11",
+        "EETTW12",
+        "EETTW21",
+        "EETTW23",
+        "EETTW31",
+        "EETTW32"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 20
+      },
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEFHKD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTVALOX"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEFHKD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTKOIVU"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:0a03b9e9-5fe6-4d3d-b80e-9392d41f9813",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "D86EE561001D00004C22622D",
+          "name": "MONITOR AND REGULATE EFHK DEPS VIA VALOX AND KOIVU",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3cd72750-609c-41da-a764-21eb256866ff"
+            },
+            "locationId": "EETTCSW",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:23d814fe-e4fc-4411-a831-f5c60cf063e0"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9ecf55fe-e15a-413e-95bb-d4e1027f1730"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 20
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EE4SW",
+      "label": "EE4SW",
+      "sectorIds": [
+        "EETTW11",
+        "EETTW12",
+        "EETTW23",
+        "EETTW31"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 13,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15,
+        "sustain": 13
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3c53a737-409d-4477-92a2-af808fdb1c69",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "ACCEFIN",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "75B9456900370400E9C3D4FE",
+          "name": "FINEST PROJECT",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ab0a525e-7cfb-41ae-919a-b563604ebe77"
+            },
+            "locationId": "EETT4SW",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 13,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "EEALLCRI",
+      "label": "EEALLCRI",
+      "sectorIds": [
+        "EEEITA",
+        "EETNTMA2",
+        "EETNTMA3",
+        "EETTE1",
+        "EETTE2",
+        "EETTFED",
+        "EETTFIS",
+        "EETTW11",
+        "EETTW12",
+        "EETTW21",
+        "EETTW23",
+        "EETTW31",
+        "EETTW32"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:e0a8969a-819d-4da9-8f30-3ece376035c9",
+        "groups": [
+          "ACCEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "CB4CC46700990F00E5F73002",
+          "name": "EE AIRSPACE, FOR CRISIS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c1c13507-9c2b-49df-b2e9-12c5913f8d8e"
+            },
+            "locationId": "EECRI",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EEEF4",
+      "label": "EEEF4",
+      "sectorIds": [
+        "EETTW11",
+        "EETTW12",
+        "EETTW23",
+        "EETTW31"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-02-19T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 13,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15,
+        "sustain": 13
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8587679c-35a7-4b5b-9536-452226e61abf",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "ACCEFIN",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1771459200000,
+            "end": 32503593600000
+          },
+          "stateId": "B8A07C6900250000E7E4C73E",
+          "name": "FINEST PROJECT",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ab0a525e-7cfb-41ae-919a-b563604ebe77"
+            },
+            "locationId": "EETT4SW",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1771459200000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 13,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "EETN",
+      "label": "EETN",
+      "arrival": [
+        "EETN"
+      ],
+      "departure": [
+        "EETN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f480e979-e114-4e5b-8744-a65cb5d04352",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "380CD66900EB040077A0EDC8",
+          "name": "TALLINN AERODROME",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:eb99c9f5-ea8c-4a82-82b9-810d373a2198"
+            },
+            "locationId": "EETN",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETNALL",
+      "label": "EETNALL",
+      "sectorIds": [
+        "EETNTMA2",
+        "EETNTMA3"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 20,
+        "weekly": [
+          {
+            "startDay": 1,
+            "startMinute": 1140,
+            "endDay": 2,
+            "endMinute": 300,
+            "maxEntryPerHour": 10
+          },
+          {
+            "startDay": 2,
+            "startMinute": 1140,
+            "endDay": 3,
+            "endMinute": 300,
+            "maxEntryPerHour": 10
+          },
+          {
+            "startDay": 3,
+            "startMinute": 1140,
+            "endDay": 4,
+            "endMinute": 300,
+            "maxEntryPerHour": 10
+          },
+          {
+            "startDay": 4,
+            "startMinute": 1140,
+            "endDay": 5,
+            "endMinute": 300,
+            "maxEntryPerHour": 10
+          },
+          {
+            "startDay": 5,
+            "startMinute": 1140,
+            "endDay": 6,
+            "endMinute": 300,
+            "maxEntryPerHour": 10
+          },
+          {
+            "startDay": 6,
+            "startMinute": 1140,
+            "endDay": 7,
+            "endMinute": 300,
+            "maxEntryPerHour": 10
+          },
+          {
+            "startDay": 7,
+            "startMinute": 1140,
+            "endDay": 1,
+            "endMinute": 300,
+            "maxEntryPerHour": 10
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-09-04T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:520e52af-62d8-4663-af45-968337a87f0d",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1756944000000,
+            "end": 32503593600000
+          },
+          "stateId": "E154A3680022000092DB2D51",
+          "name": "TALLINN TMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:67457ece-646f-4f4a-ae71-12cfe862f3a4"
+            },
+            "locationId": "EETNALL",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1756944000000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 20,
+              "permanentCapacity": [
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 10,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "TUESDAY",
+                    "wefDay": "MONDAY",
+                    "tilTime": 18000000,
+                    "wefTime": 68400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 10,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "WEDNESDAY",
+                    "wefDay": "TUESDAY",
+                    "tilTime": 18000000,
+                    "wefTime": 68400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 10,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "THURSDAY",
+                    "wefDay": "WEDNESDAY",
+                    "tilTime": 18000000,
+                    "wefTime": 68400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 10,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "FRIDAY",
+                    "wefDay": "THURSDAY",
+                    "tilTime": 18000000,
+                    "wefTime": 68400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 10,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "SATURDAY",
+                    "wefDay": "FRIDAY",
+                    "tilTime": 18000000,
+                    "wefTime": 68400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 10,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "SUNDAY",
+                    "wefDay": "SATURDAY",
+                    "tilTime": 18000000,
+                    "wefTime": 68400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 10,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "MONDAY",
+                    "wefDay": "SUNDAY",
+                    "tilTime": 18000000,
+                    "wefTime": 68400000
+                  }
+                }
+              ]
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1756944000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETNARR",
+      "label": "EETNARR",
+      "arrival": [
+        "EETN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:14e8fde5-e67a-4203-be94-1400a6cac16e",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1713398400000,
+            "end": 32503593600000
+          },
+          "stateId": "53F60366002F060019F4B214",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8f0fcd0b-b195-4b5c-b035-abed12ed4882"
+            },
+            "locationId": "EETN",
+            "category": "ARRIVAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1713398400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETNDEP",
+      "label": "EETNDEP",
+      "departure": [
+        "EETN"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:cd5177db-44a4-42c9-b72f-6dc6362fd261",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1350518400000,
+            "end": 32503593600000
+          },
+          "stateId": "98988A5000C200002BD24911",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0b655c20-625a-4f2b-8f2b-11f1c9549d22"
+            },
+            "locationId": "EETN",
+            "category": "DEPARTURE"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETNTMA",
+      "label": "EETNTMA",
+      "sectorIds": [
+        "EETNTMA2",
+        "EETNTMA3"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADEETNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADEEEIA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:90289213-5e8d-4a11-abbc-7b19f1531f50",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "99E0C661000E0000405B217B",
+          "name": "EETNTMA EXCLUDING DEPS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b464278f-a993-4cfc-aa92-746c81763432"
+            },
+            "locationId": "EETNTMA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:8e652dc6-f557-4918-a1a0-1a3680aabeda"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:cbb1d09e-1f48-4545-8a70-614900edaf7e"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETNTMA2",
+      "label": "EETNTMA2",
+      "sectorIds": [
+        "EETNTMA2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0e00496a-6a53-4ce4-acbd-a40fe91b29f8",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "3EE4C661009F0000405B217B",
+          "name": "TALLINN TMA 2",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:55aa01bc-1a5e-4584-9d45-2a316c3251db"
+            },
+            "locationId": "EETNTMA2",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETNTMA3",
+      "label": "EETNTMA3",
+      "sectorIds": [
+        "EETNTMA3"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:809890ea-fcc6-4913-abd3-3c06b940456f",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "8FE4C66100040400405B217B",
+          "name": "TALLINN TMA 3",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b3ae54a9-8598-4703-99a9-e9d18c39db71"
+            },
+            "locationId": "EETNTMA3",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTALL",
+      "label": "EETTALL",
+      "sectorIds": [
+        "EETTE1",
+        "EETTE2",
+        "EETTFED",
+        "EETTW11",
+        "EETTW12",
+        "EETTW21",
+        "EETTW23",
+        "EETTW31",
+        "EETTW32"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-06-13T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 17,
+            "sustained": 15,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 17,
+        "sustain": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6912e0d5-8397-46d0-89df-42561b5ee67c",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1718236800000,
+            "end": 32503593600000
+          },
+          "stateId": "1D955966002E00001F4A8CD8",
+          "name": "EETT ALL SECTORS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9defde93-921c-4bd7-8fb8-3326483dbba5"
+            },
+            "locationId": "EETTALL",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1718236800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "note": "DO NOT DELETE",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1718236800000,
+              "til": 32503593600000,
+              "peak": 17,
+              "sustained": 15,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTCSE",
+      "label": "EETTCSE",
+      "sectorIds": [
+        "EETTE1",
+        "EETTE2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 44,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-12-26T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 17,
+            "sustained": 15,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 17,
+        "sustain": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:5919b886-6c38-475c-8c94-858f7dd57f5c",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1735171200000,
+            "end": 32503593600000
+          },
+          "stateId": "4330596700C00100B2FBF1E0",
+          "name": "TALLINN CTA SECTOR E1+TALLINN CTA SECTOR E2",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:257e8b0e-7e1c-4460-a598-cedb0270b20a"
+            },
+            "locationId": "EETTCSE",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 44
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1735171200000,
+              "til": 32503593600000,
+              "peak": 17,
+              "sustained": 15,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTCSE3",
+      "label": "EETTCSE3",
+      "sectorIds": [
+        "EETTE1",
+        "EETTE2",
+        "EETTFED",
+        "EETTW21"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-06-13T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 17,
+            "sustained": 15,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 17,
+        "sustain": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:222d42e9-0101-4411-b986-ec992d314cf7",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1718236800000,
+            "end": 32503593600000
+          },
+          "stateId": "1D955966000500001F4A8CD8",
+          "name": "TALLINN CTA SECTOR E1 + E2 + W21 + FEEDER",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c03758ae-15bd-4db2-a865-304b24490b4e"
+            },
+            "locationId": "EETTCSE3",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1718236800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1718236800000,
+              "til": 32503593600000,
+              "peak": 17,
+              "sustained": 15,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTCSN1",
+      "label": "EETTCSN1",
+      "sectorIds": [
+        "EETTFED",
+        "EETTW21"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-04-16T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 17,
+            "sustained": 15,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 17,
+        "sustain": 15
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADUMKKD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADUMKKA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:96672be5-f79c-4078-a587-3e9ca5d13cce",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "080BD669006E000077A0EDC8",
+          "name": "TALLINN CTA SECTOR FEEDER + W21",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6171f386-bee0-4492-9d0c-84ba9d6756c0"
+            },
+            "locationId": "EETTCSN1",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:cff41d17-ffb1-4c00-afe4-eff8dd3cc790"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:88336bbf-d909-40a6-88f6-51295454609b"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1776297600000,
+              "til": 32503593600000,
+              "peak": 17,
+              "sustained": 15,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTCSW",
+      "label": "EETTCSW",
+      "sectorIds": [
+        "EETTFED",
+        "EETTW11",
+        "EETTW12",
+        "EETTW21",
+        "EETTW23",
+        "EETTW31",
+        "EETTW32"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 42,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-12-26T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 17,
+            "sustained": 15,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 17,
+        "sustain": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:66ad3ced-dc61-4dcf-ac41-3b0e2add75ba",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1735171200000,
+            "end": 32503593600000
+          },
+          "stateId": "4430596700270000B2FBF1E0",
+          "name": "TALLINN CTA SECTOR ACC CS SW",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3cd72750-609c-41da-a764-21eb256866ff"
+            },
+            "locationId": "EETTCSW",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 42
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1735171200000,
+              "til": 32503593600000,
+              "peak": 17,
+              "sustained": 15,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTCSW2",
+      "label": "EETTCSW2",
+      "sectorIds": [
+        "EETTW11",
+        "EETTW12",
+        "EETTW23",
+        "EETTW31",
+        "EETTW32"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-06-13T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 17,
+            "sustained": 15,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 17,
+        "sustain": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ca16ebdc-217b-47bf-82a3-298d95c11c06",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1718236800000,
+            "end": 32503593600000
+          },
+          "stateId": "1C955966000B02001F4A8CD8",
+          "name": "TALLINN CTA SECTOR ACC CS SW 2",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2e2ae4d1-de6a-4959-a1da-8d80f1d24e45"
+            },
+            "locationId": "EETTCSW2",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1718236800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1718236800000,
+              "til": 32503593600000,
+              "peak": 17,
+              "sustained": 15,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTE1",
+      "label": "EETTE1",
+      "sectorIds": [
+        "EETTE1"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6f9c1de7-5184-4fb0-982d-3b8235122527",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "B3D0C66100040000405B217B",
+          "name": "TALLINN CTA SECTOR E1",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7ff3b574-cea4-4638-812f-11c2170aefee"
+            },
+            "locationId": "EETTE1",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTE2",
+      "label": "EETTE2",
+      "sectorIds": [
+        "EETTE2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:cab789e4-f506-4012-95c9-00b6799c710f",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "FDD0C66100710300405B217B",
+          "name": "TALLINN CTA SECTOR E2",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:61a2099c-a3d9-4b88-91b3-4abb83c06de3"
+            },
+            "locationId": "EETTE2",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTE3KK",
+      "label": "EETTE3KK",
+      "sectorIds": [
+        "EETTE1",
+        "EETTE2",
+        "EETTFED",
+        "EETTW21"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-07-10T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 17,
+            "sustained": 15,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 17,
+        "sustain": 15
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADUMKKA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADUMKKD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:8e343a8d-fcc5-4924-9f16-2a2740bc4942",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1752105600000,
+            "end": 32503593600000
+          },
+          "stateId": "196C666800D500009262B5C7",
+          "name": "TALLINN CTA SECTOR E1 + E2 + W21 + FEEDER\nEXC UMKK DEP+ARR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c03758ae-15bd-4db2-a865-304b24490b4e"
+            },
+            "locationId": "EETTCSE3",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:88336bbf-d909-40a6-88f6-51295454609b"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:cff41d17-ffb1-4c00-afe4-eff8dd3cc790"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1752105600000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1752105600000,
+              "til": 32503593600000,
+              "peak": 17,
+              "sustained": 15,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTFED",
+      "label": "EETTFED",
+      "sectorIds": [
+        "EETTFED"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 18
+      },
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADEFHKA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:16d1f7d9-fbe6-4441-aac4-6d4d3a599e5f",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1524700800000,
+            "end": 32503593600000
+          },
+          "stateId": "61316C5A00CD010005F58AD4",
+          "name": "EETT: FEEDER SECTOR FOR EFHK ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2e12876c-dbf4-4575-b976-dbaab8756300"
+            },
+            "locationId": "EETTFED",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:115aa401-3041-40f1-b98e-61af13762d89"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1524700800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 18
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTW11",
+      "label": "EETTW11",
+      "sectorIds": [
+        "EETTW11"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:84024d58-43c5-475b-98ee-385b1b4ebd8c",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "ACCEFIN",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "5FD1C66100710300405B217B",
+          "name": "TALLINN CTA SECTOR W11",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c1f91591-fe4e-4c00-a8a2-574f149a5d16"
+            },
+            "locationId": "EETTW11",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTW12",
+      "label": "EETTW12",
+      "sectorIds": [
+        "EETTW12"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8af83af7-f1d4-48b3-9ded-bc3e3b8d1c02",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "ACCEFIN",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "9CD1C661001A0000405B217B",
+          "name": "TALLINN CTA SECTOR W12",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b8cbed4c-e991-4dc3-bac4-d486b1754ce7"
+            },
+            "locationId": "EETTW12",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTW21",
+      "label": "EETTW21",
+      "sectorIds": [
+        "EETTW21"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:a4281d91-bdba-4942-8253-68407fbf6a23",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "EDD1C66100670300405B217B",
+          "name": "TALLINN CTA SECTOR W21",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8da0051d-c441-48c8-96fa-03a80d784047"
+            },
+            "locationId": "EETTW21",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTW23",
+      "label": "EETTW23",
+      "sectorIds": [
+        "EETTW23"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:addb566f-53bf-4cba-afad-401702fc91d7",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "ACCEFIN",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "2BD2C66100050000405B217B",
+          "name": "TALLINN CTA SECTOR W23",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:77ce2a41-dd31-4def-8db0-b2debe8399a3"
+            },
+            "locationId": "EETTW23",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTW31",
+      "label": "EETTW31",
+      "sectorIds": [
+        "EETTW31"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:43efc41a-0c07-4db2-aa2a-11c3fff0b77a",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "ACCEFIN",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "54D2C66100FA0300405B217B",
+          "name": "TALLINN CTA SECTOR W31",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7bffa113-8b98-48af-9fd7-61fc30c4ac28"
+            },
+            "locationId": "EETTW31",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EETTW32",
+      "label": "EETTW32",
+      "sectorIds": [
+        "EETTW32"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ea1e9b43-717f-4584-b69c-89ff1cfdd0a4",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "99D2C661000F0000405B217B",
+          "name": "TALLINN CTA SECTOR W32",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:83fb6441-9fb4-4f3f-a6e1-810593c7b16c"
+            },
+            "locationId": "EETTW32",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EFEE4",
+      "label": "EFEE4",
+      "sectorIds": [
+        "EETTW11",
+        "EETTW12",
+        "EETTW23",
+        "EETTW31"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-02-19T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 13,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15,
+        "sustain": 13
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0b8823bd-2929-4461-a9ae-4ee61d4b8f7e",
+        "groups": [
+          "ACCEETT",
+          "ACCEFEE",
+          "ACCEFIN",
+          "FISEETT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1771459200000,
+            "end": 32503593600000
+          },
+          "stateId": "DDA07C69000D0000E7E4C73E",
+          "name": "FINEST PROJECT",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ab0a525e-7cfb-41ae-919a-b563604ebe77"
+            },
+            "locationId": "EETT4SW",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1771459200000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 13,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    }
+  ]
+}

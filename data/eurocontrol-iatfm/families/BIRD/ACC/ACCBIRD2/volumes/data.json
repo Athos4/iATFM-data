@@ -1,0 +1,1099 @@
+{
+  "volumes": [
+    {
+      "id": "BIKF",
+      "label": "BIKF",
+      "arrival": [
+        "BIKF"
+      ],
+      "departure": [
+        "BIKF"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:67b43fe6-0f7d-41f6-85b2-e0d1c63ad455",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "OCABIRD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1469059200000,
+            "end": 32503593600000
+          },
+          "stateId": "F84A6D5700C9000005408B51",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:66b0fa9d-e82c-44cc-8e91-bd187d246bf6"
+            },
+            "locationId": "BIKF",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIKFARR",
+      "label": "BIKFARR",
+      "arrival": [
+        "BIKF"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 22
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:a9454ec7-09e7-4c80-aac3-2b40e44cf1f6",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "OCABIRD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1469059200000,
+            "end": 32503593600000
+          },
+          "stateId": "DCDB7B570060000095DE9CE0",
+          "name": "KEFLAVIK ARR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1fdef5fa-3d8b-4afe-93fc-1fee1e6ae655"
+            },
+            "locationId": "BIKF",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 22
+            }
+          ],
+          "note": "REDUCED CY TIL 08/07/2016 20:00 DUE TO RWY CONSTRUCTION",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIKFDEP",
+      "label": "BIKFDEP",
+      "departure": [
+        "BIKF"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:4e465d2c-eac8-474c-98a4-3a9a52c4d1f8",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "OCABIRD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1493251200000,
+            "end": 32503593600000
+          },
+          "stateId": "DC9BE858006E0000D82F114F",
+          "name": "KEFLAVIK DEPARTURES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d044a0a2-faf6-4a2e-a126-2ad273995e84"
+            },
+            "locationId": "BIKF",
+            "category": "DEPARTURE"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIRDES",
+      "label": "BIRDES",
+      "sectorIds": [
+        "BIRDES"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b3ed4b86-b7a9-40ae-b12f-dfa5fa18fbd8",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "AFISBIRD",
+          "OACBIRD",
+          "OCABIRD",
+          "OCABIRD1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1701302400000,
+            "end": 32503593600000
+          },
+          "stateId": "56F3166500170000CD2F53CC",
+          "name": "REYKJAVIK SECT EAST\nINCLUDING ALL SECTOR BOUNDARY POINTS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:34e615a7-b57e-4c13-a769-588bc436eb75"
+            },
+            "locationId": "BIRDES",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIRDES1",
+      "label": "BIRDES1",
+      "sectorIds": [
+        "BIRDES"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEKVGD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADEKVGA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:f747f2c8-012a-45fd-803c-bf6af344997a",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "AFISBIRD",
+          "OACBIRD",
+          "OCABIRD",
+          "OCABIRD1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1529539200000,
+            "end": 32503593600000
+          },
+          "stateId": "E242145B00920100E50AAB4F",
+          "name": "REYKJAVIK SECT EAST\nEXCLUDING ARRIVALS/DEPARTURES TO EKVG",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:34e615a7-b57e-4c13-a769-588bc436eb75"
+            },
+            "locationId": "BIRDES",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b3430156-4dd7-466c-b3c8-8fd07047963b"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:81d8cb51-12bf-4e24-b7a6-a12793dc54ab"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIRDESX",
+      "label": "BIRDESX",
+      "sectorIds": [
+        "BIRDES"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZEC45CA5E9A5681281C7BE8"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZEC42E47842E242B9E94DE4"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADEKVGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC45CA5E9A5681281C7BE8"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC42E47842E242B9E94DE4"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEKVGD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:e357e5ae-d205-4d17-b3de-e9c254f67f6c",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "AFISBIRD",
+          "OACBIRD",
+          "OCABIRD",
+          "OCABIRD1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1701302400000,
+            "end": 32503593600000
+          },
+          "stateId": "04F41665007C1000CD2F53CC",
+          "name": "BIRDES FDPS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:34e615a7-b57e-4c13-a769-588bc436eb75"
+            },
+            "locationId": "BIRDES",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:e9a6fa57-5467-4527-976b-987331efa640"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:555f9adc-5383-4c1a-93a0-02fcb8c9700c"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:81d8cb51-12bf-4e24-b7a6-a12793dc54ab"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:89ae969c-d267-47fa-81da-10e1edc2a7dc"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1523df55-f173-4023-a496-09991db8d488"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b3430156-4dd7-466c-b3c8-8fd07047963b"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1701302400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50,
+              "note": "DMR 61713"
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIRDFAXI",
+      "label": "BIRDFAXI",
+      "sectorIds": [
+        "BIRDFAXI"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:9a7131be-d4d3-4858-8606-4372adeb3912",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "AFISBIRD",
+          "OACBIRD",
+          "OCABIRD",
+          "OCABIRD1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1701302400000,
+            "end": 32503593600000
+          },
+          "stateId": "9BE11665003F0000CD2F53CC",
+          "name": "FAXI TMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:48dd9b94-878e-4ff9-b728-ca00e250ca2c"
+            },
+            "locationId": "BIRDFAXI",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1701302400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIRDNO",
+      "label": "BIRDNO",
+      "sectorIds": [
+        "BIRDNO"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b5c21ff9-5926-49bf-ae43-05c109193f71",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "AFISBIRD",
+          "OACBIRD",
+          "OCABIRD",
+          "OCABIRD1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1701302400000,
+            "end": 32503593600000
+          },
+          "stateId": "6AE7166500EC0200CD2F53CC",
+          "name": "BIRD NORTH SECTOR\nINCLUDING ALL SECTOR BOUNDARY POINTS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:82783079-9fc7-420b-b37f-83d79a5358d7"
+            },
+            "locationId": "BIRDNO",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIRDSS",
+      "label": "BIRDSS",
+      "sectorIds": [
+        "BIRDSS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 70
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0f25c68f-08ac-4a8d-96d9-7aed4551b3cd",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "AFISBIRD",
+          "OACBIRD",
+          "OCABIRD",
+          "OCABIRD1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1529539200000,
+            "end": 32503593600000
+          },
+          "stateId": "1943145B008D0100E50AAB4F",
+          "name": "REYKJAVIK SECT SOUTH\nINCLUDING ALL SECTOR BOUNDARY POINTS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0ac2f20f-a0de-48ae-9969-c60c129abfa2"
+            },
+            "locationId": "BIRDSS",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1529539200000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 70
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIRDSS2",
+      "label": "BIRDSS2",
+      "sectorIds": [
+        "BIRDSS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 70
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECA3E7885B79427B6C447A"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADBIKFA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:cb9e2b33-7352-4d47-93d7-76df719b507b",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "AFISBIRD",
+          "OACBIRD",
+          "OCABIRD",
+          "OCABIRD1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1759363200000,
+            "end": 32503593600000
+          },
+          "stateId": "9602C7680011000068B1AEA6",
+          "name": "REYKJAVIK SECT SOUTH\nINCLUDING ALL SECTOR BOUNDARY POINTS\nEXCLUDING DEPARTURES BI \nEXCLUDING ARRIVALS BIKF",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0ac2f20f-a0de-48ae-9969-c60c129abfa2"
+            },
+            "locationId": "BIRDSS",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:895cae80-6a79-4f15-b0e7-5090eba47d10"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:7c655d08-92f9-4ca0-8331-0fd44c1c68ed"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1759363200000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 70
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIRDSSX",
+      "label": "BIRDSSX",
+      "sectorIds": [
+        "BIRDSS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 70
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZEC45CA5E9A5681281C7BE8"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZEC42E47842E242B9E94DE4"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADEKVGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC45CA5E9A5681281C7BE8"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC42E47842E242B9E94DE4"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEKVGD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:2bb09837-e8f7-48e3-b291-ccd31b0ad929",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "AFISBIRD",
+          "OACBIRD",
+          "OCABIRD",
+          "OCABIRD1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1529539200000,
+            "end": 32503593600000
+          },
+          "stateId": "2943145B00AD0100E50AAB4F",
+          "name": "BIRDSS FDPS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0ac2f20f-a0de-48ae-9969-c60c129abfa2"
+            },
+            "locationId": "BIRDSS",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:e9a6fa57-5467-4527-976b-987331efa640"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:555f9adc-5383-4c1a-93a0-02fcb8c9700c"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:81d8cb51-12bf-4e24-b7a6-a12793dc54ab"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:89ae969c-d267-47fa-81da-10e1edc2a7dc"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1523df55-f173-4023-a496-09991db8d488"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b3430156-4dd7-466c-b3c8-8fd07047963b"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 70
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIRDSTR",
+      "label": "BIRDSTR",
+      "arrival": [
+        "BIAR",
+        "BIEG",
+        "BIKF",
+        "BIRK"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:f60316d3-a30d-48ff-a2e9-f00b1125698b",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "OCABIRD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1493251200000,
+            "end": 32503593600000
+          },
+          "stateId": "28A7E858002D0000D82F114F",
+          "name": "BIKF+BIRK+BIAR+BIEG ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a9f5b847-eaa9-49a8-b3e6-337037c437cd"
+            },
+            "locationId": "BIRDSTR1",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIRDSTR1",
+      "label": "BIRDSTR1",
+      "arrival": [
+        "BIAR",
+        "BIEG",
+        "BIKF",
+        "BIRK"
+      ],
+      "departure": [
+        "BIAR",
+        "BIEG",
+        "BIKF",
+        "BIRK"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:bcf5c1bc-c3da-483f-ab5e-eb84b6d78d5b",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "OCABIRD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1493251200000,
+            "end": 32503593600000
+          },
+          "stateId": "17A7E85800240000D82F114F",
+          "name": "BIKF+BIRK+BIAR+BIEG ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c0bb5110-1ee2-483d-a940-81d794e00a75"
+            },
+            "locationId": "BIRDSTR1",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIRDWE",
+      "label": "BIRDWE",
+      "sectorIds": [
+        "BIRDWE"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:a9e83827-9689-4760-b4e2-f2a9ec9b7b8d",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "AFISBIRD",
+          "OACBIRD",
+          "OCABIRD",
+          "OCABIRD1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1701302400000,
+            "end": 32503593600000
+          },
+          "stateId": "82E7166500280000CD2F53CC",
+          "name": "BIRD WEST SECTOR\nINCLUDING ALL SECTOR BOUNDARY POINTS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:858944c4-16c1-4014-b77b-5515b20e9566"
+            },
+            "locationId": "BIRDWE",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIRKARR",
+      "label": "BIRKARR",
+      "arrival": [
+        "BIRK"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:3307f67b-50bc-4791-a7d2-c04bedf4a10b",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "OCABIRD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1493251200000,
+            "end": 32503593600000
+          },
+          "stateId": "A7A3E85800540000D82F114F",
+          "name": "BIRK ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:22092b57-ebd5-4edf-833b-28d97ed187e6"
+            },
+            "locationId": "BIRK",
+            "category": "ARRIVAL"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "BIRKDEP",
+      "label": "BIRKDEP",
+      "departure": [
+        "BIRK"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:d624119c-e021-4fff-8d8a-048a01d7c7d6",
+        "groups": [
+          "ACCBIRD1",
+          "ACCBIRD2",
+          "OCABIRD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1493251200000,
+            "end": 32503593600000
+          },
+          "stateId": "E1A4E858000D0000D82F114F",
+          "name": "BIRK DEPARTURES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:23cfe642-98fc-4367-9e64-8273d22ce453"
+            },
+            "locationId": "BIRK",
+            "category": "DEPARTURE"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

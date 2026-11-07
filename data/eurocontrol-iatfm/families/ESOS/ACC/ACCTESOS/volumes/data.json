@@ -1,0 +1,6356 @@
+{
+  "volumes": [
+    {
+      "id": "ES12679",
+      "label": "ES12679",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS2",
+        "ESOS6",
+        "ESOS7",
+        "ESOS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 27,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-03-19T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:85e20914-c662-4e84-9d43-b9fd975399e7",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1773878400000,
+            "end": 32503593600000
+          },
+          "stateId": "02A59E69009F0000ADDECE50",
+          "name": "ES12679",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:81e9de02-ee94-4e9e-8706-eb5df92d8164"
+            },
+            "locationId": "ESOS12679",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 27
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1773878400000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESMOS2",
+      "label": "ESMOS2",
+      "sectorIds": [
+        "ESOS2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2017-03-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          },
+          {
+            "durationMinutes": 11,
+            "startUtc": "2017-03-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:35a1fc9f-4b8f-4089-b1dd-d94acb42a15c",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1490832000000,
+            "end": 32503593600000
+          },
+          "stateId": "FBF1B658003200008BA27356",
+          "name": "ESOS : SECTOR 2",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8ac91e8c-c94f-4207-8ff5-8a0c3cd8b74a"
+            },
+            "locationId": "ESOS2",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1490832000000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1490832000000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            },
+            {
+              "duration": 11,
+              "wef": 1490832000000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESN38",
+      "label": "ESN38",
+      "sectorIds": [
+        "ESOS3",
+        "ESOS8",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 28,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-07-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 13,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 13,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4b54ff16-fece-4a22-9930-2ffe280fa4fa",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1657756800000,
+            "end": 32503593600000
+          },
+          "stateId": "A83BA3620023000021A87E4C",
+          "name": "ESOS SECTOR 3,8,N COMBINED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:10f94404-4b0d-4b30-b1bf-881cdea8a2b9"
+            },
+            "locationId": "ESOSN38",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 28
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1657756800000,
+              "til": 32503593600000,
+              "peak": 13,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESNF348",
+      "label": "ESNF348",
+      "sectorIds": [
+        "ESOS3",
+        "ESOS4",
+        "ESOS8",
+        "ESOSF",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 18,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-07-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:31e65af0-f87e-489f-b8d4-86967871fc23",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1657756800000,
+            "end": 32503593600000
+          },
+          "stateId": "A83BA3620053000021A87E4C",
+          "name": "ESOS SECTORS N+F+3+4+8",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c6584f5d-7cbe-4774-94c8-9c71a86ac15b"
+            },
+            "locationId": "ESOSNF348",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 18
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1657756800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESNFK34",
+      "label": "ESNFK34",
+      "sectorIds": [
+        "ESOS3",
+        "ESOS4",
+        "ESOSF",
+        "ESOSK",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 18,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-07-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f01b14ce-7310-463a-90a6-ca0506d95407",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1657756800000,
+            "end": 32503593600000
+          },
+          "stateId": "A83BA36200A6000021A87E4C",
+          "name": "ESOS SECTOR N,F,K,3,4",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6140311b-ee04-4286-ae40-960d733b5b87"
+            },
+            "locationId": "ESOSNFK34",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 18
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1657756800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESNFK348",
+      "label": "ESNFK348",
+      "sectorIds": [
+        "ESOS3",
+        "ESOS4",
+        "ESOS8",
+        "ESOSF",
+        "ESOSK",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 20,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-03-23T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:cf97f2d0-b5d3-40ae-8dea-3dc1b9fc9264",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1679529600000,
+            "end": 32503593600000
+          },
+          "stateId": "EEA1F46300350000BFEE47CB",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:db386255-72d4-4fc3-8c54-3684f317ec35"
+            },
+            "locationId": "ESOSNFK348",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 20
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1679529600000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESNFK38",
+      "label": "ESNFK38",
+      "sectorIds": [
+        "ESOS3",
+        "ESOS8",
+        "ESOSF",
+        "ESOSK",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 18,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-07-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:526ffc6f-4dbd-406b-8294-fd3563a43d56",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1657756800000,
+            "end": 32503593600000
+          },
+          "stateId": "A93BA3620008000021A87E4C",
+          "name": "ESOS SECTOR N,F,K,3,8",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8479ffe3-cba0-43ef-981c-b84f2e819c93"
+            },
+            "locationId": "ESOSNFK38",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 18
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1657756800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS1",
+      "label": "ESOS1",
+      "sectorIds": [
+        "ESOS1"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "weekly": [
+          {
+            "startDay": 1,
+            "startMinute": 450,
+            "endDay": 1,
+            "endMinute": 900,
+            "maxEntryPerHour": 20
+          },
+          {
+            "startDay": 2,
+            "startMinute": 450,
+            "endDay": 2,
+            "endMinute": 900,
+            "maxEntryPerHour": 20
+          },
+          {
+            "startDay": 3,
+            "startMinute": 450,
+            "endDay": 3,
+            "endMinute": 900,
+            "maxEntryPerHour": 20
+          },
+          {
+            "startDay": 4,
+            "startMinute": 450,
+            "endDay": 4,
+            "endMinute": 900,
+            "maxEntryPerHour": 20
+          },
+          {
+            "startDay": 5,
+            "startMinute": 450,
+            "endDay": 5,
+            "endMinute": 660,
+            "maxEntryPerHour": 20
+          }
+        ],
+        "exceptions": [
+          {
+            "startUtc": "2026-10-01T06:30:00Z",
+            "endUtc": "2026-10-01T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-02T06:30:00Z",
+            "endUtc": "2026-10-02T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-05T06:30:00Z",
+            "endUtc": "2026-10-05T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-06T06:30:00Z",
+            "endUtc": "2026-10-06T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-07T06:30:00Z",
+            "endUtc": "2026-10-07T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-08T06:30:00Z",
+            "endUtc": "2026-10-08T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-09T06:30:00Z",
+            "endUtc": "2026-10-09T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-12T06:30:00Z",
+            "endUtc": "2026-10-12T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-13T06:30:00Z",
+            "endUtc": "2026-10-13T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-14T06:30:00Z",
+            "endUtc": "2026-10-14T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-15T06:30:00Z",
+            "endUtc": "2026-10-15T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-16T06:30:00Z",
+            "endUtc": "2026-10-16T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-19T06:30:00Z",
+            "endUtc": "2026-10-19T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-20T06:30:00Z",
+            "endUtc": "2026-10-20T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-21T06:30:00Z",
+            "endUtc": "2026-10-21T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-22T06:30:00Z",
+            "endUtc": "2026-10-22T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-23T06:30:00Z",
+            "endUtc": "2026-10-23T07:30:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-01T14:00:00Z",
+            "endUtc": "2026-10-01T15:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-02T10:00:00Z",
+            "endUtc": "2026-10-02T11:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-05T14:00:00Z",
+            "endUtc": "2026-10-05T15:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-06T14:00:00Z",
+            "endUtc": "2026-10-06T15:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-07T14:00:00Z",
+            "endUtc": "2026-10-07T15:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-08T14:00:00Z",
+            "endUtc": "2026-10-08T15:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-09T10:00:00Z",
+            "endUtc": "2026-10-09T11:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-12T14:00:00Z",
+            "endUtc": "2026-10-12T15:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-13T14:00:00Z",
+            "endUtc": "2026-10-13T15:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-14T14:00:00Z",
+            "endUtc": "2026-10-14T15:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-15T14:00:00Z",
+            "endUtc": "2026-10-15T15:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-16T10:00:00Z",
+            "endUtc": "2026-10-16T11:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-19T14:00:00Z",
+            "endUtc": "2026-10-19T15:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-20T14:00:00Z",
+            "endUtc": "2026-10-20T15:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-21T14:00:00Z",
+            "endUtc": "2026-10-21T15:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-22T14:00:00Z",
+            "endUtc": "2026-10-22T15:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2026-10-23T10:00:00Z",
+            "endUtc": "2026-10-23T11:00:00Z",
+            "maxEntryPerHour": 30
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 7
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADESSAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASESMMW"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:07ac0c41-d40a-42fa-a9ab-d42a3c96464d",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "449A926A001F0300BE1E59AA",
+          "name": "ESOS : SECTOR 1",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a4e742e0-5606-46ce-b795-939efed9bdf4"
+            },
+            "locationId": "ESOS1",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1578267f-fa28-4086-95b5-1e014aaed7b0"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30,
+              "permanentCapacity": [
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 20,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "MONDAY",
+                    "wefDay": "MONDAY",
+                    "tilTime": 54000000,
+                    "wefTime": 27000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 20,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "TUESDAY",
+                    "wefDay": "TUESDAY",
+                    "tilTime": 54000000,
+                    "wefTime": 27000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 20,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "WEDNESDAY",
+                    "wefDay": "WEDNESDAY",
+                    "tilTime": 54000000,
+                    "wefTime": 27000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 20,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "THURSDAY",
+                    "wefDay": "THURSDAY",
+                    "tilTime": 54000000,
+                    "wefTime": 27000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 20,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "FRIDAY",
+                    "wefDay": "FRIDAY",
+                    "tilTime": 39600000,
+                    "wefTime": 27000000
+                  }
+                }
+              ],
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1790836200000,
+                    "end": 1790839800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1790922600000,
+                    "end": 1790926200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791181800000,
+                    "end": 1791185400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791268200000,
+                    "end": 1791271800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791354600000,
+                    "end": 1791358200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791441000000,
+                    "end": 1791444600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791527400000,
+                    "end": 1791531000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791786600000,
+                    "end": 1791790200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791873000000,
+                    "end": 1791876600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791959400000,
+                    "end": 1791963000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792045800000,
+                    "end": 1792049400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792132200000,
+                    "end": 1792135800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792391400000,
+                    "end": 1792395000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792477800000,
+                    "end": 1792481400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792564200000,
+                    "end": 1792567800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792650600000,
+                    "end": 1792654200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792737000000,
+                    "end": 1792740600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1790863200000,
+                    "end": 1790866800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1790935200000,
+                    "end": 1790938800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1791208800000,
+                    "end": 1791212400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1791295200000,
+                    "end": 1791298800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1791381600000,
+                    "end": 1791385200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1791468000000,
+                    "end": 1791471600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1791540000000,
+                    "end": 1791543600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1791813600000,
+                    "end": 1791817200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1791900000000,
+                    "end": 1791903600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1791986400000,
+                    "end": 1791990000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1792072800000,
+                    "end": 1792076400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1792144800000,
+                    "end": 1792148400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1792418400000,
+                    "end": 1792422000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1792504800000,
+                    "end": 1792508400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1792591200000,
+                    "end": 1792594800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1792677600000,
+                    "end": 1792681200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1792749600000,
+                    "end": 1792753200000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": true,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS1267",
+      "label": "ESOS1267",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS2",
+        "ESOS6",
+        "ESOS7"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 22,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-12-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 6,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:859ee0b6-d768-42ac-814b-2bb677c6b0a6",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1640822400000,
+            "end": 32503593600000
+          },
+          "stateId": "9249AA6100EF000058AB616B",
+          "name": "ESOS1267",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7ef82454-df5f-4517-95d2-9c08149bc025"
+            },
+            "locationId": "ESOS1267",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 22
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1640822400000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 6,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS1269",
+      "label": "ESOS1269",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS2",
+        "ESOS6",
+        "ESOS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 23,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-12-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 6,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:9b2520ac-af94-4a71-b60c-b924515868bf",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1640822400000,
+            "end": 32503593600000
+          },
+          "stateId": "374FAA61005D030058AB616B",
+          "name": "ESOS1269",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:51f991b3-5e55-4401-ae09-82559fe44bad"
+            },
+            "locationId": "ESOS1269",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 23
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1640822400000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 6,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS127",
+      "label": "ESOS127",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS2",
+        "ESOS7"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 24,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-03-23T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 9,
+            "sustained": 5,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 9,
+        "sustain": 5
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4b5e2b01-6fc1-4d09-8a8b-e23846312727",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1679529600000,
+            "end": 32503593600000
+          },
+          "stateId": "ECA1F46300F70000BFEE47CB",
+          "name": "ESOS SECTOR 1, 2 AND 7 COMBINED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:88a12e6a-63da-4122-b7e7-37d52e64df4a"
+            },
+            "locationId": "ESOS127",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 24
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1679529600000,
+              "til": 32503593600000,
+              "peak": 9,
+              "sustained": 5,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS1279",
+      "label": "ESOS1279",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS2",
+        "ESOS7",
+        "ESOS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-03-23T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:db6ceb5f-d83f-4b22-95ba-aa9cbc0067c0",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1679529600000,
+            "end": 32503593600000
+          },
+          "stateId": "ECA1F46300720100BFEE47CB",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6bc5cbe1-6429-46e1-9ea3-82d086a475c3"
+            },
+            "locationId": "ESOS1279",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1679529600000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS129",
+      "label": "ESOS129",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS2",
+        "ESOS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 22,
+        "weekly": [
+          {
+            "startDay": 1,
+            "startMinute": 390,
+            "endDay": 1,
+            "endMinute": 840,
+            "maxEntryPerHour": 20
+          },
+          {
+            "startDay": 2,
+            "startMinute": 390,
+            "endDay": 2,
+            "endMinute": 840,
+            "maxEntryPerHour": 20
+          },
+          {
+            "startDay": 3,
+            "startMinute": 390,
+            "endDay": 3,
+            "endMinute": 840,
+            "maxEntryPerHour": 20
+          },
+          {
+            "startDay": 4,
+            "startMinute": 390,
+            "endDay": 4,
+            "endMinute": 840,
+            "maxEntryPerHour": 20
+          },
+          {
+            "startDay": 5,
+            "startMinute": 390,
+            "endDay": 5,
+            "endMinute": 600,
+            "maxEntryPerHour": 20
+          }
+        ],
+        "exceptions": [
+          {
+            "startUtc": "2024-07-15T00:00:00Z",
+            "endUtc": "2024-07-29T00:00:00Z",
+            "maxEntryPerHour": 22
+          },
+          {
+            "startUtc": "2024-07-29T00:00:00Z",
+            "endUtc": "2024-08-05T00:00:00Z",
+            "maxEntryPerHour": 22
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 6,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 6
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADESSAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASESMMW"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:b1e4bdc0-22d3-432f-9cfc-a524fe283f77",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "89B77566008C0400CB4FCB6D",
+          "name": "ESOS SECTOR 1 2 9 COMBINED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0652c1bd-8fd9-4e7f-a01a-b76742db16e6"
+            },
+            "locationId": "ESOS129",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1578267f-fa28-4086-95b5-1e014aaed7b0"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 22,
+              "permanentCapacity": [
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 20,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "MONDAY",
+                    "wefDay": "MONDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 20,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "TUESDAY",
+                    "wefDay": "TUESDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 20,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "WEDNESDAY",
+                    "wefDay": "WEDNESDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 20,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "THURSDAY",
+                    "wefDay": "THURSDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 20,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "FRIDAY",
+                    "wefDay": "FRIDAY",
+                    "tilTime": 36000000,
+                    "wefTime": 23400000
+                  }
+                }
+              ],
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 22,
+                  "validityPeriod": {
+                    "start": 1721001600000,
+                    "end": 1722211200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 22,
+                  "validityPeriod": {
+                    "start": 1722211200000,
+                    "end": 1722816000000
+                  }
+                }
+              ]
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 6,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS1679",
+      "label": "ESOS1679",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS6",
+        "ESOS7",
+        "ESOS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 24,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-03-23T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 6,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b5131a58-f37f-4130-b56f-00c256e9c274",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1679529600000,
+            "end": 32503593600000
+          },
+          "stateId": "ECA1F463009B0100BFEE47CB",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:08f2de30-f1ba-4617-a685-2d3aa2792166"
+            },
+            "locationId": "ESOS1679",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 24
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1679529600000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 6,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS169",
+      "label": "ESOS169",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS6",
+        "ESOS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 28,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-05-18T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 6,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:76fd62ca-3ed6-41b6-936c-d56d85085a4c",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1684368000000,
+            "end": 32503593600000
+          },
+          "stateId": "58DD4F6400610000A144B91C",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3e3d225f-3730-4818-967e-19fcbaabdc69"
+            },
+            "locationId": "ESOS169",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 28
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1684368000000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 6,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS17",
+      "label": "ESOS17",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS7"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-12-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0c69fbd0-4e5d-41d4-a5be-90b011afc26b",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1640822400000,
+            "end": 32503593600000
+          },
+          "stateId": "9149AA610015010058AB616B",
+          "name": "ESOS SECTORS 1+7",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ecacce04-5914-4902-ac50-955d68a2c248"
+            },
+            "locationId": "ESOS17",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1640822400000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS179",
+      "label": "ESOS179",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS7",
+        "ESOS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-03-23T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:42782c71-4af2-4bfc-8d68-154202bf2103",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1679529600000,
+            "end": 32503593600000
+          },
+          "stateId": "ECA1F46300490100BFEE47CB",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:13088fc0-fa6d-46c7-8ff2-dcb3d547e753"
+            },
+            "locationId": "ESOS179",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1679529600000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS19",
+      "label": "ESOS19",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 33,
+        "weekly": [
+          {
+            "startDay": 1,
+            "startMinute": 390,
+            "endDay": 1,
+            "endMinute": 840,
+            "maxEntryPerHour": 22
+          },
+          {
+            "startDay": 2,
+            "startMinute": 390,
+            "endDay": 2,
+            "endMinute": 840,
+            "maxEntryPerHour": 22
+          },
+          {
+            "startDay": 3,
+            "startMinute": 390,
+            "endDay": 3,
+            "endMinute": 840,
+            "maxEntryPerHour": 22
+          },
+          {
+            "startDay": 4,
+            "startMinute": 390,
+            "endDay": 4,
+            "endMinute": 840,
+            "maxEntryPerHour": 22
+          },
+          {
+            "startDay": 5,
+            "startMinute": 390,
+            "endDay": 5,
+            "endMinute": 600,
+            "maxEntryPerHour": 22
+          }
+        ],
+        "exceptions": [
+          {
+            "startUtc": "2024-07-15T00:00:00Z",
+            "endUtc": "2024-07-29T00:00:00Z",
+            "maxEntryPerHour": 33
+          },
+          {
+            "startUtc": "2024-07-29T00:00:00Z",
+            "endUtc": "2024-08-05T00:00:00Z",
+            "maxEntryPerHour": 33
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:dc0d56b9-af50-4557-ba0d-aeddc9c75dd5",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "69B7756600740400CB4FCB6D",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:26f9cf4e-cb81-4191-a693-e5f635f6edee"
+            },
+            "locationId": "ESOS19",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 33,
+              "permanentCapacity": [
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 22,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "MONDAY",
+                    "wefDay": "MONDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 22,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "TUESDAY",
+                    "wefDay": "TUESDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 22,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "WEDNESDAY",
+                    "wefDay": "WEDNESDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 22,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "THURSDAY",
+                    "wefDay": "THURSDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 22,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "FRIDAY",
+                    "wefDay": "FRIDAY",
+                    "tilTime": 36000000,
+                    "wefTime": 23400000
+                  }
+                }
+              ],
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 33,
+                  "validityPeriod": {
+                    "start": 1721001600000,
+                    "end": 1722211200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 33,
+                  "validityPeriod": {
+                    "start": 1722211200000,
+                    "end": 1722816000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS2",
+      "label": "ESOS2",
+      "sectorIds": [
+        "ESOS2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "weekly": [
+          {
+            "startDay": 1,
+            "startMinute": 390,
+            "endDay": 1,
+            "endMinute": 840,
+            "maxEntryPerHour": 22
+          },
+          {
+            "startDay": 2,
+            "startMinute": 390,
+            "endDay": 2,
+            "endMinute": 840,
+            "maxEntryPerHour": 22
+          },
+          {
+            "startDay": 3,
+            "startMinute": 390,
+            "endDay": 3,
+            "endMinute": 840,
+            "maxEntryPerHour": 22
+          },
+          {
+            "startDay": 4,
+            "startMinute": 390,
+            "endDay": 4,
+            "endMinute": 840,
+            "maxEntryPerHour": 22
+          },
+          {
+            "startDay": 5,
+            "startMinute": 390,
+            "endDay": 5,
+            "endMinute": 600,
+            "maxEntryPerHour": 22
+          }
+        ],
+        "exceptions": [
+          {
+            "startUtc": "2024-07-15T00:00:00Z",
+            "endUtc": "2024-07-29T00:00:00Z",
+            "maxEntryPerHour": 30
+          },
+          {
+            "startUtc": "2024-07-29T00:00:00Z",
+            "endUtc": "2024-08-05T00:00:00Z",
+            "maxEntryPerHour": 30
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:9a8a5870-52cf-45a7-8c14-7e9e86daceee",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "F4B67566007D0400CB4FCB6D",
+          "name": "ESOS : SECTOR 2",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8ac91e8c-c94f-4207-8ff5-8a0c3cd8b74a"
+            },
+            "locationId": "ESOS2",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30,
+              "permanentCapacity": [
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 22,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "MONDAY",
+                    "wefDay": "MONDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 22,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "TUESDAY",
+                    "wefDay": "TUESDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 22,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "WEDNESDAY",
+                    "wefDay": "WEDNESDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 22,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "THURSDAY",
+                    "wefDay": "THURSDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 22,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "FRIDAY",
+                    "wefDay": "FRIDAY",
+                    "tilTime": 36000000,
+                    "wefTime": 23400000
+                  }
+                }
+              ],
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1721001600000,
+                    "end": 1722211200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 30,
+                  "validityPeriod": {
+                    "start": 1722211200000,
+                    "end": 1722816000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "note": "DO NOT DELETE",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS26",
+      "label": "ESOS26",
+      "sectorIds": [
+        "ESOS2",
+        "ESOS6"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 28,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-12-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:11c2e70b-813c-4cd4-ad76-e809d758c0fa",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1640822400000,
+            "end": 32503593600000
+          },
+          "stateId": "9149AA6100EA000058AB616B",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:dddd635e-3c97-48aa-81a2-84e33f94f866"
+            },
+            "locationId": "ESOS26",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 28
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1640822400000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS267",
+      "label": "ESOS267",
+      "sectorIds": [
+        "ESOS2",
+        "ESOS6",
+        "ESOS7"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 24,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-12-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 6,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:12af4185-02a9-4867-9a58-975ea07e3b80",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1640822400000,
+            "end": 32503593600000
+          },
+          "stateId": "9249AA610099000058AB616B",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1679d6af-d8dc-45a1-81f8-02eae02ad971"
+            },
+            "locationId": "ESOS267",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 24
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1640822400000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 6,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS2679",
+      "label": "ESOS2679",
+      "sectorIds": [
+        "ESOS2",
+        "ESOS6",
+        "ESOS7",
+        "ESOS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 22,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-12-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 6,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:263053af-fdae-4b7b-8334-a9a2a90458f2",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1640822400000,
+            "end": 32503593600000
+          },
+          "stateId": "6D4FAA61005A000058AB616B",
+          "name": "ESOS2679",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d37dda93-baaf-4449-a2c2-cf47f54644a2"
+            },
+            "locationId": "ESOS2679",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 22
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1640822400000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 6,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS269",
+      "label": "ESOS269",
+      "sectorIds": [
+        "ESOS2",
+        "ESOS6",
+        "ESOS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 23,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-12-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 6,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ea196e34-a2de-4a5b-aa14-b924ad91042e",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1640822400000,
+            "end": 32503593600000
+          },
+          "stateId": "9249AA6100C4000058AB616B",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:017ee2bb-9db0-4279-bbab-21eef98e2be9"
+            },
+            "locationId": "ESOS269",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 23
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1640822400000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 6,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS27",
+      "label": "ESOS27",
+      "sectorIds": [
+        "ESOS2",
+        "ESOS7"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 34,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-05-18T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 6,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:bf323858-f8a6-4af0-9693-456bac8bcb5e",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1684368000000,
+            "end": 32503593600000
+          },
+          "stateId": "57DD4F64000C0100A144B91C",
+          "name": "STOCKHOLM SECTOR 2 + 7",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:064160d0-6589-4ddc-9a18-c2de8c75056d"
+            },
+            "locationId": "ESOS27",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 34
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1684368000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 6,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS29",
+      "label": "ESOS29",
+      "sectorIds": [
+        "ESOS2",
+        "ESOS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 19,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-12-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 6,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:faf44544-ac61-4313-8846-c3594d68179d",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1640822400000,
+            "end": 32503593600000
+          },
+          "stateId": "9149AA610074010058AB616B",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:043a99f7-5969-49d6-867e-b6991b1bdff0"
+            },
+            "locationId": "ESOS29",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 19
+            }
+          ],
+          "note": " ",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1640822400000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 6,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS2ARR",
+      "label": "ESOS2ARR",
+      "sectorIds": [
+        "ESOS2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 22
+      },
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZECBCA8192A1DCF1DDEB237"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:a9387929-88f2-414b-bca1-07241bd8fbd8",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1403740800000,
+            "end": 32503593600000
+          },
+          "stateId": "B928985300650000897B4C6F",
+          "name": "VIA ESOS2 SECTOR DEST ESSA/SB",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8ac91e8c-c94f-4207-8ff5-8a0c3cd8b74a"
+            },
+            "locationId": "ESOS2",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ad36d4fa-2459-4302-acd0-03bb579cbb63"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 22
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS2SV",
+      "label": "ESOS2SV",
+      "sectorIds": [
+        "ESOS2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2018-02-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 7
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADESSVD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:d77d1722-e764-40e7-a4c8-ff8d53cfb0a7",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1517443200000,
+            "end": 32503593600000
+          },
+          "stateId": "056C5F5A00FF000018CE5312",
+          "name": "ESOS : SECTOR 2 WITH DEPS ESSV EXCLUDED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8ac91e8c-c94f-4207-8ff5-8a0c3cd8b74a"
+            },
+            "locationId": "ESOS2",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6ddddf17-abeb-4466-9480-57d0eb477bb4"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1517443200000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS3",
+      "label": "ESOS3",
+      "sectorIds": [
+        "ESOS3"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 34,
+        "weekly": [
+          {
+            "startDay": 1,
+            "startMinute": 450,
+            "endDay": 1,
+            "endMinute": 900,
+            "maxEntryPerHour": 28
+          },
+          {
+            "startDay": 2,
+            "startMinute": 450,
+            "endDay": 2,
+            "endMinute": 900,
+            "maxEntryPerHour": 28
+          },
+          {
+            "startDay": 3,
+            "startMinute": 450,
+            "endDay": 3,
+            "endMinute": 900,
+            "maxEntryPerHour": 28
+          },
+          {
+            "startDay": 4,
+            "startMinute": 450,
+            "endDay": 4,
+            "endMinute": 900,
+            "maxEntryPerHour": 28
+          },
+          {
+            "startDay": 5,
+            "startMinute": 450,
+            "endDay": 5,
+            "endMinute": 660,
+            "maxEntryPerHour": 28
+          }
+        ],
+        "exceptions": [
+          {
+            "startUtc": "2026-10-01T06:30:00Z",
+            "endUtc": "2026-10-01T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-02T06:30:00Z",
+            "endUtc": "2026-10-02T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-05T06:30:00Z",
+            "endUtc": "2026-10-05T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-06T06:30:00Z",
+            "endUtc": "2026-10-06T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-07T06:30:00Z",
+            "endUtc": "2026-10-07T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-08T06:30:00Z",
+            "endUtc": "2026-10-08T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-09T06:30:00Z",
+            "endUtc": "2026-10-09T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-12T06:30:00Z",
+            "endUtc": "2026-10-12T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-13T06:30:00Z",
+            "endUtc": "2026-10-13T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-14T06:30:00Z",
+            "endUtc": "2026-10-14T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-15T06:30:00Z",
+            "endUtc": "2026-10-15T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-16T06:30:00Z",
+            "endUtc": "2026-10-16T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-19T06:30:00Z",
+            "endUtc": "2026-10-19T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-20T06:30:00Z",
+            "endUtc": "2026-10-20T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-21T06:30:00Z",
+            "endUtc": "2026-10-21T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-22T06:30:00Z",
+            "endUtc": "2026-10-22T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-23T06:30:00Z",
+            "endUtc": "2026-10-23T07:30:00Z",
+            "maxEntryPerHour": 28
+          },
+          {
+            "startUtc": "2026-10-01T14:00:00Z",
+            "endUtc": "2026-10-01T15:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-02T10:00:00Z",
+            "endUtc": "2026-10-02T11:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-05T14:00:00Z",
+            "endUtc": "2026-10-05T15:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-06T14:00:00Z",
+            "endUtc": "2026-10-06T15:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-07T14:00:00Z",
+            "endUtc": "2026-10-07T15:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-08T14:00:00Z",
+            "endUtc": "2026-10-08T15:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-09T10:00:00Z",
+            "endUtc": "2026-10-09T11:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-12T14:00:00Z",
+            "endUtc": "2026-10-12T15:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-13T14:00:00Z",
+            "endUtc": "2026-10-13T15:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-14T14:00:00Z",
+            "endUtc": "2026-10-14T15:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-15T14:00:00Z",
+            "endUtc": "2026-10-15T15:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-16T10:00:00Z",
+            "endUtc": "2026-10-16T11:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-19T14:00:00Z",
+            "endUtc": "2026-10-19T15:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-20T14:00:00Z",
+            "endUtc": "2026-10-20T15:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-21T14:00:00Z",
+            "endUtc": "2026-10-21T15:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-22T14:00:00Z",
+            "endUtc": "2026-10-22T15:00:00Z",
+            "maxEntryPerHour": 34
+          },
+          {
+            "startUtc": "2026-10-23T10:00:00Z",
+            "endUtc": "2026-10-23T11:00:00Z",
+            "maxEntryPerHour": 34
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADESOKD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASESMM5"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADESKMD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASESOSN"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:c1e9158c-72a8-4421-bf99-3dab4a28341b",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "459A926A00990000BE1E59AA",
+          "name": "STOCKHOLM SECTOR 3",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f3054e9f-27b1-4626-8559-32bf4bbc7c92"
+            },
+            "locationId": "ESOS3",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:0f907763-fecb-4199-be49-707a9193eb92"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:fd21db48-fd7a-4069-aaf0-4a25c1dd6e41"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 34,
+              "permanentCapacity": [
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 28,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "MONDAY",
+                    "wefDay": "MONDAY",
+                    "tilTime": 54000000,
+                    "wefTime": 27000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 28,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "TUESDAY",
+                    "wefDay": "TUESDAY",
+                    "tilTime": 54000000,
+                    "wefTime": 27000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 28,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "WEDNESDAY",
+                    "wefDay": "WEDNESDAY",
+                    "tilTime": 54000000,
+                    "wefTime": 27000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 28,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "THURSDAY",
+                    "wefDay": "THURSDAY",
+                    "tilTime": 54000000,
+                    "wefTime": 27000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 28,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "FRIDAY",
+                    "wefDay": "FRIDAY",
+                    "tilTime": 39600000,
+                    "wefTime": 27000000
+                  }
+                }
+              ],
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1790836200000,
+                    "end": 1790839800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1790922600000,
+                    "end": 1790926200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1791181800000,
+                    "end": 1791185400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1791268200000,
+                    "end": 1791271800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1791354600000,
+                    "end": 1791358200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1791441000000,
+                    "end": 1791444600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1791527400000,
+                    "end": 1791531000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1791786600000,
+                    "end": 1791790200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1791873000000,
+                    "end": 1791876600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1791959400000,
+                    "end": 1791963000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1792045800000,
+                    "end": 1792049400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1792132200000,
+                    "end": 1792135800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1792391400000,
+                    "end": 1792395000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1792477800000,
+                    "end": 1792481400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1792564200000,
+                    "end": 1792567800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1792650600000,
+                    "end": 1792654200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1792737000000,
+                    "end": 1792740600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1790863200000,
+                    "end": 1790866800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1790935200000,
+                    "end": 1790938800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1791208800000,
+                    "end": 1791212400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1791295200000,
+                    "end": 1791298800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1791381600000,
+                    "end": 1791385200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1791468000000,
+                    "end": 1791471600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1791540000000,
+                    "end": 1791543600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1791813600000,
+                    "end": 1791817200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1791900000000,
+                    "end": 1791903600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1791986400000,
+                    "end": 1791990000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1792072800000,
+                    "end": 1792076400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1792144800000,
+                    "end": 1792148400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1792418400000,
+                    "end": 1792422000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1792504800000,
+                    "end": 1792508400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1792591200000,
+                    "end": 1792594800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1792677600000,
+                    "end": 1792681200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 34,
+                  "validityPeriod": {
+                    "start": 1792749600000,
+                    "end": 1792753200000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": true,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS348",
+      "label": "ESOS348",
+      "sectorIds": [
+        "ESOS3",
+        "ESOS4",
+        "ESOS8"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 22,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-07-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 9,
+            "sustained": 5,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 9,
+        "sustain": 5
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:7426cde5-adf4-47a2-b3dd-dcbc536e8470",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1657756800000,
+            "end": 32503593600000
+          },
+          "stateId": "A93BA362003F070021A87E4C",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ff77e6d6-5f01-4e6b-95fd-cfb2b9d079d3"
+            },
+            "locationId": "ESOS348",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 22
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1657756800000,
+              "til": 32503593600000,
+              "peak": 9,
+              "sustained": 5,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS38",
+      "label": "ESOS38",
+      "sectorIds": [
+        "ESOS3",
+        "ESOS8"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "weekly": [
+          {
+            "startDay": 1,
+            "startMinute": 390,
+            "endDay": 1,
+            "endMinute": 840,
+            "maxEntryPerHour": 32
+          },
+          {
+            "startDay": 2,
+            "startMinute": 390,
+            "endDay": 2,
+            "endMinute": 840,
+            "maxEntryPerHour": 32
+          },
+          {
+            "startDay": 3,
+            "startMinute": 390,
+            "endDay": 3,
+            "endMinute": 840,
+            "maxEntryPerHour": 32
+          },
+          {
+            "startDay": 4,
+            "startMinute": 390,
+            "endDay": 4,
+            "endMinute": 840,
+            "maxEntryPerHour": 32
+          },
+          {
+            "startDay": 5,
+            "startMinute": 390,
+            "endDay": 5,
+            "endMinute": 600,
+            "maxEntryPerHour": 32
+          }
+        ],
+        "exceptions": [
+          {
+            "startUtc": "2024-07-15T00:00:00Z",
+            "endUtc": "2024-07-29T00:00:00Z",
+            "maxEntryPerHour": 36
+          },
+          {
+            "startUtc": "2024-07-29T00:00:00Z",
+            "endUtc": "2024-08-05T00:00:00Z",
+            "maxEntryPerHour": 36
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 8
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADESOKD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASESMM5"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADESKMD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASESOSN"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADESOWD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADESOWA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASESSATMA"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADESOWA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:16241a83-a679-4df1-a565-138a3fd56e3f",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "BCB7756600050000CB4FCB6D",
+          "name": "STOCKHOLM  SECTORS 3 + 8",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1ce35130-85ef-4506-be20-984764373fea"
+            },
+            "locationId": "ESOS38",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:0f907763-fecb-4199-be49-707a9193eb92"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:fd21db48-fd7a-4069-aaf0-4a25c1dd6e41"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9f308b00-5cfa-4eb1-88df-777a534a100b"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:47dd4606-d724-4c6e-bb93-d3c202f11a0f"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36,
+              "permanentCapacity": [
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 32,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "MONDAY",
+                    "wefDay": "MONDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 32,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "TUESDAY",
+                    "wefDay": "TUESDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 32,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "WEDNESDAY",
+                    "wefDay": "WEDNESDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 32,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "THURSDAY",
+                    "wefDay": "THURSDAY",
+                    "tilTime": 50400000,
+                    "wefTime": 23400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 32,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "FRIDAY",
+                    "wefDay": "FRIDAY",
+                    "tilTime": 36000000,
+                    "wefTime": 23400000
+                  }
+                }
+              ],
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 36,
+                  "validityPeriod": {
+                    "start": 1721001600000,
+                    "end": 1722211200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 36,
+                  "validityPeriod": {
+                    "start": 1722211200000,
+                    "end": 1722816000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS4",
+      "label": "ESOS4",
+      "sectorIds": [
+        "ESOS4"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 33,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-03-23T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ab0ac569-8269-47b4-929c-a8111cb2e3f5",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1679529600000,
+            "end": 32503593600000
+          },
+          "stateId": "EDA1F463004B0000BFEE47CB",
+          "name": "STOCKHOLM SECTOR 4",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d6633204-f54f-4d56-ae58-459310e020c8"
+            },
+            "locationId": "ESOS4",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 33
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1679529600000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS6",
+      "label": "ESOS6",
+      "sectorIds": [
+        "ESOS6"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 38,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-05-18T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 6,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:61106ea3-72ac-428a-b3f9-089735aa0baa",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1684368000000,
+            "end": 32503593600000
+          },
+          "stateId": "58DD4F6400E60000A144B91C",
+          "name": "STOCKHOLM SECTOR 6",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ca3dee23-4ca3-43f5-a6af-4247d9532b8f"
+            },
+            "locationId": "ESOS6",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 38
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1684368000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 6,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS67",
+      "label": "ESOS67",
+      "sectorIds": [
+        "ESOS6",
+        "ESOS7"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 22,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-03-23T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 9,
+            "sustained": 5,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 9,
+        "sustain": 5
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3ced2b5b-5983-43d9-b5d5-72f9e3e6d274",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1679529600000,
+            "end": 32503593600000
+          },
+          "stateId": "ECA1F46300A50000BFEE47CB",
+          "name": "ESOS SECTOR 6 AND 7 COMBINED ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:81bcaf9a-37f1-4029-a4eb-8a2f620c20d7"
+            },
+            "locationId": "ESOS67",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 22
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1679529600000,
+              "til": 32503593600000,
+              "peak": 9,
+              "sustained": 5,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS69",
+      "label": "ESOS69",
+      "sectorIds": [
+        "ESOS6",
+        "ESOS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 23,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-03-23T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 9,
+            "sustained": 5,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 9,
+        "sustain": 5
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:54ac729c-6f30-466d-a837-ae488b71b208",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1679529600000,
+            "end": 32503593600000
+          },
+          "stateId": "ECA1F46300CE0000BFEE47CB",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:deeb3c26-e50a-4519-b4e9-4250d202286e"
+            },
+            "locationId": "ESOS69",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 23
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1679529600000,
+              "til": 32503593600000,
+              "peak": 9,
+              "sustained": 5,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS7",
+      "label": "ESOS7",
+      "sectorIds": [
+        "ESOS7"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-05-18T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASESOS2"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADESSBA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:c8563550-a6e6-47ad-9a3f-3eae8ba87ca6",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1684368000000,
+            "end": 32503593600000
+          },
+          "stateId": "58DD4F6400050000A144B91C",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:44c61efe-790d-4155-9bd4-07a081f43273"
+            },
+            "locationId": "ESOS7",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2685eeeb-ab15-4d57-8eae-81ffa9d51e55"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1684368000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS8",
+      "label": "ESOS8",
+      "sectorIds": [
+        "ESOS8"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 27,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-04-21T00:00:00.000Z",
+            "endUtc": "2022-05-18T06:00:00.000Z",
+            "peak": 8,
+            "sustained": 6,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          },
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-05-18T06:00:00.000Z",
+            "endUtc": "2022-05-24T10:00:00.000Z",
+            "peak": 7,
+            "sustained": 4,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          },
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-05-24T10:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 8,
+            "sustained": 6,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 8,
+        "sustain": 6
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADESOWD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADESOWA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASESSATMA"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADESOWA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADESOWD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASESSATMA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:a97ea02c-d9cc-47c1-ade0-12fc34c96c7b",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1650499200000,
+            "end": 32503593600000
+          },
+          "stateId": "51425562002900002B54B13C",
+          "name": "ESOS8",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0ea013b0-4fac-4642-8157-1d314467cbf9"
+            },
+            "locationId": "ESOS8",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9f308b00-5cfa-4eb1-88df-777a534a100b"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:47dd4606-d724-4c6e-bb93-d3c202f11a0f"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:746d413d-71ec-446c-8852-73db2e1b49d9"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 27
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1650499200000,
+              "til": 1652853600000,
+              "peak": 8,
+              "sustained": 6,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            },
+            {
+              "duration": 1,
+              "wef": 1652853600000,
+              "til": 1653386400000,
+              "peak": 7,
+              "sustained": 4,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            },
+            {
+              "duration": 1,
+              "wef": 1653386400000,
+              "til": 32503593600000,
+              "peak": 8,
+              "sustained": 6,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOS9",
+      "label": "ESOS9",
+      "sectorIds": [
+        "ESOS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 20,
+        "weekly": [
+          {
+            "startDay": 1,
+            "startMinute": 450,
+            "endDay": 1,
+            "endMinute": 900,
+            "maxEntryPerHour": 13
+          },
+          {
+            "startDay": 2,
+            "startMinute": 450,
+            "endDay": 2,
+            "endMinute": 900,
+            "maxEntryPerHour": 13
+          },
+          {
+            "startDay": 3,
+            "startMinute": 450,
+            "endDay": 3,
+            "endMinute": 900,
+            "maxEntryPerHour": 13
+          },
+          {
+            "startDay": 4,
+            "startMinute": 450,
+            "endDay": 4,
+            "endMinute": 900,
+            "maxEntryPerHour": 13
+          },
+          {
+            "startDay": 5,
+            "startMinute": 450,
+            "endDay": 5,
+            "endMinute": 660,
+            "maxEntryPerHour": 13
+          }
+        ],
+        "exceptions": [
+          {
+            "startUtc": "2026-10-01T06:30:00Z",
+            "endUtc": "2026-10-01T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-02T06:30:00Z",
+            "endUtc": "2026-10-02T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-05T06:30:00Z",
+            "endUtc": "2026-10-05T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-06T06:30:00Z",
+            "endUtc": "2026-10-06T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-07T06:30:00Z",
+            "endUtc": "2026-10-07T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-08T06:30:00Z",
+            "endUtc": "2026-10-08T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-09T06:30:00Z",
+            "endUtc": "2026-10-09T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-12T06:30:00Z",
+            "endUtc": "2026-10-12T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-13T06:30:00Z",
+            "endUtc": "2026-10-13T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-14T06:30:00Z",
+            "endUtc": "2026-10-14T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-15T06:30:00Z",
+            "endUtc": "2026-10-15T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-16T06:30:00Z",
+            "endUtc": "2026-10-16T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-19T06:30:00Z",
+            "endUtc": "2026-10-19T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-20T06:30:00Z",
+            "endUtc": "2026-10-20T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-21T06:30:00Z",
+            "endUtc": "2026-10-21T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-22T06:30:00Z",
+            "endUtc": "2026-10-22T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-23T06:30:00Z",
+            "endUtc": "2026-10-23T07:30:00Z",
+            "maxEntryPerHour": 13
+          },
+          {
+            "startUtc": "2026-10-01T14:00:00Z",
+            "endUtc": "2026-10-01T15:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-02T10:00:00Z",
+            "endUtc": "2026-10-02T11:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-05T14:00:00Z",
+            "endUtc": "2026-10-05T15:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-06T14:00:00Z",
+            "endUtc": "2026-10-06T15:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-07T14:00:00Z",
+            "endUtc": "2026-10-07T15:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-08T14:00:00Z",
+            "endUtc": "2026-10-08T15:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-09T10:00:00Z",
+            "endUtc": "2026-10-09T11:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-12T14:00:00Z",
+            "endUtc": "2026-10-12T15:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-13T14:00:00Z",
+            "endUtc": "2026-10-13T15:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-14T14:00:00Z",
+            "endUtc": "2026-10-14T15:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-15T14:00:00Z",
+            "endUtc": "2026-10-15T15:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-16T10:00:00Z",
+            "endUtc": "2026-10-16T11:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-19T14:00:00Z",
+            "endUtc": "2026-10-19T15:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-20T14:00:00Z",
+            "endUtc": "2026-10-20T15:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-21T14:00:00Z",
+            "endUtc": "2026-10-21T15:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-22T14:00:00Z",
+            "endUtc": "2026-10-22T15:00:00Z",
+            "maxEntryPerHour": 20
+          },
+          {
+            "startUtc": "2026-10-23T10:00:00Z",
+            "endUtc": "2026-10-23T11:00:00Z",
+            "maxEntryPerHour": 20
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:020aad46-12f4-49fb-a868-db6cd84953b6",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "459A926A00330100BE1E59AA",
+          "name": "ESOS : SECTOR 9",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f814c5a2-e004-49fb-a68a-bbed6ed28af0"
+            },
+            "locationId": "ESOS9",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 20,
+              "permanentCapacity": [
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 13,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "MONDAY",
+                    "wefDay": "MONDAY",
+                    "tilTime": 54000000,
+                    "wefTime": 27000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 13,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "TUESDAY",
+                    "wefDay": "TUESDAY",
+                    "tilTime": 54000000,
+                    "wefTime": 27000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 13,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "WEDNESDAY",
+                    "wefDay": "WEDNESDAY",
+                    "tilTime": 54000000,
+                    "wefTime": 27000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 13,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "THURSDAY",
+                    "wefDay": "THURSDAY",
+                    "tilTime": 54000000,
+                    "wefTime": 27000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.PermanentCapacity",
+                  "hourlyCapacity": 13,
+                  "weeklyPeriod": {
+                    "$type": "airspace.em.common.time.WeeklyPeriod",
+                    "tilDay": "FRIDAY",
+                    "wefDay": "FRIDAY",
+                    "tilTime": 39600000,
+                    "wefTime": 27000000
+                  }
+                }
+              ],
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1790836200000,
+                    "end": 1790839800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1790922600000,
+                    "end": 1790926200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1791181800000,
+                    "end": 1791185400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1791268200000,
+                    "end": 1791271800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1791354600000,
+                    "end": 1791358200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1791441000000,
+                    "end": 1791444600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1791527400000,
+                    "end": 1791531000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1791786600000,
+                    "end": 1791790200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1791873000000,
+                    "end": 1791876600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1791959400000,
+                    "end": 1791963000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1792045800000,
+                    "end": 1792049400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1792132200000,
+                    "end": 1792135800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1792391400000,
+                    "end": 1792395000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1792477800000,
+                    "end": 1792481400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1792564200000,
+                    "end": 1792567800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1792650600000,
+                    "end": 1792654200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 13,
+                  "validityPeriod": {
+                    "start": 1792737000000,
+                    "end": 1792740600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1790863200000,
+                    "end": 1790866800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1790935200000,
+                    "end": 1790938800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791208800000,
+                    "end": 1791212400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791295200000,
+                    "end": 1791298800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791381600000,
+                    "end": 1791385200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791468000000,
+                    "end": 1791471600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791540000000,
+                    "end": 1791543600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791813600000,
+                    "end": 1791817200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791900000000,
+                    "end": 1791903600000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1791986400000,
+                    "end": 1791990000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792072800000,
+                    "end": 1792076400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792144800000,
+                    "end": 1792148400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792418400000,
+                    "end": 1792422000000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792504800000,
+                    "end": 1792508400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792591200000,
+                    "end": 1792594800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792677600000,
+                    "end": 1792681200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 20,
+                  "validityPeriod": {
+                    "start": 1792749600000,
+                    "end": 1792753200000
+                  }
+                }
+              ]
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": true,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSALL",
+      "label": "ESOSALL",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS2",
+        "ESOS3",
+        "ESOS4",
+        "ESOS6",
+        "ESOS7",
+        "ESOS8",
+        "ESOS9",
+        "ESOSF",
+        "ESOSK",
+        "ESOSN"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:55d73fb8-3c8e-4de6-9259-512a542c3265",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "7075C46700530400E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6f2a6f8f-e0a7-422b-80cc-d7d5cd95a8cf"
+            },
+            "locationId": "ESOSALL",
+            "category": "GLOBAL"
+          },
+          "note": "FOR USE IN CASE OF EMERGENCY OR EVACUATION \nDO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSALL2",
+      "label": "ESOSALL2",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS2",
+        "ESOS3",
+        "ESOS4",
+        "ESOS6",
+        "ESOS7",
+        "ESOS8",
+        "ESOS9",
+        "ESOSF",
+        "ESOSK",
+        "ESOSN"
+      ],
+      "capacity": {},
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADESSAD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:58e57cc6-5ab6-46b4-b692-13cc3a913bb7",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1553731200000,
+            "end": 32503593600000
+          },
+          "stateId": "A2B5935C003A0200823B9D2B",
+          "name": "ESOS WITH EXCLUSION FROM DEP ESSA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6f2a6f8f-e0a7-422b-80cc-d7d5cd95a8cf"
+            },
+            "locationId": "ESOSALL",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:7c9884ff-71b6-4441-b745-7a87d30d138a"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSCRI",
+      "label": "ESOSCRI",
+      "sectorIds": [
+        "ESOS1",
+        "ESOS2",
+        "ESOS3",
+        "ESOS4",
+        "ESOS6",
+        "ESOS7",
+        "ESOS8",
+        "ESOS9",
+        "ESOSF",
+        "ESOSK",
+        "ESOSN"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:209477c3-d321-40ff-94db-d59a054a75c0",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "894DC467008E0F00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6f2a6f8f-e0a7-422b-80cc-d7d5cd95a8cf"
+            },
+            "locationId": "ESOSALL",
+            "category": "GLOBAL"
+          },
+          "note": "FOR USE IN CASE OF EMERGENCY OR EVACUATION \nDO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSF",
+      "label": "ESOSF",
+      "sectorIds": [
+        "ESOSF"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 28,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-03-21T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 13,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 13,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ee06145a-fa89-49d1-bd3e-c9b1448926d7",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1710979200000,
+            "end": 32503593600000
+          },
+          "stateId": "CA54DB6500750000EFCD6CB8",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:25a0c47f-7403-4c2b-b8c7-28b01ba46ced"
+            },
+            "locationId": "ESOSF",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 28
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1710979200000,
+              "til": 32503593600000,
+              "peak": 13,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSF4",
+      "label": "ESOSF4",
+      "sectorIds": [
+        "ESOS4",
+        "ESOSF"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 28,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-03-21T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c6f04b81-b5fb-4302-9067-9e626a5997b0",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1710979200000,
+            "end": 32503593600000
+          },
+          "stateId": "CA54DB65004C0000EFCD6CB8",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:053b150b-fc43-4dec-8469-a00904f78cc8"
+            },
+            "locationId": "ESOSF4",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 28
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1710979200000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSFK4",
+      "label": "ESOSFK4",
+      "sectorIds": [
+        "ESOS4",
+        "ESOSF",
+        "ESOSK"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-06-13T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:99639c1e-89ed-4c49-8d54-2d011b5172a0",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1718236800000,
+            "end": 32503593600000
+          },
+          "stateId": "BB9F4566005700001F4A8CD8",
+          "name": "ESOS SECTOR F,K,4 COMBINED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:09bcca88-6e2d-4f14-82db-75c6307fd9ee"
+            },
+            "locationId": "ESOSFK4",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1718236800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSK",
+      "label": "ESOSK",
+      "sectorIds": [
+        "ESOSK"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-03-21T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 11,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15,
+        "sustain": 11
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c75cda41-3b52-4494-b97c-7db78e084d4a",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1710979200000,
+            "end": 32503593600000
+          },
+          "stateId": "CA54DB6500220000EFCD6CB8",
+          "name": "ESOS: SECTOR K",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:216a12fa-28b7-4f45-858b-0b31b775ab52"
+            },
+            "locationId": "ESOSK",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1710979200000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 11,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSN",
+      "label": "ESOSN",
+      "sectorIds": [
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-03-23T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:1505b2db-66db-4aec-91bc-6d2b60358b4b",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1679529600000,
+            "end": 32503593600000
+          },
+          "stateId": "EDA1F463009D0000BFEE47CB",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d89bd65a-4cd9-4768-93a8-8e3ce257b9ec"
+            },
+            "locationId": "ESOSN",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1679529600000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSN3",
+      "label": "ESOSN3",
+      "sectorIds": [
+        "ESOS3",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-07-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 13,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 13,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b837302a-3627-4c83-812c-00d3d7b2f9fd",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1657756800000,
+            "end": 32503593600000
+          },
+          "stateId": "BF58B96200030000A829A9CE",
+          "name": "ESOS SECTOR 3,N COMBINED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:57f1e2a3-7a32-4400-b422-e548b5ab19b5"
+            },
+            "locationId": "ESOSN3",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1657756800000,
+              "til": 32503593600000,
+              "peak": 13,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSN38",
+      "label": "ESOSN38",
+      "sectorIds": [
+        "ESOS3",
+        "ESOS8",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 28,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-06-13T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 13,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 13,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:99163600-aace-4546-9b1c-c15e2cb28ad8",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1718236800000,
+            "end": 32503593600000
+          },
+          "stateId": "BB9F4566002E00001F4A8CD8",
+          "name": "ESOSN38 (ESOSN + ESOS3 + ESOS8)",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:10f94404-4b0d-4b30-b1bf-881cdea8a2b9"
+            },
+            "locationId": "ESOSN38",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 28
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1718236800000,
+              "til": 32503593600000,
+              "peak": 13,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSN4",
+      "label": "ESOSN4",
+      "sectorIds": [
+        "ESOS4",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 28
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:20803824-bf96-4da0-9045-017ed95daeb4",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1490832000000,
+            "end": 32503593600000
+          },
+          "stateId": "7BF1B658003B00008BA27356",
+          "name": "ESOS4 +ESOSN",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cf48d582-76c6-4dbc-9a07-1d4aae65461c"
+            },
+            "locationId": "ESOSN4",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 28
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSNF",
+      "label": "ESOSNF",
+      "sectorIds": [
+        "ESOSF",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 34,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-12-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:85aec464-ec42-4968-9792-087a8019b579",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1640822400000,
+            "end": 32503593600000
+          },
+          "stateId": "6E4FAA61001E010058AB616B",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a58131fc-49ff-4508-8ff3-b2b3ec8437e0"
+            },
+            "locationId": "ESOSNF",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 34
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1640822400000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSNF4",
+      "label": "ESOSNF4",
+      "sectorIds": [
+        "ESOS4",
+        "ESOSF",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 26,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-03-21T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b53e6987-d71f-4bc0-9e03-446d66f6abcc",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1710979200000,
+            "end": 32503593600000
+          },
+          "stateId": "C354DB65005D0000EFCD6CB8",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:775db52e-2c3f-400c-bda5-5f2bda63d9d2"
+            },
+            "locationId": "ESOSNF4",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 26
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1710979200000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSNFK",
+      "label": "ESOSNFK",
+      "sectorIds": [
+        "ESOSF",
+        "ESOSK",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 28,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-03-23T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:dfcc60f0-63e4-461f-9fa8-1bb2efc56fdd",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1679529600000,
+            "end": 32503593600000
+          },
+          "stateId": "EDA1F46300180100BFEE47CB",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:193c144b-7885-41b9-9137-ee49445c224d"
+            },
+            "locationId": "ESOSNFK",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 28
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1679529600000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSNFK4",
+      "label": "ESOSNFK4",
+      "sectorIds": [
+        "ESOS4",
+        "ESOSF",
+        "ESOSK",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 24,
+        "exceptions": [
+          {
+            "startUtc": "2023-11-30T06:00:00Z",
+            "endUtc": "2023-11-30T14:00:00Z",
+            "maxEntryPerHour": 18
+          },
+          {
+            "startUtc": "2023-12-01T06:00:00Z",
+            "endUtc": "2023-12-01T10:00:00Z",
+            "maxEntryPerHour": 18
+          },
+          {
+            "startUtc": "2023-12-04T06:00:00Z",
+            "endUtc": "2023-12-04T14:00:00Z",
+            "maxEntryPerHour": 18
+          },
+          {
+            "startUtc": "2023-12-05T06:00:00Z",
+            "endUtc": "2023-12-05T14:00:00Z",
+            "maxEntryPerHour": 18
+          },
+          {
+            "startUtc": "2023-12-06T06:00:00Z",
+            "endUtc": "2023-12-06T14:00:00Z",
+            "maxEntryPerHour": 18
+          },
+          {
+            "startUtc": "2023-12-07T06:00:00Z",
+            "endUtc": "2023-12-07T14:00:00Z",
+            "maxEntryPerHour": 18
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-11-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:322b6013-c2e7-4763-bb38-58b4191cd723",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1701302400000,
+            "end": 32503593600000
+          },
+          "stateId": "B3D01E6500390500CD2F53CC",
+          "name": "ESOSNFK4",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6ab765d2-d808-4667-abcf-b0c19be49a06"
+            },
+            "locationId": "ESOSNFK4",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 24,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 18,
+                  "validityPeriod": {
+                    "start": 1701324000000,
+                    "end": 1701352800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 18,
+                  "validityPeriod": {
+                    "start": 1701410400000,
+                    "end": 1701424800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 18,
+                  "validityPeriod": {
+                    "start": 1701669600000,
+                    "end": 1701698400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 18,
+                  "validityPeriod": {
+                    "start": 1701756000000,
+                    "end": 1701784800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 18,
+                  "validityPeriod": {
+                    "start": 1701842400000,
+                    "end": 1701871200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 18,
+                  "validityPeriod": {
+                    "start": 1701928800000,
+                    "end": 1701957600000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1701302400000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSNK",
+      "label": "ESOSNK",
+      "sectorIds": [
+        "ESOSK",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "exceptions": [
+          {
+            "startUtc": "2023-11-30T06:00:00Z",
+            "endUtc": "2023-11-30T14:00:00Z",
+            "maxEntryPerHour": 24
+          },
+          {
+            "startUtc": "2023-12-01T06:00:00Z",
+            "endUtc": "2023-12-01T10:00:00Z",
+            "maxEntryPerHour": 24
+          },
+          {
+            "startUtc": "2023-12-04T06:00:00Z",
+            "endUtc": "2023-12-04T14:00:00Z",
+            "maxEntryPerHour": 24
+          },
+          {
+            "startUtc": "2023-12-05T06:00:00Z",
+            "endUtc": "2023-12-05T14:00:00Z",
+            "maxEntryPerHour": 24
+          },
+          {
+            "startUtc": "2023-12-06T06:00:00Z",
+            "endUtc": "2023-12-06T14:00:00Z",
+            "maxEntryPerHour": 24
+          },
+          {
+            "startUtc": "2023-12-07T06:00:00Z",
+            "endUtc": "2023-12-07T14:00:00Z",
+            "maxEntryPerHour": 24
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-11-30T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:afa6ad75-8607-4129-a352-0d52957eba69",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1701302400000,
+            "end": 32503593600000
+          },
+          "stateId": "42D01E6500340500CD2F53CC",
+          "name": "ESOS: N/K COMBINED SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:81cc2665-bbe9-43d1-b719-3b9345ee1bb8"
+            },
+            "locationId": "ESOSNK",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 24,
+                  "validityPeriod": {
+                    "start": 1701324000000,
+                    "end": 1701352800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 24,
+                  "validityPeriod": {
+                    "start": 1701410400000,
+                    "end": 1701424800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 24,
+                  "validityPeriod": {
+                    "start": 1701669600000,
+                    "end": 1701698400000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 24,
+                  "validityPeriod": {
+                    "start": 1701756000000,
+                    "end": 1701784800000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 24,
+                  "validityPeriod": {
+                    "start": 1701842400000,
+                    "end": 1701871200000
+                  }
+                },
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 24,
+                  "validityPeriod": {
+                    "start": 1701928800000,
+                    "end": 1701957600000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1701302400000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ESOSNK38",
+      "label": "ESOSNK38",
+      "sectorIds": [
+        "ESOS3",
+        "ESOS8",
+        "ESOSK",
+        "ESOSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 27,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-07-14T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:21fe0a70-a267-41d5-b9b0-221c86c31b7b",
+        "groups": [
+          "ACCESOS",
+          "ACCTESOS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1657756800000,
+            "end": 32503593600000
+          },
+          "stateId": "A93BA36200DE0C0021A87E4C",
+          "name": "ESOS SECTOR 3,8,N,K COMBINED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:baebddf9-a6fc-4ab0-a5cc-467d1d53e01b"
+            },
+            "locationId": "ESOSNK38",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 27
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1657756800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "azId": "ECCE8B392A8A8E91F1154B",
+    "list": [
+      "EGCC",
+      "EGGP",
+      "EGNH",
+      "EGNR"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:11f9f07e-3c21-43d4-97e1-3f5014659ede",
+      "id": "EGC-NM1"
+    }
+  }
+]

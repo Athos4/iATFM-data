@@ -1,0 +1,665 @@
+{
+  "volumes": [
+    {
+      "id": "LUKKARR",
+      "label": "LUKKARR",
+      "arrival": [
+        "LUKK"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:fb6e1801-07ec-4fbf-b33b-d377d282cc78",
+        "groups": [
+          "ACCLUUU"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1677110400000,
+            "end": 32503593600000
+          },
+          "stateId": "C0D2D863000600001DD7DADF",
+          "name": "DEST LUKK A/D",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:66ced244-fec6-40f8-b45f-52c03ecb4e68"
+            },
+            "locationId": "LUKK",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 9
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LUKKDEP",
+      "label": "LUKKDEP",
+      "departure": [
+        "LUKK"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:bb8c0c13-fd04-4ed7-8ce4-df085d40a41c",
+        "groups": [
+          "ACCLUUU"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1677110400000,
+            "end": 32503593600000
+          },
+          "stateId": "992EDA63001F00001DD7DADF",
+          "name": "DEP LUKK A/D",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a234d62e-a1d2-4aa2-b838-e8ea9adba49a"
+            },
+            "locationId": "LUKK",
+            "category": "DEPARTURE"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 9
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LUKKG",
+      "label": "LUKKG",
+      "arrival": [
+        "LUKK"
+      ],
+      "departure": [
+        "LUKK"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 18
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:45632da3-bbad-4610-8014-2fce22ce52eb",
+        "groups": [
+          "ACCLUUU"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "ACFE1563005200002BC03F32",
+          "name": "DEST AND DEP LUKK A/D",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2b4358ae-4646-4efa-bc72-ec9356edf7bd"
+            },
+            "locationId": "LUKK",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 18
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LUKKTA",
+      "label": "LUKKTA",
+      "sectorIds": [
+        "LUKKTA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 18,
+        "otmv": [
+          {
+            "durationMinutes": 20,
+            "startUtc": "2019-04-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:7fd9b080-1f1e-4174-9ddf-02a290e288c8",
+        "groups": [
+          "ACCLUUU"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1556150400000,
+            "end": 32503593600000
+          },
+          "stateId": "83DD945C00390000823B9D2B",
+          "name": "CHISINAU TMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f4e9170e-f5bf-4640-a16e-f7627e6fc409"
+            },
+            "locationId": "LUKKTA",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 18
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 20,
+              "wef": 1556150400000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LUUUALL",
+      "label": "LUUUALL",
+      "sectorIds": [
+        "LUUUS1",
+        "LUUUS2",
+        "LUUUS3"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 33,
+        "otmv": [
+          {
+            "durationMinutes": 20,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 13,
+            "sustained": 11,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:39a6b060-f456-48c3-b315-12b206b43979",
+        "groups": [
+          "ACCLUUU"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "9FFE1563002200002BC03F32",
+          "name": "LUUU ALL GND-999",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:27fea5b2-d430-4208-904c-7251f9fefd06"
+            },
+            "locationId": "LUUUALL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 33
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 20,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 13,
+              "sustained": 11,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LUUUCRI",
+      "label": "LUUUCRI",
+      "sectorIds": [
+        "LUUUS1",
+        "LUUUS2",
+        "LUUUS3"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 33,
+        "otmv": [
+          {
+            "durationMinutes": 20,
+            "startUtc": "2025-03-20T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 13,
+            "sustained": 11,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0549080e-d18d-4e28-9bee-1f08eb7bbf55",
+        "groups": [
+          "ACCLUUU"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "156EC46700CA0100E5F73002",
+          "name": "LUUU ALL GND-999 CRISIS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:27fea5b2-d430-4208-904c-7251f9fefd06"
+            },
+            "locationId": "LUUUALL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 33
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 20,
+              "wef": 1742428800000,
+              "til": 32503593600000,
+              "peak": 13,
+              "sustained": 11,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LUUUS1",
+      "label": "LUUUS1",
+      "sectorIds": [
+        "LUUUS1"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 20,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 12,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2ab7ea5f-3581-42cc-b52f-5a4421a72543",
+        "groups": [
+          "ACCLUUU"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "9BFE1563000300002BC03F32",
+          "name": "LUUU UPPER SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2062108f-c974-4f7f-9884-f1b06ff56faf"
+            },
+            "locationId": "LUUUS1",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 20,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 12,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LUUUS12",
+      "label": "LUUUS12",
+      "sectorIds": [
+        "LUUUS1",
+        "LUUUS2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 20,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 12,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c0719551-fbdb-4e9f-b116-b16ba0bc3914",
+        "groups": [
+          "ACCLUUU"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "74FE1563008100002BC03F32",
+          "name": "LUUU 285-999",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6e2502e9-c84e-4069-8f3e-b9b14de316f2"
+            },
+            "locationId": "LUUUS12",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 20,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 12,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LUUUS2",
+      "label": "LUUUS2",
+      "sectorIds": [
+        "LUUUS2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 20,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 13,
+            "sustained": 11,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:54ebf2d3-74dc-42bf-b89f-2157428ed2d1",
+        "groups": [
+          "ACCLUUU"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "83FE1563000200002BC03F32",
+          "name": "LUUU MIDDLE SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:322a003f-a8e9-429f-becf-a786f21e0aa0"
+            },
+            "locationId": "LUUUS2",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 20,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 13,
+              "sustained": 11,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LUUUS23",
+      "label": "LUUUS23",
+      "sectorIds": [
+        "LUUUS2",
+        "LUUUS3"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 33,
+        "otmv": [
+          {
+            "durationMinutes": 20,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 13,
+            "sustained": 11,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:74c739a3-71a1-4321-ae75-0d2b21702078",
+        "groups": [
+          "ACCLUUU"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "73FE1563000F00002BC03F32",
+          "name": "LUUU GND-345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e59c86df-1d39-48b3-af9d-f6933c2f09a0"
+            },
+            "locationId": "LUUUS23",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 33
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 20,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 13,
+              "sustained": 11,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LUUUS3",
+      "label": "LUUUS3",
+      "sectorIds": [
+        "LUUUS3"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 33,
+        "otmv": [
+          {
+            "durationMinutes": 20,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 13,
+            "sustained": 11,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:cfd9c1fc-324f-435e-a4ab-d71fe09cff97",
+        "groups": [
+          "ACCLUUU"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "66FE1563002000002BC03F32",
+          "name": "LUUU LOWER SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cfba4a98-6c29-4ede-ac4c-60c57dede363"
+            },
+            "locationId": "LUUUS3",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 33
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 20,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 13,
+              "sustained": 11,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

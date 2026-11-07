@@ -1,0 +1,38 @@
+{
+  "volumes": [
+    {
+      "id": "UUWVCRI",
+      "label": "UUWVCRI",
+      "sectorIds": [
+        "UUWVALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:a2bdf95e-095f-4818-a160-e434d6c4cc30",
+        "groups": [
+          "ACCUUWV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "F46FC467005F0F00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:aaa3cae7-9767-443f-b939-618969564542"
+            },
+            "locationId": "UUWVCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

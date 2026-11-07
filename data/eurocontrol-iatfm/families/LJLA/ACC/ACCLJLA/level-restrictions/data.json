@@ -1,0 +1,69 @@
+{
+  "volumes": [
+    {
+      "id": "FL1LJ35",
+      "label": "FL1LJ35",
+      "sectorIds": [
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEDDMD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:15b86603-b375-4ec6-9220-fc285e64294d",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1556150400000,
+            "end": 32503593600000
+          },
+          "stateId": "D991A05C007A0A00A5D430EB",
+          "name": "FROM: EDDM\nTO: ANY DESTINATION\nNOT ALLOWED VIA SECTOR LJLA3766\nFILE BELOW FL355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b28b39eb-f6b9-442c-bd97-e8a739a869da"
+            },
+            "locationId": "LJLA3766",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:676e701d-b13b-4c98-a6fa-2823477cd8d2"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

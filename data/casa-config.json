@@ -1,0 +1,8 @@
+{
+  "defaultTaxiMinutes": 10,
+  "airportTaxiMinutes": {},
+  "slotIssueMinutes": 120,
+  "minimumRevisionMinutes": 5,
+  "tisMinutes": 5,
+  "trsMinutes": 10
+}

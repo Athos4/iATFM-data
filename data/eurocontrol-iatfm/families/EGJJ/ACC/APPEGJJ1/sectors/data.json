@@ -1,0 +1,1108 @@
+[
+  {
+    "id": "EGJJF45L",
+    "positionPriority": [],
+    "blocks": [
+      {
+        "id": "EGJJF45L:EGJJF45L:197EG:1",
+        "floorFt": 0,
+        "ceilingFt": 4500,
+        "polygon": [
+          {
+            "lat": 49.5,
+            "lon": -1.75
+          },
+          {
+            "lat": 48.916666666666664,
+            "lon": -1.75
+          },
+          {
+            "lat": 48.916666666666664,
+            "lon": -2.6666666666666665
+          },
+          {
+            "lat": 49.5,
+            "lon": -2.6666666666666665
+          },
+          {
+            "lat": 49.5,
+            "lon": -2
+          },
+          {
+            "lat": 49.5,
+            "lon": -1.75
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 45
+            }
+          },
+          "airblockKey": "ab:ff99cf4b-7ae9-4cd6-848e-fab1dd74f5c8"
+        }
+      }
+    ],
+    "unitCode": "EGJJ",
+    "isApproach": false,
+    "eurocontrol": {
+      "sourceKey": "as:a8a9c065-2c5d-4941-97f1-c9e6ef45e729",
+      "ignoredInGeometry": true
+    }
+  },
+  {
+    "id": "EGJJF45U",
+    "positionPriority": [],
+    "blocks": [
+      {
+        "id": "EGJJF45U:EGJJF45U:197EG:1",
+        "floorFt": 4500,
+        "ceilingFt": 100000,
+        "polygon": [
+          {
+            "lat": 49.5,
+            "lon": -1.75
+          },
+          {
+            "lat": 48.916666666666664,
+            "lon": -1.75
+          },
+          {
+            "lat": 48.916666666666664,
+            "lon": -2.6666666666666665
+          },
+          {
+            "lat": 49.5,
+            "lon": -2.6666666666666665
+          },
+          {
+            "lat": 49.5,
+            "lon": -2
+          },
+          {
+            "lat": 49.5,
+            "lon": -1.75
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 45
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "UNLIMITED"
+            }
+          },
+          "airblockKey": "ab:ff99cf4b-7ae9-4cd6-848e-fab1dd74f5c8"
+        }
+      }
+    ],
+    "unitCode": "EGJJ",
+    "isApproach": false,
+    "eurocontrol": {
+      "sourceKey": "as:1c6ca865-b9a7-4380-838c-fae157a74fc4",
+      "ignoredInGeometry": true
+    }
+  },
+  {
+    "id": "EGJJORT",
+    "positionPriority": [],
+    "blocks": [
+      {
+        "id": "EGJJORT:EGJJORT:106EG:1",
+        "floorFt": 0,
+        "ceilingFt": 19500,
+        "polygon": [
+          {
+            "lat": 49.733333333333334,
+            "lon": -2
+          },
+          {
+            "lat": 49.68861111111111,
+            "lon": -2
+          },
+          {
+            "lat": 49.665,
+            "lon": -2
+          },
+          {
+            "lat": 49.5,
+            "lon": -2
+          },
+          {
+            "lat": 49.38527777777778,
+            "lon": -1.9175
+          },
+          {
+            "lat": 49.20805555555555,
+            "lon": -2.1958333333333333
+          },
+          {
+            "lat": 49.227222222222224,
+            "lon": -2.221111111111111
+          },
+          {
+            "lat": 49.43805555555556,
+            "lon": -2.499722222222222
+          },
+          {
+            "lat": 49.658611111111114,
+            "lon": -2.501388888888889
+          },
+          {
+            "lat": 49.733333333333334,
+            "lon": -2
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 195
+            }
+          },
+          "airblockKey": "ab:cf6a8231-3178-4eba-9054-a4135e070dc0"
+        }
+      },
+      {
+        "id": "EGJJORT:EGJJORT:108EG:2",
+        "floorFt": 0,
+        "ceilingFt": 20500,
+        "polygon": [
+          {
+            "lat": 50,
+            "lon": -1.7833333333333334
+          },
+          {
+            "lat": 49.761944444444445,
+            "lon": -1.9769444444444444
+          },
+          {
+            "lat": 49.733333333333334,
+            "lon": -2
+          },
+          {
+            "lat": 49.658611111111114,
+            "lon": -2.501388888888889
+          },
+          {
+            "lat": 49.91555555555556,
+            "lon": -2.508611111111111
+          },
+          {
+            "lat": 49.93833333333333,
+            "lon": -2.371111111111111
+          },
+          {
+            "lat": 49.95,
+            "lon": -2.3008333333333333
+          },
+          {
+            "lat": 49.959722222222226,
+            "lon": -2.243333333333333
+          },
+          {
+            "lat": 49.971111111111114,
+            "lon": -2.1730555555555555
+          },
+          {
+            "lat": 49.97277777777778,
+            "lon": -2.163611111111111
+          },
+          {
+            "lat": 49.97361111111111,
+            "lon": -2.16
+          },
+          {
+            "lat": 49.9825,
+            "lon": -2.106388888888889
+          },
+          {
+            "lat": 49.99916666666667,
+            "lon": -2.005
+          },
+          {
+            "lat": 50,
+            "lon": -2
+          },
+          {
+            "lat": 50,
+            "lon": -1.9747222222222223
+          },
+          {
+            "lat": 50,
+            "lon": -1.8833333333333333
+          },
+          {
+            "lat": 50,
+            "lon": -1.8591666666666666
+          },
+          {
+            "lat": 50,
+            "lon": -1.845
+          },
+          {
+            "lat": 50,
+            "lon": -1.7833333333333334
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 205
+            }
+          },
+          "airblockKey": "ab:f56a2a9a-44e7-41fb-b7e2-b106b60b9b7b"
+        }
+      },
+      {
+        "id": "EGJJORT:EGJJORT:116EG:3",
+        "floorFt": 0,
+        "ceilingFt": 5500,
+        "polygon": [
+          {
+            "lat": 50,
+            "lon": -2
+          },
+          {
+            "lat": 49.99916666666667,
+            "lon": -2.005
+          },
+          {
+            "lat": 49.9825,
+            "lon": -2.106388888888889
+          },
+          {
+            "lat": 49.97361111111111,
+            "lon": -2.16
+          },
+          {
+            "lat": 49.97277777777778,
+            "lon": -2.163611111111111
+          },
+          {
+            "lat": 50,
+            "lon": -2.1455555555555557
+          },
+          {
+            "lat": 50,
+            "lon": -2
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 55
+            }
+          },
+          "airblockKey": "ab:110403e2-f718-4636-9da3-0f36a59bd4a1"
+        }
+      },
+      {
+        "id": "EGJJORT:EGJJORT:144EG:4",
+        "floorFt": 0,
+        "ceilingFt": 19500,
+        "polygon": [
+          {
+            "lat": 50,
+            "lon": -2.1455555555555557
+          },
+          {
+            "lat": 49.97277777777778,
+            "lon": -2.163611111111111
+          },
+          {
+            "lat": 49.971111111111114,
+            "lon": -2.1730555555555555
+          },
+          {
+            "lat": 49.959722222222226,
+            "lon": -2.243333333333333
+          },
+          {
+            "lat": 50,
+            "lon": -2.2383333333333333
+          },
+          {
+            "lat": 50,
+            "lon": -2.1455555555555557
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 195
+            }
+          },
+          "airblockKey": "ab:04297930-a8eb-4a41-9723-81c73541e324"
+        }
+      },
+      {
+        "id": "EGJJORT:EGJJORT:409EG:5",
+        "floorFt": 0,
+        "ceilingFt": 19500,
+        "polygon": [
+          {
+            "lat": 50,
+            "lon": -2.2383333333333333
+          },
+          {
+            "lat": 49.959722222222226,
+            "lon": -2.243333333333333
+          },
+          {
+            "lat": 49.95,
+            "lon": -2.3008333333333333
+          },
+          {
+            "lat": 49.93833333333333,
+            "lon": -2.371111111111111
+          },
+          {
+            "lat": 49.91555555555556,
+            "lon": -2.508611111111111
+          },
+          {
+            "lat": 50,
+            "lon": -2.499722222222222
+          },
+          {
+            "lat": 50,
+            "lon": -2.2383333333333333
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 195
+            }
+          },
+          "airblockKey": "ab:d6dd4ec0-d0fa-46b8-891e-5be9c31378c6"
+        }
+      }
+    ],
+    "unitCode": "EGJJ",
+    "isApproach": false,
+    "eurocontrol": {
+      "sourceKey": "as:729e9280-3af9-4bec-a2c6-5e6ea89c9acc",
+      "ignoredInGeometry": false
+    }
+  },
+  {
+    "id": "EGJJSKE",
+    "positionPriority": [],
+    "blocks": [
+      {
+        "id": "EGJJSKE:EGJJSKE:100EG:1",
+        "floorFt": 0,
+        "ceilingFt": 19500,
+        "polygon": [
+          {
+            "lat": 49.658611111111114,
+            "lon": -2.501388888888889
+          },
+          {
+            "lat": 49.43805555555556,
+            "lon": -2.499722222222222
+          },
+          {
+            "lat": 49.227222222222224,
+            "lon": -2.221111111111111
+          },
+          {
+            "lat": 49.20805555555555,
+            "lon": -2.1958333333333333
+          },
+          {
+            "lat": 49.38527777777778,
+            "lon": -1.9175
+          },
+          {
+            "lat": 49.32333333333333,
+            "lon": -1.9233333333333333
+          },
+          {
+            "lat": 49.21472222222222,
+            "lon": -1.7955555555555556
+          },
+          {
+            "lat": 49.066944444444445,
+            "lon": -1.6905555555555556
+          },
+          {
+            "lat": 49.03333333333333,
+            "lon": -1.6666666666666667
+          },
+          {
+            "lat": 49.03333333333333,
+            "lon": -1.9166666666666667
+          },
+          {
+            "lat": 49.03333333333333,
+            "lon": -2.0569444444444445
+          },
+          {
+            "lat": 49.03333333333333,
+            "lon": -2.3405555555555555
+          },
+          {
+            "lat": 49.03333333333333,
+            "lon": -2.4072222222222224
+          },
+          {
+            "lat": 49.03333333333333,
+            "lon": -2.4275
+          },
+          {
+            "lat": 49.03333333333333,
+            "lon": -2.6880555555555556
+          },
+          {
+            "lat": 49.03333333333333,
+            "lon": -3
+          },
+          {
+            "lat": 49.583333333333336,
+            "lon": -3
+          },
+          {
+            "lat": 49.658611111111114,
+            "lon": -2.501388888888889
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 195
+            }
+          },
+          "airblockKey": "ab:22891d5a-68f6-4627-95ab-03b1c708f7be"
+        }
+      },
+      {
+        "id": "EGJJSKE:EGJJSKE:107EG:2",
+        "floorFt": 0,
+        "ceilingFt": 20500,
+        "polygon": [
+          {
+            "lat": 49.91555555555556,
+            "lon": -2.508611111111111
+          },
+          {
+            "lat": 49.658611111111114,
+            "lon": -2.501388888888889
+          },
+          {
+            "lat": 49.583333333333336,
+            "lon": -3
+          },
+          {
+            "lat": 49.83083333333333,
+            "lon": -3
+          },
+          {
+            "lat": 49.91555555555556,
+            "lon": -2.508611111111111
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 205
+            }
+          },
+          "airblockKey": "ab:44c4f937-a00f-42a9-8af0-001d4ee9f4a4"
+        }
+      },
+      {
+        "id": "EGJJSKE:EGJJSKE:246LF:3",
+        "floorFt": 5500,
+        "ceilingFt": 20500,
+        "polygon": [
+          {
+            "lat": 49.583333333333336,
+            "lon": -3
+          },
+          {
+            "lat": 49.80138888888889,
+            "lon": -3.173611111111111
+          },
+          {
+            "lat": 49.80388888888889,
+            "lon": -3.154166666666667
+          },
+          {
+            "lat": 49.81861111111111,
+            "lon": -3.0680555555555555
+          },
+          {
+            "lat": 49.82333333333333,
+            "lon": -3.0416666666666665
+          },
+          {
+            "lat": 49.82472222222222,
+            "lon": -3.0341666666666667
+          },
+          {
+            "lat": 49.825833333333335,
+            "lon": -3.0280555555555555
+          },
+          {
+            "lat": 49.83083333333333,
+            "lon": -3
+          },
+          {
+            "lat": 49.583333333333336,
+            "lon": -3
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 55
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 205
+            }
+          },
+          "airblockKey": "ab:315cb346-172c-4944-b991-aba53695a946"
+        }
+      },
+      {
+        "id": "EGJJSKE:EGJJSKE:764XX:4",
+        "floorFt": 0,
+        "ceilingFt": 21500,
+        "polygon": [
+          {
+            "lat": 50,
+            "lon": -3.3333333333333335
+          },
+          {
+            "lat": 50,
+            "lon": -3.318611111111111
+          },
+          {
+            "lat": 50,
+            "lon": -3.2819444444444446
+          },
+          {
+            "lat": 49.86888888888889,
+            "lon": -3.1769444444444446
+          },
+          {
+            "lat": 49.82333333333333,
+            "lon": -3.0416666666666665
+          },
+          {
+            "lat": 49.81861111111111,
+            "lon": -3.0680555555555555
+          },
+          {
+            "lat": 49.80388888888889,
+            "lon": -3.154166666666667
+          },
+          {
+            "lat": 49.80138888888889,
+            "lon": -3.173611111111111
+          },
+          {
+            "lat": 50,
+            "lon": -3.3333333333333335
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 215
+            }
+          },
+          "airblockKey": "ab:359624b3-964e-4192-979b-a380473219db"
+        }
+      },
+      {
+        "id": "EGJJSKE:EGJJSKE:410EG:5",
+        "floorFt": 0,
+        "ceilingFt": 21500,
+        "polygon": [
+          {
+            "lat": 50,
+            "lon": -2.499722222222222
+          },
+          {
+            "lat": 49.91555555555556,
+            "lon": -2.508611111111111
+          },
+          {
+            "lat": 49.83083333333333,
+            "lon": -3
+          },
+          {
+            "lat": 49.825833333333335,
+            "lon": -3.0280555555555555
+          },
+          {
+            "lat": 49.925555555555555,
+            "lon": -3.0058333333333334
+          },
+          {
+            "lat": 50,
+            "lon": -3.065
+          },
+          {
+            "lat": 50,
+            "lon": -3.0455555555555556
+          },
+          {
+            "lat": 50,
+            "lon": -3.0280555555555555
+          },
+          {
+            "lat": 50,
+            "lon": -2.8652777777777776
+          },
+          {
+            "lat": 50,
+            "lon": -2.825
+          },
+          {
+            "lat": 50,
+            "lon": -2.805
+          },
+          {
+            "lat": 50,
+            "lon": -2.680277777777778
+          },
+          {
+            "lat": 50,
+            "lon": -2.499722222222222
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 215
+            }
+          },
+          "airblockKey": "ab:211d813b-a0e9-4663-ab0d-72621e1e8cf6"
+        }
+      },
+      {
+        "id": "EGJJSKE:EGJJSKE:765XX:6",
+        "floorFt": 0,
+        "ceilingFt": 21500,
+        "polygon": [
+          {
+            "lat": 50,
+            "lon": -3.2680555555555557
+          },
+          {
+            "lat": 50,
+            "lon": -3.2055555555555557
+          },
+          {
+            "lat": 50,
+            "lon": -3.1797222222222223
+          },
+          {
+            "lat": 49.83138888888889,
+            "lon": -3.046666666666667
+          },
+          {
+            "lat": 49.87222222222222,
+            "lon": -3.1658333333333335
+          },
+          {
+            "lat": 50,
+            "lon": -3.2680555555555557
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 215
+            }
+          },
+          "airblockKey": "ab:a7017883-bc2c-45c9-a640-dd0266632710"
+        }
+      },
+      {
+        "id": "EGJJSKE:EGJJSKE:766XX:7",
+        "floorFt": 0,
+        "ceilingFt": 21500,
+        "polygon": [
+          {
+            "lat": 50,
+            "lon": -3.078611111111111
+          },
+          {
+            "lat": 49.925555555555555,
+            "lon": -3.0194444444444444
+          },
+          {
+            "lat": 49.83888888888889,
+            "lon": -3.0383333333333336
+          },
+          {
+            "lat": 50,
+            "lon": -3.1661111111111113
+          },
+          {
+            "lat": 50,
+            "lon": -3.1019444444444444
+          },
+          {
+            "lat": 50,
+            "lon": -3.078611111111111
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 215
+            }
+          },
+          "airblockKey": "ab:f038f9a7-66f7-4f54-a1b9-34dbb1a59e8b"
+        }
+      },
+      {
+        "id": "EGJJSKE:EGJJSKE:767XX:8",
+        "floorFt": 0,
+        "ceilingFt": 21500,
+        "polygon": [
+          {
+            "lat": 50,
+            "lon": -3.2680555555555557
+          },
+          {
+            "lat": 49.87222222222222,
+            "lon": -3.1658333333333335
+          },
+          {
+            "lat": 49.87222222222222,
+            "lon": -3.1730555555555555
+          },
+          {
+            "lat": 49.86888888888889,
+            "lon": -3.1769444444444446
+          },
+          {
+            "lat": 50,
+            "lon": -3.2819444444444446
+          },
+          {
+            "lat": 50,
+            "lon": -3.2680555555555557
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 215
+            }
+          },
+          "airblockKey": "ab:ebc8b828-6952-4926-b6cf-0c29eea3bf6d"
+        }
+      },
+      {
+        "id": "EGJJSKE:EGJJSKE:768XX:9",
+        "floorFt": 0,
+        "ceilingFt": 21500,
+        "polygon": [
+          {
+            "lat": 50,
+            "lon": -3.065
+          },
+          {
+            "lat": 49.925555555555555,
+            "lon": -3.0058333333333334
+          },
+          {
+            "lat": 49.925555555555555,
+            "lon": -3.0125
+          },
+          {
+            "lat": 49.925555555555555,
+            "lon": -3.0194444444444444
+          },
+          {
+            "lat": 50,
+            "lon": -3.078611111111111
+          },
+          {
+            "lat": 50,
+            "lon": -3.065
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 215
+            }
+          },
+          "airblockKey": "ab:7710fdae-9f63-4279-ac66-b24306750f8d"
+        }
+      },
+      {
+        "id": "EGJJSKE:EGJJSKE:650XX:10",
+        "floorFt": 0,
+        "ceilingFt": 21500,
+        "polygon": [
+          {
+            "lat": 50,
+            "lon": -3.1797222222222223
+          },
+          {
+            "lat": 50,
+            "lon": -3.1730555555555555
+          },
+          {
+            "lat": 50,
+            "lon": -3.1661111111111113
+          },
+          {
+            "lat": 49.83888888888889,
+            "lon": -3.0383333333333336
+          },
+          {
+            "lat": 49.825833333333335,
+            "lon": -3.0280555555555555
+          },
+          {
+            "lat": 49.83138888888889,
+            "lon": -3.046666666666667
+          },
+          {
+            "lat": 50,
+            "lon": -3.1797222222222223
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 215
+            }
+          },
+          "airblockKey": "ab:3a7d36bd-250e-4931-93da-284284fa4e84"
+        }
+      },
+      {
+        "id": "EGJJSKE:EGJJSKE:658XX:11",
+        "floorFt": 0,
+        "ceilingFt": 21500,
+        "polygon": [
+          {
+            "lat": 49.925555555555555,
+            "lon": -3.0194444444444444
+          },
+          {
+            "lat": 49.925555555555555,
+            "lon": -3.0125
+          },
+          {
+            "lat": 49.925555555555555,
+            "lon": -3.0058333333333334
+          },
+          {
+            "lat": 49.825833333333335,
+            "lon": -3.0280555555555555
+          },
+          {
+            "lat": 49.83888888888889,
+            "lon": -3.0383333333333336
+          },
+          {
+            "lat": 49.925555555555555,
+            "lon": -3.0194444444444444
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 215
+            }
+          },
+          "airblockKey": "ab:2f17b6dd-d106-417c-911a-5fc1f40e6d3b"
+        }
+      },
+      {
+        "id": "EGJJSKE:EGJJSKE:638XX:12",
+        "floorFt": 0,
+        "ceilingFt": 21500,
+        "polygon": [
+          {
+            "lat": 49.86888888888889,
+            "lon": -3.1769444444444446
+          },
+          {
+            "lat": 49.87222222222222,
+            "lon": -3.1730555555555555
+          },
+          {
+            "lat": 49.87222222222222,
+            "lon": -3.1658333333333335
+          },
+          {
+            "lat": 49.83138888888889,
+            "lon": -3.046666666666667
+          },
+          {
+            "lat": 49.825833333333335,
+            "lon": -3.0280555555555555
+          },
+          {
+            "lat": 49.82472222222222,
+            "lon": -3.0341666666666667
+          },
+          {
+            "lat": 49.82333333333333,
+            "lon": -3.0416666666666665
+          },
+          {
+            "lat": 49.86888888888889,
+            "lon": -3.1769444444444446
+          }
+        ],
+        "eurocontrol": {
+          "sourceRange": {
+            "min": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "LIMIT",
+              "LIMIT": "GROUND"
+            },
+            "max": {
+              "$type": "flight.em.FlightLevel",
+              "discriminator": "FL",
+              "FL": 215
+            }
+          },
+          "airblockKey": "ab:1c8607c9-fb81-4108-b4e2-b7b684be024c"
+        }
+      }
+    ],
+    "unitCode": "EGJJ",
+    "isApproach": false,
+    "eurocontrol": {
+      "sourceKey": "as:15d37750-581d-4a75-809b-5e0546e23609",
+      "ignoredInGeometry": false
+    }
+  }
+]

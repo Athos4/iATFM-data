@@ -1,0 +1,526 @@
+[
+  {
+    "id": "LTAA10L455",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA10LO45",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA10UP55",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA11L455",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA11LO45",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA11UP55",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA12L675",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA12LO65",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA12UP75",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA13L675",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA13LO65",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA13UP75",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA14L565",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA14LO45",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA14LO55",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA14UP65",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA15L565",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA15LO45",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA15LO55",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA15UP45",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA15UP65",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA16L675",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA16LO65",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA16UP75",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA17L675",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA17LO65",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA17UP75",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA18LO45",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA18M455",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA18M565",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA18M675",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA18UP75",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA19LO45",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA19M455",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA19M565",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA19M675",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA19UP75",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA1B2535",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA1B3545",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA1B4555",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA1B5565",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA1B6575",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA1BL25",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA20L25",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA20M235",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA20M345",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA20M455",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA20M565",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA20M675",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA20U75",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA212535",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA213545",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA214555",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA215565",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA216575",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA21L25",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA21U75",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA2M2535",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA2M3545",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA2M4555",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA2M5565",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA2M6575",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA3M2535",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA3M3545",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA3M4555",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA3M5565",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA3M6575",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA4M2535",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA4M3545",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA4M4555",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA4M5565",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA4M6575",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA5L2545",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA5LO25",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA5UP45",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA6L2545",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA6LO25",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA6UP45",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA7L2545",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA7LO25",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA7UP45",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA8L2545",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA8LO25",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA8UP45",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA9L2545",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA9LO25",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAA9UP45",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAAB1U75",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAAW2L25",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAAW2U75",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAAW3L25",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAAW3U75",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAAW4L25",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAAW4U75",
+    "positionPriority": []
+  },
+  {
+    "id": "LTACAPL",
+    "positionPriority": []
+  },
+  {
+    "id": "LTACAPU",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAGTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAIYCR",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAIYEL",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAIYEM",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAIYEU",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAIYNL",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAIYWL",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAIYWM",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAIYWU",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAJTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTALTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTANTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAPTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTATTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAUTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAYTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTAZTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTCATA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTCCTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTCETA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTCFTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTCGTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTCITA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTCKTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTCMTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTCNTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTCSTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTCTTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTCUTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTCVTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTFEBDL",
+    "positionPriority": []
+  },
+  {
+    "id": "LTFEBDU",
+    "positionPriority": []
+  },
+  {
+    "id": "LTFGTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTFHTA",
+    "positionPriority": []
+  },
+  {
+    "id": "LTFOTA",
+    "positionPriority": []
+  }
+]

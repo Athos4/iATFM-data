@@ -1,0 +1,38 @@
+{
+  "volumes": [
+    {
+      "id": "ORBBCRI",
+      "label": "ORBBCRI",
+      "sectorIds": [
+        "ORBBALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:dd1a7f1a-c65c-43c4-ab6b-99d075fe80e1",
+        "groups": [
+          "ACCORBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "686EC46700650B00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e0165764-0263-4994-8e70-1a2a1ede7e08"
+            },
+            "locationId": "ORBBCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT ",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2285 @@
+{
+  "volumes": [
+    {
+      "id": "EGPCEN",
+      "label": "EGPCEN",
+      "sectorIds": [
+        "EGPXCNN",
+        "EGPXCNS",
+        "EGPXCNT"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 32,
+            "sustained": 29,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC725B8567F3F75B7C2097"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECEECA6A3B164F57508051"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:f93ef4f1-fffa-46b8-9580-10f37a42cad8",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "66F79B6A00F80100BE1E59AA",
+          "name": "EGPX: CENTRAL (BALIX/ERAKA/GOMUP)\nEGP , EGA  AND EI  OCEANIC DEPS EXEMPTED TO AVOID\nSLOTS CLASHING WITH OCEANIC CLEARANCES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a3d36ffc-f100-4819-95a0-7d1c83b01310"
+            },
+            "locationId": "EGPXCEN",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ae1ae44e-7db9-4d2f-8fa3-3a258fbbf4f8"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 32,
+              "sustained": 29,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPCNN",
+      "label": "EGPCNN",
+      "sectorIds": [
+        "EGPXCNN",
+        "EGPXCNT"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 31,
+            "sustained": 28,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC725B8567F3F75B7C2097"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECEECA6A3B164F57508051"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:0f0acc3b-a065-4e93-a6f2-68014b6ddd9b",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "E4F8546A00030000215440C5",
+          "name": "EGPX: CENTRAL-NORTH SECTOR\nEGP , EGA  AND EI OCEANIC DEPS EXEMPTED TO AVOID\nSLOTS CLASHING WITH OAC CLEARANCES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4d0fa622-8e48-490c-9703-b6cf31085444"
+            },
+            "locationId": "EGPXCNTN",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ae1ae44e-7db9-4d2f-8fa3-3a258fbbf4f8"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 31,
+              "sustained": 28,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPCNS",
+      "label": "EGPCNS",
+      "sectorIds": [
+        "EGPXCNS",
+        "EGPXCNT"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 30,
+            "sustained": 27,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC725B8567F3F75B7C2097"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECEECA6A3B164F57508051"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:314a98da-9b41-4b1d-aec7-15880862d98b",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "EBF8546A00110000215440C5",
+          "name": "EGPX: CENTRAL-SOUTH SECTOR\nEGP , EGA  AND EI OCEANIC DEPS EXEMPTED TO AVOID\nSLOTS CLASHING WITH OAC CLEARANCES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:44763943-d744-48b8-af3b-b77a7e64b348"
+            },
+            "locationId": "EGPXCNTS",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ae1ae44e-7db9-4d2f-8fa3-3a258fbbf4f8"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 30,
+              "sustained": 27,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPCNT",
+      "label": "EGPCNT",
+      "sectorIds": [
+        "EGPXCNT"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 31,
+            "sustained": 28,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC725B8567F3F75B7C2097"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECEECA6A3B164F57508051"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:e1c65351-1401-4470-b18f-eef37a7a1366",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "9E9FA66A002A0000BE1E59AA",
+          "name": "EGPX: CENTRAL (ERAKA) EGP., EGA., AND EI... OCEANIC DEPS\nEXEMPTED TO AVOID SLOTS CLASHING WITH OAC CLEARANCES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:75fd9f4c-2565-4936-a5b5-eef88cb72b12"
+            },
+            "locationId": "EGPXCNT",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ae1ae44e-7db9-4d2f-8fa3-3a258fbbf4f8"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 31,
+              "sustained": 28,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPCSR",
+      "label": "EGPCSR",
+      "sectorIds": [
+        "EGPXCNS",
+        "EGPXCNT",
+        "EGPXRAE",
+        "EGPXRAW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 28,
+            "sustained": 25,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4d3a7612-15e5-4f59-aacd-7eaa22bdd08d",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "FBF8546A000E0000215440C5",
+          "name": "RATHLIN, CENTRAL AND SOUTH",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7e967195-d94c-4dfe-9a28-69b13fdff102"
+            },
+            "locationId": "EGPXCSR",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 28,
+              "sustained": 25,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPHEBH",
+      "label": "EGPHEBH",
+      "sectorIds": [
+        "EGPXHEB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 33,
+            "sustained": 30,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:08648fd3-04ad-468d-ab0e-88a933111b1f",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "3AF9546A00110000215440C5",
+          "name": "HEBS HI FL255+",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:75de9457-b44d-4598-8929-e209ef46ab9f"
+            },
+            "locationId": "EGPXHEB",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 33,
+              "sustained": 30,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPHHC",
+      "label": "EGPHHC",
+      "sectorIds": [
+        "EGPXCNN",
+        "EGPXCNS",
+        "EGPXCNT",
+        "EGPXHEB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 33,
+            "sustained": 30,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:402600df-ccbf-431d-ac57-43db46882812",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "3EF9546A00210000215440C5",
+          "name": "HEBS HI/CENTRAL FL255+",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:63ffe842-234b-4ee8-8298-89625bcf0d10"
+            },
+            "locationId": "EGPXHHC",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 33,
+              "sustained": 30,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPHHCN",
+      "label": "EGPHHCN",
+      "sectorIds": [
+        "EGPXCNN",
+        "EGPXCNT",
+        "EGPXHEB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 33,
+            "sustained": 30,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:66fdf13a-2fc6-49d3-a87b-200b31c19d80",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "4BF9546A00000000215440C5",
+          "name": "HEBRIDES HI/CENTRAL NTH \n(LUSEN/ATSIX/ORTAV/BALIX/ADODO/ERAKA/ETILO)",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:10e8fea5-b3d3-4eb1-963f-ce345127a1d1"
+            },
+            "locationId": "EGPXHCN",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 33,
+              "sustained": 30,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPHHRC",
+      "label": "EGPHHRC",
+      "sectorIds": [
+        "EGPXCNN",
+        "EGPXCNS",
+        "EGPXCNT",
+        "EGPXHEB",
+        "EGPXRAE",
+        "EGPXRAW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 28,
+            "sustained": 25,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTWETFI"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:a1d76752-43a6-430a-9a57-99de08e6db53",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "14F9546A005E0000215440C5",
+          "name": "HEBS HI/RAT/CEN FL255+",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:88bf604f-64f4-48df-8bd5-304288059839"
+            },
+            "locationId": "EGPXHHRC",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d0aebe81-6b03-4d52-a2a4-b5f22e506190"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 28,
+              "sustained": 25,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPHHS",
+      "label": "EGPHHS",
+      "sectorIds": [
+        "EGPXCNN",
+        "EGPXHEB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 33,
+            "sustained": 30,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:a584f5a8-3ac4-4f70-8134-5ae0b5e3e85d",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "61F9546A00420100215440C5",
+          "name": "HEBS HI + CNN",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:05e2fd4f-9990-4028-8a8e-c56cab6edb5f"
+            },
+            "locationId": "EGPXHHS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 33,
+              "sustained": 30,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPMHH59",
+      "label": "EGPMHH59",
+      "sectorIds": [
+        "EGPXCNN",
+        "EGPXHEB",
+        "EGPXMHI"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 54,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 33,
+            "sustained": 30,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2bf25e3d-982e-482f-9d8e-6d3087aa31d0",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "AEF9546A00130000215440C5",
+          "name": "MORAY H + HEB H + CNN",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:652d60e3-2b0a-4ac8-acb0-734131cd9260"
+            },
+            "locationId": "EGPXMHH59",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 54
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 33,
+              "sustained": 30,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPMHHC",
+      "label": "EGPMHHC",
+      "sectorIds": [
+        "EGPXCNN",
+        "EGPXCNS",
+        "EGPXCNT",
+        "EGPXHEB",
+        "EGPXMHI"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 34,
+            "sustained": 31,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b058a95d-d9d0-4d51-bb81-92133de3e94f",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "66F79B6A00330100BE1E59AA",
+          "name": "MOR + HEBS HI/CEN FL255+ ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:236228c2-8e10-4703-a3a6-3d7109c3732c"
+            },
+            "locationId": "EGPXMHHC",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 34,
+              "sustained": 31,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPMHHCN",
+      "label": "EGPMHHCN",
+      "sectorIds": [
+        "EGPXCNN",
+        "EGPXCNT",
+        "EGPXHEB",
+        "EGPXMHI"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 33,
+            "sustained": 30,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ee6604c6-cf08-4dd4-a9b1-4e2d7ff8c925",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "66F79B6A00C70100BE1E59AA",
+          "name": "MORAY H + HEN H + CNN",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:88fea906-b499-4d53-8bd4-b733314bacb8"
+            },
+            "locationId": "EGPXMHHCN",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 33,
+              "sustained": 30,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPMHHCR",
+      "label": "EGPMHHCR",
+      "sectorIds": [
+        "EGPXCNN",
+        "EGPXCNS",
+        "EGPXCNT",
+        "EGPXHEB",
+        "EGPXMHI",
+        "EGPXRAE",
+        "EGPXRAW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 27,
+            "sustained": 24,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2e6c40cb-628d-444b-a30a-5d800d4c2a4f",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "C1F69B6A000B0000BE1E59AA",
+          "name": "MOR + HEBS HI/CEN/RAT FL255+ ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cfa8c14e-36e3-4ae3-8e38-c5bfc08f480e"
+            },
+            "locationId": "EGPXMHHCR",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 27,
+              "sustained": 24,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPMHHH",
+      "label": "EGPMHHH",
+      "sectorIds": [
+        "EGPXHEB",
+        "EGPXMHI"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 54,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 35,
+            "sustained": 32,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6aa4567f-56a9-4fd3-8b3b-28a18d35d313",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "66F79B6A00090000BE1E59AA",
+          "name": "MOR HI/HEBS HI FL255+",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6128d7c4-0a7c-4009-955b-c1c92a13214f"
+            },
+            "locationId": "EGPXMHHH",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 54
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 35,
+              "sustained": 32,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPMOH",
+      "label": "EGPMOH",
+      "sectorIds": [
+        "EGPXMHI"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 37,
+            "sustained": 34,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ba41dfb0-1fa4-4479-b03a-bae1d636dd52",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "F5F9546A001F0100215440C5",
+          "name": "MORAY SECTOR 255 - UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2520174a-6087-412f-9227-f79bc8b9069b"
+            },
+            "locationId": "EGPXMHI",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 37,
+              "sustained": 34,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPRAC",
+      "label": "EGPRAC",
+      "sectorIds": [
+        "EGPXCNN",
+        "EGPXCNS",
+        "EGPXCNT",
+        "EGPXRAE",
+        "EGPXRAW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 28,
+            "sustained": 25,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC725B8567F3F75B7C2097"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECEECA6A3B164F57508051"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTWETFI"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:6826cedb-60b0-4731-a585-84317c9c2ef9",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "65F79B6A000A0000BE1E59AA",
+          "name": "EGPX: RATHLIN+CENTRAL COLLAPSED SECTOR\nEGP , EGA  AND EI  OCEANIC DEPS EXEMPTED TO AVOID\nSLOTS CLASHING WITH OAC CLEARANCES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b70fdac0-52ce-4c91-b190-ef97a273d75e"
+            },
+            "locationId": "EGPXRAC",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ae1ae44e-7db9-4d2f-8fa3-3a258fbbf4f8"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d0aebe81-6b03-4d52-a2a4-b5f22e506190"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 28,
+              "sustained": 25,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPRAE",
+      "label": "EGPRAE",
+      "sectorIds": [
+        "EGPXRAE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 23,
+            "sustained": 20,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC725B8567F3F75B7C2097"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECEECA6A3B164F57508051"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTWETFI"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:6511c79e-c6de-4aa9-bd5e-c1f38ed58c4d",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "1EF6546A00B41000215440C5",
+          "name": "EGPX: RATHLIN-EAST SECTOR\nEGP , EGA  AND EI  OCEANIC DEPS EXEMPTED TO AVOID\nSLOTS CLASHING WITH OAC CLEARANCES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2cc2be7b-14c5-49ca-85e8-b536ea39c464"
+            },
+            "locationId": "EGPXRAE",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ae1ae44e-7db9-4d2f-8fa3-3a258fbbf4f8"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d0aebe81-6b03-4d52-a2a4-b5f22e506190"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 23,
+              "sustained": 20,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPRAN",
+      "label": "EGPRAN",
+      "sectorIds": [
+        "EGPXCNS",
+        "EGPXRAE",
+        "EGPXRAW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 29,
+            "sustained": 26,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC725B8567F3F75B7C2097"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECEECA6A3B164F57508051"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTWETFI"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:16500c42-85b5-45b0-87ee-80f5feb346b3",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "66F79B6A00640100BE1E59AA",
+          "name": "EGPX: RATHLIN SECTOR WHEN CENTRAL IS NORTHABOUT\nEGP , EGA  AND EI  OCEANIC DEPS EXEMPTED TO AVOID\nSLOTS CLASHING WITH OAC CLEARANCES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:5e879ac9-07d8-4579-b837-6faa39ef5062"
+            },
+            "locationId": "EGPXRAN",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ae1ae44e-7db9-4d2f-8fa3-3a258fbbf4f8"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d0aebe81-6b03-4d52-a2a4-b5f22e506190"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 29,
+              "sustained": 26,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPRAT",
+      "label": "EGPRAT",
+      "sectorIds": [
+        "EGPXRAE",
+        "EGPXRAW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 29,
+            "sustained": 26,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC725B8567F3F75B7C2097"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECEECA6A3B164F57508051"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTWETFI"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTMOLAK"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC9CA3B1665AED1152CE39"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:80419db5-9196-4e7d-9ca8-6e0687e5df57",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "66F79B6A003A0000BE1E59AA",
+          "name": "EGPX: RATHLIN EAST+WEST COLLAPSED SECTOR\nEGP , EGA  AND EI  OCEANIC DEPS EXEMPTED TO AVOID\nSLOTS CLASHING WITH OAC CLEARANCES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6436dbf5-1ef9-481d-8085-6ed560c68bb8"
+            },
+            "locationId": "EGPXRAT",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ae1ae44e-7db9-4d2f-8fa3-3a258fbbf4f8"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d0aebe81-6b03-4d52-a2a4-b5f22e506190"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:edf4fd41-8d6d-4e79-aa5a-416a57552683"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 29,
+              "sustained": 26,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPRAW",
+      "label": "EGPRAW",
+      "sectorIds": [
+        "EGPXRAW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 33,
+            "sustained": 30,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC725B8567F3F75B7C2097"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECEECA6A3B164F57508051"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTMOLAK"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC9CA3B1665AED1152CE39"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:2b6fb46d-9255-4e25-985d-def98facf46e",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "27FA546A00340100215440C5",
+          "name": "EGPX: RATHLIN-WEST SECTOR\nEGP , EGA  AND EI  OCEANIC DEPS EXEMPTED TO AVOID\nSLOTS CLASHING WITH OAC CLEARANCES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c1c2b0aa-02d9-4c77-ab71-0b5e2187a010"
+            },
+            "locationId": "EGPXRAW",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ae1ae44e-7db9-4d2f-8fa3-3a258fbbf4f8"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:edf4fd41-8d6d-4e79-aa5a-416a57552683"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 33,
+              "sustained": 30,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPRWN",
+      "label": "EGPRWN",
+      "sectorIds": [
+        "EGPXCNS",
+        "EGPXRAW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 33,
+            "sustained": 30,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC725B8567F3F75B7C2097"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECEECA6A3B164F57508051"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:4264b8af-26f6-48e1-8a52-84b6b719baff",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "31FA546A001C0100215440C5",
+          "name": "EGPX: RATHLIN-WEST SECTOR WHEN CENTRAL IS NORTHABOUT\nEGP , EGA  AND EI  OCEANIC DEPS EXEMPTED TO AVOID\nSLOTS CLASHING WITH OAC CLEARANCES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2fc47cc3-37c2-46c4-9dda-da5d28b461fd"
+            },
+            "locationId": "EGPXRWN",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ae1ae44e-7db9-4d2f-8fa3-3a258fbbf4f8"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 33,
+              "sustained": 30,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "RR1RAT",
+      "label": "RR1RAT",
+      "sectorIds": [
+        "EGPXRAE",
+        "EGPXRAW"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECB919893549C82E23C0CE"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTAGORI"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECB919893549C82E23C0CE"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTBILTO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECB919893549C82E23C0CE"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTETARI"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECB919893549C82E23C0CE"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPIKIL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECB919893549C82E23C0CE"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTSUNOT"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:62ef330a-100d-4bfb-a19e-582fe3d9105a",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1771459200000,
+            "end": 32503593600000
+          },
+          "stateId": "CF83776900750100E7E4C73E",
+          "name": "/FROM: EIDW,EGCC/BB/NX    \nVIA SUNOT, PIKIL AGORI, BILTO, ETARI \nTO: ANY\nNOT ALLOWED VIA EGPXRAT\nEIDW DEPS REFILE VIA REVNU \nEGCC/BB/NX DEPS REFILE VIA BAGSO ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6436dbf5-1ef9-481d-8085-6ed560c68bb8"
+            },
+            "locationId": "EGPXRAT",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2fedaf5c-ab70-4e8d-b5fb-16a1152d8f17"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1b7c91ba-af13-4851-a9f8-b8de7083a8ed"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:652f2f67-a965-49a4-890e-525ca6f57eff"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a1df244a-af0d-48ac-a0d4-eda27e9d555d"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:46f07486-49ca-446a-8171-5bbc28a20d72"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "RR2RAT",
+      "label": "RR2RAT",
+      "sectorIds": [
+        "EGPXRAW"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGLLD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTSUNOT"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGLLD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTAGORI"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGLLD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPIKIL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGLLD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTBILTO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGLLD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTETARI"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:1fb3fe89-b8cc-4446-a82d-f02b0297c835",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCU1",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1771459200000,
+            "end": 32503593600000
+          },
+          "stateId": "2B077A6900670000E7E4C73E",
+          "name": "/FROM EGLL\nTO: ANY VIA POINTS SUNOT AGORI PIKIL BILTO OR ETARI\nNOT ALLOWED VIA EGPXRAW\nSUGGESTED REROUTE: CPT DCT DIDZA N14 OKSAW DCT BIBPE DCT \nOKTAD DCT MEDOG DCT KRAGY DCT PEMOB DCT VATRY DCT REVNU\nDCT SUNOT\nOR\nCPT DCT DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT \nLANON DCT LIPGO DCT REVNU DCT\nOR\nVIA UMLAT/ULTIB TO EXIT VIA BAGSO/WETFI",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c1c2b0aa-02d9-4c77-ab71-0b5e2187a010"
+            },
+            "locationId": "EGPXRAW",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6a1a057d-69cf-4234-a8d4-5ec567fca642"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c15063f2-2a90-48ff-87cd-3eb3bd27a03f"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b5b35014-7ea6-4e15-ae94-a8dc2d4c9210"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4e173533-0fbf-4d81-94db-79d91ac11d85"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d887804d-f7da-4472-997e-b8e5db8c0c85"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

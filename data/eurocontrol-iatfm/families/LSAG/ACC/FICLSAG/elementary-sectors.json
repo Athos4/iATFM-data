@@ -1,0 +1,104 @@
+[
+  {
+    "id": "LSAG195A",
+    "positionPriority": []
+  },
+  {
+    "id": "LSAG195B",
+    "positionPriority": []
+  },
+  {
+    "id": "LSAGE",
+    "positionPriority": []
+  },
+  {
+    "id": "LSAGFIS",
+    "positionPriority": []
+  },
+  {
+    "id": "LSAGL1",
+    "positionPriority": [
+      "LSAG_INS_CTR"
+    ]
+  },
+  {
+    "id": "LSAGL12N",
+    "positionPriority": []
+  },
+  {
+    "id": "LSAGL12R",
+    "positionPriority": []
+  },
+  {
+    "id": "LSAGL2",
+    "positionPriority": [
+      "LSAG_INS_CTR"
+    ]
+  },
+  {
+    "id": "LSAGL3",
+    "positionPriority": [
+      "LSAG_INS_CTR"
+    ]
+  },
+  {
+    "id": "LSAGL4",
+    "positionPriority": [
+      "LSAG_INS_CTR"
+    ]
+  },
+  {
+    "id": "LSAGL5",
+    "positionPriority": [
+      "LSAG_INS_CTR"
+    ]
+  },
+  {
+    "id": "LSAGL6",
+    "positionPriority": [
+      "LSAG_INS_CTR"
+    ]
+  },
+  {
+    "id": "LSAGL7",
+    "positionPriority": [
+      "LSAG_INS_CTR"
+    ]
+  },
+  {
+    "id": "LSAGN",
+    "positionPriority": []
+  },
+  {
+    "id": "LSAGS",
+    "positionPriority": []
+  },
+  {
+    "id": "LSAGSTAT",
+    "positionPriority": []
+  },
+  {
+    "id": "LSAGTOTAL",
+    "positionPriority": []
+  },
+  {
+    "id": "LSAGTSAW",
+    "positionPriority": []
+  },
+  {
+    "id": "LSAGXS",
+    "positionPriority": []
+  },
+  {
+    "id": "LSGGMID",
+    "positionPriority": []
+  },
+  {
+    "id": "LSGGSUD",
+    "positionPriority": []
+  },
+  {
+    "id": "LSGSTA",
+    "positionPriority": []
+  }
+]

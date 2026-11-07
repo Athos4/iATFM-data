@@ -1,0 +1,38 @@
+{
+  "volumes": [
+    {
+      "id": "OJACCRI",
+      "label": "OJACCRI",
+      "sectorIds": [
+        "OJACALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:3667dbcb-6f6e-40bd-bd13-ecc3207bbe74",
+        "groups": [
+          "ACCOJAC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "586EC46700260500E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a5331cb6-fc3b-4fae-849a-a656bb4bb0bb"
+            },
+            "locationId": "OJACCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT ",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

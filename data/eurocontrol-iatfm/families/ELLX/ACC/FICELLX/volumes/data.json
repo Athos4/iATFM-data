@@ -1,0 +1,202 @@
+{
+  "volumes": [
+    {
+      "id": "ELLXTMA",
+      "label": "ELLXTMA",
+      "sectorIds": [
+        "ELLXTA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADEBLGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEBLGD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:341de3fd-5a39-49f3-abdf-ba33436eda79",
+        "groups": [
+          "FICELLX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "59A70C6900F90300A8E59326",
+          "name": "EBBU: ELLX TMA SECTOR EXCLUDING DEP/ARR EBLG",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7a6bb520-8e19-4e2c-bfd7-591809e6687d"
+            },
+            "locationId": "ELLXTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:8baaedbb-1424-4e50-9e79-eec153689f1c"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:69a5e87c-4dc4-4954-94c1-74628ae3a868"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ELLXTMA1",
+      "label": "ELLXTMA1",
+      "sectorIds": [
+        "ELLXTA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 18
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADELLXD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADEBLGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEBLGD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:a1e02ce6-d79b-41af-8abf-a6fe43ad2f1c",
+        "groups": [
+          "FICELLX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "7DA70C6900300D00A8E59326",
+          "name": "EBBU: ELLX TMA SECTOR EXCLUDING DEPARTURES ELLX \nAND DEP/ARR EBLG",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7a6bb520-8e19-4e2c-bfd7-591809e6687d"
+            },
+            "locationId": "ELLXTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:bb563145-1781-4616-9116-dd31b539a898"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:8baaedbb-1424-4e50-9e79-eec153689f1c"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:69a5e87c-4dc4-4954-94c1-74628ae3a868"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1764201600000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 18
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

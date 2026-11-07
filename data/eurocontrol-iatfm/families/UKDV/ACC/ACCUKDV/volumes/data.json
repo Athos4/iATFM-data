@@ -1,0 +1,2457 @@
+{
+  "volumes": [
+    {
+      "id": "UKDADALL",
+      "label": "UKDADALL",
+      "arrival": [
+        "UKDD",
+        "UKDE",
+        "UKHH"
+      ],
+      "departure": [
+        "UKDD",
+        "UKDE",
+        "UKHH"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:e3d58de9-4cfc-4a8e-8244-f316895d5657",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1628726400000,
+            "end": 32503593600000
+          },
+          "stateId": "B8DAE96000470000B9D9E7A5",
+          "name": "UKDD + UKDE + UKHH",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8ebbdb1e-198b-460e-ab3b-5e92ec9844a3"
+            },
+            "locationId": "UKD3",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDCE33W",
+      "label": "UKDCE33W",
+      "sectorIds": [
+        "UKDVC4",
+        "UKDVC5",
+        "UKDVE4",
+        "UKDVE5",
+        "UKDVE6",
+        "UKDVW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ae2569f1-edf8-4587-b6c9-e2e0da59b6ff",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "3D7C2356004800004288E5D1",
+          "name": "UKDV S14-S15+ S2 +S44-S46 DFL335-660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fa2efbed-f71f-4696-b626-22d63fa23211"
+            },
+            "locationId": "UKDVCE335W",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDCE34W",
+      "label": "UKDCE34W",
+      "sectorIds": [
+        "UKDVC5",
+        "UKDVE5",
+        "UKDVE6",
+        "UKDVW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:a54c3449-c12c-4c0f-bd3f-88904541af50",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "457C2356004600004288E5D1",
+          "name": "UKDV S15+S2+S45-S46 FL345-660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c845bfa5-926e-4df5-92b1-1b1418edefeb"
+            },
+            "locationId": "UKDVCE345W",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 11
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDD",
+      "label": "UKDD",
+      "arrival": [
+        "UKDD"
+      ],
+      "departure": [
+        "UKDD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:65ea190a-ebfd-4b57-9edc-ccf62ef67cbd",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1529539200000,
+            "end": 32503593600000
+          },
+          "stateId": "4FE1025B00510000344DFB22",
+          "name": "UKDD ARRIVALS AND DEPARTURES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:eba85ba9-b476-4c96-b913-0dd820075656"
+            },
+            "locationId": "UKDD",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDDARR",
+      "label": "UKDDARR",
+      "arrival": [
+        "UKDD"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:98996615-c581-4b97-9bb9-758b304acedd",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1336003200000,
+            "end": 32503593600000
+          },
+          "stateId": "B44DBF4F00170000A683613C",
+          "name": "UKDD ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cacf6987-5d98-4afb-8c9a-cd4c428eba08"
+            },
+            "locationId": "UKDD",
+            "category": "ARRIVAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1336003200000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDDDEP",
+      "label": "UKDDDEP",
+      "departure": [
+        "UKDD"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:95cd7ab6-7e0a-4957-b48b-8fe61a4bde3d",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1336003200000,
+            "end": 32503593600000
+          },
+          "stateId": "B44DBF4F00320000A683613C",
+          "name": "UKDD DEPARTURES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:35db5ccd-ca7f-4bc1-9d3f-3ed2e0fef95c"
+            },
+            "locationId": "UKDD",
+            "category": "DEPARTURE"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1336003200000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDE",
+      "label": "UKDE",
+      "arrival": [
+        "UKDE"
+      ],
+      "departure": [
+        "UKDE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:7eeb4089-eca8-45e7-b592-b19f66f203f7",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1493251200000,
+            "end": 32503593600000
+          },
+          "stateId": "5D3DD65800070100D82F114F",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:130cd16c-60dc-411d-8f01-2983f617702b"
+            },
+            "locationId": "UKDE",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDETMA",
+      "label": "UKDETMA",
+      "sectorIds": [
+        "UKDETA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 19,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2014-03-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8df2d4ef-e42f-4414-a7a4-0dad9b0abe0c",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1394064000000,
+            "end": 32503593600000
+          },
+          "stateId": "CD3DDD5200090000704B2247",
+          "name": "ZAPORIZHZHIA TMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2340853f-eb0b-488b-8a5a-743220e3e8eb"
+            },
+            "locationId": "UKDETA",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1394064000000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 19
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1394064000000,
+              "til": 32503593600000,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDNWE32",
+      "label": "UKDNWE32",
+      "sectorIds": [
+        "UKDVC3",
+        "UKDVC4",
+        "UKDVC5",
+        "UKDVE3",
+        "UKDVE4",
+        "UKDVE5",
+        "UKDVE6",
+        "UKDVN",
+        "UKDVW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-06-17T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 9
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:72ef2ca6-1b10-403f-bf35-41607a84f859",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1623888000000,
+            "end": 32503593600000
+          },
+          "stateId": "2E519E6000580000EB7C32E5",
+          "name": "UKDV NORTH+EAST+WEST",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9630e816-248f-4be2-8f30-d4f3fefa2d46"
+            },
+            "locationId": "UKDNWE32",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1623888000000,
+              "til": 32503593600000,
+              "peak": 9
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 1800
+        }
+      }
+    },
+    {
+      "id": "UKDR",
+      "label": "UKDR",
+      "arrival": [
+        "UKDR"
+      ],
+      "departure": [
+        "UKDR"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:8433ea59-6566-4bbf-bed4-f7523d57c9d6",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1628726400000,
+            "end": 32503593600000
+          },
+          "stateId": "62DBE96000770100B9D9E7A5",
+          "name": "UKDR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9ef1b037-343b-4b2d-9590-cfe32994cf5f"
+            },
+            "locationId": "UKDR",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDV2CTA",
+      "label": "UKDV2CTA",
+      "sectorIds": [
+        "UKDVS"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:9dd62586-8e27-4a20-a616-0d1f76c6cc96",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1471478400000,
+            "end": 32503593600000
+          },
+          "stateId": "43A9AC57002400005A62950D",
+          "name": "UKDV2CTA GND-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:5a776473-57dd-4bc2-ac8b-513e37a65db6"
+            },
+            "locationId": "UKDV2CTA",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1471478400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVACC",
+      "label": "UKDVACC",
+      "sectorIds": [
+        "UKDVB",
+        "UKDVC",
+        "UKDVC2",
+        "UKDVC3",
+        "UKDVC4",
+        "UKDVC5",
+        "UKDVE",
+        "UKDVE2",
+        "UKDVE3",
+        "UKDVE4",
+        "UKDVE5",
+        "UKDVE6",
+        "UKDVN",
+        "UKDVS",
+        "UKDVW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:16de3f0b-78a9-49a0-80fc-b4f0e3a32a95",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "689A926A00E30200BE1E59AA",
+          "name": "UKDV ACC AOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0f74ba9e-a670-4c9d-b9d1-9c0802302c9c"
+            },
+            "locationId": "UKDVACC",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1790812800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "note": "DMR_221352",
+          "autoDSTChangeEnabled": true,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVB",
+      "label": "UKDVB",
+      "sectorIds": [
+        "UKDVB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4cd24f87-ad4f-45b2-83c5-c59d2605453d",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "BBD51563000B00002BC03F32",
+          "name": "SECTOR UKDVS6",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c6f951c7-acbb-4944-b677-9e7eaf697edc"
+            },
+            "locationId": "UKDVB",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 14
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVBF",
+      "label": "UKDVBF",
+      "sectorIds": [
+        "UKDVB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 17,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 5
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 5
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f027f073-d4a4-447f-b74e-a8af665a4771",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "ABD51563004F00002BC03F32",
+          "name": "SECTOR UKDVB",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c6f951c7-acbb-4944-b677-9e7eaf697edc"
+            },
+            "locationId": "UKDVB",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 17
+            }
+          ],
+          "note": "THIS TV TO BE USED IN CASE OF CONTINGENCY",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 5
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVC",
+      "label": "UKDVC",
+      "sectorIds": [
+        "UKDVC"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d0765df7-ef35-411e-88ee-6355497c1064",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "A3D51563001400002BC03F32",
+          "name": "SECTOR 1",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e1242d85-047c-4d24-a248-f7690ecbae21"
+            },
+            "locationId": "UKDVC",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVC325",
+      "label": "UKDVC325",
+      "sectorIds": [
+        "UKDVC",
+        "UKDVC2",
+        "UKDVE",
+        "UKDVE2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2018-05-24T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:73f9de56-9752-475a-b6fe-ac0f86e0e9bf",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1527120000000,
+            "end": 32503593600000
+          },
+          "stateId": "83F9EB5A000500003757A33C",
+          "name": "UKDV SECTOR 1 000-FL325",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:008d8377-531d-4c2a-a1d5-eae4ef377c8b"
+            },
+            "locationId": "UKDVCE325",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1527120000000,
+              "til": 32503593600000,
+              "peak": 11
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVC33W",
+      "label": "UKDVC33W",
+      "sectorIds": [
+        "UKDVC4",
+        "UKDVC5",
+        "UKDVW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:407c28b5-9ffa-452f-955b-8afdcb291bbc",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "7C582356006300004288E5D1",
+          "name": "UKDV SECTOR 2 FL335-660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:bec35ddc-d81e-4336-a963-1ff25b83a2e3"
+            },
+            "locationId": "UKDVC335W",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 11
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVC34W",
+      "label": "UKDVC34W",
+      "sectorIds": [
+        "UKDVC5",
+        "UKDVW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3d5233bb-5934-4f9b-9a41-a0c4a8f50c24",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "9B582356006100004288E5D1",
+          "name": "UKDV SECTOR 2 FL345-660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:473b7afe-c22d-4f8f-97c8-ab2f633bf2a5"
+            },
+            "locationId": "UKDVC345W",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVCE33",
+      "label": "UKDVCE33",
+      "sectorIds": [
+        "UKDVC",
+        "UKDVC2",
+        "UKDVC3",
+        "UKDVE",
+        "UKDVE2",
+        "UKDVE3"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:65cf0db2-0a66-4b29-a257-d87074122cb9",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "AD582356006000004288E5D1",
+          "name": "UKDV SECTOR 1 000-FL335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c73d28fb-586d-450e-93f6-a534aa12d8f5"
+            },
+            "locationId": "UKDVCE335",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVCE34",
+      "label": "UKDVCE34",
+      "sectorIds": [
+        "UKDVC",
+        "UKDVC2",
+        "UKDVC3",
+        "UKDVC4",
+        "UKDVE",
+        "UKDVE2",
+        "UKDVE3",
+        "UKDVE4"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 27,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 9
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d26e5d67-ab10-4fca-9281-f1bf254782b2",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "B6582356009A00004288E5D1",
+          "name": "UKDV SECTOR 1 000-FL345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8c9a51d7-9713-4a2d-a284-234c97ff4c28"
+            },
+            "locationId": "UKDVCE345",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 27
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 9
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVCE35",
+      "label": "UKDVCE35",
+      "sectorIds": [
+        "UKDVC",
+        "UKDVC2",
+        "UKDVC3",
+        "UKDVC4",
+        "UKDVC5",
+        "UKDVE",
+        "UKDVE2",
+        "UKDVE3",
+        "UKDVE4",
+        "UKDVE5"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 8
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3742bc04-50f1-4baf-b5cd-2b0fd1b22f02",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "BE582356006200004288E5D1",
+          "name": "UKDV SECTOR 1 000-FL355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:bdeb006d-5d62-4160-a027-73f35f20cb69"
+            },
+            "locationId": "UKDVCE355",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 8
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVDVT",
+      "label": "UKDVDVT",
+      "sectorIds": [
+        "UKDDTA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c9d91389-4cc6-4f62-8895-3dee6a825572",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "A0D51563000C00002BC03F32",
+          "name": "DNIPROPETROVS'K TMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9cfff82e-25db-4f34-b48e-af22f7f2e87b"
+            },
+            "locationId": "UKDDTA",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 12
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVE",
+      "label": "UKDVE",
+      "sectorIds": [
+        "UKDVE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14
+          },
+          {
+            "durationMinutes": 2,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 1,
+            "sustainedElapsed": 1
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:145dd454-4a8f-4d80-9430-bdb4c4e0844a",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "89D51563005F00002BC03F32",
+          "name": "SECTOR 4",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:96490ba6-6cbc-40d6-9c48-b95ca7e6dbfe"
+            },
+            "locationId": "UKDVE",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "note": "SEE DMR132764",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 14
+            },
+            {
+              "duration": 2,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 1,
+              "sustainedElapsed": 1
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVE325",
+      "label": "UKDVE325",
+      "sectorIds": [
+        "UKDVE3",
+        "UKDVE4",
+        "UKDVE5",
+        "UKDVE6"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:82e2ca01-7505-48e2-a065-d9e1e36ad1b6",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "E6582356006300004288E5D1",
+          "name": "DNIPROPETROVSK SECTOR E DFL325-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:65c5115b-78d7-49af-940f-768bd2f060f8"
+            },
+            "locationId": "UKDVE325",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 14
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVE335",
+      "label": "UKDVE335",
+      "sectorIds": [
+        "UKDVE4",
+        "UKDVE5",
+        "UKDVE6"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 38,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4268bfd9-aa5a-4f49-93e8-765076927eca",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "F1582356006000004288E5D1",
+          "name": "DNIPROPETROVSK SECTOR E DFL335-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:16086797-008d-417e-b02b-5307f2b92113"
+            },
+            "locationId": "UKDVE335",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 38
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 14
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVE345",
+      "label": "UKDVE345",
+      "sectorIds": [
+        "UKDVE5",
+        "UKDVE6"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 38,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 13
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 13
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:902ba768-2b7b-4b54-8c5f-00e795cf6534",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "FD582356005D00004288E5D1",
+          "name": "DNIPROPETROVSK SECTOR E DFL345-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:37b462a4-49d3-4484-9ed4-29f5052dd0c6"
+            },
+            "locationId": "UKDVE345",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 38
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 13
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVE6",
+      "label": "UKDVE6",
+      "sectorIds": [
+        "UKDVE6"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 37,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:5593c018-a697-4f70-97f3-954310a8797e",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "06592356005B00004288E5D1",
+          "name": "DNIPROPETROVSK SECTOR4 DFL355-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:292864bb-7348-4370-be61-74fae06a6f2b"
+            },
+            "locationId": "UKDVE6",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 37
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 12
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVEW32",
+      "label": "UKDVEW32",
+      "sectorIds": [
+        "UKDVC3",
+        "UKDVC4",
+        "UKDVC5",
+        "UKDVE3",
+        "UKDVE4",
+        "UKDVE5",
+        "UKDVE6",
+        "UKDVW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2018-05-24T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c7e7aba0-786b-4f11-a5f7-f2bd70cb0a1f",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1527120000000,
+            "end": 32503593600000
+          },
+          "stateId": "38F9EB5A006D02003757A33C",
+          "name": "UKDV S13-S15+ S2 +S43-S46 DFL325-660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:02207463-77ce-4512-be58-78dce5974365"
+            },
+            "locationId": "UKDVCE325W",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1527120000000,
+              "til": 32503593600000,
+              "peak": 12
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVK",
+      "label": "UKDVK",
+      "sectorIds": [
+        "UKDVB",
+        "UKDVS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2020-05-21T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:578fb1d6-a0ea-4d17-a91d-3d92b1a10a2e",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1590019200000,
+            "end": 32503593600000
+          },
+          "stateId": "108FAA5E000C000026F30E69",
+          "name": "UKDVS+UKDVB",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4887f7c9-97bb-41ea-9d03-d94a37002e2a"
+            },
+            "locationId": "UKDVK",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1590019200000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1590019200000,
+              "til": 32503593600000,
+              "peak": 12
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVN",
+      "label": "UKDVN",
+      "sectorIds": [
+        "UKDVN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12
+          },
+          {
+            "durationMinutes": 2,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 1,
+            "sustainedElapsed": 1
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3bf6b432-4fa7-432a-b331-d1ab68cb523b",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "7CD51563005300002BC03F32",
+          "name": "SECTOR 3",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:259d3f02-5b02-40de-8831-e11b4244e660"
+            },
+            "locationId": "UKDVN",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "note": "SEE DMR132764",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 12
+            },
+            {
+              "duration": 2,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 1,
+              "sustainedElapsed": 1
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVS",
+      "label": "UKDVS",
+      "sectorIds": [
+        "UKDVS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2022-10-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f199fdf5-6a5f-4b35-b6fc-3be24955d5ef",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "77D51563004A00002BC03F32",
+          "name": "SECTOR UKDVS5",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ba8ad5de-2296-49bc-98c1-e5deff96e6a1"
+            },
+            "locationId": "UKDVS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1665014400000,
+              "til": 32503593600000,
+              "peak": 15
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVW",
+      "label": "UKDVW",
+      "sectorIds": [
+        "UKDVW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 38
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:1e573279-c881-477f-ab85-130d44de879a",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "72D51563000100002BC03F32",
+          "name": "SECTOR 2",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7ca96059-d8be-4046-a6bc-90398d0d9114"
+            },
+            "locationId": "UKDVW",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 38
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVW325",
+      "label": "UKDVW325",
+      "sectorIds": [
+        "UKDVC3",
+        "UKDVC4",
+        "UKDVC5",
+        "UKDVW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 41,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2018-05-24T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:fd65dd19-6c74-48a2-9921-6f406daa6868",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1527120000000,
+            "end": 32503593600000
+          },
+          "stateId": "B7F9EB5A001B00003757A33C",
+          "name": "UKDV SECTOR 2 FL325-660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:92ebb034-d7a8-424b-8017-f01346f4ceee"
+            },
+            "locationId": "UKDVC325W",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 41
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1527120000000,
+              "til": 32503593600000,
+              "peak": 15
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKDVWE35",
+      "label": "UKDVWE35",
+      "sectorIds": [
+        "UKDVE6",
+        "UKDVW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2015-11-12T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d853d8a7-711a-40f2-bb90-d60bc595c3f3",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1447286400000,
+            "end": 32503593600000
+          },
+          "stateId": "40592356005000004288E5D1",
+          "name": "UKDV  S2 -S46 FL355-660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:69ec8e48-d0ce-4dff-8b54-17676d93c00d"
+            },
+            "locationId": "UKDVWE355",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1447286400000,
+              "til": 32503593600000,
+              "peak": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKHH",
+      "label": "UKHH",
+      "arrival": [
+        "UKHH"
+      ],
+      "departure": [
+        "UKHH"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:09e8d907-f56d-425b-95d1-05f8dab5f160",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1328745600000,
+            "end": 32503593600000
+          },
+          "stateId": "299A3A4F001D0000E8AFF15A",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:482aabc9-9e36-4b7a-af51-7c599706fc5e"
+            },
+            "locationId": "UKHH",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKHHARR",
+      "label": "UKHHARR",
+      "arrival": [
+        "UKHH"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:815595ba-a5f4-4555-87aa-370859ab3134",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1336003200000,
+            "end": 32503593600000
+          },
+          "stateId": "AF4DBF4F003E0100A683613C",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c5fe67e9-aa2c-4a7e-8f92-1ecfa1430e24"
+            },
+            "locationId": "UKHH",
+            "category": "ARRIVAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1336003200000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 15
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKHHDEP",
+      "label": "UKHHDEP",
+      "departure": [
+        "UKHH"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d3350020-c49e-48c0-b1d0-45a2d04090a9",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1336003200000,
+            "end": 32503593600000
+          },
+          "stateId": "AF4DBF4F001E0100A683613C",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3c363564-3cff-467d-bedc-0601dcdfbe86"
+            },
+            "locationId": "UKHH",
+            "category": "DEPARTURE"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1336003200000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 15
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UKHV1",
+      "label": "UKHV1",
+      "sectorIds": [
+        "UKHHV1"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 28,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-03-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 4
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 4
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:69d9d36a-95aa-4973-803e-e91cb894aea7",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1616630400000,
+            "end": 32503593600000
+          },
+          "stateId": "E8EE4060008D0000AB6BDFA5",
+          "name": "UKHVTC2",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2b7515e9-4f67-4a08-877a-110d69fdc566"
+            },
+            "locationId": "UKHHV1",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 28
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1616630400000,
+              "til": 32503593600000,
+              "peak": 4
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UKHV2",
+      "label": "UKHV2",
+      "sectorIds": [
+        "UKHHV2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 22,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2021-03-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 4
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 4
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:58e0f9fe-14a6-42ea-a82a-b33197034d32",
+        "groups": [
+          "ACCUKDV",
+          "ACCUKDV2",
+          "ACCUKDV3"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1616630400000,
+            "end": 32503593600000
+          },
+          "stateId": "F9EE406000850000AB6BDFA5",
+          "name": "UKHVTC1",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2129f07d-2d9b-4e00-a35b-63d8516b17d6"
+            },
+            "locationId": "UKHHV2",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 22
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1616630400000,
+              "til": 32503593600000,
+              "peak": 4
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    }
+  ]
+}

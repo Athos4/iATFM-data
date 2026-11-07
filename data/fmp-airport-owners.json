@@ -1,0 +1,25 @@
+{
+  "description": "Explicit corrections for airports whose responsible FMP is missing from the imported source. These replace, rather than extend, source associations.",
+  "airports": {
+    "GMMB": {
+      "fmpCodes": ["GMMM"],
+      "source": "https://siamaroc.onda.ma/eaip/ENR/ENR6.1.1.pdf",
+      "reason": "Benslimane is within the Casablanca ACC area on the en-route chart; also resolves the multi-airport GM3M TV."
+    },
+    "GMMT": {
+      "fmpCodes": ["GMMM"],
+      "source": "https://siamaroc.onda.ma/eaip/ENR/ENR6.1.1.pdf",
+      "reason": "Casablanca Tit Mellil is within the Casablanca ACC area on the en-route chart; also resolves the multi-airport GM3M TV."
+    },
+    "GMMN": {
+      "fmpCodes": ["GMMM"],
+      "source": "https://siamaroc.onda.ma/eaip/cartes/AD2GMMN/AD2GMMN31.1-1.pdf",
+      "reason": "Casablanca ACC and Mohammed V APP provide the services. GMMM is the Casablanca ACC indicator (AIP GEN 2.4); APPGMMN's LFBB parent in the export is not operational ownership."
+    },
+    "GMAD": {
+      "fmpCodes": ["GMAC"],
+      "source": "https://siamaroc.onda.ma/amdt/amdtairac/2023/airac1323.pdf",
+      "reason": "Agadir ACC responsibility (AIP ENR 2.1); GMAC is the Agadir ACC indicator (AIP GEN 2.4)."
+    }
+  }
+}

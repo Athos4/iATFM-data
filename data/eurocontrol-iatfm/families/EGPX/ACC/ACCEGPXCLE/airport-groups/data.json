@@ -1,0 +1,14 @@
+[
+  {
+    "azId": "EC858E38B8BD96C670485F",
+    "list": [
+      "EGCC",
+      "EGGP",
+      "EGNR"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:55980fcd-7bdf-4220-bad3-7546b45141bb",
+      "id": "EGCCTMA"
+    }
+  }
+]

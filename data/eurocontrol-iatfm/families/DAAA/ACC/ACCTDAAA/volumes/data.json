@@ -1,0 +1,902 @@
+{
+  "volumes": [
+    {
+      "id": "DAAACW",
+      "label": "DAAACW",
+      "sectorIds": [
+        "DAAANW",
+        "DAAATCL",
+        "DAAATCU"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:d05f8ea0-e7f9-4e84-9fff-09e148a2c4f6",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "83FBF468007D0000A8E59326",
+          "name": "DAAATC + DAAANW ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6f106660-494e-422c-ad3d-119a1a5eaed0"
+            },
+            "locationId": "DAAACW",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DAAAGS",
+      "label": "DAAAGS",
+      "sectorIds": [
+        "DAAASS",
+        "DAAASW"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:6019bcf3-f448-4779-9f35-b293642d21a2",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "B7FBF46800020000A8E59326",
+          "name": "DAAASS + DAAASW",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e52deaf6-6349-4461-acbb-32727eeaeccc"
+            },
+            "locationId": "DAAAGS",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DAAAMS",
+      "label": "DAAAMS",
+      "sectorIds": [
+        "DAAASC",
+        "DAAASE"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:af4bab2f-6f5e-4e18-a895-7055cd7aabfb",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "64FBF46800620000A8E59326",
+          "name": "DAAASE + DAAASC",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:74bc084e-d39f-4245-813f-f67751b4de60"
+            },
+            "locationId": "DAAAMS",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DAAANW",
+      "label": "DAAANW",
+      "sectorIds": [
+        "DAAANW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6e004073-15c4-46c7-8293-a61ec7ff9f95",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1558569600000,
+            "end": 32503593600000
+          },
+          "stateId": "D2D5C55C000A00007D5F8D2C",
+          "name": "ALGIERS NORTH/WEST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2cf7a282-7649-4e8f-83ad-3126f82bf449"
+            },
+            "locationId": "DAAANW",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DAAASC",
+      "label": "DAAASC",
+      "sectorIds": [
+        "DAAASC"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:687d8c42-34e2-4d80-adf1-30d064786fd0",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1558569600000,
+            "end": 32503593600000
+          },
+          "stateId": "80D6C55C001000007D5F8D2C",
+          "name": "ALGIERS SOUTH/CENTRE SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f2077288-e640-4d29-af44-45522461b8f8"
+            },
+            "locationId": "DAAASC",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DAAASE",
+      "label": "DAAASE",
+      "sectorIds": [
+        "DAAASE"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:c3ec9bf8-8b28-42fc-8e24-8cdeb56cc56b",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1558569600000,
+            "end": 32503593600000
+          },
+          "stateId": "99D6C55C000900007D5F8D2C",
+          "name": "ALGIERS SOUTH/EAST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e20eb800-b5e2-4f5a-89ae-20af21bc4775"
+            },
+            "locationId": "DAAASE",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DAAASS",
+      "label": "DAAASS",
+      "sectorIds": [
+        "DAAASS"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:9b1dd128-d4c0-4284-b904-2dc3443e3489",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1558569600000,
+            "end": 32503593600000
+          },
+          "stateId": "F7D6C55C007A04007D5F8D2C",
+          "name": "ALGIERS SOUTH/SOUTH SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6076842b-2fb6-41dc-a4dc-54f8007d0527"
+            },
+            "locationId": "DAAASS",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DAAASW",
+      "label": "DAAASW",
+      "sectorIds": [
+        "DAAASW"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:4ceb2c9c-026c-4897-9eb1-3197d4ebf2fe",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1558569600000,
+            "end": 32503593600000
+          },
+          "stateId": "D4D6C55C000100007D5F8D2C",
+          "name": "ALGIERS SOUTH/WEST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4857c8b8-7681-498e-a1b3-b922d7ab3881"
+            },
+            "locationId": "DAAASW",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DAAATC",
+      "label": "DAAATC",
+      "sectorIds": [
+        "DAAATCL",
+        "DAAATCU"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:723692d8-c168-41c7-a3e5-1649483dd56e",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "E8F9F46800060000A8E59326",
+          "name": "ALGIERS CENTRE SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:5768a1ca-a0f0-4619-8235-74bd4af2322b"
+            },
+            "locationId": "DAAATC",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DAAATCL",
+      "label": "DAAATCL",
+      "sectorIds": [
+        "DAAATCL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:707d96d2-6fcd-409d-8a99-992edfe95395",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "22FCF468000C0000A8E59326",
+          "name": "DAAATC GND-245",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:06b0599b-3662-48a3-884f-cb5d65ffc306"
+            },
+            "locationId": "DAAATCL",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DAAATCOV",
+      "label": "DAAATCOV",
+      "sectorIds": [
+        "DAAATCL",
+        "DAAATCU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADDAAGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADDAAGD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADDAAKA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADDAAKD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:889f649e-09a2-4e3e-ba44-4f0f4450fa1d",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "16FAF468002A0000A8E59326",
+          "name": "OVERF DAAATC",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:5768a1ca-a0f0-4619-8235-74bd4af2322b"
+            },
+            "locationId": "DAAATC",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:e73eb0de-cbfd-4b1d-95e2-848dd841c603"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:68988285-8d91-4fb9-9f1f-2f4fa787b28d"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:86b93fd3-dc69-4f15-a19b-e452189be048"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:92ef58b4-8464-4829-8a26-4fff977467a0"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "note": "COUNT ALL TRC FOR AS DAAATC EXCEPT TFC FROM/TO: DAAG AND DAAK",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DAAATCU",
+      "label": "DAAATCU",
+      "sectorIds": [
+        "DAAATCU"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:20c24aa4-6e6d-4f94-ae64-4f44eef4fd46",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "11FCF468005E0000A8E59326",
+          "name": "DAAATC 245-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:29c95ffe-68f0-42df-986d-4eb13af4c76b"
+            },
+            "locationId": "DAAATCU",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DAAATNE",
+      "label": "DAAATNE",
+      "sectorIds": [
+        "DAAATNE"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:94433f9d-fcc0-4688-b1a9-4c6ea74ade91",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1558569600000,
+            "end": 32503593600000
+          },
+          "stateId": "FBD4C55C000900007D5F8D2C",
+          "name": "ALGIERS NORTH EAST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:da4b1c0b-3411-464f-a7e4-58589154cb6d"
+            },
+            "locationId": "DAAATNE",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DALFSTK1",
+      "label": "DALFSTK1",
+      "sectorIds": [
+        "DAAATNE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 42
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECCEC58B5E9D70F3135DBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZECCEC58B5E9D70F3135DBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTTBS"
+            ],
+            [
+              "ASDAAASE"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASDAAASE"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTBS"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:47374095-f88d-4855-b075-383297937a39",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1469059200000,
+            "end": 32503593600000
+          },
+          "stateId": "8C496E57003A0000F6A70B3D",
+          "name": "LFMMSTRIKE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:da4b1c0b-3411-464f-a7e4-58589154cb6d"
+            },
+            "locationId": "DAAATNE",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f9cb4c51-1f7b-48ae-bb10-930a8293a7b0"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:19303019-0a3b-4742-bed5-6538e58f4b46"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4d3d625f-0dbe-450b-aafa-550597fb23d9"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:28a974a3-3f97-47ac-a44a-2c5b49381116"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 42
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DAOOARR",
+      "label": "DAOOARR",
+      "sectorIds": [
+        "DAAANW"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADDAOOA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:ccfee479-0617-488c-ad2f-8e7d4fa5e1f3",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1657756800000,
+            "end": 32503593600000
+          },
+          "stateId": "D06CC262006B00003EEF3842",
+          "name": "DAOO ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2cf7a282-7649-4e8f-83ad-3126f82bf449"
+            },
+            "locationId": "DAAANW",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:55027bfc-efae-4361-814b-97f5c41f4b46"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DATNEOV",
+      "label": "DATNEOV",
+      "sectorIds": [
+        "DAAATNE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECCEC58B5E9D70F3135DBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZECCEC58B5E9D70F3135DBA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:cd75d63b-29b5-49a9-8e18-dac3da08f895",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1759363200000,
+            "end": 32503593600000
+          },
+          "stateId": "4B36B3680042000068B1AEA6",
+          "name": "OVERF DAAATNE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:da4b1c0b-3411-464f-a7e4-58589154cb6d"
+            },
+            "locationId": "DAAATNE",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f9cb4c51-1f7b-48ae-bb10-930a8293a7b0"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:19303019-0a3b-4742-bed5-6538e58f4b46"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "SADLUX",
+      "label": "SADLUX",
+      "sectorIds": [
+        "DAAATCL",
+        "DAAATCU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLECBCTA"
+            ],
+            [
+              "PTSADAF"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLECBCTA"
+            ],
+            [
+              "PTLUXUR"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:ab48796e-9263-4228-a636-b666ff9918b5",
+        "groups": [
+          "ACCDAAA",
+          "ACCTDAAA"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "26FAF468000A0000A8E59326",
+          "name": "TRAFFIC FROM BARCELONA TO ALGERIA VIA SADAF OR LUXUR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:5768a1ca-a0f0-4619-8235-74bd4af2322b"
+            },
+            "locationId": "DAAATC",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:8c95d65a-ce16-4303-a88c-7b4d83784126"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:465a8a6d-08f7-42c8-a63e-41d1f1ec883d"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

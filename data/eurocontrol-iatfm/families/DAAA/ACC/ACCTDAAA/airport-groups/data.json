@@ -1,0 +1,77 @@
+[
+  {
+    "azId": "EC18E912F9780A662F06A9",
+    "list": [
+      "DAAE",
+      "DAAS",
+      "DAAV",
+      "DABB",
+      "DABC",
+      "DABS",
+      "DABT",
+      "DAUB"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:4c77a82e-ec16-46a8-8bbf-3ecbdff119c6",
+      "id": "DANE"
+    }
+  },
+  {
+    "azId": "ECCEC58B5E9D70F3135DBA",
+    "list": [
+      "DAAB",
+      "DAAD",
+      "DAAE",
+      "DAAF",
+      "DAAG",
+      "DAAJ",
+      "DAAK",
+      "DAAM",
+      "DAAN",
+      "DAAP",
+      "DAAQ",
+      "DAAS",
+      "DAAT",
+      "DAAV",
+      "DAAW",
+      "DAAY",
+      "DAAZ",
+      "DABB",
+      "DABC",
+      "DABP",
+      "DABS",
+      "DABT",
+      "DAFH",
+      "DAFI",
+      "DAOB",
+      "DAOE",
+      "DAOF",
+      "DAOI",
+      "DAOL",
+      "DAON",
+      "DAOO",
+      "DAOR",
+      "DAOS",
+      "DAOV",
+      "DAOY",
+      "DATG",
+      "DATM",
+      "DAUA",
+      "DAUB",
+      "DAUE",
+      "DAUG",
+      "DAUH",
+      "DAUI",
+      "DAUK",
+      "DAUL",
+      "DAUO",
+      "DAUT",
+      "DAUU",
+      "DAUZ"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:c9a9b56b-46fe-4315-bb22-899e430ea0f4",
+      "id": "DA"
+    }
+  }
+]

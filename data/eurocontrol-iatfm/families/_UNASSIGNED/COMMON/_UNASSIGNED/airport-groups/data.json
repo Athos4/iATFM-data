@@ -1,0 +1,14 @@
+[
+  {
+    "azId": "EC3E65B883894B8DFB592E",
+    "list": [
+      "EDDL",
+      "EDLP",
+      "EDLW"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:a665741d-c4d5-4482-96a8-f5230fab3adf",
+      "id": "EDLKW"
+    }
+  }
+]
