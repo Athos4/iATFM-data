@@ -2,106 +2,150 @@
   {
     "id": "EDWWALR",
     "positionPriority": [
+      "EDWW_W_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWBOR",
     "positionPriority": [
+      "EDWW_E_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWDBAN",
     "positionPriority": [
+      "EDDB_N_APP",
+      "EDDB_APP",
+      "EDWW_E_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWDBANT",
-    "positionPriority": []
+    "positionPriority": [
+      "EDDB_F_APP",
+      "EDDB_N_APP",
+      "EDDB_APP",
+      "EDWW_E_CTR",
+      "EDWW_CTR"
+    ]
   },
   {
     "id": "EDWWDBAS",
     "positionPriority": [
+      "EDDB_S_APP",
+      "EDDB_APP",
+      "EDWW_E_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWDBAST",
-    "positionPriority": []
+    "positionPriority": [
+      "EDDB_F_APP",
+      "EDDB_S_APP",
+      "EDDB_APP",
+      "EDWW_E_CTR",
+      "EDWW_CTR"
+    ]
   },
   {
     "id": "EDWWDBDN",
     "positionPriority": [
+      "EDDB_DEP",
+      "EDDB_APP",
+      "EDWW_E_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWDBDS",
     "positionPriority": [
+      "EDDB_DEP",
+      "EDDB_APP",
+      "EDWW_E_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWDEPH",
-    "positionPriority": []
+    "positionPriority": [
+      "EDWW_E_CTR",
+      "EDWW_CTR"
+    ]
   },
   {
     "id": "EDWWEID",
     "positionPriority": [
+      "EDWW_W_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWEMS",
     "positionPriority": [
+      "EDWW_W_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWFLGH",
-    "positionPriority": []
+    "positionPriority": [
+      "EDWW_E_CTR",
+      "EDWW_CTR"
+    ]
   },
   {
     "id": "EDWWFRI",
     "positionPriority": [
+      "EDDW_APP",
+      "EDWW_W_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWHAM",
     "positionPriority": [
+      "EDDH_APP",
+      "EDWW_W_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWHAN",
     "positionPriority": [
+      "EDDV_APP",
+      "EDWW_W_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWHEI",
     "positionPriority": [
+      "EDWW_W_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWHRZ",
     "positionPriority": [
+      "EDWW_W_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWMAR",
     "positionPriority": [
+      "EDWW_W_CTR",
       "EDWW_CTR"
     ]
   },
   {
     "id": "EDWWMRZ",
     "positionPriority": [
+      "EDWW_W_CTR",
       "EDWW_CTR"
     ]
   }
