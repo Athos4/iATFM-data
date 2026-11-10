@@ -50,7 +50,12 @@
   },
   {
     "id": "LFFFEGA",
-    "positionPriority": []
+    "positionPriority": [
+      "LFPO_APP",
+      "LFPG_APP",
+      "LFFF_W_CTR",
+      "LFFF_CTR"
+    ]
   },
   {
     "id": "LFFFHP",
@@ -269,50 +274,100 @@
   },
   {
     "id": "LFOATA",
-    "positionPriority": []
+    "positionPriority": [
+      "LFOA_APP",
+      "LFFF_MIL_CTR",
+      "LFFF_E_CTR",
+      "LFFF_CTR"
+    ]
   },
   {
     "id": "LFOBTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LFOB_APP",
+      "LFPG_APP",
+      "LFFF_W_CTR",
+      "LFFF_CTR"
+    ]
   },
   {
     "id": "LFPMSB",
-    "positionPriority": []
+    "positionPriority": [
+      "LFPM_APP",
+      "LFFF_W_CTR",
+      "LFFF_CTR"
+    ]
   },
   {
     "id": "LFPMSI",
-    "positionPriority": []
+    "positionPriority": [
+      "LFPM_APP",
+      "LFFF_E_CTR",
+      "LFFF_CTR"
+    ]
   },
   {
     "id": "LFPMSJ",
-    "positionPriority": []
+    "positionPriority": [
+      "LFPM_APP",
+      "LFFF_E_CTR",
+      "LFFF_CTR"
+    ]
   },
   {
     "id": "LFPMSO",
-    "positionPriority": []
+    "positionPriority": [
+      "LFPM_APP",
+      "LFFF_E_CTR",
+      "LFFF_CTR"
+    ]
   },
   {
     "id": "LFPMSR",
-    "positionPriority": []
+    "positionPriority": [
+      "LFPM_APP",
+      "LFFF_E_CTR",
+      "LFFF_CTR"
+    ]
   },
   {
     "id": "LFPMSY",
-    "positionPriority": []
+    "positionPriority": [
+      "LFPM_APP",
+      "LFFF_W_CTR",
+      "LFFF_CTR"
+    ]
   },
   {
     "id": "LFQQD",
-    "positionPriority": []
+    "positionPriority": [
+      "LFQQ_APP",
+      "LFFF_W_CTR",
+      "LFFF_CTR"
+    ]
   },
   {
     "id": "LFQQFISE",
-    "positionPriority": []
+    "positionPriority": [
+      "LFQQ_APP",
+      "LFFF_W_CTR",
+      "LFFF_CTR"
+    ]
   },
   {
     "id": "LFQQFISW",
-    "positionPriority": []
+    "positionPriority": [
+      "LFQQ_APP",
+      "LFFF_W_CTR",
+      "LFFF_CTR"
+    ]
   },
   {
     "id": "LFQQR",
-    "positionPriority": []
+    "positionPriority": [
+      "LFQQ_APP",
+      "LFFF_W_CTR",
+      "LFFF_CTR"
+    ]
   }
 ]
