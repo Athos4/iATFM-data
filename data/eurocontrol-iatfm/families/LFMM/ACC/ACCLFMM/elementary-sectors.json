@@ -1,15 +1,15 @@
 [
   {
     "id": "LFKBFIS",
-    "positionPriority": []
+    "positionPriority": ["LFKB_APP","LFMM_E_CTR","LFMM_CTR"]
   },
   {
     "id": "LFKJFIS",
-    "positionPriority": []
+    "positionPriority": ["LFKJ_APP","LFMM_E_CTR","LFMM_CTR"]
   },
   {
     "id": "LFLBTA",
-    "positionPriority": []
+    "positionPriority": ["LFKB_APP","LFMM_W_CTR","LFMM_CTR"]
   },
   {
     "id": "LFLCCF",
@@ -22,31 +22,55 @@
   },
   {
     "id": "LFLCCK",
-    "positionPriority": []
+    "positionPriority": [
+      "LFLC_CK_APP",
+      "LFLC_APP",
+      "LFMM_W_CTR",
+      "LFMM_CTR"
+    ]
   },
   {
     "id": "LFLCCL",
-    "positionPriority": []
+    "positionPriority": [
+      "LFLC_CL_APP",
+      "LFLC_APP",
+      "LFMM_W_CTR",
+      "LFMM_CTR"
+    ]
   },
   {
     "id": "LFLCCN",
-    "positionPriority": []
+    "positionPriority": [
+      "LFLC_CN_APP",
+      "LFLC_APP",
+      "LFMM_W_CTR",
+      "LFMM_CTR"
+    ]
   },
   {
     "id": "LFLCCY",
-    "positionPriority": []
+    "positionPriority": [
+      "LFLC_CY_APP",
+      "LFLC_APP",
+      "LFMM_W_CTR",
+      "LFMM_CTR"
+    ]
   },
   {
     "id": "LFLLTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LFLL_APP",
+      "LFMM_W_CTR",
+      "LFMM_CTR"
+    ]
   },
   {
     "id": "LFMITA",
-    "positionPriority": []
+    "positionPriority": ["LFMI_APP","LFMM_MIL_CTR","LFMM_W_CTR","LFMM_CTR"]
   },
   {
     "id": "LFMITAC",
-    "positionPriority": []
+    "positionPriority": ["LFMI_APP","LFMM_MIL_CTR","LFMM_W_CTR","LFMM_CTR"]
   },
   {
     "id": "LFMMA1",
@@ -124,19 +148,31 @@
   },
   {
     "id": "LFMMD1",
-    "positionPriority": []
+    "positionPriority": [
+      "LFMM_E_CTR",
+      "LFMM_CTR"
+    ]
   },
   {
     "id": "LFMMD2",
-    "positionPriority": []
+    "positionPriority": [
+      "LFMM_E_CTR",
+      "LFMM_CTR"
+    ]
   },
   {
     "id": "LFMMD3",
-    "positionPriority": []
+    "positionPriority": [
+      "LFMM_E_CTR",
+      "LFMM_CTR"
+    ]
   },
   {
     "id": "LFMMD4",
-    "positionPriority": []
+    "positionPriority": [
+      "LFMM_E_CTR",
+      "LFMM_CTR"
+    ]
   },
   {
     "id": "LFMME1",
@@ -430,14 +466,19 @@
   },
   {
     "id": "LFTHTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LFTH_APP",
+      "LFMN_APP",
+      "LFMM_E_CTR",
+      "LFMM_CTR"
+    ]
   },
   {
     "id": "LFTWTAN",
-    "positionPriority": []
+    "positionPriority": ["LFMI_APP","LFMM_MIL_CTR","LFMT_APP","LFMM_W_CTR","LFMM_CTR"]
   },
   {
     "id": "LFTWTAS",
-    "positionPriority": []
+    "positionPriority": ["LFMI_APP","LFMM_MIL_CTR","LFMT_APP","LFMM_W_CTR","LFMM_CTR"]
   }
 ]
