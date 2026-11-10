@@ -379,39 +379,78 @@
   },
   {
     "id": "LFBDTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LFBD_APP",
+      "LFBB_N_CTR",
+      "LFBB_CTR"
+    ]
   },
   {
     "id": "LFBHTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LFBH_APP",
+      "LFBD_APP",
+      "LFBB_N_CTR",
+      "LFBB_CTR"
+    ]
   },
   {
     "id": "LFBITA",
-    "positionPriority": []
+    "positionPriority": [
+      "LFBI_APP",
+      "LFBB_N_CTR",
+      "LFBB_CTR"
+    ]
   },
   {
     "id": "LFBLTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LFBL_APP",
+      "LFBB_N_CTR",
+      "LFBB_CTR"
+    ]
   },
   {
     "id": "LFBOFIS",
-    "positionPriority": []
+    "positionPriority": [
+      "LFBO_APP",
+      "LFBB_N_CTR",
+      "LFBB_CTR"
+    ]
   },
   {
     "id": "LFBPFIS",
-    "positionPriority": []
+    "positionPriority": [
+      "LFBO_APP",
+      "LFBB_N_CTR",
+      "LFBB_CTR"
+    ]
   },
   {
     "id": "LFBZFIS",
-    "positionPriority": []
+    "positionPriority": [
+      "LFBO_APP",
+      "LFBB_N_CTR",
+      "LFBB_CTR"
+    ]
   },
   {
     "id": "LFLNTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LFLN_APP",
+      "LFLC_APP",
+      "LFMM_W_CTR",
+      "LFMM_CTR"
+    ]
   },
   {
     "id": "LFMLMA",
-    "positionPriority": []
+    "positionPriority": [
+      "LFML_MA_APP",
+      "LFML_APP",
+      "LFMM_W_CTR",
+      "LFMM_CTR"
+    ]
   },
   {
     "id": "LFMLMB",
