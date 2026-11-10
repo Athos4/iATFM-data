@@ -11167,6 +11167,16 @@
       }
     },
     {
+      "id": "EGLLARR",
+      "label": "EGLL ARR",
+      "arrival": [
+        "EGLL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 55
+      }
+    },
+    {
       "id": "EGLLAT0",
       "label": "EGLLAT0",
       "arrival": [
