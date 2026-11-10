@@ -1,19 +1,47 @@
 [
   {
     "id": "EDUUALP14",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_ISA_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_S_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUALP24",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_ISA_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_S_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUALP34",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_ISA_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_S_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUALP44",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_ISA_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_S_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUALPWX",
@@ -21,19 +49,47 @@
   },
   {
     "id": "EDUUAMM14",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_ISA_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_S_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUAMM24",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_ISA_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_S_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUAMM34",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_ISA_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_S_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUAMM44",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_ISA_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_S_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUAOIFMP",
@@ -41,47 +97,128 @@
   },
   {
     "id": "EDUUDON14",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_ISA_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_S_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUDON24",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_ISA_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_S_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUDON34",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_ISA_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_S_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUDON44",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_ISA_CTR",
+      "EDUU_HS_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_FS_CTR",
+      "EDUU_CTR",
+      "EDMM_S_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUERL14",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_SAL_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_N_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUERL24",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_SAL_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_N_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUERL34",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_SAL_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_N_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUERL44",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_SAL_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_N_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUFFM14",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_FUL_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FW_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_CTR",
+      "EDGG_N_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUFFM24",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_FUL_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FW_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_CTR",
+      "EDGG_N_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUFFM34",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_FUL_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FW_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_CTR",
+      "EDGG_N_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUFFM37",
@@ -89,47 +226,115 @@
   },
   {
     "id": "EDUUFFM44",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_FUL_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FW_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_CTR",
+      "EDGG_N_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUFUL13",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_FUL_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FW_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_CTR",
+      "EDGG_N_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUFUL23",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_FUL_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FW_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_CTR",
+      "EDGG_N_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUFUL33",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_FUL_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FW_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_CTR",
+      "EDGG_N_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUHVL12",
     "positionPriority": [
-      "EDUU_CTR"
+      "EDUU_HVL_CTR",
+      "EDUU_HS_CTR",
+      "EDUU_CTR",
+      "EDWW_E_CTR",
+      "EDWW_CTR"
     ]
   },
   {
     "id": "EDUUHVL22",
     "positionPriority": [
-      "EDUU_CTR"
+      "EDUU_HVL_CTR",
+      "EDUU_HS_CTR",
+      "EDUU_CTR",
+      "EDWW_E_CTR",
+      "EDWW_CTR"
     ]
   },
   {
     "id": "EDUUNTM14",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_NTM_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUNTM24",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_NTM_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUNTM34",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_NTM_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUNTM44",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_NTM_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUOHAP38",
@@ -142,13 +347,21 @@
   {
     "id": "EDUUOSE12",
     "positionPriority": [
-      "EDUU_CTR"
+      "EDUU_HVL_CTR",
+      "EDUU_HS_CTR",
+      "EDUU_CTR",
+      "EDWW_E_CTR",
+      "EDWW_CTR"
     ]
   },
   {
     "id": "EDUUOSE22",
     "positionPriority": [
-      "EDUU_CTR"
+      "EDUU_HVL_CTR",
+      "EDUU_HS_CTR",
+      "EDUU_CTR",
+      "EDWW_E_CTR",
+      "EDWW_CTR"
     ]
   },
   {
@@ -165,58 +378,166 @@
   },
   {
     "id": "EDUUSAL12",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_SAL_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_N_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUSAL22",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_SAL_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_N_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUSLN13",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_WUR_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUSLN23",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_WUR_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUSLN33",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_WUR_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUSPE12",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_SAL_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_N_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUSPE22",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_SAL_CTR",
+      "EDUU_SI_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDMM_N_CTR",
+      "EDMM_CTR"
+    ]
   },
   {
     "id": "EDUUTGO13",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_WUR_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUTGO23",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_WUR_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUTGO33",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_WUR_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUWUR14",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_WUR_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUWUR24",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_WUR_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUWUR34",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_WUR_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   },
   {
     "id": "EDUUWUR44",
-    "positionPriority": []
+    "positionPriority": [
+      "EDUU_WUR_CTR",
+      "EDUU_FN_CTR",
+      "EDUU_FWN_CTR",
+      "EDUU_WI_CTR",
+      "EDUU_CTR",
+      "EDGG_S_CTR",
+      "EDGG_CTR"
+    ]
   }
 ]
