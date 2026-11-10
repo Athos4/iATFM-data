@@ -1,7 +1,10 @@
 [
   {
     "id": "EGGXALL",
-    "positionPriority": []
+    "positionPriority": [
+      "EGGX_CTR",
+      "EGGX_SG_CTR"
+    ]
   },
   {
     "id": "EGGXBEGAS",

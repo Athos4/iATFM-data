@@ -1,28 +1,52 @@
 [
   {
     "id": "EGPBALL",
-    "positionPriority": []
+    "positionPriority": [
+      "EGPB_APP",
+      "EGPX_U1_CTR",
+      "EGPX_CTR"
+    ]
   },
   {
     "id": "EGPBCR",
-    "positionPriority": []
+    "positionPriority": [
+      "EGPB_APP",
+      "EGPX_U1_CTR",
+      "EGPX_CTR"
+    ]
   },
   {
     "id": "EGPDCR",
-    "positionPriority": []
+    "positionPriority": [
+      "EGPD_APP",
+      "EGPX_U1_CTR",
+      "EGPX_CTR"
+    ]
   },
   {
     "id": "EGPFCR",
-    "positionPriority": []
+    "positionPriority": [
+      "EGPF_APP",
+      "EGPX_L2_CTR",
+      "EGPX_DX_CTR",
+      "EGPX_CTR"
+    ]
   },
   {
     "id": "EGPHCR",
-    "positionPriority": []
+    "positionPriority": [
+      "EGPH_APP",
+      "EGPX_L2_CTR",
+      "EGPX_DX_CTR",
+      "EGPX_CTR"
+    ]
   },
   {
     "id": "EGPX29G",
     "positionPriority": [
-      "EGPX_M_CTR"
+      "EGPX_M_CTR",
+      "EGTT_N_CTR",
+      "EGTT_CTR"
     ]
   },
   {
@@ -30,13 +54,14 @@
     "positionPriority": [
       "EGPX_L2_CTR",
       "EGPX_DX_CTR",
+      "EGPX_U2_CTR",
       "EGPX_CTR"
     ]
   },
   {
     "id": "EGPXBDS",
     "positionPriority": [
-      "EGPX_BDS_CTR",
+      "EGPX_DX_CTR",
       "EGPX_CTR"
     ]
   },
@@ -46,11 +71,17 @@
   },
   {
     "id": "EGPXCNN",
-    "positionPriority": []
+    "positionPriority": [
+      "EGPX_U2_CTR",
+      "EGPX_CTR"
+    ]
   },
   {
     "id": "EGPXCNS",
-    "positionPriority": []
+    "positionPriority": [
+      "EGPX_U2_CTR",
+      "EGPX_CTR"
+    ]
   },
   {
     "id": "EGPXCNT",
@@ -66,13 +97,15 @@
   {
     "id": "EGPXEE",
     "positionPriority": [
-      "EGPX_M_CTR"
+      "EGPX_M_CTR",
+      "EGTT_N_CTR",
+      "EGTT_CTR"
     ]
   },
   {
     "id": "EGPXGRP",
     "positionPriority": [
-      "EGPX_GRP_CTR",
+      "EGPX_DX_CTR",
       "EGPX_CTR"
     ]
   },
@@ -101,7 +134,10 @@
   },
   {
     "id": "EGPXHLN",
-    "positionPriority": []
+    "positionPriority": [
+      "EGPX_U2_CTR",
+      "EGPX_CTR"
+    ]
   },
   {
     "id": "EGPXHUE",
@@ -120,7 +156,9 @@
   {
     "id": "EGPXIOM",
     "positionPriority": [
-      "EGPX_M_CTR"
+      "EGPX_M_CTR",
+      "EGTT_N_CTR",
+      "EGTT_CTR"
     ]
   },
   {
@@ -139,12 +177,16 @@
   },
   {
     "id": "EGPXN",
-    "positionPriority": []
+    "positionPriority": [
+      "EGPX_M_CTR",
+      "EGTT_N_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGPXPEN",
     "positionPriority": [
-      "EGPX_PEN_CTR",
+      "EGPX_DX_CTR",
       "EGPX_CTR"
     ]
   },
@@ -165,7 +207,10 @@
   },
   {
     "id": "EGPXRAW",
-    "positionPriority": []
+    "positionPriority": [
+      "EGPX_U2_CTR",
+      "EGPX_CTR"
+    ]
   },
   {
     "id": "EGPXSOL",
@@ -177,7 +222,9 @@
   {
     "id": "EGPXSTF",
     "positionPriority": [
-      "EGPX_M_CTR"
+      "EGPX_M_CTR",
+      "EGTT_N_CTR",
+      "EGTT_CTR"
     ]
   },
   {
@@ -206,7 +253,9 @@
   {
     "id": "EGPXTNT",
     "positionPriority": [
-      "EGPX_M_CTR"
+      "EGPX_M_CTR",
+      "EGTT_N_CTR",
+      "EGTT_CTR"
     ]
   },
   {
@@ -223,11 +272,16 @@
   {
     "id": "EGPXWAL",
     "positionPriority": [
-      "EGPX_M_CTR"
+      "EGPX_M_CTR",
+      "EGTT_N_CTR",
+      "EGTT_CTR"
     ]
   },
   {
     "id": "EGPXWES",
-    "positionPriority": []
+    "positionPriority": [
+      "EGPX_U2_CTR",
+      "EGPX_CTR"
+    ]
   }
 ]

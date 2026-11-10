@@ -1,23 +1,54 @@
 [
   {
     "id": "EGBBTA",
-    "positionPriority": []
+    "positionPriority": [
+      "EGBB_APP",
+      "EGTL_NW_CTR",
+      "EGTL_N_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGFFALL",
-    "positionPriority": []
+    "positionPriority": [
+      "EGFF_APP",
+      "EGTT_W_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGGDALL",
-    "positionPriority": []
+    "positionPriority": [
+      "EGGD_APP",
+      "EGFF_APP",
+      "EGTT_W_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGHHCR",
-    "positionPriority": []
+    "positionPriority": [
+      "EGHH_APP",
+      "EGHI_APP",
+      "EGTL_SW_CTR",
+      "EGTL_S_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGHIALL",
-    "positionPriority": []
+    "positionPriority": [
+      "EGHI_APP",
+      "EGTL_SW_CTR",
+      "EGTL_S_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGMHCR",
@@ -25,15 +56,30 @@
   },
   {
     "id": "EGNMTA",
-    "positionPriority": []
+    "positionPriority": [
+      "EGNM_APP",
+      "EGPX_M_CTR",
+      "EGTT_N_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGNVCR",
-    "positionPriority": []
+    "positionPriority": [
+      "EGNV_APP",
+      "EGPX_M_CTR",
+      "EGTT_N_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGNXTA",
-    "positionPriority": []
+    "positionPriority": [
+      "EGNX_APP",
+      "EGTT_C_CTR",
+      "EGTT_N_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTT01LUW",
@@ -163,7 +209,10 @@
   },
   {
     "id": "EGTT19HRE",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTT20HRW",
@@ -188,11 +237,17 @@
   },
   {
     "id": "EGTT23BRS1",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTT_W_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTT23BRS2",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTT_W_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTT24LUN",
@@ -255,15 +310,24 @@
   },
   {
     "id": "EGTT3LKST",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTT_N_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTT4LKST",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTT_N_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTT7WIRT",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTT_N_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTBCNFI",
@@ -271,7 +335,13 @@
   },
   {
     "id": "EGTTBIG",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTL_SE_CTR",
+      "EGTL_S_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTBIGFI",
@@ -283,19 +353,31 @@
   },
   {
     "id": "EGTTBNN",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTT_W_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTBRSFIA",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTT_W_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTBRSFIB",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTT_W_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTCCFIC",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTT_N_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTCLNFI",
@@ -307,15 +389,30 @@
   },
   {
     "id": "EGTTCOW",
-    "positionPriority": []
+    "positionPriority":[
+      "EGTL_NW_CTR",
+      "EGTL_N_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTCPT",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTL_SW_CTR",
+      "EGTL_S_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTDAG",
-    "positionPriority": []
+    "positionPriority":[
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTDLDFI",
@@ -323,7 +420,10 @@
   },
   {
     "id": "EGTTDTS",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTDTYFI",
@@ -353,11 +453,24 @@
   },
   {
     "id": "EGTTJAC",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTL_E_CTR",
+      "EGTL_NE_CTR",
+      "EGTL_N_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTLAM",
-    "positionPriority": []
+    "positionPriority": [
+     "EGTL_NE_CTR",
+      "EGTL_N_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTLAMFI",
@@ -365,7 +478,13 @@
   },
   {
     "id": "EGTTLOR",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTL_NE_CTR",
+      "EGTL_N_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTLORFI",
@@ -381,12 +500,18 @@
   },
   {
     "id": "EGTTNWD",
-    "positionPriority": []
+    "positionPriority": [
+       "EGTL_NW_CTR",
+      "EGTL_N_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTOCK",
     "positionPriority": [
-      "EGTL_SE_CTR",
+      "EGTL_SW_CTR",
       "EGTL_S_CTR",
       "EGTL_CTR",
       "EGTT_S_CTR",
@@ -399,7 +524,14 @@
   },
   {
     "id": "EGTTRED",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTL_E_CTR",
+      "EGTL_NE_CTR",
+      "EGTL_N_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTRVU",
@@ -407,7 +539,14 @@
   },
   {
     "id": "EGTTSAB",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTL_E_CTR",
+      "EGTL_NE_CTR",
+      "EGTL_N_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTSTUFI",
@@ -415,7 +554,13 @@
   },
   {
     "id": "EGTTSWD",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTL_SW_CTR",
+      "EGTL_S_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTTIM",
@@ -429,15 +574,36 @@
   },
   {
     "id": "EGTTTMS",
-    "positionPriority": []
+    "positionPriority": [
+      "EGLC_APP",
+      "EGTL_E_CTR",
+      "EGTL_NE_CTR",
+      "EGTL_N_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTVAT",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTL_E_CTR",
+      "EGTL_NE_CTR",
+      "EGTL_N_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTWEL",
-    "positionPriority": []
+    "positionPriority": [
+      "EGTL_NW_CTR",
+      "EGTL_N_CTR",
+      "EGTL_CTR",
+      "EGTT_S_CTR",
+      "EGTT_CTR"
+    ]
   },
   {
     "id": "EGTTWHRFI",

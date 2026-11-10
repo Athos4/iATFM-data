@@ -1,275 +1,559 @@
 [
   {
     "id": "EISN1AS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN1AU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN1BS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN1BU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN1CS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN1CU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN1DS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN1DU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN1ES",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN1EU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2AS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2AU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2BS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2BU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2CS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2CU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2DS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2DU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2ES",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2EU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2FS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2FU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2GS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN2GU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN3AS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN3AU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN3BS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN3BU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN3CS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN3CU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN3DS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN3DU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN3ES",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN3EU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4AS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4AU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4BS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4BU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4CS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4CU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4DS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4DU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4ES",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4EU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4FS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4FU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4GS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN4GU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISN5AS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN5AU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN5BS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN5BU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN5CS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN5CU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN5DS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN5DU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN5ES",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN5EU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN6AS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN6AU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN6BS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN6BU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN6CS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN6CU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN6DS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISN6DU",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
   },
   {
     "id": "EISNLSN",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_LS_CTR",
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISNLSS",
-    "positionPriority": []
+    "positionPriority": [
+      "EISN_LS_CTR",
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
   },
   {
     "id": "EISNNOTA",
