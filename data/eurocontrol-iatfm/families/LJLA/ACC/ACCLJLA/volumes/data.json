@@ -1,0 +1,6821 @@
+{
+  "volumes": [
+    {
+      "id": "LJ0019",
+      "label": "LJ0019",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA0019B"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:25116e98-68cd-4f07-8237-5b8a1da2df56",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "509A926A001F0000BE1E59AA",
+          "name": "FL000-195",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:194d95c9-e984-42e5-aa5a-151ea527d81c"
+            },
+            "locationId": "LJLA0019",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1790812800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "autoDSTChangeEnabled": true,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ0019A",
+      "label": "LJ0019A",
+      "sectorIds": [
+        "LJLA0019A"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 22
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8276f184-9a94-4326-829a-f69f8301c65b",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "A393066A000407009A962E35",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:801502a2-cd73-4b20-b974-5210eb34c08f"
+            },
+            "locationId": "LJLA0019A",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 22
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ0024",
+      "label": "LJ0024",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 34,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:1d498d23-f05c-4fe3-90fd-4d777a282b87",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B6ED0A6A001E00009A962E35",
+          "name": "FL000-245",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a7f9a31b-4754-4453-bb10-1576023e25e5"
+            },
+            "locationId": "LJLA0024",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 34
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ0029",
+      "label": "LJ0029",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 38,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:bfe080cb-f60c-46b8-99c6-13fa8699b855",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B6ED0A6A004800009A962E35",
+          "name": "FL000-295",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:756e7662-c53d-4562-acdd-21fc4ae849f7"
+            },
+            "locationId": "LJLA0029",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 38
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ0030",
+      "label": "LJ0030",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:81de687e-cfb4-4c30-a4cf-69123b774c65",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B6ED0A6A007200009A962E35",
+          "name": "GND - FL305",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c84f1c3a-343f-47c7-ab73-0206c685e2a2"
+            },
+            "locationId": "LJLA0030",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ0031",
+      "label": "LJ0031",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d1352e2a-8d5c-4f51-8f7a-dc89fd25764b",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B7ED0A6A000600009A962E35",
+          "name": "GND - FL315",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b08abe02-8e1a-4fe3-9113-2cd0845c0884"
+            },
+            "locationId": "LJLA0031",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ0032",
+      "label": "LJ0032",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:479844a1-4c54-4f0c-b055-3df41caa81b2",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B7ED0A6A003000009A962E35",
+          "name": "FL000-325",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:20fb9e09-bb45-4376-8ebd-e1cd330a1d88"
+            },
+            "locationId": "LJLA0032",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ0033",
+      "label": "LJ0033",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 41,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2fec8c97-2cf3-4e74-ad11-76718ac3ef00",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B7ED0A6A005A00009A962E35",
+          "name": "FL000-335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:187fbf7c-ae30-4127-ae44-12b2cbec2e8f"
+            },
+            "locationId": "LJLA0033",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 41
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ0034",
+      "label": "LJ0034",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 43,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:9da7ceae-46e3-4c69-9116-90920db0ebaa",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B7ED0A6A008400009A962E35",
+          "name": "FL000-345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c1c28d14-51f8-4dd3-a0b1-c1fb40e16aed"
+            },
+            "locationId": "LJLA0034",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 43
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ0035",
+      "label": "LJ0035",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 43,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6fd4c169-e0e5-4455-a076-667d95ce89cc",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B7ED0A6A00AE00009A962E35",
+          "name": "FL000-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:121dbf19-d3e0-4e0d-ba89-4fbdbd818b79"
+            },
+            "locationId": "LJLA0035",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 43
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ0036",
+      "label": "LJ0036",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 43,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:33c8cf39-3494-4349-8f26-45ca8c5b02f3",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B7ED0A6A00D800009A962E35",
+          "name": "FL000-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:28e7e0d1-7119-4591-8180-ed3809e32c21"
+            },
+            "locationId": "LJLA0036",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 43
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2024",
+      "label": "LJ2024",
+      "sectorIds": [
+        "LJLA2024"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 42
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:83071d89-5c05-4174-a8c3-2216a8f92206",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "ED1BFF69000600009A962E35",
+          "name": "FL195-245",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6432dbd6-573a-4aaa-b372-355ecfecea39"
+            },
+            "locationId": "LJLA2024",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 42
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2032",
+      "label": "LJ2032",
+      "sectorIds": [
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 41,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:cccea1b2-9930-4cfd-94ca-13e4ec0170f9",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B7ED0A6A000201009A962E35",
+          "name": "FL195-325",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d634c67c-1ca1-4d4f-83a8-d74d84411030"
+            },
+            "locationId": "LJLA2032",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 41
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2033",
+      "label": "LJ2033",
+      "sectorIds": [
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 41,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2206e454-fecb-43d6-987f-022d3db70de4",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B7ED0A6A002C01009A962E35",
+          "name": "FL195-335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e662e011-cfa2-41f7-bbcc-00c22ecdca37"
+            },
+            "locationId": "LJLA2033",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 41
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2034",
+      "label": "LJ2034",
+      "sectorIds": [
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:eceef450-6719-4092-b129-2b0e2360e550",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B7ED0A6A005601009A962E35",
+          "name": "FL195-345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:05972ffe-0f5d-4201-8d4e-1e617b87629f"
+            },
+            "locationId": "LJLA2034",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2035",
+      "label": "LJ2035",
+      "sectorIds": [
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:afeb8796-b9d3-4d46-982b-e133093ee4db",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B7ED0A6A008001009A962E35",
+          "name": "FL195-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2c16895c-4817-4524-8614-df492aa6b0a2"
+            },
+            "locationId": "LJLA2035",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2036",
+      "label": "LJ2036",
+      "sectorIds": [
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3e2d35cf-153f-42ef-9016-77cd01361960",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B7ED0A6A00AA01009A962E35",
+          "name": "FL195-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4e1ac272-62cd-498b-a8bd-91c3c365a074"
+            },
+            "locationId": "LJLA2036",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2037",
+      "label": "LJ2037",
+      "sectorIds": [
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:bd882c8d-b378-48bf-90bf-9e1448267e0d",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B7ED0A6A00D401009A962E35",
+          "name": "FL195-375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:948ec882-80c1-439a-8e44-59a6f041f805"
+            },
+            "locationId": "LJLA2037",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2066",
+      "label": "LJ2066",
+      "sectorIds": [
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d028eecd-3977-4ad5-a684-6de75f121eef",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B8ED0A6A000A00009A962E35",
+          "name": "FL195-999",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:87ffc952-94eb-412d-8745-79cc39c1d032"
+            },
+            "locationId": "LJLA2066",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2529",
+      "label": "LJ2529",
+      "sectorIds": [
+        "LJLA2529"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:70781982-5d86-4851-b113-00800b6ae4dd",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "071BFF69000F00009A962E35",
+          "name": "FL245-295",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:445172ee-d77f-481b-a8e6-73b686061ece"
+            },
+            "locationId": "LJLA2529",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2532",
+      "label": "LJ2532",
+      "sectorIds": [
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:1cf8ea7c-7545-46de-9dbf-cc3a7a718a10",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B8ED0A6A003400009A962E35",
+          "name": "FL245-325",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e72b300b-675e-4eb3-8609-49c0afbd6f3d"
+            },
+            "locationId": "LJLA2532",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2533",
+      "label": "LJ2533",
+      "sectorIds": [
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3128674e-4eed-4687-a522-07f15e4031d7",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B8ED0A6A005E00009A962E35",
+          "name": "FL245-335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e047436f-fdaf-43fd-93fa-6d44a6d458ac"
+            },
+            "locationId": "LJLA2533",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2534",
+      "label": "LJ2534",
+      "sectorIds": [
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 49,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:295da61c-f655-4403-b038-324785b3ba8b",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B8ED0A6A008800009A962E35",
+          "name": "FL245-345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9ebdca54-9840-4eac-b633-1fcad6cb9a15"
+            },
+            "locationId": "LJLA2534",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 49
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2535",
+      "label": "LJ2535",
+      "sectorIds": [
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d1434c1f-e274-4515-a2d8-04180828da06",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B8ED0A6A00B200009A962E35",
+          "name": "FL245-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:75953a4a-027b-409b-8039-452492591a9a"
+            },
+            "locationId": "LJLA2535",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2536",
+      "label": "LJ2536",
+      "sectorIds": [
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 51,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:254af4a7-2d0a-4f1f-94f9-5424b1f30e1e",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B8ED0A6A00DC00009A962E35",
+          "name": "FL245-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9d613d68-cf56-474d-8342-b0fa4dfc79e8"
+            },
+            "locationId": "LJLA2536",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 51
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2537",
+      "label": "LJ2537",
+      "sectorIds": [
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 51,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e12626a9-c3a0-448c-8c23-b67d9475c021",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B9ED0A6A000C00009A962E35",
+          "name": "FL245-375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c4e17129-d298-4484-9317-9697fd31682e"
+            },
+            "locationId": "LJLA2537",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 51
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2538",
+      "label": "LJ2538",
+      "sectorIds": [
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 51,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f46ff4ef-a476-4ada-a2b1-a38ee81a434c",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B9ED0A6A003600009A962E35",
+          "name": "FL245-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9341e83b-48ee-4e99-9f3c-ce303972e9b0"
+            },
+            "locationId": "LJLA2538",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 51
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ2566",
+      "label": "LJ2566",
+      "sectorIds": [
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 55,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:5bbf0f1e-cac8-4d30-84c8-da260e861511",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B9ED0A6A006000009A962E35",
+          "name": "FL245-999",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:49a418aa-4c09-491e-b7d2-a092d5f67241"
+            },
+            "locationId": "LJLA2566",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 55
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3032",
+      "label": "LJ3032",
+      "sectorIds": [
+        "LJLA30",
+        "LJLA31",
+        "LJLA32"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:44ad67e3-52f5-42a4-b998-544ccb5c9e00",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B9ED0A6A008A00009A962E35",
+          "name": "FL295-325",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7343e6a0-1c8f-4f52-94cb-8f22431266ce"
+            },
+            "locationId": "LJLA3032",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3033",
+      "label": "LJ3033",
+      "sectorIds": [
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c23e6aff-6e99-4f43-8ac2-9ad8e40eee5f",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B9ED0A6A00B400009A962E35",
+          "name": "FL295-335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:65857482-56e8-4e68-aaae-36dd4f8e6ec2"
+            },
+            "locationId": "LJLA3033",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3034",
+      "label": "LJ3034",
+      "sectorIds": [
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:213dc2e4-415e-45ac-be55-3314754255ff",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B9ED0A6A00DE00009A962E35",
+          "name": "FL295-345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3f27b0a9-5fe5-4f97-98d4-215db103f610"
+            },
+            "locationId": "LJLA3034",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3035",
+      "label": "LJ3035",
+      "sectorIds": [
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6959d478-82a0-4b77-8c8d-4cc1da6452df",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B9ED0A6A000801009A962E35",
+          "name": "FL295-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fb8f3c17-52f9-453a-966a-f270ca519135"
+            },
+            "locationId": "LJLA3035",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3036",
+      "label": "LJ3036",
+      "sectorIds": [
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f4ac53d2-b3fd-4f3a-a57e-ed3a87a2c45b",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BAED0A6A000600009A962E35",
+          "name": "FL295-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:db22f92f-d22a-4e07-ba59-82828cebf39a"
+            },
+            "locationId": "LJLA3036",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3037",
+      "label": "LJ3037",
+      "sectorIds": [
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 52,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:cce81199-b8a1-4017-bfe3-f1ded901672b",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BAED0A6A003000009A962E35",
+          "name": "FL295-375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ec241c24-da74-4a78-b186-8360c07cc512"
+            },
+            "locationId": "LJLA3037",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 52
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3038",
+      "label": "LJ3038",
+      "sectorIds": [
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 52,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:fcc5009f-76af-4c71-94af-5470bde93089",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BAED0A6A005A00009A962E35",
+          "name": "FL295-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fd1246e1-d849-4b67-89c8-ca8525c64eec"
+            },
+            "locationId": "LJLA3038",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 52
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3066",
+      "label": "LJ3066",
+      "sectorIds": [
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 54,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:090669cd-51af-4d91-9500-9ae8b6d0c1fe",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BAED0A6A008400009A962E35",
+          "name": "FL295-999",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7b36b211-9c34-4cd8-8de5-2d8ea4491504"
+            },
+            "locationId": "LJLA3066",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 54
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3133",
+      "label": "LJ3133",
+      "sectorIds": [
+        "LJLA31",
+        "LJLA32",
+        "LJLA33"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 43,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:de73c6e1-39e5-4fec-97ae-165b0a37d487",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BAED0A6A00AE00009A962E35",
+          "name": "FL305 - FL335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7c9527d2-7743-4338-a0ac-6f177ed8e79b"
+            },
+            "locationId": "LJLA3133",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 43
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3134",
+      "label": "LJ3134",
+      "sectorIds": [
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ede32bd6-3a5b-4ddc-8bc8-0e5995305371",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BAED0A6A00D800009A962E35",
+          "name": "FL 305 - FL 345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:370d524e-7661-4686-a2c3-b5f9790803eb"
+            },
+            "locationId": "LJLA3134",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3135",
+      "label": "LJ3135",
+      "sectorIds": [
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:103ba7d2-4612-4b1b-bf98-3c7adbd921dc",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BAED0A6A000201009A962E35",
+          "name": "FL 305 - FL 355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:599befdc-c8b8-495b-9804-3b1a04c6d734"
+            },
+            "locationId": "LJLA3135",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3136",
+      "label": "LJ3136",
+      "sectorIds": [
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:01239610-4085-46d4-b2ed-6faebeb6f26d",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BAED0A6A002C01009A962E35",
+          "name": "FL305 - FL365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0c33b8f0-9285-4ecc-98b2-046e2cf9f28a"
+            },
+            "locationId": "LJLA3136",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3166",
+      "label": "LJ3166",
+      "sectorIds": [
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3d6387fb-43af-4190-b501-f4116c63cd8c",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BAED0A6A005601009A962E35",
+          "name": "FL305 - FL660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2a1a0b7f-5f30-4f5c-b6eb-3ba6a9303994"
+            },
+            "locationId": "LJLA3166",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3233",
+      "label": "LJ3233",
+      "sectorIds": [
+        "LJLA32",
+        "LJLA33"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 43,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0b975feb-f5b5-48d1-aae7-9e047ab366aa",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BBED0A6A002200009A962E35",
+          "name": "FL315 - FL335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ce2b1083-8280-41ba-911f-c4959851fc34"
+            },
+            "locationId": "LJLA3233",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 43
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3234",
+      "label": "LJ3234",
+      "sectorIds": [
+        "LJLA32",
+        "LJLA33",
+        "LJLA34"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:1f24806e-0ec5-4cc1-9300-2a0f5e25ebc0",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BBED0A6A004C00009A962E35",
+          "name": "FL315 - FL345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a35fcf5b-ff5c-423b-98c8-6d93423bbdc9"
+            },
+            "locationId": "LJLA3234",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3236",
+      "label": "LJ3236",
+      "sectorIds": [
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:47a57254-5135-4cdb-a468-2a2713c08f1f",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BBED0A6A007600009A962E35",
+          "name": "FL315 - FL365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a0d7f767-a2e9-4dc8-8fe3-403afcc4bd90"
+            },
+            "locationId": "LJLA3236",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3266",
+      "label": "LJ3266",
+      "sectorIds": [
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:971033ae-6df9-4e3d-80f8-cd8a3a2c16d6",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BBED0A6A00A000009A962E35",
+          "name": "FL315- FL660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1f55b43f-e9e4-44dd-8284-ca30c8f45dd8"
+            },
+            "locationId": "LJLA3266",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ33",
+      "label": "LJ33",
+      "sectorIds": [
+        "LJLA33"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 42,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:73d09303-afd3-4ceb-98fd-1913980504d7",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "C31AFF6900DC00009A962E35",
+          "name": "FL325-335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fa802c53-3cc8-467b-8c32-7eea6553a509"
+            },
+            "locationId": "LJLA33",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 42
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3334",
+      "label": "LJ3334",
+      "sectorIds": [
+        "LJLA33",
+        "LJLA34"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 43,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:351a6395-c91d-4346-97c1-2cd055ed0886",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BCED0A6A000200009A962E35",
+          "name": "FL325-345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ce19489b-ff56-4c6a-8bb4-1ff9f5ce9b17"
+            },
+            "locationId": "LJLA3334",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 43
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3335",
+      "label": "LJ3335",
+      "sectorIds": [
+        "LJLA33",
+        "LJLA34",
+        "LJLA35"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:12bb31af-fbc2-41e0-af33-bdaf13463a48",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BCED0A6A002C00009A962E35",
+          "name": "FL325-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b29a8183-c664-4f61-8a14-400270fdac75"
+            },
+            "locationId": "LJLA3335",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3336",
+      "label": "LJ3336",
+      "sectorIds": [
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:56742c0d-7cdd-4bf0-ac0a-208389e6143d",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BCED0A6A005600009A962E35",
+          "name": "FL325-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:69093245-e33d-4de4-b9b6-16a6e9722422"
+            },
+            "locationId": "LJLA3336",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3337",
+      "label": "LJ3337",
+      "sectorIds": [
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:25c1a2ad-298a-4634-8746-9ae88a394a6a",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BCED0A6A008000009A962E35",
+          "name": "FL325-375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3caae083-787d-4b64-89f5-7d1c8b74625c"
+            },
+            "locationId": "LJLA3337",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3338",
+      "label": "LJ3338",
+      "sectorIds": [
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ff80548d-8a45-4674-b547-0cefd0221ad3",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BDED0A6A001400009A962E35",
+          "name": "FL325-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:729a650b-b82a-40f7-b47f-f05ed080b8d0"
+            },
+            "locationId": "LJLA3338",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3366",
+      "label": "LJ3366",
+      "sectorIds": [
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 11,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 11
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:53665f68-bcee-43f8-8cd1-e04c395c5f49",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BDED0A6A003E00009A962E35",
+          "name": "FL325-999",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8c3d28e4-ee55-405e-897a-b82ed31fd70f"
+            },
+            "locationId": "LJLA3366",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 11,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ34",
+      "label": "LJ34",
+      "sectorIds": [
+        "LJLA34"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 42,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:1dbd7ba9-d83e-4f54-8434-eb4e52803d38",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "C31AFF6900B300009A962E35",
+          "name": "FL335-345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:71620f47-efde-4252-8476-2c118c18c74b"
+            },
+            "locationId": "LJLA34",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 42
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3435",
+      "label": "LJ3435",
+      "sectorIds": [
+        "LJLA34",
+        "LJLA35"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c15edea6-6bf9-481a-b3de-23c7b4c357d4",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BDED0A6A006800009A962E35",
+          "name": "FL335-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a8f4a35f-e30b-4981-94ca-040a83caae88"
+            },
+            "locationId": "LJLA3435",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3436",
+      "label": "LJ3436",
+      "sectorIds": [
+        "LJLA34",
+        "LJLA35",
+        "LJLA36"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:12003e90-2a40-463a-853b-e86bb9667ac9",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BDED0A6A009200009A962E35",
+          "name": "FL335-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:964226e3-d7a0-485e-a354-03714b016c04"
+            },
+            "locationId": "LJLA3436",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3437",
+      "label": "LJ3437",
+      "sectorIds": [
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:69cc1a50-9db5-45ef-9edb-6f723630dca9",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BDED0A6A00BC00009A962E35",
+          "name": "FL335-375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:07eeb018-e8a1-4394-b9fc-39825ee20762"
+            },
+            "locationId": "LJLA3437",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3438",
+      "label": "LJ3438",
+      "sectorIds": [
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:227682d0-a43f-407e-a610-df248d9af519",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BDED0A6A00E600009A962E35",
+          "name": "FL335-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b1c5e15d-287c-4180-bf3b-75afa7657019"
+            },
+            "locationId": "LJLA3438",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3466",
+      "label": "LJ3466",
+      "sectorIds": [
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 52,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 11,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 11
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:7152ede5-09ba-46e1-b394-5613d252be77",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BDED0A6A001001009A962E35",
+          "name": "FL335-999",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3f06487e-6230-48a7-a705-2c1e4b42bb77"
+            },
+            "locationId": "LJLA3466",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 52
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 11,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ35",
+      "label": "LJ35",
+      "sectorIds": [
+        "LJLA35"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 42,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:9b4dc5cd-59d1-4661-8793-adbff5f54d18",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "C31AFF69008A00009A962E35",
+          "name": "FL345-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:efd7906a-7f89-4830-ade5-25e27cdc6d8f"
+            },
+            "locationId": "LJLA35",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 42
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3536",
+      "label": "LJ3536",
+      "sectorIds": [
+        "LJLA35",
+        "LJLA36"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:61b1fc6a-afac-421b-aa18-7aa4e7ae76a9",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BDED0A6A003A01009A962E35",
+          "name": "FL345-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8217a273-f03e-4698-9727-c62a58dff325"
+            },
+            "locationId": "LJLA3536",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3537",
+      "label": "LJ3537",
+      "sectorIds": [
+        "LJLA35",
+        "LJLA36",
+        "LJLA37"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 49,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f7e495c1-cc7c-4273-8405-4f5799c09be1",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BEED0A6A000600009A962E35",
+          "name": "FL345-375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d71b7a19-64ca-4e09-b9fe-f3277a654fc9"
+            },
+            "locationId": "LJLA3537",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 49
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3538",
+      "label": "LJ3538",
+      "sectorIds": [
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 49,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0d2ce8ca-03e4-4595-88ee-abcaf51454c2",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BEED0A6A003000009A962E35",
+          "name": "FL345-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:60e54393-2811-49c2-bab9-491e15189a27"
+            },
+            "locationId": "LJLA3538",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 49
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3566",
+      "label": "LJ3566",
+      "sectorIds": [
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 57,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:85ac5f2a-df43-4f24-9607-00e77317fcff",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BEED0A6A005A00009A962E35",
+          "name": "FL345-999",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7f83972b-36f8-482d-889b-64fbe49fb2ae"
+            },
+            "locationId": "LJLA3566",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 57
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ36",
+      "label": "LJ36",
+      "sectorIds": [
+        "LJLA36"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 42,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:5d5fe659-755a-4cdd-a0b8-c48a29fa3319",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "C31AFF69006100009A962E35",
+          "name": "FL355-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7cc8bbb5-cf09-487c-8298-7599b0e080ab"
+            },
+            "locationId": "LJLA36",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 42
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3637",
+      "label": "LJ3637",
+      "sectorIds": [
+        "LJLA36",
+        "LJLA37"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3b0e6b40-05dc-4047-adf3-899f82258b4f",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BEED0A6A008400009A962E35",
+          "name": "FL355-375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f57ede9f-9474-4705-afad-0de28464ad9d"
+            },
+            "locationId": "LJLA3637",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3638",
+      "label": "LJ3638",
+      "sectorIds": [
+        "LJLA36",
+        "LJLA37",
+        "LJLA38"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:fcebc516-7571-43ff-b02f-c1770bad9f31",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BEED0A6A00AE00009A962E35",
+          "name": "FL355-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:11460aa7-77e6-476a-b5c3-1abc7b22319d"
+            },
+            "locationId": "LJLA3638",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3666",
+      "label": "LJ3666",
+      "sectorIds": [
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 57,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6d1e5327-4066-4fab-b338-b48f67bb85ac",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BEED0A6A00D800009A962E35",
+          "name": "FL355-999",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ea2a545c-b29a-4483-8c78-68de2ef300f2"
+            },
+            "locationId": "LJLA3666",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 57
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ37",
+      "label": "LJ37",
+      "sectorIds": [
+        "LJLA37"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2e8b5142-2fff-43d6-b9b5-50667c5172bc",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "C31AFF69003800009A962E35",
+          "name": "FL365-375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c4149f03-8af0-4fc7-9f56-e8f9d47c0f61"
+            },
+            "locationId": "LJLA37",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3738",
+      "label": "LJ3738",
+      "sectorIds": [
+        "LJLA37",
+        "LJLA38"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 38,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:cf9b4594-5741-4fc9-8e66-cc39a8f5afda",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BEED0A6A000201009A962E35",
+          "name": "FL365-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:74ca1ed3-9312-4731-8c96-8456abac2aaf"
+            },
+            "locationId": "LJLA3738",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 38
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3766",
+      "label": "LJ3766",
+      "sectorIds": [
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 57,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2d00b9e6-8e87-4ab3-9428-3c33883f5344",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BFED0A6A000000009A962E35",
+          "name": "FL365-999",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b28b39eb-f6b9-442c-bd97-e8a739a869da"
+            },
+            "locationId": "LJLA3766",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 57
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ38",
+      "label": "LJ38",
+      "sectorIds": [
+        "LJLA38"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:844d1637-8a75-48ba-b58b-ba86490078f1",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "C31AFF69000F00009A962E35",
+          "name": "FL375-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:711d51e3-4d20-4f63-bc26-5b0d48450d0c"
+            },
+            "locationId": "LJLA38",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3866",
+      "label": "LJ3866",
+      "sectorIds": [
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 56,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0fe1b705-570c-413b-9653-70f11222d6b6",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "BFED0A6A002A00009A962E35",
+          "name": "FL375-999",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8caa5817-ae60-4932-b717-370fde2719f2"
+            },
+            "locationId": "LJLA3866",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 56
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJ3966",
+      "label": "LJ3966",
+      "sectorIds": [
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 54,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 10,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d0a9beb2-5b6e-4a3d-af4f-f70358350ff6",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "DB15FF69004A00009A962E35",
+          "name": "FL385-999",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b35f732a-8c96-4dbf-81e5-f8e0d2e422ee"
+            },
+            "locationId": "LJLA3966",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 54
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 10,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJCE",
+      "label": "LJCE",
+      "arrival": [
+        "LJCE"
+      ],
+      "departure": [
+        "LJCE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:a1382689-d799-4290-bdf6-44dd7f799d78",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1669852800000,
+            "end": 32503593600000
+          },
+          "stateId": "30CE636300410100C8DCB196",
+          "name": "LJCE GLOBAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cdd1f200-72b5-4b2a-858b-ef894abd0d3e"
+            },
+            "locationId": "LJCE",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 7
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJCEARR",
+      "label": "LJCEARR",
+      "arrival": [
+        "LJCE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 5
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3e7cd44b-1c9b-4579-b35f-8bbf2139e2d0",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1669852800000,
+            "end": 32503593600000
+          },
+          "stateId": "25CE6363003E0100C8DCB196",
+          "name": "LJCE ARRIVAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:93714691-0e44-4e7c-b61a-95fa65ef2307"
+            },
+            "locationId": "LJCE",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 5
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJCEDEP",
+      "label": "LJCEDEP",
+      "departure": [
+        "LJCE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 5
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:93375586-bb44-4caf-ad4f-206c4a39d614",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1669852800000,
+            "end": 32503593600000
+          },
+          "stateId": "10CE6363005B0100C8DCB196",
+          "name": "LJCE DEPARTURE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b25e7e6e-2a5d-4e9b-bd27-eed8a9e81118"
+            },
+            "locationId": "LJCE",
+            "category": "DEPARTURE"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 5
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJFLO",
+      "label": "LJFLO",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADEDDMA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZEC0802BDC15C198743EB12"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLOWSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLDSPA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLDZDA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLOWWA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:3c77571b-3c91-4a56-a4c9-e907848b06c4",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1669852800000,
+            "end": 32503593600000
+          },
+          "stateId": "FFCD636300460100C8DCB196",
+          "name": "000-660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4b57be6d-59f3-4aa0-be29-5eb70cf8f9f8"
+            },
+            "locationId": "LJLAONE",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2cb464be-1468-46e1-8915-02c809b284a6"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5e87eb4a-a3ba-4929-a16c-ff859980585e"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:910df0ed-3b53-4edd-8ccc-a3c6035ca46c"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f0aade36-3607-4c3b-96f9-5f2c73c2ff52"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:85696332-8e19-4c8a-9f83-098a939fcfcf"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:73d994cb-62d3-45d5-8d96-bde47940bf45"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJLAACC",
+      "label": "LJLAACC",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {},
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTARNOS"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLIPQA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLIPQD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTARNOS"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:3921bc4a-b7ab-4d44-a31e-00aa28a0f9c6",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1674691200000,
+            "end": 32503593600000
+          },
+          "stateId": "0F44B06300D90800D130A440",
+          "name": "LJLA:LJUBLJANA ACC",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6ea2549b-9afc-467d-b381-1f7a10c90c5f"
+            },
+            "locationId": "LJLACTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:e27e5165-9a97-40a7-8a52-329055669b9c"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2918ff76-6c6f-42f6-8af4-34c13ecb7a9a"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJLACTA",
+      "label": "LJLACTA",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:7fae9d77-48b5-4647-b8aa-06c9efa8b091",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1669852800000,
+            "end": 32503593600000
+          },
+          "stateId": "F1CD636300500100C8DCB196",
+          "name": "LJLA:LJUBLJANA ACC",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6ea2549b-9afc-467d-b381-1f7a10c90c5f"
+            },
+            "locationId": "LJLACTA",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJLJ",
+      "label": "LJLJ",
+      "arrival": [
+        "LJLJ"
+      ],
+      "departure": [
+        "LJLJ"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 16
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:fb8cc6a3-7ccf-43d5-812f-f2072878600c",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1669852800000,
+            "end": 32503593600000
+          },
+          "stateId": "E8CD6363002A0900C8DCB196",
+          "name": "LJLJ GLOBAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f77687ca-a631-4459-b94d-64bd15f8c91b"
+            },
+            "locationId": "LJLJ",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 16
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJLJARR",
+      "label": "LJLJARR",
+      "arrival": [
+        "LJLJ"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:34bf0af5-a2b4-4a06-a82c-1233df3052f6",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "A73AAF67002B0200E5F73002",
+          "name": "LJLJ ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:84ddfa4a-2436-459d-8014-eb4fdcf3f004"
+            },
+            "locationId": "LJLJ",
+            "category": "ARRIVAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1742428800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJLJDEP",
+      "label": "LJLJDEP",
+      "departure": [
+        "LJLJ"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c579050f-3fa8-4080-a933-bbb68e7ce315",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1669852800000,
+            "end": 32503593600000
+          },
+          "stateId": "D9CD636300420200C8DCB196",
+          "name": "LJLJ DEPARTURES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:84c6be28-e28e-4919-b473-654ebf35003f"
+            },
+            "locationId": "LJLJ",
+            "category": "DEPARTURE"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJMB",
+      "label": "LJMB",
+      "arrival": [
+        "LJMB"
+      ],
+      "departure": [
+        "LJMB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d9d1b44d-f4cf-4c19-8026-9b593e2b737f",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1669852800000,
+            "end": 32503593600000
+          },
+          "stateId": "CDCD636300450100C8DCB196",
+          "name": "LJMB GLOBAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f1926157-629b-422e-9d07-1fb1d9d472aa"
+            },
+            "locationId": "LJMB",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJMBARR",
+      "label": "LJMBARR",
+      "arrival": [
+        "LJMB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:cd5f8355-86df-4ebb-a413-3fbd83aa38b8",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1669852800000,
+            "end": 32503593600000
+          },
+          "stateId": "A5CD6363004F0400C8DCB196",
+          "name": "LJMB ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:777c3a06-ba8b-449b-bb05-431ba05f7e65"
+            },
+            "locationId": "LJMB",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 6
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJMBDEP",
+      "label": "LJMBDEP",
+      "departure": [
+        "LJMB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:a0272ece-5a9d-46cc-8ef2-33c01f2b8d12",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1669852800000,
+            "end": 32503593600000
+          },
+          "stateId": "90CD636300410100C8DCB196",
+          "name": "LJMB DEPARTURES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8a61d44d-b340-4afb-a975-5a0e19a02de2"
+            },
+            "locationId": "LJMB",
+            "category": "DEPARTURE"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 6
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJMURA",
+      "label": "LJMURA",
+      "sectorIds": [
+        "LJMURFIS"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTDIMLO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTDOL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTOBUTI"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTZAG"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTDIMLO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTDOL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTOBUTI"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTZAG"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:353802f2-e0bd-4138-acd5-aa4b4feadecf",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1669852800000,
+            "end": 32503593600000
+          },
+          "stateId": "7DCD636300610100C8DCB196",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cae45203-0628-4848-b567-da1f599a8f43"
+            },
+            "locationId": "LJMURFIS",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:e357edc6-6df4-4d5a-91cf-423b2d790b4d"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:51940d3e-5ed9-4384-bc9b-008158bc35f8"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9156ecf5-db62-46e2-9198-79ec72e36dbf"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4ce0612d-ef91-4015-bc04-d98c6ebb250a"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b041e565-747d-4490-9440-deb7f7abc73f"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:8088f853-02f8-4ca1-bdc7-72199f6aa005"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2339a5c1-be66-4004-b677-a96cd52cd6e9"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c773fa30-8937-4673-a3c4-63e5903e10e0"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJONE",
+      "label": "LJONE",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-06-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:264dad57-e91e-43d9-b6de-2d9d439ac9b9",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "5FEC0A6A008A00009A962E35",
+          "name": "000-660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4b57be6d-59f3-4aa0-be29-5eb70cf8f9f8"
+            },
+            "locationId": "LJLAONE",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1781136000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJPZ",
+      "label": "LJPZ",
+      "arrival": [
+        "LJPZ"
+      ],
+      "departure": [
+        "LJPZ"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f2ea802f-fa06-4209-b945-8a4f7765b2e3",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1560988800000,
+            "end": 32503593600000
+          },
+          "stateId": "3461F35C00000000B8B5A351",
+          "name": "LJPZ GLOBAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:28582567-cd18-4ffe-916e-20ae59e9cd7f"
+            },
+            "locationId": "LJPZ",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJPZARR",
+      "label": "LJPZARR",
+      "arrival": [
+        "LJPZ"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:0a661290-8602-4f99-91c5-a9bbaef5021e",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1761782400000,
+            "end": 32503593600000
+          },
+          "stateId": "34F4DF68001A000063CAEA6B",
+          "name": "LJPZARR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:975950fe-3883-4c4b-b245-b9d80661256f"
+            },
+            "locationId": "LJPZ",
+            "category": "ARRIVAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LJPZDEP",
+      "label": "LJPZDEP",
+      "departure": [
+        "LJPZ"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:ffaeb102-897e-4940-8591-25770fd0c06b",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1761782400000,
+            "end": 32503593600000
+          },
+          "stateId": "34F4DF68003E000063CAEA6B",
+          "name": "LJPZDEP",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d4ebe1dc-542c-4b08-9916-30dad06ecbd7"
+            },
+            "locationId": "LJPZ",
+            "category": "DEPARTURE"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "RR1DIMIS",
+      "label": "RR1DIMIS",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTDIMIS"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASLOVVS17"
+            ],
+            [
+              "PTLAMSI",
+              "PTNENUM",
+              "PTRENKA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:07e79c35-6349-4825-a6a5-3787aaec9fd3",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "B098BE69007F0000A3216334",
+          "name": "/FROM: ANY\nTO: ANY VIA LOVVS17 AND THEN LAMSI OR RENKA OR NENUM\nNOT ALLOWED VIA LJLACTA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6ea2549b-9afc-467d-b381-1f7a10c90c5f"
+            },
+            "locationId": "LJLACTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:38d22f74-0cfb-43be-a7a3-30ccf2b90f60"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "RR1DOLEV",
+      "label": "RR1DOLEV",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTDOLEV"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASLOVVS17"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:7798104f-5317-43a5-9353-010514e481ff",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "5B96BE6900BE0000A3216334",
+          "name": "/FROM: DOLEV\nTO: ANY VIA LJLACTA AND THEN LOVVS17\nNOT ALLOWED VIA LJLACTA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6ea2549b-9afc-467d-b381-1f7a10c90c5f"
+            },
+            "locationId": "LJLACTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2f2d6271-f842-4ace-a065-6d6338156ff0"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "RR1LJCTA",
+      "label": "RR1LJCTA",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLDZON"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEDDMA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:67171ff5-1f33-4fa8-8dc4-d945622805a9",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "DD99BE6900710000A3216334",
+          "name": "/FROM: ANY\nTO: EDDM VIA LDZON\nNOT ALLOWED VIA LJLACTA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6ea2549b-9afc-467d-b381-1f7a10c90c5f"
+            },
+            "locationId": "LJLACTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:920db5dc-00b7-4a89-8308-d14fa491e8c9"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "RR1OLOTA",
+      "label": "RR1OLOTA",
+      "sectorIds": [
+        "LJLA0019A",
+        "LJLA2024",
+        "LJLA2529",
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33",
+        "LJLA34",
+        "LJLA35",
+        "LJLA36",
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLOVVS17"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTOLOTA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:28b0ec0f-b382-40ed-9923-af5198ce6a3f",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "4B96BE6900540000A3216334",
+          "name": "/FROM: ANY\nTO: ANY VIA LOVVS17 AND THEN LJLACTA TO OLOTA\nNOT ALLOWED VIA LJLACTA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6ea2549b-9afc-467d-b381-1f7a10c90c5f"
+            },
+            "locationId": "LJLACTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c6a77439-56b5-464e-b9d9-8cb73362a4c8"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "XCLJ3033",
+      "label": "XCLJ3033",
+      "sectorIds": [
+        "LJLA30",
+        "LJLA31",
+        "LJLA32",
+        "LJLA33"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-08-08T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:18b6dbd5-bd46-4eb2-ae8a-ebd55fd73adc",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1723075200000,
+            "end": 32503593600000
+          },
+          "stateId": "AE7AA76600220000A240578B",
+          "name": "FL295-335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:65857482-56e8-4e68-aaae-36dd4f8e6ec2"
+            },
+            "locationId": "LJLA3033",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39
+            }
+          ],
+          "note": "$EDDM>$39$$LOWW>$39$$>LOWW$39$$>LDZD$39$$>LHBP$39$$LIPZ>$39$$>LIPZ$39$$LJ3033>$50$",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1723075200000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "XCLJ3436",
+      "label": "XCLJ3436",
+      "sectorIds": [
+        "LJLA34",
+        "LJLA35",
+        "LJLA36"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-08-08T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 9,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6a8b65aa-2ac5-4a02-8a86-45ea95530594",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1723075200000,
+            "end": 32503593600000
+          },
+          "stateId": "127CA76600050400A240578B",
+          "name": "FL335-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:964226e3-d7a0-485e-a354-03714b016c04"
+            },
+            "locationId": "LJLA3436",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "note": "$EDDM>$40$$LOWW>$40$$>LOWW$40$$>LDZD$40$$>LHBP$40$$LIPZ>$40$$>LIPZ$40$$LJ3436>$50$",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1723075200000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 9,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "XCLJ3766",
+      "label": "XCLJ3766",
+      "sectorIds": [
+        "LJLA37",
+        "LJLA38",
+        "LJLA3966"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-08-08T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 5,
+            "sustainedElapsed": 10
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2c3fdfe2-6ece-4b0e-b6a0-b24ca903a0c7",
+        "groups": [
+          "ACCLJLA",
+          "ACCLJLA1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1723075200000,
+            "end": 32503593600000
+          },
+          "stateId": "127CA76600ED0200A240578B",
+          "name": "FL365-999",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b28b39eb-f6b9-442c-bd97-e8a739a869da"
+            },
+            "locationId": "LJLA3766",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "note": "$EDDM>$48$$LOWW>$48$$>LOWW$48$$>LDZD$48$$>LHBP$48$$LIPZ>$48$$>LIPZ$48$$LJ3766>$50$",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1723075200000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 5,
+              "sustainedElapsed": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

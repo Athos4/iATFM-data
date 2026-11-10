@@ -1,0 +1,1102 @@
+{
+  "volumes": [
+    {
+      "id": "FL1BUFRA",
+      "label": "FL1BUFRA",
+      "sectorIds": [
+        "LBSRSB12",
+        "LBSRSB23",
+        "LBSRSB34",
+        "LBSRSB45",
+        "LBSRSB56",
+        "LBSRSB67",
+        "LBSRSB78",
+        "LBSRSB89",
+        "LBSRSBU9",
+        "LBSRSD12",
+        "LBSRSD23",
+        "LBSRSD34",
+        "LBSRSD45",
+        "LBSRSD56",
+        "LBSRSD67",
+        "LBSRSD78",
+        "LBSRSD89",
+        "LBSRSDU9",
+        "LBSRSE12",
+        "LBSRSE23",
+        "LBSRSE34",
+        "LBSRSE45",
+        "LBSRSE56",
+        "LBSRSE67",
+        "LBSRSE78",
+        "LBSRSE89",
+        "LBSRSEU9",
+        "LBSRSF12",
+        "LBSRSF23",
+        "LBSRSF34",
+        "LBSRSF45",
+        "LBSRSF56",
+        "LBSRSF67",
+        "LBSRSF78",
+        "LBSRSF89",
+        "LBSRSFU9",
+        "LBSRSG12",
+        "LBSRSG23",
+        "LBSRSG34",
+        "LBSRSG45",
+        "LBSRSG56",
+        "LBSRSG67",
+        "LBSRSG78",
+        "LBSRSG89",
+        "LBSRSGU9"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTBUFRA"
+            ],
+            [
+              "ADLTFMA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:759e941b-e113-4554-9474-704c36c72d8a",
+        "groups": [
+          "ACC1LBSR",
+          "ACCLBSR",
+          "FICLBSR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "CC116962001500002B54B13C",
+          "name": "FILE TO BE FL 315 OR BELOW AT BUFRA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e17e802a-a993-44e6-b352-a253d2a91aec"
+            },
+            "locationId": "LBSRSYU1",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d32aba40-1fe3-48d4-8f46-4bac32f7289d"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1PDV",
+      "label": "FL1PDV",
+      "sectorIds": [
+        "LBSRSB12",
+        "LBSRSB23",
+        "LBSRSB34",
+        "LBSRSB45",
+        "LBSRSB56",
+        "LBSRSB67",
+        "LBSRSB78",
+        "LBSRSB89",
+        "LBSRSBU9",
+        "LBSRSD12",
+        "LBSRSD23",
+        "LBSRSD34",
+        "LBSRSD45",
+        "LBSRSD56",
+        "LBSRSD67",
+        "LBSRSD78",
+        "LBSRSD89",
+        "LBSRSDU9",
+        "LBSRSE12",
+        "LBSRSE23",
+        "LBSRSE34",
+        "LBSRSE45",
+        "LBSRSE56",
+        "LBSRSE67",
+        "LBSRSE78",
+        "LBSRSE89",
+        "LBSRSEU9",
+        "LBSRSF12",
+        "LBSRSF23",
+        "LBSRSF34",
+        "LBSRSF45",
+        "LBSRSF56",
+        "LBSRSF67",
+        "LBSRSF78",
+        "LBSRSF89",
+        "LBSRSFU9",
+        "LBSRSG12",
+        "LBSRSG23",
+        "LBSRSG34",
+        "LBSRSG45",
+        "LBSRSG56",
+        "LBSRSG67",
+        "LBSRSG78",
+        "LBSRSG89",
+        "LBSRSGU9"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTPDV"
+            ],
+            [
+              "ADLTFMA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:f7bba7e9-646a-4ca0-93ed-5025e4b2bc1b",
+        "groups": [
+          "ACC1LBSR",
+          "ACCLBSR",
+          "FICLBSR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "A8176962001000002B54B13C",
+          "name": "FILE TO BE FL 315 OR BELOW AT PDV",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e17e802a-a993-44e6-b352-a253d2a91aec"
+            },
+            "locationId": "LBSRSYU1",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b7a30da8-235d-474c-87d3-457c73e39ae9"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1SOPIS",
+      "label": "FL1SOPIS",
+      "sectorIds": [
+        "LBSRSB12",
+        "LBSRSB23",
+        "LBSRSB34",
+        "LBSRSB45",
+        "LBSRSB56",
+        "LBSRSB67",
+        "LBSRSB78",
+        "LBSRSB89",
+        "LBSRSBU9",
+        "LBSRSD12",
+        "LBSRSD23",
+        "LBSRSD34",
+        "LBSRSD45",
+        "LBSRSD56",
+        "LBSRSD67",
+        "LBSRSD78",
+        "LBSRSD89",
+        "LBSRSDU9",
+        "LBSRSE12",
+        "LBSRSE23",
+        "LBSRSE34",
+        "LBSRSE45",
+        "LBSRSE56",
+        "LBSRSE67",
+        "LBSRSE78",
+        "LBSRSE89",
+        "LBSRSEU9",
+        "LBSRSF12",
+        "LBSRSF23",
+        "LBSRSF34",
+        "LBSRSF45",
+        "LBSRSF56",
+        "LBSRSF67",
+        "LBSRSF78",
+        "LBSRSF89",
+        "LBSRSFU9",
+        "LBSRSG12",
+        "LBSRSG23",
+        "LBSRSG34",
+        "LBSRSG45",
+        "LBSRSG56",
+        "LBSRSG67",
+        "LBSRSG78",
+        "LBSRSG89",
+        "LBSRSGU9"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTSOPIS"
+            ],
+            [
+              "ADLTFMA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:775e28a1-308b-484a-a2a6-7146942cd799",
+        "groups": [
+          "ACC1LBSR",
+          "ACCLBSR",
+          "FICLBSR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "ED2D696200AE00002B54B13C",
+          "name": "FROM: ANY\nTO:LTFM\nNOT ALLOWED VIA LBSRSYU1 IF VIA SOPIS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e17e802a-a993-44e6-b352-a253d2a91aec"
+            },
+            "locationId": "LBSRSYU1",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6a7851f7-8130-461a-af68-efc09f665031"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1XANEX",
+      "label": "FL1XANEX",
+      "sectorIds": [
+        "LBSRSD12",
+        "LBSRSD23",
+        "LBSRSD34",
+        "LBSRSD45",
+        "LBSRSD56",
+        "LBSRSD67",
+        "LBSRSD78",
+        "LBSRSD89",
+        "LBSRSDU9"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTXANEX"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLTFMA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:6dac7534-6c96-448b-8dd6-41029ffa5dea",
+        "groups": [
+          "ACC1LBSR",
+          "ACCLBSR",
+          "FICLBSR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "FD27696200B833002B54B13C",
+          "name": "FROM: ANY VIA XANEX\nTO:LTFM\nNOT ALLOWED VIA LBSRSDU1 ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:beadf6cf-4b70-447f-90c4-34dcc2e59a17"
+            },
+            "locationId": "LBSRSDU1",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4aadbe52-c8be-41af-ad42-ec470129da7c"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL3BUFRA",
+      "label": "FL3BUFRA",
+      "sectorIds": [
+        "LBSRSB34",
+        "LBSRSB45",
+        "LBSRSB56",
+        "LBSRSB67",
+        "LBSRSB78",
+        "LBSRSB89",
+        "LBSRSBU9",
+        "LBSRSD34",
+        "LBSRSD45",
+        "LBSRSD56",
+        "LBSRSD67",
+        "LBSRSD78",
+        "LBSRSD89",
+        "LBSRSDU9",
+        "LBSRSE34",
+        "LBSRSE45",
+        "LBSRSE56",
+        "LBSRSE67",
+        "LBSRSE78",
+        "LBSRSE89",
+        "LBSRSEU9",
+        "LBSRSF34",
+        "LBSRSF45",
+        "LBSRSF56",
+        "LBSRSF67",
+        "LBSRSF78",
+        "LBSRSF89",
+        "LBSRSFU9",
+        "LBSRSG34",
+        "LBSRSG45",
+        "LBSRSG56",
+        "LBSRSG67",
+        "LBSRSG78",
+        "LBSRSG89",
+        "LBSRSGU9"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTBUFRA"
+            ],
+            [
+              "ADLTFMA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:d05d61a1-6e1e-4ee5-a3b3-0028bc14f2f0",
+        "groups": [
+          "ACC1LBSR",
+          "ACCLBSR",
+          "FICLBSR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "CC116962003A00002B54B13C",
+          "name": "FILE TO BE FL 335 OR BELOW AT BUFRA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:35b89ec3-a3b1-4fed-b477-b16eb53ed25e"
+            },
+            "locationId": "LBSRSYU3",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d32aba40-1fe3-48d4-8f46-4bac32f7289d"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL3PDV",
+      "label": "FL3PDV",
+      "sectorIds": [
+        "LBSRSB34",
+        "LBSRSB45",
+        "LBSRSB56",
+        "LBSRSB67",
+        "LBSRSB78",
+        "LBSRSB89",
+        "LBSRSBU9",
+        "LBSRSD34",
+        "LBSRSD45",
+        "LBSRSD56",
+        "LBSRSD67",
+        "LBSRSD78",
+        "LBSRSD89",
+        "LBSRSDU9",
+        "LBSRSE34",
+        "LBSRSE45",
+        "LBSRSE56",
+        "LBSRSE67",
+        "LBSRSE78",
+        "LBSRSE89",
+        "LBSRSEU9",
+        "LBSRSF34",
+        "LBSRSF45",
+        "LBSRSF56",
+        "LBSRSF67",
+        "LBSRSF78",
+        "LBSRSF89",
+        "LBSRSFU9",
+        "LBSRSG34",
+        "LBSRSG45",
+        "LBSRSG56",
+        "LBSRSG67",
+        "LBSRSG78",
+        "LBSRSG89",
+        "LBSRSGU9"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTPDV"
+            ],
+            [
+              "ADLTFMA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:a41b632b-a34a-4c7b-92d0-f40f3fe366d5",
+        "groups": [
+          "ACC1LBSR",
+          "ACCLBSR",
+          "FICLBSR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "A9176962000300002B54B13C",
+          "name": "FILE TO BE FL 335 OR BELOW AT PDV",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:35b89ec3-a3b1-4fed-b477-b16eb53ed25e"
+            },
+            "locationId": "LBSRSYU3",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b7a30da8-235d-474c-87d3-457c73e39ae9"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL3SOPIS",
+      "label": "FL3SOPIS",
+      "sectorIds": [
+        "LBSRSB34",
+        "LBSRSB45",
+        "LBSRSB56",
+        "LBSRSB67",
+        "LBSRSB78",
+        "LBSRSB89",
+        "LBSRSBU9",
+        "LBSRSD34",
+        "LBSRSD45",
+        "LBSRSD56",
+        "LBSRSD67",
+        "LBSRSD78",
+        "LBSRSD89",
+        "LBSRSDU9",
+        "LBSRSE34",
+        "LBSRSE45",
+        "LBSRSE56",
+        "LBSRSE67",
+        "LBSRSE78",
+        "LBSRSE89",
+        "LBSRSEU9",
+        "LBSRSF34",
+        "LBSRSF45",
+        "LBSRSF56",
+        "LBSRSF67",
+        "LBSRSF78",
+        "LBSRSF89",
+        "LBSRSFU9",
+        "LBSRSG34",
+        "LBSRSG45",
+        "LBSRSG56",
+        "LBSRSG67",
+        "LBSRSG78",
+        "LBSRSG89",
+        "LBSRSGU9"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTSOPIS"
+            ],
+            [
+              "ADLTFMA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:d9ae4d38-e641-435a-9ddc-89e53a7c0e48",
+        "groups": [
+          "ACC1LBSR",
+          "ACCLBSR",
+          "FICLBSR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "ED2D696200D300002B54B13C",
+          "name": "FROM: ANY\nTO:LTFM\nNOT ALLOWED VIA LBSRSYU3 IF VIA SOPIS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:35b89ec3-a3b1-4fed-b477-b16eb53ed25e"
+            },
+            "locationId": "LBSRSYU3",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6a7851f7-8130-461a-af68-efc09f665031"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL3XANEX",
+      "label": "FL3XANEX",
+      "sectorIds": [
+        "LBSRSD34",
+        "LBSRSD45",
+        "LBSRSD56",
+        "LBSRSD67",
+        "LBSRSD78",
+        "LBSRSD89",
+        "LBSRSDU9"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTXANEX"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLTFMA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:b70b0d26-4863-4aa6-94ea-b106cc3d6204",
+        "groups": [
+          "ACC1LBSR",
+          "ACCLBSR",
+          "FICLBSR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "3C296962000300002B54B13C",
+          "name": "FROM: ANY VIA XANEX\nTO:LTFM\nNOT ALLOWED VIA LBSRSDU3",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4407f381-2e36-4731-bf93-dd4b000b1c0d"
+            },
+            "locationId": "LBSRSDU3",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4aadbe52-c8be-41af-ad42-ec470129da7c"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL5BUFRA",
+      "label": "FL5BUFRA",
+      "sectorIds": [
+        "LBSRSB56",
+        "LBSRSB67",
+        "LBSRSB78",
+        "LBSRSB89",
+        "LBSRSBU9",
+        "LBSRSD56",
+        "LBSRSD67",
+        "LBSRSD78",
+        "LBSRSD89",
+        "LBSRSDU9",
+        "LBSRSE56",
+        "LBSRSE67",
+        "LBSRSE78",
+        "LBSRSE89",
+        "LBSRSEU9",
+        "LBSRSF56",
+        "LBSRSF67",
+        "LBSRSF78",
+        "LBSRSF89",
+        "LBSRSFU9",
+        "LBSRSG56",
+        "LBSRSG67",
+        "LBSRSG78",
+        "LBSRSG89",
+        "LBSRSGU9"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTBUFRA"
+            ],
+            [
+              "ADLTFMA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:81579a3f-90b5-4b17-847e-043b79da986d",
+        "groups": [
+          "ACC1LBSR",
+          "ACCLBSR",
+          "FICLBSR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "CC116962005F00002B54B13C",
+          "name": "FILE TO BE FL 355 OR BELOW AT BUFRA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:74676e9f-82fc-4331-837e-7524940d8c42"
+            },
+            "locationId": "LBSRSYU5",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d32aba40-1fe3-48d4-8f46-4bac32f7289d"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL5PDV",
+      "label": "FL5PDV",
+      "sectorIds": [
+        "LBSRSB56",
+        "LBSRSB67",
+        "LBSRSB78",
+        "LBSRSB89",
+        "LBSRSBU9",
+        "LBSRSD56",
+        "LBSRSD67",
+        "LBSRSD78",
+        "LBSRSD89",
+        "LBSRSDU9",
+        "LBSRSE56",
+        "LBSRSE67",
+        "LBSRSE78",
+        "LBSRSE89",
+        "LBSRSEU9",
+        "LBSRSF56",
+        "LBSRSF67",
+        "LBSRSF78",
+        "LBSRSF89",
+        "LBSRSFU9",
+        "LBSRSG56",
+        "LBSRSG67",
+        "LBSRSG78",
+        "LBSRSG89",
+        "LBSRSGU9"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTPDV"
+            ],
+            [
+              "ADLTFMA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:e6d63566-5767-4764-bc9a-a69e424bdf52",
+        "groups": [
+          "ACC1LBSR",
+          "ACCLBSR",
+          "FICLBSR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "A9176962002800002B54B13C",
+          "name": "FILE TO BE FL 355 OR BELOW AT PDV",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:74676e9f-82fc-4331-837e-7524940d8c42"
+            },
+            "locationId": "LBSRSYU5",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b7a30da8-235d-474c-87d3-457c73e39ae9"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL5SOPIS",
+      "label": "FL5SOPIS",
+      "sectorIds": [
+        "LBSRSB56",
+        "LBSRSB67",
+        "LBSRSB78",
+        "LBSRSB89",
+        "LBSRSBU9",
+        "LBSRSD56",
+        "LBSRSD67",
+        "LBSRSD78",
+        "LBSRSD89",
+        "LBSRSDU9",
+        "LBSRSE56",
+        "LBSRSE67",
+        "LBSRSE78",
+        "LBSRSE89",
+        "LBSRSEU9",
+        "LBSRSF56",
+        "LBSRSF67",
+        "LBSRSF78",
+        "LBSRSF89",
+        "LBSRSFU9",
+        "LBSRSG56",
+        "LBSRSG67",
+        "LBSRSG78",
+        "LBSRSG89",
+        "LBSRSGU9"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTSOPIS"
+            ],
+            [
+              "ADLTFMA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:e27bd6be-c443-455e-b5f1-0e5321174c8c",
+        "groups": [
+          "ACC1LBSR",
+          "ACCLBSR",
+          "FICLBSR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "ED2D696200F900002B54B13C",
+          "name": "FROM: ANY\nTO:LTFM\nNOT ALLOWED VIA LBSRSYU5 IF VIA SOPIS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:74676e9f-82fc-4331-837e-7524940d8c42"
+            },
+            "locationId": "LBSRSYU5",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6a7851f7-8130-461a-af68-efc09f665031"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL5XANEX",
+      "label": "FL5XANEX",
+      "sectorIds": [
+        "LBSRSD56",
+        "LBSRSD67",
+        "LBSRSD78",
+        "LBSRSD89",
+        "LBSRSDU9"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTXANEX"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLTFMA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:b21cbbdb-884e-4540-b4b6-8feee2206bfe",
+        "groups": [
+          "ACC1LBSR",
+          "ACCLBSR",
+          "FICLBSR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "3D296962001900002B54B13C",
+          "name": "FROM: ANY VIA XANEX\nTO:LTFM\nNOT ALLOWED VIA LBSRSDU5",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fd516b5d-7dd0-42d5-ac69-0a4243d3e424"
+            },
+            "locationId": "LBSRSDU5",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4aadbe52-c8be-41af-ad42-ec470129da7c"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

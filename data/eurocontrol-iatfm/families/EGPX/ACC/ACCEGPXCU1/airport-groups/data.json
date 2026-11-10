@@ -1,0 +1,27 @@
+[
+  {
+    "azId": "EC9CA3B1665AED1152CE39",
+    "list": [
+      "EGAA",
+      "EGAC",
+      "EGAD",
+      "EGAE",
+      "EGAL"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:c0e33e62-8fa5-45d2-9fd2-46573d99df77",
+      "id": "EGAATMA"
+    }
+  },
+  {
+    "azId": "ECEEA555B475DB5C04A508",
+    "list": [
+      "EGAA",
+      "EGAC"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:0b097d16-72db-4ccd-8421-5abb7a58ea44",
+      "id": "EGA/C"
+    }
+  }
+]

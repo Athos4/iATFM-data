@@ -1,0 +1,944 @@
+{
+  "volumes": [
+    {
+      "id": "LHKRALL",
+      "label": "LHKRALL",
+      "sectorIds": [
+        "LHKRB04",
+        "LHKRB45",
+        "LHKRB56",
+        "LHKRB67",
+        "LHKRB78",
+        "LHKRB9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d198e985-fa1e-4a15-9a6c-eda3245be7ff",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "CC76C467006C0F00E5F73002",
+          "name": "ALL TRAFFIC KFOR SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:48b3e574-1edb-4c31-82f9-f61df634b205"
+            },
+            "locationId": "LHKRCTA",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LHLYB04",
+      "label": "LHLYB04",
+      "sectorIds": [
+        "LHKRB04"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:126ad9b9-f165-4228-9ad9-3d6dec9879f0",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "F3122D6A00030000FE8A30B6",
+          "name": "LHKR:KFOR LOWER SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d9498525-5634-4ef4-8a1c-b8059a1e598b"
+            },
+            "locationId": "LHKRB04",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LHLYB05",
+      "label": "LHLYB05",
+      "sectorIds": [
+        "LHKRB04",
+        "LHKRB45"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e331e13f-2bb1-4ad3-832b-982cd344196a",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "4420316A00610000FE8A30B6",
+          "name": "LHKR:KFOR FL205-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a7d2efe2-69b8-4ef9-94cd-2f4de16e696a"
+            },
+            "locationId": "LHKRB05",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LHLYB06",
+      "label": "LHLYB06",
+      "sectorIds": [
+        "LHKRB04",
+        "LHKRB45",
+        "LHKRB56"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:9984a1e6-b139-4f9a-a229-47bb56ba4ea7",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "9320316A004B0A00FE8A30B6",
+          "name": "LHKR: KFOR FL205-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:bc027cef-54e2-4d36-a91b-74466afffea3"
+            },
+            "locationId": "LHKRB06",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LHLYB07",
+      "label": "LHLYB07",
+      "sectorIds": [
+        "LHKRB04",
+        "LHKRB45",
+        "LHKRB56",
+        "LHKRB67"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d676e697-3d78-4ced-aa67-393054e603c9",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "C320316A00300000FE8A30B6",
+          "name": "LHKR:KFOR FL205-375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cfb2fe6d-be25-4718-a55a-58ba56e6ef54"
+            },
+            "locationId": "LHKRB07",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LHLYB08",
+      "label": "LHLYB08",
+      "sectorIds": [
+        "LHKRB04",
+        "LHKRB45",
+        "LHKRB56",
+        "LHKRB67",
+        "LHKRB78"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:34360d75-ce0d-47da-b5c9-82f9750aca16",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "E320316A003D0000FE8A30B6",
+          "name": "LHKR:KFOR FL205-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0a078572-33b7-4c45-b6f0-2c60f0c66b08"
+            },
+            "locationId": "LHKRB08",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LHLYB46",
+      "label": "LHLYB46",
+      "sectorIds": [
+        "LHKRB45",
+        "LHKRB56"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c4718ec3-3f8b-41a3-8f9c-1633fb7470ca",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "5C13316A00130000FE8A30B6",
+          "name": "LHKR:KFOR SECTOR 345-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4d8d082d-390d-4b16-9dc1-79297ef0613d"
+            },
+            "locationId": "LHKRB46",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 12
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LHLYB59",
+      "label": "LHLYB59",
+      "sectorIds": [
+        "LHKRB45",
+        "LHKRB56",
+        "LHKRB67",
+        "LHKRB78",
+        "LHKRB9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ddcd9ff6-30fa-481a-832b-2a7deb2c3353",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "1121316A00330000FE8A30B6",
+          "name": "LHKR:KFOR FL345-660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e0e075bf-f6da-4658-a298-d1f3e7b7a688"
+            },
+            "locationId": "LHKRB59",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LHLYB68",
+      "label": "LHLYB68",
+      "sectorIds": [
+        "LHKRB67",
+        "LHKRB78"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8fbd1757-83e7-4945-86d2-c30f9d5c1362",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "5F13316A00230000FE8A30B6",
+          "name": "LHKR:KFOR SECTOR 365-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:846f8ae3-5473-4b1e-9751-43f29692e122"
+            },
+            "locationId": "LHKRB68",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 12
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LHLYB69",
+      "label": "LHLYB69",
+      "sectorIds": [
+        "LHKRB56",
+        "LHKRB67",
+        "LHKRB78",
+        "LHKRB9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6ab4e598-8c8d-4c0b-89b3-0a37584d6f68",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "2F21316A00180000FE8A30B6",
+          "name": "LHKR:KFOR FL355-660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:96bbe40e-03b5-48a8-814e-72878f3c79c7"
+            },
+            "locationId": "LHKRB69",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LHLYB79",
+      "label": "LHLYB79",
+      "sectorIds": [
+        "LHKRB67",
+        "LHKRB78",
+        "LHKRB9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:a50e7012-8e15-4fc1-86d5-e4b764f00935",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "4E21316A002A0000FE8A30B6",
+          "name": "LHKR:KFOR FL365-660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e0817d0f-e09d-441c-88ce-a7c7343b1d2f"
+            },
+            "locationId": "LHKRB79",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LHLYB89",
+      "label": "LHLYB89",
+      "sectorIds": [
+        "LHKRB78",
+        "LHKRB9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b715d673-ed0d-482a-a16c-cfdbebe6880f",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "6A21316A003E0000FE8A30B6",
+          "name": "LHKR:KFOR FL375-660",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6016a2cf-a9d6-4f0f-a8e1-45e074069c3a"
+            },
+            "locationId": "LHKRB89",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LHLYB9",
+      "label": "LHLYB9",
+      "sectorIds": [
+        "LHKRB9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:92d2415a-8210-495c-9439-365d3658528f",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "D7192D6A000C0000FE8A30B6",
+          "name": "LHKR:KFOR TOP SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:33bc14e0-2ddd-414e-9bef-7016c29cf39d"
+            },
+            "locationId": "LHKRB9",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LHLYBALL",
+      "label": "LHLYBALL",
+      "sectorIds": [
+        "LHKRB04",
+        "LHKRB45",
+        "LHKRB56",
+        "LHKRB67",
+        "LHKRB78",
+        "LHKRB9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:804e13ec-53e1-49be-b61a-4be8b9b9f90d",
+        "groups": [
+          "ACCLHKR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "821B2D6A001D0000FE8A30B6",
+          "name": "LHKR: ALL KFOR SECTORS COMBINED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:31c8456e-33cf-4759-91ca-1f9583cac9ac"
+            },
+            "locationId": "LHKRKFOR",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

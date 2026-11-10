@@ -1,0 +1,38 @@
+{
+  "volumes": [
+    {
+      "id": "OSDICRI",
+      "label": "OSDICRI",
+      "sectorIds": [
+        "OSDIALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:78f26951-2bb3-4fb0-9823-09e1d689bf81",
+        "groups": [
+          "ACCOSDI"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "716EC46700BA0E00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ad01e83c-7a1f-4b41-b9fc-697d2bd34d2a"
+            },
+            "locationId": "OSDICTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT ",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

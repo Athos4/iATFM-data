@@ -1,0 +1,3579 @@
+{
+  "volumes": [
+    {
+      "id": "FL10BL35",
+      "label": "FL10BL35",
+      "sectorIds": [
+        "LFBBL3",
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECB9EFCC958DD2C291913A"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECDB40A8C525D45B9FF87E"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:f9a2d6fa-a6a2-4915-a89f-c78cf098a1e8",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "DC20CE6900750000A3216334",
+          "name": "FROM: LONDON SOUTH GROUP, SEVERN GROUP, EGTE, EGHH,, EGHI, \nEGSS, EGSC\nTO: LF.., LEMD, CANTABRICO GROUP, LEZG, LEBL, LEGE, LERS\nNOT ALLOWED VIA LFBBL345\nREFILE BELOW FL345 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d7c1f435-f3fa-429b-b549-abf1e9fb38bc"
+            },
+            "locationId": "LFBBL345",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2e571304-5600-4b90-abfa-078c00165a0b"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:7e54219d-8a1c-40a0-8c93-d45d8812d70a"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL10BL45",
+      "label": "FL10BL45",
+      "sectorIds": [
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECB9EFCC958DD2C291913A"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECDB40A8C525D45B9FF87E"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:fa724ba9-2071-43b3-b849-8eb59bdcbdcc",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "2E1CCE6900A60000A3216334",
+          "name": "FROM: LONDON SOUTH GROUP, SEVERN GROUP, EGTE, EGHH, EGHI, \nEGSS, EGSC\nTO: LF.., LEMD, CANTABRICO GROUP, LEZG, LEBL, LEGE, LERS\nNOT ALLOWED VIA LFBBL45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f21e351e-25e6-47b2-85a1-6ba0a590fe56"
+            },
+            "locationId": "LFBBL45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2e571304-5600-4b90-abfa-078c00165a0b"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:7e54219d-8a1c-40a0-8c93-d45d8812d70a"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL10BU35",
+      "label": "FL10BU35",
+      "sectorIds": [
+        "LFBBH3",
+        "LFBBH4",
+        "LFBBH5",
+        "LFBBL3",
+        "LFBBL4",
+        "LFBBL5",
+        "LFBBN3",
+        "LFBBN4",
+        "LFBBN5",
+        "LFBBP3",
+        "LFBBP4",
+        "LFBBR3",
+        "LFBBR4",
+        "LFBBR5",
+        "LFBBT3",
+        "LFBBT4",
+        "LFBBX3",
+        "LFBBX4",
+        "LFBBX5",
+        "LFBBZ3",
+        "LFBBZ4",
+        "LFBBZ5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECB9EFCC958DD2C291913A"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECDB40A8C525D45B9FF87E"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:3a597936-ab6d-421f-9fb9-79bb39fa208c",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "A975CE6900670000A3216334",
+          "name": "/FROM: LONDON SOUTH GROUP, SEVERN GROUP, EGTE, EGHH, EGHI, \nEGSS, EGSC\nTO: LF.., LEMD, CANTABRICO GROUP, LEZG, LEBL, LEGE, LERS\nNOT ALLOWED VIA LFBBUB35\nREFILE BELOW FL345 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e809f8b5-a824-4cfc-8b89-81e3996a7d1c"
+            },
+            "locationId": "LFBBUB35",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c9dcbd97-ef8b-4f78-8155-1f7251449c9d"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6b66dfc9-0019-430a-a05d-27352738fab4"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL10BU45",
+      "label": "FL10BU45",
+      "sectorIds": [
+        "LFBBH4",
+        "LFBBH5",
+        "LFBBL4",
+        "LFBBL5",
+        "LFBBN4",
+        "LFBBN5",
+        "LFBBP4",
+        "LFBBR4",
+        "LFBBR5",
+        "LFBBT4",
+        "LFBBX4",
+        "LFBBX5",
+        "LFBBZ4",
+        "LFBBZ5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECB9EFCC958DD2C291913A"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECDB40A8C525D45B9FF87E"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:54c95815-0be9-420e-b6d6-1ce7f19ac3d7",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "1276CE69004B0000A3216334",
+          "name": "/FROM: LONDON SOUTH GROUP, SEVERN GROUP, EGTE, EGHH, EGHI,\nEGSS, EGSC\nTO: LF.., LEMD, CANTABRICO GROUP, LEZG, LEBL, LEGE, LERS\nNOT ALLOWED VIA LFBBUB45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6b64f4b4-9e25-456b-8d03-00d6cbe9b2d1"
+            },
+            "locationId": "LFBBUB45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c9dcbd97-ef8b-4f78-8155-1f7251449c9d"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6b66dfc9-0019-430a-a05d-27352738fab4"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL11BL35",
+      "label": "FL11BL35",
+      "sectorIds": [
+        "LFBBL3",
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECB9EFCC958DD2C291913A"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECDB40A8C525D45B9FF87E"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC597646D7BEF2325EDB8A"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:e7ee48f8-3760-478d-a425-360862a77c9f",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "B31FCE6900F60000A3216334",
+          "name": "FROM: LONDON SOUTH GROUP, SEVERN GROUP, EGTE, EGHH, EGHI, \nEGSS, EGSC\nTO: LF.., LEMD, CANTABRICO GROUP, LEZG, LEBL, LEGE, LERS,\nLEPA, LEIB, LEMH\nNOT ALLOWED VIA LFBBL345\nREFILE BELOW FL345 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d7c1f435-f3fa-429b-b549-abf1e9fb38bc"
+            },
+            "locationId": "LFBBL345",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2e571304-5600-4b90-abfa-078c00165a0b"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:7e54219d-8a1c-40a0-8c93-d45d8812d70a"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4777639b-2c3c-413d-9fd8-f41b550e43f5"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL11BL45",
+      "label": "FL11BL45",
+      "sectorIds": [
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECB9EFCC958DD2C291913A"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECDB40A8C525D45B9FF87E"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC597646D7BEF2325EDB8A"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:40668bac-0bf8-4fa4-aec0-836395f48b68",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "B41FCE6900F90000A3216334",
+          "name": "FROM: LONDON SOUTH GROUP, SEVERN GROUP, EGTE, EGHH, EGHI, \nEGSS, EGSC\nTO: LF.., LEMD, CANTABRICO GROUP, LEZG, LEBL, LEGE, LERS,\nLEPA, LEIB, LEMH\nNOT ALLOWED VIA LFBBL45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f21e351e-25e6-47b2-85a1-6ba0a590fe56"
+            },
+            "locationId": "LFBBL45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2e571304-5600-4b90-abfa-078c00165a0b"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:7e54219d-8a1c-40a0-8c93-d45d8812d70a"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4777639b-2c3c-413d-9fd8-f41b550e43f5"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL11BU35",
+      "label": "FL11BU35",
+      "sectorIds": [
+        "LFBBH3",
+        "LFBBH4",
+        "LFBBH5",
+        "LFBBL3",
+        "LFBBL4",
+        "LFBBL5",
+        "LFBBN3",
+        "LFBBN4",
+        "LFBBN5",
+        "LFBBP3",
+        "LFBBP4",
+        "LFBBR3",
+        "LFBBR4",
+        "LFBBR5",
+        "LFBBT3",
+        "LFBBT4",
+        "LFBBX3",
+        "LFBBX4",
+        "LFBBX5",
+        "LFBBZ3",
+        "LFBBZ4",
+        "LFBBZ5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECB9EFCC958DD2C291913A"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC597646D7BEF2325EDB8A"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECDB40A8C525D45B9FF87E"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:a37da88b-7623-4323-b8f8-40c11f619a15",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "E476CE69005D0000A3216334",
+          "name": "FROM LONDON SOUTH GROUP, SEVERN GROUP, EGTE, EGHH, EGHI,\nEGSS, EGSC\nTO LF, LEMD, CANTABRICO GROUP, LEZG, LEBL, LEGE, LERS, LEPA,\nLEIB, LEMH\nNOT ALLOWED VIA LFBBUB35\nREFILE BELOW FL345 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e809f8b5-a824-4cfc-8b89-81e3996a7d1c"
+            },
+            "locationId": "LFBBUB35",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2e571304-5600-4b90-abfa-078c00165a0b"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b43a38cb-c07a-4953-aaee-d3d8f1495d8a"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:e2fd41e3-3cef-443c-a0ae-12196ed337d3"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL11BU45",
+      "label": "FL11BU45",
+      "sectorIds": [
+        "LFBBH4",
+        "LFBBH5",
+        "LFBBL4",
+        "LFBBL5",
+        "LFBBN4",
+        "LFBBN5",
+        "LFBBP4",
+        "LFBBR4",
+        "LFBBR5",
+        "LFBBT4",
+        "LFBBX4",
+        "LFBBX5",
+        "LFBBZ4",
+        "LFBBZ5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECB9EFCC958DD2C291913A"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECDB40A8C525D45B9FF87E"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC597646D7BEF2325EDB8A"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:463af6f1-3d16-443c-a6dc-e5e71f60aa60",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "7377CE6900650000A3216334",
+          "name": "FROM LONDON SOUTH GROUP, SEVERN GROUP, EGTE, EGHH, EGHI,\nEGSS, EGSC\nTO LF, LEMD, CANTABRICO GROUP, LEZG, LEBL, LEGE, LERS, LEPA,\nLEIB, LEMH\nNOT ALLOWED VIA LFBBUB45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6b64f4b4-9e25-456b-8d03-00d6cbe9b2d1"
+            },
+            "locationId": "LFBBUB45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2e571304-5600-4b90-abfa-078c00165a0b"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:e2fd41e3-3cef-443c-a0ae-12196ed337d3"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b43a38cb-c07a-4953-aaee-d3d8f1495d8a"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL12BL45",
+      "label": "FL12BL45",
+      "sectorIds": [
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC0AFBF1CAD71E6415D93D"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:2444e2bb-6f62-41a7-8f98-5dfa069d64f1",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1771459200000,
+            "end": 32503593600000
+          },
+          "stateId": "F22E8E6900410000ADDECE50",
+          "name": "/FROM: LONDON SOUTH GROUP, SEVERN GROUP,EGTE, EGHH, EGHI,\nEGSS, EGSC\nTO: LEVC, LEAL\nNOT ALLOWED VIA LFBBL45\nFILE BELOW FL 365 UNTIL CLEAR OF SECTOR.",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f21e351e-25e6-47b2-85a1-6ba0a590fe56"
+            },
+            "locationId": "LFBBL45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:0cb23aa3-cd37-469b-8d2d-09dcc5f3398b"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1BBL35",
+      "label": "FL1BBL35",
+      "sectorIds": [
+        "LFBBL3",
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECA7D0A83A4C4CC87C53A1"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECB9EFCC958DD2C291913A"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:38e81bb3-0532-4314-a908-ea629bcf646b",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1773878400000,
+            "end": 32503593600000
+          },
+          "stateId": "73649C6900FE0A00ADDECE50",
+          "name": "/FROM: LONDON SOUTH GROUP, SEVERN GROUP, EGTE, EGHH, EGHI, \nEGSS, EGSC\nTO: LF, LEMD, CANTABRICO GROUP, LEZG, LEBL, LEGE, LERS, LEPA\nLEIB, LEMH\nNOT ALLOWED VIA LFBBL345\nREFILE BELOW FL345 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d7c1f435-f3fa-429b-b549-abf1e9fb38bc"
+            },
+            "locationId": "LFBBL345",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f2c61de3-069b-4af1-81e5-1ff1b8d5247f"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2e571304-5600-4b90-abfa-078c00165a0b"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1BBL45",
+      "label": "FL1BBL45",
+      "sectorIds": [
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECA7D0A83A4C4CC87C53A1"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECB9EFCC958DD2C291913A"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:2f397971-078e-44a7-9397-65d85c2c649b",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1773878400000,
+            "end": 32503593600000
+          },
+          "stateId": "7E659C69000C0100ADDECE50",
+          "name": "/FROM: LONDON SOUTH GROUP, SEVERN GROUP, EGTE, EGHH, EGHI, \nEGSS, EGSC\nTO: LF, LEMD, CANTABRICO GROUP, LEZG, LEBL, LEGE, LERS, LEPA\nLEIB, LEMH\nNOT ALLOWED VIA LFBBL45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f21e351e-25e6-47b2-85a1-6ba0a590fe56"
+            },
+            "locationId": "LFBBL45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f2c61de3-069b-4af1-81e5-1ff1b8d5247f"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2e571304-5600-4b90-abfa-078c00165a0b"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1BL4",
+      "label": "FL1BL4",
+      "sectorIds": [
+        "LFBBL4"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGKKD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC29A8DAFC230DB1710131"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGKKD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLEMGA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:1a1754dc-8e92-4d0b-9ad8-ea133d1da581",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1710979200000,
+            "end": 32503593600000
+          },
+          "stateId": "8203DE6500560500EFCD6CB8",
+          "name": "/FROM EGKK\nTO: LEBL, LEPA, LEIB, LEIB, LEAL, LEVC, LEMG \nNOT ALLOWED VIA LFBBL4\nREFILE BELOW FL365.",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d8168de8-ea89-4391-b1cb-58f58d8414e0"
+            },
+            "locationId": "LFBBL4",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9b38a343-6e30-46fd-b097-4e54787ceadb"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:bc718730-6f8e-4de3-a323-263d9aabe7b7"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1BP3",
+      "label": "FL1BP3",
+      "sectorIds": [
+        "LFBBP3"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECA26FF22062387B7C5E01"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC460D8310C08DFDD833E9"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECA26FF22062387B7C5E01"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLEBBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECA26FF22062387B7C5E01"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLEBLA"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECA26FF22062387B7C5E01"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC62E16BBD9E021728A391"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:fc650ae8-84cd-48b1-99ee-0add05dea4b5",
+        "groups": [
+          "ACCLFBB",
+          "ACCLFFF",
+          "ACCMLFFF"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1602115200000,
+            "end": 32503593600000
+          },
+          "stateId": "E2365A5F004A0100D703B792",
+          "name": "DEPS: LFOB,LFPB,LFPG,LFPN,LFPO,LFPT AND LFPV\nDESTS: LEBL LEBB AND LF..\nEXCEPT FOR LFV./LFW./LFKB/C/F/G/J/O/S/T\nNOT VIA LFBBP3 SECTOR\nREFILE BELOW FL345 UNTIL CLEAR OF THE SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9f8d76a0-4278-4196-ad3b-f122a4ed14e7"
+            },
+            "locationId": "LFBBP3",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c3d27fcf-ce26-484e-9525-7c89bacb6f32"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:50d9dbfc-5c39-4ef1-80ce-2dda00cd2243"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:17946393-3855-4bdb-a0d2-09ec9033d280"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:cca7a88f-257f-4e39-9242-8fddcfe60569"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1BR2",
+      "label": "FL1BR2",
+      "sectorIds": [
+        "LFBBR2"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLFPOA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:84d63204-21c1-4d49-a6d2-6f9e9376da2e",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1401321600000,
+            "end": 32503593600000
+          },
+          "stateId": "FDEF9A5300BE0000897B4C6F",
+          "name": "DEPS: ALL\nDEST: LFPO\nNOT ALLOWED VIA LFBB R2 SECTOR (OR ABOVE)\nREFILE BELOW FL295 BY SOMOS, LULUT, ENSAC, PERIG",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ec876d6e-8d42-425f-bc73-6eb33e43253f"
+            },
+            "locationId": "LFBBR2",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:fb0467b5-96f9-4c8a-8fd3-3340523b9ed0"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1BR3",
+      "label": "FL1BR3",
+      "sectorIds": [
+        "LFBBR3"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZEC5400E79CE11BF153A3A5"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:82ea3065-adfc-4a25-9d80-691a5feafd55",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1573084800000,
+            "end": 32503593600000
+          },
+          "stateId": "544EAC5D001A0000CD834E92",
+          "name": "/FROM: ANY\nTO:LFAI,LFPM,LFPN,LFPO,LFPV\nNOT ALLOWED VIA LFBBR3 SECTOR\nREFILE BELOW FL345 BY SOMOS, LULUT, ENSAC, PERIG",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:91414cf5-3059-4ce6-af62-361855326083"
+            },
+            "locationId": "LFBBR3",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:fd1560d7-a889-45fe-a2d0-d8faa73896db"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1BR45",
+      "label": "FL1BR45",
+      "sectorIds": [
+        "LFBBR4",
+        "LFBBR5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZEC673A6F80B04AAAC7DF47"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZECABCFFFBE4DF15827D35F"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:318a545d-98f1-410e-8338-b014e1a56830",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1585180800000,
+            "end": 32503593600000
+          },
+          "stateId": "59F8545E003C00007443C3EF",
+          "name": "/FROM: ANY\nTO: LFPG GROUP, LFOB, LFQQ\nNOT ALLOWED VIA  LFBBR45 SECTOR\nREFILE BELOW FL365 BY SOMOS, LULUT, ENSAC, POKET, PERIG",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b9315e02-23a1-4150-ab00-408af6c98889"
+            },
+            "locationId": "LFBBR45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:62013c6b-e665-4219-a822-337047d0bf71"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:435e2356-7e72-4714-9e3f-d411ccd92c43"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1BRX45",
+      "label": "FL1BRX45",
+      "sectorIds": [
+        "LFBBR4",
+        "LFBBR5",
+        "LFBBX4",
+        "LFBBX5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECF70B59D996E57972E540"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:a76e2987-ff2c-42a3-ab56-9336dd9d5138",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1715817600000,
+            "end": 32503593600000
+          },
+          "stateId": "008B2666002608004933E563",
+          "name": "FROM: LEBL, LEGE, LELL, LERS,LEDA\nTO: ANY\nNOT ALLOWED VIA LFBBRX45 SECTOR\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:456c6eb4-f015-4f76-9124-49922e43af88"
+            },
+            "locationId": "LFBBRX45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b3c34687-92a7-4470-9f32-0c2ad3c04e22"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1MW3",
+      "label": "FL1MW3",
+      "sectorIds": [
+        "LFMMW3"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC460D8310C08DFDD833E9"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLFTHA",
+              "AZEC04C6A9BC2A52A17518D7"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:b5f11aa5-242b-4d5e-b2e1-70d9ac7a44d5",
+        "groups": [
+          "ACCLFBB",
+          "ACCLFMM",
+          "ACCLSAG",
+          "FICLSAG",
+          "LFFFSTRIKE",
+          "LFMMFPLS",
+          "UACLSAG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1703721600000,
+            "end": 32503593600000
+          },
+          "stateId": "68B76865008000001BFEB12F",
+          "name": "FROM: LF\nTO: NICE GROUP AND LFTH\nNOT ALLOWED VIA LFMMW3 SECTOR\nREFILE BELOW FL355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:41c8c137-3f48-478f-8872-1852e3dcf10c"
+            },
+            "locationId": "LFMMW3",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d244520c-75d8-49f1-8e85-bfa5fa81251a"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1NRX45",
+      "label": "FL1NRX45",
+      "sectorIds": [
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLEPAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC52A5E5922E09E7E3768F"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:386d4a74-2432-4948-afa5-aec0eab71dd0",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1650499200000,
+            "end": 32503593600000
+          },
+          "stateId": "2BAE5262008A00002B54B13C",
+          "name": "/FROM: LEPA\nTO: EGNX, EGNM, EGGW, EGGP, EGGD, EGBB\nNOT ALLOWED VIA LFBBNRX45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f21e351e-25e6-47b2-85a1-6ba0a590fe56"
+            },
+            "locationId": "LFBBL45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f77374e6-39c8-4a43-a371-c5fd753ba586"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2BL2",
+      "label": "FL2BL2",
+      "sectorIds": [
+        "LFBBL2"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC8543B3CA67B088F2ECF4"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZEC8543B3CA67B088F2ECF4"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECA26FF22062387B7C5E01"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC69B46FFD19AE0F95E3BA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC49290BC6F3B43BD652A2"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC69B46FFD19AE0F95E3BA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:b4ade9a3-03b2-487b-aac3-9e2c9373f1dc",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1531958400000,
+            "end": 32503593600000
+          },
+          "stateId": "4175335B00EA00000B6FFDED",
+          "name": "/FROM LFP. AND LFMMFIR TO LFBDTMA\nFROM LFRS/RZ/RI/RN TO ANY\nFROM ANY TO LFRS/RZ/RI/RN\nNOT ALLOWED VIA LFBBL2 SECTOR\nREFILE BELOW FL295 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:977f9374-565a-4364-826c-4d1cdfe2edab"
+            },
+            "locationId": "LFBBL2",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d604f20a-8100-4498-ad83-7e4f19ee9b19"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9ecd07e4-843b-439e-80c9-db4b7d874477"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:96dc8c6e-b4bf-466f-a1fa-e0130c51936d"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d9b97d78-ef0c-4c15-81c0-56fe4f8494ef"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2BL45",
+      "label": "FL2BL45",
+      "sectorIds": [
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECAD736CEE4E9E66DEA0E6"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:9b9c1c54-be6f-452d-be2a-34ba405982ef",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1611792000000,
+            "end": 32503593600000
+          },
+          "stateId": "B280E85F000401005C1EECFF",
+          "name": "/FROM: EGHL/EGKB/EGKK/EGLC/EGLF/EGLK/EGLL/EGMC/EGTD/\nEGTF/EGTO/EGVO/EGWU\nTO: ANY\nNOT ALLOWED VIA LFBBL45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f21e351e-25e6-47b2-85a1-6ba0a590fe56"
+            },
+            "locationId": "LFBBL45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:34ef180c-d124-4dfe-b93f-efba43a626b9"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2BR45",
+      "label": "FL2BR45",
+      "sectorIds": [
+        "LFBBR4",
+        "LFBBR5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZEC673A6F80B04AAAC7DF47"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZECFA12B12D1517CF8413CF"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:eb73c1ef-51d4-41b5-9fc2-d7979aa78b28",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1585180800000,
+            "end": 32503593600000
+          },
+          "stateId": "59F8545E00A400007443C3EF",
+          "name": "/FROM: ANY\nTO: LFPG GROUP, LFOB, LFQQ AND\nEBBR, EBCI, EBOS, EDDK, ELLX\nNOT ALLOWED VIA  LFBBR45 SECTOR\nREFILE BELOW FL365 BY SOMOS, LULUT, ENSAC, POKET, PERIG",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b9315e02-23a1-4150-ab00-408af6c98889"
+            },
+            "locationId": "LFBBR45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:62013c6b-e665-4219-a822-337047d0bf71"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ca10982a-2245-4572-9834-c5a51cf30a0c"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2BRL2",
+      "label": "FL2BRL2",
+      "sectorIds": [
+        "LFBBL2",
+        "LFBBR2"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLFLLD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLFRZA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLFLLD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLFRSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLFRZD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLFLLA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLFRSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLFLLA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECA965D580ED2E2089BA9C"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTBEBIX"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTBEBIX"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECA965D580ED2E2089BA9C"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLFLLD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLFRBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLFRBD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLFLLA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLFBOD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLFRBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLFRBD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLFBOA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:9c72bcc5-d7f0-42b4-9cb8-d1f94011d45a",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1582761600000,
+            "end": 32503593600000
+          },
+          "stateId": "25DD3A5E00580000DD58EFB1",
+          "name": "/FROM: LFRSTMA(VIA BEBIX ) TO:ANY\nFROM: ANY (VIA BEBIX) TO LFRSTMA\nFROM: LFLL TO: LFRZ OR VICE VERSA\nFROM: LFLL TO: LFRS OR VICE VERSA\nFROM: LFBO TO: LFRB OR VICE VERSA\nFROM: LFLL TO: LFRB OR VICE VERSA\nNOT ALLOWED VIA LFBBRL2 \nREFILE BELOW FL295 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a74e510c-8b10-4269-a258-803bdd8dc920"
+            },
+            "locationId": "LFBBRL2",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4debbe40-7303-48d2-9562-723b7a161222"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f12fd72d-a4c5-4c34-a681-8b59d5aec6af"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:75416e0b-b7ec-4696-bb3a-704a06856811"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3c8107fb-7767-49be-9824-c9c68bc0819d"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:7a0871b3-8d11-44fb-b47a-889b8202b170"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:69126cf1-b85e-4702-924d-8394cdd9159b"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f0cdd2c3-a468-4e05-99f8-bf5bb17e3a48"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2e262453-abce-4379-8dc0-5533ebd17292"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:64a43d12-c5dd-4032-a847-23e0eb0745a0"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:8f4eb84c-3ca5-4be4-9d61-bfc2192d9e28"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2BX45",
+      "label": "FL2BX45",
+      "sectorIds": [
+        "LFBBX4",
+        "LFBBX5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECF70B59D996E57972E540"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:62701d80-28a8-4350-9879-abed979831cb",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1585180800000,
+            "end": 32503593600000
+          },
+          "stateId": "52FC545E002A09007443C3EF",
+          "name": "/FROM: LEBL,LEGE,LELL,LERS\nTO: ANY\nNOT VIA LFBBX45 SECTOR\nREFILE BELOW FL 365 TILL CLEAR OF THE SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:764f9156-0c44-4b44-a8c4-60bd95540737"
+            },
+            "locationId": "LFBBX45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b3c34687-92a7-4470-9f32-0c2ad3c04e22"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2NRX45",
+      "label": "FL2NRX45",
+      "sectorIds": [
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLEPAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC89E4E2347806BCF929CE"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:256a757c-ec0f-4a0b-86ce-8bda23b5e95b",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1650499200000,
+            "end": 32503593600000
+          },
+          "stateId": "2BAE526200D000002B54B13C",
+          "name": "/FROM: LEPA\nTO: EGNX, EGCC, EGNM, EGNT, EGFF, EGKK, EGSS\nNOT ALLOWED VIA LFBBNRX45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f21e351e-25e6-47b2-85a1-6ba0a590fe56"
+            },
+            "locationId": "LFBBL45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:52ebcf79-5409-4a0c-ac40-f94470231f39"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL3BL45",
+      "label": "FL3BL45",
+      "sectorIds": [
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC8E2116F64BF1EF7584E7"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:5795fc07-8934-420f-af72-6a2e55e1c83f",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1657756800000,
+            "end": 32503593600000
+          },
+          "stateId": "1E43AB6200670000A829A9CE",
+          "name": "/FROM: EGGW, EGHL, EGKB, EGKK, EGLC, EGLF, EGLK, EGLL, EGMC,\nEGTD, EGTF, EGTO, EGVO, EGWU, EGHH, EGHI, EGTE\nTO: ANY\nNOT ALLOWED VIA LFBBL45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f21e351e-25e6-47b2-85a1-6ba0a590fe56"
+            },
+            "locationId": "LFBBL45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:af28f8db-601c-4d3d-965b-9b7985ceab4d"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL3BX45",
+      "label": "FL3BX45",
+      "sectorIds": [
+        "LFBBX4",
+        "LFBBX5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLFRSD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC820D307239E5774E7AB3"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:6ef877a8-7c9b-41ae-9d4b-4bec8f36078a",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1585180800000,
+            "end": 32503593600000
+          },
+          "stateId": "09FD545E002000007443C3EF",
+          "name": "/FROM: LFRS, LSGG, LFLL, LFLS, LFLB \nTO: ANY\nNOT ALLOWED VIA LFBBX45 SECTOR \nREFILE BELOW F365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:764f9156-0c44-4b44-a8c4-60bd95540737"
+            },
+            "locationId": "LFBBX45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9730bcdd-6d7a-4812-b3e1-ff16e4356883"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c6782748-386c-42e0-8a8b-1902823999f2"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL3NRX4",
+      "label": "FL3NRX4",
+      "sectorIds": [
+        "LFBBN4",
+        "LFBBR4",
+        "LFBBX4"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLEPAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECE50FA1BAA5596877564E"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:438d4300-da00-46dc-928f-6d4edc58ed9a",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1660176000000,
+            "end": 32503593600000
+          },
+          "stateId": "A9C7CA62000400003EEF3842",
+          "name": "/FROM: LEPA\nTO: EGNX EGNM EGGW EGGP EGGD EGBB\nNOT ALLOWED VIA LFBBR4/N4/X4 \nREFILE BELOW FL365 OR ABOVE FL385 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:44863d8d-ea9e-4c4f-9dec-9c4ad6284e5f"
+            },
+            "locationId": "LFBBNRX4",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:673fe5ff-61d9-467a-bf5d-776568fa484a"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL3NRX45",
+      "label": "FL3NRX45",
+      "sectorIds": [
+        "LFBBN4",
+        "LFBBN5",
+        "LFBBR4",
+        "LFBBR5",
+        "LFBBX4",
+        "LFBBX5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLEPAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC52A5E5922E09E7E3768F"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:f062141b-59c1-414e-8609-f25aa760abc6",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1650499200000,
+            "end": 32503593600000
+          },
+          "stateId": "B0E3526200FD08002B54B13C",
+          "name": "/FROM: LEPA\nTO: EGNX, EGNM, EGGW, EGGP, EGGD, EGBB\nNOT ALLOWED VIA LFBBNRX45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1f56f762-06c3-4940-b4c8-cc94fe89995e"
+            },
+            "locationId": "LFBBNRX45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f77374e6-39c8-4a43-a371-c5fd753ba586"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL4BL45",
+      "label": "FL4BL45",
+      "sectorIds": [
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC8B70B914ABB39DB5A7FE"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:38fe5321-b020-4f0f-9cc5-bebfb938484b",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1611792000000,
+            "end": 32503593600000
+          },
+          "stateId": "D281E85F002000005C1EECFF",
+          "name": "/FROM: LFOB, LFPB, LFPG, LFPO\nTO: ANY\nNOT ALLOWED VIA LFBBL45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f21e351e-25e6-47b2-85a1-6ba0a590fe56"
+            },
+            "locationId": "LFBBL45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3656a2c2-a797-4c6f-a671-da0231991120"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL4BR2",
+      "label": "FL4BR2",
+      "sectorIds": [
+        "LFBBR2"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC460D8310C08DFDD833E9"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC225C2706074F9359B5DB"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:fd9d5fa4-31ab-4531-9e79-aa7ebad06a65",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1522281600000,
+            "end": 32503593600000
+          },
+          "stateId": "1EB19F5A0002000066D9F2BE",
+          "name": "DEPS LF.. EXCEPT LFV.\nDEST LFPN/LFPO/LFPV/LFOT\nNOT ALLOWED VIA LFBBR2\nSUGGESTED ROUTE: REFILE BELOW FL 295 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ec876d6e-8d42-425f-bc73-6eb33e43253f"
+            },
+            "locationId": "LFBBR2",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:41dcf43c-e9af-4710-a5c9-c3ac71e23c47"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL4BRL45",
+      "label": "FL4BRL45",
+      "sectorIds": [
+        "LFBBL4",
+        "LFBBL5",
+        "LFBBR4",
+        "LFBBR5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC8B70B914ABB39DB5A7FE"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:cd6ce730-fe69-4660-99fc-d0ac91e5bf6e",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1563408000000,
+            "end": 32503593600000
+          },
+          "stateId": "86C0255D006E0000DE8E9BAF",
+          "name": "/FROM:LFPB/PG/PO/OB\nTO:ANY\nNOT ALLOWED VIA LFBBRL45 \nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:018448cc-ebe7-462b-bd10-9ef38fd84efb"
+            },
+            "locationId": "LFBBRL45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3656a2c2-a797-4c6f-a671-da0231991120"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL4NRX4",
+      "label": "FL4NRX4",
+      "sectorIds": [
+        "LFBBN4",
+        "LFBBR4",
+        "LFBBX4"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLEIBD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECAA94089C2C14A17430B8"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:ac986e73-0d7d-421c-820e-5b0d199486d3",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1660176000000,
+            "end": 32503593600000
+          },
+          "stateId": "0EC8CA62000A00003EEF3842",
+          "name": "/FROM: LEIB \nTO: EGNX , EGCC , EGNM , EGGW, EGFF , EGKK , EGSS \nNOT ALLOWED VIA LFBBR4/N4/X4 \nREFILE BELOW FL365 OR ABOVE FL385 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:44863d8d-ea9e-4c4f-9dec-9c4ad6284e5f"
+            },
+            "locationId": "LFBBNRX4",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3a532fc3-b32a-4f87-8c19-b7e280ac69db"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL4NRX45",
+      "label": "FL4NRX45",
+      "sectorIds": [
+        "LFBBN4",
+        "LFBBN5",
+        "LFBBR4",
+        "LFBBR5",
+        "LFBBX4",
+        "LFBBX5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLEIBD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC65C9EA7E179BE4CD1EB4"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:90d92066-4d4a-4580-97fe-be30190815d7",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1657756800000,
+            "end": 32503593600000
+          },
+          "stateId": "ABDCAD6200EF0A00A829A9CE",
+          "name": "/FROM: LEIB\nTO: EGNX, EGCC, EGNM, EGGW, EGFF, EGKK, EGSS\nNOT ALLOWED VIA LFBBNRX45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1f56f762-06c3-4940-b4c8-cc94fe89995e"
+            },
+            "locationId": "LFBBNRX45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9dd6948c-a51c-4d92-a581-89ce6db94abf"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL5BL45",
+      "label": "FL5BL45",
+      "sectorIds": [
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGSSD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:17cc4164-7cbf-472d-85b3-540c5615b763",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1657756800000,
+            "end": 32503593600000
+          },
+          "stateId": "56F0B26200130000A829A9CE",
+          "name": "/FROM EGSS \nTO ANY \nNOT ALLOWED VIA LFBBL45.\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR.",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f21e351e-25e6-47b2-85a1-6ba0a590fe56"
+            },
+            "locationId": "LFBBL45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a819deb9-8e0a-40f9-9c4c-37bc70bec59d"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL5BR2",
+      "label": "FL5BR2",
+      "sectorIds": [
+        "LFBBR2"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC8543B3CA67B088F2ECF4"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC460D8310C08DFDD833E9"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC225C2706074F9359B5DB"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:25667cd6-dcf2-4681-a83b-f577cbc55f7b",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1725494400000,
+            "end": 32503593600000
+          },
+          "stateId": "E44FC366004E00000C7497C3",
+          "name": "/FROM LF.. TO LFOT/PN/PO/PV\nFROM LFRS/RZ/RI/RN TO ANY\nNOT ALLOWED VIA LFBBR2 SECTOR\nREFILE BELOW FL295 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ec876d6e-8d42-425f-bc73-6eb33e43253f"
+            },
+            "locationId": "LFBBR2",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d604f20a-8100-4498-ad83-7e4f19ee9b19"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:41dcf43c-e9af-4710-a5c9-c3ac71e23c47"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL5BX45",
+      "label": "FL5BX45",
+      "sectorIds": [
+        "LFBBX4",
+        "LFBBX5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC59B9742C77493FEDF10F"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC49290BC6F3B43BD652A2"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECFC5D9C3DF4A9CDC80022"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECA965D580ED2E2089BA9C"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZECB1820B9AF423657FA774"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC62E16BBD9E021728A391"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:ab3b2a90-fabf-41d2-aca9-bf3b373a4d2f",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1585180800000,
+            "end": 32503593600000
+          },
+          "stateId": "0AFD545E003600007443C3EF",
+          "name": "/FROM: LFRSTMA(EXCEPT LFK.)/LFBB/LFMM/LS..    TO   ANY\nFROM: ANY  TO  LFMP/MT/MU\nNOT ALLOWED VIA LFBBX45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:764f9156-0c44-4b44-a8c4-60bd95540737"
+            },
+            "locationId": "LFBBX45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:54c3f5d8-68f7-4acd-a1e2-8ed687a3dd03"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4aea7376-6be5-41c0-93f0-5fddc20b03ed"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6aad03d8-176a-467c-9d59-ec101f9ae025"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4667ef93-66c3-4854-a707-b8eb345842c3"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:630e299d-72a2-471f-90f2-e4d6d6ca53a5"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f488ea3a-b4fd-446d-a6e2-7e1e0a43d988"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL6BL45",
+      "label": "FL6BL45",
+      "sectorIds": [
+        "LFBBL4",
+        "LFBBL5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ],
+            [
+              "PTAMB"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECB9EFCC958DD2C291913A"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC463C802D6726DD539F75"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECA7D0A83A4C4CC87C53A1"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:a942377d-1f12-4dd5-9782-f857b9d84295",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1773878400000,
+            "end": 32503593600000
+          },
+          "stateId": "73649C6900860B00ADDECE50",
+          "name": "FROM LONDON SOUTH GROUP, SEVERN GROUP,EGTE,EGHH,EGHI,EGSS,\nEGSC\nTO: LF, LEMD, CANTABRICO GROUP, LEZG, LEBL, LEGE, LERS, LEPA\nLEIB, LEMH\nNOT ALLOWED VIA LFBBL45\nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f21e351e-25e6-47b2-85a1-6ba0a590fe56"
+            },
+            "locationId": "LFBBL45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2e571304-5600-4b90-abfa-078c00165a0b"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f2c61de3-069b-4af1-81e5-1ff1b8d5247f"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL6NRX4",
+      "label": "FL6NRX4",
+      "sectorIds": [
+        "LFBBN4",
+        "LFBBR4",
+        "LFBBX4"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLEPAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECACE39DD864D134F07E03"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:c7ba6517-e7e6-434f-a221-1f918cc3c3ab",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1660176000000,
+            "end": 32503593600000
+          },
+          "stateId": "09C9CA62000C00003EEF3842",
+          "name": "/FROM: LEPA \nTO: EGHH ,EGGW , EGHI , EGGD , EGSS\nNOT ALLOWED VIA LFBBR4 , LFBBN4 , LFBBX4\nREFILE BELOW FL365 OR ABOVE FL385 UNTIL CLEAR OF SECTOR ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:44863d8d-ea9e-4c4f-9dec-9c4ad6284e5f"
+            },
+            "locationId": "LFBBNRX4",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:eb55f3ee-6baa-4f5e-a0b1-5e72764f6923"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL6NRX45",
+      "label": "FL6NRX45",
+      "sectorIds": [
+        "LFBBN4",
+        "LFBBN5",
+        "LFBBR4",
+        "LFBBR5",
+        "LFBBX4",
+        "LFBBX5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLEPAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECACE39DD864D134F07E03"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:31d7952b-7b28-496d-bdaa-aaf6c6f1c6fd",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1657756800000,
+            "end": 32503593600000
+          },
+          "stateId": "F734B46200600900A829A9CE",
+          "name": "/FROM: LEPA\nTO:EGHH,EGGW,EGHI,EGGD,EGSS\nNOT ALLOWED VIA LFBBR45,LFBBN45,LFBBX45. \nREFILE BELOW FL365 UNTIL CLEAR OF SECTOR.",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1f56f762-06c3-4940-b4c8-cc94fe89995e"
+            },
+            "locationId": "LFBBNRX45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:eb55f3ee-6baa-4f5e-a0b1-5e72764f6923"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL8BX45",
+      "label": "FL8BX45",
+      "sectorIds": [
+        "LFBBX4",
+        "LFBBX5"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC8D18FFF27B728DB19684"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZECB1820B9AF423657FA774"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLSGGD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:8ed7caee-b223-418c-baad-2846f9339d0c",
+        "groups": [
+          "ACCLFBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1585180800000,
+            "end": 32503593600000
+          },
+          "stateId": "0AFD545E005A00007443C3EF",
+          "name": "FROM: LFHE/LFHG/LFHH/LFHJ/LFHS/LFHV/LFHW/LFJD/LFKL/LFKM/LFKP\n/LFLB/LFLI/LFLL/LFLM/LFLN/LFLO/LFLP/LFLR/LFLS/LFLU/LFLY/LFLZ\n/LFMH/LFXA/LSGG\nOR\nTO : LFMP/LFMT/LFMU\nNOT ALLOWED VIA LFBBX45\nSUGGESTED REROUTE : REFILE BELOW FL365 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:764f9156-0c44-4b44-a8c4-60bd95540737"
+            },
+            "locationId": "LFBBX45",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2f119bda-55e8-4d71-8d53-1b3a59e70c77"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:630e299d-72a2-471f-90f2-e4d6d6ca53a5"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1618ed35-335a-4df7-ac48-73f3afd7174d"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2908 @@
+{
+  "volumes": [
+    {
+      "id": "LGSTRDE6",
+      "label": "LGSTRDE6",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU",
+        "LMMMWSTL",
+        "LMMMWSTU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECAF8C688A024763BC3703"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC7129AEAB14F283A797A3"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:857693e4-d0e5-4d52-8427-4cda90a46e02",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1507766400000,
+            "end": 32503593600000
+          },
+          "stateId": "265FB9590074010023322DD3",
+          "name": "STRIKE DEPS VIA LMMM",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:86f22e46-8685-49fa-b8bc-8150e420879f"
+            },
+            "locationId": "LMMMCTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:36178c0b-70fb-4495-92de-2d91e6a60a4e"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b452271f-0bd2-41a5-bb6b-0cf63e9ca313"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LICD",
+      "label": "LICD",
+      "arrival": [
+        "LICD"
+      ],
+      "departure": [
+        "LICD"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:a26debae-3835-4a9a-94fd-09a5a7f54296",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1389225600000,
+            "end": 32503593600000
+          },
+          "stateId": "A9EFE85200110000429BC9F4",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4300bee5-7c49-41a9-8bd0-c62a1c556a5e"
+            },
+            "locationId": "LICD",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LICDARR",
+      "label": "LICDARR",
+      "arrival": [
+        "LICD"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 3
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:474f45fb-401f-412c-9dee-4de078ec37c1",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "1F3BAF67002F0200E5F73002",
+          "name": "LICD ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:353f411f-a133-4107-a017-955aaf40fa15"
+            },
+            "locationId": "LICD",
+            "category": "ARRIVAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1742428800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 3
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LICDDEP",
+      "label": "LICDDEP",
+      "departure": [
+        "LICD"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:ad367b4f-9a4d-49aa-a9a2-4a1d82c99676",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "133BAF6700280200E5F73002",
+          "name": "LICD DEPARTURES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:720ef687-a815-4bb8-b23c-e1917795c982"
+            },
+            "locationId": "LICD",
+            "category": "DEPARTURE"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LIRAST2P",
+      "label": "LIRAST2P",
+      "arrival": [
+        "LICA",
+        "LICC",
+        "LICD",
+        "LICG",
+        "LICJ",
+        "LICR",
+        "LICT",
+        "LIEA",
+        "LIEE",
+        "LIEO"
+      ],
+      "capacity": {},
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC9908D330D53B47BD075F"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC78788EE587EA25C8B2FE"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECDC86DBE4D46ABA35DD81"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADOLBAD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLIBPD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLIBPA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:dd50b962-249e-4cdc-9abb-9bdee240f4ec",
+        "groups": [
+          "ACCLIIIT",
+          "ACCLIRR",
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1626307200000,
+            "end": 32503593600000
+          },
+          "stateId": "29CFC960003501007076A701",
+          "name": "ARRIVAL LIRR2 STRIKE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7cb55ea2-d9c4-43c0-ab6c-ac08fd890e25"
+            },
+            "locationId": "LIRSTR2",
+            "category": "ARRIVAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f0f44dd5-1187-4fe2-aa88-4cc5a7ecc447"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:82f3c449-2018-47b7-8ab8-5e5a07dc7308"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b7bf0284-9b17-4358-bb06-b081f270186d"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a3f2b6d4-b239-4b57-8bfa-173451bd0514"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:bdb369b1-9315-4b9e-8e79-133c7cf0a353"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4d6515a1-8fea-4d3d-9d2d-53dc04a9dc1b"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LIRDST4P",
+      "label": "LIRDST4P",
+      "departure": [
+        "LICA",
+        "LICC",
+        "LICD",
+        "LICG",
+        "LICJ",
+        "LICR",
+        "LICT",
+        "LIEA",
+        "LIEE",
+        "LIEO"
+      ],
+      "capacity": {},
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZECE8C8274239ACB90C9183"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLIBPD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLIBPA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:7c3c0191-2338-447b-b893-f7302eb7f16e",
+        "groups": [
+          "ACCLIIIT",
+          "ACCLIRR",
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1667433600000,
+            "end": 32503593600000
+          },
+          "stateId": "5F694463004E0100C581E68B",
+          "name": "LIRR DEPS STRIKE 2",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:93dfd6b1-f86f-4ecf-98ad-5c75a19be349"
+            },
+            "locationId": "LIRSTR2",
+            "category": "DEPARTURE"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:faf238c9-6eb9-43e2-bbb0-df9b5ea67f6e"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:bdb369b1-9315-4b9e-8e79-133c7cf0a353"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4d6515a1-8fea-4d3d-9d2d-53dc04a9dc1b"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LIRRAST2",
+      "label": "LIRRAST2",
+      "arrival": [
+        "LICA",
+        "LICC",
+        "LICD",
+        "LICG",
+        "LICJ",
+        "LICR",
+        "LICT",
+        "LIEA",
+        "LIEE",
+        "LIEO"
+      ],
+      "capacity": {},
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC9908D330D53B47BD075F"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC78788EE587EA25C8B2FE"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECDC86DBE4D46ABA35DD81"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADOLBAD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:bc7f5045-7537-4230-9313-a5c0a8517511",
+        "groups": [
+          "ACCLIIIT",
+          "ACCLIRR",
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1299715200000,
+            "end": 32503593600000
+          },
+          "stateId": "3938664D000400000DC5AD5F",
+          "name": "ARRIVAL LIRR2 STRIKE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7cb55ea2-d9c4-43c0-ab6c-ac08fd890e25"
+            },
+            "locationId": "LIRSTR2",
+            "category": "ARRIVAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f0f44dd5-1187-4fe2-aa88-4cc5a7ecc447"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:82f3c449-2018-47b7-8ab8-5e5a07dc7308"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b7bf0284-9b17-4358-bb06-b081f270186d"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a3f2b6d4-b239-4b57-8bfa-173451bd0514"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LIRRDST4",
+      "label": "LIRRDST4",
+      "departure": [
+        "LICA",
+        "LICC",
+        "LICD",
+        "LICG",
+        "LICJ",
+        "LICR",
+        "LICT",
+        "LIEA",
+        "LIEE",
+        "LIEO"
+      ],
+      "capacity": {},
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZECE8C8274239ACB90C9183"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:6cda7d5c-8f88-4597-94c0-e01bc3117026",
+        "groups": [
+          "ACCLIIIT",
+          "ACCLIRR",
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1667433600000,
+            "end": 32503593600000
+          },
+          "stateId": "5F694463001B0200C581E68B",
+          "name": "LIRR DEPS STRIKE 2",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:93dfd6b1-f86f-4ecf-98ad-5c75a19be349"
+            },
+            "locationId": "LIRSTR2",
+            "category": "DEPARTURE"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:faf238c9-6eb9-43e2-bbb0-df9b5ea67f6e"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMCONE1",
+      "label": "LMCONE1",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTARLOS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTNEVIK"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTRASNO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTEKLIS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTROTAS"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:090396b6-46f2-40d0-bf5b-bdf3719bfcd5",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "CF7DD06100980000405B217B",
+          "name": "LMMM CONTINGENCY ONLY NO TRAFFIC ALLOWED VIA POINTS ARLOS,\nNEVIK,RASNO,EKLIS,ROTAS IN THE LMMMEST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4fcc613e-f7fd-48f3-9312-f7d9e3cf3ce4"
+            },
+            "locationId": "LMMMEST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:92c99c81-86be-4739-8590-991bac116821"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ddf877b2-4945-49a0-92f1-97f529a25fde"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:67f44030-a2fd-4e1a-8bbe-5371752ec8ea"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b03b6024-ba87-4c56-ba2b-3c76e483b581"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c69bce6b-11f3-46fc-9ecb-64fa8208e706"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMCONE2",
+      "label": "LMCONE2",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTARLOS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTNEVIK"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTRASNO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTEKLIS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTORTAP"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTLEVDI"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTROTAS"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:25ec3009-eb48-4a2f-987f-947a02f2cb71",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "E4E9DE61007F0A00405B217B",
+          "name": "LMMM CONTINGENCY ONLY NO TRAFFIC ALLOWED VIA POINTS ARLOS,\nNEVIK,RASNO,EKLIS,ORTAP,LEVDI,SUBOK,ROTAS\nAND SUBOK-OMARA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4fcc613e-f7fd-48f3-9312-f7d9e3cf3ce4"
+            },
+            "locationId": "LMMMEST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:92c99c81-86be-4739-8590-991bac116821"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ddf877b2-4945-49a0-92f1-97f529a25fde"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:67f44030-a2fd-4e1a-8bbe-5371752ec8ea"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b03b6024-ba87-4c56-ba2b-3c76e483b581"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:cef43464-70fb-44fe-a41c-096be6f216f6"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6d1d1e3b-e1f3-492b-b8d9-5d8f28cf9c3c"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c69bce6b-11f3-46fc-9ecb-64fa8208e706"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMCONE3",
+      "label": "LMCONE3",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTARLOS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTNEVIK"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTRASNO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTEKLIS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTORTAP"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTLEVDI"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTROTAS"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:42217be8-67e1-4fe3-a383-c7ed2189c5f1",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "E07DD061009B0000405B217B",
+          "name": "LMMM CONTINGENCY ONLY NO TRAFFIC ALLOWED VIA POINTS ARLOS,\nNEVIK,RASNO,EKLIS,ORTAP AND LEVDI,ROTAS\nIN THE LMMMEST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4fcc613e-f7fd-48f3-9312-f7d9e3cf3ce4"
+            },
+            "locationId": "LMMMEST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:92c99c81-86be-4739-8590-991bac116821"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ddf877b2-4945-49a0-92f1-97f529a25fde"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:67f44030-a2fd-4e1a-8bbe-5371752ec8ea"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b03b6024-ba87-4c56-ba2b-3c76e483b581"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:cef43464-70fb-44fe-a41c-096be6f216f6"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6d1d1e3b-e1f3-492b-b8d9-5d8f28cf9c3c"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c69bce6b-11f3-46fc-9ecb-64fa8208e706"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMCONS1",
+      "label": "LMCONS1",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTARLOS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTNEVIK"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTRASNO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTEKLIS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTROTAS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTLEVDI"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTORTAP"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:285b2976-c6e9-4da9-9471-c7bece7bc6dc",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "E87DD06100BC0000405B217B",
+          "name": "LMMM CONTINGENCY ONLY\nNO TRAFFIC ALLOWED VIA POINTS ARLOS, NEVIK, RASNO, EKLIS,\nROTAS, LEVDI, ORTAP IN LMMMEST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4fcc613e-f7fd-48f3-9312-f7d9e3cf3ce4"
+            },
+            "locationId": "LMMMEST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:92c99c81-86be-4739-8590-991bac116821"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ddf877b2-4945-49a0-92f1-97f529a25fde"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:67f44030-a2fd-4e1a-8bbe-5371752ec8ea"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b03b6024-ba87-4c56-ba2b-3c76e483b581"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c69bce6b-11f3-46fc-9ecb-64fa8208e706"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6d1d1e3b-e1f3-492b-b8d9-5d8f28cf9c3c"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:cef43464-70fb-44fe-a41c-096be6f216f6"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMCONS2",
+      "label": "LMCONS2",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTARLOS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTNEVIK"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTRASNO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTEKLIS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTROTAS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTLEVDI"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:f9bc8873-0119-4eb6-8cb0-78cd5a4d4773",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "F07DD06100BF0000405B217B",
+          "name": "LMMM CONTINGENCY ONLY\nNO TRAFFIC ALLOWED VIA POINTS ARLOS, NEVIK, RASNO, EKLIS,\nROTAS, LEVDI IN LMMMEST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4fcc613e-f7fd-48f3-9312-f7d9e3cf3ce4"
+            },
+            "locationId": "LMMMEST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:92c99c81-86be-4739-8590-991bac116821"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ddf877b2-4945-49a0-92f1-97f529a25fde"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:67f44030-a2fd-4e1a-8bbe-5371752ec8ea"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b03b6024-ba87-4c56-ba2b-3c76e483b581"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c69bce6b-11f3-46fc-9ecb-64fa8208e706"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6d1d1e3b-e1f3-492b-b8d9-5d8f28cf9c3c"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMCONS3",
+      "label": "LMCONS3",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTARLOS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTNEVIK"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTRASNO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTEKLIS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTLEVDI"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:857fa373-f876-40f1-ae38-0d38b38efb13",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "F87DD06100BD0000405B217B",
+          "name": "LMMM CONTINGENCY ONLY\nNO TRAFFIC ALLOWED VIA POINTS ARLOS, NEVIK, RASNO, EKLIS,\nLEVDI IN LMMMEST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4fcc613e-f7fd-48f3-9312-f7d9e3cf3ce4"
+            },
+            "locationId": "LMMMEST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:92c99c81-86be-4739-8590-991bac116821"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ddf877b2-4945-49a0-92f1-97f529a25fde"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:67f44030-a2fd-4e1a-8bbe-5371752ec8ea"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b03b6024-ba87-4c56-ba2b-3c76e483b581"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6d1d1e3b-e1f3-492b-b8d9-5d8f28cf9c3c"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMCONS4",
+      "label": "LMCONS4",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTARLOS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTNEVIK"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTRASNO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTEKLIS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTLEVDI"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:d3e0abab-d5ce-4df3-9128-8f9bf38ad1fc",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1643241600000,
+            "end": 32503593600000
+          },
+          "stateId": "017ED06100BC0000405B217B",
+          "name": "LMMM CONTINGENCY ONLY\nNO TRAFFIC ALLOWED VIA POINTS ARLOS, NEVIK, RASNO, EKLIS,\nLEVDI,LMMMEST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4fcc613e-f7fd-48f3-9312-f7d9e3cf3ce4"
+            },
+            "locationId": "LMMMEST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:92c99c81-86be-4739-8590-991bac116821"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ddf877b2-4945-49a0-92f1-97f529a25fde"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:67f44030-a2fd-4e1a-8bbe-5371752ec8ea"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b03b6024-ba87-4c56-ba2b-3c76e483b581"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6d1d1e3b-e1f3-492b-b8d9-5d8f28cf9c3c"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMHECRI",
+      "label": "LMHECRI",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU",
+        "LMMMWSTL",
+        "LMMMWSTU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ASHECCALL"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:c488d8b1-2db1-4217-9a75-0ba78ece35a6",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1749686400000,
+            "end": 32503593600000
+          },
+          "stateId": "CE443068006600007EC9EE5A",
+          "name": "VIA LMMMCTA INTO CAIRO",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:86f22e46-8685-49fa-b8bc-8150e420879f"
+            },
+            "locationId": "LMMMCTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4b50d39e-71a3-4352-ab76-e66cf3bd15c8"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "note": "CAIRO RADAR FAILURE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMML",
+      "label": "LMML",
+      "arrival": [
+        "LMML"
+      ],
+      "departure": [
+        "LMML"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:75102dd4-a582-4dd6-88c2-4702c5b16e33",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1759363200000,
+            "end": 32503593600000
+          },
+          "stateId": "11ACC168001E000068B1AEA6",
+          "name": "LMML ARRIVALS + DEPARTURES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:811fd2db-c410-46b6-b1a0-6f287bbd4a9a"
+            },
+            "locationId": "LMML",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMMLARR",
+      "label": "LMMLARR",
+      "arrival": [
+        "LMML"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 15
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLMMLD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:75ca07c3-bc22-4951-810d-2cfb3911e993",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1754524800000,
+            "end": 32503593600000
+          },
+          "stateId": "0AC77868004A09007ED6FF42",
+          "name": "DEST LMML",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7605f5e6-8275-4b28-b81f-12dbe4c9e049"
+            },
+            "locationId": "LMML",
+            "category": "ARRIVAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d3672917-c8d9-42b8-9c8b-62f1fe3d220b"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 15
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMMLDEP",
+      "label": "LMMLDEP",
+      "departure": [
+        "LMML"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:4e68373e-2a5f-4730-977e-ab216104058c",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1667433600000,
+            "end": 32503593600000
+          },
+          "stateId": "3946486300FF0000C581E68B",
+          "name": "LMML DEPARTURES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9fc4b824-9019-4732-ac2d-1e39757b7e1d"
+            },
+            "locationId": "LMML",
+            "category": "DEPARTURE"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMMLTMA",
+      "label": "LMMLTMA",
+      "sectorIds": [
+        "LMMLTA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:58740d9a-339e-436b-ad32-ee718bf94f3d",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1754524800000,
+            "end": 32503593600000
+          },
+          "stateId": "44E27868005000007ED6FF42",
+          "name": "LMML TMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:700fae2a-e425-4032-8ee6-c2a715a15cc8"
+            },
+            "locationId": "LMMLTA",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMMMALL",
+      "label": "LMMMALL",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU",
+        "LMMMWSTL",
+        "LMMMWSTU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTMEGAN"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPAN"
+            ],
+            [
+              "ADLICGA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:9aa2cb26-fcf2-42c2-8ffb-20b5fea3d5a7",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1754524800000,
+            "end": 32503593600000
+          },
+          "stateId": "44E27868002700007ED6FF42",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6e55c0e4-b6ff-4ac3-b50c-c40fb8565587"
+            },
+            "locationId": "LMMMALL",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c7e102c3-137c-4e97-84b5-1eefe7e601cf"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMMMCRI",
+      "label": "LMMMCRI",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU",
+        "LMMMWSTL",
+        "LMMMWSTU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTMEGAN"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPAN"
+            ],
+            [
+              "ADLICGA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:712b64f6-4609-4872-a751-950993617210",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "466DC46700840F00E5F73002",
+          "name": "LMMM CTA CRISIS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6e55c0e4-b6ff-4ac3-b50c-c40fb8565587"
+            },
+            "locationId": "LMMMALL",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c7e102c3-137c-4e97-84b5-1eefe7e601cf"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMMMEST",
+      "label": "LMMMEST",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-08-07T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 18,
+            "sustained": 16,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 18,
+        "sustain": 16
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:a6b84131-de88-4d75-9401-a26ecbca58a5",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1754524800000,
+            "end": 32503593600000
+          },
+          "stateId": "50C77868001800007ED6FF42",
+          "name": "MALTA EST",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4fcc613e-f7fd-48f3-9312-f7d9e3cf3ce4"
+            },
+            "locationId": "LMMMEST",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1754524800000,
+              "til": 32503593600000,
+              "peak": 18,
+              "sustained": 16,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMMMEST1",
+      "label": "LMMMEST1",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLMMLA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLMMLD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:07b9e9ff-242e-4680-a8d9-77bd915236ec",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1752105600000,
+            "end": 32503593600000
+          },
+          "stateId": "CDC14D68002F00002B475421",
+          "name": "MALTA EST",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4fcc613e-f7fd-48f3-9312-f7d9e3cf3ce4"
+            },
+            "locationId": "LMMMEST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5bf48979-64f1-4037-90e4-cd5c5a458934"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d3672917-c8d9-42b8-9c8b-62f1fe3d220b"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMMMWST",
+      "label": "LMMMWST",
+      "sectorIds": [
+        "LMMMWSTL",
+        "LMMMWSTU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 20,
+            "sustained": 18,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 20,
+        "sustain": 18
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTMEGAN"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPAN"
+            ],
+            [
+              "ADLICGA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:db735f11-5ab8-4179-a505-2fa1f3173a08",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "DC954A69008D0000E9C3D4FE",
+          "name": "MALTA WEST",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c8808771-85de-4b4f-946e-3d2f80d40540"
+            },
+            "locationId": "LMMMWST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c7e102c3-137c-4e97-84b5-1eefe7e601cf"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 20,
+              "sustained": 18,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMMMWST1",
+      "label": "LMMMWST1",
+      "sectorIds": [
+        "LMMMWSTL",
+        "LMMMWSTU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTMEGAN"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPAN"
+            ],
+            [
+              "ADLICGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLMMLA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLMMLD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:5e14d30d-41fe-411e-9d5f-2cdb54424134",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1752105600000,
+            "end": 32503593600000
+          },
+          "stateId": "CDC14D68000B00002B475421",
+          "name": "MALTA WEST",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c8808771-85de-4b4f-946e-3d2f80d40540"
+            },
+            "locationId": "LMMMWST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c7e102c3-137c-4e97-84b5-1eefe7e601cf"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5bf48979-64f1-4037-90e4-cd5c5a458934"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d3672917-c8d9-42b8-9c8b-62f1fe3d220b"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMMMWST2",
+      "label": "LMMMWST2",
+      "sectorIds": [
+        "LMMMWSTL",
+        "LMMMWSTU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLMMLA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLMMLD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLICDD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLICDA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:6c3cd3f4-b8fe-405c-9d7e-41aa342c46d8",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1761782400000,
+            "end": 32503593600000
+          },
+          "stateId": "B6FFDB6800EF000063CAEA6B",
+          "name": "MALTA WEST EXCLUDING LMML/LICD ARR AND DEP",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c8808771-85de-4b4f-946e-3d2f80d40540"
+            },
+            "locationId": "LMMMWST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5bf48979-64f1-4037-90e4-cd5c5a458934"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d3672917-c8d9-42b8-9c8b-62f1fe3d220b"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:02db7906-3d35-4b1d-9ef2-bea482390c13"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:48746ce9-08ca-4ec3-ba61-022aa2a85cbc"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMMMWST3",
+      "label": "LMMMWST3",
+      "sectorIds": [
+        "LMMMWSTL",
+        "LMMMWSTU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 20,
+            "sustained": 18,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 20,
+        "sustain": 18
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTMEGAN"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPAN"
+            ],
+            [
+              "ADLICGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLICDA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLICDD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLMMLD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLMMLA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:8387004e-f1ff-4068-885c-1ec9b89b4fec",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "DC954A6900B10000E9C3D4FE",
+          "name": "MALTA WEST",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c8808771-85de-4b4f-946e-3d2f80d40540"
+            },
+            "locationId": "LMMMWST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c7e102c3-137c-4e97-84b5-1eefe7e601cf"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:48746ce9-08ca-4ec3-ba61-022aa2a85cbc"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:02db7906-3d35-4b1d-9ef2-bea482390c13"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d3672917-c8d9-42b8-9c8b-62f1fe3d220b"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5bf48979-64f1-4037-90e4-cd5c5a458934"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 20,
+              "sustained": 18,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMOVERFL",
+      "label": "LMOVERFL",
+      "sectorIds": [
+        "LMMMESTL",
+        "LMMMESTU",
+        "LMMMWSTL",
+        "LMMMWSTU"
+      ],
+      "capacity": {},
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLMMLA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLMMLD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:cfd44e7d-6f6c-441d-9d6a-e7c488dbd4c7",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1435190400000,
+            "end": 32503593600000
+          },
+          "stateId": "C6D2935500190000537F297E",
+          "name": "MALTA ACC OVERFLIGHTS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6e55c0e4-b6ff-4ac3-b50c-c40fb8565587"
+            },
+            "locationId": "LMMMALL",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5bf48979-64f1-4037-90e4-cd5c5a458934"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d3672917-c8d9-42b8-9c8b-62f1fe3d220b"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMOVRFL1",
+      "label": "LMOVRFL1",
+      "sectorIds": [
+        "LMMLTA",
+        "LMMMESTL",
+        "LMMMESTU",
+        "LMMMWSTL",
+        "LMMMWSTU"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:8b5de0d8-9ad2-424c-8e78-a08d1a383c11",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1449705600000,
+            "end": 32503593600000
+          },
+          "stateId": "B43D585600CE00001F9DF6D8",
+          "name": "MALTA ACC OVERFLIGHTS INCLUDING LMMLTMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ff40cfce-092a-4be3-a61e-c2d84278db88"
+            },
+            "locationId": "LMMMALL1",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LMOVRFL2",
+      "label": "LMOVRFL2",
+      "sectorIds": [
+        "LMMLTA",
+        "LMMMESTL",
+        "LMMMESTU",
+        "LMMMWSTL",
+        "LMMMWSTU"
+      ],
+      "capacity": {},
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLMMLA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLMMLD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:6a9836ff-1467-4830-b134-15c113f7ac4d",
+        "groups": [
+          "ACCLMMM"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1449705600000,
+            "end": 32503593600000
+          },
+          "stateId": "8B535856008E00001F9DF6D8",
+          "name": "MALTA ACC OVERFLIGHTS INCLUDING LMMLTMA EXCLUDING \nDEP/ARR LMML",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ff40cfce-092a-4be3-a61e-c2d84278db88"
+            },
+            "locationId": "LMMMALL1",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5bf48979-64f1-4037-90e4-cd5c5a458934"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d3672917-c8d9-42b8-9c8b-62f1fe3d220b"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

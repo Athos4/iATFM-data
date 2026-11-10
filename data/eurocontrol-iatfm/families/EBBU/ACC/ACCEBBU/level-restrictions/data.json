@@ -1,0 +1,67 @@
+{
+  "volumes": [
+    {
+      "id": "FL4DWHM",
+      "label": "FL4DWHM",
+      "sectorIds": [
+        "EDYYD3WM",
+        "EDYYD6WH"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC1CC894EADAA760E661BC"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:d3bf9b5b-796b-43bc-8b5e-4f0636c88669",
+        "groups": [
+          "ACCEBBU",
+          "EDYYADEXP",
+          "EDYYADEXP2",
+          "UACEDYY",
+          "UACEDYYB",
+          "UACEDYYD",
+          "UACEDYYH"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1725494400000,
+            "end": 32503593600000
+          },
+          "stateId": "7AA1B06600190000A240578B",
+          "name": "/FROM:  LONDON TMA\nTO:  ANY\nNOT ALLOWED VIA EDYYDWHM \nREFILE BELOW FL335 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:75572d7e-4c26-49a5-8f70-8324e6c243ed"
+            },
+            "locationId": "EDYYDWHM",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3115bec6-3eaf-4cd9-a932-725d35ba78fb"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

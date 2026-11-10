@@ -1,0 +1,241 @@
+{
+  "volumes": [
+    {
+      "id": "DTTCNOR",
+      "label": "DTTCNOR",
+      "sectorIds": [
+        "DTTCNORLOW",
+        "DTTCNORUPP"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:474d7060-719a-4855-8dfc-463a350cbb8b",
+        "groups": [
+          "ACCDTTC",
+          "ACCTDTTC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "7C931763008509002BC03F32",
+          "name": "NORTHERN SECTOR\nNORTHERN LOWER SECTOR + NORTHERN UPPER SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a0b2256f-0507-47cd-8ed1-574b62716162"
+            },
+            "locationId": "DTTCNORTH",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1665014400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DTTCNORL",
+      "label": "DTTCNORL",
+      "sectorIds": [
+        "DTTCNORLOW"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:77a360b3-78f8-437d-9f44-2432a187949b",
+        "groups": [
+          "ACCDTTC",
+          "ACCTDTTC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "05971763001300002BC03F32",
+          "name": "NORTH LOWER SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7fc7512b-dc5b-480a-8d02-6ca9559d2ec1"
+            },
+            "locationId": "DTTCNORLOW",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1665014400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DTTCNORU",
+      "label": "DTTCNORU",
+      "sectorIds": [
+        "DTTCNORUPP"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:897858cb-3b9f-4f42-8271-ddb8677d2fe1",
+        "groups": [
+          "ACCDTTC",
+          "ACCTDTTC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "ED961763002200002BC03F32",
+          "name": "ACC NORTH UPPER SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:91e769b7-d15f-4dc2-8906-b2061e869ed4"
+            },
+            "locationId": "DTTCNORUPP",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1665014400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "DTTCSUD",
+      "label": "DTTCSUD",
+      "sectorIds": [
+        "DTTCSOUTH"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 24
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:638e8334-7290-4a60-b704-4a6f849a3f76",
+        "groups": [
+          "ACCDTTC",
+          "ACCTDTTC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1665014400000,
+            "end": 32503593600000
+          },
+          "stateId": "C5961763003100002BC03F32",
+          "name": "ACC SOUTH SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b4b35cc7-6392-464b-bfff-f659e314b663"
+            },
+            "locationId": "DTTCSOUTH",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1665014400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 24
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

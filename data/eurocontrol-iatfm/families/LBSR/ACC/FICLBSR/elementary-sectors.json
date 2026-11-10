@@ -1,0 +1,574 @@
+[
+  {
+    "id": "LBSRFIS",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSA01",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSA02",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSA03",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSA12",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSA23",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSA34",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSA45",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSA56",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSA67",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSA78",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSA89",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSAU9",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSB01",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSB02",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSB03",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSB04",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSB05",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSB12",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSB23",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSB34",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSB45",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSB56",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSB67",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSB78",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSB89",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSBU9",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSC01",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSC02",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSC03",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSC12",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSC23",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSC34",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSC45",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSC56",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSC67",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSC78",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSC89",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSCU9",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSD01",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSD02",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSD03",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSD04",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSD12",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSD23",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSD34",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSD45",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSD56",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSD67",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSD78",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSD89",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSDU9",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSE01",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSE02",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSE03",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSE12",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSE23",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSE34",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSE45",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSE56",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSE67",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSE78",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSE89",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSEU9",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSF01",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSF02",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSF03",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSF04",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSF12",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSF23",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSF34",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSF45",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSF56",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSF67",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSF78",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSF89",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSFU9",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSG01",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSG02",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSG03",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSG04",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSG12",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSG23",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSG34",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSG45",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSG56",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSG67",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSG78",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSG89",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRSGU9",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA01",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA02",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA03",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA04",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA05",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA06",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA12",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA23",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA34",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA45",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA56",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA67",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA78",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVA89",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVAU9",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVB01",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVB02",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVB12",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVB23",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVB34",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVB45",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVB56",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVB67",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVB78",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVB89",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVBU9",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVC01",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVC02",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVC03",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVC04",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVC12",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVC23",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVC34",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVC45",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVC56",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVC67",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVC78",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVC89",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVCU9",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVD01",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVD02",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVD03",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVD04",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVD05",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVD12",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVD23",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVD34",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVD45",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVD56",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVD67",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVD78",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVD89",
+    "positionPriority": []
+  },
+  {
+    "id": "LBSRVDU9",
+    "positionPriority": []
+  }
+]

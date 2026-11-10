@@ -1,0 +1,696 @@
+{
+  "volumes": [
+    {
+      "id": "GMACCRI",
+      "label": "GMACCRI",
+      "sectorIds": [
+        "GMACOCN",
+        "GMACOCS",
+        "GMACWSN",
+        "GMACWSS"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:edd88686-2907-412a-bda5-0e426827318b",
+        "groups": [
+          "ACCGMAC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "BA4DC46700850F00E5F73002",
+          "name": "CRISIS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9b73c034-c099-4c92-964d-17bf1c578280"
+            },
+            "locationId": "GMACCTA",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "GMACOCE",
+      "label": "GMACOCE",
+      "sectorIds": [
+        "GMACOCN",
+        "GMACOCS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 51
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTTAKAV"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTESS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTESS"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTAKAV"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTTAKAV"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTVEDOD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTVEDOD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTAKAV"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:e22433e4-46ce-4e3e-8557-7f4cd8cfe88d",
+        "groups": [
+          "ACCGMAC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1527120000000,
+            "end": 32503593600000
+          },
+          "stateId": "D839DA5A001B00003757A33C",
+          "name": "AGADIR OCEANIC SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4d9f91e7-bfe1-4ae0-ab38-d8d06d65a287"
+            },
+            "locationId": "GMACOCE",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:320a1293-4567-43aa-a7ef-2159c06961e1"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:54a18ea3-104b-40bd-8547-a4a4fe3c3f07"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f1b62cc7-713f-404c-902f-44be737d9583"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f43f0ba6-bb09-4e56-8e7e-668263f857e4"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 51
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "GMACOCN",
+      "label": "GMACOCN",
+      "sectorIds": [
+        "GMACOCN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 56
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:bf977969-05f9-4238-a80a-670a8e1c16d3",
+        "groups": [
+          "ACCGMAC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1527120000000,
+            "end": 32503593600000
+          },
+          "stateId": "0C3BDA5A001200003757A33C",
+          "name": "AGADIR OCEANIC NORTH SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:60541254-4e9d-477c-9b58-204dd5fd9bb5"
+            },
+            "locationId": "GMACOCN",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 56
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "GMACOCS",
+      "label": "GMACOCS",
+      "sectorIds": [
+        "GMACOCS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 65
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6a2a8488-7e93-4f0b-b74b-0c63d0dc3b2c",
+        "groups": [
+          "ACCGMAC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1527120000000,
+            "end": 32503593600000
+          },
+          "stateId": "0C3BDA5A003B00003757A33C",
+          "name": "AGADIR OCEANIC SOUTH SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3b14db54-dc1b-4d89-9ef9-2d9738b7e134"
+            },
+            "locationId": "GMACOCS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 65
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "GMACOWS",
+      "label": "GMACOWS",
+      "sectorIds": [
+        "GMACOCN",
+        "GMACOCS",
+        "GMACWSN",
+        "GMACWSS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2758762f-3e3f-4f95-8850-1f15e5b3db4c",
+        "groups": [
+          "ACCGMAC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1527120000000,
+            "end": 32503593600000
+          },
+          "stateId": "0D3BDA5A007C00003757A33C",
+          "name": "AGADIR OCEANIC + WEST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b71cb4d0-289f-4e5b-8d85-f3ad9a6dea90"
+            },
+            "locationId": "GMACOWS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "GMACWES",
+      "label": "GMACWES",
+      "sectorIds": [
+        "GMACWSN",
+        "GMACWSS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTAMSEL"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTLAKAM"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTLAKAM"
+            ],
+            [
+              "PTAMSEL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTLAKAM"
+            ],
+            [
+              "PTKORNO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTKORNO"
+            ],
+            [
+              "PTLAKAM"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:487a4419-caaa-4bc6-8140-be804a8bcd9f",
+        "groups": [
+          "ACCGMAC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1527120000000,
+            "end": 32503593600000
+          },
+          "stateId": "0D3BDA5A000100003757A33C",
+          "name": "AGADIR WEST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:995e1ad0-ecfd-43e7-b4b5-67a84eea2eab"
+            },
+            "locationId": "GMACWES",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f70e5a53-ab16-4056-b6e4-7983bc5a8cd6"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6b87766d-128f-4b95-ba09-63579b00aca4"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:203bb6e6-db60-4997-89ab-5de4171577e7"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b8b50c0f-4cbd-4ffc-bc67-d58ae337fbd3"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "GMACWSN",
+      "label": "GMACWSN",
+      "sectorIds": [
+        "GMACWSN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 58
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTAMSEL"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTLAKAM"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTLAKAM"
+            ],
+            [
+              "PTAMSEL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTLAKAM"
+            ],
+            [
+              "PTKORNO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTKORNO"
+            ],
+            [
+              "PTLAKAM"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:e1bdbe30-6b9c-4c93-a9ba-3a3694b8f177",
+        "groups": [
+          "ACCGMAC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1527120000000,
+            "end": 32503593600000
+          },
+          "stateId": "0D3BDA5A002A00003757A33C",
+          "name": "AGADIR WEST NORTH SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0c403af2-94d4-4927-8d04-05676f64e2f8"
+            },
+            "locationId": "GMACWSN",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f70e5a53-ab16-4056-b6e4-7983bc5a8cd6"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6b87766d-128f-4b95-ba09-63579b00aca4"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:203bb6e6-db60-4997-89ab-5de4171577e7"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b8b50c0f-4cbd-4ffc-bc67-d58ae337fbd3"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 58
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "GMACWSS",
+      "label": "GMACWSS",
+      "sectorIds": [
+        "GMACWSS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 43
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTAMSEL"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTLAKAM"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTLAKAM"
+            ],
+            [
+              "PTAMSEL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTLAKAM"
+            ],
+            [
+              "PTKORNO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTKORNO"
+            ],
+            [
+              "PTLAKAM"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:53c465d8-bea5-425d-a679-f47f225ebce5",
+        "groups": [
+          "ACCGMAC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1527120000000,
+            "end": 32503593600000
+          },
+          "stateId": "0D3BDA5A005300003757A33C",
+          "name": "AGADIR WEST SOUTH SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e42789c6-bece-4b48-b09e-503df23f7005"
+            },
+            "locationId": "GMACWSS",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f70e5a53-ab16-4056-b6e4-7983bc5a8cd6"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6b87766d-128f-4b95-ba09-63579b00aca4"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:203bb6e6-db60-4997-89ab-5de4171577e7"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b8b50c0f-4cbd-4ffc-bc67-d58ae337fbd3"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 43
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

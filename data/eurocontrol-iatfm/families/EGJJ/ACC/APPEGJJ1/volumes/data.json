@@ -1,0 +1,419 @@
+{
+  "volumes": [
+    {
+      "id": "EGJ3ORT",
+      "label": "EGJ3ORT",
+      "sectorIds": [
+        "EGJJORT"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 15
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGJJD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGJBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGJJD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGJAA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGJBD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGJJA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGJBD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGJAA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGJAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGJBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGJAD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGJJA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:252396c4-1384-4772-9342-6d7cdfea7d93",
+        "groups": [
+          "APPEGJJ1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "A329EE690041020010F0E534",
+          "name": "EGJJ ORTAC SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b173616f-8e50-4d18-ba82-515f9fd2430f"
+            },
+            "locationId": "EGJJORT",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:51e77d18-f346-4c66-b9dd-b0f3298a68b6"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2e1189fa-0bf5-485f-8163-34f6a7681e23"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5de5a53f-e821-4d18-bd25-613f859172fb"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:77e3f620-e1ed-485a-a97d-a7cea22dc075"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:65224bdc-c07b-4f5e-bda4-afaa7496cc26"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5510da27-a914-416a-bcd6-409df1a022fa"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 15
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGJJAPP",
+      "label": "EGJJAPP",
+      "sectorIds": [
+        "EGJJF45L"
+      ],
+      "capacity": {},
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGJJD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASEGJJF45U"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASEGJJF45U"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGJJA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:cd8fee2c-21db-452f-b866-8124a18d0bde",
+        "groups": [
+          "APPEGJJ1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1304553600000,
+            "end": 32503593600000
+          },
+          "stateId": "068FAE4D003000009E493111",
+          "name": "EGJJ DEP AND ARR BELOW RFL045",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:11919ece-2f79-45e9-b476-10ee0b1123b5"
+            },
+            "locationId": "EGJJF45L",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5b67d048-d0fb-4876-8eb3-763661a72f0a"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:e3444cd1-d6a1-4557-8f02-5fc65586f22c"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "note": "DMR_145871",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGJJSKE",
+      "label": "EGJJSKE",
+      "sectorIds": [
+        "EGJJSKE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC9E932A06FC1DD497B162"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTSKERY"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC9E932A06FC1DD497B162"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTBIGNO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTSKERY"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC9E932A06FC1DD497B162"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTBIGNO"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC9E932A06FC1DD497B162"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:66777e9d-9222-4bc6-9986-9030a395b625",
+        "groups": [
+          "APPEGJJ1"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1294876800000,
+            "end": 32503593600000
+          },
+          "stateId": "8DAD204D0031000040624FC3",
+          "name": "EGJJ SKERY SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ad6c5d53-1f1a-4aac-a382-211a267375ca"
+            },
+            "locationId": "EGJJSKE",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f38184eb-19e8-451e-9861-598a92ef6840"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:27a70980-0f7c-40e1-b564-299ea28ea612"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5eeb97f5-cd4b-4a04-8edd-4df045d647c2"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b6bd1798-3a3c-4401-84e4-2393ba24a66f"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1294876800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

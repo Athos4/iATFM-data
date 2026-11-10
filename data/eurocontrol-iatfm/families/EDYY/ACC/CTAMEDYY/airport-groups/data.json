@@ -1,0 +1,40 @@
+[
+  {
+    "azId": "ECC909A816D5B075A02CCA",
+    "list": [
+      "EDDK",
+      "EDDL"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:611d9b32-86be-4df1-8a4f-2ace54a8dd47",
+      "id": "EDDK/DL"
+    }
+  },
+  {
+    "azId": "ECD9CBBA4664CC12DC2BFD",
+    "list": [
+      "EDDL",
+      "ETNG"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:aa0b6659-c41b-4cc7-b4f3-0ee9fb7b2c24",
+      "id": "DL+NG"
+    }
+  },
+  {
+    "azId": "ECE97B6EB2420F87823BB6",
+    "list": [
+      "EDDG",
+      "EDDK",
+      "EDDL",
+      "EDLN",
+      "EDLP",
+      "EDLV",
+      "EDLW"
+    ],
+    "eurocontrol": {
+      "sourceKey": "az:119c0dba-3dc6-4323-aeba-e266f439922f",
+      "id": "EDDG+6"
+    }
+  }
+]

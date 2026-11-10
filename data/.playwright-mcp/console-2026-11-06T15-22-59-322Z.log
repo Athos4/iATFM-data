@@ -1,0 +1,25 @@
+[  222982ms] TypeError: Cannot read properties of undefined (reading 'style')
+    at https://b2c.nm.eurocontrol.int/auth/html/Pages?TAM_OP=token_login&USERNAME=unauthenticated&ERROR_CODE=0x00000000&URL=https%3A%2F%2Fb2c.nm.eurocontrol.int%2Fairspace%2F%3FbranchId%3Dproduction%26queryDate%3D1793232000000:221:25
+[  222991ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://b2c.nm.eurocontrol.int/auth/html/Pages?TAM_OP=token_login&USERNAME=unauthenticated&ERROR_CODE=0x00000000&URL=https%3A%2F%2Fb2c.nm.eurocontrol.int%2Fairspace%2F%3FbranchId%3Dproduction%26queryDate%3D1793232000000:0
+[  283858ms] [LOG] Running in browser @ https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:1
+[  283859ms] [LOG] Ellipse icon is created. @ https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:1
+[  283859ms] [LOG] Ellipse icon is created. @ https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:1
+[  283895ms] [ERROR] Manifest: Line: 1, column: 1, Syntax error. @ https://b2c.nm.eurocontrol.int/airspace/manifest.json:0
+[  283952ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://b2c.nm.eurocontrol.int/api/iam/v1/authCheck:0
+[  283953ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://b2c.nm.eurocontrol.int/api/airspace/v1/branch:0
+[  283954ms] Object
+[  283959ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://b2c.nm.eurocontrol.int/api/airspace/v1/project:0
+[  283963ms] Object
+[  283998ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://b2c.nm.eurocontrol.int/api/airspace/v1/projecttemplate:0
+[  283997ms] Object
+[  284016ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://b2c.nm.eurocontrol.int/api/iam/v1/authCheck:0
+[  284021ms] Object
+[  284258ms] [ERROR] Manifest: Line: 1, column: 1, Syntax error. @ https://b2c.nm.eurocontrol.int/iam/manifest.json:0
+[  284295ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://b2c.nm.eurocontrol.int/api/iam/v1/authCheck:0
+[  284299ms] Object
+[  284475ms] [ERROR] Manifest: Line: 1, column: 1, Syntax error. @ https://b2c.nm.eurocontrol.int/iam/manifest.json:0
+[  285891ms] [LOG] Running in browser @ https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:1
+[  285892ms] [LOG] Ellipse icon is created. @ https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:1
+[  285892ms] [LOG] Ellipse icon is created. @ https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:1
+[  285918ms] [ERROR] Manifest: Line: 1, column: 1, Syntax error. @ https://b2c.nm.eurocontrol.int/airspace/manifest.json:0
+[  286167ms] [ERROR] Manifest: Line: 1, column: 1, Syntax error. @ https://b2c.nm.eurocontrol.int/airspace/manifest.json:0

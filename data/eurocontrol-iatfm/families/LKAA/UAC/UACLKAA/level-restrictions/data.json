@@ -1,0 +1,71 @@
+{
+  "volumes": [
+    {
+      "id": "FL6HLKA",
+      "label": "FL6HLKA",
+      "sectorIds": [
+        "LKAAENH",
+        "LKAAENT",
+        "LKAAESH",
+        "LKAAEST",
+        "LKAAEWH",
+        "LKAAEWT"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC539BE485797B3F771BB1"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:01f049fc-06a6-43ae-aa7b-d5d67d1c5738",
+        "groups": [
+          "ACCLKAA",
+          "ACCLSAZ",
+          "UACEDYYB",
+          "UACEDYYD",
+          "UACEDYYH",
+          "UACLKAA",
+          "UACLSAZ"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1740009600000,
+            "end": 32503593600000
+          },
+          "stateId": "1AFE2D67001E170030A1B3A0",
+          "name": "TFC DEPARTING FROM EDDM,EDDN,EDDS TO ANY NOT ALLOWED VIA \nLKAAHT .\nREFILE BELOW FL355 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:67efc228-4a00-4645-a0c1-c4e881afd2f1"
+            },
+            "locationId": "LKAAEHT",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:239f0f50-a38d-4f59-942b-f95350f44d65"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

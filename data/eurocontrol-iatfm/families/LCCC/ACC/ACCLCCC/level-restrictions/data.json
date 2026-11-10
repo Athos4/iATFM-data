@@ -1,0 +1,68 @@
+{
+  "volumes": [
+    {
+      "id": "FL8LCU",
+      "label": "FL8LCU",
+      "sectorIds": [
+        "LCCCWM",
+        "LCCCWU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC887DED8319A3115972BE"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:89a0713c-42aa-47c2-b3ea-d21cd6a36a00",
+        "groups": [
+          "ACCLCCC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1773878400000,
+            "end": 32503593600000
+          },
+          "stateId": "F0037969000D0000E7E4C73E",
+          "name": "DEP LCLK LCPH LCRA, LTBS, LTAI\nNOT ALLOWED VIA SECTOR LCCCWH\nFILE BELOW FL 345 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f569c0e5-3037-4bba-8c05-e20e6231c47d"
+            },
+            "locationId": "LCCCWH",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f4d99b3b-a84a-4782-8993-76cdcbb6ac5a"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "note": "ON LOAD LCCCWL\nOFF LOAD LCCCWH",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

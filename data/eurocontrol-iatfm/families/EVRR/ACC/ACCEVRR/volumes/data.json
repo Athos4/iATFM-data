@@ -1,0 +1,486 @@
+{
+  "volumes": [
+    {
+      "id": "EVALLCRI",
+      "label": "EVALLCRI",
+      "sectorIds": [
+        "EVLATA",
+        "EVRRAPP",
+        "EVRRES",
+        "EVRRNS",
+        "EVRRSS"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:3524d516-b597-47d0-adaa-b4bafcd7cb4f",
+        "groups": [
+          "ACCEVRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "9B4DC467009D0F00E5F73002",
+          "name": "EV AIRSPACE, FOR CRISIS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a5c27673-dc8f-4f1c-96cc-657e4fb0ca33"
+            },
+            "locationId": "EVCRI",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EVRA",
+      "label": "EVRA",
+      "arrival": [
+        "EVRA"
+      ],
+      "departure": [
+        "EVRA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 29,
+        "exceptions": [
+          {
+            "startUtc": "2015-02-03T22:45:00Z",
+            "endUtc": "2015-02-04T02:00:00Z",
+            "maxEntryPerHour": 0
+          }
+        ]
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:83e4d763-99dc-434c-a42c-4f6e6fd1f4b2",
+        "groups": [
+          "ACCEVRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1420675200000,
+            "end": 32503593600000
+          },
+          "stateId": "8C9BCF54007000001C13702C",
+          "name": "EVRA ARRIVALS + DEPARTURES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:eaab9807-fe44-4969-9e72-8726c675609f"
+            },
+            "locationId": "EVRA",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1420675200000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 29,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 0,
+                  "validityPeriod": {
+                    "start": 1423003500000,
+                    "end": 1423015200000
+                  }
+                }
+              ]
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EVRAARR",
+      "label": "EVRAARR",
+      "arrival": [
+        "EVRA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 29
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:023c8a38-14e4-467e-948a-f2d66179d451",
+        "groups": [
+          "ACCEVRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1321488000000,
+            "end": 32503593600000
+          },
+          "stateId": "A409DE4E00C0000049C0E89D",
+          "name": "EVRA ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9609418d-2af8-4fec-a211-aaac01e6c7e2"
+            },
+            "locationId": "EVRA",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 29
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EVRADEP",
+      "label": "EVRADEP",
+      "departure": [
+        "EVRA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 29
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6f66e1b1-5c25-48a9-bc70-c51ff1fb0a5c",
+        "groups": [
+          "ACCEVRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1304553600000,
+            "end": 32503593600000
+          },
+          "stateId": "2969D24D001B0000BCDF7A2B",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8c405123-ffcd-43f3-90de-8597d3bef260"
+            },
+            "locationId": "EVRA",
+            "category": "DEPARTURE"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 29
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EVRRAPP",
+      "label": "EVRRAPP",
+      "sectorIds": [
+        "EVRRAPP"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 18
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2a16d7bd-3b73-4ff8-8f41-d96db07e5291",
+        "groups": [
+          "ACCEVRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "0657F3690075000010F0E534",
+          "name": "EVRR TMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8d2d2884-0267-44a5-a2f4-a8e3df658431"
+            },
+            "locationId": "EVRRAPP",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 18
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EVRREA",
+      "label": "EVRREA",
+      "sectorIds": [
+        "EVRRAPP",
+        "EVRRES"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f883c1c9-12b4-4f94-b187-417c43922ecf",
+        "groups": [
+          "ACCEVRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "0657F369004C000010F0E534",
+          "name": "EVRR: RIGA EAST SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0252b2ce-bfd0-483a-a7df-df5dfdc097c2"
+            },
+            "locationId": "EVRREA",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 15
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EVRRES",
+      "label": "EVRRES",
+      "sectorIds": [
+        "EVRRES"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 29
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4bdc620e-7001-42af-8364-9c7f10f8fe3c",
+        "groups": [
+          "ACCEVRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "0657F3690023000010F0E534",
+          "name": "EVRRES - RIGA EAST",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:92c04d04-145a-4cf7-8169-662ad4e61eb8"
+            },
+            "locationId": "EVRRES",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 29
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EVRRNS",
+      "label": "EVRRNS",
+      "sectorIds": [
+        "EVRRNS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:891a7b14-0dcc-4dd7-b3a0-f20a3f655ea9",
+        "groups": [
+          "ACCEVRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "3AB85D6A00080000215440C5",
+          "name": "EVRRNS - RIGA NORTH 095 UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4e0244da-db07-474a-83fa-ab7f89d55ad4"
+            },
+            "locationId": "EVRRNS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EVRRSS",
+      "label": "EVRRSS",
+      "sectorIds": [
+        "EVRRSS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ac79207b-8d9e-496f-9372-f18eaf90d15d",
+        "groups": [
+          "ACCEVRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "3AB85D6A00310000215440C5",
+          "name": "EVRRSS - RIGA SOUTH 095 UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2cc71ddc-97c9-402a-a9e0-15c204ff625a"
+            },
+            "locationId": "EVRRSS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EVRRWS",
+      "label": "EVRRWS",
+      "sectorIds": [
+        "EVRRNS",
+        "EVRRSS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 31
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:5cb33b24-08f6-4f22-b1d2-a91f52fc95e8",
+        "groups": [
+          "ACCEVRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1778716800000,
+            "end": 32503593600000
+          },
+          "stateId": "FC56F36900C2000010F0E534",
+          "name": "EVRRWS - RIGA NORTH-SOUTH 095 UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:838eb052-9e34-4b1d-ba7f-371b6f7f737a"
+            },
+            "locationId": "EVRRWS",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1778716800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 31
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

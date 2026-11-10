@@ -1,0 +1,189 @@
+{
+  "volumes": [
+    {
+      "id": "ULLLCRI",
+      "label": "ULLLCRI",
+      "sectorIds": [
+        "ULLLALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:ceda6585-2fe8-4600-962e-66574a05a448",
+        "groups": [
+          "ACCULLL"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "CE6EC46700F00A00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8da5ec2a-6713-4e38-acf5-e833bb4125a6"
+            },
+            "locationId": "ULLLCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ZULLL",
+      "label": "ZULLL",
+      "sectorIds": [
+        "ULLLALL"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRATLA"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTNILAT"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTOLEMA"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTSPB"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTINLOG"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTSPB"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRANVA"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTOKENI"
+            ]
+          ]
+        }
+      ],
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADULLIA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:77c7b59d-632c-49f2-8a1c-a047c17f17cf",
+        "groups": [
+          "ACCULLL"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1338422400000,
+            "end": 32503593600000
+          },
+          "stateId": "9D58DB4F00320000B3F96E7F",
+          "name": "G34 OLEMA SPB, G707 RANVA GORKA, R30 INLOG SPB, A936 AND\nB171 RATLA NILAT NOT PERMITTED (NOTAM V4236/12)",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8da5ec2a-6713-4e38-acf5-e833bb4125a6"
+            },
+            "locationId": "ULLLCTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f3dba227-4049-40a3-b116-7cda69ceb0d9"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3bead1b0-1956-4d78-893b-c6d31e2162a4"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:e9f94306-e1b3-45e7-9f73-126358c7a469"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d5dc9736-fffe-41ad-a1b5-3dae213ab9c1"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:8c9c8545-e5b6-4ee0-89f8-5c15b0241cda"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

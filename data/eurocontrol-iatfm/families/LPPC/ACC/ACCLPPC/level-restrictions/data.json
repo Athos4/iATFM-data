@@ -1,0 +1,615 @@
+{
+  "volumes": [
+    {
+      "id": "FL1CEU",
+      "label": "FL1CEU",
+      "sectorIds": [
+        "LPPCCEM",
+        "LPPCCET"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLEMDD"
+            ],
+            [
+              "PTCCS"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECE2EDB9CE4298A2264D8F"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:73dd0ed1-bc19-4d65-b4df-797f17d2b8d2",
+        "groups": [
+          "ACCLPPC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1747267200000,
+            "end": 32503593600000
+          },
+          "stateId": "9236026800420000F4823827",
+          "name": "DEPS:LEMD VIA POINT CCS\nDEST:GC/GV\nNOT ALLOWED VIA LPPCCEU\nREFILE BELOW FL335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:33167751-a047-4141-8018-d32748b8badd"
+            },
+            "locationId": "LPPCCEU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9b46c714-126b-4458-87a5-632b7f9b497f"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1CNT",
+      "label": "FL1CNT",
+      "sectorIds": [
+        "LPPCCET",
+        "LPPCNOT"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLPPTD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:c7342892-d9fa-4a56-9a9d-cc25a5468e00",
+        "groups": [
+          "ACCLPPC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1490832000000,
+            "end": 32503593600000
+          },
+          "stateId": "C500B358000100008BA27356",
+          "name": "DEPS: LPPT\nDEST: ALL\nNOT ALLOWED VIA LPPCNXTOP\nREFILE BELOW FL365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:5d88cd31-997b-476e-a1b8-a8f2f804d7d4"
+            },
+            "locationId": "LPPCNXTOP",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a01d008b-7208-465f-8a02-25921c72ee48"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1PCE",
+      "label": "FL1PCE",
+      "sectorIds": [
+        "LPPCCEM",
+        "LPPCCET"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLPPTD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:c0678ca1-288c-443f-a438-221df9483e6b",
+        "groups": [
+          "ACCLPPC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1490832000000,
+            "end": 32503593600000
+          },
+          "stateId": "3AC5B158001A00008BA27356",
+          "name": "DEPS: LPPT\nDEST: ALL\nNOT VIA LPPCCEU SECTOR\nREFILE BELOW FL345 UNTIL CLEAR OF THE SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:33167751-a047-4141-8018-d32748b8badd"
+            },
+            "locationId": "LPPCCEU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a01d008b-7208-465f-8a02-25921c72ee48"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1PNC",
+      "label": "FL1PNC",
+      "sectorIds": [
+        "LPPCCEM",
+        "LPPCCET",
+        "LPPCNOM",
+        "LPPCNOT"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLPPTD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:a9882bf2-0f4d-4aba-a755-7a2e3eba534f",
+        "groups": [
+          "ACCLPPC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1350518400000,
+            "end": 32503593600000
+          },
+          "stateId": "259F865000B50B00BF537FEB",
+          "name": "DEPS: LPPT\nDEST: ALL\nNOT VIA SECTOR: LPPC CENTRAL-UPPER/NORTH-UPPER\nREFILE BELOW FL345 UNTIL CLEAR OF LPPC AIRSPACE\n(PINEK/TOSDI/BARDI/UREDI)",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a574a0b6-8b27-49c3-9410-a0dce3e52c7e"
+            },
+            "locationId": "LPPCNXUPP",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a01d008b-7208-465f-8a02-25921c72ee48"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1PNO",
+      "label": "FL1PNO",
+      "sectorIds": [
+        "LPPCNOM",
+        "LPPCNOT"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLPPTD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:0a8cb92d-cbce-4b5e-b116-5a3949d39122",
+        "groups": [
+          "ACCLPPC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1490832000000,
+            "end": 32503593600000
+          },
+          "stateId": "0FC2B158003500008BA27356",
+          "name": "DEPS: LPPT\nDEST: ALL\nNOT VIA LPPCNOU SECTOR\nREFILE BELOW FL345 UNTIL CLEAR OF THE SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:499512b7-ebb0-4872-8ff1-f22e9a6ebfa5"
+            },
+            "locationId": "LPPCNOU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a01d008b-7208-465f-8a02-25921c72ee48"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2CEU",
+      "label": "FL2CEU",
+      "sectorIds": [
+        "LPPCCEM",
+        "LPPCCET"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTCCS"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLPPTA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:3c8abbc3-6dca-4898-974c-d435a12e3550",
+        "groups": [
+          "ACCLPPC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1747267200000,
+            "end": 32503593600000
+          },
+          "stateId": "48B0046800600000F4823827",
+          "name": "/FROM: ANY\nVIA CCS \nTO: LPPT\nNOT ALLOWED VIA LPPCCEU\nREFILE BELOW FL335 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:33167751-a047-4141-8018-d32748b8badd"
+            },
+            "locationId": "LPPCCEU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:55593614-7f75-4fb2-8f6a-5e3d3cf7d530"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2PCE",
+      "label": "FL2PCE",
+      "sectorIds": [
+        "LPPCCEM",
+        "LPPCCET"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLPFRD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:38a4f8e6-fa7e-48b3-b003-961948ab0101",
+        "groups": [
+          "ACCLPPC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1490832000000,
+            "end": 32503593600000
+          },
+          "stateId": "58C5B158000500008BA27356",
+          "name": "DEPS: LPFR\nDEST: ALL\nNOT VIA LPPCCEU SECTOR\nREFILE BELOW FL345 UNTIL CLEAR OF THE SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:33167751-a047-4141-8018-d32748b8badd"
+            },
+            "locationId": "LPPCCEU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:fd38c5d2-9363-4130-b987-19b842a92a98"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2PNC",
+      "label": "FL2PNC",
+      "sectorIds": [
+        "LPPCCEM",
+        "LPPCCET",
+        "LPPCNOM",
+        "LPPCNOT"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLPFRD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:a9416635-b373-4383-846b-106e74f827a8",
+        "groups": [
+          "ACCLPPC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1597276800000,
+            "end": 32503593600000
+          },
+          "stateId": "42750D5F005400007D777396",
+          "name": "DEPS: LPFR\nDEST: ALL\nNOT VIA SECTOR: LPPC CENTRAL-UPPER/NORTH-UPPER\nREFILE BELOW FL345 UNTIL CLEAR OF LPPC AIRSPACE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a574a0b6-8b27-49c3-9410-a0dce3e52c7e"
+            },
+            "locationId": "LPPCNXUPP",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:fd38c5d2-9363-4130-b987-19b842a92a98"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2PNO",
+      "label": "FL2PNO",
+      "sectorIds": [
+        "LPPCNOM",
+        "LPPCNOT"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLPFRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASLECMSAN"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLPFRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASLECMASI"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:6a5f6bd3-37ee-4e72-93f5-f0c835b24519",
+        "groups": [
+          "ACCLPPC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1686787200000,
+            "end": 32503593600000
+          },
+          "stateId": "36377F6400310000B6A3D73A",
+          "name": "/FROM:LPFR VIA LECMASI OR LECMSAN\nTO:ANY\nNOT ALLOWED VIA LPPCNOU\nREFILE BELOW FL345 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:499512b7-ebb0-4872-8ff1-f22e9a6ebfa5"
+            },
+            "locationId": "LPPCNOU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f6705b18-216e-40e5-ad1a-d4b6b0b12023"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a098f48d-6a7f-4f4c-b314-bfc8b59ae813"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

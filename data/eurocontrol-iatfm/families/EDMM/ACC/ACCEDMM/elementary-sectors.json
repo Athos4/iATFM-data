@@ -1,0 +1,178 @@
+[
+  {
+    "id": "EDMMALB",
+    "positionPriority": [
+      "EDDM_CTR",
+      "EDDM_S_CTR",
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMBBG",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMEGG",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMFRK",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMFUE",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMGER",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMHAL",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMHOF",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMILR",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMMEI",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMND",
+    "positionPriority": []
+  },
+  {
+    "id": "EDMMNDG",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMRDG",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMSAS",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMSD",
+    "positionPriority": []
+  },
+  {
+    "id": "EDMMSTA",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMSWA",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMTEG",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMTNEH",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMTNEL",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMTNWH",
+    "positionPriority": []
+  },
+  {
+    "id": "EDMMTNWL",
+    "positionPriority": []
+  },
+  {
+    "id": "EDMMTRN",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMTRS",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMTRU",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMTSEH",
+    "positionPriority": []
+  },
+  {
+    "id": "EDMMTSEL",
+    "positionPriority": []
+  },
+  {
+    "id": "EDMMTSWH",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMTSWL",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMWLD",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  },
+  {
+    "id": "EDMMZUG",
+    "positionPriority": [
+      "EDMM_CTR"
+    ]
+  }
+]

@@ -1,0 +1,1649 @@
+{
+  "volumes": [
+    {
+      "id": "UGEASTXD",
+      "label": "UGEASTXD",
+      "sectorIds": [
+        "UGGGE34555",
+        "UGGGE35565",
+        "UGGGE36575",
+        "UGGGEL345",
+        "UGGGEU375"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADUGTBD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADUGKOD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADUGSBD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:a9e1f3b0-e0f2-4547-a78e-995299dee0e1",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1718236800000,
+            "end": 32503593600000
+          },
+          "stateId": "9C074F66002500001F4A8CD8",
+          "name": "TFC DEP UG APT EX",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2a832578-e63a-4f6c-9185-547fbe6075bc"
+            },
+            "locationId": "UGGGEAST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:37251fbc-cae0-494b-a0f8-ec5ed20daa0c"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c53b4506-36ac-4f3a-99ce-b0a7d329422b"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5e6b3993-0e57-41d5-b4d8-0bab2c7966e4"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1718236800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UGGEL345",
+      "label": "UGGEL345",
+      "sectorIds": [
+        "UGGGEL345"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTTISOT"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADUGTBA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:e3a10773-746b-4b85-9176-3edc53229cac",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "5399726600830000CB4FCB6D",
+          "name": "UG EAST LOWER 345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3d37855f-6cde-4e7a-92cb-b6f6c654707b"
+            },
+            "locationId": "UGGGEL345",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ab782b11-51b9-4185-8a11-e1ea0794d583"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGEL355",
+      "label": "UGGEL355",
+      "sectorIds": [
+        "UGGGE34555",
+        "UGGGEL345"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 12,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 12
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTTISOT"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADUGTBA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:2f8fdc48-3463-46e2-bed8-226718e66dec",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "BF9B726600170000CB4FCB6D",
+          "name": "UG EAST LOWER 355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d23a737e-53e8-41db-9f0e-382a0a5cbc65"
+            },
+            "locationId": "UGGGEL355",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ab782b11-51b9-4185-8a11-e1ea0794d583"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 12,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGEL365",
+      "label": "UGGEL365",
+      "sectorIds": [
+        "UGGGE34555",
+        "UGGGE35565",
+        "UGGGEL345"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 37,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 13,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15,
+        "sustain": 13
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTTISOT"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADUGTBA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:4a959c6c-b3c4-43f2-86c6-6c82ee2ea638",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "BF9B726600410000CB4FCB6D",
+          "name": "UG EAST LOWER 365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:36c52dd1-9862-4797-a389-7ff69bc50998"
+            },
+            "locationId": "UGGGEL365",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ab782b11-51b9-4185-8a11-e1ea0794d583"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 37
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 13,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGEL375",
+      "label": "UGGEL375",
+      "sectorIds": [
+        "UGGGE34555",
+        "UGGGE35565",
+        "UGGGE36575",
+        "UGGGEL345"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 37,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 12,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 12
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTTISOT"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADUGTBA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:0d29b6e9-da3c-4386-be20-c4bf3edb1391",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "BF9B7266006B0000CB4FCB6D",
+          "name": "UG EAST LOWER 375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d300c072-57f2-485f-803d-e3249c5d30b2"
+            },
+            "locationId": "UGGGEL375",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ab782b11-51b9-4185-8a11-e1ea0794d583"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 37
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 12,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGEU345",
+      "label": "UGGEU345",
+      "sectorIds": [
+        "UGGGE34555",
+        "UGGGE35565",
+        "UGGGE36575",
+        "UGGGEU375"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 38,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 18,
+            "sustained": 14,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 18,
+        "sustain": 14
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:21fd9880-6471-46f2-97e2-03d55d71cd0c",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "BF9B726600950000CB4FCB6D",
+          "name": "UG EAST UPPER 345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:07ccd2e4-06df-4a4c-b590-91f41f9d0c1d"
+            },
+            "locationId": "UGGGEU345",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 38
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 18,
+              "sustained": 14,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGEU355",
+      "label": "UGGEU355",
+      "sectorIds": [
+        "UGGGE35565",
+        "UGGGE36575",
+        "UGGGEU375"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 37,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 19,
+            "sustained": 15,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 19,
+        "sustain": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2fe81f54-faa9-4313-abf7-cea6486e2784",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "BF9B726600BF0000CB4FCB6D",
+          "name": "UG EAST UPPER 355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b93550ee-d7c1-458f-8d37-04b3f144299f"
+            },
+            "locationId": "UGGGEU355",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 37
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 19,
+              "sustained": 15,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGEU365",
+      "label": "UGGEU365",
+      "sectorIds": [
+        "UGGGE36575",
+        "UGGGEU375"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 17,
+            "sustained": 13,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 17,
+        "sustain": 13
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:265ed494-9d3e-4f81-837c-b5b2cde992c6",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "BF9B726600E90000CB4FCB6D",
+          "name": "UG EAST UPPER 365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0a51cb2f-9e13-4c8f-8833-64631adfefda"
+            },
+            "locationId": "UGGGEU365",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 17,
+              "sustained": 13,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGEU375",
+      "label": "UGGEU375",
+      "sectorIds": [
+        "UGGGEU375"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 18,
+            "sustained": 14,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 18,
+        "sustain": 14
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:cbf6a24d-9fa8-4638-bae2-39458060d95c",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "BF9B726600120100CB4FCB6D",
+          "name": "UG EAST UPPER 375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:972585ec-35d2-4d51-b7e1-261eee3700da"
+            },
+            "locationId": "UGGGEU375",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 35
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 18,
+              "sustained": 14,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGGALL",
+      "label": "UGGGALL",
+      "sectorIds": [
+        "UGGGE34555",
+        "UGGGE35565",
+        "UGGGE36575",
+        "UGGGEL345",
+        "UGGGEU375",
+        "UGGGW34555",
+        "UGGGW35565",
+        "UGGGW36575",
+        "UGGGWL345",
+        "UGGGWU375"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:81712f12-3f9d-4092-9f67-dd4045539d3d",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "F778C467002E0A00E5F73002",
+          "name": "TBILISI ALL GLOBAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b73cb6b6-3ae4-41d5-bc89-5bbacb5723c7"
+            },
+            "locationId": "UGGGALL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UGGGCRI",
+      "label": "UGGGCRI",
+      "sectorIds": [
+        "UGGGE34555",
+        "UGGGE35565",
+        "UGGGE36575",
+        "UGGGEL345",
+        "UGGGEU375",
+        "UGGGW34555",
+        "UGGGW35565",
+        "UGGGW36575",
+        "UGGGWL345",
+        "UGGGWU375"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:4858fd94-dd01-471f-abed-00fc75d43a65",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "8A6EC46700800F00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:38b6dfcb-ad0e-4f07-9a53-e362fcadf95d"
+            },
+            "locationId": "UGGGCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UGGGEAST",
+      "label": "UGGGEAST",
+      "sectorIds": [
+        "UGGGE34555",
+        "UGGGE35565",
+        "UGGGE36575",
+        "UGGGEL345",
+        "UGGGEU375"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 17,
+            "sustained": 13,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 17,
+        "sustain": 13
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTTISOT"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADUGTBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADUGTBD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTAVRO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADUGTBD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTDISKA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:9e89d264-b8d4-45ae-9e7f-427cf3e221fb",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "DC7B726600170000CB4FCB6D",
+          "name": "TBILISI SECTOR EAST GND-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2a832578-e63a-4f6c-9185-547fbe6075bc"
+            },
+            "locationId": "UGGGEAST",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ab782b11-51b9-4185-8a11-e1ea0794d583"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:85ee3821-9209-4ba4-a670-bff790849346"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:50a46d29-5d5f-431e-aefc-e9e6573190bd"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 17,
+              "sustained": 13,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UGGGWEST",
+      "label": "UGGGWEST",
+      "sectorIds": [
+        "UGGGW34555",
+        "UGGGW35565",
+        "UGGGW36575",
+        "UGGGWL345",
+        "UGGGWU375"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 12,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6bd10e7b-6914-46a2-9b5d-4d2cbc80bed9",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "747E7266000F0000CB4FCB6D",
+          "name": "TBILISI SECTOR WEST",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a8d5840c-2a04-465d-8ec5-0ec71855e361"
+            },
+            "locationId": "UGGGWEST",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 12,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UGGWL345",
+      "label": "UGGWL345",
+      "sectorIds": [
+        "UGGGWL345"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4226b691-64b0-41e5-9b69-221dafff17dc",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "A69D7266000C0000CB4FCB6D",
+          "name": "UG WEST LOWER 345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fc70e433-5c03-44a5-84fb-5b3ef774ce0c"
+            },
+            "locationId": "UGGGWL345",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGWL355",
+      "label": "UGGWL355",
+      "sectorIds": [
+        "UGGGW34555",
+        "UGGGWL345"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 38,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:435ede81-8a52-4c6d-b067-2c3003da3185",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "189E726600040000CB4FCB6D",
+          "name": "UG WEST LOWER 355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:805e3187-619e-42cf-9aed-32c2b0c810cc"
+            },
+            "locationId": "UGGGWL355",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 38
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGWL365",
+      "label": "UGGWL365",
+      "sectorIds": [
+        "UGGGW34555",
+        "UGGGW35565",
+        "UGGGWL345"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b8361a22-1caa-410d-b234-0320337402f4",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "189E7266002E0000CB4FCB6D",
+          "name": "UG WEST LOWER 365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:53274177-f74b-41f3-b556-8765b0dae951"
+            },
+            "locationId": "UGGGWL365",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGWL375",
+      "label": "UGGWL375",
+      "sectorIds": [
+        "UGGGW34555",
+        "UGGGW35565",
+        "UGGGW36575",
+        "UGGGWL345"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f23124e9-e81d-4528-ab52-07c7ddd739d6",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "199E726600260000CB4FCB6D",
+          "name": "UG WEST LOWER 375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2a7d729c-b325-40ee-a841-b2284d5aa2cf"
+            },
+            "locationId": "UGGGWL375",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGWU345",
+      "label": "UGGWU345",
+      "sectorIds": [
+        "UGGGW34555",
+        "UGGGW35565",
+        "UGGGW36575",
+        "UGGGWU375"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 42,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 13,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 15,
+        "sustain": 13
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d8e82dc8-38fb-4838-afd0-03690cc727d6",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "199E726600820000CB4FCB6D",
+          "name": "UG WEST UPPER 345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d25b8657-cc02-428c-8846-9110d8c836d6"
+            },
+            "locationId": "UGGGWU345",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 42
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 13,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGWU355",
+      "label": "UGGWU355",
+      "sectorIds": [
+        "UGGGW35565",
+        "UGGGW36575",
+        "UGGGWU375"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 41,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:860f6908-c08c-4d10-81c9-ceb6bcc977d6",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "199E726600AC0000CB4FCB6D",
+          "name": "UG WEST UPPER 355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8b650750-656d-47a8-8f45-e2622d189d63"
+            },
+            "locationId": "UGGGWU355",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 41
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGWU365",
+      "label": "UGGWU365",
+      "sectorIds": [
+        "UGGGW36575",
+        "UGGGWU375"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:73687408-e6e1-444a-a5c6-cb673b6dfe1a",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "A69F726600160000CB4FCB6D",
+          "name": "UG WEST UPPER 365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f9367d36-2705-4be9-a014-15d636b6960a"
+            },
+            "locationId": "UGGGWU365",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    },
+    {
+      "id": "UGGWU375",
+      "label": "UGGWU375",
+      "sectorIds": [
+        "UGGGWU375"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 38,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2024-07-11T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 12,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:edf83a0d-897f-4b30-943f-fea3c0e11ace",
+        "groups": [
+          "ACCUGGG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1720656000000,
+            "end": 32503593600000
+          },
+          "stateId": "75A0726600E90500CB4FCB6D",
+          "name": "UG WEST UPPER 375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cd285c30-b595-4f1b-9b50-9c2fcca93099"
+            },
+            "locationId": "UGGGWU375",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 38
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1720656000000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 12,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 60,
+          "skipOut": 900
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "volumes": [
+    {
+      "id": "FL1SOLW",
+      "label": "FL1SOLW",
+      "sectorIds": [
+        "EGPXSOL"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECB20F24FC982F542CD47D"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC2BA88B34312BE40D4373"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:5dcdf1f9-a5ff-468b-8303-07a2bec1ae33",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "6CA21A6A007401004819E207",
+          "name": "/FROM: SCOTTISH GROUP (EGPF/PG/PH/PK/PN/QL)\nTO: MIDLANDS GROUP (EGBB/BE/NX)\nNOT ALLOWED VIA EGPXSOL\nREFILE BELOW FL255 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a534ac32-943a-4be6-8ccc-e72679f1c149"
+            },
+            "locationId": "EGPXSOL",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:ff7d6bd0-40f5-4862-a151-7b81da001520"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2SOLW",
+      "label": "FL2SOLW",
+      "sectorIds": [
+        "EGPXSOL"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC2BA88B34312BE40D4373"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECB20F24FC982F542CD47D"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:0099e18c-3425-48cc-aa30-bcf1105ad4a4",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "6CA21A6A009801004819E207",
+          "name": "/FROM: MIDLANDS GROUP (EGBB/BE/NX)\nTO: SCOTTISH GROUP (EGPF/PG/PH/PK/PN/QL)\nNOT ALLOWED VIA EGPXSOL\nREFILE BELOW FL255 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a534ac32-943a-4be6-8ccc-e72679f1c149"
+            },
+            "locationId": "EGPXSOL",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:754dd128-2ff8-4718-bd2f-361406b943f3"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

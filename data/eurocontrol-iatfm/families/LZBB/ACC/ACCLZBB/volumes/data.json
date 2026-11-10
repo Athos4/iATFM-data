@@ -1,0 +1,4022 @@
+{
+  "volumes": [
+    {
+      "id": "LZBBA0L",
+      "label": "LZBBA0L",
+      "sectorIds": [
+        "LZBBC0",
+        "LZBBC28",
+        "LZBBE0",
+        "LZBBE28",
+        "LZBBEX",
+        "LZBBW0",
+        "LZBBW28"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:912bb444-0733-401a-a9f2-f1b0f244d4f7",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "14F93269001F000096817CA2",
+          "name": "LZBB ALL GND-305",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6e57d83f-ac33-4b4d-bc4a-3a8011cdb36e"
+            },
+            "locationId": "LZBBA0L",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA13",
+      "label": "LZBBA13",
+      "sectorIds": [
+        "LZBBC1",
+        "LZBBC3",
+        "LZBBE1",
+        "LZBBE3",
+        "LZBBW1",
+        "LZBBW3"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 13,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 13,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d817d679-af68-4f05-900f-2b17d8ee07e7",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "16FA3269000F000096817CA2",
+          "name": "LZBB ALL 305-335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:5504a718-49e7-401c-a6f6-1336668c29b8"
+            },
+            "locationId": "LZBBA13",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 13,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA14",
+      "label": "LZBBA14",
+      "sectorIds": [
+        "LZBBC1",
+        "LZBBC3",
+        "LZBBC4",
+        "LZBBE1",
+        "LZBBE3",
+        "LZBBE4",
+        "LZBBW1",
+        "LZBBW3",
+        "LZBBW4"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 51,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:efbdc270-e201-48bd-8fae-ceaf0139e9d0",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "2BFA32690005000096817CA2",
+          "name": "LZBB ALL 305-345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b6fcf55b-895f-4875-bd37-58937a6abffc"
+            },
+            "locationId": "LZBBA14",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 51
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA15",
+      "label": "LZBBA15",
+      "sectorIds": [
+        "LZBBC1",
+        "LZBBC3",
+        "LZBBC4",
+        "LZBBC5",
+        "LZBBE1",
+        "LZBBE3",
+        "LZBBE4",
+        "LZBBE5",
+        "LZBBW1",
+        "LZBBW3",
+        "LZBBW4",
+        "LZBBW5"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 51,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:7738c968-815f-4cfd-97ea-d47b722c3c3a",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "43FA3269000A000096817CA2",
+          "name": "LZBB ALL 305-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:09e9df40-d139-4e39-b0f0-f7dcd889e61a"
+            },
+            "locationId": "LZBBA15",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 51
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA1L",
+      "label": "LZBBA1L",
+      "sectorIds": [
+        "LZBBC0",
+        "LZBBC1",
+        "LZBBC28",
+        "LZBBE0",
+        "LZBBE1",
+        "LZBBE28",
+        "LZBBEX",
+        "LZBBW0",
+        "LZBBW1",
+        "LZBBW28"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f80bba49-de68-47c8-9a91-fd44077cf016",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "28F932690053000096817CA2",
+          "name": "LZBB ALL GND-315",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7584ea17-98e3-44fb-9c9c-5f7ba42e07eb"
+            },
+            "locationId": "LZBBA1L",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA24",
+      "label": "LZBBA24",
+      "sectorIds": [
+        "LZBBC3",
+        "LZBBC4",
+        "LZBBE3",
+        "LZBBE4",
+        "LZBBW3",
+        "LZBBW4"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 50,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 13,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 13,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:638afd6e-bc68-450b-8114-32b965936953",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "5AFA32690007000096817CA2",
+          "name": "LZBB ALL 305-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d2d9da99-c030-4603-9ce0-5e9f10a1b1a2"
+            },
+            "locationId": "LZBBA24",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 50
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 13,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA25",
+      "label": "LZBBA25",
+      "sectorIds": [
+        "LZBBC3",
+        "LZBBC4",
+        "LZBBC5",
+        "LZBBE3",
+        "LZBBE4",
+        "LZBBE5",
+        "LZBBW3",
+        "LZBBW4",
+        "LZBBW5"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 51,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e650f909-da82-4f77-a90a-b0883debba1e",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "5CFA3269002F000096817CA2",
+          "name": "LZBB ALL 315-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1d5652c3-759f-4f8f-b493-9c7f6ddd1e3c"
+            },
+            "locationId": "LZBBA25",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 51
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA28L",
+      "label": "LZBBA28L",
+      "sectorIds": [
+        "LZBBC28",
+        "LZBBE28",
+        "LZBBEX",
+        "LZBBW28"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0d68be1b-f235-4907-bb61-f56d6e0328d5",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "09F93269000D000096817CA2",
+          "name": "LZBB ALL GND-285",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f429003d-4fba-4b13-b077-79343bcca26f"
+            },
+            "locationId": "LZBBA28L",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA3L",
+      "label": "LZBBA3L",
+      "sectorIds": [
+        "LZBBC0",
+        "LZBBC1",
+        "LZBBC28",
+        "LZBBC3",
+        "LZBBE0",
+        "LZBBE1",
+        "LZBBE28",
+        "LZBBE3",
+        "LZBBEX",
+        "LZBBW0",
+        "LZBBW1",
+        "LZBBW28",
+        "LZBBW3"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:478146fa-458a-4036-abb3-2c33d0c743a9",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "39F93269000B000096817CA2",
+          "name": "LZBB ALL GND-335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:dd0b14fe-0ab6-455f-911f-00e290bada33"
+            },
+            "locationId": "LZBBA3L",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA45",
+      "label": "LZBBA45",
+      "sectorIds": [
+        "LZBBC4",
+        "LZBBC5",
+        "LZBBE4",
+        "LZBBE5",
+        "LZBBW4",
+        "LZBBW5"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:221b4b01-8cb4-49ef-b77a-010cc13fe66f",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "7EFA32690004000096817CA2",
+          "name": "LZBB ALL 335-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e9a30f6f-cdea-4263-9502-1c0b2df236da"
+            },
+            "locationId": "LZBBA45",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA4L",
+      "label": "LZBBA4L",
+      "sectorIds": [
+        "LZBBC0",
+        "LZBBC1",
+        "LZBBC28",
+        "LZBBC3",
+        "LZBBC4",
+        "LZBBE0",
+        "LZBBE1",
+        "LZBBE28",
+        "LZBBE3",
+        "LZBBE4",
+        "LZBBEX",
+        "LZBBW0",
+        "LZBBW1",
+        "LZBBW28",
+        "LZBBW3",
+        "LZBBW4"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:10abb7f5-81ec-4b9a-8b91-b8b1a48e727b",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "4CF932690007000096817CA2",
+          "name": "LZBB ALL GND-345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2ee20044-a6b6-478a-9865-d820c547f6c3"
+            },
+            "locationId": "LZBBA4L",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA56",
+      "label": "LZBBA56",
+      "sectorIds": [
+        "LZBBC5",
+        "LZBBC6",
+        "LZBBE5",
+        "LZBBE6",
+        "LZBBW5",
+        "LZBBW6"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:1cd0c38b-e323-4699-9b36-1771a6d734f8",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "83FA3269002F000096817CA2",
+          "name": "LZBB ALL 345-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1c60f2f4-1efc-4eb6-bdeb-61cca27bfe51"
+            },
+            "locationId": "LZBBA56",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA5L",
+      "label": "LZBBA5L",
+      "sectorIds": [
+        "LZBBC0",
+        "LZBBC1",
+        "LZBBC28",
+        "LZBBC3",
+        "LZBBC4",
+        "LZBBC5",
+        "LZBBE0",
+        "LZBBE1",
+        "LZBBE28",
+        "LZBBE3",
+        "LZBBE4",
+        "LZBBE5",
+        "LZBBEX",
+        "LZBBW0",
+        "LZBBW1",
+        "LZBBW28",
+        "LZBBW3",
+        "LZBBW4",
+        "LZBBW5"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2a379a1d-39e6-4f6e-bccc-fc9176e64c59",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "54F932690021000096817CA2",
+          "name": "LZBB ALL GND-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c25f27f8-b123-45fa-b9bf-67030a8956dc"
+            },
+            "locationId": "LZBBA5L",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA5U",
+      "label": "LZBBA5U",
+      "sectorIds": [
+        "LZBBC5",
+        "LZBBC6",
+        "LZBBC7",
+        "LZBBC8",
+        "LZBBC99",
+        "LZBBE5",
+        "LZBBE6",
+        "LZBBE7",
+        "LZBBE8",
+        "LZBBE99",
+        "LZBBW5",
+        "LZBBW6",
+        "LZBBW7",
+        "LZBBW8",
+        "LZBBW99"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 53,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 12,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 16,
+        "sustain": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2f0f0434-2826-4543-aad6-93bbdd658a56",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "7EF93269000B000096817CA2",
+          "name": "LZBB ALL 345-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:87e12c1a-ebed-4e25-a198-4d0ab1b1c62f"
+            },
+            "locationId": "LZBBA5U",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 53
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 12,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA67",
+      "label": "LZBBA67",
+      "sectorIds": [
+        "LZBBC6",
+        "LZBBC7",
+        "LZBBE6",
+        "LZBBE7",
+        "LZBBW6",
+        "LZBBW7"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 49,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:cae403e1-c388-4108-905f-0dd7a1111656",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "A8FA32690001000096817CA2",
+          "name": "LZBB ALL 355-375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f4121242-fb78-4d2a-8da7-a9bd3dfdd98a"
+            },
+            "locationId": "LZBBA67",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 49
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA6L",
+      "label": "LZBBA6L",
+      "sectorIds": [
+        "LZBBC0",
+        "LZBBC1",
+        "LZBBC28",
+        "LZBBC3",
+        "LZBBC4",
+        "LZBBC5",
+        "LZBBC6",
+        "LZBBE0",
+        "LZBBE1",
+        "LZBBE28",
+        "LZBBE3",
+        "LZBBE4",
+        "LZBBE5",
+        "LZBBE6",
+        "LZBBEX",
+        "LZBBW0",
+        "LZBBW1",
+        "LZBBW28",
+        "LZBBW3",
+        "LZBBW4",
+        "LZBBW5",
+        "LZBBW6"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:60fefe98-89b9-438c-aedb-642951cf145b",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "66F93269000F000096817CA2",
+          "name": "LZBB ALL GND-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d6b5086a-8bae-42db-b461-3f61f1587d8f"
+            },
+            "locationId": "LZBBA6L",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA6U",
+      "label": "LZBBA6U",
+      "sectorIds": [
+        "LZBBC6",
+        "LZBBC7",
+        "LZBBC8",
+        "LZBBC99",
+        "LZBBE6",
+        "LZBBE7",
+        "LZBBE8",
+        "LZBBE99",
+        "LZBBW6",
+        "LZBBW7",
+        "LZBBW8",
+        "LZBBW99"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 53,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 12,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 16,
+        "sustain": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:46361ac0-5099-44cc-9d58-4114e402be04",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "90F932690026000096817CA2",
+          "name": "LZBB ALL 355-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7997049e-f223-44ef-91ab-72dd00403a81"
+            },
+            "locationId": "LZBBA6U",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 53
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 12,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA78",
+      "label": "LZBBA78",
+      "sectorIds": [
+        "LZBBC7",
+        "LZBBC8",
+        "LZBBE7",
+        "LZBBE8",
+        "LZBBW7",
+        "LZBBW8"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 47,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 9,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 11,
+        "sustain": 9
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:7456b294-877e-43c8-9da6-82d1a0f6175e",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "BDFA32690002000096817CA2",
+          "name": "LZBB ALL 365-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:80dd6d49-22e0-4bd8-a7eb-f20e2e2e206f"
+            },
+            "locationId": "LZBBA78",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 47
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 9,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA7U",
+      "label": "LZBBA7U",
+      "sectorIds": [
+        "LZBBC7",
+        "LZBBC8",
+        "LZBBC99",
+        "LZBBE7",
+        "LZBBE8",
+        "LZBBE99",
+        "LZBBW7",
+        "LZBBW8",
+        "LZBBW99"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 53,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:a6882dd6-9d1a-48e2-a60b-08a7c12b5bff",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "7FF932690012000096817CA2",
+          "name": "LZBB ALL 365-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:aab753cd-ffec-41fd-af04-7b92c99c6d43"
+            },
+            "locationId": "LZBBA7U",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 53
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA8U",
+      "label": "LZBBA8U",
+      "sectorIds": [
+        "LZBBC8",
+        "LZBBC99",
+        "LZBBE8",
+        "LZBBE99",
+        "LZBBW8",
+        "LZBBW99"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 53,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:71205f7b-2075-490f-8d3a-94ff299a450b",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "B3F93269000A000096817CA2",
+          "name": "LZBB ALL 375-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:40d5798b-a9f0-4409-b716-12dfef57c531"
+            },
+            "locationId": "LZBBA8U",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 53
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA93",
+      "label": "LZBBA93",
+      "sectorIds": [
+        "LZBBC0",
+        "LZBBC1",
+        "LZBBC3",
+        "LZBBE0",
+        "LZBBE1",
+        "LZBBE3",
+        "LZBBW0",
+        "LZBBW1",
+        "LZBBW3"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 51,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8dd790d5-6cca-4f62-8159-31fed235a653",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "DCF932690002000096817CA2",
+          "name": "LZBB ALL 285-335",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2d198fac-c622-485e-b715-885aacee98eb"
+            },
+            "locationId": "LZBBA93",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 51
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA94",
+      "label": "LZBBA94",
+      "sectorIds": [
+        "LZBBC0",
+        "LZBBC1",
+        "LZBBC3",
+        "LZBBC4",
+        "LZBBE0",
+        "LZBBE1",
+        "LZBBE3",
+        "LZBBE4",
+        "LZBBW0",
+        "LZBBW1",
+        "LZBBW3",
+        "LZBBW4"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 51,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b1504467-95e6-4a31-bebd-030f604aca3f",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "EDF93269000A000096817CA2",
+          "name": "LZBB ALL 285-345",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1e58965d-343d-418e-aae6-8814ff68326f"
+            },
+            "locationId": "LZBBA94",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 51
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA95",
+      "label": "LZBBA95",
+      "sectorIds": [
+        "LZBBC0",
+        "LZBBC1",
+        "LZBBC3",
+        "LZBBC4",
+        "LZBBC5",
+        "LZBBE0",
+        "LZBBE1",
+        "LZBBE3",
+        "LZBBE4",
+        "LZBBE5",
+        "LZBBW0",
+        "LZBBW1",
+        "LZBBW3",
+        "LZBBW4",
+        "LZBBW5"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 51,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:bcf9e15a-ebef-4b2f-94f3-efa06b903375",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "02FA32690006000096817CA2",
+          "name": "LZBB ALL 285-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a5034d41-c418-4b26-91c5-e015eb356cb0"
+            },
+            "locationId": "LZBBA95",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 51
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBA9U",
+      "label": "LZBBA9U",
+      "sectorIds": [
+        "LZBBC99",
+        "LZBBE99",
+        "LZBBW99"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 53,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 14,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:becbbbb4-3648-4a20-bfd8-133a4560d43d",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "B4F93269002B000096817CA2",
+          "name": "LZBB ALL 385-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:5f99dd37-04fb-4b07-9b9e-4b655f6b9924"
+            },
+            "locationId": "LZBBA9U",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 53
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBACC",
+      "label": "LZBBACC",
+      "sectorIds": [
+        "LZBBC0",
+        "LZBBC1",
+        "LZBBC28",
+        "LZBBC3",
+        "LZBBC4",
+        "LZBBC5",
+        "LZBBC6",
+        "LZBBC7",
+        "LZBBC8",
+        "LZBBC99",
+        "LZBBE0",
+        "LZBBE1",
+        "LZBBE28",
+        "LZBBE3",
+        "LZBBE4",
+        "LZBBE5",
+        "LZBBE6",
+        "LZBBE7",
+        "LZBBE8",
+        "LZBBE99",
+        "LZBBEX",
+        "LZBBW0",
+        "LZBBW1",
+        "LZBBW28",
+        "LZBBW3",
+        "LZBBW4",
+        "LZBBW5",
+        "LZBBW6",
+        "LZBBW7",
+        "LZBBW8",
+        "LZBBW99"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:317eb7ca-6f12-4821-bd53-0df751eb0062",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1674691200000,
+            "end": 32503593600000
+          },
+          "stateId": "BD4FB46300EF0600D130A440",
+          "name": "LZBB ACC",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:abd6c56c-e183-414e-b313-e694fcc61d85"
+            },
+            "locationId": "LZBBCTA",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBALL",
+      "label": "LZBBALL",
+      "sectorIds": [
+        "LZBBC0",
+        "LZBBC1",
+        "LZBBC28",
+        "LZBBC3",
+        "LZBBC4",
+        "LZBBC5",
+        "LZBBC6",
+        "LZBBC7",
+        "LZBBC8",
+        "LZBBC99",
+        "LZBBE0",
+        "LZBBE1",
+        "LZBBE28",
+        "LZBBE3",
+        "LZBBE4",
+        "LZBBE5",
+        "LZBBE6",
+        "LZBBE7",
+        "LZBBE8",
+        "LZBBE99",
+        "LZBBEX",
+        "LZBBW0",
+        "LZBBW1",
+        "LZBBW28",
+        "LZBBW3",
+        "LZBBW4",
+        "LZBBW5",
+        "LZBBW6",
+        "LZBBW7",
+        "LZBBW8",
+        "LZBBW99"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 53,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2025-12-25T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 12,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 16,
+        "sustain": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:204707f3-e907-40fa-9b48-2048d4ba5e17",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1766620800000,
+            "end": 32503593600000
+          },
+          "stateId": "EDF832690003000096817CA2",
+          "name": "LZBB ALL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1d8880a9-629c-4d13-adc7-6e6a7de26c20"
+            },
+            "locationId": "LZBBALL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 53
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1766620800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 12,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBCRI",
+      "label": "LZBBCRI",
+      "sectorIds": [
+        "LZBBC0",
+        "LZBBC1",
+        "LZBBC28",
+        "LZBBC3",
+        "LZBBC4",
+        "LZBBC5",
+        "LZBBC6",
+        "LZBBC7",
+        "LZBBC8",
+        "LZBBC99",
+        "LZBBE0",
+        "LZBBE1",
+        "LZBBE28",
+        "LZBBE3",
+        "LZBBE4",
+        "LZBBE5",
+        "LZBBE6",
+        "LZBBE7",
+        "LZBBE8",
+        "LZBBE99",
+        "LZBBEX",
+        "LZBBW0",
+        "LZBBW1",
+        "LZBBW28",
+        "LZBBW3",
+        "LZBBW4",
+        "LZBBW5",
+        "LZBBW6",
+        "LZBBW7",
+        "LZBBW8",
+        "LZBBW99"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 48
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:5a206222-eea5-4c4f-adc3-5e7c3f7e3350",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "306EC46700870F00E5F73002",
+          "name": "LZBB ALL CRISIS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1d8880a9-629c-4d13-adc7-6e6a7de26c20"
+            },
+            "locationId": "LZBBALL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 48
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBCW45",
+      "label": "LZBBCW45",
+      "sectorIds": [
+        "LZBBC4",
+        "LZBBC5",
+        "LZBBW4",
+        "LZBBW5"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 41,
+        "exceptions": [
+          {
+            "startUtc": "2026-02-02T00:00:00Z",
+            "endUtc": "2026-02-16T00:00:00Z",
+            "maxEntryPerHour": 29
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0a5a54ae-e325-427b-b9bc-a37b579878d2",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "44BB646900010000E7E4C73E",
+          "name": "LZBB C+W 335-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:46548277-51be-4175-8fc5-c31bb238c694"
+            },
+            "locationId": "LZBBCW45",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 41,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 29,
+                  "validityPeriod": {
+                    "start": 1769990400000,
+                    "end": 1771200000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBCW56",
+      "label": "LZBBCW56",
+      "sectorIds": [
+        "LZBBC5",
+        "LZBBC6",
+        "LZBBW5",
+        "LZBBW6"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 41,
+        "exceptions": [
+          {
+            "startUtc": "2026-02-02T00:00:00Z",
+            "endUtc": "2026-02-16T00:00:00Z",
+            "maxEntryPerHour": 29
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6f91bc35-c2ad-416f-b5b5-d486271780de",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "65BB6469000F0000E7E4C73E",
+          "name": "LZBB C+W 345-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7bf02a68-0279-4d57-a64e-a4ee87ffcbff"
+            },
+            "locationId": "LZBBCW56",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 41,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 29,
+                  "validityPeriod": {
+                    "start": 1769990400000,
+                    "end": 1771200000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBCW5U",
+      "label": "LZBBCW5U",
+      "sectorIds": [
+        "LZBBC5",
+        "LZBBC6",
+        "LZBBC7",
+        "LZBBC8",
+        "LZBBC99",
+        "LZBBW5",
+        "LZBBW6",
+        "LZBBW7",
+        "LZBBW8",
+        "LZBBW99"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46,
+        "exceptions": [
+          {
+            "startUtc": "2026-02-02T00:00:00Z",
+            "endUtc": "2026-02-16T00:00:00Z",
+            "maxEntryPerHour": 33
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6f50b215-0410-4a70-b32c-1ee699626991",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "D5BB646900060000E7E4C73E",
+          "name": "LZBB C+W 345-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cf98f7ef-a276-45d6-a876-e85309627cb0"
+            },
+            "locationId": "LZBBCW5U",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 33,
+                  "validityPeriod": {
+                    "start": 1769990400000,
+                    "end": 1771200000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBCW67",
+      "label": "LZBBCW67",
+      "sectorIds": [
+        "LZBBC6",
+        "LZBBC7",
+        "LZBBW6",
+        "LZBBW7"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 41,
+        "exceptions": [
+          {
+            "startUtc": "2026-02-02T00:00:00Z",
+            "endUtc": "2026-02-16T00:00:00Z",
+            "maxEntryPerHour": 29
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b9875c0e-b2fb-4896-91e1-57a21811e5b5",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "6FBB646900260000E7E4C73E",
+          "name": "LZBB C+W 355-375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:49820128-ea04-4bd9-ab0d-527de0a4b351"
+            },
+            "locationId": "LZBBCW67",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 41,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 29,
+                  "validityPeriod": {
+                    "start": 1769990400000,
+                    "end": 1771200000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBCW6U",
+      "label": "LZBBCW6U",
+      "sectorIds": [
+        "LZBBC6",
+        "LZBBC7",
+        "LZBBC8",
+        "LZBBC99",
+        "LZBBW6",
+        "LZBBW7",
+        "LZBBW8",
+        "LZBBW99"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46,
+        "exceptions": [
+          {
+            "startUtc": "2026-02-02T00:00:00Z",
+            "endUtc": "2026-02-16T00:00:00Z",
+            "maxEntryPerHour": 33
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 12,
+        "sustain": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8c090c2d-1b36-4b44-b009-13f30dcd68cc",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "DFBB646900200000E7E4C73E",
+          "name": "LZBB C+W 355-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8f172f48-fd97-44dc-979e-259fe0341f5a"
+            },
+            "locationId": "LZBBCW6U",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 33,
+                  "validityPeriod": {
+                    "start": 1769990400000,
+                    "end": 1771200000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBCW78",
+      "label": "LZBBCW78",
+      "sectorIds": [
+        "LZBBC7",
+        "LZBBC8",
+        "LZBBW7",
+        "LZBBW8"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 41,
+        "exceptions": [
+          {
+            "startUtc": "2026-02-02T00:00:00Z",
+            "endUtc": "2026-02-16T00:00:00Z",
+            "maxEntryPerHour": 29
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d7adb7f2-c22f-4e7b-bf82-2cf7c7f381e3",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "9EBB6469000F0000E7E4C73E",
+          "name": "LZBB C+W 365-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:93ca3e49-6b62-471e-8509-f90af0a3651a"
+            },
+            "locationId": "LZBBCW78",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 41,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 29,
+                  "validityPeriod": {
+                    "start": 1769990400000,
+                    "end": 1771200000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBE45",
+      "label": "LZBBE45",
+      "sectorIds": [
+        "LZBBE4",
+        "LZBBE5"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39,
+        "exceptions": [
+          {
+            "startUtc": "2026-02-02T00:00:00Z",
+            "endUtc": "2026-02-16T00:00:00Z",
+            "maxEntryPerHour": 28
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 9,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 9,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:18daa5a5-67ee-4679-ae12-57016d924ca7",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "11BC646900010000E7E4C73E",
+          "name": "LZBB E 335-355",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d2cf1f5c-e0d9-4bd5-9a68-526566a6b5ac"
+            },
+            "locationId": "LZBBE45",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1769990400000,
+                    "end": 1771200000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 9,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBE56",
+      "label": "LZBBE56",
+      "sectorIds": [
+        "LZBBE5",
+        "LZBBE6"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39,
+        "exceptions": [
+          {
+            "startUtc": "2026-02-02T00:00:00Z",
+            "endUtc": "2026-02-16T00:00:00Z",
+            "maxEntryPerHour": 28
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 9,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 9,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0c0ecf53-c5d7-4b7e-8e61-d60416ac1b97",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "17BC646900230000E7E4C73E",
+          "name": "LZBB E 345-365",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:45393810-ebc3-4527-9cb2-97ceddbb9376"
+            },
+            "locationId": "LZBBE56",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1769990400000,
+                    "end": 1771200000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 9,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBE5U",
+      "label": "LZBBE5U",
+      "sectorIds": [
+        "LZBBE5",
+        "LZBBE6",
+        "LZBBE7",
+        "LZBBE8",
+        "LZBBE99"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 43,
+        "exceptions": [
+          {
+            "startUtc": "2026-02-02T00:00:00Z",
+            "endUtc": "2026-02-16T00:00:00Z",
+            "maxEntryPerHour": 31
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ee746fd0-2842-4655-8bf8-114d9779f7a5",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "5CBC646900170000E7E4C73E",
+          "name": "LZBB E 345-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a441499a-548f-440c-8cad-698c8febd5cc"
+            },
+            "locationId": "LZBBE5U",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 43,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 31,
+                  "validityPeriod": {
+                    "start": 1769990400000,
+                    "end": 1771200000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBE67",
+      "label": "LZBBE67",
+      "sectorIds": [
+        "LZBBE6",
+        "LZBBE7"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39,
+        "exceptions": [
+          {
+            "startUtc": "2026-02-02T00:00:00Z",
+            "endUtc": "2026-02-16T00:00:00Z",
+            "maxEntryPerHour": 28
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 9,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 9,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:12b19619-4888-4be5-9e20-65af511714f7",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "33BC6469000B0000E7E4C73E",
+          "name": "LZBB E 355-375",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f4fb3cab-b9f0-41cd-8739-63a53129b5b0"
+            },
+            "locationId": "LZBBE67",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1769990400000,
+                    "end": 1771200000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 9,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBE6U",
+      "label": "LZBBE6U",
+      "sectorIds": [
+        "LZBBE6",
+        "LZBBE7",
+        "LZBBE8",
+        "LZBBE99"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 43,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-02-19T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 10,
+            "sustained": 8,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 10,
+        "sustain": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3ff64217-9f64-4c2d-b86d-5a87733ae6ad",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1771459200000,
+            "end": 32503593600000
+          },
+          "stateId": "F95E8069002A0100E7E4C73E",
+          "name": "LZBB E 355-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:40603609-e848-4400-a611-83cb16ac55db"
+            },
+            "locationId": "LZBBE6U",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 43
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1771459200000,
+              "til": 32503593600000,
+              "peak": 10,
+              "sustained": 8,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZBBE78",
+      "label": "LZBBE78",
+      "sectorIds": [
+        "LZBBE7",
+        "LZBBE8"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39,
+        "exceptions": [
+          {
+            "startUtc": "2026-02-02T00:00:00Z",
+            "endUtc": "2026-02-16T00:00:00Z",
+            "maxEntryPerHour": 28
+          }
+        ],
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2026-01-22T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 9,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 9,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e3407b79-cf44-411c-8908-54204550d741",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1769040000000,
+            "end": 32503593600000
+          },
+          "stateId": "3FBC646900070000E7E4C73E",
+          "name": "LZBB E 365-385",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0051478c-984e-41cb-8fab-13202cae4080"
+            },
+            "locationId": "LZBBE78",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39,
+              "temporaryCapacity": [
+                {
+                  "$type": "airspace.em.fw.TemporaryCapacity",
+                  "hourlyCapacity": 28,
+                  "validityPeriod": {
+                    "start": 1769990400000,
+                    "end": 1771200000000
+                  }
+                }
+              ]
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1769040000000,
+              "til": 32503593600000,
+              "peak": 9,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZIB",
+      "label": "LZIB",
+      "arrival": [
+        "LZIB"
+      ],
+      "departure": [
+        "LZIB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 28
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:654ea964-73a3-45cd-96f7-aacafcb8a9da",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1752105600000,
+            "end": 32503593600000
+          },
+          "stateId": "06C85368002000002B475421",
+          "name": "BRATISLAVA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:98d2b72c-4d25-40b7-9802-214d078e7bd7"
+            },
+            "locationId": "LZIB",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 28
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZIBARR",
+      "label": "LZIBARR",
+      "arrival": [
+        "LZIB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 20
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8f024c04-619e-4e04-b403-bf4ad3974265",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1752105600000,
+            "end": 32503593600000
+          },
+          "stateId": "40CF5368001700002B475421",
+          "name": "ARRIVALS BRATISLAVA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9813ba58-b3e1-4027-a514-82ddbde09e73"
+            },
+            "locationId": "LZIB",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 20
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZIBDEP",
+      "label": "LZIBDEP",
+      "departure": [
+        "LZIB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:53ac3063-4c06-49db-85d6-dd18ec8ac792",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1752105600000,
+            "end": 32503593600000
+          },
+          "stateId": "40CF5368004000002B475421",
+          "name": "BRATISLAVA DEPARTURE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4ed9f394-6d12-46f4-8b9b-b4db6672c00a"
+            },
+            "locationId": "LZIB",
+            "category": "DEPARTURE"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 15
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZIBU",
+      "label": "LZIBU",
+      "sectorIds": [
+        "LZIBU"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 20
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:96526d7d-7ca2-4db7-9dd4-3ec8b63bee2d",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1365033600000,
+            "end": 32503593600000
+          },
+          "stateId": "7FCE455100120000CD5A9F78",
+          "name": "TMA LZIB UPPER",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:699c82fb-a438-4256-aa49-3553c993db35"
+            },
+            "locationId": "LZIBU",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 20
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZKZ",
+      "label": "LZKZ",
+      "arrival": [
+        "LZKZ"
+      ],
+      "departure": [
+        "LZKZ"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4417100e-81ae-497e-bc44-a367538f3b5c",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1752105600000,
+            "end": 32503593600000
+          },
+          "stateId": "BC195568001800002B475421",
+          "name": "LZKZ GLOBAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9636d32b-88f0-42ee-af38-01eb2eeaa51e"
+            },
+            "locationId": "LZKZ",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZKZARR",
+      "label": "LZKZARR",
+      "arrival": [
+        "LZKZ"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:62168a1f-7632-4047-b855-888365151f0e",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1752105600000,
+            "end": 32503593600000
+          },
+          "stateId": "BC195568008000002B475421",
+          "name": "LZKZ ARR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c6db2dc7-df93-4e33-8d07-e719949ae6fc"
+            },
+            "locationId": "LZKZ",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZKZDEP",
+      "label": "LZKZDEP",
+      "departure": [
+        "LZKZ"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:49e1a90d-eb60-46ce-8268-c435c7bb53b2",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1752105600000,
+            "end": 32503593600000
+          },
+          "stateId": "BD195568002000002B475421",
+          "name": "LZKZ DEP",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:41cb94da-defe-45d3-be1e-983ccfb08feb"
+            },
+            "locationId": "LZKZ",
+            "category": "DEPARTURE"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 6
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZPCA05",
+      "label": "LZPCA05",
+      "sectorIds": [
+        "LZBBPCA05"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:65a359d7-b939-4395-a9ef-a0fa4c456117",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1517443200000,
+            "end": 32503593600000
+          },
+          "stateId": "046E585A0034000018CE5312",
+          "name": "PCA05",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:bebbc97f-f377-4a76-a031-a1747de72be2"
+            },
+            "locationId": "LZBBPCA05",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZPCA06T",
+      "label": "LZPCA06T",
+      "sectorIds": [
+        "LZBBPCA06T"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:2487d077-7d05-44a7-86b5-d5862d9b76fd",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1432771200000,
+            "end": 32503593600000
+          },
+          "stateId": "BBC83F550024000014A344EE",
+          "name": "PCA06T",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3089ed6c-3f76-4f74-89b2-dea87f342145"
+            },
+            "locationId": "LZBBPCA06T",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZPCA07",
+      "label": "LZPCA07",
+      "sectorIds": [
+        "LZBBPCA07"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:90370bc1-573f-4960-8d8a-fb74eb1c9056",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1505347200000,
+            "end": 32503593600000
+          },
+          "stateId": "247CA05900050000159428D8",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0d1bab95-75c6-4531-8f76-774d4e8cf0be"
+            },
+            "locationId": "LZBBPCA07",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZPCA07T",
+      "label": "LZPCA07T",
+      "sectorIds": [
+        "LZBBPCA07T"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:5c303575-21c3-4fa5-a3a9-588d9c0a9d7c",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1524700800000,
+            "end": 32503593600000
+          },
+          "stateId": "F7D7C85A000400003350EEEE",
+          "name": "PCA07T",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:10a58f4a-f5b7-4754-adc2-3a247bf9184a"
+            },
+            "locationId": "LZBBPCA07T",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZPP",
+      "label": "LZPP",
+      "arrival": [
+        "LZPP"
+      ],
+      "departure": [
+        "LZPP"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 5
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b81a248f-1736-4402-8755-f9072a8f8798",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1756944000000,
+            "end": 32503593600000
+          },
+          "stateId": "507394680031000092DB2D51",
+          "name": "LZPP GLOBAL CAPACITY",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f86abe7f-49ba-4723-b2d9-5ef5f118f53a"
+            },
+            "locationId": "LZPP",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 5
+            }
+          ],
+          "note": "DMR 259484",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZPPARR",
+      "label": "LZPPARR",
+      "arrival": [
+        "LZPP"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 5
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:054d1182-021b-47e1-a7b9-6d33fa81446f",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1756944000000,
+            "end": 32503593600000
+          },
+          "stateId": "507394680055000092DB2D51",
+          "name": "LZPP ARR CAPACITY",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8b614e18-c805-4f9d-bd41-a7526efe65fc"
+            },
+            "locationId": "LZPP",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 5
+            }
+          ],
+          "note": "DMR 259484",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZPPDEP",
+      "label": "LZPPDEP",
+      "departure": [
+        "LZPP"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 5
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e31c3c2a-6aa1-47dd-a788-3a6593f7b0a3",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1756944000000,
+            "end": 32503593600000
+          },
+          "stateId": "507394680079000092DB2D51",
+          "name": "LZPP DEP CAPACITY",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cad09308-728d-40c2-9f14-fbdc56ab4ab7"
+            },
+            "locationId": "LZPP",
+            "category": "DEPARTURE"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 5
+            }
+          ],
+          "note": "DMR 259484",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZROZHON",
+      "label": "LZROZHON",
+      "sectorIds": [
+        "LZBBROZHON"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:41e397d1-d40e-44aa-862e-679f3f17920c",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1423094400000,
+            "end": 32503593600000
+          },
+          "stateId": "D6AAC354002800004E38A22C",
+          "name": "PCA ROZHON",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7bab5106-c1b5-429b-9abf-00fd79a04739"
+            },
+            "locationId": "LZBBROZHON",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZTT",
+      "label": "LZTT",
+      "arrival": [
+        "LZTT"
+      ],
+      "departure": [
+        "LZTT"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 6
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:31a17e71-d6c4-4842-9160-60942958aea0",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1759363200000,
+            "end": 32503593600000
+          },
+          "stateId": "8743B968005C000068B1AEA6",
+          "name": "LZTT GLOBAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:48a9dbae-47ee-485c-b486-6c7eae4401a8"
+            },
+            "locationId": "LZTT",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 6
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZTTARR",
+      "label": "LZTTARR",
+      "arrival": [
+        "LZTT"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:1c7acfb9-51f3-4dc5-aec0-86e0cb536edb",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1759363200000,
+            "end": 32503593600000
+          },
+          "stateId": "8843B968001C000068B1AEA6",
+          "name": "ARRIVALS LZTT",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:19d1216b-3c54-4e8f-a4fb-02aec17d54f2"
+            },
+            "locationId": "LZTT",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZTTDEP",
+      "label": "LZTTDEP",
+      "departure": [
+        "LZTT"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3c4dfcc3-e715-419a-97eb-b8fca4453238",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1759363200000,
+            "end": 32503593600000
+          },
+          "stateId": "8843B9680040000068B1AEA6",
+          "name": "LZTT DEPARTURE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:eeac428f-c8d5-4232-9f14-eaaef98b25f8"
+            },
+            "locationId": "LZTT",
+            "category": "DEPARTURE"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZTUNELA",
+      "label": "LZTUNELA",
+      "sectorIds": [
+        "LZBBTUNELA"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:afb1bde1-6d60-44e0-b8a6-527fd7d49902",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1517443200000,
+            "end": 32503593600000
+          },
+          "stateId": "1C6B585A0012000018CE5312",
+          "name": "PCA TUNEL A",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:193a1c55-be7c-4e16-9049-f7e22074da2a"
+            },
+            "locationId": "LZBBTUNELA",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZZI",
+      "label": "LZZI",
+      "arrival": [
+        "LZZI"
+      ],
+      "departure": [
+        "LZZI"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d5e6f024-c7f5-4c91-b93f-c0f46c5be272",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1788393600000,
+            "end": 32503593600000
+          },
+          "stateId": "C195786A00290000DE124D2F",
+          "name": "LZZI GLOBAL CAPACITY",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a999af06-031e-4e2e-afd2-807da38d097d"
+            },
+            "locationId": "LZZI",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 12
+            }
+          ],
+          "note": "DMR 259454",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZZIARR",
+      "label": "LZZIARR",
+      "arrival": [
+        "LZZI"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4d8db651-8e16-4692-82f4-b45ce2808d50",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1788393600000,
+            "end": 32503593600000
+          },
+          "stateId": "AE95786A000D0000DE124D2F",
+          "name": "LZZI ARR CAPACITY",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f733c38c-bda7-48b8-b8c3-6babcce2301a"
+            },
+            "locationId": "LZZI",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 12
+            }
+          ],
+          "note": "DMR 259454",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LZZIDEP",
+      "label": "LZZIDEP",
+      "departure": [
+        "LZZI"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:a5d15bc4-16b9-4cc3-950c-e70b94f5114d",
+        "groups": [
+          "ACCLZBB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1788393600000,
+            "end": 32503593600000
+          },
+          "stateId": "B595786A00190000DE124D2F",
+          "name": "LZZI DEP CAPACITY",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2d609bf1-48ac-421d-8f89-6b2e8331384a"
+            },
+            "locationId": "LZZI",
+            "category": "DEPARTURE"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 12
+            }
+          ],
+          "note": "DMR 259454",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

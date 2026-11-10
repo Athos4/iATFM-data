@@ -1,0 +1,36 @@
+{"updatedAt": "2026-11-06T16:41:42.074122+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T16:42:11.149248+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 23169, "expectedRestrictions": 40378, "conversionPercent": 92.3337091319053, "conversionThresholdReached": true, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T16:47:14.206521+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T16:47:43.629900+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 23519, "expectedRestrictions": 40378, "conversionPercent": 91.11993849308047, "conversionThresholdReached": true, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T16:52:46.677349+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T16:53:18.333669+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 23819, "expectedRestrictions": 40378, "conversionPercent": 90.32979082321188, "conversionThresholdReached": true, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T16:58:21.399770+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T16:58:52.599646+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 24330, "expectedRestrictions": 40378, "conversionPercent": 89.8237212566569, "conversionThresholdReached": false, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T17:03:55.675349+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T17:04:28.082971+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 25030, "expectedRestrictions": 40378, "conversionPercent": 88.79348393050596, "conversionThresholdReached": false, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T17:09:31.155414+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T17:10:03.204851+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 25680, "expectedRestrictions": 40378, "conversionPercent": 87.99515113596371, "conversionThresholdReached": false, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T17:15:06.276181+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T17:15:39.593214+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 26330, "expectedRestrictions": 40378, "conversionPercent": 88.08298058955879, "conversionThresholdReached": false, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T17:20:42.639778+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T17:21:16.704867+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 27340, "expectedRestrictions": 40378, "conversionPercent": 88.24718027848195, "conversionThresholdReached": false, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T17:26:19.790914+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T17:26:59.320149+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 28690, "expectedRestrictions": 40378, "conversionPercent": 88.60843689830212, "conversionThresholdReached": false, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T17:32:02.430617+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T17:32:38.271269+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 29990, "expectedRestrictions": 40378, "conversionPercent": 88.28690061612645, "conversionThresholdReached": false, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T17:37:41.375315+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T17:38:18.896925+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 31340, "expectedRestrictions": 40378, "conversionPercent": 90.32805792272698, "conversionThresholdReached": true, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T17:43:30.133908+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T17:44:09.163895+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 32690, "expectedRestrictions": 40378, "conversionPercent": 89.97973221962904, "conversionThresholdReached": false, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T17:49:20.373813+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T17:50:01.196162+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 34090, "expectedRestrictions": 40378, "conversionPercent": 91.01107054528325, "conversionThresholdReached": true, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T17:55:04.331274+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T17:55:45.781337+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 35440, "expectedRestrictions": 40378, "conversionPercent": 90.67316409791478, "conversionThresholdReached": true, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T18:00:48.894717+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T18:01:32.151808+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 36790, "expectedRestrictions": 40378, "conversionPercent": 90.50387596899225, "conversionThresholdReached": true, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T18:06:35.250103+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T18:07:21.283517+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 38140, "expectedRestrictions": 40378, "conversionPercent": 90.56231243089559, "conversionThresholdReached": true, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T18:12:24.391982+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T18:13:11.838552+00:00", "state": "waitingForMoreCaptures", "capturedRestrictions": 39490, "expectedRestrictions": 40378, "conversionPercent": 89.81848688224527, "conversionThresholdReached": false, "operationallyValidated": false, "activeCatalogueChanged": false}
+{"updatedAt": "2026-11-06T18:18:47.512583+00:00", "state": "buildingCandidate"}
+{"updatedAt": "2026-11-06T18:19:39.904906+00:00", "state": "extractionComplete", "capturedRestrictions": 40378, "expectedRestrictions": 40378, "conversionPercent": 90.56284805091488, "conversionThresholdReached": true, "operationallyValidated": false, "activeCatalogueChanged": false}

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "EDGGALL",
+    "positionPriority": []
+  },
+  {
+    "id": "EDGGBAD",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGBOT",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGDFAN",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGDFAS",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGDFDN",
+    "positionPriority": []
+  },
+  {
+    "id": "EDGGDFDS",
+    "positionPriority": []
+  },
+  {
+    "id": "EDGGDKB",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGDUS",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGEIF",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGGED",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGGIN",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGHAB",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGHEF",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGHMM",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGKAE",
+    "positionPriority": []
+  },
+  {
+    "id": "EDGGKAN",
+    "positionPriority": []
+  },
+  {
+    "id": "EDGGKAW",
+    "positionPriority": []
+  },
+  {
+    "id": "EDGGKIR",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGKNG",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGKTG",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGLBU",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGMAN",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGNKRH",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGNKRL",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGNOR",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGPADL",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGPFA",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGPSA",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGR205",
+    "positionPriority": []
+  },
+  {
+    "id": "EDGGREU",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGRUD",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGSIG",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGSTG",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  },
+  {
+    "id": "EDGGTAU",
+    "positionPriority": [
+      "EDGG_CTR"
+    ]
+  }
+]

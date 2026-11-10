@@ -1,0 +1,779 @@
+{
+  "volumes": [
+    {
+      "id": "UMMVCRI",
+      "label": "UMMVCRI",
+      "sectorIds": [
+        "UMMVS1",
+        "UMMVS2",
+        "UMMVS3",
+        "UMMVS4",
+        "UMMVS5",
+        "UMMVS6",
+        "UMMVS7",
+        "UMMVS8",
+        "UMMVS9"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:ebc1b076-7450-4995-b13e-addd225cc92a",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "E06FC46700690F00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cd5f7913-dba3-464e-838d-c3da5fbd41c1"
+            },
+            "locationId": "UMMVCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVCTA",
+      "label": "UMMVCTA",
+      "sectorIds": [
+        "UMMVS1",
+        "UMMVS2",
+        "UMMVS3",
+        "UMMVS4",
+        "UMMVS5",
+        "UMMVS6",
+        "UMMVS7",
+        "UMMVS8",
+        "UMMVS9"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:c878979e-d82b-4773-8d9b-a31113673be1",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1623888000000,
+            "end": 32503593600000
+          },
+          "stateId": "44EDAD600051000010ACFE78",
+          "name": "UMMV CTA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cd5f7913-dba3-464e-838d-c3da5fbd41c1"
+            },
+            "locationId": "UMMVCTA",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS1",
+      "label": "UMMVS1",
+      "sectorIds": [
+        "UMMVS1"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:89fe14b4-b9a5-48d4-a276-2652fdbafb57",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "B2E4DA4C000A01008698C65F",
+          "name": "SECTOR 1",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:065308fe-f7ad-4b85-a9fa-3300aee659be"
+            },
+            "locationId": "UMMVS1",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS125",
+      "label": "UMMVS125",
+      "sectorIds": [
+        "UMMVS1",
+        "UMMVS2",
+        "UMMVS5"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 22
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4f0ee056-4ede-49dd-aec6-d61c57e5b25b",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "0BEC8D4C002C0000EAC607F8",
+          "name": "SECTOR 1+2+5",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:77413c55-7345-4ed7-9f9e-66b3e88a377d"
+            },
+            "locationId": "UMMVS125",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 22
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS2",
+      "label": "UMMVS2",
+      "sectorIds": [
+        "UMMVS2"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:09a62607-e1a5-46b1-97fb-1bd209b5b4de",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "B2E4DA4C002401008698C65F",
+          "name": "SECTOR 2",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:754fea64-7438-45d5-97e4-e944fce32c87"
+            },
+            "locationId": "UMMVS2",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS25",
+      "label": "UMMVS25",
+      "sectorIds": [
+        "UMMVS2",
+        "UMMVS5"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 27
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2f9c3a4d-26b6-445c-b375-7efc766446fc",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "80ED8D4C002D0000EAC607F8",
+          "name": "SECTOR 2+5",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:97f874c0-1a1f-4bf8-9281-0617c41fe75c"
+            },
+            "locationId": "UMMVS25",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 27
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS257",
+      "label": "UMMVS257",
+      "sectorIds": [
+        "UMMVS2",
+        "UMMVS5",
+        "UMMVS7"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 27
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f01eb4d2-dcaf-4650-ad98-fb6b04a5aac6",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "7BEC8D4C00660000EAC607F8",
+          "name": "SECTOR 2+5+7",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:84b6a779-2c2a-44b2-8da7-2689bb99e78e"
+            },
+            "locationId": "UMMVS257",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 27
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS3",
+      "label": "UMMVS3",
+      "sectorIds": [
+        "UMMVS3"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 38
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f6c00471-ec60-4b35-ade0-1077069a2711",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "B2E4DA4C003E01008698C65F",
+          "name": "SECTOR 3",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:398f34cf-dea2-41d0-8dcc-4875b715cace"
+            },
+            "locationId": "UMMVS3",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 38
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS34",
+      "label": "UMMVS34",
+      "sectorIds": [
+        "UMMVS3",
+        "UMMVS4"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 26
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d6f7a928-aedf-4839-bb62-849bca0e8207",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "52EF8D4C00240000EAC607F8",
+          "name": "SECTOR 3+4",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ce2b573a-52e6-4cd0-92c6-df2c78e800f6"
+            },
+            "locationId": "UMMVS34",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 26
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS346",
+      "label": "UMMVS346",
+      "sectorIds": [
+        "UMMVS3",
+        "UMMVS4",
+        "UMMVS6"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 26
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:5522a303-af0e-41f5-8d3c-e7d7b07d981b",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "D1EC8D4C00710000EAC607F8",
+          "name": "SECTOR 3+4+6",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c0c60bef-2f7b-451b-8736-dc0bad428799"
+            },
+            "locationId": "UMMVS346",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 26
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS4",
+      "label": "UMMVS4",
+      "sectorIds": [
+        "UMMVS4"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 37
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:1540448c-fcd9-4a92-bf48-439ad460f248",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "B2E4DA4C005801008698C65F",
+          "name": "SECTOR 4",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7d46ab33-b318-4a89-babc-14caaffd9826"
+            },
+            "locationId": "UMMVS4",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 37
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS46",
+      "label": "UMMVS46",
+      "sectorIds": [
+        "UMMVS4",
+        "UMMVS6"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 26
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:25a92c54-4d21-4fa9-aa0f-e337fb1a22c4",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "9BCC8D4C001E0000EAC607F8",
+          "name": "SECTOR 4+6",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:bf6205c8-e907-4323-8ed4-f12ce932cb59"
+            },
+            "locationId": "UMMVS46",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 26
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS5",
+      "label": "UMMVS5",
+      "sectorIds": [
+        "UMMVS5"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6d8c8e2c-817c-4688-84fe-619739e4450e",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "B3E4DA4C001400008698C65F",
+          "name": "SECTOR 5",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ec981390-05fd-46c2-9ec2-71cd53a6eb53"
+            },
+            "locationId": "UMMVS5",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 45
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS57",
+      "label": "UMMVS57",
+      "sectorIds": [
+        "UMMVS5",
+        "UMMVS7"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 27
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:87832fe8-698e-4fe0-a7dc-b477c85406a2",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "2CEE8D4C00170000EAC607F8",
+          "name": "SECTOR 5+7",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f5ece999-1f61-4841-a583-25870052338c"
+            },
+            "locationId": "UMMVS57",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 27
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS6",
+      "label": "UMMVS6",
+      "sectorIds": [
+        "UMMVS6"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2176cd83-deb4-451b-a881-b72da79fc24c",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "B3E4DA4C002E00008698C65F",
+          "name": "SECTOR 6",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:66529871-b6d8-4cea-b214-5b1fd7354e29"
+            },
+            "locationId": "UMMVS6",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS7",
+      "label": "UMMVS7",
+      "sectorIds": [
+        "UMMVS7"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:7635d57a-ecde-4bb9-8de1-4916f78e476b",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1287619200000,
+            "end": 32503593600000
+          },
+          "stateId": "B4E4DA4C001600008698C65F",
+          "name": "SECTOR 7",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3450dc34-1970-4d77-af65-47718d12edb7"
+            },
+            "locationId": "UMMVS7",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS8",
+      "label": "UMMVS8",
+      "sectorIds": [
+        "UMMVS8"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e3e139ea-4b62-48ff-99cb-6e0396b92965",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1408579200000,
+            "end": 32503593600000
+          },
+          "stateId": "BC35DA530045030016873012",
+          "name": "SECTOR 8",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:66873665-801a-46ff-aac0-f26989ed4fda"
+            },
+            "locationId": "UMMVS8",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "UMMVS9",
+      "label": "UMMVS9",
+      "sectorIds": [
+        "UMMVS9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:5e5e4450-8f2a-40dc-ac1c-ef85136c0f85",
+        "groups": [
+          "ACCUMMV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1408579200000,
+            "end": 32503593600000
+          },
+          "stateId": "DC35DA53002C000016873012",
+          "name": "SECTOR 1",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9694a9c8-ef58-479c-82f7-372234ef40f4"
+            },
+            "locationId": "UMMVS9",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

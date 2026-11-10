@@ -1,0 +1,213 @@
+[
+  {
+    "id": "EGPX29G",
+    "positionPriority": [
+      "EGPX_M_CTR"
+    ]
+  },
+  {
+    "id": "EGPXANT",
+    "positionPriority": [
+      "EGPX_L2_CTR",
+      "EGPX_DX_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXBDS",
+    "positionPriority": [
+      "EGPX_BDS_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXBDSLKS",
+    "positionPriority": []
+  },
+  {
+    "id": "EGPXCNN",
+    "positionPriority": []
+  },
+  {
+    "id": "EGPXCNS",
+    "positionPriority": []
+  },
+  {
+    "id": "EGPXCNT",
+    "positionPriority": [
+      "EGPX_U2_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXCON",
+    "positionPriority": []
+  },
+  {
+    "id": "EGPXEE",
+    "positionPriority": [
+      "EGPX_M_CTR"
+    ]
+  },
+  {
+    "id": "EGPXGRP",
+    "positionPriority": [
+      "EGPX_GRP_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXGWN",
+    "positionPriority": [
+      "EGPX_L2_CTR",
+      "EGPX_DX_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXGWS",
+    "positionPriority": [
+      "EGPX_L2_CTR",
+      "EGPX_DX_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXHEB",
+    "positionPriority": [
+      "EGPX_U2_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXHLN",
+    "positionPriority": []
+  },
+  {
+    "id": "EGPXHUE",
+    "positionPriority": [
+      "EGPX_U1_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXHUW",
+    "positionPriority": [
+      "EGPX_U1_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXIOM",
+    "positionPriority": [
+      "EGPX_M_CTR"
+    ]
+  },
+  {
+    "id": "EGPXMHI",
+    "positionPriority": [
+      "EGPX_U1_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXMOL",
+    "positionPriority": [
+      "EGPX_U1_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXN",
+    "positionPriority": []
+  },
+  {
+    "id": "EGPXPEN",
+    "positionPriority": [
+      "EGPX_PEN_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXPHFIS",
+    "positionPriority": []
+  },
+  {
+    "id": "EGPXRAE",
+    "positionPriority": [
+      "EGPX_U2_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXRAL",
+    "positionPriority": []
+  },
+  {
+    "id": "EGPXRAW",
+    "positionPriority": []
+  },
+  {
+    "id": "EGPXSOL",
+    "positionPriority": [
+      "EGPX_DX_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXSTF",
+    "positionPriority": [
+      "EGPX_M_CTR"
+    ]
+  },
+  {
+    "id": "EGPXTAY",
+    "positionPriority": [
+      "EGPX_DX_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXTLN",
+    "positionPriority": [
+      "EGPX_L2_CTR",
+      "EGPX_DX_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXTLS",
+    "positionPriority": [
+      "EGPX_L2_CTR",
+      "EGPX_DX_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXTNT",
+    "positionPriority": [
+      "EGPX_M_CTR"
+    ]
+  },
+  {
+    "id": "EGPXTTMFIC",
+    "positionPriority": []
+  },
+  {
+    "id": "EGPXTYN",
+    "positionPriority": [
+      "EGPX_U1_CTR",
+      "EGPX_CTR"
+    ]
+  },
+  {
+    "id": "EGPXWAL",
+    "positionPriority": [
+      "EGPX_M_CTR"
+    ]
+  },
+  {
+    "id": "EGPXWES",
+    "positionPriority": []
+  }
+]

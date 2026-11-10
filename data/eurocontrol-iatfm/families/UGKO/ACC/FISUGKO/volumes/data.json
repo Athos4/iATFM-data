@@ -1,0 +1,57 @@
+{
+  "volumes": [
+    {
+      "id": "UGKOAPP",
+      "label": "UGKOAPP",
+      "sectorIds": [
+        "UGKOTC1",
+        "UGKOTC10",
+        "UGKOTC11",
+        "UGKOTC2",
+        "UGKOTC3",
+        "UGKOTC4",
+        "UGKOTC5",
+        "UGKOTC6",
+        "UGKOTC7",
+        "UGKOTC8",
+        "UGKOTC9"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ac5958aa-8d77-4739-8d95-11992de5f71a",
+        "groups": [
+          "FISUGKO"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1684368000000,
+            "end": 32503593600000
+          },
+          "stateId": "3FA93164003F060004D46200",
+          "name": "UGKO TMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f9e3d2b1-35d2-4061-8227-b1e95cb6d254"
+            },
+            "locationId": "UGKOTCALL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 12
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

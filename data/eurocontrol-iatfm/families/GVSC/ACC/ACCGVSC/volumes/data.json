@@ -1,0 +1,100 @@
+{
+  "volumes": [
+    {
+      "id": "GC741SB",
+      "label": "GC741SB",
+      "sectorIds": [
+        "GVSCALL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 15
+      },
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTROSTA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:88f1fe9d-f373-460a-97aa-82182ef9f9ac",
+        "groups": [
+          "ACCGVSC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1730332800000,
+            "end": 32503593600000
+          },
+          "stateId": "33390667004A0000E6FD8D31",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6d439a84-ef93-4cda-bcb6-8aeb671b24e0"
+            },
+            "locationId": "GVSCCTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:e52d1706-d81a-42d1-be26-33e74edbc57a"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 15
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "GVSCCRI",
+      "label": "GVSCCRI",
+      "sectorIds": [
+        "GVSCALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:6731d089-27a3-49ac-b0f2-426178edfd96",
+        "groups": [
+          "ACCGVSC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "DC4DC467009B0F00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:6d439a84-ef93-4cda-bcb6-8aeb671b24e0"
+            },
+            "locationId": "GVSCCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT ",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

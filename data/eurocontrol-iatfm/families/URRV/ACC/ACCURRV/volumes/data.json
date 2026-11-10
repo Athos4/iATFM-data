@@ -1,0 +1,38 @@
+{
+  "volumes": [
+    {
+      "id": "URRVCRI",
+      "label": "URRVCRI",
+      "sectorIds": [
+        "URRVALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:e5f909bd-e1d0-4b0b-b4a8-f10b88a2851a",
+        "groups": [
+          "ACCURRV"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "E86FC467007D0F00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:46be01b8-ec40-4e6b-a7cd-3de1a5206fa2"
+            },
+            "locationId": "URRVCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

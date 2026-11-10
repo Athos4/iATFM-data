@@ -1,0 +1,532 @@
+{
+  "volumes": [
+    {
+      "id": "FL1MEU",
+      "label": "FL1MEU",
+      "sectorIds": [
+        "LGMDKVLU",
+        "LGMDLMOU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECE6D3EC6FD5C81501381C"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:49f3b682-8a28-4593-bffc-4b196c572507",
+        "groups": [
+          "ACCLGMD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1529539200000,
+            "end": 32503593600000
+          },
+          "stateId": "AEAD065B00700100344DFB22",
+          "name": "/FROM: LGKO/MT/HI/SM/TS\nTO: ANY\nNOT ALLOWED VIA LGMDEU SECTOR REFILE BELOW FL365 \nTILL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3f20b2da-1fd7-4c65-bd3b-41010e2ac955"
+            },
+            "locationId": "LGMDEU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9b478668-8420-4403-8131-d0431d5c794c"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2MEU",
+      "label": "FL2MEU",
+      "sectorIds": [
+        "LGMDKVLU",
+        "LGMDLMOU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLGRPD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:4649a35c-15e9-4428-89ad-400e0b183a53",
+        "groups": [
+          "ACCLGMD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1529539200000,
+            "end": 32503593600000
+          },
+          "stateId": "72AA065B000C0000344DFB22",
+          "name": "/FROM: LGRP\nTO: ANY\nNOT ALLOWED VIA LGMDEU SECTOR REFILE BELOW FL365\nTILL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3f20b2da-1fd7-4c65-bd3b-41010e2ac955"
+            },
+            "locationId": "LGMDEU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f00ee786-f495-4f06-ba40-9e6ca4e365e3"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL4MEU",
+      "label": "FL4MEU",
+      "sectorIds": [
+        "LGMDKVLU",
+        "LGMDLMOU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECF268C4541194354BCB6D"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLTFJD"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:f8e64447-1fbd-47bf-afb8-550ffbe11d29",
+        "groups": [
+          "ACCLGMD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1681948800000,
+            "end": 32503593600000
+          },
+          "stateId": "82202C64002E020004D46200",
+          "name": "/FROM: LTBA/BJ/FM/LTFJ\nTO: ANY\nNOT ALLOWED VIA LGMDEU SECTOR\nREFILE BELOW FL365 TILL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3f20b2da-1fd7-4c65-bd3b-41010e2ac955"
+            },
+            "locationId": "LGMDEU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:7947a47f-90ae-4c11-9616-ce2748a1d4f9"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b4541518-bf94-49ca-8490-13e84f993fe8"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL4MEUM",
+      "label": "FL4MEUM",
+      "sectorIds": [
+        "LGMDKVL4M",
+        "LGMDKVL5M",
+        "LGMDKVLU",
+        "LGMDLMO4M",
+        "LGMDLMO5M",
+        "LGMDLMOU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC77853FCFC9B19B5D9524"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:18b671e2-2d4e-45e5-8ec9-0e1567145f6f",
+        "groups": [
+          "ACCLGMD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1684368000000,
+            "end": 32503593600000
+          },
+          "stateId": "76F73F64004A0100A144B91C",
+          "name": "/FROM LTBA/FJ/FM \nTO:ANY\nNOT ALLOWED VIA LGMDEMU SECTOR\nREFILE VIA LGMDEL SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:43cad53c-580c-46c4-9911-97af6b253286"
+            },
+            "locationId": "LGMDEMU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9a5bb12a-038a-4697-a0ae-0020a782c483"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL5MEU",
+      "label": "FL5MEU",
+      "sectorIds": [
+        "LGMDKVLU",
+        "LGMDLMOU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECAF8C688A024763BC3703"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:768d78ba-b300-42ac-bb74-ef69c4e14dc4",
+        "groups": [
+          "ACCLGMD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1628726400000,
+            "end": 32503593600000
+          },
+          "stateId": "386CF160007E0C0049239AB3",
+          "name": "/FROM: LG..\nTO: ANY\nNOT ALLOWED VIA LGMDEU SECTOR \nREFILE BELOW FL365 TILL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3f20b2da-1fd7-4c65-bd3b-41010e2ac955"
+            },
+            "locationId": "LGMDEU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:36178c0b-70fb-4495-92de-2d91e6a60a4e"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL6MEU",
+      "label": "FL6MEU",
+      "sectorIds": [
+        "LGMDKVLU",
+        "LGMDLMOU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZECDC10537625CBB2FBB8E5"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:2cce5bdb-9223-4810-b5e6-e83dd33f9a2b",
+        "groups": [
+          "ACCLGMD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1529539200000,
+            "end": 32503593600000
+          },
+          "stateId": "29AE065B00850100344DFB22",
+          "name": "/FROM: ANY\nTO: LGKO/MT/HI/SM \nNOT ALLOWED VIA LGMDEU SECTOR\nREFILE BELOW FL365 BY POINTS NIKTI, RUGAS, DISOR OR TSL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3f20b2da-1fd7-4c65-bd3b-41010e2ac955"
+            },
+            "locationId": "LGMDEU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:976bcedb-af29-4e45-b15a-81ede9925ae1"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL7MEU",
+      "label": "FL7MEU",
+      "sectorIds": [
+        "LGMDKVLU",
+        "LGMDLMOU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZECF268C4541194354BCB6D"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADLTFJA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:7f6066d2-74b2-41ca-92fb-9c2368a4c8d9",
+        "groups": [
+          "ACCLGMD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1681948800000,
+            "end": 32503593600000
+          },
+          "stateId": "93372C640038000004D46200",
+          "name": "/FROM: ANY\nTO: LTBA/LTBJ/LTFM/LTFJ\nNOT ALLOWED VIA LGMDEU SECTOR\nREFILE BELOW FL365 BY POINTS NIKTI, RUGAS, DISOR,PEREN, TSL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:3f20b2da-1fd7-4c65-bd3b-41010e2ac955"
+            },
+            "locationId": "LGMDEU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:53628fe7-3a24-4e76-9ae9-ed20b9e1e393"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a132968d-0ea5-406c-b3b0-09c188e39e84"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL7MEUM",
+      "label": "FL7MEUM",
+      "sectorIds": [
+        "LGMDKVL4M",
+        "LGMDKVL5M",
+        "LGMDKVLU",
+        "LGMDLMO4M",
+        "LGMDLMO5M",
+        "LGMDLMOU"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZEC77853FCFC9B19B5D9524"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:1add7c62-1faf-4c67-8492-6fcb3b43c16c",
+        "groups": [
+          "ACCLGMD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1684368000000,
+            "end": 32503593600000
+          },
+          "stateId": "76F73F64006E0100A144B91C",
+          "name": "/FROM ANY\nTO:LTBA/FJ/FM \nNOT ALLOWED VIA LGMDEMU SECTOR\nREFILE VIA LGMDEL SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:43cad53c-580c-46c4-9911-97af6b253286"
+            },
+            "locationId": "LGMDEMU",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:408b38eb-6b17-45f3-b96d-7b48a86873f3"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

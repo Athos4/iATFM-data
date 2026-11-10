@@ -1,0 +1,1471 @@
+{
+  "volumes": [
+    {
+      "id": "EGPBDS",
+      "label": "EGPBDS",
+      "sectorIds": [
+        "EGPXBDS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 23,
+            "sustained": 20,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:08d64524-11b5-40c7-a003-5b58325a02cd",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "14FC9B6A00280000BE1E59AA",
+          "name": "BORDERS SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:957d32e4-601d-4fbf-bf07-ecc713afce63"
+            },
+            "locationId": "EGPXBDS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 23,
+              "sustained": 20,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPBG",
+      "label": "EGPBG",
+      "sectorIds": [
+        "EGPXBDS",
+        "EGPXGRP"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4c105ef8-1234-4082-971c-a926913f1dc8",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "4D271B6A000700004819E207",
+          "name": "EGPXBDS + EGPXGRP",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a4a2b03d-acaa-4910-b195-43c1418032fd"
+            },
+            "locationId": "EGPXPBG",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "note": "BORDERS + GRAMPIAN",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPBGT",
+      "label": "EGPBGT",
+      "sectorIds": [
+        "EGPXBDS",
+        "EGPXGRP",
+        "EGPXTYN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:81b911d4-c565-4c25-8e87-e9d866cb5c08",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "EC5D1C6A00150000FE8A30B6",
+          "name": "EGPXBDS + EGPXGRP + EGPXTYN",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8dc9a588-792a-4a89-8402-8d3f7318f971"
+            },
+            "locationId": "EGPXPBGT",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "note": "BORDERS + GRAMPIAN + TYNE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPBGTH",
+      "label": "EGPBGTH",
+      "sectorIds": [
+        "EGPXBDS",
+        "EGPXGRP",
+        "EGPXHUE",
+        "EGPXHUW",
+        "EGPXTYN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0f7418a9-353e-460d-a95f-28c916711dce",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "7E5E1C6A000E0000FE8A30B6",
+          "name": "EGPXBDS + EGPXGRP + EGPXTYN + EGPXHUE + EGPXHUW",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:cf4c3505-f799-4023-ae18-f2a18a5f6074"
+            },
+            "locationId": "EGPXPBGTH",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "note": "BORDERS + GRAMPIAN + TYNE + HUM",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPBP",
+      "label": "EGPBP",
+      "sectorIds": [
+        "EGPXBDS",
+        "EGPXPEN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:9545ad2c-682a-4571-9be7-acd476ecec91",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "8B5E1C6A002D0000FE8A30B6",
+          "name": "EGPXBDS + EGPXPEN",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d12ed34f-2c4a-4de2-8bf5-289fbafacc91"
+            },
+            "locationId": "EGPXPBP",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "note": "BORDERS + PENNINE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPBS",
+      "label": "EGPBS",
+      "sectorIds": [
+        "EGPXBDS",
+        "EGPXSOL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 51
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:58cb2d95-f728-43fe-9faf-8c9ee3cd87ad",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "2D5F1C6A001F0000FE8A30B6",
+          "name": "EGPXBDS + EGPXSOL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d4986ca7-ad30-4611-94c5-0f64ed540a4f"
+            },
+            "locationId": "EGPXPBS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 51
+            }
+          ],
+          "note": "BORDERS + SOLWAY",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPBTGHW",
+      "label": "EGPBTGHW",
+      "sectorIds": [
+        "EGPXBDS",
+        "EGPXGRP",
+        "EGPXHUW",
+        "EGPXTYN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:e59a0103-ac91-413d-94d0-51b8d5991a45",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "77611C6A00310000FE8A30B6",
+          "name": "EGPXBDS + EGPXTYN + EGPXGRP + EGPXHUW",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7bb527c1-687e-44c4-be37-f8ba55e82623"
+            },
+            "locationId": "EGPXPBTGHW",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "note": "BORDERS + TYNE + GRAMPIAN + HUMW",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPBTHW",
+      "label": "EGPBTHW",
+      "sectorIds": [
+        "EGPXBDS",
+        "EGPXHUW",
+        "EGPXTYN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:12e1f9dc-41d0-4ad7-a4f2-a8e27cb5c2ff",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "B4601C6A00080000FE8A30B6",
+          "name": "EGPXBDS + EGPXTYN + EGPXHUW",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8edb9277-025d-43d3-9025-6b7c45ba5c47"
+            },
+            "locationId": "EGPXPBTHW",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "note": "BORDERS + TYNE + HUMW",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPENSOL",
+      "label": "EGPENSOL",
+      "sectorIds": [
+        "EGPXPEN",
+        "EGPXSOL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 19,
+            "sustained": 17,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0982f59c-aaaa-49c8-9063-45d8b1fdccd6",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "14FC9B6A00590000BE1E59AA",
+          "name": "SOLWAY + PENNINE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f235883c-a08e-4f62-a617-a504fc650236"
+            },
+            "locationId": "EGPXPENSOL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 19,
+              "sustained": 17,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPGRP",
+      "label": "EGPGRP",
+      "sectorIds": [
+        "EGPXGRP"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 55,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 32,
+            "sustained": 29,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4b6b339c-4af0-481b-8faa-351640ca8fe7",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "91F89B6A00CC0000BE1E59AA",
+          "name": "GRAMPIAN SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:061c9f0e-3566-45c4-a5aa-987a982cab0f"
+            },
+            "locationId": "EGPXGRP",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 55
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 32,
+              "sustained": 29,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPGRTHW",
+      "label": "EGPGRTHW",
+      "sectorIds": [
+        "EGPXGRP",
+        "EGPXHUW",
+        "EGPXTYN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 54,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 31,
+            "sustained": 28,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:44a4edcd-d272-4c25-95e2-c21688a3c48c",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "91F89B6A00390000BE1E59AA",
+          "name": "GRAMPIAN + TYNE + HUMBER WEST",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4d6bdc1e-d072-4f99-b6fc-8f16541aa190"
+            },
+            "locationId": "EGPXGRTHW",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 54
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 31,
+              "sustained": 28,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 1800
+        }
+      }
+    },
+    {
+      "id": "EGPGRTYN",
+      "label": "EGPGRTYN",
+      "sectorIds": [
+        "EGPXGRP",
+        "EGPXTYN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 54,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 31,
+            "sustained": 28,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:96a8a4b9-a57f-4571-ae59-c47dd2326248",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "91F89B6A006A0000BE1E59AA",
+          "name": "GRAMPIAN + TYNE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:df7702cd-76e8-4a68-a389-08940dd00bf5"
+            },
+            "locationId": "EGPXGRPTYN",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 54
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 31,
+              "sustained": 28,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPHUE",
+      "label": "EGPHUE",
+      "sectorIds": [
+        "EGPXHUE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 44,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 25,
+            "sustained": 22,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3d740151-1b07-4142-9deb-988620979232",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "91F89B6A00000000BE1E59AA",
+          "name": "HUMBER EAST",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f77a0994-a624-4543-8e3f-4c2f71dde629"
+            },
+            "locationId": "EGPXHUE",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 44
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 25,
+              "sustained": 22,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPPEN",
+      "label": "EGPPEN",
+      "sectorIds": [
+        "EGPXPEN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 32,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 10,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECEEA555B475DB5C04A508"
+            ],
+            [
+              "PTTRN"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASEGPXBDS"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:b565b6b9-a4af-4865-a9c6-1fe5fae3b930",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "14FC9B6A008A0000BE1E59AA",
+          "name": "PENNINE SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9ca20db0-ea0c-49a6-bd25-dbf565baee6c"
+            },
+            "locationId": "EGPXPEN",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:404001cf-6a77-4132-bff9-02c12f3b66ac"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 32
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 10,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 30,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPSOL",
+      "label": "EGPSOL",
+      "sectorIds": [
+        "EGPXSOL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 41,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 21,
+            "sustained": 19,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:556fcda5-c315-474d-8c0a-03176d87685f",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "15FC9B6A00250000BE1E59AA",
+          "name": "SOLWAY SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a534ac32-943a-4be6-8ccc-e72679f1c149"
+            },
+            "locationId": "EGPXSOL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 41
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 21,
+              "sustained": 19,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 30,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPTHB",
+      "label": "EGPTHB",
+      "sectorIds": [
+        "EGPXBDS",
+        "EGPXHUE",
+        "EGPXHUW",
+        "EGPXTYN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:c32ae122-282c-41e2-b845-4dbe404cc6b1",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1781136000000,
+            "end": 32503593600000
+          },
+          "stateId": "24601C6A002B0000FE8A30B6",
+          "name": "EGPXTYN + EGPXHUE + EGPXHUW + EGPXBDS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c70700d7-cf5f-4351-ae1c-4fbc235f2009"
+            },
+            "locationId": "EGPXPTHB",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "note": "TYNE + HUMBER + BORDERS",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPTYH",
+      "label": "EGPTYH",
+      "sectorIds": [
+        "EGPXHUE",
+        "EGPXHUW",
+        "EGPXTYN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 21,
+            "sustained": 19,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4587c899-d513-4f2e-a80e-f0ba35b94ee6",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "57FA546A00060000215440C5",
+          "name": "TYNE+HUMBER",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:73aa94eb-7a2f-43a5-8a06-0d940d2cd510"
+            },
+            "locationId": "EGPXTYH",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 21,
+              "sustained": 19,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPTYN",
+      "label": "EGPTYN",
+      "sectorIds": [
+        "EGPXTYN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 28,
+            "sustained": 25,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:347d7759-4e45-4b8a-ad67-6f4ce85e8687",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "67FA546A00290100215440C5",
+          "name": "TYNE SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:42b71b7a-0aac-4527-b967-c991af854833"
+            },
+            "locationId": "EGPXTYN",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 28,
+              "sustained": 25,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPTYNHW",
+      "label": "EGPTYNHW",
+      "sectorIds": [
+        "EGPXHUW",
+        "EGPXTYN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 46
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8fbbec29-05f3-46c6-b9ae-5ba4aa93ba70",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "91F89B6A00F50000BE1E59AA",
+          "name": "TYN + HUW",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1f093e3a-e031-4e5d-aa89-6498a4bcd885"
+            },
+            "locationId": "EGPXTYNHW",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 46
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPU2",
+      "label": "EGPU2",
+      "sectorIds": [
+        "EGPXGRP",
+        "EGPXHUE",
+        "EGPXHUW",
+        "EGPXTYN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 23,
+            "sustained": 20,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ff11fc5f-ceb9-4892-a99f-97e8a232bf03",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "90F89B6A00010000BE1E59AA",
+          "name": "GRP + TYN + HUM",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c377f81c-0dd2-4bb1-ab5f-b9b8760eefea"
+            },
+            "locationId": "EGPXU2",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 23,
+              "sustained": 20,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 1800
+        }
+      }
+    },
+    {
+      "id": "EGPU23",
+      "label": "EGPU23",
+      "sectorIds": [
+        "EGPXBDS",
+        "EGPXGRP",
+        "EGPXHUE",
+        "EGPXHUW",
+        "EGPXPEN",
+        "EGPXSOL",
+        "EGPXTYN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 18,
+            "sustained": 16,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:b91a28af-9cf4-4e65-b590-fc623695b629",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "E658A56A004D0000BE1E59AA",
+          "name": "GRAMPIAN + BORDERS + SOLWAY + PENNINE + TYNE + HUMBER E/W",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:54d340a9-83d3-40e1-a1ed-9ca9dd21c3a1"
+            },
+            "locationId": "EGPXU23",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 18,
+              "sustained": 16,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPU3",
+      "label": "EGPU3",
+      "sectorIds": [
+        "EGPXBDS",
+        "EGPXPEN",
+        "EGPXSOL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 18,
+            "sustained": 16,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:de3bb334-ebdb-4613-acfe-395a127e2229",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "86FB9B6A00FB0F00BE1E59AA",
+          "name": "SOLWAY + PENNINE + BORDERS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:66db4a7c-b2ea-41b2-ae03-0b6fb1267f64"
+            },
+            "locationId": "EGPXU3",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 18,
+              "sustained": 16,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPU3GRP",
+      "label": "EGPU3GRP",
+      "sectorIds": [
+        "EGPXBDS",
+        "EGPXGRP",
+        "EGPXPEN",
+        "EGPXSOL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-08-06T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 18,
+            "sustained": 16,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:868e8eee-f224-4eeb-8959-bb1b45ef4fb0",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXU23",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1785974400000,
+            "end": 32503593600000
+          },
+          "stateId": "9AFA546A00B70000215440C5",
+          "name": "SOLWAY + PENNINE + BORDERS + GRAMPIAN COMBINED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:37f51aad-22c0-465e-966f-14330da24db4"
+            },
+            "locationId": "EGPXU3GRP",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 40
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1785974400000,
+              "til": 32503593600000,
+              "peak": 18,
+              "sustained": 16,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

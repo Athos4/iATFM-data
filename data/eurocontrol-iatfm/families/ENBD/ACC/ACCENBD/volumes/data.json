@@ -1,0 +1,5721 @@
+{
+  "volumes": [
+    {
+      "id": "EN5L6HAO",
+      "label": "EN5L6HAO",
+      "sectorIds": [
+        "ENBD25",
+        "ENBD26",
+        "ENBDHA",
+        "ENBDL",
+        "ENOBOA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 11,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 7,
+            "sustained": 5,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENKRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENSSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENKRA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENTCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENTCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENANA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENAND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENTCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENAND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENEVA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENEVD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENANA"
+            ]
+          ]
+        }
+      ],
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUJD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUJA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:baee8e8e-91d6-4e5f-87c1-9762b12b9ba7",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "1D94966A00ED0100BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 25,\nLOFOTEN, 26, HAMMERFEST,\nAND OCEANIC FL085+",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:41700f69-bcab-4aa9-bae6-373aac8f7a8b"
+            },
+            "locationId": "ENBD5L6HAO",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:651ad52d-8dd7-4117-9fc4-d2bfff91448e"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6fd3e8c7-109d-4db2-ae64-2759a4dc94e1"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:11e9d7b4-ae5f-4e5d-96d9-0c453ba588f9"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3551c8d5-7261-44fd-bd62-d1fd07e73fcc"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3d8686fb-8775-49d4-8b26-ed9e42035b01"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a614177a-e6ef-425d-b865-4271f9374ad6"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c680300a-2e7d-4ec3-ab87-354e695b2625"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:63fc44e5-9969-4fee-bab1-c29af30ce953"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:52b08440-6ed3-482a-92c6-09876ef6b976"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4eaca66d-20c9-4573-8432-20c63a40f1fd"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f834b5af-be27-46f5-902a-f95f2ab97390"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 11
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 7,
+              "sustained": 5,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EN89347H",
+      "label": "EN89347H",
+      "sectorIds": [
+        "ENBD18",
+        "ENBD19",
+        "ENBD23",
+        "ENBD24",
+        "ENBD27",
+        "ENBDH"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 26,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 17,
+            "sustained": 14,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECCDA51B0550416BCEB961"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENKBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENKBD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECCDA51B0550416BCEB961"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENNEA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENNED"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUNA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:5efe6873-2ef6-442a-bec7-279682f1b77d",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "1C94966A00E40000BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 18, 19, 23, 24, 27 AND HELGELAND",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:700c2cd2-0588-45bd-b36d-f380e852ed54"
+            },
+            "locationId": "ENBD89347H",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:47c9ec0b-c60d-4b80-9d47-e9ccff2af49a"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1a2a9920-eec3-411e-8a6c-743400cd39dd"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3111fd28-359f-463a-84b4-1cd9aab519d6"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d872ff10-c46b-4830-a22d-9242f073de7a"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6341f4ba-a507-47e1-a35f-2201491e3e01"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:fcb29c06-f899-4ddd-9894-e16e7560d9b6"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:087c44d3-11b4-40e2-a3bf-cb4a985b77e9"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6b220426-0ac8-4eaf-9393-94ed3afb7f25"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 18000000,
+              "validityPeriod": {
+                "start": 1790812800000,
+                "end": 32503593600000
+              }
+            },
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 72000000,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1790812800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 26
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 17,
+              "sustained": 14,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENAL",
+      "label": "ENAL",
+      "arrival": [
+        "ENAL"
+      ],
+      "departure": [
+        "ENAL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:9a0ba7fe-5e8d-4b90-9e5c-094741965cd5",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1602115200000,
+            "end": 32503593600000
+          },
+          "stateId": "18DF695F00260100ACC98933",
+          "name": "ARR/DEP ENAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:141da869-282e-49a7-b4b4-c007d18b2f39"
+            },
+            "locationId": "ENAL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 12
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENALARR",
+      "label": "ENALARR",
+      "arrival": [
+        "ENAL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:587b13dc-8e03-4163-a319-38910f2c6081",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1602115200000,
+            "end": 32503593600000
+          },
+          "stateId": "6BE1695F003B0100ACC98933",
+          "name": "ENAL ARRIVAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ecb6a383-6931-4b51-84e4-f6b109fa1ed1"
+            },
+            "locationId": "ENAL",
+            "category": "ARRIVAL"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENALDEP",
+      "label": "ENALDEP",
+      "departure": [
+        "ENAL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:efe95296-dee9-4a65-8997-dded3fd40eab",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1602115200000,
+            "end": 32503593600000
+          },
+          "stateId": "6CE1695F00040000ACC98933",
+          "name": "ENAL DEPARTURES",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f81b0d75-01b3-45e6-9d4f-cefc87a7daf6"
+            },
+            "locationId": "ENAL",
+            "category": "DEPARTURE"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENALMLOV",
+      "label": "ENALMLOV",
+      "arrival": [
+        "ENAL",
+        "ENML",
+        "ENOV"
+      ],
+      "departure": [
+        "ENAL",
+        "ENML",
+        "ENOV"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:ad1a03ce-1b67-4cd8-8654-e5ee4f0cc3e5",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "45F6025A008A0100A8B42685",
+          "name": "ALL ENAL/ENML/ENOV TRAFFIC",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:06c5d817-b28e-42b4-8aaa-e6a3f838ee47"
+            },
+            "locationId": "ENALMLOV",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 0
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENAT",
+      "label": "ENAT",
+      "arrival": [
+        "ENAT"
+      ],
+      "departure": [
+        "ENAT"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:ab3ce0dd-6589-42b6-bc8a-7460b7288c54",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "13EE025A00890100A8B42685",
+          "name": "ARR/DEP ENAT",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d32cb2af-93fe-4f9a-8eda-8cd56e7f3fba"
+            },
+            "locationId": "ENAT",
+            "category": "GLOBAL"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENATARR",
+      "label": "ENATARR",
+      "arrival": [
+        "ENAT"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:cea5d35f-6f69-4e73-a5bd-abcea6ea252a",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "D3ED025A00A10100A8B42685",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:373bcbee-273a-41e9-8f4c-58c16b77a02c"
+            },
+            "locationId": "ENAT",
+            "category": "ARRIVAL"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB3",
+      "label": "ENB3",
+      "sectorIds": [
+        "ENBD23"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 14,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 8,
+            "sustained": 6,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:dd4bb1ca-c72d-4ec6-bc8a-317142a03f09",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "9690966A00030000BE1E59AA",
+          "name": "ENDB SECTOR 23 (OFFSHORE)",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0ffa4f3f-8560-494f-8a32-0472e80fe1c8"
+            },
+            "locationId": "ENBD23",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 14
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 8,
+              "sustained": 6,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB347",
+      "label": "ENB347",
+      "sectorIds": [
+        "ENBD23",
+        "ENBD24",
+        "ENBD27"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:690750ca-0c72-4401-9ce4-a2c0c3a9fb1b",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "C291966A00CE0000BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 23, 24, 27",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0d5921c0-1acc-407c-af8c-4345951a9ac8"
+            },
+            "locationId": "ENBD347",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB347H",
+      "label": "ENB347H",
+      "sectorIds": [
+        "ENBD23",
+        "ENBD24",
+        "ENBD27",
+        "ENBDH"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 28,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 18,
+            "sustained": 15,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:90a1bdde-9e35-4d98-af0f-201c4e4f7f6f",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "C291966A00FA0000BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 23, 24, 27 AND HELGELAND",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1eaf4b20-50cb-4536-8c5b-f13403b686f4"
+            },
+            "locationId": "ENBD347H",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1790812800000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 28
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 18,
+              "sustained": 15,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB34H",
+      "label": "ENB34H",
+      "sectorIds": [
+        "ENBD23",
+        "ENBD24",
+        "ENBDH"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECCDA51B0550416BCEB961"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENKBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENKBD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECCDA51B0550416BCEB961"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENNEA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENNED"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:c94b8dea-4b35-47b8-abe2-22ab0ef60d5e",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "C191966A000F0000BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 23 , 24 AND HELGELAND",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e85ec995-2cea-496a-915d-3afc1e7f0736"
+            },
+            "locationId": "ENBD34H",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:47c9ec0b-c60d-4b80-9d47-e9ccff2af49a"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1a2a9920-eec3-411e-8a6c-743400cd39dd"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3111fd28-359f-463a-84b4-1cd9aab519d6"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d872ff10-c46b-4830-a22d-9242f073de7a"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6341f4ba-a507-47e1-a35f-2201491e3e01"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:fcb29c06-f899-4ddd-9894-e16e7560d9b6"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6b220426-0ac8-4eaf-9393-94ed3afb7f25"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:087c44d3-11b4-40e2-a3bf-cb4a985b77e9"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB37",
+      "label": "ENB37",
+      "sectorIds": [
+        "ENBD23",
+        "ENBD27"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:d545eeca-b2c0-4b85-978a-3eb749ed4e30",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "C291966A00100000BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 23 AND 27",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c6843953-8c14-4c89-a60c-3b607c9e5230"
+            },
+            "locationId": "ENBD37",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB3H",
+      "label": "ENB3H",
+      "sectorIds": [
+        "ENBD23",
+        "ENBDH"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 15,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 8,
+            "sustained": 6,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECCDA51B0550416BCEB961"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENKBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENKBD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECCDA51B0550416BCEB961"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENNEA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENNED"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:8733a9cb-c33b-4e0b-bc9d-ce0ed62a21c8",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "9690966A003E0000BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 23 AND HELGELAND",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8a1ec01d-7cd4-4f81-bd96-fbdf7512f5a8"
+            },
+            "locationId": "ENBD3H",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:47c9ec0b-c60d-4b80-9d47-e9ccff2af49a"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1a2a9920-eec3-411e-8a6c-743400cd39dd"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3111fd28-359f-463a-84b4-1cd9aab519d6"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d872ff10-c46b-4830-a22d-9242f073de7a"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6341f4ba-a507-47e1-a35f-2201491e3e01"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:fcb29c06-f899-4ddd-9894-e16e7560d9b6"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6b220426-0ac8-4eaf-9393-94ed3afb7f25"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:087c44d3-11b4-40e2-a3bf-cb4a985b77e9"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 15
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 8,
+              "sustained": 6,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB4",
+      "label": "ENB4",
+      "sectorIds": [
+        "ENBD24"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 24,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 8,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:9815e518-96f0-4da4-acf2-f6b0c725a843",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "9690966A00670000BE1E59AA",
+          "name": "ENDB SECTOR24",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d11685d3-9a78-41e2-aed3-5a3a016b58ab"
+            },
+            "locationId": "ENBD24",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 24
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 8,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB47",
+      "label": "ENB47",
+      "sectorIds": [
+        "ENBD24",
+        "ENBD27"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 28,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 11,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:989ebc56-7945-473d-8491-d51ee2b16ee2",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "C291966A00450000BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 24 AND 27",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1d7c4c27-7869-4f57-b1b1-6015f8ec9645"
+            },
+            "locationId": "ENBD47",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 28
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 11,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB47H",
+      "label": "ENB47H",
+      "sectorIds": [
+        "ENBD24",
+        "ENBD27",
+        "ENBDH"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:dd959b68-9c0d-4a2d-870b-879e1a8fc72b",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "C291966A00720000BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 24 AND 27",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:aee7662e-e34f-499b-8255-c2dd70298e84"
+            },
+            "locationId": "ENBD47H",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB4H",
+      "label": "ENB4H",
+      "sectorIds": [
+        "ENBD24",
+        "ENBDH"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 20,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 11,
+            "sustained": 7,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:2a37d4df-90b3-45c0-b5d3-b5cdb6af57a7",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "9690966A009C0000BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 24 + HELGELAND",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:79838438-64b3-4e35-a707-1efd4b93c5f5"
+            },
+            "locationId": "ENBD4H",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 20
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 11,
+              "sustained": 7,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB5",
+      "label": "ENB5",
+      "sectorIds": [
+        "ENBD25"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENAND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENEVA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENAND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENTCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENEVD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENANA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENTCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENANA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:8f8450b0-1cb3-4bcf-b377-9f7e2a3d8275",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "9690966A00C50000BE1E59AA",
+          "name": "ENDB SECTOR 25",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:20509aef-49c8-431f-b5d3-e2e5066ff198"
+            },
+            "locationId": "ENBD25",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a614177a-e6ef-425d-b865-4271f9374ad6"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3d8686fb-8775-49d4-8b26-ed9e42035b01"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c680300a-2e7d-4ec3-ab87-354e695b2625"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3551c8d5-7261-44fd-bd62-d1fd07e73fcc"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB5L",
+      "label": "ENB5L",
+      "sectorIds": [
+        "ENBD25",
+        "ENBDL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 17,
+            "sustained": 13,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENAND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENEVA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENAND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENTCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENEVD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENANA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENTCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENANA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:0946efc2-ad7f-4028-9781-c75d1e243a87",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "9790966A00000000BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 25 AND LOFOTEN",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fbae7e2c-374d-4fa4-b173-89e86bd247d0"
+            },
+            "locationId": "ENBD5L",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a614177a-e6ef-425d-b865-4271f9374ad6"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3d8686fb-8775-49d4-8b26-ed9e42035b01"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c680300a-2e7d-4ec3-ab87-354e695b2625"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3551c8d5-7261-44fd-bd62-d1fd07e73fcc"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 17,
+              "sustained": 13,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB5L6HA",
+      "label": "ENB5L6HA",
+      "sectorIds": [
+        "ENBD25",
+        "ENBD26",
+        "ENBDHA",
+        "ENBDL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 12,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENKRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENSSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENKRA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENTCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENTCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENANA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENAND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENTCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENAND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENEVA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENEVD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENANA"
+            ]
+          ]
+        }
+      ],
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUJD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUJA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:b33dba93-f7c3-4dcf-b20a-11cd49e938d8",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "7C93966A00240000BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 25,LOFOTEN, 26 AND HAMMERFEST",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b642e976-c2d8-4b4c-9070-ae125670cb44"
+            },
+            "locationId": "ENBD5L6HA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:651ad52d-8dd7-4117-9fc4-d2bfff91448e"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6fd3e8c7-109d-4db2-ae64-2759a4dc94e1"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:11e9d7b4-ae5f-4e5d-96d9-0c453ba588f9"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3551c8d5-7261-44fd-bd62-d1fd07e73fcc"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3d8686fb-8775-49d4-8b26-ed9e42035b01"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a614177a-e6ef-425d-b865-4271f9374ad6"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c680300a-2e7d-4ec3-ab87-354e695b2625"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:63fc44e5-9969-4fee-bab1-c29af30ce953"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:52b08440-6ed3-482a-92c6-09876ef6b976"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4eaca66d-20c9-4573-8432-20c63a40f1fd"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f834b5af-be27-46f5-902a-f95f2ab97390"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 12,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB6",
+      "label": "ENB6",
+      "sectorIds": [
+        "ENBD26"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENTCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENKRA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENKRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENSSA"
+            ]
+          ]
+        }
+      ],
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUJD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUJA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:ff833e54-7efb-4629-a1f8-65201306713a",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "9790966A00320000BE1E59AA",
+          "name": "ENBD SECTOR 26 ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4f8b5d97-0599-4c85-977b-e0c5c2194718"
+            },
+            "locationId": "ENBD26",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:11e9d7b4-ae5f-4e5d-96d9-0c453ba588f9"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6fd3e8c7-109d-4db2-ae64-2759a4dc94e1"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:651ad52d-8dd7-4117-9fc4-d2bfff91448e"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:63fc44e5-9969-4fee-bab1-c29af30ce953"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:52b08440-6ed3-482a-92c6-09876ef6b976"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4eaca66d-20c9-4573-8432-20c63a40f1fd"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f834b5af-be27-46f5-902a-f95f2ab97390"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB6HA",
+      "label": "ENB6HA",
+      "sectorIds": [
+        "ENBD26",
+        "ENBDHA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 15,
+            "sustained": 12,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENTCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENKRA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENKRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENSSA"
+            ]
+          ]
+        }
+      ],
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUJD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUJA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:5bc72514-8e88-4f67-8d15-45b2d663c891",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "9790966A006E0000BE1E59AA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:54c6fa3e-cd1a-4534-ad3c-2808061805b4"
+            },
+            "locationId": "ENBD6HA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:11e9d7b4-ae5f-4e5d-96d9-0c453ba588f9"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6fd3e8c7-109d-4db2-ae64-2759a4dc94e1"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:651ad52d-8dd7-4117-9fc4-d2bfff91448e"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:63fc44e5-9969-4fee-bab1-c29af30ce953"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:52b08440-6ed3-482a-92c6-09876ef6b976"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4eaca66d-20c9-4573-8432-20c63a40f1fd"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f834b5af-be27-46f5-902a-f95f2ab97390"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 15,
+              "sustained": 12,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB6HAO",
+      "label": "ENB6HAO",
+      "sectorIds": [
+        "ENBD26",
+        "ENBDHA",
+        "ENOBOA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 12,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 8,
+            "sustained": 6,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENTCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENKRA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENKRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENSSA"
+            ]
+          ]
+        }
+      ],
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUJD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUJA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:ddf8fa24-f6a6-4206-892e-eb49335b678c",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "1D94966A00B80100BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 26,\nHAMMERFEST AND OCEANIC \nFL085+",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:36ce174b-f548-48ee-b811-7bc06297786a"
+            },
+            "locationId": "ENBD6HAO",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:11e9d7b4-ae5f-4e5d-96d9-0c453ba588f9"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6fd3e8c7-109d-4db2-ae64-2759a4dc94e1"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:651ad52d-8dd7-4117-9fc4-d2bfff91448e"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:63fc44e5-9969-4fee-bab1-c29af30ce953"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:52b08440-6ed3-482a-92c6-09876ef6b976"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4eaca66d-20c9-4573-8432-20c63a40f1fd"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f834b5af-be27-46f5-902a-f95f2ab97390"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 12
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 8,
+              "sustained": 6,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB7",
+      "label": "ENB7",
+      "sectorIds": [
+        "ENBD27"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:bf5af842-cb9a-47d7-a429-e198f2b2bebf",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "9790966A00970000BE1E59AA",
+          "name": "ENBD SECTOR 27",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:414c24dc-a080-4592-a050-f6bb5314143d"
+            },
+            "locationId": "ENBD27",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB8",
+      "label": "ENB8",
+      "sectorIds": [
+        "ENBD18"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 14,
+            "sustained": 8,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:95fc4d2a-b2f2-4c8a-a9f8-b4cc38aa0aa1",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "9790966A00C00000BE1E59AA",
+          "name": "ENBD SECTOR 18",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c16671ae-0589-4e53-98b5-7fb868403276"
+            },
+            "locationId": "ENBD18",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "category": "MO",
+          "note": "\n",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 14,
+              "sustained": 8,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB89",
+      "label": "ENB89",
+      "sectorIds": [
+        "ENBD18",
+        "ENBD19"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 18,
+            "sustained": 13,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:8c799442-e95e-4998-a9b0-50bc0aaccaa2",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "C291966A00A50000BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 18 AND 19",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c9f739e5-f724-4083-b90e-d261ea5be01a"
+            },
+            "locationId": "ENBD89",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 18,
+              "sustained": 13,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENB9",
+      "label": "ENB9",
+      "sectorIds": [
+        "ENBD19"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 10,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:ac315562-9b04-40bf-aae9-7431c95749d7",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "9790966A00E90000BE1E59AA",
+          "name": "ENBD SECTOR 19",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:392cee97-a5a3-4ad8-8b22-74e75b0ccd7e"
+            },
+            "locationId": "ENBD19",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 25
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 10,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENBALL",
+      "label": "ENBALL",
+      "sectorIds": [
+        "ENBD18",
+        "ENBD19",
+        "ENBD23",
+        "ENBD24",
+        "ENBD25",
+        "ENBD26",
+        "ENBD27",
+        "ENBDH",
+        "ENBDHA",
+        "ENBDL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 12,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 8,
+            "sustained": 6,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENKRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENSSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENKRA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENTCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENTCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENANA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENAND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENTCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENAND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENEVA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENEVD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENANA"
+            ]
+          ]
+        }
+      ],
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECCDA51B0550416BCEB961"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENKBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENKBD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECCDA51B0550416BCEB961"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENNEA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENNED"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUJD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUJA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUGA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:3303c76c-bebb-48fb-90b7-4f4e658af83c",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "1C94966A00220000BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 18,\n19,23,24,27,HELGELAND,25,\nLOFOTEN,26 AND HAMMERFEST",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:0955a9d7-7a8f-429d-850f-782a251fb52c"
+            },
+            "locationId": "ENBDALL",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:651ad52d-8dd7-4117-9fc4-d2bfff91448e"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6fd3e8c7-109d-4db2-ae64-2759a4dc94e1"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:11e9d7b4-ae5f-4e5d-96d9-0c453ba588f9"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3551c8d5-7261-44fd-bd62-d1fd07e73fcc"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3d8686fb-8775-49d4-8b26-ed9e42035b01"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a614177a-e6ef-425d-b865-4271f9374ad6"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c680300a-2e7d-4ec3-ab87-354e695b2625"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:47c9ec0b-c60d-4b80-9d47-e9ccff2af49a"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1a2a9920-eec3-411e-8a6c-743400cd39dd"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3111fd28-359f-463a-84b4-1cd9aab519d6"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d872ff10-c46b-4830-a22d-9242f073de7a"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6341f4ba-a507-47e1-a35f-2201491e3e01"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:fcb29c06-f899-4ddd-9894-e16e7560d9b6"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:087c44d3-11b4-40e2-a3bf-cb4a985b77e9"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6b220426-0ac8-4eaf-9393-94ed3afb7f25"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:63fc44e5-9969-4fee-bab1-c29af30ce953"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:52b08440-6ed3-482a-92c6-09876ef6b976"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f834b5af-be27-46f5-902a-f95f2ab97390"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4eaca66d-20c9-4573-8432-20c63a40f1fd"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 12
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 8,
+              "sustained": 6,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENBALLO",
+      "label": "ENBALLO",
+      "sectorIds": [
+        "ENBD18",
+        "ENBD19",
+        "ENBD23",
+        "ENBD24",
+        "ENBD25",
+        "ENBD26",
+        "ENBD27",
+        "ENBDH",
+        "ENBDHA",
+        "ENBDL",
+        "ENOBOA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 6,
+            "sustained": 4,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENKRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENSSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENKRA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENSRD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENTCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENTCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENANA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENAND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENTCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENAND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENEVA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENEVD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENANA"
+            ]
+          ]
+        }
+      ],
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECCDA51B0550416BCEB961"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENKBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENKBD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECCDA51B0550416BCEB961"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENNEA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENNED"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENBNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENBND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUNA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUJD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUJA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUGA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:fa355f64-dd33-4c4f-91f1-325ede31d751",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "1D94966A00200200BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR 18,\n19,23,24,27,HELGELAND,25,\nLOFOTEN,26 HAMMERFEST\nAND OCEANIC 085+",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:23a1a87e-5f3c-4c36-b1b0-aec006e2036b"
+            },
+            "locationId": "ENBDALLO",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:651ad52d-8dd7-4117-9fc4-d2bfff91448e"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6fd3e8c7-109d-4db2-ae64-2759a4dc94e1"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:11e9d7b4-ae5f-4e5d-96d9-0c453ba588f9"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3551c8d5-7261-44fd-bd62-d1fd07e73fcc"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3d8686fb-8775-49d4-8b26-ed9e42035b01"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a614177a-e6ef-425d-b865-4271f9374ad6"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c680300a-2e7d-4ec3-ab87-354e695b2625"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:47c9ec0b-c60d-4b80-9d47-e9ccff2af49a"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1a2a9920-eec3-411e-8a6c-743400cd39dd"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:3111fd28-359f-463a-84b4-1cd9aab519d6"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d872ff10-c46b-4830-a22d-9242f073de7a"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6341f4ba-a507-47e1-a35f-2201491e3e01"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:fcb29c06-f899-4ddd-9894-e16e7560d9b6"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:087c44d3-11b4-40e2-a3bf-cb4a985b77e9"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6b220426-0ac8-4eaf-9393-94ed3afb7f25"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:63fc44e5-9969-4fee-bab1-c29af30ce953"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:52b08440-6ed3-482a-92c6-09876ef6b976"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f834b5af-be27-46f5-902a-f95f2ab97390"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4eaca66d-20c9-4573-8432-20c63a40f1fd"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 6,
+              "sustained": 4,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENBDH",
+      "label": "ENBDH",
+      "sectorIds": [
+        "ENBDH"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 15,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 8,
+            "sustained": 6,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:dad29b52-e5d9-4f13-b6bf-f2c369486fa6",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "1C94966A004B0000BE1E59AA",
+          "name": "ENBD SECTOR HELGELAND  ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a7adf78b-c9d7-4754-bf04-c6450dbef84b"
+            },
+            "locationId": "ENBDH",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 15
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 8,
+              "sustained": 6,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENBDHA",
+      "label": "ENBDHA",
+      "sectorIds": [
+        "ENBDHA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 14,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 7,
+            "sustained": 5,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEm": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUJD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUJA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENHFD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENUGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADENUGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADENHFA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:d6da8bdb-3827-4bb6-a8b4-61b1461e75c8",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "1C94966A007D0000BE1E59AA",
+          "name": "ENBD SECTOR HAMMERFEST",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:5a67c606-0f1a-4f5e-99d0-c3a8d72c3381"
+            },
+            "locationId": "ENBDHA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:63fc44e5-9969-4fee-bab1-c29af30ce953"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:52b08440-6ed3-482a-92c6-09876ef6b976"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4eaca66d-20c9-4573-8432-20c63a40f1fd"
+                }
+              },
+              "flowRole": "EM"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f834b5af-be27-46f5-902a-f95f2ab97390"
+                }
+              },
+              "flowRole": "EM"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 14
+            }
+          ],
+          "category": "MO",
+          "note": "\n",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 7,
+              "sustained": 5,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENBDL",
+      "label": "ENBDL",
+      "sectorIds": [
+        "ENBDL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 15,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 8,
+            "sustained": 6,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:1f841c5e-5a26-40ce-8aea-bce99799696b",
+        "groups": [
+          "ACCENBD",
+          "ACCENOS",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "1C94966A00A60000BE1E59AA",
+          "name": "ENBD SECTOR LOFOTEN",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:94405766-6e2a-46b1-bee0-118a27ca535f"
+            },
+            "locationId": "ENBDL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 15
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 8,
+              "sustained": 6,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENBDO085",
+      "label": "ENBDO085",
+      "sectorIds": [
+        "ENBDON",
+        "ENBDOS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 4,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 18,
+            "sustained": 13,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:bd65089e-a88a-474f-b3c4-aa28cd6833f0",
+        "groups": [
+          "ACCENBD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "1D94966A00850100BE1E59AA",
+          "name": "ENBD COLLAPSED SECTOR \nOCEANIC NORTH AND SOUTH\nFL085+",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:80e318b3-704b-4f8e-aa62-5644ac671121"
+            },
+            "locationId": "ENBDO085",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 30
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 4,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 18,
+              "sustained": 13,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENBDON",
+      "label": "ENBDON",
+      "sectorIds": [
+        "ENBDON"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 20,
+        "otmv": [
+          {
+            "durationMinutes": 10,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 12,
+            "sustained": 8,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:f27c1ab6-2bab-4d0c-8616-72fc8dcb1c2a",
+        "groups": [
+          "ACCENBD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "1D94966A00300100BE1E59AA",
+          "name": "ENBD SECTOR OCEANIC NORTH FL085+",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:28661135-9587-4325-898e-a758a6621192"
+            },
+            "locationId": "ENBDON",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 20
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 10,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 12,
+              "sustained": 8,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENBDOS",
+      "label": "ENBDOS",
+      "sectorIds": [
+        "ENBDOS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 28,
+        "otmv": [
+          {
+            "durationMinutes": 10,
+            "startUtc": "2026-10-01T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 16,
+            "sustained": 12,
+            "sustainedOccurrence": 10,
+            "sustainedElapsed": 30
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:37dba0d6-9e17-422f-84cd-72b1ead57b25",
+        "groups": [
+          "ACCENBD"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1790812800000,
+            "end": 32503593600000
+          },
+          "stateId": "1D94966A005B0100BE1E59AA",
+          "name": "ENBD SECTOR OCEANIC SOUTH FL085+",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a97d846c-32d2-4933-839f-79639909cef9"
+            },
+            "locationId": "ENBDOS",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 28
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 10,
+              "wef": 1790812800000,
+              "til": 32503593600000,
+              "peak": 16,
+              "sustained": 12,
+              "sustainedOccurrence": 10,
+              "sustainedElapsed": 30
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENBO",
+      "label": "ENBO",
+      "arrival": [
+        "ENBO"
+      ],
+      "departure": [
+        "ENBO"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:fc801f4c-855f-4106-bb22-7c05205760fe",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "F3ED025A008E0100A8B42685",
+          "name": "ARR/DEP ENBO",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:879260e4-34ac-4a82-ae96-09cb278ac312"
+            },
+            "locationId": "ENBO",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENBOARR",
+      "label": "ENBOARR",
+      "arrival": [
+        "ENBO"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:3c76b22a-2bf6-4c84-8d25-3b01968407c0",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "8DF6025A00840100A8B42685",
+          "name": "ENBO ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:81bd18f8-7bbe-4ae5-b009-707e533d280c"
+            },
+            "locationId": "ENBO",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 12
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENDUTMA",
+      "label": "ENDUTMA",
+      "sectorIds": [
+        "ENDUTA"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:a3ec9aee-a8b9-48d1-82db-de0c470f23a4",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1725494400000,
+            "end": 32503593600000
+          },
+          "stateId": "C9A4AC6600930000A240578B",
+          "name": "ENDUTMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:7e1fe462-520c-416c-800a-d854c8c511a3"
+            },
+            "locationId": "ENDUTMA",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENEV",
+      "label": "ENEV",
+      "arrival": [
+        "ENEV"
+      ],
+      "departure": [
+        "ENEV"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:fb32bbe9-ad20-456d-a7e6-69c961802a53",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "23EE025A00810100A8B42685",
+          "name": "ARR/DEP ENEV",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:33b4a891-5a2f-420b-b843-ea47a34c842e"
+            },
+            "locationId": "ENEV",
+            "category": "GLOBAL"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENEVARR",
+      "label": "ENEVARR",
+      "arrival": [
+        "ENEV"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:0781c794-5c69-4185-9c64-956c6093f1f4",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "32EE025A00CC1100A8B42685",
+          "name": "ARR ENEV",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:417366bf-0b35-42b5-8043-4f6cae12ecda"
+            },
+            "locationId": "ENEV",
+            "category": "ARRIVAL"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENKB",
+      "label": "ENKB",
+      "arrival": [
+        "ENKB"
+      ],
+      "departure": [
+        "ENKB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 12
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:cfb7249c-7135-43c3-8171-e7368b646205",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "A2ED025A00900100A8B42685",
+          "name": "ENKB GLOBAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c267d53b-fb9f-443f-aafe-6e08a5a8ccd5"
+            },
+            "locationId": "ENKB",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 12
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENKBARR",
+      "label": "ENKBARR",
+      "arrival": [
+        "ENKB"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:cad61d68-800e-40db-b469-ee615237570d",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "B9ED025A009E0100A8B42685",
+          "name": "ENKB ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d5b3a87c-556e-4c11-a9a3-c8d8b20713ae"
+            },
+            "locationId": "ENKB",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 8
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENML",
+      "label": "ENML",
+      "arrival": [
+        "ENML"
+      ],
+      "departure": [
+        "ENML"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:b41aa3ce-268d-42d5-b22e-e7d0dd61c182",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "69EE025A009F0100A8B42685",
+          "name": "ARR/DEP ENML",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:47fac774-7d85-47f1-90a6-b4bdb05b2deb"
+            },
+            "locationId": "ENML",
+            "category": "GLOBAL"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENMLARR",
+      "label": "ENMLARR",
+      "arrival": [
+        "ENML"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:9b15d74f-3564-4b4c-ad76-575ddcbac010",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "7CEE025A00860100A8B42685",
+          "name": "ARR ENML",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:2b6e6ed1-9f28-4404-ad9c-b35375387e33"
+            },
+            "locationId": "ENML",
+            "category": "ARRIVAL"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENMLTARR",
+      "label": "ENMLTARR",
+      "arrival": [
+        "ENAL",
+        "ENKB",
+        "ENML",
+        "ENOV"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:8c37745d-3506-4c3f-b6c7-a38bf9214982",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1415836800000,
+            "end": 32503593600000
+          },
+          "stateId": "3BC53F540035000072DBD6B8",
+          "name": "ARR ENML/AL/KB/OV",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e0199397-1342-4ee5-8efc-23b1b08bab17"
+            },
+            "locationId": "ENML+3",
+            "category": "ARRIVAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENOLARR",
+      "label": "ENOLARR",
+      "arrival": [
+        "ENOL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:edb2a999-e7be-4377-8802-dc6a336ecd64",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "7CF6025A00980100A8B42685",
+          "name": "ENOL (ORLAND) ARRIVALS",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4be287e2-3f43-4b5e-8fe9-05d2953353a0"
+            },
+            "locationId": "ENOL",
+            "category": "ARRIVAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 8
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENOV",
+      "label": "ENOV",
+      "arrival": [
+        "ENOV"
+      ],
+      "departure": [
+        "ENOV"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:369075f8-ae1e-4397-9552-43226cdf0e87",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "57F6025A008E0100A8B42685",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fc181ab5-0c75-409c-939c-5fedb1f0a3a2"
+            },
+            "locationId": "ENOV",
+            "category": "GLOBAL"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENTC",
+      "label": "ENTC",
+      "arrival": [
+        "ENTC"
+      ],
+      "departure": [
+        "ENTC"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 15
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:dea31d66-af5f-43fc-81a2-74f394d73f37",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "7FED025A00830100A8B42685",
+          "name": "DEPS+ARRS ENTC",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:c5b41c58-7949-4eb8-8675-7e6a3922c286"
+            },
+            "locationId": "ENTC",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 15
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENTCARR",
+      "label": "ENTCARR",
+      "arrival": [
+        "ENTC"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 8
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:fa426c88-57a2-4ff7-81a5-4a08cf6f8660",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1713398400000,
+            "end": 32503593600000
+          },
+          "stateId": "11B00E66008A010019F4B214",
+          "name": "ARRS ENTC",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:533939d7-c861-401c-987a-72729be39a75"
+            },
+            "locationId": "ENTC",
+            "category": "ARRIVAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 18000000,
+              "til": 72000000,
+              "validityPeriod": {
+                "start": 1713398400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 8
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENVA",
+      "label": "ENVA",
+      "arrival": [
+        "ENVA"
+      ],
+      "departure": [
+        "ENVA"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:2be2ebe1-0cb2-4ce5-bc94-1ed23cbf57c0",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1512604800000,
+            "end": 32503593600000
+          },
+          "stateId": "F4EC025A009C0100A8B42685",
+          "name": "ENVA GLOBAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:abfef338-5eb1-4d0a-877f-f33c25fb7f58"
+            },
+            "locationId": "ENVA",
+            "category": "GLOBAL"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "ENVAARR",
+      "label": "ENVAARR",
+      "arrival": [
+        "ENVA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:9bbaf622-6a1f-4ad6-9606-326cdbbf4be3",
+        "groups": [
+          "ACCENBD",
+          "OACENOB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1713398400000,
+            "end": 32503593600000
+          },
+          "stateId": "11B00E6600B3010019F4B214",
+          "name": "ENVA ARRIVAL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9736e34c-f72d-4422-bee2-9244c91fdca5"
+            },
+            "locationId": "ENVA",
+            "category": "ARRIVAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 18000000,
+              "til": 72000000,
+              "validityPeriod": {
+                "start": 1713398400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

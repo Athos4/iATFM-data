@@ -1,0 +1,1678 @@
+{
+  "volumes": [
+    {
+      "id": "LLALL",
+      "label": "LLALL",
+      "sectorIds": [
+        "LLBGTA",
+        "LLHACR",
+        "LLIBCR",
+        "LLLLDEP",
+        "LLLLDEPM",
+        "LLLLMILC",
+        "LLLLMILN",
+        "LLLLOTLV",
+        "LLLLOTMV",
+        "LLLLSALL",
+        "LLLLTLVA",
+        "LLLLTLVE",
+        "LLOVCR",
+        "LLRDCR"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:342c15f4-042b-4efa-afd4-bd94747cc50a",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1730332800000,
+            "end": 32503593600000
+          },
+          "stateId": "977AFB6600080000E6FD8D31",
+          "name": "LLLL NORTH + SOUTH \nTFC COUNT MONITORING",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:82d02837-c4a4-4369-9e02-800840451a27"
+            },
+            "locationId": "LLLLALL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLALLCRI",
+      "label": "LLALLCRI",
+      "sectorIds": [
+        "LLBGTA",
+        "LLHACR",
+        "LLIBCR",
+        "LLLLDEP",
+        "LLLLDEPM",
+        "LLLLMILC",
+        "LLLLMILN",
+        "LLLLOTLV",
+        "LLLLOTMV",
+        "LLLLSALL",
+        "LLLLTLVA",
+        "LLLLTLVE",
+        "LLOVCR",
+        "LLRDCR"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0c2f363c-9a14-4ff7-97e6-3890e9a7dbaf",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "C052D6690015000077A0EDC8",
+          "name": "LLLL NORTH + SOUTH ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:82d02837-c4a4-4369-9e02-800840451a27"
+            },
+            "locationId": "LLLLALL",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLALLX",
+      "label": "LLALLX",
+      "sectorIds": [
+        "LLBGTA",
+        "LLHACR",
+        "LLIBCR",
+        "LLLLDEP",
+        "LLLLDEPM",
+        "LLLLMILC",
+        "LLLLMILN",
+        "LLLLOTLV",
+        "LLLLOTMV",
+        "LLLLSALL",
+        "LLLLTLVA",
+        "LLLLTLVE",
+        "LLOVCR",
+        "LLRDCR"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLCCCFIR"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLLBGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLLBGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASLCCCFIR"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:85ea76e8-a0f2-43d2-aee3-7c2ef2b54431",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "F769D6690036000077A0EDC8",
+          "name": "LLLL NORTH + SOUTH \nEXCLUSIONS TO /FROM LLBG",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:82d02837-c4a4-4369-9e02-800840451a27"
+            },
+            "locationId": "LLLLALL",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2a2388d4-664c-4155-a8f2-d74740d71fca"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:027885fc-952e-4cb2-9ed1-c180ac49f0f1"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLACCS",
+      "label": "LLLLACCS",
+      "sectorIds": [
+        "LLLLSALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:03ab6a93-3d41-4352-9bc9-37e4586a43df",
+        "groups": [
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1677110400000,
+            "end": 32503593600000
+          },
+          "stateId": "FC38D163001202001DD7DADF",
+          "name": "LLLL: TEL-AVIV SOUTHERN SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fa03fa98-746f-4d7d-aabe-4f036c7eb438"
+            },
+            "locationId": "LLLLSCTA",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLACSX",
+      "label": "LLLLACSX",
+      "sectorIds": [
+        "LLLLSALL"
+      ],
+      "capacity": {},
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLCCCFIR"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLLBGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLLBGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASLCCCFIR"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:67d0d51b-e760-4be0-8111-51ea225cea29",
+        "groups": [
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1776297600000,
+            "end": 32503593600000
+          },
+          "stateId": "DE69D669001B1A0077A0EDC8",
+          "name": "LLLL: TEL-AVIV SOUTHERN SECTOR\nEXCLUSIONS TO / FROM LLBG ",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fa03fa98-746f-4d7d-aabe-4f036c7eb438"
+            },
+            "locationId": "LLLLSCTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2a2388d4-664c-4155-a8f2-d74740d71fca"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:027885fc-952e-4cb2-9ed1-c180ac49f0f1"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLADEP",
+      "label": "LLLLADEP",
+      "sectorIds": [
+        "LLLLDEP",
+        "LLLLTLVA",
+        "LLLLTLVE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:7813190a-e243-4505-8ad6-e80d4fbe0d80",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1696464000000,
+            "end": 32503593600000
+          },
+          "stateId": "2430F464000D0000986C079B",
+          "name": "TLV ARR + TLV DEP (DEP + EAST)\nLLLLTLVA+LLLLDEP+LLLLTLVE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9e70cc5a-bbf4-43c0-9a4f-27c3dacf3bd7"
+            },
+            "locationId": "LLLLADEP",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLADET",
+      "label": "LLLLADET",
+      "sectorIds": [
+        "LLLLDEP",
+        "LLLLOTLV",
+        "LLLLTLVA",
+        "LLLLTLVE"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:b3fc8236-2c43-4055-8efc-8d40033f833d",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1655337600000,
+            "end": 32503593600000
+          },
+          "stateId": "85AA87620014000002D11F98",
+          "name": "LLLLTLVA+LLLLDEP+LLLLTLVE+LLLLOTLV\nALL NORTHERN SECTORS EXCL MIL AND MERVA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:91edaa73-d3c4-4ea5-b20b-8eede07630cf"
+            },
+            "locationId": "LLLLADET",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLADMV",
+      "label": "LLLLADMV",
+      "sectorIds": [
+        "LLLLDEP",
+        "LLLLDEPM",
+        "LLLLTLVA",
+        "LLLLTLVE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:4e6536d5-d408-4a08-81ac-c1c0af052b89",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1696464000000,
+            "end": 32503593600000
+          },
+          "stateId": "2330F46400420100986C079B",
+          "name": "ARR + DEP (DEP + EAST) + DEP MERVA\nLLLLTLVA+LLLLDEP+LLLLTLVE+LLLLDEPM",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fe7a7003-2845-4fca-a006-e35ba74307f7"
+            },
+            "locationId": "LLLLADMV",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLALLN",
+      "label": "LLLLALLN",
+      "sectorIds": [
+        "LLLLDEP",
+        "LLLLDEPM",
+        "LLLLOTLV",
+        "LLLLOTMV",
+        "LLLLTLVA",
+        "LLLLTLVE"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:f2708400-dabb-4496-91b1-9586919877f6",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "ED756562008205002B54B13C",
+          "name": "ARR + DEP (DEP + EAST) + DEP MERVA + OVR TLV + OVR MERVA\nALL NORTHERN SECTORS EXCL MIL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f74f5c78-5280-42a4-b585-c4b1314b6b90"
+            },
+            "locationId": "LLLLALLN",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLAOMV",
+      "label": "LLLLAOMV",
+      "sectorIds": [
+        "LLLLOTLV",
+        "LLLLOTMV",
+        "LLLLTLVA"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:74415ec6-4c3f-4de1-9c00-2b42aa5619da",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "F869656200E004002B54B13C",
+          "name": "TLV ARR + OVR TLV + OVR MERVA\nLLLLTLVA+LLLLOTLV+LLLLOTMV",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:4596a799-6ceb-40a3-8855-57da50b48949"
+            },
+            "locationId": "LLLLAOMV",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLAOTV",
+      "label": "LLLLAOTV",
+      "sectorIds": [
+        "LLLLOTLV",
+        "LLLLTLVA"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:29fd5b2e-d5b0-4771-9674-cbb2adca620d",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "12696562009505002B54B13C",
+          "name": "TLV ARR + OVR TLV\nLLLLTLVA+LLLLOTLV",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:744d6add-4e88-4215-8c10-53e0cd4bf8f2"
+            },
+            "locationId": "LLLLAOTV",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLDEP",
+      "label": "LLLLDEP",
+      "sectorIds": [
+        "LLLLDEP"
+      ],
+      "capacity": {},
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLCCCFIR"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLLBGA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:b32b4ed9-0eb9-4b86-800c-c12956f580c1",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1677110400000,
+            "end": 32503593600000
+          },
+          "stateId": "4232D963008B11001DD7DADF",
+          "name": "LLLL DEP FL050-325",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f4226f6c-ee36-4945-9511-4e0b9a7b90e7"
+            },
+            "locationId": "LLLLDEP",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:12d650ae-b5e6-4b24-af45-a5569c2c46b0"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLDEPE",
+      "label": "LLLLDEPE",
+      "sectorIds": [
+        "LLLLDEP",
+        "LLLLTLVE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLCCCFIR"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLLBGA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:6958d468-ee7e-437b-947c-34d98eb9c3c9",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1679529600000,
+            "end": 32503593600000
+          },
+          "stateId": "2684F763007B0000BFEE47CB",
+          "name": "LLLL DEP + TLV EAST SECTORS\nLLLLDEP+LLLLTLVE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9801bc79-291c-4e5e-89b6-6bd398c97fe0"
+            },
+            "locationId": "LLLLDEPE",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:12d650ae-b5e6-4b24-af45-a5569c2c46b0"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLDEPM",
+      "label": "LLLLDEPM",
+      "sectorIds": [
+        "LLLLDEPM"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:5df3ffc3-28bb-4b52-aa4e-3351ad33e6c1",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "6760656200C401002B54B13C",
+          "name": "LLLL DEP MERVA FL050-325",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a8b14a82-407d-40a6-9e85-6773f039d66a"
+            },
+            "locationId": "LLLLDEPM",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLDMOV",
+      "label": "LLLLDMOV",
+      "sectorIds": [
+        "LLLLDEP",
+        "LLLLDEPM",
+        "LLLLOTLV",
+        "LLLLOTMV",
+        "LLLLTLVE"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:b8d7d8e3-33ec-41ae-86bf-1659f2d651a1",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "68756562008B05002B54B13C",
+          "name": "DEP (DEP + EAST) + DEP MERVA + OVR TLV + OVR MERVA\nLLLLDEP+LLLLTLVE+LLLLDEPM+LLLLOTLV+LLLLOTMV",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f0298958-5ec1-4d58-a3ca-57efa90af8e9"
+            },
+            "locationId": "LLLLDMOV",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLDPMV",
+      "label": "LLLLDPMV",
+      "sectorIds": [
+        "LLLLDEP",
+        "LLLLDEPM",
+        "LLLLTLVE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLCCCFIR"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLLBGA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:c25e14ca-95d2-41df-a874-7110d71d7a39",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1679529600000,
+            "end": 32503593600000
+          },
+          "stateId": "2684F76300AB0000BFEE47CB",
+          "name": "DEP (DEP + EAST) + DEP MERVA \nLLLLDEP+LLLLTLVE+LLLLDEPM",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:125517ea-1b8a-4afd-9f07-1191ef01fb98"
+            },
+            "locationId": "LLLLDPMV",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:12d650ae-b5e6-4b24-af45-a5569c2c46b0"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLDPOT",
+      "label": "LLLLDPOT",
+      "sectorIds": [
+        "LLLLDEP",
+        "LLLLOTLV",
+        "LLLLTLVE"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:4db4651f-e3e6-4ed7-ad8e-919692d957d4",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "356E6562008911002B54B13C",
+          "name": "DEP (TLV DEP + TLV EAST) + OVR TLV\nLLLLDEP+LLLLTLVE+LLLLOTLV",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:518a15a1-6747-4f7d-85f9-ed6a0ec129dd"
+            },
+            "locationId": "LLLLDPOT",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLMILC",
+      "label": "LLLLMILC",
+      "sectorIds": [
+        "LLLLMILC"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:8cb72c5f-95a6-4bf5-8e27-4e117e9ec688",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1686787200000,
+            "end": 32503593600000
+          },
+          "stateId": "52CD816400270000B6A3D73A",
+          "name": "LLLL CENTRAL MILITARY SECTOR\nTHESE TFV/SECTORS SHOULD NOT BE MONITORED OR REGULATED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:8506ab42-ed08-4f79-bfc7-d7c2a653e3bd"
+            },
+            "locationId": "LLLLMILC",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLMILN",
+      "label": "LLLLMILN",
+      "sectorIds": [
+        "LLLLMILN"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:6ab1fcf3-02b4-41e1-a578-defab12392f5",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1686787200000,
+            "end": 32503593600000
+          },
+          "stateId": "CACC816400421600B6A3D73A",
+          "name": "LLLL MILITARY NORTHERN PART OF NORTH CTA\nLLLLMILN\nTHESE TFV/SECTORS SHOULD NOT BE MONITORED OR REGULATED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a7898d7e-8dd4-4882-b3eb-04ddb5f6ce3a"
+            },
+            "locationId": "LLLLMILN",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLMRVA",
+      "label": "LLLLMRVA",
+      "sectorIds": [
+        "LLLLDEPM",
+        "LLLLOTMV"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:bbdeb994-2db0-4bd5-b2b9-5d1eac0ef846",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1689206400000,
+            "end": 32503593600000
+          },
+          "stateId": "541B836400710000B6A3D73A",
+          "name": "DEP MERVA + OVR MERVA \nLLLLDEPM+LLLLOTMV\nTHESE TFV/SECTORS SHOULD NOT BE MONITORED OR REGULATED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e4b100c0-e656-4a80-8245-5050d0cf1c84"
+            },
+            "locationId": "LLLLMRVA",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLOTLV",
+      "label": "LLLLOTLV",
+      "sectorIds": [
+        "LLLLOTLV"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:91706d54-3b06-4729-816b-c9b350e91eab",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1677110400000,
+            "end": 32503593600000
+          },
+          "stateId": "EA21D46300E706001DD7DADF",
+          "name": "LLLL OVR TLV FL325-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:b2df3b11-3d72-4c7c-9a9f-745086d8fd3f"
+            },
+            "locationId": "LLLLOTLV",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLOTMV",
+      "label": "LLLLOTMV",
+      "sectorIds": [
+        "LLLLOTMV"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:02144a28-5570-4bc4-85cc-c8cbe1147b80",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1652918400000,
+            "end": 32503593600000
+          },
+          "stateId": "BD626562009A05002B54B13C",
+          "name": "LLLL OVR TLV MERVA FL325-UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:9437673d-7cb8-4c76-97cf-d4dbfc61eea0"
+            },
+            "locationId": "LLLLOTMV",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLOVTM",
+      "label": "LLLLOVTM",
+      "sectorIds": [
+        "LLLLOTLV",
+        "LLLLOTMV"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:57e63245-3205-4e7d-b892-f6d069a43dc0",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1677110400000,
+            "end": 32503593600000
+          },
+          "stateId": "A721D46300EF06001DD7DADF",
+          "name": "OVR TLV + OVR MERVA\nLLLLOTLV+LLLLOTMV",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fee0ac40-1c2c-497a-a96a-7483e580cb10"
+            },
+            "locationId": "LLLLOVTM",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 10
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLSCRI",
+      "label": "LLLLSCRI",
+      "sectorIds": [
+        "LLLLSALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:adc03b96-3eca-48b0-bfff-15528cc3f1b5",
+        "groups": [
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "3E6DC467002C0100E5F73002",
+          "name": "LLLL SOUTHERN SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fa03fa98-746f-4d7d-aabe-4f036c7eb438"
+            },
+            "locationId": "LLLLSCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT ",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLSOUX",
+      "label": "LLLLSOUX",
+      "sectorIds": [
+        "LLLLSALL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 12,
+        "otmv": [
+          {
+            "durationMinutes": 1,
+            "startUtc": "2023-02-23T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 8,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          },
+          {
+            "durationMinutes": 15,
+            "startUtc": "2023-02-23T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 8,
+            "sustained": 7,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol",
+        "peak": 8,
+        "sustain": 7
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6fcdd363-e53d-4b18-b805-6ef736c3448c",
+        "groups": [
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1677110400000,
+            "end": 32503593600000
+          },
+          "stateId": "DE38D163005604001DD7DADF",
+          "name": "TEL AVIV SOUTH SECTOR GND TO UNL",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:fa03fa98-746f-4d7d-aabe-4f036c7eb438"
+            },
+            "locationId": "LLLLSCTA",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1677110400000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 12
+            }
+          ],
+          "permanentOtmvs": [
+            {
+              "duration": 1,
+              "wef": 1677110400000,
+              "til": 32503593600000,
+              "peak": 8,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            },
+            {
+              "duration": 15,
+              "wef": 1677110400000,
+              "til": 32503593600000,
+              "peak": 8,
+              "sustained": 7,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLTLVA",
+      "label": "LLLLTLVA",
+      "sectorIds": [
+        "LLLLTLVA"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 24
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:0858bd39-ef0c-40cf-af72-12e1679ec294",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1677110400000,
+            "end": 32503593600000
+          },
+          "stateId": "6523E56300FD06001DD7DADF",
+          "name": "LLLL TLV ARR FL050-325",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ce31441e-98a3-40ef-ac76-a27013820d81"
+            },
+            "locationId": "LLLLTLVA",
+            "category": "GLOBAL"
+          },
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 24
+            }
+          ],
+          "category": "MO",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "LLLLTLVE",
+      "label": "LLLLTLVE",
+      "sectorIds": [
+        "LLLLTLVE"
+      ],
+      "capacity": {},
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLCCCFIR"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLLBGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLLBGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTTOMAL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLLBGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECF54A5BD793E5E6A91B28"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLLBGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASOJACCTA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLLBGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECBB2A6D4D07F95510D665"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECBB2A6D4D07F95510D665"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLLBGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLLBGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTNALSO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTNALSO"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLLBGA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLLLLFIR"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASOJACFIR"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASOJACFIR"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASLLLLFIR"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECF54A5BD793E5E6A91B28"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASLLLLFIR"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC33544F9EAAC750EA81A2"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASLLLLFIR"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLLHSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASOJACCTA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASOJACCTA"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADLLHSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLLBGD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASLCCCCTA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:0a9809a5-570a-4121-8a26-018f4aa58b72",
+        "groups": [
+          "ACCLLLN",
+          "ACCLLLS"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1677110400000,
+            "end": 32503593600000
+          },
+          "stateId": "2070DF6300B003001DD7DADF",
+          "name": "LLLL TLV EAST FL110-325 + FL140-325",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ce112def-dab1-4cb1-9f5f-21066c82f817"
+            },
+            "locationId": "LLLLTLVE",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:12d650ae-b5e6-4b24-af45-a5569c2c46b0"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:a0995ce1-f111-4052-bd63-f41571537c81"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:09d1ffee-6bef-4bde-8068-5566a2dceaa0"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:cc9a2906-229a-488c-af8c-6f9a0349c8ee"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:cefba664-bd33-41f5-9938-0937edd70b48"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:385a0659-06cb-48ad-946a-960aa93727ed"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:21868230-e07c-4e20-b2d6-d246f8bbae65"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:01e97d63-e370-4a28-b03f-1fc4a34d857c"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c4aaa89d-376d-48d9-a494-e48fd03c5b9f"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d70dff02-b86b-4e01-868d-64fbc1995ab4"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:890215d1-45ff-4479-8047-9b82628af0e6"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:36b6b024-26a2-47b6-9e55-cec2cc9e101b"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:af503536-8581-4668-a319-178b6d7ce19f"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:342cb627-413c-42e1-9251-dc9612950af3"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:0c1fb98e-a5c2-4436-b8f0-f35382f29517"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

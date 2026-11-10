@@ -1,0 +1,431 @@
+{
+  "volumes": [
+    {
+      "id": "FL1NE58",
+      "label": "FL1NE58",
+      "sectorIds": [
+        "LIRRNE5",
+        "LIRRNE6",
+        "LIRRNE7",
+        "LIRRNE8"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC838174139EBDD081C845"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASLIPPCTA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:970300f3-fa6d-40e9-b592-554d0305f295",
+        "groups": [
+          "ACCLIIIT",
+          "ACCLIRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "54A2E8680067090063CAEA6B",
+          "name": "FROM: LIRF / LIRA VIA LIPPCTA\nTO: ANY\nNOT ALLOWED VIA LIRRNE58\nREFILE BELOW FL345 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a25a86cf-0bcc-4423-b7eb-65a24c4abe3c"
+            },
+            "locationId": "LIRRNE58",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6c42fcb9-103d-4af6-94b0-97cffb6f240e"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1NNW47",
+      "label": "FL1NNW47",
+      "sectorIds": [
+        "LIRRNE4",
+        "LIRRNE5",
+        "LIRRNE6",
+        "LIRRNE7",
+        "LIRRWE4",
+        "LIRRWE5",
+        "LIRRWE6",
+        "LIRRWE7"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLIPPCTA"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC838174139EBDD081C845"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:77fa8c97-01ab-40f0-8e9d-08a646671907",
+        "groups": [
+          "ACCLIIIT",
+          "ACCLIRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "92BAE868004C080063CAEA6B",
+          "name": "FROM:ANY VIA LIPPCTA\nTO: LIRF/LIRA\nNOT ALLOWED VIA LIRRNEW47\nREFILE BELOW FL335 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:50ae219f-6f87-4e49-a2ed-8aec50392aac"
+            },
+            "locationId": "LIRRNEW47",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9d807e0a-301e-4fea-8a3a-0c22f51f0866"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1NW47",
+      "label": "FL1NW47",
+      "sectorIds": [
+        "LIRRNW4",
+        "LIRRNW5",
+        "LIRRNW6",
+        "LIRRNW7"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "AZEC838174139EBDD081C845"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:0bf8ac49-4155-4a28-a5b5-a4f6fee04c07",
+        "groups": [
+          "ACCLIIIT",
+          "ACCLIRR",
+          "ACCLSAG",
+          "FICLSAG",
+          "UACLSAG"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1660176000000,
+            "end": 32503593600000
+          },
+          "stateId": "8950D562000700003EEF3842",
+          "name": "FROM:ANY\nTO:LIRF/LIRA\nNOT ALLOWED VIA LIRRNW47\nREFILE BELOW FL335 UNTIL CLEAR OF SECOTR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a196e251-3489-43c7-b1a9-11b677a8f21f"
+            },
+            "locationId": "LIRRNW47",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b5134a77-5b83-473c-8013-cba61ab78903"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL1US48",
+      "label": "FL1US48",
+      "sectorIds": [
+        "LIRRUS4",
+        "LIRRUS5",
+        "LIRRUS6",
+        "LIRRUS7",
+        "LIRRUS8"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASLIBBCTA"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC838174139EBDD081C845"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:42a5a933-aa23-4589-a67b-b4515304aec5",
+        "groups": [
+          "ACCLIIIT",
+          "ACCLIRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1747267200000,
+            "end": 32503593600000
+          },
+          "stateId": "4878176800DE12002E240D4C",
+          "name": "FROM: ANY VIA LIBBCTA\nTO: LIRF / LIRA\nNOT ALLOWED VIA LIRRUS48\nREFILE BELOW FL335 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:1e3bc662-1a38-4ab9-bc6d-1f9e64cb4814"
+            },
+            "locationId": "LIRRUS48",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1b9caafd-598c-42b2-9f0c-084744e9da92"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL2NE58",
+      "label": "FL2NE58",
+      "sectorIds": [
+        "LIRRNE5",
+        "LIRRNE6",
+        "LIRRNE7",
+        "LIRRNE8"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADLIRND"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASLIPPCTA"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:444cf68d-8c92-4e2f-bc5b-b7eca368d085",
+        "groups": [
+          "ACCLIIIT",
+          "ACCLIRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "E7A1E8680049000063CAEA6B",
+          "name": "FROM: LIRN VIA LIPPCTA\nTO: ANY\nNOT ALLOWED VIA LIRRNE58\nREFILE BELOW FL345 UNTIL CLEAR OF SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:a25a86cf-0bcc-4423-b7eb-65a24c4abe3c"
+            },
+            "locationId": "LIRRNE58",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:100570d7-1872-4135-9f6b-47ebfc8bd330"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "FL4LIRR",
+      "label": "FL4LIRR",
+      "sectorIds": [
+        "LIRRNE5",
+        "LIRRNE6",
+        "LIRRNE7",
+        "LIRRNE8",
+        "LIRRWE5",
+        "LIRRWE6",
+        "LIRRWE7",
+        "LIRRWE8"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTOLGAT",
+              "PTTIGRA"
+            ],
+            [
+              "ASLIBBCTA"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC47C777E51A5B4A528E7D"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTGOKEL",
+              "PTPAPIZ"
+            ],
+            [
+              "ASLIBBCTA"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC47C777E51A5B4A528E7D"
+            ]
+          ]
+        }
+      ],
+      "levelRestriction": true,
+      "eurocontrol": {
+        "sourceKey": "tv:064b44fc-3403-40a9-911f-a9023a7bb2cd",
+        "groups": [
+          "ACCLIIIT",
+          "ACCLIRR"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1764201600000,
+            "end": 32503593600000
+          },
+          "stateId": "AFBBE868004A080063CAEA6B",
+          "name": "FROM: ANY VIA TIGRA/OLGAT/GOKEL/PAPIZ THEN LIBBCTA\nTO: LIMC LIML\nNOT ALLOWED VIA SECTOR LIRRNEW58\nREFILE BELOW FL345 BEFORE ENTERING SECTOR LIRRNEW",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:f1ddaee0-a2fe-4410-8120-6f3e129bbf0b"
+            },
+            "locationId": "LIRRNEW58",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:70262f80-c176-4a56-89e8-ee6513906364"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b8df676b-2235-4f55-9449-3df0561b053d"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

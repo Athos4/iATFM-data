@@ -1,0 +1,38 @@
+{
+  "volumes": [
+    {
+      "id": "ULOLCRI",
+      "label": "ULOLCRI",
+      "sectorIds": [
+        "ULOLALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:489777a4-9a42-4646-9c4d-16a5b9cabcd3",
+        "groups": [
+          "ACCULOL"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "CD6FC467006F0F00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e7b49a70-57e4-49d7-b124-53dd4c9e773d"
+            },
+            "locationId": "ULOLCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

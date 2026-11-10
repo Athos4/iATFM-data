@@ -1,0 +1,30 @@
+[     155ms] [ERROR] Manifest: Line: 1, column: 1, Syntax error. @ https://b2c.nm.eurocontrol.int/airspace/manifest.json:0
+[     901ms] [LOG] Running in browser @ https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:1
+[     906ms] [LOG] Ellipse icon is created. @ https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:1
+[     906ms] [LOG] Ellipse icon is created. @ https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:1
+[    1194ms] [ERROR] Manifest: Line: 1, column: 1, Syntax error. @ https://b2c.nm.eurocontrol.int/airspace/manifest.json:0
+[    8346ms] [ERROR] Manifest: Line: 1, column: 1, Syntax error. @ https://b2c.nm.eurocontrol.int/airspace/manifest.json:0
+[    8371ms] [LOG] Running in browser @ https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:1
+[    8372ms] [LOG] Ellipse icon is created. @ https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:1
+[    8372ms] [LOG] Ellipse icon is created. @ https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:1
+[    8676ms] [ERROR] Manifest: Line: 1, column: 1, Syntax error. @ https://b2c.nm.eurocontrol.int/airspace/manifest.json:0
+[15828109ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ https://b2c.nm.eurocontrol.int/stomp/144/kszle30o/xhr?t=1793996151695:0
+[15910932ms] [ERROR] Failed to load resource: net::ERR_ADDRESS_UNREACHABLE @ https://b2c.nm.eurocontrol.int/api/iam/v1/authCheck:0
+[15910961ms] TypeError: Failed to fetch
+    at p (https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:2:1758561)
+    at https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:2:3647569
+    at https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:2:4945670
+    at Object.fetchAuthCheck (https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:2:5140736)
+    at https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:2:5138584
+[15910980ms] [ERROR] Failed to load resource: net::ERR_ADDRESS_UNREACHABLE @ https://b2c.nm.eurocontrol.int/stomp/info?t=1793996251731:0
+[15912990ms] [ERROR] Failed to load resource: net::ERR_ADDRESS_UNREACHABLE @ https://b2c.nm.eurocontrol.int/stomp/info?t=1793996254202:0
+[15915005ms] [ERROR] Failed to load resource: net::ERR_ADDRESS_UNREACHABLE @ https://b2c.nm.eurocontrol.int/stomp/info?t=1793996256219:0
+[16953942ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://b2c.nm.eurocontrol.int/api/iam/v1/authCheck:0
+[16954198ms] TypeError: Failed to fetch
+    at p (https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:2:1758561)
+    at https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:2:3647569
+    at https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:2:4945670
+    at Object.fetchAuthCheck (https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:2:5140736)
+    at https://b2c.nm.eurocontrol.int/airspace/static/js/2.58131aa8.chunk.js:2:5138584
+[16954097ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://b2c.nm.eurocontrol.int/stomp/info?t=1793997294983:0
+[19032118ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ https://b2c.nm.eurocontrol.int/stomp/155/01aj4y5c/xhr?t=1793999366722:0

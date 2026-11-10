@@ -1,0 +1,34 @@
+[
+  {
+    "id": "LFFFHP",
+    "positionPriority": [
+      "LFFF_S_CTR",
+      "LFFF_E_CTR",
+      "LFFF_CTR"
+    ]
+  },
+  {
+    "id": "LFFFTU",
+    "positionPriority": [
+      "LFFF_S_CTR",
+      "LFFF_E_CTR",
+      "LFFF_CTR"
+    ]
+  },
+  {
+    "id": "LFFFTW",
+    "positionPriority": [
+      "LFFF_S_CTR",
+      "LFFF_E_CTR",
+      "LFFF_CTR"
+    ]
+  },
+  {
+    "id": "LFFFUT",
+    "positionPriority": [
+      "LFFF_S_CTR",
+      "LFFF_E_CTR",
+      "LFFF_CTR"
+    ]
+  }
+]

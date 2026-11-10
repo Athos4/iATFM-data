@@ -1,0 +1,1269 @@
+{
+  "volumes": [
+    {
+      "id": "EGP29G",
+      "label": "EGP29G",
+      "sectorIds": [
+        "EGPX29G"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 43,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 20,
+            "sustained": 18,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZECCE8B392A8A8E91F1154B"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASEGTTXCTY"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGNMD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECEECA6A3B164F57508051"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC651F9545D1B16940BD6F"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASEGTT03LKS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC651F9545D1B16940BD6F"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASEGTT04LKS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC72A9050F595B7901DADD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASEGTTLKS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC72A9050F595B7901DADD"
+            ],
+            [
+              "ASEGTTLKS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASEGTTNOR"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZECCD1F24A3F268B05B2416"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASEGTTLKS"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC72A9050F595B7901DADD"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASEGPXEE"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGGPA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:477149ce-067c-4f66-8a7b-e62e09694feb",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCLS",
+          "ACCEGTT",
+          "ACCEGTT9",
+          "ACCTEGPX",
+          "FISEGPX",
+          "FISEGTT",
+          "OACEGGX",
+          "TCEGTT"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "F2102C6A00010000FE8A30B6",
+          "name": "EGPX: SECTOR 29",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:dab410bd-04b5-462f-97bb-f27c40aad0cf"
+            },
+            "locationId": "EGPX29G",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6a81c146-8bf5-46a5-81f0-ba6f41a15023"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:050919ae-45ce-43eb-882b-3f634abf8efc"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:c2ee1a38-8e2b-47bc-966e-be17d80da873"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:341d63a8-b4f9-4df0-8fe2-e384b6ec2cc9"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:87e70c35-168a-48c0-b261-60a1c9322698"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5dc4d39d-3879-46cd-a97c-8e79e1f173bc"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:8a32c8d0-29e5-4cc5-a052-e28e8aaafa46"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:0e301ea5-f1a7-4e05-bdbc-19e48ca15f38"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6d8a8631-15d2-4e30-8dc9-08a44eaa20b0"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 21600000,
+              "til": 75600000,
+              "validityPeriod": {
+                "start": 1783555200000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 43
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 20,
+              "sustained": 18,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGP29IW",
+      "label": "EGP29IW",
+      "sectorIds": [
+        "EGPX29G",
+        "EGPXIOM",
+        "EGPXWAL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 36,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 20,
+            "sustained": 18,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGNMD"
+            ]
+          ],
+          "downstream": [
+            [
+              "AZEC651F9545D1B16940BD6F"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTGASKO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASEGTTCTY"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASEGTTNOR"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGNHD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGNSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGNSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGNHA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "AZEC651F9545D1B16940BD6F"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASEGTTLKS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASEGPXNE"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGCCA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:1e08fa23-d9b5-4ebf-bd1e-b6aeee73ee02",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCLS",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "F0102C6A00200000FE8A30B6",
+          "name": "IOM/WAL/S29 COMBINED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:38cdca6b-7410-49fb-8a17-567a7695bfa4"
+            },
+            "locationId": "EGPX29IW",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:daa333d6-131a-45a0-9368-1d4fd75275c2"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:55283efb-07bd-4dc3-98c2-8b54c76aeeed"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d896aaec-ab2e-48a0-8086-c1e01cab7975"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4b1428b5-854c-41d9-b628-49cc363e9723"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2168edd4-f70a-4b22-ab14-7a8c4d3c714d"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6f23614a-39c6-4e71-9405-7f92995c286d"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:77894a26-b6b9-41a1-86a8-63a5857be97a"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:00184d8d-dbc2-4c7f-9d48-183d2a2aed7e"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 36
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 20,
+              "sustained": 18,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPICC05",
+      "label": "EGPICC05",
+      "sectorIds": [
+        "EGPXIOM",
+        "EGPXWAL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 41
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGNHD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGNSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGNSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGNHA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPOL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTDESIG"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASEGPXNE"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGCCA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:9f389e51-ef11-46c0-b4d4-4d5665722fb4",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCLS",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1747267200000,
+            "end": 32503593600000
+          },
+          "stateId": "2581FA6700170100F4823827",
+          "name": "IOM/WALLASEY COMBINED SECTOR WHEN EGCC OPERRATING ON RWY 05",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:26bb3b6c-fc4c-4a24-a3af-6309c176f2ab"
+            },
+            "locationId": "EGPXIMW",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2168edd4-f70a-4b22-ab14-7a8c4d3c714d"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6f23614a-39c6-4e71-9405-7f92995c286d"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:35c043dd-f6ce-4cff-9e27-b62654338881"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6a6d59c2-cc06-46b1-9c20-9518acb273d5"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:00184d8d-dbc2-4c7f-9d48-183d2a2aed7e"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 41
+            }
+          ],
+          "category": "MO",
+          "note": "DUPLICATE OF EGPIMW WITH LOWER MV",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPIMW",
+      "label": "EGPIMW",
+      "sectorIds": [
+        "EGPXIOM",
+        "EGPXWAL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 43,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 20,
+            "sustained": 18,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGNHD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGNSA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGNSD"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGNHA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPOL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTDESIG"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASEGPXNE"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGCCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTSANBA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:230b6afe-7c6a-44c9-93f0-421bbdc19b8d",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCLS",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "F0102C6A007C0000FE8A30B6",
+          "name": "EGPX: ISLE OF MAN/WALLASEY COMBINED SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:26bb3b6c-fc4c-4a24-a3af-6309c176f2ab"
+            },
+            "locationId": "EGPXIMW",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:2168edd4-f70a-4b22-ab14-7a8c4d3c714d"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6f23614a-39c6-4e71-9405-7f92995c286d"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:35c043dd-f6ce-4cff-9e27-b62654338881"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6a6d59c2-cc06-46b1-9c20-9518acb273d5"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:00184d8d-dbc2-4c7f-9d48-183d2a2aed7e"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:10f9ddc6-1fe5-4c9c-bf4e-f59170f8d1e0"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 43
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 20,
+              "sustained": 18,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPWAL",
+      "label": "EGPWAL",
+      "sectorIds": [
+        "EGPXWAL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 39,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2026-07-09T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 18,
+            "sustained": 16,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "eurocontrol"
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPOL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTDESIG"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTSONEX"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASEGPXNE"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGCCA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTSANBA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGNMD"
+            ],
+            [
+              "PTNELSA"
+            ]
+          ],
+          "downstream": [
+            [
+              "ASEGPX29G"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:8a54b685-d954-4a44-a1dc-236a246486d9",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCLS",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1783555200000,
+            "end": 32503593600000
+          },
+          "stateId": "F1102C6A00CD0000FE8A30B6",
+          "name": "WALLASEY SECTOR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:107f9bb9-a040-46ea-a077-5ce73227e12d"
+            },
+            "locationId": "EGPXWAL",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:35c043dd-f6ce-4cff-9e27-b62654338881"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6a6d59c2-cc06-46b1-9c20-9518acb273d5"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f3e6f96b-efe9-40ce-8e44-a7164c7210e3"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:00184d8d-dbc2-4c7f-9d48-183d2a2aed7e"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:10f9ddc6-1fe5-4c9c-bf4e-f59170f8d1e0"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:35021b2c-0c10-437d-99c9-094cc13eed44"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 39
+            }
+          ],
+          "category": "MO",
+          "permanentOtmvs": [
+            {
+              "duration": 15,
+              "wef": 1783555200000,
+              "til": 32503593600000,
+              "peak": 18,
+              "sustained": 16,
+              "sustainedOccurrence": 99,
+              "sustainedElapsed": 99
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EGPWCC05",
+      "label": "EGPWCC05",
+      "sectorIds": [
+        "EGPXWAL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 37
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTPOL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTDESIG"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEGCCD"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTSONEX"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASEGPXNE"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEGCCA"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:fc57652f-72ce-4886-9079-b36bc54b9b76",
+        "groups": [
+          "ACCEGPX",
+          "ACCEGPXCLS",
+          "ACCTEGPX",
+          "FISEGPX",
+          "OACEGGX"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1747267200000,
+            "end": 32503593600000
+          },
+          "stateId": "2581FA6700EE0000F4823827",
+          "name": "WALLASEY SECTOR WHEN EGCC OPERATING ON RWY 05",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:107f9bb9-a040-46ea-a077-5ce73227e12d"
+            },
+            "locationId": "EGPXWAL",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:35c043dd-f6ce-4cff-9e27-b62654338881"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:6a6d59c2-cc06-46b1-9c20-9518acb273d5"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f3e6f96b-efe9-40ce-8e44-a7164c7210e3"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:00184d8d-dbc2-4c7f-9d48-183d2a2aed7e"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 37
+            }
+          ],
+          "category": "MO",
+          "note": "DUPLICATE OF EGPWAL WITH LOWER MV",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

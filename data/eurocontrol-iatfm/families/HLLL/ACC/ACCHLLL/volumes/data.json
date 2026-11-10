@@ -1,0 +1,383 @@
+{
+  "volumes": [
+    {
+      "id": "HLLBCFMU",
+      "label": "HLLBCFMU",
+      "sectorIds": [
+        "HLLLALL"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTELIMO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTINDOT"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTOLMAX"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTBONAR"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTEKLIS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTRASNO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTLOSUL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTDITAR"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTELIMO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTINDOT"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTOLMAX"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTBONAR"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTEKLIS"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTRASNO"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTLOSUL"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTDITAR"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:882fe720-afa8-4b11-96a6-82aa484fa4b2",
+        "groups": [
+          "ACCHLLL"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1297296000000,
+            "end": 32503593600000
+          },
+          "stateId": "DCA4664D00C500000DC5AD5F",
+          "name": "CFMU AREA VIA BENGHAZI FIR",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:14d3a86e-2184-47e9-a6bf-aa53c61709af"
+            },
+            "locationId": "HLLLCTA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:8b58c7d0-2245-4db6-a776-ed95511447b6"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:42ea795d-c8d1-4a32-bb7f-bedb1e2d104d"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:303c68db-15cd-4b61-a721-b89139cf3d10"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:5aae5cd6-d569-40a8-a1f2-bce4bc43784d"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:b03b6024-ba87-4c56-ba2b-3c76e483b581"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:67f44030-a2fd-4e1a-8bbe-5371752ec8ea"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:8c4809bb-0e77-4403-aa3f-86a19bbd1010"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:aa6cc0da-b661-4342-a509-a6de78f7d5d3"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d1a78d9a-9d2a-45b1-85dc-0c470957e8b1"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4879b75f-15af-4bdc-9cac-9429cc216811"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f277fa43-ba50-47b4-be29-58de4161cf50"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:91380b49-24a6-41c9-aca0-d072ded6fc1d"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:90fbbf6e-ab23-46ac-ac08-48f3903844b4"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:1c43d07a-831c-4785-887f-33ad836a0961"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9aa59778-f892-4345-a09f-ac589ad7b45b"
+                }
+              },
+              "flowRole": "IN"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:4d784ba6-1488-4072-9270-6a0ff145bf0c"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "HLLLALL",
+      "label": "HLLLALL",
+      "sectorIds": [
+        "HLLLALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:fce926f8-fa23-4c87-b9e8-3e4388327258",
+        "groups": [
+          "ACCHLLL"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "A875C46700680F00E5F73002",
+          "name": "ALL LIBYAN AIRSPACE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:14d3a86e-2184-47e9-a6bf-aa53c61709af"
+            },
+            "locationId": "HLLLCTA",
+            "category": "GLOBAL"
+          },
+          "note": "DO NOT DELETE",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "HLLLCRI",
+      "label": "HLLLCRI",
+      "sectorIds": [
+        "HLLLALL"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:3b5dc9bc-fdf8-49d8-bb3d-f9bf8fe5efa8",
+        "groups": [
+          "ACCHLLL"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1742428800000,
+            "end": 32503593600000
+          },
+          "stateId": "F24DC46700920F00E5F73002",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:14d3a86e-2184-47e9-a6bf-aa53c61709af"
+            },
+            "locationId": "HLLLCTA",
+            "category": "GLOBAL"
+          },
+          "note": "PLEASE DO NOT DELETE, REQUIRED FOR CRISIS MANAGEMENT ",
+          "autoDSTChangeEnabled": false,
+          "skipIn": 0,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

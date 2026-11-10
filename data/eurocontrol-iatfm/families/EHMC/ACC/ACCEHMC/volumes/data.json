@@ -1,0 +1,610 @@
+{
+  "volumes": [
+    {
+      "id": "EHEHTMA",
+      "label": "EHEHTMA",
+      "sectorIds": [
+        "EHMCEHEHTA"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:3201cf45-280e-4195-ae46-7b12bf63c3ce",
+        "groups": [
+          "ACCEHMC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1546473600000,
+            "end": 32503593600000
+          },
+          "stateId": "8C001C5C00250000EEC51B27",
+          "name": "EHEHTMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:e857f052-0733-49a5-a9e8-5cb218733825"
+            },
+            "locationId": "EHMCEHEHTA",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EHLETMAA",
+      "label": "EHLETMAA",
+      "sectorIds": [
+        "EHMCTMAA"
+      ],
+      "capacity": {},
+      "flowIn": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEHLED"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:fd6fe435-8967-42e5-bcff-bde91408b5d9",
+        "groups": [
+          "ACCEHMC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1698883200000,
+            "end": 32503593600000
+          },
+          "stateId": "D2AF1E6500040000CD2F53CC",
+          "name": "TRAFFIC OUTBOUND EHLE VIA AMGOD SID AND IDRID SID",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ccaf0dac-7541-444b-a9d1-e1e4bcb7beca"
+            },
+            "locationId": "EHMCTMAA",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:310314bd-54ca-47e9-a88b-4d970a642d59"
+                }
+              },
+              "flowRole": "IN"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EHMCALL",
+      "label": "EHMCALL",
+      "sectorIds": [
+        "EHEHCR",
+        "EHMCEHEHTA",
+        "EHMCEHKDTA",
+        "EHMCTMAA",
+        "EHMCTMAB",
+        "EHMCTMAC",
+        "EHMCTMAD",
+        "EHMCTMAE",
+        "EHMCTMAG1",
+        "EHMCTMAG2",
+        "EHMCTMAN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTKEKIX"
+            ],
+            [
+              "PTAGISU"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTKEKIX"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTAGISU"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTKEKIX"
+            ],
+            [
+              "PTAGISU"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:38ccf070-f8a6-4201-8a30-63b5b25267a9",
+        "groups": [
+          "ACCEHMC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1679529600000,
+            "end": 32503593600000
+          },
+          "stateId": "7A2F076400200000BFEE47CB",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d234024e-4d6a-45f2-afd1-e016bb54fec7"
+            },
+            "locationId": "EHMCALL",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:770edb25-b424-49f3-8c76-2889d9c09de8"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:87fa24fe-e06d-4922-b7cc-2dd2bba721be"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:de34667e-d77e-4405-baf9-0ff9e9a759d1"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EHMCMKD",
+      "label": "EHMCMKD",
+      "sectorIds": [
+        "EHEHCR",
+        "EHMCEHEHTA",
+        "EHMCEHKDTA",
+        "EHMCTMAA",
+        "EHMCTMAB",
+        "EHMCTMAC",
+        "EHMCTMAD",
+        "EHMCTMAE",
+        "EHMCTMAG1",
+        "EHMCTMAG2",
+        "EHMCTMAN"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 999
+      },
+      "flowEx": [
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTKEKIX"
+            ],
+            [
+              "PTAGISU"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTKEKIX"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTAGISU"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTKEKIX"
+            ],
+            [
+              "PTAGISU"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ADEHKDA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ADEHKDD"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:2ffa3b49-443b-46cc-a40b-2a46edbc1353",
+        "groups": [
+          "ACCEHMC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1674691200000,
+            "end": 32503593600000
+          },
+          "stateId": "9C3CB06300F40800D130A440",
+          "name": "EHMCALL EXCLUDING Z733,Z708,N852 AND EHKD TRAFFIC",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:d234024e-4d6a-45f2-afd1-e016bb54fec7"
+            },
+            "locationId": "EHMCALL",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:770edb25-b424-49f3-8c76-2889d9c09de8"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:87fa24fe-e06d-4922-b7cc-2dd2bba721be"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:de34667e-d77e-4405-baf9-0ff9e9a759d1"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9736c8bc-f3d6-4f85-973f-17cb6092e79e"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:9e10a0f5-8ff4-458b-9faa-c14769e15e7a"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 999
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EHMCSTAF",
+      "label": "EHMCSTAF",
+      "sectorIds": [
+        "EHLETA1",
+        "EHLETA2",
+        "EHLETA3",
+        "EHLETA4",
+        "EHLETA5",
+        "EHMCEHEHTA",
+        "EHMCEHKDTA",
+        "EHMCTMAA",
+        "EHMCTMAB",
+        "EHMCTMAC",
+        "EHMCTMAD",
+        "EHMCTMAE",
+        "EHMCTMAG1",
+        "EHMCTMAG2",
+        "EHMCTMAN"
+      ],
+      "capacity": {},
+      "flowEx": [
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "ASEHMCEHKDTA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "ASEHMCEHKDTA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTROTEK"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEHEHA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTTUPAK"
+            ]
+          ],
+          "downstream": [
+            [
+              "ADEHEHA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTTUPAK"
+            ],
+            [
+              "ADEHEHA"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTKEKIX"
+            ],
+            [
+              "PTAGISU"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "upstream": [
+            [
+              "PTKEKIX"
+            ]
+          ],
+          "downstream": [
+            [
+              "PTAGISU"
+            ]
+          ]
+        },
+        {
+          "reference": "entry",
+          "downstream": [
+            [
+              "PTKEKIX"
+            ],
+            [
+              "PTAGISU"
+            ]
+          ]
+        }
+      ],
+      "eurocontrol": {
+        "sourceKey": "tv:b8daccda-61a9-4eb9-8de4-aa882d293ce4",
+        "groups": [
+          "ACCEHMC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1631145600000,
+            "end": 32503593600000
+          },
+          "stateId": "1B662E6100061C005459F644",
+          "name": "EHMC ATC NOT AVAILABLE",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:ebce1017-4adf-4abf-9148-cd1217a9c95a"
+            },
+            "locationId": "EHMCALL1",
+            "category": "GLOBAL"
+          },
+          "flows": [
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:defaa130-dda0-42e6-aa90-94b02b2ab40c"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:cb02b831-6e71-4140-94a0-36b707012d4d"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:d160858e-11c6-479a-a36e-ef611ed66e08"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:55882f34-6eee-4995-aa69-22ffdd617c27"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:f7d03753-a1d5-47d8-92ad-d1c43a1797ff"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:770edb25-b424-49f3-8c76-2889d9c09de8"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:87fa24fe-e06d-4922-b7cc-2dd2bba721be"
+                }
+              },
+              "flowRole": "EX"
+            },
+            {
+              "flowId": {
+                "$type": "airspace.em.fw.FlowSummary",
+                "ref": {
+                  "$ref": "fw:de34667e-d77e-4405-baf9-0ff9e9a759d1"
+                }
+              },
+              "flowRole": "EX"
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    },
+    {
+      "id": "EHMCTBCE",
+      "label": "EHMCTBCE",
+      "sectorIds": [
+        "EHMCTMAB",
+        "EHMCTMAC",
+        "EHMCTMAE"
+      ],
+      "capacity": {},
+      "eurocontrol": {
+        "sourceKey": "tv:a91bd78f-09b4-4efb-8c2b-4db7246f3d26",
+        "groups": [
+          "ACCEHMC"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1631145600000,
+            "end": 32503593600000
+          },
+          "stateId": "E0A23061005C000023BBA31E",
+          "name": "EHMC TMA B C E COMBINED",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:169fffb7-cabd-4ffb-ae6a-ad493b9c0711"
+            },
+            "locationId": "EHMCTBCE",
+            "category": "GLOBAL"
+          },
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}

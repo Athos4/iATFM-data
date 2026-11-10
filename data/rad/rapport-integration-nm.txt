@@ -1,0 +1,167 @@
+RAPPORT D'INTEGRATION RAD NM — AIRAC 2611
+2026-11-06T21:26:38.777362+00:00
+
+Extraction : 40378 / 40378 restrictions (100.00 %).
+Restrictions encore absentes : 0.
+Conversion sans diagnostic incomplet : 38790 / 40224 états (96.43 %).
+Conversion des seuls états non désactivés : 96.96 %.
+Le dénominateur inclut tous les états disponibles qui intersectent l'AIRAC, y compris les états désactivés.
+Les occurrences de diagnostics se recoupent : les effectifs par motif ne doivent pas être additionnés.
+Ce taux mesure la traduction des états AIRAC capturés ; il ne représente pas une validation opérationnelle IFPS.
+Le catalogue NM est sélectionné en mode avec diagnostics. Le fichier Excel est conservé en secours ; la sélection ne constitue pas une validation opérationnelle.
+
+DONNEES NECESSAIRES A L'EXECUTION DES OPERATEURS TRADUITS
+- nativeActivation : 5183 états exigent un contexte daté. Sans contexte valable : résultat indéterminé.
+- aircraftClassification : 192 états exigent un contexte daté. Sans contexte valable : résultat indéterminé.
+- nativeRouteAvailability : 209 états exigent un contexte daté. Sans contexte valable : résultat indéterminé.
+- aircraftOperator : 120 états exigent un contexte daté. Sans contexte valable : résultat indéterminé.
+Les activations natives exigent une liste complète d'allocations, la même identité de source et, pour FUA, l'affectation explicite de la restriction.
+La disponibilité ATS/CDR exige nativeRouteAvailability : chaque segment doit avoir au moins un niveau ouvert, avec références natives et fenêtres datées complètes.
+Les espaces sont résolus depuis le référentiel local ; routes et points depuis la navdata X-Plane.
+La résolution exhaustive des identifiants et la comparaison avec NM restent à valider.
+Les PTR traduites sont raccordées aux outils locaux de profil et de vérification FPL. Leur propagation aux comptages CASA globaux reste à valider.
+Si un ajustement ou son extension ne respecte pas les bornes après recalcul, il est signalé comme non appliqué ; les règles ne sont pas supprimées pour augmenter le taux.
+
+Le choix d'un passage au-dessus ou au-dessous d'une tranche PTR produit un profil admissible dans le modèle local ; son identité avec le profil choisi par NM n'est pas démontrée.
+CONDITIONS NON TRADUITES
+- stateValidityReference : 521 états, dont 493 non désactivés.
+  Cause : Le type de lieu de référence n'a pas encore de traduction temporelle complète, notamment dans les familles DCT/FRA. Les portions ATS et SID/STAR utilisent maintenant leur premier segment lorsque la navdata permet de le résoudre.
+  Exemples : BL100A, BLEPLB500A, BLES500A, BLFDCT500A, BLFEPN500A, BLSEE500A, DSED400A, DSEV400A
+  Types natifs : CrossingBorderDctLimitRestrictionCondition, CrossingDctLimitRestrictionCondition, HSPTRestrictionCondition, TpAircraftTypeRestrictionCondition
+- unhandledStateFields : 401 états, dont 377 non désactivés.
+  Cause : Des champs sémantiques supplémentaires de l'état natif ne sont pas encore interprétés ; l'état original est conservé.
+  Exemples : BL100A, BLEPLB500A, BLES500A, BLFDCT500A, BLFEPN500A, BLSEE500A, DUEDUN500A, DUNDUE500A
+- localVerticalLimits : 390 états, dont 374 non désactivés.
+  Cause : Limites de procédures ou des familles DCT/FRA non encore évaluées complètement. Les tranches ordinaires et inversées GND–FLOOR / CEILING–UNL sont prises en charge pour HS et les conditions PTR sur RFL, avec composition des blocs superposés.
+  Exemples : BL100A, DSEC1000A, DSEC1000B, DSEC1001A, DSNEE1A, DSNEW10A, DSNEW10B, DSNEW10C
+  Types natifs : CrossingLocationElementAirspaceBorder, CrossingLocationElementPoint, CrossingLocationElementTerminalProcedure, RoutingElementDctSegment, RoutingElementPoint, RoutingElementRouteIdRelevant, RoutingElementTerminalProcedure
+- restrictionAction:MANDATORY : 298 états, dont 286 non désactivés.
+  Cause : Obligation d'une famille DCT/FRA : application de limites de distance et d'exceptions différente d'une route obligatoire HS.
+  Exemples : BL100A, BLEPLB500A, BLES500A, BLFDCT500A, BLFEPN500A, BLSEE500A, DSED400A, DSEV400A
+  Types natifs : DctLimitRestrictionState, FraDctLimitRestrictionState
+- condition:CrossingBorderDctLimitRestrictionCondition : 232 états, dont 222 non désactivés.
+  Cause : Famille de limitation DCT/FRA non traduite complètement : limite de distance, frontière ou connexion terminale et exceptions doivent être évaluées ensemble.
+  Exemples : BLEPLB500A, BLES500A, BLFDCT500A, BLFEPN500A, BLSEE500A, DSED400A, DSEV400A, DSUU400A
+  Types natifs : CrossingBorderDctLimitRestrictionCondition
+- referenceLocationApplicability : 231 états, dont 37 non désactivés.
+  Cause : Calendrier non traduit intégralement : dates spéciales, expressions étendues, calendrier absent ou horizon d'expansion insuffisant.
+  Exemples : EB9007A, EB9008A, EDUUE1019S, EDWW1022B, EUBID9WA, EUBID9WHA, EUDAFNA1A, EUDIBON1A
+- unhandledPropertyFields : 206 états, dont 193 non désactivés.
+  Cause : La propriété possède des paramètres supplémentaires ; ils ne sont pas ignorés pour produire artificiellement un résultat complet.
+  Exemples : EM0001A, EM0002A, EM0002B, EM0002C, EM1000A, EM1002A, EM1003A, EM1004A
+  Types natifs : AircraftIdCondition, EMArgumentCondition, EMArgumentWildcardCondition, EMEobtWithinCondition, EMFlightPlanPatternCondition, EMMessageOriginatorCondition, EMNumberCondition
+- fraPointRole : 163 états, dont 156 non désactivés.
+  Cause : Les frontières dirigées avec points ENTRY_EXIT et bandes numériques inclusives sont prises en charge et corrélées au DCT franchissant. Restent les points intermédiaires FRA en route, les rôles séparés et les combinaisons non reconnues ; un simple passage au point est insuffisant.
+  Exemples : BL100A, DSNEE1A, DSNEE2A, DSNEE2B, DSNEE2C, DSNEE2D, DSNEE2E, DSNEW10A
+  Types natifs : RoutingElementPoint
+- profileAdjustment : 112 états, dont 106 non désactivés.
+  Cause : Combinaison PTR encore non prise en charge : séquences de plusieurs lieux ordonnés, extension terminale d'une portion ATS/DCT, bornes inversées de l'ajustement ou références incompatibles. Les points, portions ATS/DCT, volumes obligatoires, extensions terminales des volumes interdits et alternatives simples sont raccordés au profil local et contrôlés après recalcul. Une PTR ne provoque jamais directement un rejet du plan de vol.
+  Exemples : EDGG1001A, EDGG1005A, EDGG1006A, EDGG1030A, EDGG1032A, EDGG1033A, EDGG9013A, EDGG9013B
+  Types natifs : PTRestrictionState
+- restrictionAction:REJECT : 91 états, dont 91 non désactivés.
+  Cause : Action du traitement des messages IFPS : elle dépend du contexte et des erreurs du message, dont iATFM n'implémente pas le pipeline natif.
+  Exemples : EM4001A, EM4002A, EM4003A, EM4004A, EM4005A, EM4006A, EM4007A, EM4008A
+  Types natifs : ErrorManagementRestrictionState
+- property:RemarkCondition : 83 états, dont 79 non désactivés.
+  Cause : Type ou syntaxe de propriété non interprété complètement (notamment motifs de texte, immatriculation ou origine du message).
+  Exemples : EDD100ZR, EDD101ZR, EDD101ZS, EDD101ZT, EDD102ZR, EDD103ZR, EDR107CZR, EDR107WZR
+  Types natifs : RemarkCondition
+- ioatPortion : 67 états, dont 67 non désactivés.
+  Cause : La sélection de la portion iOAT/GAT du vol reste à implémenter.
+  Exemples : EB8005A, EDD100ZR, EDD101ZR, EDD101ZS, EDD101ZT, EDD102ZR, EDD103ZR, EDD46ZR
+- dependentApplicabilityFlags : 63 états, dont 61 non désactivés.
+  Cause : Combinaison FUA RAD, limites étendues ou indicateurs d'applicabilité non prise en charge ; aucune valeur par défaut n'est substituée.
+  Exemples : EFTZ2046X, EFTZ2047X, EFTZ2047XB, EFTZ2048X, EFTZ2049X, EFTZ2050X, EFTZ2051X, EFTZ2052X
+  Types natifs : DependentApplicability
+- condition:CrossingDctLimitRestrictionCondition : 61 états, dont 58 non désactivés.
+  Cause : Famille de limitation DCT/FRA non traduite complètement : limite de distance, frontière ou connexion terminale et exceptions doivent être évaluées ensemble.
+  Exemples : BL100A, EDMM100E, EDMM100EB, EDMM100S, EDUU100E, EDUU100N, EDUU100W, EDUU100WN
+  Types natifs : CrossingDctLimitRestrictionCondition
+- restrictionAction:IGNORE : 58 états, dont 53 non désactivés.
+  Cause : Suppression conditionnelle d'une erreur de traitement IFPS ; il manque la correspondance avec les erreurs natives et leur contexte.
+  Exemples : EM4052B, EM6001A, EM6002A, EM6004A, EM6005A, EM7000B, EM7000C, EM7000D
+  Types natifs : ErrorManagementRestrictionState
+- profileLocation : 38 états, dont 37 non désactivés.
+  Cause : Condition PTR sur un type de lieu encore non couvert, notamment procédure, frontière ou DCT. Les points, volumes ordinaires et portions ATS utilisées partiellement sont évalués sur le RFL ; cela ne suffit pas à traduire l'ajustement vertical associé.
+  Exemples : EB9004A, EDGG1101A, EDMM1001A, EDMM1002A, EDMM1003A, EDUUS1036A, EDUUW9006A, EGTT8092A
+  Types natifs : CrossingLocationElementAirspaceBorder, CrossingLocationElementTerminalProcedure
+- restrictionAction:HIGHLIGHT : 25 états, dont 18 non désactivés.
+  Cause : Action de traitement ou surveillance de messages IFPS ; iATFM ne possède pas encore le pipeline de messages correspondant.
+  Exemples : EM0001A, EM0002A, EM0002B, EM0002C, EM3000A, EM3001A, EM3018A, EM3022A
+  Types natifs : ErrorManagementRestrictionState
+- restrictionAction:FORBIDDEN_FOR_DCT : 24 états, dont 21 non désactivés.
+  Cause : L'interdiction doit être appliquée aux segments DCT traversant le volume concerné, avec leurs limites et exceptions. Le contrôle terminal de longueur DCT ne couvre pas cette action.
+  Exemples : ED3307A, ED3307B, ED3307C, ED3307D, EDMM1M, EULINDCT1A, EUROEDDM1A, EUROEDGG1A
+  Types natifs : HSRestrictionState
+- airborneOnly : 22 états, dont 20 non désactivés.
+  Cause : La restriction est réservée au profil CTFM d'un vol activé. La sélection selon l'état opérationnel en vol n'est pas raccordée au calcul local des profils prévol.
+  Exemples : LE2080P, LE2409P, LE2409Q, LECP1002A, LEIB1501AO, LEPA1501AO, LEPA1502AO, LEPA1503AO
+- aupRad : 19 états, dont 19 non désactivés.
+  Cause : L'activation propre à la restriction via AUP/UUP reste à relier au contexte daté.
+  Exemples : EF2046A, EF2047A, EF2048A, EF2049A, EF2050A, EF2051A, EF2052A, EP4011A
+- restrictionAction:FORBIDDEN : 15 états, dont 14 non désactivés.
+  Cause : Action native non couverte pour ce type d'état et cette combinaison de paramètres.
+  Exemples : EDMM100EB, EDUU100WN, EISN100B, EY100B, GMAC100B, LFEE100B, LFNE100B, LG100B
+  Types natifs : FraDctLimitRestrictionState
+- dependentCondition: : 14 états, dont 14 non désactivés.
+  Cause : La définition dépendante ne fournit pas une condition reconnue ; interprétation impossible sans sa sémantique native.
+  Exemples : EF2046A, EF2047A, EF2048A, EF2049A, EF2050A, EF2051A, EF2052A, EP4011A
+- restrictionAction:MM_FORCE_INVALID : 13 états, dont 11 non désactivés.
+  Cause : Action de traitement ou surveillance de messages IFPS ; iATFM ne possède pas encore le pipeline de messages correspondant.
+  Exemples : MM0001A, MM1000A, MM1001A, MM1002A, MM2251, MM2252, MM2258, MM2259
+  Types natifs : MessageMonitoringRestrictionState
+- restrictionAction:MM_ALERT : 10 états, dont 9 non désactivés.
+  Cause : Action de traitement ou surveillance de messages IFPS ; iATFM ne possède pas encore le pipeline de messages correspondant.
+  Exemples : MM1003A, MM2001A, MM2003A, MM2004A, MM2011A, MM2027, MM2028, MM2029
+  Types natifs : MessageMonitoringRestrictionState
+- property:FlightPlanSourceCondition : 9 états, dont 9 non désactivés.
+  Cause : Type ou syntaxe de propriété non interprété complètement (notamment motifs de texte, immatriculation ou origine du message).
+  Exemples : EM1003A, EM4028A, EM5002A, EM5003A, EM5004A, EM5005A, EUCPDLC01A, EUIFPS001A
+  Types natifs : FlightPlanSourceCondition
+- restrictionAction:REPLACE : 7 états, dont 7 non désactivés.
+  Cause : Action de traitement ou surveillance de messages IFPS ; iATFM ne possède pas encore le pipeline de messages correspondant.
+  Exemples : EM3083A, EM8002A, EM8003A, EM8006A, EM8007A, EM8008A, EM8009A
+  Types natifs : ErrorManagementRestrictionState
+- restrictionAction:FORCE_INVALID : 5 états, dont 5 non désactivés.
+  Cause : Action de traitement ou surveillance de messages IFPS ; iATFM ne possède pas encore le pipeline de messages correspondant.
+  Exemples : EM1000A, EM1002A, EM1003A, EM1004A, EM2001A
+  Types natifs : ErrorManagementRestrictionState
+- enabledState : 2 états, dont 2 non désactivés.
+  Cause : Valeur d'activation différente des deux valeurs explicitement reconnues Enabled_TRUE/Enabled_FALSE.
+  Exemples : EUROGIN1B, EUROGOD1B
+- restrictionAction:DELETE : 2 états, dont 2 non désactivés.
+  Cause : Suppression conditionnelle dans le traitement des messages IFPS ; le moteur local ne reproduit pas ce traitement.
+  Exemples : EM8001A, EM8005A
+  Types natifs : ErrorManagementRestrictionState
+- property:AircraftCodeCondition : 1 états, dont 1 non désactivés.
+  Cause : Type ou syntaxe de propriété non interprété complètement (notamment motifs de texte, immatriculation ou origine du message).
+  Exemples : EUCPDLC01A
+  Types natifs : AircraftCodeCondition
+- property:AircraftRegistrationCondition : 1 états, dont 1 non désactivés.
+  Cause : Type ou syntaxe de propriété non interprété complètement (notamment motifs de texte, immatriculation ou origine du message).
+  Exemples : EUIFPS002A
+  Types natifs : AircraftRegistrationCondition
+- restrictionAction:CLOSED_FOR_ENTRY_BY_DCT : 1 états, dont 1 non désactivés.
+  Cause : Le lieu de référence n'est pas un point simple. Il faut corréler le franchissement de sa frontière au segment DCT entrant.
+  Exemples : EUROLF18A
+  Types natifs : HSRestrictionState
+
+BLOCAGES DE PUBLICATION
+pendingSemantics, runtimeValidationPending
+
+Les fichiers sources et leur empreinte SHA-256 figurent dans le rapport JSON ; les états natifs sont conservés dans le candidat.
+
+CONTEXTE LOCAL DISPONIBLE
+local-context.json absent.
+Enregistrements d'activation native : 0.
+Enregistrements de disponibilité ATS/CDR : 0.
+Les opérateurs d'activation sont traduits et testés ; leur résultat opérationnel reste indéterminé sans les allocations correspondantes.
+
+PRESENCE DES REFERENCES LOCALES
+Audit effectué sur 40378 restrictions capturées, 40224 états.
+17685 états traduits citent au moins un identifiant absent de l'inventaire local.
+Ce contrôle mesure la présence des identifiants, pas un échec sur un vol : les alias, les coordonnées et les identifiants comparés directement peuvent être résolus autrement.
+Les SID/STAR X-Plane sont inclus. Les identifiants absents et les règles concernées sont détaillés dans local-reference-audit.json.
+Date de source déclarée par le catalogue d'espaces : 2026-10-01. La compatibilité avec l'AIRAC RAD doit être validée.
+
+Liste exhaustive des états incomplets et des chemins des conditions : database-unconverted-rules.json.

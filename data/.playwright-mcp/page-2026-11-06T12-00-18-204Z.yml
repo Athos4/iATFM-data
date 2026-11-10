@@ -1,0 +1,452 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e6]:
+    - banner [ref=f8e7]:
+      - navigation [ref=f8e9]:
+        - link "NMP" [ref=f8e11] [cursor=pointer]:
+          - /url: /
+        - list [ref=f8e16]:
+          - listitem "Airspace" [ref=f8e17]:
+            - link "Airspace" [ref=f8e18] [cursor=pointer]:
+              - /url: /airspace
+          - listitem "Flight" [ref=f8e19]:
+            - link "Flight" [ref=f8e20] [cursor=pointer]:
+              - /url: /flight
+          - listitem "FLOW" [ref=f8e21]:
+            - link "FLOW" [ref=f8e22] [cursor=pointer]:
+              - /url: /flow
+          - listitem "CRISIS" [ref=f8e23]:
+            - link "CRISIS" [ref=f8e24] [cursor=pointer]:
+              - /url: /cip
+          - listitem "RAD" [ref=f8e25]:
+            - link "RAD" [ref=f8e26] [cursor=pointer]:
+              - /url: https://nrp-ops.nmui.eurocontrol.int/rad
+        - navigation [ref=f8e28]:
+          - list [ref=f8e30]:
+            - listitem [ref=f8e31]:
+              - navigation [ref=f8e33]:
+                - list [ref=f8e35]:
+                  - listitem [ref=f8e36]:
+                    - button "CMAR MED" [ref=f8e42] [cursor=pointer]
+            - button [ref=f8e45] [cursor=pointer]
+      - navigation [ref=f8e48]:
+        - list [ref=f8e50]:
+          - listitem "Airblock" [ref=f8e51]:
+            - link [ref=f8e52] [cursor=pointer]:
+              - /url: /airspace/ab
+          - listitem "Aircraft" [ref=f8e59]:
+            - link [ref=f8e60] [cursor=pointer]:
+              - /url: /airspace/ac
+          - listitem "Aerodrome" [ref=f8e67]:
+            - link [ref=f8e68] [cursor=pointer]:
+              - /url: /airspace/ad
+          - listitem "Airspace" [ref=f8e75]:
+            - link [ref=f8e76] [cursor=pointer]:
+              - /url: /airspace/as
+          - listitem "Aerodrome Set" [ref=f8e83]:
+            - link [ref=f8e84] [cursor=pointer]:
+              - /url: /airspace/az
+          - listitem "Flow" [ref=f8e91]:
+            - link [ref=f8e92] [cursor=pointer]:
+              - /url: /airspace/fw
+          - listitem "Point" [ref=f8e99]:
+            - link [ref=f8e100] [cursor=pointer]:
+              - /url: /airspace/pt
+          - listitem "Restriction Group" [ref=f8e109]:
+            - link [ref=f8e110] [cursor=pointer]:
+              - /url: /airspace/rg
+          - listitem "Reference Location" [ref=f8e117]:
+            - link [ref=f8e118] [cursor=pointer]:
+              - /url: /airspace/rl
+          - listitem "Restriction" [ref=f8e125]:
+            - link "Restriction" [ref=f8e126] [cursor=pointer]:
+              - /url: /airspace/rs
+          - listitem "Route" [ref=f8e134]:
+            - link [ref=f8e135] [cursor=pointer]:
+              - /url: /airspace/rt
+          - listitem "Traffic Volume" [ref=f8e142]:
+            - link [ref=f8e143] [cursor=pointer]:
+              - /url: /airspace/tv
+          - listitem "Unit" [ref=f8e150]:
+            - link [ref=f8e151] [cursor=pointer]:
+              - /url: /airspace/ut
+          - listitem "Traffic Volume Set" [ref=f8e158]:
+            - link [ref=f8e159] [cursor=pointer]:
+              - /url: /airspace/vs
+        - navigation [ref=f8e167]:
+          - list [ref=f8e169]:
+            - listitem [ref=f8e170]:
+              - generic [ref=f8e178] [cursor=pointer]:
+                - combobox "Search..."
+                - img "search" [ref=f8e180]
+            - listitem [ref=f8e183]:
+              - generic [ref=f8e184]: Process
+      - generic [ref=f8e189]:
+        - generic [ref=f8e190]:
+          - generic [ref=f8e191]: Production OPS 2611
+          - generic [ref=f8e200]: ADMR
+          - img "pushpin" [ref=f8e209] [cursor=pointer]
+          - generic [ref=f8e217]:
+            - textbox "29-10-2026" [ref=f8e218]:
+              - /placeholder: Select date
+            - generic:
+              - img "calendar"
+        - button "Map" [ref=f8e224] [cursor=pointer]
+    - main [ref=f8e226]:
+      - generic [ref=f8e232]:
+        - generic [ref=f8e233]:
+          - generic [ref=f8e234]:
+            - img "search" [ref=f8e236]
+            - generic [ref=f8e240] [cursor=pointer]
+          - text: ": : : : : : : :"
+        - generic [ref=f8e243]:
+          - generic [ref=f8e244]:
+            - img "table" [ref=f8e246]
+            - generic [ref=f8e250] [cursor=pointer]
+          - generic [ref=f8e253]:
+            - generic [ref=f8e254]: Result
+            - generic [ref=f8e267]:
+              - generic [ref=f8e268]: "[ 1 of 40378 items selected]"
+              - table [ref=f8e272]:
+                - rowgroup [ref=f8e275]:
+                  - row [ref=f8e276]:
+                    - columnheader [ref=f8e277]
+                    - columnheader [ref=f8e278]:
+                      - checkbox [ref=f8e281] [cursor=pointer]
+                    - columnheader [ref=f8e283] [cursor=pointer]:
+                      - generic [ref=f8e284]:
+                        - generic [ref=f8e286]:
+                          - text: ID
+                          - generic [ref=f8e288]:
+                            - img "caret-up" [ref=f8e289]
+                            - img "caret-down" [ref=f8e292]
+                        - button [ref=f8e295]:
+                          - img "filter" [ref=f8e296]
+                    - columnheader [ref=f8e299] [cursor=pointer]:
+                      - generic [ref=f8e300]:
+                        - generic [ref=f8e302]:
+                          - text: Type
+                          - generic [ref=f8e304]:
+                            - img "caret-up" [ref=f8e305]
+                            - img "caret-down" [ref=f8e308]
+                        - button [ref=f8e311]:
+                          - img "filter" [ref=f8e312]
+                    - columnheader [ref=f8e315] [cursor=pointer]:
+                      - generic [ref=f8e316]:
+                        - generic [ref=f8e318]:
+                          - text: Remarks
+                          - generic [ref=f8e320]:
+                            - img "caret-up" [ref=f8e321]
+                            - img "caret-down" [ref=f8e324]
+                        - button [ref=f8e327]:
+                          - img "filter" [ref=f8e328]
+                - rowgroup [ref=f8e331]:
+                  - row [ref=f8e332]:
+                    - cell [ref=f8e333]:
+                      - generic [ref=f8e335]:
+                        - generic:
+                          - grid:
+                            - row
+                            - rowgroup "grid" [ref=f8e336]:
+                              - rowgroup [ref=f8e337]:
+                                - generic [ref=f8e1009]:
+                                  - checkbox [ref=f8e1013] [cursor=pointer]
+                                  - link "BLUMMV500A" [ref=f8e1019] [cursor=pointer]:
+                                    - /url: /airspace/rs/BLUMMV500A?branchId=production&backendId=BLUMMV500A
+                                  - generic [ref=f8e1020]: Restriction
+                                  - text: FRA DCT Restriction
+                                - generic [ref=f8e1022]:
+                                  - checkbox [ref=f8e1026] [cursor=pointer]
+                                  - link "DAGMMM500A" [ref=f8e1032] [cursor=pointer]:
+                                    - /url: /airspace/rs/DAGMMM500A?branchId=production&backendId=DAGMMM500A
+                                  - generic [ref=f8e1033]: Restriction
+                                  - text: FRA DCT Restriction
+                                - generic [ref=f8e1035]:
+                                  - checkbox [ref=f8e1039] [cursor=pointer]
+                                  - link "DALE500A" [ref=f8e1045] [cursor=pointer]:
+                                    - /url: /airspace/rs/DALE500A?branchId=production&backendId=DALE500A
+                                  - generic [ref=f8e1046]: Restriction
+                                  - text: FRA DCT Restriction
+                                - generic [ref=f8e1048]:
+                                  - checkbox [ref=f8e1052] [cursor=pointer]
+                                  - link "DALFMM500A" [ref=f8e1058] [cursor=pointer]:
+                                    - /url: /airspace/rs/DALFMM500A?branchId=production&backendId=DALFMM500A
+                                  - generic [ref=f8e1059]: Restriction
+                                  - text: FRA DCT Restriction
+                                - generic [ref=f8e1061]:
+                                  - checkbox [ref=f8e1065] [cursor=pointer]
+                                  - link "DS8004A" [ref=f8e1071] [cursor=pointer]:
+                                    - /url: /airspace/rs/DS8004A?branchId=production&backendId=DS8004A
+                                  - generic [ref=f8e1072]: Restriction
+                                  - text: Profile Tuning Restriction
+                                - generic [ref=f8e1074]:
+                                  - checkbox [ref=f8e1078] [cursor=pointer]
+                                  - link "DS8005A" [ref=f8e1084] [cursor=pointer]:
+                                    - /url: /airspace/rs/DS8005A?branchId=production&backendId=DS8005A
+                                  - generic [ref=f8e1085]: Restriction
+                                  - text: Profile Tuning Restriction
+                                - generic [ref=f8e1087]:
+                                  - checkbox [ref=f8e1091] [cursor=pointer]
+                                  - link "DSEC1000A" [ref=f8e1097] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSEC1000A?branchId=production&backendId=DSEC1000A
+                                  - generic [ref=f8e1098]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1100]:
+                                  - checkbox [ref=f8e1104] [cursor=pointer]
+                                  - link "DSEC1000B" [ref=f8e1110] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSEC1000B?branchId=production&backendId=DSEC1000B%3A1
+                                  - generic [ref=f8e1111]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1113]:
+                                  - checkbox [ref=f8e1117] [cursor=pointer]
+                                  - link "DSEC1001A" [ref=f8e1123] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSEC1001A?branchId=production&backendId=DSEC1001A
+                                  - generic [ref=f8e1124]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1126]:
+                                  - checkbox [ref=f8e1130] [cursor=pointer]
+                                  - link "DSED400A" [ref=f8e1136] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSED400A?branchId=production&backendId=DSED400A
+                                  - generic [ref=f8e1137]: Restriction
+                                  - text: DCT Limitation Restriction
+                                - generic [ref=f8e1139]:
+                                  - checkbox [ref=f8e1143] [cursor=pointer]
+                                  - link "DSEV400A" [ref=f8e1149] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSEV400A?branchId=production&backendId=DSEV400A
+                                  - generic [ref=f8e1150]: Restriction
+                                  - text: DCT Limitation Restriction
+                                - generic [ref=f8e1152]:
+                                  - checkbox [ref=f8e1156] [cursor=pointer]
+                                  - link "DSNEE1A" [ref=f8e1162] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEE1A?branchId=production&backendId=DSNEE1A%3A1
+                                  - generic [ref=f8e1163]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1165]:
+                                  - checkbox [checked] [ref=f8e1169] [cursor=pointer]
+                                  - link "DSNEE2A" [ref=f8e1175] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEE2A?branchId=production&backendId=DSNEE2A%3A1
+                                  - generic [ref=f8e1176]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1178]:
+                                  - checkbox [ref=f8e1182] [cursor=pointer]
+                                  - link "DSNEE2B" [ref=f8e1188] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEE2B?branchId=production&backendId=DSNEE2B
+                                  - generic [ref=f8e1189]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1191]:
+                                  - checkbox [ref=f8e1195] [cursor=pointer]
+                                  - link "DSNEE2C" [ref=f8e1201] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEE2C?branchId=production&backendId=DSNEE2C
+                                  - generic [ref=f8e1202]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1204]:
+                                  - checkbox [ref=f8e1208] [cursor=pointer]
+                                  - link "DSNEE2D" [ref=f8e1214] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEE2D?branchId=production&backendId=DSNEE2D
+                                  - generic [ref=f8e1215]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1217]:
+                                  - checkbox [ref=f8e1221] [cursor=pointer]
+                                  - link "DSNEE2E" [ref=f8e1227] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEE2E?branchId=production&backendId=DSNEE2E
+                                  - generic [ref=f8e1228]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1230]:
+                                  - checkbox [ref=f8e1234] [cursor=pointer]
+                                  - link "DSNEW10A" [ref=f8e1240] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEW10A?branchId=production&backendId=DSNEW10A
+                                  - generic [ref=f8e1241]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1243]:
+                                  - checkbox [ref=f8e1247] [cursor=pointer]
+                                  - link "DSNEW10B" [ref=f8e1253] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEW10B?branchId=production&backendId=DSNEW10B
+                                  - generic [ref=f8e1254]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1256]:
+                                  - checkbox [ref=f8e1260] [cursor=pointer]
+                                  - link "DSNEW10C" [ref=f8e1266] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEW10C?branchId=production&backendId=DSNEW10C
+                                  - generic [ref=f8e1267]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1269]:
+                                  - checkbox [ref=f8e1273] [cursor=pointer]
+                                  - link "DSNEW10D" [ref=f8e1279] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEW10D?branchId=production&backendId=DSNEW10D
+                                  - generic [ref=f8e1280]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1282]:
+                                  - checkbox [ref=f8e1286] [cursor=pointer]
+                                  - link "DSNEW10E" [ref=f8e1292] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEW10E?branchId=production&backendId=DSNEW10E
+                                  - generic [ref=f8e1293]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1295]:
+                                  - checkbox [ref=f8e1299] [cursor=pointer]
+                                  - link "DSNEW10F" [ref=f8e1305] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEW10F?branchId=production&backendId=DSNEW10F
+                                  - generic [ref=f8e1306]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1308]:
+                                  - checkbox [ref=f8e1312] [cursor=pointer]
+                                  - link "DSNEW10G" [ref=f8e1318] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEW10G?branchId=production&backendId=DSNEW10G
+                                  - generic [ref=f8e1319]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1321]:
+                                  - checkbox [ref=f8e1325] [cursor=pointer]
+                                  - link "DSNEW10H" [ref=f8e1331] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEW10H?branchId=production&backendId=DSNEW10H
+                                  - generic [ref=f8e1332]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1334]:
+                                  - checkbox [ref=f8e1338] [cursor=pointer]
+                                  - link "DSNEW10I" [ref=f8e1344] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEW10I?branchId=production&backendId=DSNEW10I
+                                  - generic [ref=f8e1345]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1347]:
+                                  - checkbox [ref=f8e1351] [cursor=pointer]
+                                  - link "DSNEW1A" [ref=f8e1357] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSNEW1A?branchId=production&backendId=DSNEW1A%3A1
+                                  - generic [ref=f8e1358]: Restriction
+                                  - text: Hard/Soft Traffic Flow Restriction
+                                - generic [ref=f8e1360]:
+                                  - checkbox [ref=f8e1364] [cursor=pointer]
+                                  - link "DSUU400A" [ref=f8e1370] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSUU400A?branchId=production&backendId=DSUU400A
+                                  - generic [ref=f8e1371]: Restriction
+                                  - text: DCT Limitation Restriction
+                                - generic [ref=f8e1373]:
+                                  - checkbox [ref=f8e1377] [cursor=pointer]
+                                  - link "DSYY8001A" [ref=f8e1383] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSYY8001A?branchId=production&backendId=DSYY8001A
+                                  - generic [ref=f8e1384]: Restriction
+                                  - text: Profile Tuning Restriction
+                                - generic [ref=f8e1386]:
+                                  - checkbox [ref=f8e1390] [cursor=pointer]
+                                  - link "DSYY8003A" [ref=f8e1396] [cursor=pointer]:
+                                    - /url: /airspace/rs/DSYY8003A?branchId=production&backendId=DSYY8003A
+                                  - generic [ref=f8e1397]: Restriction
+                                  - text: Profile Tuning Restriction
+                                - generic [ref=f8e1399]:
+                                  - checkbox [ref=f8e1403] [cursor=pointer]
+                                  - link "DTLI500A" [ref=f8e1409] [cursor=pointer]:
+                                    - /url: /airspace/rs/DTLI500A?branchId=production&backendId=DTLI500A%3A1
+                                  - generic [ref=f8e1410]: Restriction
+                                  - text: FRA DCT Restriction
+                                - generic [ref=f8e1412]:
+                                  - checkbox [ref=f8e1416] [cursor=pointer]
+                                  - link "DUEDUN500A" [ref=f8e1422] [cursor=pointer]:
+                                    - /url: /airspace/rs/DUEDUN500A?branchId=production&backendId=DUEDUN500A
+                                  - generic [ref=f8e1423]: Restriction
+                                  - text: FRA DCT Restriction
+                                - generic [ref=f8e1425]:
+                                  - checkbox [ref=f8e1429] [cursor=pointer]
+                                  - link "DUEDUW500A" [ref=f8e1435] [cursor=pointer]:
+                                    - /url: /airspace/rs/DUEDUW500A?branchId=production&backendId=DUEDUW500A
+                                  - generic [ref=f8e1436]: Restriction
+                                  - text: FRA DCT Restriction
+              - generic [ref=f8e767]:
+                - button [ref=f8e768] [cursor=pointer]:
+                  - img "printer" [ref=f8e769]
+                - generic [ref=f8e772]:
+                  - button "Compare" [disabled]
+                - generic [ref=f8e773]:
+                  - button "Plot" [ref=f8e774] [cursor=pointer]
+                  - button [active] [ref=f8e776] [cursor=pointer]:
+                    - img "ellipsis" [ref=f8e777]
+        - generic [ref=f8e780]:
+          - generic [ref=f8e781]:
+            - img "profile" [ref=f8e783]
+            - generic [ref=f8e787] [cursor=pointer]
+          - generic [ref=f8e790]:
+            - generic [ref=f8e791]: Details
+            - generic [ref=f8e800]:
+              - generic [ref=f8e802]:
+                - generic [ref=f8e811]:
+                  - generic [ref=f8e812]: RS DSNEE2A
+                  - generic [ref=f8e813]: "Branch: Production OPS 2611"
+                  - generic [ref=f8e1437]: "Data loaded at: 06-11-26 11:59:23"
+                - generic [ref=f8e818]:
+                  - generic [ref=f8e1440]:
+                    - generic: "2508"
+                    - generic [ref=f8e1441]: 07-08-2025
+                  - generic [ref=f8e1442] [cursor=pointer]
+                  - generic [ref=f8e1444]: UFN
+              - generic [ref=f8e828]: VALAK
+              - generic [ref=f8e871]:
+                - generic [ref=f8e873]:
+                  - tablist [ref=f8e874]:
+                    - generic [ref=f8e876]:
+                      - tab "Info" [selected] [ref=f8e878] [cursor=pointer]
+                      - tab "Flow Conditions" [ref=f8e1451] [cursor=pointer]
+                      - tab "Flow Routings" [ref=f8e1453] [cursor=pointer]
+                      - tab "Applicability" [ref=f8e1455] [cursor=pointer]
+                      - tab "Conditions" [ref=f8e1457] [cursor=pointer]
+                      - tab "Where Used" [ref=f8e886] [cursor=pointer]
+                  - tabpanel "Info" [ref=f8e889]:
+                    - generic [ref=f8e893]:
+                      - generic [ref=f8e895]:
+                        - generic [ref=f8e1458]:
+                          - generic "ID" [ref=f8e1460]: "* ID :"
+                          - textbox "* ID :" [disabled] [ref=f8e1464]:
+                            - /placeholder: ID
+                            - text: DSNEE2A
+                        - generic [ref=f8e1465]:
+                          - generic "Flight Plan Processing" [ref=f8e1467]: "* Flight Plan Processing :"
+                          - generic [ref=f8e1472]:
+                            - combobox "* Flight Plan Processing :" [disabled] [ref=f8e1474]
+                            - generic "Hard/Soft Traffic Flow Restriction" [ref=f8e1475]
+                        - generic [ref=f8e1476]:
+                          - generic "Enabled" [ref=f8e1478]: "Enabled :"
+                          - generic [ref=f8e1483]:
+                            - combobox "Enabled :" [disabled] [ref=f8e1485]
+                            - generic "Yes" [ref=f8e1486]
+                        - generic [ref=f8e1487]:
+                          - generic "iOAT Portion" [ref=f8e1489]: "iOAT Portion :"
+                          - generic [ref=f8e1494]:
+                            - combobox "iOAT Portion :" [disabled] [ref=f8e1496]
+                            - generic "Non-iOAT" [ref=f8e1497]
+                        - generic [ref=f8e1498]:
+                          - generic "Auto DST Change" [ref=f8e1500]: "Auto DST Change :"
+                          - generic [ref=f8e1505]:
+                            - checkbox "Auto DST Change :" [disabled]
+                        - generic [ref=f8e1507]:
+                          - generic "B2B Export" [ref=f8e1509]: "B2B Export :"
+                          - generic [ref=f8e1514]:
+                            - checkbox "B2B Export :" [checked] [disabled]
+                        - generic [ref=f8e1516]:
+                          - generic "Operational Goal" [ref=f8e1518]: "Operational Goal :"
+                          - textbox "Operational Goal :" [disabled] [ref=f8e1522]:
+                            - /placeholder: Operational Goal
+                            - text: MANDATORY BORDERPOINTS BETWEEN DK-ES FAB EAST AND NEFAB EAST (KVARKEN DELEGATION)EXCEPT FOR TRAFFIC WITH RFL ABOVE FL285 IN EF,DSFAB .
+                        - generic [ref=f8e1525]:
+                          - generic "Description" [ref=f8e1527]: "Description :"
+                          - textbox "Description :" [disabled] [ref=f8e1531]:
+                            - /placeholder: Description
+                            - text: ES AIC 12/2019 MANDATORY BORDERPOINTS$ BETWEEN DSFAB AND NEFAB EAST EXCEPT WITH FRL ABOVE FL285 IN DSFAB OR NEFABEAST.FRA FLIGHT PLANNING REQUIREMENT.
+                        - generic [ref=f8e1534]:
+                          - generic "Hard/Soft Classification" [ref=f8e1536]: "Hard/Soft Classification :"
+                          - generic [ref=f8e1541]:
+                            - combobox "Hard/Soft Classification :" [disabled] [ref=f8e1543]
+                            - generic "Hard Traffic Flow Restriction" [ref=f8e1544]
+                        - generic [ref=f8e1547]:
+                          - generic "Vertical Limits Reference" [ref=f8e1549]: "Vertical Limits Reference :"
+                          - generic [ref=f8e1554]:
+                            - combobox "Vertical Limits Reference :" [disabled] [ref=f8e1556]
+                            - generic "Calculated Altitude" [ref=f8e1557]
+                        - generic [ref=f8e1560]:
+                          - generic "FRA Arrival/Departure" [ref=f8e1562]: "FRA Arrival/Departure :"
+                          - generic [ref=f8e1567]:
+                            - combobox "FRA Arrival/Departure :" [disabled] [ref=f8e1569]
+                            - generic "No" [ref=f8e1570]
+                      - button "Get Operational Goal" [disabled] [ref=f8e987]
+                - generic [ref=f8e990]:
+                  - button [ref=f8e992] [cursor=pointer]:
+                    - img "printer" [ref=f8e993]
+                  - generic [ref=f8e1001]:
+                    - button "New Map" [ref=f8e1002] [cursor=pointer]
+                    - button [ref=f8e1004] [cursor=pointer]:
+                      - img "ellipsis" [ref=f8e1005]
+  - generic: No dossiers
+  - tooltip "Plot on a new map or on an existing dossier" [ref=f8e1576]

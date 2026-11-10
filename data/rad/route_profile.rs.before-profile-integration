@@ -1,0 +1,3612 @@
+#[derive(Debug, serde::Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct VerticalProfilePoint {
+    pub name: String,
+    pub distance_nm: Option<f64>,
+    pub altitude_ft: Option<f64>,
+    pub minute_offset: Option<u32>,
+    #[serde(skip)]
+    pub position: Option<Point>,
+}
+
+#[allow(clippy::too_many_arguments)]
+pub fn build_pilot_vertical_profile(
+    sampled_at: DateTime<Utc>,
+    pilot: &Pilot,
+    atcs: &[Controller],
+    route_navdata: &RouteNavdata,
+    navdata: &Navdata,
+    airport_winds: &BTreeMap<String, AirportWind>,
+    performance: &AircraftPerformanceDatabase,
+    weather: Option<&WeatherModel>,
+) -> Vec<VerticalProfilePoint> {
+    let lookup = build_aircraft_performance_lookup(performance);
+    let runways = build_active_runway_designators_by_airport(atcs);
+    build_flight_plan_trajectory(&sampled_at, pilot, route_navdata, navdata,
+        &runways, airport_winds, aircraft_performance_for_pilot(pilot, &lookup), weather,
+        &[], &[], &[])
+        .map(|trajectory| trajectory.route_point_profiles.into_iter().map(|point| VerticalProfilePoint {
+            name: point.name,
+            distance_nm: point.distance_offset_nm.filter(|value| value.is_finite()),
+            altitude_ft: point.altitude_ft.filter(|value| value.is_finite()),
+            minute_offset: point.minute_offset,
+            position: point.point,
+        }).collect()).unwrap_or_default()
+}
+
+#[derive(Debug, serde::Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct VerticalProfileSector {
+    pub sector_id: String,
+    pub unit_code: String,
+    pub block_id: String,
+    pub entry_minute: f64,
+    pub exit_minute: f64,
+    pub floor_ft: f64,
+    pub ceiling_ft: Option<f64>,
+}
+
+/// Slice elementary airblocks along resolved route segments. Edge intersections
+/// preserve narrow sectors even when both route points lie outside the polygon.
+pub fn build_vertical_profile_sectors(
+    points: &[VerticalProfilePoint], sectors: &[SectorSource],
+) -> Vec<VerticalProfileSector> {
+    let mut result: Vec<VerticalProfileSector> = Vec::new();
+    for sector in sectors.iter().filter(|sector| sector.is_elementary && !sector.eurocontrol.ignored_in_geometry) {
+        let Some(id) = &sector.id else { continue };
+        for block in &sector.blocks {
+            if block.polygon.len() < 3 || block.polygon.iter().any(|p| !p.lat.is_finite() || !p.lon.is_finite()) { continue; }
+            let floor = block.floor_ft.filter(|v| v.is_finite()).unwrap_or(0.0).max(0.0);
+            let ceiling = block.ceiling_ft.filter(|v| v.is_finite());
+            if ceiling.is_some_and(|v| v <= floor) { continue; }
+            let min_lat = block.polygon.iter().map(|p| p.lat).fold(f64::INFINITY, f64::min);
+            let max_lat = block.polygon.iter().map(|p| p.lat).fold(f64::NEG_INFINITY, f64::max);
+            let min_lon = block.polygon.iter().map(|p| p.lon).fold(f64::INFINITY, f64::min);
+            let max_lon = block.polygon.iter().map(|p| p.lon).fold(f64::NEG_INFINITY, f64::max);
+            let first_band = result.len();
+            for pair in points.windows(2) {
+                let (Some(a), Some(b), Some(t0), Some(t1), Some(h0), Some(h1)) =
+                    (pair[0].position, pair[1].position, pair[0].minute_offset, pair[1].minute_offset, pair[0].altitude_ft, pair[1].altitude_ft) else { continue };
+                if t1 <= t0 || ![a.lat, a.lon, b.lat, b.lon, h0, h1].iter().all(|v| v.is_finite())
+                    || a.lat.max(b.lat) < min_lat || a.lat.min(b.lat) > max_lat
+                    || a.lon.max(b.lon) < min_lon || a.lon.min(b.lon) > max_lon
+                    || (a.lon - b.lon).abs() > 180.0 { continue; }
+                let dx = b.lon - a.lon;
+                let dy = b.lat - a.lat;
+                let mut cuts = vec![0.0, 1.0];
+                for i in 0..block.polygon.len() {
+                    let c = block.polygon[i];
+                    let d = block.polygon[(i + 1) % block.polygon.len()];
+                    let ex = d.lon - c.lon;
+                    let ey = d.lat - c.lat;
+                    let denominator = dx * ey - dy * ex;
+                    if denominator.abs() < 1e-12 { continue; }
+                    let t = ((c.lon - a.lon) * ey - (c.lat - a.lat) * ex) / denominator;
+                    let u = ((c.lon - a.lon) * dy - (c.lat - a.lat) * dx) / denominator;
+                    if (0.0..=1.0).contains(&t) && (0.0..=1.0).contains(&u) { cuts.push(t); }
+                }
+                cuts.sort_by(f64::total_cmp);
+                cuts.dedup_by(|a, b| (*a - *b).abs() < 1e-9);
+                for span in cuts.windows(2) {
+                    let middle = (span[0] + span[1]) / 2.0;
+                    if !point_is_inside_polygon(Point { lat: a.lat + dy * middle, lon: a.lon + dx * middle }, &block.polygon) { continue; }
+                    let start_alt = h0 + (h1 - h0) * span[0];
+                    let end_alt = h0 + (h1 - h0) * span[1];
+                    if start_alt.max(end_alt) < floor || ceiling.is_some_and(|v| start_alt.min(end_alt) > v) { continue; }
+                    let entry = t0 as f64 + (t1 - t0) as f64 * span[0];
+                    let exit = t0 as f64 + (t1 - t0) as f64 * span[1];
+                    if result.len() > first_band && (result.last().unwrap().exit_minute - entry).abs() < 1e-6 {
+                        result.last_mut().unwrap().exit_minute = exit;
+                    } else {
+                        result.push(VerticalProfileSector { sector_id: id.clone(), unit_code: sector.unit_code.clone().unwrap_or_default(),
+                            block_id: block.id.clone().unwrap_or_default(), entry_minute: entry, exit_minute: exit, floor_ft: floor, ceiling_ft: ceiling });
+                    }
+                }
+            }
+        }
+    }
+    result
+}
+
+fn build_flight_plan_trajectory(
+    sampled_at: &DateTime<Utc>,
+    pilot: &Pilot,
+    route_navdata: &RouteNavdata,
+    procedure_navdata: &Navdata,
+    active_runways_by_airport: &HashMap<String, BTreeSet<String>>,
+    airport_winds: &BTreeMap<String, AirportWind>,
+    performance: Option<&AircraftPerformanceRecord>,
+    weather: Option<&WeatherModel>,
+    offsets: &[u32],
+    time_labels: &[String],
+    loa_constraints: &[MatchedLoaConstraint],
+) -> Option<FlightPlanTrajectory> {
+    let flight_plan = pilot.flight_plan.as_ref()?;
+    let expanded = expand_enriched_flight_route(
+        flight_plan,
+        route_navdata,
+        procedure_navdata,
+        active_runways_by_airport,
+        airport_winds,
+    );
+    let mut route_points = expanded.points;
+
+    // A direct airport-to-airport route still needs an en-route altitude
+    // anchor: both airport endpoints are constrained to ground level.
+    if route_points.len() == 2
+        && route_point_is_departure_airport(&route_points[0], flight_plan)
+        && route_point_is_arrival_airport(&route_points[1], flight_plan)
+        && let (Some(departure), Some(arrival)) = (route_points[0].point, route_points[1].point)
+        && haversine_distance_nm(departure, arrival) > 1.0
+    {
+        route_points.insert(1, EnrichedRoutePoint {
+            name: "DCT MIDPOINT".into(),
+            point: Some(interpolate_point(departure, arrival, 0.5)),
+            altitude_constraint: None, xfl_constraint: None, speed_constraint_kt: None,
+            step_altitude_ft: None, procedure_type: None, procedure_name: None, procedure_runway: None,
+        });
+    }
+
+    if route_points.is_empty() {
+        return None;
+    }
+
+    apply_loa_constraints_to_route_points(&mut route_points, loa_constraints);
+
+    let vertical_performance = vertical_performance(performance);
+    let speed_performance = speed_performance(performance);
+    let ground_speed = pilot_ground_speed_for_route(pilot)
+        .or(vertical_performance.cruise_speed_kt)
+        .filter(|speed| speed.is_finite() && *speed > 1.0);
+    let display_reference = default_trajectory_reference(pilot, flight_plan, &route_points);
+    let mut profiles = build_route_point_profiles(
+        &route_points,
+        display_reference.starting_point,
+        ground_speed,
+    );
+    let start_altitude = display_reference.start_altitude.or_else(|| {
+        parse_flight_plan_altitude(flight_plan.level.as_deref())
+            .map(|altitude| cap_to_aircraft_ceiling(altitude, &vertical_performance))
+    });
+
+    apply_vertical_profile(
+        &mut profiles,
+        &route_points,
+        flight_plan,
+        start_altitude,
+        vertical_performance,
+    );
+    insert_toc_tod_points(&mut route_points, &mut profiles, &vertical_performance);
+    apply_weather_timing_iterations(
+        sampled_at,
+        weather,
+        &display_reference,
+        &mut route_points,
+        &mut profiles,
+        flight_plan,
+        vertical_performance,
+        speed_performance,
+    );
+
+    let (projection_route_point_profiles, samples) = build_projection_route_profiles_and_samples(
+        sampled_at,
+        pilot,
+        flight_plan,
+        &route_points,
+        ground_speed,
+        vertical_performance,
+        speed_performance,
+        weather,
+        offsets,
+        time_labels,
+    );
+
+    Some(FlightPlanTrajectory {
+        route_point_profiles: profiles,
+        projection_route_point_profiles,
+        samples,
+    })
+}
+
+fn build_projection_route_profiles_and_samples(
+    sampled_at: &DateTime<Utc>,
+    pilot: &Pilot,
+    flight_plan: &FlightPlan,
+    route_points: &[EnrichedRoutePoint],
+    ground_speed: Option<f64>,
+    vertical_performance: VerticalPerformance,
+    speed_performance: SpeedPerformance,
+    weather: Option<&WeatherModel>,
+    offsets: &[u32],
+    time_labels: &[String],
+) -> (Vec<RoutePointProfile>, Vec<ForecastTrackPoint>) {
+    let reference = trajectory_reference(sampled_at, pilot, flight_plan, route_points);
+    let mut projection_route_points = reference.route_points.clone();
+
+    if projection_route_points.is_empty() {
+        return (Vec::new(), Vec::new());
+    }
+
+    let mut projection_profiles = build_route_point_profiles(
+        &projection_route_points,
+        reference.starting_point,
+        ground_speed,
+    );
+    let projection_start_altitude = reference.start_altitude.or_else(|| {
+        parse_flight_plan_altitude(flight_plan.level.as_deref())
+            .map(|altitude| cap_to_aircraft_ceiling(altitude, &vertical_performance))
+    });
+
+    apply_vertical_profile(
+        &mut projection_profiles,
+        &projection_route_points,
+        flight_plan,
+        projection_start_altitude,
+        vertical_performance,
+    );
+    insert_toc_tod_points(
+        &mut projection_route_points,
+        &mut projection_profiles,
+        &vertical_performance,
+    );
+    apply_weather_timing_iterations(
+        sampled_at,
+        weather,
+        &reference,
+        &mut projection_route_points,
+        &mut projection_profiles,
+        flight_plan,
+        vertical_performance,
+        speed_performance,
+    );
+
+    let samples = build_route_track_points(
+        sampled_at,
+        reference.starting_point,
+        projection_start_altitude,
+        &projection_profiles,
+        offsets,
+        time_labels,
+    );
+
+    (projection_profiles, samples)
+}
+
+fn trajectory_reference(
+    sampled_at: &DateTime<Utc>,
+    pilot: &Pilot,
+    flight_plan: &FlightPlan,
+    route_points: &[EnrichedRoutePoint],
+) -> TrajectoryReference {
+    if pilot_is_on_ground(pilot) {
+        return default_trajectory_reference(pilot, flight_plan, route_points);
+    }
+
+    if let Some(reference) = current_position_trajectory_reference(pilot, route_points) {
+        return reference;
+    }
+
+    if let Some(altitude) = pilot_current_altitude(pilot)
+        && altitude < AIRBORNE_ROUTE_REFERENCE_ALTITUDE_FT
+        && let Some(reference) =
+            actual_departure_trajectory_reference(sampled_at, pilot, flight_plan, route_points)
+    {
+        return reference;
+    }
+
+    default_trajectory_reference(pilot, flight_plan, route_points)
+}
+
+fn default_trajectory_reference(
+    pilot: &Pilot,
+    flight_plan: &FlightPlan,
+    route_points: &[EnrichedRoutePoint],
+) -> TrajectoryReference {
+    let departure_starting_point = departure_starting_point(flight_plan, route_points);
+    let starting_point = departure_starting_point
+        .or_else(|| pilot_current_point(pilot))
+        .or_else(|| first_resolved_route_point(route_points));
+    let start_altitude = if departure_starting_point.is_some() {
+        Some(0.0)
+    } else {
+        pilot_current_altitude(pilot)
+    };
+
+    TrajectoryReference {
+        route_points: route_points.to_vec(),
+        start_altitude,
+        starting_point,
+    }
+}
+
+fn actual_departure_trajectory_reference(
+    sampled_at: &DateTime<Utc>,
+    pilot: &Pilot,
+    flight_plan: &FlightPlan,
+    route_points: &[EnrichedRoutePoint],
+) -> Option<TrajectoryReference> {
+    let elapsed_minutes = actual_departure_elapsed_minutes(sampled_at, flight_plan)?;
+    let speed =
+        pilot_ground_speed_for_route(pilot).filter(|speed| speed.is_finite() && *speed > 1.0)?;
+    let departure_start = departure_starting_point(flight_plan, route_points)
+        .or_else(|| first_resolved_route_point(route_points))?;
+    let profiles = build_route_point_profiles(route_points, Some(departure_start), Some(speed));
+    let starting_point =
+        route_point_at_elapsed_minute(&profiles, departure_start, elapsed_minutes)?;
+    let first_future_index = profiles
+        .iter()
+        .position(|profile| {
+            profile
+                .minute_offset
+                .is_some_and(|minute_offset| minute_offset > elapsed_minutes)
+                && profile.point.is_some()
+        })
+        .unwrap_or(route_points.len());
+
+    Some(TrajectoryReference {
+        route_points: route_points
+            .iter()
+            .skip(first_future_index)
+            .cloned()
+            .collect(),
+        start_altitude: pilot_current_altitude(pilot),
+        starting_point: Some(starting_point),
+    })
+}
+
+fn current_position_trajectory_reference(
+    pilot: &Pilot,
+    route_points: &[EnrichedRoutePoint],
+) -> Option<TrajectoryReference> {
+    let track = pilot.last_track.as_ref()?;
+    let starting_point = pilot_current_point(pilot)?;
+    let altitude = pilot_current_altitude(pilot)?;
+    let speed = track
+        .ground_speed
+        .filter(|speed| speed.is_finite() && *speed > 1.0)?;
+    let heading = track.heading.filter(|heading| heading.is_finite())?;
+    let first_future_index =
+        next_route_point_index_from_position(route_points, starting_point, heading)?;
+
+    if !speed.is_finite() {
+        return None;
+    }
+
+    Some(TrajectoryReference {
+        route_points: route_points
+            .iter()
+            .skip(first_future_index)
+            .cloned()
+            .collect(),
+        start_altitude: Some(altitude),
+        starting_point: Some(starting_point),
+    })
+}
+
+fn pilot_is_on_ground(pilot: &Pilot) -> bool {
+    pilot
+        .last_track
+        .as_ref()
+        .is_some_and(|track| track.on_ground == Some(true))
+}
+
+fn departure_starting_point(
+    flight_plan: &FlightPlan,
+    route_points: &[EnrichedRoutePoint],
+) -> Option<Point> {
+    normalized_departure_id(flight_plan).and_then(|departure_id| {
+        route_points
+            .first()
+            .filter(|route_point| route_point.name == departure_id)
+            .and_then(|route_point| route_point.point)
+    })
+}
+
+fn first_resolved_route_point(route_points: &[EnrichedRoutePoint]) -> Option<Point> {
+    route_points
+        .iter()
+        .find_map(|route_point| route_point.point)
+}
+
+fn actual_departure_elapsed_minutes(
+    sampled_at: &DateTime<Utc>,
+    flight_plan: &FlightPlan,
+) -> Option<u32> {
+    let actual_departure = flight_plan
+        .actual_departure_time
+        .and_then(normalize_departure_minute_of_day)?;
+    let current_minute = sampled_at.hour() * 60 + sampled_at.minute();
+
+    Some(if current_minute >= actual_departure {
+        current_minute - actual_departure
+    } else {
+        current_minute + MINUTES_IN_DAY - actual_departure
+    })
+}
+
+fn route_point_at_elapsed_minute(
+    profiles: &[RoutePointProfile],
+    starting_point: Point,
+    elapsed_minutes: u32,
+) -> Option<Point> {
+    let mut anchors = vec![(0_u32, starting_point)];
+
+    for profile in profiles {
+        let (Some(minute_offset), Some(point)) = (profile.minute_offset, profile.point) else {
+            continue;
+        };
+
+        if anchors
+            .last()
+            .is_some_and(|(previous_minute, _)| *previous_minute == minute_offset)
+        {
+            continue;
+        }
+
+        anchors.push((minute_offset, point));
+    }
+
+    interpolate_point_anchor(&anchors, elapsed_minutes)
+}
+
+fn interpolate_point_anchor(anchors: &[(u32, Point)], minute_offset: u32) -> Option<Point> {
+    let first = anchors.first().copied()?;
+
+    if minute_offset <= first.0 || anchors.len() == 1 {
+        return Some(first.1);
+    }
+
+    for window in anchors.windows(2) {
+        let left = window[0];
+        let right = window[1];
+
+        if minute_offset <= right.0 {
+            let elapsed = right.0.saturating_sub(left.0) as f64;
+            let ratio = if elapsed <= 0.0 {
+                0.0
+            } else {
+                minute_offset.saturating_sub(left.0) as f64 / elapsed
+            };
+
+            return Some(interpolate_point(left.1, right.1, ratio.clamp(0.0, 1.0)));
+        }
+    }
+
+    anchors.last().map(|(_, point)| *point)
+}
+
+fn next_route_point_index_from_position(
+    route_points: &[EnrichedRoutePoint],
+    current_point: Point,
+    heading_degrees: f64,
+) -> Option<usize> {
+    let (closest_index, closest_point) = route_points
+        .iter()
+        .enumerate()
+        .filter_map(|(index, route_point)| {
+            let point = route_point.point?;
+            let distance = haversine_distance_nm(current_point, point);
+
+            distance.is_finite().then_some((index, point, distance))
+        })
+        .min_by(|left, right| compare_f64(left.2, right.2))
+        .map(|(index, point, _)| (index, point))?;
+
+    if point_is_abeam_or_behind(current_point, heading_degrees, closest_point)
+        && let Some((next_index, _)) = route_points
+            .iter()
+            .enumerate()
+            .skip(closest_index + 1)
+            .find_map(|(index, route_point)| route_point.point.map(|point| (index, point)))
+    {
+        return Some(next_index);
+    }
+
+    Some(closest_index)
+}
+
+fn point_is_abeam_or_behind(
+    current_point: Point,
+    heading_degrees: f64,
+    target_point: Point,
+) -> bool {
+    if haversine_distance_nm(current_point, target_point) <= ROUTE_POINT_PASS_DISTANCE_NM {
+        return true;
+    }
+
+    let Some(bearing) = initial_bearing_degrees(current_point, target_point) else {
+        return false;
+    };
+
+    heading_delta_degrees(heading_degrees, bearing).abs() >= 90.0
+}
+
+fn initial_bearing_degrees(from: Point, to: Point) -> Option<f64> {
+    if !from.lat.is_finite() || !from.lon.is_finite() || !to.lat.is_finite() || !to.lon.is_finite()
+    {
+        return None;
+    }
+
+    let lat1 = from.lat.to_radians();
+    let lat2 = to.lat.to_radians();
+    let delta_lon = (to.lon - from.lon).to_radians();
+    let y = delta_lon.sin() * lat2.cos();
+    let x = lat1.cos() * lat2.sin() - lat1.sin() * lat2.cos() * delta_lon.cos();
+
+    Some(y.atan2(x).to_degrees().rem_euclid(360.0))
+}
+
+fn heading_delta_degrees(from_heading: f64, to_bearing: f64) -> f64 {
+    (to_bearing - from_heading + 540.0).rem_euclid(360.0) - 180.0
+}
+
+fn expand_enriched_flight_route(
+    flight_plan: &FlightPlan,
+    route_navdata: &RouteNavdata,
+    procedure_navdata: &Navdata,
+    active_runways_by_airport: &HashMap<String, BTreeSet<String>>,
+    airport_winds: &BTreeMap<String, AirportWind>,
+) -> ExpandedFlightRoute {
+    let tokens = route_token_items(flight_plan.route.as_deref().unwrap_or_default());
+    let procedures = select_route_procedures(
+        flight_plan,
+        &tokens,
+        route_navdata,
+        procedure_navdata,
+        active_runways_by_airport,
+        airport_winds,
+    );
+    let mut points = Vec::new();
+    let mut index = 0_usize;
+
+    if let Some(departure_id) = normalize_route_identifier(flight_plan.departure_id.as_deref()) {
+        push_airport_route_point(&mut points, procedure_navdata, &departure_id);
+    }
+
+    if let Some(assignment) = procedures.departure.as_ref() {
+        push_procedure_route_points(&mut points, procedure_navdata, assignment);
+    }
+
+    while index < tokens.len() {
+        let token = &tokens[index];
+
+        if procedures.token_is_consumed(&token.name) {
+            index += 1;
+            continue;
+        }
+
+        if let Some(assignment) = procedures.explicit.get(&token.name) {
+            push_procedure_route_points(&mut points, procedure_navdata, assignment);
+            index += 1;
+            continue;
+        }
+
+        if index + 2 < tokens.len() {
+            let start = &tokens[index];
+            let airway = &tokens[index + 1];
+            let end = &tokens[index + 2];
+
+            if let Some(expanded) =
+                expand_airway_segment(&start.name, &airway.name, &end.name, route_navdata)
+            {
+                for point in expanded {
+                    let step_altitude_ft = if point == start.name {
+                        start.step_altitude_ft
+                    } else if point == end.name {
+                        end.step_altitude_ft
+                    } else {
+                        None
+                    };
+
+                    push_enriched_route_point(
+                        &mut points,
+                        EnrichedRoutePoint {
+                            name: point,
+                            point: None,
+                            altitude_constraint: None,
+                            xfl_constraint: None,
+                            speed_constraint_kt: None,
+                            step_altitude_ft,
+                            procedure_type: None,
+                            procedure_name: None,
+                            procedure_runway: None,
+                        },
+                    );
+                }
+
+                index += 2;
+                continue;
+            }
+        }
+
+        push_enriched_route_point(
+            &mut points,
+            EnrichedRoutePoint {
+                name: token.name.clone(),
+                point: None,
+                altitude_constraint: None,
+                xfl_constraint: None,
+                speed_constraint_kt: None,
+                step_altitude_ft: token.step_altitude_ft,
+                procedure_type: None,
+                procedure_name: None,
+                procedure_runway: None,
+            },
+        );
+        index += 1;
+    }
+
+    if let Some(assignment) = procedures.arrival.as_ref() {
+        push_procedure_route_points(&mut points, procedure_navdata, assignment);
+    }
+
+    if let Some(arrival_id) = normalize_route_identifier(flight_plan.arrival_id.as_deref()) {
+        push_airport_route_point(&mut points, procedure_navdata, &arrival_id);
+    }
+
+    ExpandedFlightRoute {
+        points: resolve_enriched_route_points(points, route_navdata),
+    }
+}
+
+#[derive(Clone, Debug, Default)]
+struct SelectedRouteProcedures {
+    departure: Option<ProcedureAssignment>,
+    arrival: Option<ProcedureAssignment>,
+    explicit: BTreeMap<String, ProcedureAssignment>,
+    consumed_tokens: BTreeSet<String>,
+}
+
+impl SelectedRouteProcedures {
+    fn token_is_consumed(&self, token: &str) -> bool {
+        self.consumed_tokens.contains(token)
+    }
+}
+
+fn select_route_procedures(
+    flight_plan: &FlightPlan,
+    tokens: &[RouteToken],
+    route_navdata: &RouteNavdata,
+    navdata: &Navdata,
+    active_runways_by_airport: &HashMap<String, BTreeSet<String>>,
+    airport_winds: &BTreeMap<String, AirportWind>,
+) -> SelectedRouteProcedures {
+    let mut selected = SelectedRouteProcedures::default();
+    let route_names = tokens
+        .iter()
+        .map(|token| token.name.clone())
+        .collect::<Vec<_>>();
+    let starts_with_direct = route_starts_with_direct(flight_plan.route.as_deref());
+    let ends_with_direct = route_ends_with_direct(flight_plan.route.as_deref());
+
+    if let Some(departure_id) = normalize_route_identifier(flight_plan.departure_id.as_deref()) {
+        if !starts_with_direct {
+            let runway_choice = select_airport_runway(
+                &departure_id,
+                "SID",
+                ProcedureDirection::Departure,
+                &route_names,
+                route_navdata,
+                navdata,
+                active_runways_by_airport,
+                airport_winds,
+            );
+
+            if let Some(procedure) = select_best_procedure(
+                navdata,
+                route_navdata,
+                &departure_id,
+                "SID",
+                runway_choice.as_ref(),
+                &route_names,
+                ProcedureDirection::Departure,
+            ) {
+                if route_names
+                    .iter()
+                    .any(|token| normalize_route_token(&procedure.name) == *token)
+                {
+                    selected
+                        .consumed_tokens
+                        .insert(normalize_route_token(&procedure.name));
+                }
+
+                selected.departure = Some(ProcedureAssignment {
+                    airport: departure_id.clone(),
+                    procedure,
+                });
+            }
+
+            consume_route_procedure_tokens(&mut selected, tokens, navdata, &departure_id, "SID");
+        }
+    }
+
+    if let Some(arrival_id) = normalize_route_identifier(flight_plan.arrival_id.as_deref()) {
+        if !ends_with_direct {
+            let runway_choice = select_airport_runway(
+                &arrival_id,
+                "STAR",
+                ProcedureDirection::Arrival,
+                &route_names,
+                route_navdata,
+                navdata,
+                active_runways_by_airport,
+                airport_winds,
+            );
+
+            if let Some(procedure) = select_best_procedure(
+                navdata,
+                route_navdata,
+                &arrival_id,
+                "STAR",
+                runway_choice.as_ref(),
+                &route_names,
+                ProcedureDirection::Arrival,
+            ) {
+                if route_names
+                    .iter()
+                    .any(|token| normalize_route_token(&procedure.name) == *token)
+                {
+                    selected
+                        .consumed_tokens
+                        .insert(normalize_route_token(&procedure.name));
+                }
+
+                selected.arrival = Some(ProcedureAssignment {
+                    airport: arrival_id.clone(),
+                    procedure,
+                });
+            }
+
+            consume_route_procedure_tokens(&mut selected, tokens, navdata, &arrival_id, "STAR");
+            select_explicit_route_procedures_for_airport(
+                &mut selected.explicit,
+                tokens,
+                navdata,
+                &arrival_id,
+                "APPCH",
+            );
+        }
+    }
+
+    selected
+}
+
+fn consume_route_procedure_tokens(
+    selected: &mut SelectedRouteProcedures,
+    tokens: &[RouteToken],
+    navdata: &Navdata,
+    airport_id: &str,
+    procedure_type: &str,
+) {
+    let Some(procedures) = navdata.procedures.get(airport_id) else {
+        return;
+    };
+
+    for token in tokens {
+        if procedures.iter().any(|procedure| {
+            normalize_route_token(&procedure.procedure_type) == procedure_type
+                && normalize_route_token(&procedure.name) == token.name
+        }) {
+            selected.consumed_tokens.insert(token.name.clone());
+        }
+    }
+}
+
+fn select_explicit_route_procedures_for_airport(
+    selected: &mut BTreeMap<String, ProcedureAssignment>,
+    tokens: &[RouteToken],
+    navdata: &Navdata,
+    airport_id: &str,
+    procedure_type: &str,
+) {
+    let Some(procedures) = navdata.procedures.get(airport_id) else {
+        return;
+    };
+
+    for token in tokens {
+        if selected.contains_key(&token.name) {
+            continue;
+        }
+
+        let Some(procedure) = procedures
+            .iter()
+            .filter(|procedure| {
+                normalize_route_token(&procedure.procedure_type) == procedure_type
+                    && normalize_route_token(&procedure.name) == token.name
+            })
+            .max_by(|left, right| {
+                left.legs
+                    .len()
+                    .cmp(&right.legs.len())
+                    .then_with(|| left.name.cmp(&right.name))
+            })
+        else {
+            continue;
+        };
+
+        selected.insert(
+            token.name.clone(),
+            ProcedureAssignment {
+                airport: airport_id.to_string(),
+                procedure: procedure.clone(),
+            },
+        );
+    }
+}
+
+fn select_airport_runway(
+    airport_id: &str,
+    procedure_type: &str,
+    direction: ProcedureDirection,
+    route_names: &[String],
+    route_navdata: &RouteNavdata,
+    navdata: &Navdata,
+    active_runways_by_airport: &HashMap<String, BTreeSet<String>>,
+    airport_winds: &BTreeMap<String, AirportWind>,
+) -> Option<AirportRunwayChoice> {
+    if let Some(active_runways) = active_runways_by_airport.get(airport_id)
+        && !active_runways.is_empty()
+    {
+        return select_best_runway_candidate(
+            airport_id,
+            procedure_type,
+            direction,
+            route_names,
+            route_navdata,
+            navdata,
+            active_runways.iter().cloned().collect(),
+        );
+    }
+
+    if let Some(wind) = airport_winds.get(airport_id).copied()
+        && let Some(choice) = select_best_runway_for_wind(airport_id, navdata, wind)
+    {
+        return Some(AirportRunwayChoice { runway: choice });
+    }
+
+    select_best_runway_candidate(
+        airport_id,
+        procedure_type,
+        direction,
+        route_names,
+        route_navdata,
+        navdata,
+        collect_airport_runway_candidates(airport_id, navdata),
+    )
+}
+
+fn select_best_runway_candidate(
+    airport_id: &str,
+    procedure_type: &str,
+    direction: ProcedureDirection,
+    route_names: &[String],
+    route_navdata: &RouteNavdata,
+    navdata: &Navdata,
+    candidates: Vec<String>,
+) -> Option<AirportRunwayChoice> {
+    candidates
+        .into_iter()
+        .filter_map(|runway| normalize_runway_designator(&runway))
+        .map(|runway| {
+            let score = best_runway_procedure_score(
+                airport_id,
+                procedure_type,
+                direction,
+                &runway,
+                route_names,
+                route_navdata,
+                navdata,
+            );
+
+            (runway, score)
+        })
+        .max_by(|left, right| left.1.cmp(&right.1).then_with(|| right.0.cmp(&left.0)))
+        .map(|(runway, _)| AirportRunwayChoice { runway })
+}
+
+fn select_best_runway_for_wind(
+    airport_id: &str,
+    navdata: &Navdata,
+    wind: AirportWind,
+) -> Option<String> {
+    let direction = wind.direction_deg?;
+
+    if wind.variable || wind.speed_kt == 0 {
+        return None;
+    }
+
+    navdata
+        .runways
+        .get(airport_id)?
+        .keys()
+        .filter_map(|runway| normalize_runway_designator(runway))
+        .filter_map(|runway| {
+            let heading = runway_heading_degrees(&runway)?;
+            let headwind = headwind_component(direction as f64, wind.speed_kt as f64, heading);
+
+            Some((runway, (headwind * 100.0).round() as i64))
+        })
+        .max_by(|left, right| left.1.cmp(&right.1).then_with(|| right.0.cmp(&left.0)))
+        .map(|(runway, _)| runway)
+}
+
+fn collect_airport_runway_candidates(airport_id: &str, navdata: &Navdata) -> Vec<String> {
+    let mut candidates = BTreeSet::new();
+
+    if let Some(runways) = navdata.runways.get(airport_id) {
+        for runway in runways.keys() {
+            if let Some(runway) = normalize_runway_designator(runway) {
+                candidates.insert(runway);
+            }
+        }
+    }
+
+    if let Some(procedures) = navdata.procedures.get(airport_id) {
+        for procedure in procedures {
+            if let Some(runway) = procedure
+                .runway
+                .as_deref()
+                .and_then(normalize_runway_designator)
+            {
+                candidates.insert(runway);
+            }
+        }
+    }
+
+    candidates.into_iter().collect()
+}
+
+fn best_runway_procedure_score(
+    airport_id: &str,
+    procedure_type: &str,
+    direction: ProcedureDirection,
+    runway: &str,
+    route_names: &[String],
+    route_navdata: &RouteNavdata,
+    navdata: &Navdata,
+) -> i64 {
+    let Some(procedures) = navdata.procedures.get(airport_id) else {
+        return 0;
+    };
+
+    procedures
+        .iter()
+        .filter(|procedure| {
+            normalize_route_token(&procedure.procedure_type) == procedure_type
+                && procedure_matches_runway(procedure, runway)
+        })
+        .map(|procedure| {
+            procedure_connection_score(procedure, direction, route_names, route_navdata, navdata)
+        })
+        .max()
+        .unwrap_or_default()
+}
+
+fn select_best_procedure(
+    navdata: &Navdata,
+    route_navdata: &RouteNavdata,
+    airport_id: &str,
+    procedure_type: &str,
+    runway_choice: Option<&AirportRunwayChoice>,
+    route_names: &[String],
+    direction: ProcedureDirection,
+) -> Option<Procedure> {
+    let procedures = navdata.procedures.get(airport_id)?;
+    let runway = runway_choice.map(|choice| choice.runway.as_str());
+
+    procedures
+        .iter()
+        .filter(|procedure| {
+            normalize_route_token(&procedure.procedure_type) == procedure_type
+                && runway.map_or(true, |runway| procedure_matches_runway(procedure, runway))
+        })
+        .map(|procedure| {
+            let score = procedure_connection_score(
+                procedure,
+                direction,
+                route_names,
+                route_navdata,
+                navdata,
+            );
+            let runway_score = procedure
+                .runway
+                .as_deref()
+                .and_then(normalize_runway_designator)
+                .map(|procedure_runway| {
+                    runway.map_or(0, |runway| {
+                        if procedure_runway == runway {
+                            2
+                        } else if runway_is_family(runway) && procedure_runway.starts_with(runway) {
+                            1
+                        } else if runway_is_family(&procedure_runway)
+                            && runway.starts_with(&procedure_runway)
+                        {
+                            1
+                        } else {
+                            0
+                        }
+                    })
+                })
+                .unwrap_or_default();
+
+            (procedure, score, runway_score)
+        })
+        .max_by(|left, right| {
+            left.1
+                .cmp(&right.1)
+                .then_with(|| left.2.cmp(&right.2))
+                .then_with(|| left.0.legs.len().cmp(&right.0.legs.len()))
+                .then_with(|| right.0.name.cmp(&left.0.name))
+        })
+        .map(|(procedure, _, _)| procedure.clone())
+}
+
+fn procedure_matches_runway(procedure: &Procedure, selected_runway: &str) -> bool {
+    let Some(procedure_runway) = procedure
+        .runway
+        .as_deref()
+        .and_then(normalize_runway_designator)
+    else {
+        return true;
+    };
+
+    if runway_is_family(selected_runway) {
+        procedure_runway.starts_with(selected_runway)
+    } else if runway_is_family(&procedure_runway) {
+        selected_runway.starts_with(&procedure_runway)
+    } else {
+        procedure_runway == selected_runway
+    }
+}
+
+fn runway_is_family(runway: &str) -> bool {
+    runway.len() == 4 && runway.starts_with("RW")
+}
+
+fn procedure_connection_score(
+    procedure: &Procedure,
+    direction: ProcedureDirection,
+    route_names: &[String],
+    route_navdata: &RouteNavdata,
+    navdata: &Navdata,
+) -> i64 {
+    let fixes = procedure_fix_names(procedure);
+
+    if fixes.is_empty() || route_names.is_empty() {
+        return 0;
+    }
+
+    let mut best_score = 0_i64;
+
+    for (fix_index, fix) in fixes.iter().enumerate() {
+        for (route_index, route_name) in route_names.iter().enumerate() {
+            if fix != route_name {
+                continue;
+            }
+
+            let procedure_penalty = match direction {
+                ProcedureDirection::Departure => fixes.len().saturating_sub(fix_index + 1),
+                ProcedureDirection::Arrival => fix_index,
+            } as i64;
+            let route_penalty = match direction {
+                ProcedureDirection::Departure => route_index,
+                ProcedureDirection::Arrival => route_names.len().saturating_sub(route_index + 1),
+            } as i64;
+
+            best_score = best_score.max(100_000 - procedure_penalty * 100 - route_penalty * 10);
+        }
+    }
+
+    let procedure_anchor = match direction {
+        ProcedureDirection::Departure => fixes.last(),
+        ProcedureDirection::Arrival => fixes.first(),
+    };
+    let route_anchor = match direction {
+        ProcedureDirection::Departure => route_names.first(),
+        ProcedureDirection::Arrival => route_names.last(),
+    };
+
+    if let (Some(procedure_anchor), Some(route_anchor)) = (procedure_anchor, route_anchor) {
+        if procedure_anchor == route_anchor {
+            best_score = best_score.max(200_000);
+        } else if let (Some(left), Some(right)) = (
+            point_for_route_name(procedure_anchor, route_navdata, navdata),
+            point_for_route_name(route_anchor, route_navdata, navdata),
+        ) {
+            let distance_nm = haversine_distance_nm(left, right);
+
+            if distance_nm.is_finite() {
+                best_score = best_score.max((20_000.0 - distance_nm * 10.0).round() as i64);
+            }
+        }
+    }
+
+    best_score
+}
+
+fn procedure_fix_names(procedure: &Procedure) -> Vec<String> {
+    procedure
+        .legs
+        .iter()
+        .filter_map(|leg| {
+            leg.fix
+                .as_deref()
+                .map(normalize_route_token)
+                .filter(|fix| !fix.is_empty())
+        })
+        .collect()
+}
+
+fn point_for_route_name(
+    name: &str,
+    route_navdata: &RouteNavdata,
+    navdata: &Navdata,
+) -> Option<Point> {
+    route_navdata
+        .point_candidates(name)
+        .first()
+        .copied()
+        .or_else(|| airport_point(navdata, name))
+        .or_else(|| runway_point_for_any_airport(navdata, name))
+}
+
+fn airport_point(navdata: &Navdata, airport_id: &str) -> Option<Point> {
+    navdata
+        .airports
+        .get(airport_id)
+        .map(|airport| airport.position)
+        .or_else(|| navdata.points.get(airport_id).copied())
+}
+
+fn procedure_leg_point(
+    navdata: &Navdata,
+    assignment: &ProcedureAssignment,
+    leg: &ProcedureLeg,
+) -> Option<Point> {
+    let fix = leg.fix.as_deref()?;
+    let runway = normalize_runway_designator(fix)?;
+
+    navdata
+        .runways
+        .get(&assignment.airport)?
+        .iter()
+        .find_map(|(candidate, point)| {
+            normalize_runway_designator(candidate)
+                .filter(|candidate| candidate == &runway)
+                .map(|_| *point)
+        })
+}
+
+fn runway_point_for_any_airport(navdata: &Navdata, runway: &str) -> Option<Point> {
+    let runway = normalize_runway_designator(runway)?;
+
+    navdata.runways.values().find_map(|runways| {
+        runways.iter().find_map(|(candidate, point)| {
+            normalize_runway_designator(candidate)
+                .filter(|candidate| candidate == &runway)
+                .map(|_| *point)
+        })
+    })
+}
+
+fn push_airport_route_point(
+    points: &mut Vec<EnrichedRoutePoint>,
+    navdata: &Navdata,
+    airport_id: &str,
+) {
+    push_enriched_route_point(
+        points,
+        EnrichedRoutePoint {
+            name: airport_id.to_string(),
+            point: airport_point(navdata, airport_id),
+            altitude_constraint: None,
+            xfl_constraint: None,
+            speed_constraint_kt: None,
+            step_altitude_ft: None,
+            procedure_type: None,
+            procedure_name: None,
+            procedure_runway: None,
+        },
+    );
+}
+
+fn push_procedure_route_points(
+    points: &mut Vec<EnrichedRoutePoint>,
+    navdata: &Navdata,
+    assignment: &ProcedureAssignment,
+) {
+    let before_len = points.len();
+
+    for leg in &assignment.procedure.legs {
+        push_procedure_leg_route_point(points, navdata, assignment, leg);
+    }
+
+    if points.len() == before_len {
+        push_enriched_route_point(
+            points,
+            EnrichedRoutePoint {
+                name: normalize_route_token(&assignment.procedure.name),
+                point: None,
+                altitude_constraint: None,
+                xfl_constraint: None,
+                speed_constraint_kt: None,
+                step_altitude_ft: None,
+                procedure_type: Some(normalize_route_token(&assignment.procedure.procedure_type)),
+                procedure_name: Some(assignment.procedure.name.clone()),
+                procedure_runway: assignment
+                    .procedure
+                    .runway
+                    .as_deref()
+                    .and_then(normalize_runway_designator),
+            },
+        );
+    }
+}
+
+fn push_procedure_leg_route_point(
+    points: &mut Vec<EnrichedRoutePoint>,
+    navdata: &Navdata,
+    assignment: &ProcedureAssignment,
+    leg: &ProcedureLeg,
+) {
+    let Some(fix) = leg
+        .fix
+        .as_deref()
+        .map(normalize_route_token)
+        .filter(|fix| !fix.is_empty())
+    else {
+        return;
+    };
+
+    push_enriched_route_point(
+        points,
+        EnrichedRoutePoint {
+            point: procedure_leg_point(navdata, assignment, leg),
+            name: fix,
+            altitude_constraint: altitude_constraint_from_procedure_leg(leg),
+            xfl_constraint: None,
+            speed_constraint_kt: speed_constraint_from_procedure_leg(leg),
+            step_altitude_ft: None,
+            procedure_type: Some(normalize_route_token(&assignment.procedure.procedure_type)),
+            procedure_name: Some(assignment.procedure.name.clone()),
+            procedure_runway: assignment
+                .procedure
+                .runway
+                .as_deref()
+                .and_then(normalize_runway_designator),
+        },
+    );
+}
+
+fn push_enriched_route_point(
+    points: &mut Vec<EnrichedRoutePoint>,
+    route_point: EnrichedRoutePoint,
+) {
+    if let Some(previous) = points
+        .last_mut()
+        .filter(|point| point.name == route_point.name)
+    {
+        previous.altitude_constraint = merge_altitude_constraints(
+            previous.altitude_constraint,
+            route_point.altitude_constraint,
+        );
+        previous.xfl_constraint =
+            merge_altitude_constraints(previous.xfl_constraint, route_point.xfl_constraint);
+
+        if let Some(speed_constraint_kt) = route_point.speed_constraint_kt {
+            previous.speed_constraint_kt = Some(
+                previous
+                    .speed_constraint_kt
+                    .map(|previous_speed| previous_speed.min(speed_constraint_kt))
+                    .unwrap_or(speed_constraint_kt),
+            );
+        }
+
+        if let Some(step_altitude_ft) = route_point.step_altitude_ft {
+            previous.step_altitude_ft = Some(step_altitude_ft);
+        }
+
+        if previous.point.is_none() {
+            previous.point = route_point.point;
+        }
+
+        if route_point.procedure_name.is_some() {
+            previous.procedure_type = route_point.procedure_type;
+            previous.procedure_name = route_point.procedure_name;
+            previous.procedure_runway = route_point.procedure_runway;
+        }
+
+        return;
+    }
+
+    points.push(route_point);
+}
+
+fn build_route_point_profiles(
+    route_points: &[EnrichedRoutePoint],
+    starting_point: Option<Point>,
+    ground_speed: Option<f64>,
+) -> Vec<RoutePointProfile> {
+    let mut previous_point = starting_point;
+    let mut cumulative_distance_nm = 0.0_f64;
+
+    route_points
+        .iter()
+        .map(|route_point| {
+            let mut minute_offset = None;
+            let mut distance_offset_nm = None;
+
+            if let (Some(point), Some(speed)) = (route_point.point, ground_speed)
+                && speed > 1.0
+                && speed.is_finite()
+            {
+                if let Some(previous) = previous_point {
+                    cumulative_distance_nm += haversine_distance_nm(previous, point);
+                }
+
+                previous_point = Some(point);
+
+                if cumulative_distance_nm.is_finite() {
+                    distance_offset_nm = Some(cumulative_distance_nm.max(0.0));
+                    minute_offset =
+                        Some(((cumulative_distance_nm / speed) * 60.0).round().max(0.0) as u32);
+                }
+            }
+
+            RoutePointProfile {
+                name: route_point.name.clone(),
+                point: route_point.point,
+                minute_offset,
+                distance_offset_nm,
+                altitude_ft: None,
+                ground_speed_kt: None,
+            }
+        })
+        .collect()
+}
+
+fn apply_vertical_profile(
+    profiles: &mut [RoutePointProfile],
+    route_points: &[EnrichedRoutePoint],
+    flight_plan: &FlightPlan,
+    start_altitude: Option<f64>,
+    performance: VerticalPerformance,
+) {
+    let Some(start_altitude) = start_altitude.filter(|altitude| altitude.is_finite()) else {
+        return;
+    };
+    let mut target_altitude = parse_flight_plan_altitude(flight_plan.level.as_deref())
+        .map(|altitude| cap_to_aircraft_ceiling(altitude, &performance))
+        .unwrap_or(start_altitude);
+    let mut previous_altitude = start_altitude;
+    let mut previous_minute = 0_u32;
+    let arrival_phase_start = arrival_phase_start_index(route_points, flight_plan);
+    let departure_ceilings = departure_procedure_ceiling_limits(route_points);
+    let arrival_floors = arrival_procedure_floor_limits(route_points, arrival_phase_start);
+
+    for (index, (profile, route_point)) in profiles.iter_mut().zip(route_points).enumerate() {
+        let Some(minute_offset) = profile.minute_offset else {
+            continue;
+        };
+
+        if route_point_is_departure_airport(route_point, flight_plan) {
+            profile.altitude_ft = Some(0.0);
+            previous_altitude = 0.0;
+            previous_minute = minute_offset;
+            continue;
+        }
+
+        if route_point_is_arrival_airport(route_point, flight_plan) {
+            profile.altitude_ft = Some(0.0);
+            previous_altitude = 0.0;
+            previous_minute = minute_offset;
+            continue;
+        }
+
+        let elapsed_minutes = minute_offset.saturating_sub(previous_minute) as f64;
+        let phase = vertical_profile_phase(index, route_point, arrival_phase_start);
+        let point_target = constrained_vertical_target(
+            target_altitude,
+            route_point.altitude_constraint,
+            phase,
+            departure_ceilings[index],
+            arrival_floors[index],
+            arrival_phase_start.is_some_and(|start| index == start),
+        );
+
+        let mut altitude = move_altitude_toward(
+            previous_altitude,
+            point_target,
+            elapsed_minutes,
+            &performance,
+        );
+        altitude = apply_directional_altitude_limits(
+            altitude,
+            previous_altitude,
+            route_point.altitude_constraint,
+            phase,
+            departure_ceilings[index],
+            arrival_floors[index],
+        );
+
+        if let Some(xfl_constraint) = route_point.xfl_constraint {
+            altitude = xfl_constraint.apply(altitude);
+        }
+
+        altitude = cap_to_aircraft_ceiling(altitude, &performance);
+        profile.altitude_ft = Some(altitude);
+        previous_altitude = altitude;
+        previous_minute = minute_offset;
+
+        if let Some(step_altitude) = route_point.step_altitude_ft {
+            target_altitude = cap_to_aircraft_ceiling(step_altitude, &performance);
+        }
+    }
+
+    plan_descent_for_lower_constraints(profiles, route_points, &performance);
+    smooth_procedure_altitude_yoyos(profiles, route_points, flight_plan);
+    enforce_vertical_profile_endpoints(profiles, route_points, flight_plan);
+}
+
+fn insert_toc_tod_points(
+    route_points: &mut Vec<EnrichedRoutePoint>,
+    profiles: &mut Vec<RoutePointProfile>,
+    performance: &VerticalPerformance,
+) {
+    if route_points.len() != profiles.len() || profiles.len() < 2 {
+        return;
+    }
+
+    let mut insertions = Vec::new();
+
+    if !route_points.iter().any(|point| point.name == "TOC")
+        && let Some(insertion) = top_of_climb_insertion(route_points, profiles, performance)
+    {
+        insertions.push(insertion);
+    }
+
+    if !route_points.iter().any(|point| point.name == "TOD")
+        && let Some(insertion) = top_of_descent_insertion(route_points, profiles, performance)
+    {
+        insertions.push(insertion);
+    }
+
+    insertions.extend(step_transition_insertions(
+        route_points,
+        profiles,
+        performance,
+    ));
+
+    insertions.sort_by(|left, right| {
+        left.insert_index
+            .cmp(&right.insert_index)
+            .then_with(|| left.profile.minute_offset.cmp(&right.profile.minute_offset))
+    });
+
+    for (offset, insertion) in insertions.into_iter().enumerate() {
+        let insert_index = insertion.insert_index + offset;
+
+        route_points.insert(insert_index, insertion.route_point);
+        profiles.insert(insert_index, insertion.profile);
+    }
+}
+
+#[allow(clippy::too_many_arguments)]
+fn apply_weather_timing_iterations(
+    sampled_at: &DateTime<Utc>,
+    weather: Option<&WeatherModel>,
+    reference: &TrajectoryReference,
+    route_points: &mut [EnrichedRoutePoint],
+    profiles: &mut [RoutePointProfile],
+    flight_plan: &FlightPlan,
+    vertical_performance: VerticalPerformance,
+    speed_performance: SpeedPerformance,
+) {
+    let Some(weather) = weather else {
+        return;
+    };
+    let Some(start_altitude) = reference.start_altitude else {
+        return;
+    };
+
+    for _ in 0..3 {
+        let changed = apply_weather_segment_timing(
+            sampled_at,
+            weather,
+            reference.starting_point,
+            start_altitude,
+            route_points,
+            profiles,
+            flight_plan,
+            speed_performance,
+        );
+
+        if !changed {
+            break;
+        }
+
+        apply_vertical_profile(
+            profiles,
+            route_points,
+            flight_plan,
+            Some(start_altitude),
+            vertical_performance,
+        );
+    }
+}
+
+#[allow(clippy::too_many_arguments)]
+fn apply_weather_segment_timing(
+    sampled_at: &DateTime<Utc>,
+    weather: &WeatherModel,
+    starting_point: Option<Point>,
+    start_altitude: f64,
+    route_points: &[EnrichedRoutePoint],
+    profiles: &mut [RoutePointProfile],
+    flight_plan: &FlightPlan,
+    speed_performance: SpeedPerformance,
+) -> bool {
+    if route_points.len() != profiles.len() || !start_altitude.is_finite() {
+        return false;
+    }
+
+    let arrival_phase_start = arrival_phase_start_index(route_points, flight_plan);
+    let mut previous_point = starting_point;
+    let mut cumulative_distance_nm = 0.0_f64;
+    let mut cumulative_minutes = 0.0_f64;
+    let mut updates = Vec::with_capacity(profiles.len());
+
+    for (index, (route_point, profile)) in route_points.iter().zip(profiles.iter()).enumerate() {
+        let Some(point) = route_point.point else {
+            updates.push((None, None, None));
+            continue;
+        };
+
+        let Some(previous) = previous_point else {
+            previous_point = Some(point);
+            updates.push((Some(0), Some(0.0), None));
+            continue;
+        };
+
+        let distance_nm = haversine_distance_nm(previous, point).max(0.0);
+        cumulative_distance_nm += distance_nm;
+        previous_point = Some(point);
+
+        if distance_nm <= 0.001 {
+            updates.push((
+                Some(rounded_minute_offset(cumulative_minutes)),
+                Some(cumulative_distance_nm),
+                None,
+            ));
+            continue;
+        }
+
+        let altitude_ft = profile
+            .altitude_ft
+            .filter(|altitude| altitude.is_finite())
+            .unwrap_or(start_altitude);
+        let query_minutes = profile
+            .minute_offset
+            .map(|minute| minute as f64)
+            .unwrap_or(cumulative_minutes);
+        let valid_time = sampled_at
+            .checked_add_signed(Duration::seconds((query_minutes * 60.0).round() as i64))
+            .unwrap_or_else(|| sampled_at.clone());
+        let Some(sample) = weather.wind_temperature_at(valid_time, point, altitude_ft) else {
+            return false;
+        };
+        let Some(heading_deg) = bearing_degrees(previous, point) else {
+            return false;
+        };
+        let phase = vertical_profile_phase(index, route_point, arrival_phase_start);
+        let command = speed_command_for_segment(altitude_ft, phase, &speed_performance);
+        let ias_limit = ias_limit_for_segment(route_point, altitude_ft);
+        let Some(air_data) =
+            resolve_speed_command(command, altitude_ft, sample.temperature_c, ias_limit)
+        else {
+            return false;
+        };
+        let Some(ground_speed_kt) = ground_speed_for_air_data(air_data, heading_deg, sample) else {
+            return false;
+        };
+
+        cumulative_minutes += distance_nm / ground_speed_kt * 60.0;
+        updates.push((
+            Some(rounded_minute_offset(cumulative_minutes)),
+            Some(cumulative_distance_nm),
+            Some(ground_speed_kt),
+        ));
+    }
+
+    let mut changed = false;
+
+    for (profile, (minute_offset, distance_offset_nm, ground_speed_kt)) in
+        profiles.iter_mut().zip(updates)
+    {
+        if profile.minute_offset != minute_offset {
+            changed = true;
+        }
+
+        profile.minute_offset = minute_offset;
+        profile.distance_offset_nm = distance_offset_nm;
+        profile.ground_speed_kt = ground_speed_kt;
+    }
+
+    changed
+}
+
+fn speed_command_for_segment(
+    altitude_ft: f64,
+    phase: VerticalProfilePhase,
+    performance: &SpeedPerformance,
+) -> ResolvedSpeedCommand {
+    if altitude_ft < 10_000.0 {
+        return ResolvedSpeedCommand {
+            kind: SpeedCommand::Ias,
+            value: DEFAULT_LOW_LEVEL_IAS_KT,
+        };
+    }
+
+    match phase {
+        VerticalProfilePhase::Departure => {
+            if altitude_ft >= 24_000.0
+                && let Some(mach) = performance.mach_climb
+            {
+                return ResolvedSpeedCommand {
+                    kind: SpeedCommand::Mach,
+                    value: mach,
+                };
+            }
+
+            let value = if altitude_ft < 15_000.0 {
+                performance.climb_fl150_ias_kt
+            } else {
+                performance.climb_fl240_ias_kt
+            }
+            .or(performance.initial_climb_ias_kt)
+            .unwrap_or(DEFAULT_CLIMB_IAS_KT);
+
+            ResolvedSpeedCommand {
+                kind: SpeedCommand::Ias,
+                value,
+            }
+        }
+        VerticalProfilePhase::Cruise => {
+            if let Some(mach) = performance.cruise_mach {
+                ResolvedSpeedCommand {
+                    kind: SpeedCommand::Mach,
+                    value: mach,
+                }
+            } else {
+                ResolvedSpeedCommand {
+                    kind: SpeedCommand::Tas,
+                    value: performance.cruise_tas_kt.unwrap_or(DEFAULT_CRUISE_SPEED_KT),
+                }
+            }
+        }
+        VerticalProfilePhase::Arrival => {
+            if altitude_ft >= 24_000.0
+                && let Some(mach) = performance.initial_descent_mach.or(performance.cruise_mach)
+            {
+                return ResolvedSpeedCommand {
+                    kind: SpeedCommand::Mach,
+                    value: mach,
+                };
+            }
+
+            ResolvedSpeedCommand {
+                kind: SpeedCommand::Ias,
+                value: performance
+                    .descent_fl100_ias_kt
+                    .or(performance.approach_ias_kt)
+                    .unwrap_or(DEFAULT_DESCENT_IAS_KT),
+            }
+        }
+    }
+}
+
+fn ias_limit_for_segment(route_point: &EnrichedRoutePoint, altitude_ft: f64) -> Option<f64> {
+    let procedure_limit = route_point
+        .speed_constraint_kt
+        .filter(|speed| speed.is_finite() && *speed > 0.0);
+
+    if altitude_ft < 10_000.0 {
+        Some(
+            procedure_limit
+                .map(|limit| limit.min(DEFAULT_LOW_LEVEL_IAS_KT))
+                .unwrap_or(DEFAULT_LOW_LEVEL_IAS_KT),
+        )
+    } else {
+        procedure_limit
+    }
+}
+
+fn top_of_climb_insertion(
+    route_points: &[EnrichedRoutePoint],
+    profiles: &[RoutePointProfile],
+    performance: &VerticalPerformance,
+) -> Option<ProfileInsertion> {
+    for (index, window) in profiles.windows(2).enumerate() {
+        if route_points
+            .get(index)
+            .is_some_and(|route_point| route_point.step_altitude_ft.is_some())
+        {
+            continue;
+        }
+
+        let left = &window[0];
+        let right = &window[1];
+        let (Some(left_altitude), Some(right_altitude)) = (left.altitude_ft, right.altitude_ft)
+        else {
+            continue;
+        };
+
+        if right_altitude <= left_altitude + 100.0 {
+            continue;
+        }
+
+        let continues_climb_without_step = profiles
+            .get(index + 2)
+            .and_then(|profile| profile.altitude_ft)
+            .is_some_and(|next_altitude| next_altitude > right_altitude + 100.0)
+            && route_points
+                .get(index + 1)
+                .map_or(true, |route_point| route_point.step_altitude_ft.is_none());
+
+        if continues_climb_without_step {
+            continue;
+        }
+
+        let elapsed_minutes = profile_elapsed_minutes(left, right)?;
+        let climb_rate = climb_rate_for_altitude(left_altitude, performance);
+        let climb_minutes = (right_altitude - left_altitude) / climb_rate;
+
+        if !climb_minutes.is_finite()
+            || climb_minutes <= 0.0
+            || climb_minutes >= elapsed_minutes - 0.5
+        {
+            continue;
+        }
+
+        return profile_insertion_between(
+            "TOC",
+            index + 1,
+            left,
+            right,
+            climb_minutes / elapsed_minutes,
+            right_altitude,
+        );
+    }
+
+    None
+}
+
+fn top_of_descent_insertion(
+    route_points: &[EnrichedRoutePoint],
+    profiles: &[RoutePointProfile],
+    performance: &VerticalPerformance,
+) -> Option<ProfileInsertion> {
+    let max_altitude = max_profile_altitude(profiles)?;
+    let max_index = profiles.iter().position(|profile| {
+        profile
+            .altitude_ft
+            .is_some_and(|altitude| altitude >= max_altitude - 50.0)
+    })?;
+
+    for (index, window) in profiles.windows(2).enumerate().skip(max_index) {
+        if route_points
+            .get(index)
+            .is_some_and(|route_point| route_point.step_altitude_ft.is_some())
+        {
+            continue;
+        }
+
+        let left = &window[0];
+        let right = &window[1];
+        let (Some(left_altitude), Some(right_altitude)) = (left.altitude_ft, right.altitude_ft)
+        else {
+            continue;
+        };
+
+        if left_altitude <= right_altitude + 100.0 {
+            continue;
+        }
+
+        let elapsed_minutes = profile_elapsed_minutes(left, right)?;
+        let descent_rate = descent_rate_for_altitude(left_altitude, performance);
+        let descent_minutes = (left_altitude - right_altitude) / descent_rate;
+
+        if !descent_minutes.is_finite()
+            || descent_minutes <= 0.0
+            || descent_minutes >= elapsed_minutes - 0.5
+        {
+            continue;
+        }
+
+        let ratio = 1.0 - descent_minutes / elapsed_minutes;
+
+        return profile_insertion_between("TOD", index + 1, left, right, ratio, left_altitude);
+    }
+
+    None
+}
+
+fn step_transition_insertions(
+    route_points: &[EnrichedRoutePoint],
+    profiles: &[RoutePointProfile],
+    performance: &VerticalPerformance,
+) -> Vec<ProfileInsertion> {
+    let mut insertions = Vec::new();
+    let mut climb_step_count = 0_usize;
+    let mut descent_step_count = 0_usize;
+
+    for (index, window) in profiles.windows(2).enumerate() {
+        if route_points
+            .get(index)
+            .and_then(|route_point| route_point.step_altitude_ft)
+            .is_none()
+        {
+            continue;
+        }
+
+        let left = &window[0];
+        let right = &window[1];
+        let (Some(left_altitude), Some(right_altitude)) = (left.altitude_ft, right.altitude_ft)
+        else {
+            continue;
+        };
+
+        if right_altitude > left_altitude + 100.0 {
+            climb_step_count += 1;
+            let insert_index = index + 1;
+            let boc_label = step_transition_label("BOC", climb_step_count);
+            let toc_label = step_transition_label("TOC STEP", climb_step_count);
+
+            if let Some(insertion) = profile_insertion_at(&boc_label, insert_index, left) {
+                insertions.push(insertion);
+            }
+
+            let toc_insertion = profile_elapsed_minutes(left, right)
+                .and_then(|elapsed_minutes| {
+                    let climb_rate = climb_rate_for_altitude(left_altitude, performance);
+                    let climb_minutes = (right_altitude - left_altitude) / climb_rate;
+
+                    if !climb_minutes.is_finite() || climb_minutes <= 0.0 {
+                        return None;
+                    }
+
+                    profile_insertion_between(
+                        &toc_label,
+                        insert_index,
+                        left,
+                        right,
+                        climb_minutes / elapsed_minutes,
+                        right_altitude,
+                    )
+                })
+                .or_else(|| profile_insertion_at(&toc_label, insert_index, right));
+
+            if let Some(insertion) = toc_insertion {
+                insertions.push(insertion);
+            }
+        } else if left_altitude > right_altitude + 100.0 {
+            descent_step_count += 1;
+            let insert_index = index + 1;
+            let tod_label = step_transition_label("TOD STEP", descent_step_count);
+            let bod_label = step_transition_label("BOD", descent_step_count);
+
+            let tod_insertion = profile_elapsed_minutes(left, right)
+                .and_then(|elapsed_minutes| {
+                    let descent_rate = descent_rate_for_altitude(left_altitude, performance);
+                    let descent_minutes = (left_altitude - right_altitude) / descent_rate;
+
+                    if !descent_minutes.is_finite() || descent_minutes <= 0.0 {
+                        return None;
+                    }
+
+                    let ratio = 1.0 - descent_minutes / elapsed_minutes;
+
+                    profile_insertion_between(
+                        &tod_label,
+                        insert_index,
+                        left,
+                        right,
+                        ratio,
+                        left_altitude,
+                    )
+                })
+                .or_else(|| profile_insertion_at(&tod_label, insert_index, left));
+
+            if let Some(insertion) = tod_insertion {
+                insertions.push(insertion);
+            }
+
+            if let Some(insertion) = profile_insertion_at(&bod_label, insert_index, right) {
+                insertions.push(insertion);
+            }
+        }
+    }
+
+    insertions
+}
+
+fn step_transition_label(base: &str, count: usize) -> String {
+    if count <= 1 {
+        base.to_string()
+    } else {
+        format!("{base} {count}")
+    }
+}
+
+fn max_profile_altitude(profiles: &[RoutePointProfile]) -> Option<f64> {
+    profiles
+        .iter()
+        .filter_map(|profile| profile.altitude_ft)
+        .filter(|altitude| altitude.is_finite() && *altitude > 1_000.0)
+        .max_by(|left, right| compare_f64(*left, *right))
+}
+
+fn profile_elapsed_minutes(left: &RoutePointProfile, right: &RoutePointProfile) -> Option<f64> {
+    let (Some(left_minute), Some(right_minute)) = (left.minute_offset, right.minute_offset) else {
+        return None;
+    };
+
+    (right_minute > left_minute).then_some((right_minute - left_minute) as f64)
+}
+
+fn profile_insertion_between(
+    name: &str,
+    insert_index: usize,
+    left: &RoutePointProfile,
+    right: &RoutePointProfile,
+    ratio: f64,
+    altitude_ft: f64,
+) -> Option<ProfileInsertion> {
+    let ratio = ratio.clamp(0.0, 1.0);
+    let (Some(left_point), Some(right_point)) = (left.point, right.point) else {
+        return None;
+    };
+    let (Some(left_minute), Some(right_minute)) = (left.minute_offset, right.minute_offset) else {
+        return None;
+    };
+
+    if right_minute <= left_minute || ratio <= 0.0 || ratio >= 1.0 {
+        return None;
+    }
+
+    let minute_offset =
+        rounded_minute_offset(left_minute as f64 + (right_minute - left_minute) as f64 * ratio);
+
+    if minute_offset <= left_minute || minute_offset >= right_minute {
+        return None;
+    }
+
+    let distance_offset_nm = left.distance_offset_nm.zip(right.distance_offset_nm).map(
+        |(left_distance, right_distance)| left_distance + (right_distance - left_distance) * ratio,
+    );
+    let point = interpolate_point(left_point, right_point, ratio);
+    let route_point = EnrichedRoutePoint {
+        name: name.to_string(),
+        point: Some(point),
+        altitude_constraint: None,
+        xfl_constraint: None,
+        speed_constraint_kt: None,
+        step_altitude_ft: None,
+        procedure_type: None,
+        procedure_name: None,
+        procedure_runway: None,
+    };
+    let profile = RoutePointProfile {
+        name: name.to_string(),
+        point: Some(point),
+        minute_offset: Some(minute_offset),
+        distance_offset_nm,
+        altitude_ft: Some(altitude_ft),
+        ground_speed_kt: None,
+    };
+
+    Some(ProfileInsertion {
+        insert_index,
+        route_point,
+        profile,
+    })
+}
+
+fn profile_insertion_at(
+    name: &str,
+    insert_index: usize,
+    base: &RoutePointProfile,
+) -> Option<ProfileInsertion> {
+    let (Some(point), Some(minute_offset), Some(altitude_ft)) =
+        (base.point, base.minute_offset, base.altitude_ft)
+    else {
+        return None;
+    };
+
+    if !altitude_ft.is_finite() {
+        return None;
+    }
+
+    let route_point = EnrichedRoutePoint {
+        name: name.to_string(),
+        point: Some(point),
+        altitude_constraint: None,
+        xfl_constraint: None,
+        speed_constraint_kt: None,
+        step_altitude_ft: None,
+        procedure_type: None,
+        procedure_name: None,
+        procedure_runway: None,
+    };
+    let profile = RoutePointProfile {
+        name: name.to_string(),
+        point: Some(point),
+        minute_offset: Some(minute_offset),
+        distance_offset_nm: base.distance_offset_nm,
+        altitude_ft: Some(altitude_ft),
+        ground_speed_kt: base.ground_speed_kt,
+    };
+
+    Some(ProfileInsertion {
+        insert_index,
+        route_point,
+        profile,
+    })
+}
+
+fn vertical_profile_phase(
+    index: usize,
+    route_point: &EnrichedRoutePoint,
+    arrival_phase_start: Option<usize>,
+) -> VerticalProfilePhase {
+    if arrival_phase_start.is_some_and(|start| index >= start) {
+        return VerticalProfilePhase::Arrival;
+    }
+
+    match route_point.procedure_type.as_deref() {
+        Some("SID") => VerticalProfilePhase::Departure,
+        Some("STAR" | "APPCH") => VerticalProfilePhase::Arrival,
+        _ => VerticalProfilePhase::Cruise,
+    }
+}
+
+fn constrained_vertical_target(
+    cruise_target_altitude: f64,
+    constraint: Option<AltitudeConstraint>,
+    phase: VerticalProfilePhase,
+    departure_ceiling_ft: Option<f64>,
+    arrival_floor_ft: Option<f64>,
+    is_arrival_phase_start: bool,
+) -> f64 {
+    match phase {
+        VerticalProfilePhase::Departure => {
+            let mut target = cruise_target_altitude;
+
+            if let Some(ceiling_ft) = departure_ceiling_ft {
+                target = target.min(ceiling_ft);
+            }
+
+            if let Some(constraint) = constraint {
+                if let Some(max_ft) = constraint.max_ft {
+                    target = target.min(max_ft);
+                }
+
+                if let Some(min_ft) = constraint.min_ft {
+                    target = target.max(min_ft);
+                }
+            }
+
+            target
+        }
+        VerticalProfilePhase::Arrival => {
+            let mut target =
+                if is_arrival_phase_start && constraint.is_none() && arrival_floor_ft.is_none() {
+                    cruise_target_altitude
+                } else {
+                    0.0
+                };
+
+            if let Some(floor_ft) = arrival_floor_ft {
+                target = target.max(floor_ft);
+            }
+
+            if let Some(constraint) = constraint {
+                if let Some(min_ft) = constraint.min_ft {
+                    target = target.max(min_ft);
+                }
+
+                if let Some(max_ft) = constraint.max_ft {
+                    if constraint.min_ft.is_none() && target < max_ft {
+                        target = max_ft;
+                    }
+
+                    target = target.min(max_ft);
+                }
+            }
+
+            target
+        }
+        VerticalProfilePhase::Cruise => constraint
+            .map(|constraint| constraint.apply(cruise_target_altitude))
+            .unwrap_or(cruise_target_altitude),
+    }
+}
+
+fn apply_directional_altitude_limits(
+    altitude: f64,
+    previous_altitude: f64,
+    constraint: Option<AltitudeConstraint>,
+    phase: VerticalProfilePhase,
+    departure_ceiling_ft: Option<f64>,
+    arrival_floor_ft: Option<f64>,
+) -> f64 {
+    match phase {
+        VerticalProfilePhase::Departure => {
+            let mut altitude = altitude;
+
+            if let Some(ceiling_ft) = departure_ceiling_ft {
+                altitude = altitude.min(ceiling_ft);
+            }
+
+            if let Some(constraint) = constraint {
+                if let Some(max_ft) = constraint.max_ft {
+                    altitude = altitude.min(max_ft);
+                }
+
+                if let Some(min_ft) = constraint.min_ft {
+                    altitude = altitude.max(min_ft);
+                }
+            }
+
+            altitude.max(previous_altitude)
+        }
+        VerticalProfilePhase::Arrival => {
+            let mut altitude = altitude;
+
+            if let Some(floor_ft) = arrival_floor_ft {
+                altitude = altitude.max(floor_ft);
+            }
+
+            if let Some(constraint) = constraint {
+                if let Some(min_ft) = constraint.min_ft {
+                    altitude = altitude.max(min_ft);
+                }
+
+                if let Some(max_ft) = constraint.max_ft {
+                    altitude = altitude.min(max_ft);
+                }
+            }
+
+            altitude.min(previous_altitude)
+        }
+        VerticalProfilePhase::Cruise => constraint
+            .map(|constraint| constraint.apply(altitude))
+            .unwrap_or(altitude),
+    }
+}
+
+fn departure_procedure_ceiling_limits(route_points: &[EnrichedRoutePoint]) -> Vec<Option<f64>> {
+    let mut limits = vec![None; route_points.len()];
+    let mut ceiling_ft = None::<f64>;
+
+    for (index, route_point) in route_points.iter().enumerate().rev() {
+        if route_point.procedure_type.as_deref() != Some("SID") {
+            ceiling_ft = None;
+            continue;
+        }
+
+        if let Some(max_ft) = route_point
+            .altitude_constraint
+            .and_then(|constraint| constraint.max_ft)
+        {
+            ceiling_ft = Some(
+                ceiling_ft
+                    .map(|ceiling_ft| ceiling_ft.min(max_ft))
+                    .unwrap_or(max_ft),
+            );
+        }
+
+        limits[index] = ceiling_ft;
+    }
+
+    limits
+}
+
+fn arrival_procedure_floor_limits(
+    route_points: &[EnrichedRoutePoint],
+    arrival_phase_start: Option<usize>,
+) -> Vec<Option<f64>> {
+    let mut limits = vec![None; route_points.len()];
+    let Some(arrival_phase_start) = arrival_phase_start else {
+        return limits;
+    };
+    let mut floor_ft = None::<f64>;
+
+    for index in (arrival_phase_start..route_points.len()).rev() {
+        if let Some(min_ft) = route_points[index]
+            .altitude_constraint
+            .and_then(|constraint| constraint.min_ft)
+        {
+            floor_ft = Some(
+                floor_ft
+                    .map(|floor_ft| floor_ft.max(min_ft))
+                    .unwrap_or(min_ft),
+            );
+        }
+
+        limits[index] = floor_ft;
+    }
+
+    limits
+}
+
+fn smooth_procedure_altitude_yoyos(
+    profiles: &mut [RoutePointProfile],
+    route_points: &[EnrichedRoutePoint],
+    flight_plan: &FlightPlan,
+) {
+    let mut previous_departure_altitude = None::<f64>;
+
+    for (profile, route_point) in profiles.iter_mut().zip(route_points) {
+        if route_point_is_departure_airport(route_point, flight_plan)
+            || route_point.procedure_type.as_deref() == Some("SID")
+        {
+            if let Some(altitude) = profile.altitude_ft {
+                let smoothed_altitude = previous_departure_altitude
+                    .map(|previous| altitude.max(previous))
+                    .unwrap_or(altitude);
+
+                profile.altitude_ft = Some(smoothed_altitude);
+                previous_departure_altitude = Some(smoothed_altitude);
+            }
+        } else {
+            previous_departure_altitude = None;
+        }
+    }
+
+    let Some(arrival_phase_start) = arrival_phase_start_index(route_points, flight_plan) else {
+        return;
+    };
+    let mut previous_arrival_altitude = None::<f64>;
+
+    for profile in profiles.iter_mut().skip(arrival_phase_start) {
+        let Some(altitude) = profile.altitude_ft else {
+            continue;
+        };
+        let smoothed_altitude = previous_arrival_altitude
+            .map(|previous| altitude.min(previous))
+            .unwrap_or(altitude);
+
+        profile.altitude_ft = Some(smoothed_altitude);
+        previous_arrival_altitude = Some(smoothed_altitude);
+    }
+}
+
+fn route_point_profile_constraint(route_point: &EnrichedRoutePoint) -> Option<AltitudeConstraint> {
+    merge_altitude_constraints(route_point.altitude_constraint, route_point.xfl_constraint)
+}
+
+fn plan_descent_for_lower_constraints(
+    profiles: &mut [RoutePointProfile],
+    route_points: &[EnrichedRoutePoint],
+    performance: &VerticalPerformance,
+) {
+    let resolved_indices = profiles
+        .iter()
+        .enumerate()
+        .filter_map(|(index, profile)| {
+            profile
+                .minute_offset
+                .zip(profile.altitude_ft)
+                .map(|_| index)
+        })
+        .collect::<Vec<_>>();
+
+    for pair in resolved_indices.windows(2).rev() {
+        let [current_index, next_index] = pair else {
+            continue;
+        };
+        let Some(current_altitude) = profiles[*current_index].altitude_ft else {
+            continue;
+        };
+        let Some(next_altitude) = profiles[*next_index].altitude_ft else {
+            continue;
+        };
+        let Some(current_minute) = profiles[*current_index].minute_offset else {
+            continue;
+        };
+        let Some(next_minute) = profiles[*next_index].minute_offset else {
+            continue;
+        };
+        let elapsed_minutes = next_minute.saturating_sub(current_minute) as f64;
+        let max_reachable_altitude =
+            next_altitude + descent_rate_for_altitude(next_altitude, performance) * elapsed_minutes;
+
+        if current_altitude > max_reachable_altitude {
+            profiles[*current_index].altitude_ft =
+                Some(cap_to_aircraft_ceiling(max_reachable_altitude, performance));
+        }
+
+        if let Some(constraint) = route_point_profile_constraint(&route_points[*current_index])
+            && let Some(altitude) = profiles[*current_index].altitude_ft
+        {
+            profiles[*current_index].altitude_ft = Some(constraint.apply(altitude));
+        }
+    }
+}
+
+fn enforce_vertical_profile_endpoints(
+    profiles: &mut [RoutePointProfile],
+    route_points: &[EnrichedRoutePoint],
+    flight_plan: &FlightPlan,
+) {
+    for (profile, route_point) in profiles.iter_mut().zip(route_points) {
+        if route_point_is_departure_airport(route_point, flight_plan)
+            || route_point_is_arrival_airport(route_point, flight_plan)
+        {
+            profile.altitude_ft = profile.minute_offset.map(|_| 0.0);
+        }
+    }
+}
+
+fn arrival_phase_start_index(
+    route_points: &[EnrichedRoutePoint],
+    flight_plan: &FlightPlan,
+) -> Option<usize> {
+    route_points.iter().position(|route_point| {
+        route_point
+            .procedure_type
+            .as_deref()
+            .is_some_and(|procedure_type| matches!(procedure_type, "STAR" | "APPCH"))
+            || route_point_is_arrival_airport(route_point, flight_plan)
+    })
+}
+
+fn route_point_is_departure_airport(
+    route_point: &EnrichedRoutePoint,
+    flight_plan: &FlightPlan,
+) -> bool {
+    normalized_departure_id(flight_plan)
+        .is_some_and(|departure_id| route_point.name == departure_id)
+}
+
+fn route_point_is_arrival_airport(
+    route_point: &EnrichedRoutePoint,
+    flight_plan: &FlightPlan,
+) -> bool {
+    normalized_arrival_id(flight_plan).is_some_and(|arrival_id| route_point.name == arrival_id)
+}
+
+fn normalized_departure_id(flight_plan: &FlightPlan) -> Option<String> {
+    normalize_route_identifier(flight_plan.departure_id.as_deref())
+}
+
+fn normalized_arrival_id(flight_plan: &FlightPlan) -> Option<String> {
+    normalize_route_identifier(flight_plan.arrival_id.as_deref())
+}
+
+fn build_route_track_points(
+    _sampled_at: &DateTime<Utc>,
+    starting_point: Option<Point>,
+    start_altitude: Option<f64>,
+    profiles: &[RoutePointProfile],
+    offsets: &[u32],
+    _time_labels: &[String],
+) -> Vec<ForecastTrackPoint> {
+    let (Some(starting_point), Some(start_altitude)) = (starting_point, start_altitude) else {
+        return Vec::new();
+    };
+
+    if !start_altitude.is_finite() {
+        return Vec::new();
+    }
+
+    let mut anchors = vec![(0_u32, starting_point, start_altitude)];
+
+    for profile in profiles {
+        let (Some(point), Some(minute_offset), Some(altitude)) =
+            (profile.point, profile.minute_offset, profile.altitude_ft)
+        else {
+            continue;
+        };
+
+        if anchors
+            .last()
+            .is_some_and(|(previous_minute, _, _)| *previous_minute == minute_offset)
+        {
+            continue;
+        }
+
+        anchors.push((minute_offset, point, altitude));
+    }
+
+    if anchors.len() < 2 {
+        return Vec::new();
+    }
+
+    let max_offset = offsets.last().copied().unwrap_or(u32::MAX);
+    let mut sample_offsets = offsets.to_vec();
+
+    sample_offsets.extend(
+        anchors
+            .iter()
+            .map(|(minute_offset, _, _)| *minute_offset)
+            .filter(|minute_offset| *minute_offset <= max_offset),
+    );
+    sample_offsets.sort_unstable();
+    sample_offsets.dedup();
+
+    sample_offsets
+        .iter()
+        .map(|offset| {
+            let (point, altitude) = interpolate_route_anchor(&anchors, *offset);
+            ForecastTrackPoint {
+                minute_offset: *offset as f64,
+                point,
+                altitude,
+            }
+        })
+        .collect()
+}
+
+fn interpolate_route_anchor(anchors: &[(u32, Point, f64)], minute_offset: u32) -> (Point, f64) {
+    let first = anchors
+        .first()
+        .copied()
+        .expect("route anchors are checked by caller");
+
+    if minute_offset <= first.0 {
+        return (first.1, first.2);
+    }
+
+    for window in anchors.windows(2) {
+        let left = window[0];
+        let right = window[1];
+
+        if minute_offset <= right.0 {
+            let elapsed = right.0.saturating_sub(left.0).max(1) as f64;
+            let ratio = (minute_offset.saturating_sub(left.0) as f64 / elapsed).clamp(0.0, 1.0);
+
+            return (
+                interpolate_point(left.1, right.1, ratio),
+                left.2 + (right.2 - left.2) * ratio,
+            );
+        }
+    }
+
+    let last = anchors
+        .last()
+        .copied()
+        .expect("route anchors are checked by caller");
+
+    (last.1, last.2)
+}
+
+fn interpolate_point(left: Point, right: Point, ratio: f64) -> Point {
+    Point {
+        lat: left.lat + (right.lat - left.lat) * ratio,
+        lon: normalize_longitude(left.lon + (right.lon - left.lon) * ratio),
+    }
+}
+
+fn expand_route_point_names(route: Option<&str>, navdata: &RouteNavdata) -> Vec<String> {
+    let tokens = route_tokens(route.unwrap_or_default());
+    let mut points = Vec::new();
+    let mut index = 0_usize;
+
+    while index < tokens.len() {
+        if index + 2 < tokens.len() {
+            let start = &tokens[index];
+            let airway = &tokens[index + 1];
+            let end = &tokens[index + 2];
+
+            if let Some(expanded) = expand_airway_segment(start, airway, end, navdata) {
+                for point in expanded {
+                    push_route_point_name(&mut points, point);
+                }
+
+                index += 2;
+                continue;
+            }
+        }
+
+        if let Some((expanded, consumed)) = expand_nat_track_tokens(&tokens, index, navdata) {
+            for point in expanded {
+                push_route_point_name(&mut points, point);
+            }
+
+            index += consumed;
+            continue;
+        }
+
+        push_route_point_name(&mut points, tokens[index].clone());
+        index += 1;
+    }
+
+    points
+}
+
+fn expand_nat_track_tokens(
+    tokens: &[String],
+    index: usize,
+    navdata: &RouteNavdata,
+) -> Option<(Vec<String>, usize)> {
+    let token = tokens.get(index)?;
+
+    if token == "NAT" {
+        let identifier = tokens.get(index + 1)?;
+
+        return navdata
+            .nat_tracks
+            .get(identifier)
+            .cloned()
+            .map(|points| (points, 2));
+    }
+
+    token
+        .strip_prefix("NAT")
+        .filter(|identifier| !identifier.is_empty())
+        .and_then(|_| navdata.nat_tracks.get(token))
+        .cloned()
+        .map(|points| (points, 1))
+}
+
+fn expand_airway_segment(
+    start: &str,
+    airway: &str,
+    end: &str,
+    navdata: &RouteNavdata,
+) -> Option<Vec<String>> {
+    if let Some(graph) = navdata.airway_graphs.get(airway)
+        && let Some(points) = find_airway_path(start, end, graph)
+    {
+        return Some(points);
+    }
+
+    let airway_points = navdata.airways.get(airway)?;
+    let start_index = airway_points.iter().position(|point| point == start)?;
+    let end_index = airway_points.iter().position(|point| point == end)?;
+
+    if start_index <= end_index {
+        Some(airway_points[start_index..=end_index].to_vec())
+    } else {
+        let mut points = airway_points[end_index..=start_index].to_vec();
+
+        points.reverse();
+
+        Some(points)
+    }
+}
+
+fn find_airway_path(
+    start: &str,
+    end: &str,
+    adjacency: &BTreeMap<String, Vec<String>>,
+) -> Option<Vec<String>> {
+    if start == end {
+        return Some(vec![start.to_string()]);
+    }
+
+    let mut visited = HashSet::<String>::new();
+    let mut predecessors = HashMap::<String, String>::new();
+    let mut queue = VecDeque::from([start.to_string()]);
+    visited.insert(start.to_string());
+
+    while let Some(current) = queue.pop_front() {
+        for next in adjacency.get(&current).into_iter().flatten() {
+            if !visited.insert(next.clone()) {
+                continue;
+            }
+
+            predecessors.insert(next.clone(), current.clone());
+
+            if next == end {
+                return reconstruct_airway_path(start, end, &predecessors);
+            }
+
+            queue.push_back(next.clone());
+        }
+    }
+
+    None
+}
+
+fn reconstruct_airway_path(
+    start: &str,
+    end: &str,
+    predecessors: &HashMap<String, String>,
+) -> Option<Vec<String>> {
+    let mut path = vec![end.to_string()];
+    let mut current = end;
+
+    while current != start {
+        current = predecessors.get(current)?.as_str();
+        path.push(current.to_string());
+    }
+
+    path.reverse();
+    Some(path)
+}
+
+fn push_route_point_name(points: &mut Vec<String>, name: String) {
+    if points.last().is_some_and(|point| point == &name) {
+        return;
+    }
+
+    points.push(name);
+}
+
+fn resolve_enriched_route_points(
+    mut points: Vec<EnrichedRoutePoint>,
+    navdata: &RouteNavdata,
+) -> Vec<EnrichedRoutePoint> {
+    let mut segment = Vec::<EnrichedRoutePointCandidate>::new();
+    let mut index = 0_usize;
+
+    while index < points.len() {
+        if points[index].point.is_some() {
+            flush_enriched_route_segment(&mut points, &mut segment);
+            index += 1;
+            continue;
+        }
+
+        let candidates = navdata.point_candidates(&points[index].name);
+
+        if candidates.is_empty() {
+            flush_enriched_route_segment(&mut points, &mut segment);
+        } else {
+            segment.push(EnrichedRoutePointCandidate { index, candidates });
+        }
+
+        index += 1;
+    }
+
+    flush_enriched_route_segment(&mut points, &mut segment);
+    points
+}
+
+fn flush_enriched_route_segment(
+    points: &mut [EnrichedRoutePoint],
+    segment: &mut Vec<EnrichedRoutePointCandidate>,
+) {
+    if segment.is_empty() {
+        return;
+    }
+
+    let route_points = segment
+        .iter()
+        .map(|candidate| RoutePointCandidate {
+            candidates: candidate.candidates.clone(),
+        })
+        .collect::<Vec<_>>();
+    let selected = select_min_distance_candidates(&route_points);
+
+    for (candidate, point) in segment.drain(..).zip(selected) {
+        points[candidate.index].point = Some(point);
+    }
+}
+
+fn select_min_distance_candidates(segment: &[RoutePointCandidate]) -> Vec<Point> {
+    if segment.is_empty() {
+        return Vec::new();
+    }
+
+    if segment.iter().all(|point| point.candidates.len() == 1) {
+        return segment.iter().map(|point| point.candidates[0]).collect();
+    }
+
+    let mut costs = vec![0.0_f64; segment[0].candidates.len()];
+    let mut predecessors = Vec::<Vec<usize>>::new();
+
+    for window in segment.windows(2) {
+        let previous = &window[0].candidates;
+        let current = &window[1].candidates;
+        let mut next_costs = vec![f64::INFINITY; current.len()];
+        let mut next_predecessors = vec![0_usize; current.len()];
+
+        for (current_index, current_point) in current.iter().enumerate() {
+            for (previous_index, previous_point) in previous.iter().enumerate() {
+                let cost =
+                    costs[previous_index] + haversine_distance_nm(*previous_point, *current_point);
+
+                if cost < next_costs[current_index] {
+                    next_costs[current_index] = cost;
+                    next_predecessors[current_index] = previous_index;
+                }
+            }
+        }
+
+        predecessors.push(next_predecessors);
+        costs = next_costs;
+    }
+
+    let mut selected_index = costs
+        .iter()
+        .enumerate()
+        .min_by(|left, right| compare_f64(*left.1, *right.1).then_with(|| left.0.cmp(&right.0)))
+        .map(|(index, _)| index)
+        .unwrap_or_default();
+    let mut selected = vec![Point::default(); segment.len()];
+
+    for segment_index in (0..segment.len()).rev() {
+        selected[segment_index] = segment[segment_index].candidates[selected_index];
+
+        if segment_index > 0 {
+            selected_index = predecessors[segment_index - 1][selected_index];
+        }
+    }
+
+    selected
+}
+
+fn route_token_items(route: &str) -> Vec<RouteToken> {
+    route
+        .split_whitespace()
+        .filter_map(|token| {
+            let name = normalized_route_item_name(token);
+
+            (!name.is_empty() && name != "DCT" && !is_route_phase_marker(&name)).then_some(
+                RouteToken {
+                    name,
+                    step_altitude_ft: parse_route_step_altitude(token),
+                },
+            )
+        })
+        .collect()
+}
+
+fn route_starts_with_direct(route: Option<&str>) -> bool {
+    route_boundary_token(route, false).is_some_and(|token| token == "DCT")
+}
+
+fn route_ends_with_direct(route: Option<&str>) -> bool {
+    route_boundary_token(route, true).is_some_and(|token| token == "DCT")
+}
+
+fn route_boundary_token(route: Option<&str>, from_end: bool) -> Option<String> {
+    let mut tokens = route.unwrap_or_default().split_whitespace();
+
+    if from_end {
+        tokens.rev().find_map(significant_route_item_name)
+    } else {
+        tokens.find_map(significant_route_item_name)
+    }
+}
+
+fn significant_route_item_name(token: &str) -> Option<String> {
+    let name = normalized_route_item_name(token);
+
+    (!name.is_empty() && !is_route_phase_marker(&name)).then_some(name)
+}
+
+fn normalized_route_item_name(token: &str) -> String {
+    let raw_name = token.split('/').next().unwrap_or(token).trim();
+    let route_coordinate = parse_route_coordinate(raw_name);
+
+    route_coordinate
+        .map(format_route_coordinate_name)
+        .unwrap_or_else(|| normalize_route_token(raw_name))
+}
+
+fn is_route_phase_marker(name: &str) -> bool {
+    matches!(name, "IFR" | "VFR")
+}
+
+fn route_tokens(route: &str) -> Vec<String> {
+    route_token_items(route)
+        .into_iter()
+        .map(|token| token.name)
+        .collect()
+}
+
+fn normalize_route_identifier(value: Option<&str>) -> Option<String> {
+    value
+        .map(normalize_route_token)
+        .filter(|value| !value.is_empty())
+}
+
+impl RouteNavdata {
+    fn point_candidates(&self, name: &str) -> Vec<Point> {
+        if let Some(candidates) = self.point_candidates.get(name) {
+            return candidates.clone();
+        }
+
+        parse_route_coordinate(name).into_iter().collect()
+    }
+}
+
+pub fn build_route_navdata(navdata: &Navdata) -> RouteNavdata {
+    let mut point_candidates = BTreeMap::<String, Vec<Point>>::new();
+
+    for (name, point) in &navdata.points {
+        let normalized = normalize_route_token(name);
+        add_route_point_candidate(&mut point_candidates, normalized, *point);
+    }
+
+    for (name, candidates) in &navdata.point_candidates {
+        let normalized = normalize_route_token(name);
+
+        for point in candidates {
+            add_route_point_candidate(&mut point_candidates, normalized.clone(), *point);
+        }
+    }
+
+    for (airport_id, airport) in &navdata.airports {
+        let normalized = normalize_route_token(airport_id);
+        add_route_point_candidate(&mut point_candidates, normalized, airport.position);
+    }
+
+    for runways in navdata.runways.values() {
+        for (runway, point) in runways {
+            if let Some(runway) = normalize_runway_designator(runway) {
+                add_route_point_candidate(&mut point_candidates, runway, *point);
+            }
+        }
+    }
+
+    let airways = navdata
+        .airways
+        .iter()
+        .filter_map(|(name, points)| {
+            let normalized = normalize_route_token(name);
+            let route_points = points
+                .iter()
+                .filter_map(|point| {
+                    let point = normalize_route_token(point);
+
+                    (!point.is_empty()).then_some(point)
+                })
+                .collect::<Vec<_>>();
+
+            (!normalized.is_empty() && route_points.len() >= 2)
+                .then_some((normalized, route_points))
+        })
+        .collect::<BTreeMap<_, _>>();
+    let mut airway_graphs = BTreeMap::<String, BTreeMap<String, Vec<String>>>::new();
+
+    for (name, segments) in &navdata.airway_segments {
+        let normalized = normalize_route_token(name);
+
+        if normalized.is_empty() {
+            continue;
+        }
+
+        for segment in segments {
+            let from = normalize_route_token(&segment.from);
+            let to = normalize_route_token(&segment.to);
+
+            if from.is_empty() || to.is_empty() || from == to {
+                continue;
+            }
+
+            let graph = airway_graphs.entry(normalized.clone()).or_default();
+            add_airway_graph_edge(graph, from.clone(), to.clone());
+            add_airway_graph_edge(graph, to, from);
+        }
+    }
+
+    RouteNavdata {
+        point_candidates,
+        airways,
+        airway_graphs,
+        nat_tracks: BTreeMap::new(),
+    }
+}
+
+pub fn route_navdata_with_nat_tracks(
+    route_navdata: &RouteNavdata,
+    nat_tracks: &[NatTrackSource],
+    valid_at: DateTime<Utc>,
+) -> RouteNavdata {
+    let mut route_navdata = route_navdata.clone();
+
+    add_nat_tracks_to_route_navdata(&mut route_navdata, nat_tracks, valid_at);
+
+    route_navdata
+}
+
+pub fn nat_track_is_valid_at(nat_track: &NatTrackSource, valid_at: DateTime<Utc>) -> bool {
+    nat_track
+        .valid_from
+        .is_none_or(|valid_from| valid_at >= valid_from)
+        && nat_track
+            .valid_to
+            .is_none_or(|valid_to| valid_at < valid_to)
+}
+
+fn add_nat_tracks_to_route_navdata(
+    route_navdata: &mut RouteNavdata,
+    nat_tracks: &[NatTrackSource],
+    valid_at: DateTime<Utc>,
+) {
+    for nat_track in nat_tracks
+        .iter()
+        .filter(|nat_track| nat_track_is_valid_at(nat_track, valid_at.clone()))
+    {
+        let Some(identifier) = normalized_nat_track_identifier(nat_track) else {
+            continue;
+        };
+        let mut points = Vec::new();
+
+        for waypoint in &nat_track.waypoints {
+            let Some((name, point)) = normalize_nat_track_waypoint(waypoint) else {
+                continue;
+            };
+
+            if let Some(point) = point {
+                add_route_point_candidate(&mut route_navdata.point_candidates, name.clone(), point);
+            }
+
+            push_route_point_name(&mut points, name);
+        }
+
+        if points.len() < 2 {
+            continue;
+        }
+
+        route_navdata
+            .nat_tracks
+            .insert(identifier.clone(), points.clone());
+        route_navdata
+            .nat_tracks
+            .insert(format!("NAT{identifier}"), points);
+    }
+}
+
+fn normalized_nat_track_identifier(nat_track: &NatTrackSource) -> Option<String> {
+    nat_track
+        .identifier
+        .as_deref()
+        .map(normalize_route_token)
+        .filter(|identifier| !identifier.is_empty())
+}
+
+fn normalize_nat_track_waypoint(value: &str) -> Option<(String, Option<Point>)> {
+    parse_nat_track_coordinate(value)
+        .map(|point| (format_route_coordinate_name(point), Some(point)))
+        .or_else(|| {
+            let name = normalized_route_item_name(value);
+
+            (!name.is_empty()).then_some((name, None))
+        })
+}
+
+fn parse_nat_track_coordinate(value: &str) -> Option<Point> {
+    let (lat, lon) = value.trim().split_once('/')?;
+    let lat = parse_nat_track_component(lat.trim(), 2)?;
+    let lon = parse_nat_track_component(lon.trim(), 3)?;
+
+    valid_route_coordinate(lat, -lon)
+}
+
+fn parse_nat_track_component(value: &str, degree_digits: usize) -> Option<f64> {
+    let value = value.trim();
+
+    if !value.chars().all(|character| character.is_ascii_digit()) {
+        return None;
+    }
+
+    let value = if degree_digits == 3 && value.len() == 2 {
+        format!("0{value}")
+    } else {
+        value.to_string()
+    };
+
+    parse_coordinate_component(&value, degree_digits)
+}
+
+fn add_route_point_candidate(
+    candidates_by_name: &mut BTreeMap<String, Vec<Point>>,
+    name: String,
+    point: Point,
+) {
+    if name.is_empty()
+        || !point.lat.is_finite()
+        || !point.lon.is_finite()
+        || !(-90.0..=90.0).contains(&point.lat)
+        || !(-180.0..=180.0).contains(&point.lon)
+    {
+        return;
+    }
+
+    let candidates = candidates_by_name.entry(name).or_default();
+
+    if candidates
+        .iter()
+        .any(|candidate| same_route_point(*candidate, point))
+    {
+        return;
+    }
+
+    candidates.push(point);
+}
+
+fn same_route_point(left: Point, right: Point) -> bool {
+    (left.lat - right.lat).abs() < 0.000_000_001 && (left.lon - right.lon).abs() < 0.000_000_001
+}
+
+fn add_airway_graph_edge(graph: &mut BTreeMap<String, Vec<String>>, from: String, to: String) {
+    let targets = graph.entry(from).or_default();
+
+    if !targets.iter().any(|target| target == &to) {
+        targets.push(to);
+    }
+}
+
+fn normalize_route_token(value: &str) -> String {
+    value
+        .trim()
+        .chars()
+        .filter(|character| character.is_ascii_alphanumeric())
+        .map(|character| character.to_ascii_uppercase())
+        .collect()
+}
+
+fn parse_route_coordinate(value: &str) -> Option<Point> {
+    let trimmed = value.trim();
+
+    parse_decimal_route_coordinate(trimmed).or_else(|| {
+        let normalized = normalize_route_token(trimmed);
+
+        parse_compact_route_coordinate(&normalized)
+    })
+}
+
+fn parse_decimal_route_coordinate(value: &str) -> Option<Point> {
+    let (lat, lon) = value.split_once(',')?;
+    let lat = lat.trim().parse::<f64>().ok()?;
+    let lon = lon.trim().parse::<f64>().ok()?;
+
+    valid_route_coordinate(lat, lon)
+}
+
+fn parse_compact_route_coordinate(value: &str) -> Option<Point> {
+    if value.is_empty() || !value.is_ascii() {
+        return None;
+    }
+
+    if let Some(point) = parse_hemisphere_first_coordinate(value) {
+        return Some(point);
+    }
+
+    parse_hemisphere_trailing_coordinate(value)
+}
+
+fn parse_hemisphere_first_coordinate(value: &str) -> Option<Point> {
+    let mut chars = value.chars();
+    let lat_hemisphere = chars.next()?;
+
+    if !matches!(lat_hemisphere, 'N' | 'S') {
+        return None;
+    }
+
+    let lon_hemisphere_index = value[1..]
+        .find(|character| matches!(character, 'E' | 'W'))
+        .map(|index| index + 1)?;
+    let lon_hemisphere = value.as_bytes()[lon_hemisphere_index] as char;
+    let lat = parse_coordinate_component(&value[1..lon_hemisphere_index], 2)?;
+    let lon = parse_coordinate_component(&value[lon_hemisphere_index + 1..], 3)?;
+
+    signed_route_coordinate(lat, lat_hemisphere, lon, lon_hemisphere)
+}
+
+fn parse_hemisphere_trailing_coordinate(value: &str) -> Option<Point> {
+    let lat_hemisphere_index = value.find(|character| matches!(character, 'N' | 'S'))?;
+    let lat_hemisphere = value.as_bytes()[lat_hemisphere_index] as char;
+    let lon_hemisphere_index = value[lat_hemisphere_index + 1..]
+        .find(|character| matches!(character, 'E' | 'W'))
+        .map(|index| lat_hemisphere_index + 1 + index)?;
+
+    if lon_hemisphere_index + 1 != value.len() {
+        return None;
+    }
+
+    let lon_hemisphere = value.as_bytes()[lon_hemisphere_index] as char;
+    let lat = parse_coordinate_component(&value[..lat_hemisphere_index], 2)?;
+    let lon =
+        parse_coordinate_component(&value[lat_hemisphere_index + 1..lon_hemisphere_index], 3)?;
+
+    signed_route_coordinate(lat, lat_hemisphere, lon, lon_hemisphere)
+}
+
+fn parse_coordinate_component(value: &str, degree_digits: usize) -> Option<f64> {
+    if !value.chars().all(|character| character.is_ascii_digit()) {
+        return None;
+    }
+
+    if value.len() != degree_digits
+        && value.len() != degree_digits + 2
+        && value.len() != degree_digits + 4
+    {
+        return None;
+    }
+
+    let degrees = value[..degree_digits].parse::<f64>().ok()?;
+    let minutes = if value.len() >= degree_digits + 2 {
+        value[degree_digits..degree_digits + 2]
+            .parse::<f64>()
+            .ok()?
+    } else {
+        0.0
+    };
+    let seconds = if value.len() == degree_digits + 4 {
+        value[degree_digits + 2..degree_digits + 4]
+            .parse::<f64>()
+            .ok()?
+    } else {
+        0.0
+    };
+
+    if minutes >= 60.0 || seconds >= 60.0 {
+        return None;
+    }
+
+    Some(degrees + minutes / 60.0 + seconds / 3600.0)
+}
+
+fn signed_route_coordinate(
+    lat: f64,
+    lat_hemisphere: char,
+    lon: f64,
+    lon_hemisphere: char,
+) -> Option<Point> {
+    let lat = if lat_hemisphere == 'S' { -lat } else { lat };
+    let lon = if lon_hemisphere == 'W' { -lon } else { lon };
+
+    valid_route_coordinate(lat, lon)
+}
+
+fn valid_route_coordinate(lat: f64, lon: f64) -> Option<Point> {
+    (lat.is_finite()
+        && lon.is_finite()
+        && (-90.0..=90.0).contains(&lat)
+        && (-180.0..=180.0).contains(&lon))
+    .then_some(Point { lat, lon })
+}
+
+fn format_route_coordinate_name(point: Point) -> String {
+    let (lat_hemisphere, lat) = if point.lat.is_sign_negative() {
+        ('S', -point.lat)
+    } else {
+        ('N', point.lat)
+    };
+    let (lon_hemisphere, lon) = if point.lon.is_sign_negative() {
+        ('W', -point.lon)
+    } else {
+        ('E', point.lon)
+    };
+    let (lat_degrees, lat_minutes, lat_seconds) = coordinate_name_parts(lat, 90);
+    let (lon_degrees, lon_minutes, lon_seconds) = coordinate_name_parts(lon, 180);
+
+    format!(
+        "{lat_hemisphere}{lat_degrees:02}{lat_minutes:02}{lat_seconds:02}{lon_hemisphere}{lon_degrees:03}{lon_minutes:02}{lon_seconds:02}"
+    )
+}
+
+fn coordinate_name_parts(value: f64, max_degrees: u32) -> (u32, u32, u32) {
+    let max_seconds = max_degrees.saturating_mul(3600);
+    let total_seconds = (value * 3600.0).round().clamp(0.0, max_seconds as f64) as u32;
+    let degrees = total_seconds / 3600;
+    let remaining = total_seconds % 3600;
+
+    (degrees, remaining / 60, remaining % 60)
+}
+
+fn build_aircraft_performance_lookup(
+    database: &AircraftPerformanceDatabase,
+) -> HashMap<String, &AircraftPerformanceRecord> {
+    database
+        .aircraft
+        .iter()
+        .filter_map(|aircraft| {
+            let icao = normalize_route_token(&aircraft.icao);
+
+            (!icao.is_empty()).then_some((icao, aircraft))
+        })
+        .collect()
+}
+
+fn aircraft_performance_for_pilot<'a>(
+    pilot: &Pilot,
+    lookup: &'a HashMap<String, &'a AircraftPerformanceRecord>,
+) -> Option<&'a AircraftPerformanceRecord> {
+    pilot_aircraft_identifier(pilot).and_then(|identifier| lookup.get(&identifier).copied())
+}
+
+fn pilot_aircraft_identifier(pilot: &Pilot) -> Option<String> {
+    pilot
+        .flight_plan
+        .as_ref()
+        .and_then(|plan| plan.aircraft_id.as_deref())
+        .or(pilot.aircraft_id.as_deref())
+        .and_then(|value| value.split('/').next())
+        .map(normalize_route_token)
+        .filter(|identifier| !identifier.is_empty())
+}
+
+fn pilot_current_point(pilot: &Pilot) -> Option<Point> {
+    let track = pilot.last_track.as_ref()?;
+    let point = Point {
+        lat: track.latitude?,
+        lon: track.longitude?,
+    };
+
+    (point.lat.is_finite()
+        && point.lon.is_finite()
+        && (-90.0..=90.0).contains(&point.lat)
+        && (-180.0..=180.0).contains(&point.lon))
+    .then_some(point)
+}
+
+fn pilot_current_altitude(pilot: &Pilot) -> Option<f64> {
+    pilot
+        .last_track
+        .as_ref()
+        .and_then(|track| track.altitude)
+        .filter(|altitude| altitude.is_finite())
+}
+
+fn altitude_constraint_from_procedure_leg(leg: &ProcedureLeg) -> Option<AltitudeConstraint> {
+    let altitude1 = leg.altitude1.as_deref().and_then(parse_procedure_altitude);
+    let altitude2 = leg.altitude2.as_deref().and_then(parse_procedure_altitude);
+    let descriptor = leg
+        .altitude_descriptor
+        .as_deref()
+        .map(|descriptor| descriptor.trim().to_ascii_uppercase())
+        .unwrap_or_default();
+
+    match (descriptor.as_str(), altitude1, altitude2) {
+        (_, None, None) => None,
+        ("+" | "A", Some(min_ft), _) => Some(AltitudeConstraint {
+            min_ft: Some(min_ft),
+            max_ft: None,
+        }),
+        ("-" | "C", Some(max_ft), _) => Some(AltitudeConstraint {
+            min_ft: None,
+            max_ft: Some(max_ft),
+        }),
+        ("B", Some(left), Some(right)) => Some(AltitudeConstraint {
+            min_ft: Some(left.min(right)),
+            max_ft: Some(left.max(right)),
+        }),
+        (_, Some(left), Some(right)) => Some(AltitudeConstraint {
+            min_ft: Some(left.min(right)),
+            max_ft: Some(left.max(right)),
+        }),
+        (_, Some(altitude), None) => Some(AltitudeConstraint {
+            min_ft: Some(altitude),
+            max_ft: Some(altitude),
+        }),
+        _ => None,
+    }
+}
+
+fn parse_procedure_altitude(value: &str) -> Option<f64> {
+    parse_flight_plan_altitude(Some(value))
+}
+
+fn speed_constraint_from_procedure_leg(leg: &ProcedureLeg) -> Option<f64> {
+    let value = leg.speed_limit.as_deref()?.trim().to_ascii_uppercase();
+    let digits = value
+        .chars()
+        .filter(|character| character.is_ascii_digit())
+        .collect::<String>();
+    let speed = digits.parse::<f64>().ok()?;
+
+    (speed.is_finite() && speed > 0.0).then_some(speed)
+}
+
+fn merge_altitude_constraints(
+    left: Option<AltitudeConstraint>,
+    right: Option<AltitudeConstraint>,
+) -> Option<AltitudeConstraint> {
+    let Some(left) = left else {
+        return right;
+    };
+    let Some(right) = right else {
+        return Some(left);
+    };
+
+    Some(AltitudeConstraint {
+        min_ft: match (left.min_ft, right.min_ft) {
+            (Some(left), Some(right)) => Some(left.max(right)),
+            (Some(value), None) | (None, Some(value)) => Some(value),
+            (None, None) => None,
+        },
+        max_ft: match (left.max_ft, right.max_ft) {
+            (Some(left), Some(right)) => Some(left.min(right)),
+            (Some(value), None) | (None, Some(value)) => Some(value),
+            (None, None) => None,
+        },
+    })
+}
+
+impl AltitudeConstraint {
+    fn apply(self, altitude: f64) -> f64 {
+        self.max_ft
+            .map(|max_ft| altitude.min(max_ft))
+            .unwrap_or(altitude)
+            .max(self.min_ft.unwrap_or(0.0))
+    }
+}
+
+fn parse_route_step_altitude(token: &str) -> Option<f64> {
+    token.split('/').skip(1).find_map(|part| {
+        let part = part.trim().to_ascii_uppercase();
+
+        if let Some(index) = part.find("FL") {
+            return parse_flight_plan_altitude(Some(&part[index..]));
+        }
+
+        if let Some(index) = part.find('F') {
+            return parse_flight_plan_altitude(Some(&part[index..]));
+        }
+
+        if let Some(index) = part.find('A') {
+            return parse_flight_plan_altitude(Some(&part[index..]));
+        }
+
+        parse_flight_plan_altitude(Some(&part))
+    })
+}
+
+fn vertical_performance(performance: Option<&AircraftPerformanceRecord>) -> VerticalPerformance {
+    let Some(performance) = performance else {
+        return VerticalPerformance::default();
+    };
+    let performance = &performance.performance;
+
+    VerticalPerformance {
+        initial_climb_rate_ft_min: finite_positive(performance.initial_climb_5000ft.roc_ft_min)
+            .unwrap_or(DEFAULT_CLIMB_RATE_FT_MIN),
+        climb_fl150_rate_ft_min: finite_positive(performance.climb_fl150.roc_ft_min)
+            .unwrap_or(DEFAULT_CLIMB_RATE_FT_MIN),
+        climb_fl240_rate_ft_min: finite_positive(performance.climb_fl240.roc_ft_min)
+            .unwrap_or(DEFAULT_CLIMB_RATE_FT_MIN),
+        mach_climb_rate_ft_min: finite_positive(performance.mach_climb.roc_ft_min)
+            .unwrap_or(DEFAULT_CLIMB_RATE_FT_MIN),
+        initial_descent_rate_ft_min: finite_positive(performance.initial_descent_fl240.rod_ft_min)
+            .unwrap_or(DEFAULT_DESCENT_RATE_FT_MIN),
+        descent_fl100_rate_ft_min: finite_positive(performance.descent_fl100.rod_ft_min)
+            .unwrap_or(DEFAULT_DESCENT_RATE_FT_MIN),
+        approach_descent_rate_ft_min: finite_positive(performance.approach.rod_ft_min)
+            .unwrap_or(DEFAULT_DESCENT_RATE_FT_MIN),
+        cruise_speed_kt: finite_positive(performance.cruise.tas_kt)
+            .or_else(|| finite_positive(performance.cruise.mach).map(|mach| mach * 661.47))
+            .or(Some(DEFAULT_CRUISE_SPEED_KT)),
+        ceiling_ft: performance.cruise.ceiling_fl.and_then(|ceiling| {
+            let ceiling_ft = if ceiling <= 700.0 {
+                ceiling * 100.0
+            } else {
+                ceiling
+            };
+
+            (ceiling_ft.is_finite() && ceiling_ft > 0.0).then_some(ceiling_ft)
+        }),
+    }
+}
+
+fn speed_performance(performance: Option<&AircraftPerformanceRecord>) -> SpeedPerformance {
+    let Some(performance) = performance else {
+        return SpeedPerformance::default();
+    };
+    let performance = &performance.performance;
+
+    SpeedPerformance {
+        initial_climb_ias_kt: finite_positive(performance.initial_climb_5000ft.ias_kt),
+        climb_fl150_ias_kt: finite_positive(performance.climb_fl150.ias_kt),
+        climb_fl240_ias_kt: finite_positive(performance.climb_fl240.ias_kt),
+        mach_climb: finite_positive(performance.mach_climb.mach),
+        cruise_tas_kt: finite_positive(performance.cruise.tas_kt),
+        cruise_mach: finite_positive(performance.cruise.mach),
+        initial_descent_mach: finite_positive(performance.initial_descent_fl240.mach),
+        descent_fl100_ias_kt: finite_positive(performance.descent_fl100.ias_kt),
+        approach_ias_kt: finite_positive(performance.approach.ias_kt),
+    }
+}
+
+impl Default for VerticalPerformance {
+    fn default() -> Self {
+        Self {
+            initial_climb_rate_ft_min: DEFAULT_CLIMB_RATE_FT_MIN,
+            climb_fl150_rate_ft_min: DEFAULT_CLIMB_RATE_FT_MIN,
+            climb_fl240_rate_ft_min: DEFAULT_CLIMB_RATE_FT_MIN,
+            mach_climb_rate_ft_min: DEFAULT_CLIMB_RATE_FT_MIN,
+            initial_descent_rate_ft_min: DEFAULT_DESCENT_RATE_FT_MIN,
+            descent_fl100_rate_ft_min: DEFAULT_DESCENT_RATE_FT_MIN,
+            approach_descent_rate_ft_min: DEFAULT_DESCENT_RATE_FT_MIN,
+            cruise_speed_kt: Some(DEFAULT_CRUISE_SPEED_KT),
+            ceiling_ft: None,
+        }
+    }
+}
+
+impl Default for SpeedPerformance {
+    fn default() -> Self {
+        Self {
+            initial_climb_ias_kt: Some(DEFAULT_CLIMB_IAS_KT),
+            climb_fl150_ias_kt: Some(DEFAULT_CLIMB_IAS_KT),
+            climb_fl240_ias_kt: Some(DEFAULT_CLIMB_IAS_KT),
+            mach_climb: Some(DEFAULT_CRUISE_MACH),
+            cruise_tas_kt: Some(DEFAULT_CRUISE_SPEED_KT),
+            cruise_mach: Some(DEFAULT_CRUISE_MACH),
+            initial_descent_mach: Some(DEFAULT_DESCENT_MACH),
+            descent_fl100_ias_kt: Some(DEFAULT_DESCENT_IAS_KT),
+            approach_ias_kt: Some(DEFAULT_LOW_LEVEL_IAS_KT),
+        }
+    }
+}
+
+fn finite_positive(value: Option<f64>) -> Option<f64> {
+    value.filter(|value| value.is_finite() && *value > 0.0)
+}
+
+fn cap_to_aircraft_ceiling(altitude: f64, performance: &VerticalPerformance) -> f64 {
+    performance
+        .ceiling_ft
+        .map(|ceiling| altitude.min(ceiling))
+        .unwrap_or(altitude)
+}
+
+fn move_altitude_toward(
+    altitude: f64,
+    target_altitude: f64,
+    elapsed_minutes: f64,
+    performance: &VerticalPerformance,
+) -> f64 {
+    if elapsed_minutes <= 0.0 || !elapsed_minutes.is_finite() {
+        return altitude;
+    }
+
+    if target_altitude > altitude {
+        let limit = climb_rate_for_altitude(altitude, performance) * elapsed_minutes;
+
+        (altitude + limit).min(target_altitude)
+    } else if target_altitude < altitude {
+        let limit = descent_rate_for_altitude(altitude, performance) * elapsed_minutes;
+
+        (altitude - limit).max(target_altitude)
+    } else {
+        altitude
+    }
+}
+
+fn climb_rate_for_altitude(altitude: f64, performance: &VerticalPerformance) -> f64 {
+    if altitude < 5_000.0 {
+        performance.initial_climb_rate_ft_min
+    } else if altitude < 15_000.0 {
+        performance.climb_fl150_rate_ft_min
+    } else if altitude < 24_000.0 {
+        performance.climb_fl240_rate_ft_min
+    } else {
+        performance.mach_climb_rate_ft_min
+    }
+}
+
+fn descent_rate_for_altitude(altitude: f64, performance: &VerticalPerformance) -> f64 {
+    if altitude <= 10_000.0 {
+        performance.approach_descent_rate_ft_min
+    } else if altitude <= 24_000.0 {
+        performance.descent_fl100_rate_ft_min
+    } else {
+        performance.initial_descent_rate_ft_min
+    }
+}
+
+fn pilot_ground_speed_for_route(pilot: &Pilot) -> Option<f64> {
+    let flight_plan_speed = flight_plan_speed_for_route(pilot);
+    let track_speed = pilot
+        .last_track
+        .as_ref()
+        .and_then(|track| track.ground_speed)
+        .filter(|speed| speed.is_finite() && *speed > 1.0);
+
+    if pilot
+        .last_track
+        .as_ref()
+        .is_some_and(|track| track.on_ground == Some(true))
+    {
+        flight_plan_speed.or(track_speed)
+    } else {
+        track_speed.or(flight_plan_speed)
+    }
+}
+
+fn flight_plan_speed_for_route(pilot: &Pilot) -> Option<f64> {
+    pilot
+        .flight_plan
+        .as_ref()
+        .and_then(|plan| plan.speed.as_deref())
+        .and_then(parse_flight_plan_speed)
+}
+
+fn parse_flight_plan_altitude(value: Option<&str>) -> Option<f64> {
+    let value = value?.trim().to_ascii_uppercase();
+
+    if value.is_empty() || value == "VFR" || value == "SFC" {
+        return None;
+    }
+
+    if let Some(rest) = value.strip_prefix("FL") {
+        return parse_altitude_digits(rest).map(|flight_level| flight_level * 100.0);
+    }
+
+    if let Some(rest) = value.strip_prefix('F') {
+        return parse_altitude_digits(rest).map(|flight_level| flight_level * 100.0);
+    }
+
+    if let Some(rest) = value.strip_prefix('A') {
+        return parse_altitude_digits(rest).map(|altitude| {
+            if altitude <= 700.0 {
+                altitude * 100.0
+            } else {
+                altitude
+            }
+        });
+    }
+
+    let altitude = parse_altitude_digits(&value)?;
+
+    if altitude <= 600.0 && value.len() <= 3 {
+        Some(altitude * 100.0)
+    } else {
+        Some(altitude)
+    }
+}
+
+fn parse_altitude_digits(value: &str) -> Option<f64> {
+    let digits = value
+        .chars()
+        .take_while(|character| character.is_ascii_digit())
+        .collect::<String>();
+
+    if digits.is_empty() {
+        return None;
+    }
+
+    digits.parse::<f64>().ok().filter(|value| value.is_finite())
+}
+
+fn parse_flight_plan_speed(value: &str) -> Option<f64> {
+    let value = value.trim().to_ascii_uppercase();
+    let mut chars = value.chars();
+    let prefix = chars.next()?;
+    let digits = chars
+        .filter(|character| character.is_ascii_digit())
+        .collect::<String>();
+    let number = digits.parse::<f64>().ok()?;
+    let speed = match prefix {
+        'N' => number,
+        'K' => number * 0.539_957,
+        'M' => {
+            let mach = if number >= 100.0 {
+                number / 1_000.0
+            } else {
+                number / 100.0
+            };
+
+            mach * 661.47
+        }
+        _ => return None,
+    };
+
+    (speed.is_finite() && speed > 1.0).then_some(speed)
+}
+
+fn format_flight_level(altitude: f64) -> String {
+    let flight_level = (altitude / 100.0).round().max(0.0) as u32;
+
+    format!("FL{flight_level:03}")
+}
+
+fn haversine_distance_nm(left: Point, right: Point) -> f64 {
+    let left_lat = left.lat.to_radians();
+    let right_lat = right.lat.to_radians();
+    let delta_lat = (right.lat - left.lat).to_radians();
+    let delta_lon = (right.lon - left.lon).to_radians();
+    let a = (delta_lat / 2.0).sin().powi(2)
+        + left_lat.cos() * right_lat.cos() * (delta_lon / 2.0).sin().powi(2);
+    let c = 2.0 * a.sqrt().atan2((1.0 - a).sqrt());
+
+    EARTH_RADIUS_NM * c
+}

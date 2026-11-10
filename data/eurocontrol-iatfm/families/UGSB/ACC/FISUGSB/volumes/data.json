@@ -1,0 +1,69 @@
+{
+  "volumes": [
+    {
+      "id": "UGSBAPP",
+      "label": "UGSBAPP",
+      "sectorIds": [
+        "UGSBTC1",
+        "UGSBTC2",
+        "UGSBTC3",
+        "UGSBTC4"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 14
+      },
+      "eurocontrol": {
+        "sourceKey": "tv:6d46d49b-b570-4762-ac76-876be0642011",
+        "groups": [
+          "FISUGSB"
+        ],
+        "sourceDate": "2026-10-01",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1686787200000,
+            "end": 32503593600000
+          },
+          "stateId": "50CA656400500200E204044C",
+          "name": "UGSB TMA",
+          "referenceLocation": {
+            "ref": {
+              "$ref": "rl:81921779-0caa-4fe2-8e25-9bcdf6c05e62"
+            },
+            "locationId": "UGSBTC1234",
+            "category": "GLOBAL"
+          },
+          "activationPeriods": [
+            {
+              "$type": "airspace.em.common.time.ConstrainedWeeklyDayPeriod",
+              "weekDays": [
+                "SUNDAY",
+                "MONDAY",
+                "TUESDAY",
+                "WEDNESDAY",
+                "THURSDAY",
+                "FRIDAY",
+                "SATURDAY"
+              ],
+              "wef": 0,
+              "til": 0,
+              "validityPeriod": {
+                "start": 1686787200000,
+                "end": 32503593600000
+              }
+            }
+          ],
+          "capacities": [
+            {
+              "category": "GLOBAL",
+              "hourlyCapacity": 14
+            }
+          ],
+          "autoDSTChangeEnabled": false,
+          "skipIn": 99999,
+          "skipOut": 99999
+        }
+      }
+    }
+  ]
+}
