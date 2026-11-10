@@ -1,0 +1,61 @@
+[
+  {
+    "id": "EIDWCR",
+    "positionPriority": [
+      "EIDW_APP",
+      "EIDW_N_CTR",
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EIDWCTSL",
+    "positionPriority": [
+      "EIDW_S_CTR",
+      "EIDW_N_CTR",
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EIDWCTSU",
+    "positionPriority": [
+      "EIDW_S_CTR",
+      "EIDW_N_CTR",
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EIDWNEL",
+    "positionPriority": [
+      "EIDW_N_CTR",
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EIDWNEU",
+    "positionPriority": [
+      "EIDW_N_CTR",
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EIDWNWL",
+    "positionPriority": [
+      "EIDW_N_CTR",
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EIDWNWU",
+    "positionPriority": [
+      "EIDW_N_CTR",
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  }
+]

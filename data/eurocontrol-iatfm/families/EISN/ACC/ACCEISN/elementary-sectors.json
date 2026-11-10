@@ -1,0 +1,566 @@
+[
+  {
+    "id": "EISN1AS",
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN1AU",
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN1BS",
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN1BU",
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN1CS",
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN1CU",
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN1DS",
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN1DU",
+    "positionPriority": [
+      "EISN_A_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN1ES",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN1EU",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2AS",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2AU",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2BS",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2BU",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2CS",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2CU",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2DS",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2DU",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2ES",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2EU",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2FS",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2FU",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2GS",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN2GU",
+    "positionPriority": [
+      "EISN_B_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN3AS",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN3AU",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN3BS",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN3BU",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN3CS",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN3CU",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN3DS",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN3DU",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN3ES",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN3EU",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4AS",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4AU",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4BS",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4BU",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4CS",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4CU",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4DS",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4DU",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4ES",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4EU",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4FS",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4FU",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4GS",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN4GU",
+    "positionPriority": [
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISN5AS",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN5AU",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN5BS",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN5BU",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN5CS",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN5CU",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN5DS",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN5DU",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN5ES",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN5EU",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN6AS",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN6AU",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN6BS",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN6BU",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN6CS",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN6CU",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN6DS",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISN6DU",
+    "positionPriority": [
+      "EISN_D_CTR",
+      "EISN_CTR",
+      "EGGX_CTR",
+      "EGGX_SG_CTR",
+      "CZQX_GS_CTR"
+    ]
+  },
+  {
+    "id": "EISNLSN",
+    "positionPriority": [
+      "EISN_LS_CTR",
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISNLSS",
+    "positionPriority": [
+      "EISN_LS_CTR",
+      "EISN_C_CTR",
+      "EISN_CTR"
+    ]
+  },
+  {
+    "id": "EISNNOTA",
+    "positionPriority": []
+  },
+  {
+    "id": "EISNSOTA",
+    "positionPriority": []
+  }
+]

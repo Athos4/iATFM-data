@@ -1,0 +1,37 @@
+[
+  {
+    "id": "EGJJF45L",
+    "positionPriority": [
+      "EGJJ_APP",
+      "EGJJ_C_APP",
+      "EGTT_W_CTR",
+      "EGTT_CTR"
+    ]
+  },
+  {
+    "id": "EGJJF45U",
+    "positionPriority": [
+      "EGJJ_APP",
+      "EGJJ_C_APP",
+      "EGTT_W_CTR",
+      "EGTT_CTR"
+    ]
+  },
+  {
+    "id": "EGJJORT",
+    "positionPriority": [
+      "EGJJ_C_APP",
+      "EGTT_W_CTR",
+      "EGTT_CTR"
+    ]
+  },
+  {
+    "id": "EGJJSKE",
+    "positionPriority": [
+      "EGJJ_S_APP",
+      "EGJJ_C_APP",
+      "EGTT_W_CTR",
+      "EGTT_CTR"
+   ]
+  }
+]
