@@ -1,1 +1,0 @@
-RAD/IFPS verification disabled at user request. Operational JSON data archived to Z:\ATC Tool\data-sources\disabled-ifps-20261106. FPL Check now calculates provisional CTOT and displays crossed regulated volumes and hotspots. Do not rerun integration installers without explicitly restoring this feature.
