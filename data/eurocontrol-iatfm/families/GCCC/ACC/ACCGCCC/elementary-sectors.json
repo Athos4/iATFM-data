@@ -1,70 +1,70 @@
 [
   {
     "id": "GCCCAAC",
-    "positionPriority": []
+    "positionPriority": ["GCAC_APP","GCCC_NE_CTR","GCCC_CTR"]
   },
   {
     "id": "GCCCFGC",
-    "positionPriority": []
+    "positionPriority": ["GCLP_APP","GCNB_E_CTR","GCNB_W_CTR","GCCC_CTR"]
   },
   {
     "id": "GCCCGCN",
-    "positionPriority": []
+    "positionPriority": ["GCLP_APP","GCNB_E_CTR","GCNB_W_CTR","GCCC_CTR"]
   },
   {
     "id": "GCCCGCS",
-    "positionPriority": []
+    "positionPriority": ["GCLP_APP","GCNB_E_CTR","GCNB_W_CTR","GCCC_CTR"]
   },
   {
     "id": "GCCCNBN",
-    "positionPriority": []
+    "positionPriority": ["GCNB_E_CTR","GCNB_W_CTR","GCCC_CTR"]
   },
   {
     "id": "GCCCNBS",
-    "positionPriority": []
+    "positionPriority": ["GCNB_E_CTR","GCNB_W_CTR","GCCC_CTR"]
   },
   {
     "id": "GCCCNBW",
-    "positionPriority": []
+    "positionPriority": ["GCNB_W_CTR","GCCC_CTR"]
   },
   {
     "id": "GCCCNEL",
-    "positionPriority": []
+    "positionPriority": ["GCNB_W_CTR","GCCC_CTR"]
   },
   {
     "id": "GCCCNEX",
-    "positionPriority": []
+    "positionPriority": ["GCCC_E_CTR","GCCC_CTR"]
   },
   {
     "id": "GCCCOCE",
-    "positionPriority": []
+    "positionPriority": ["GCCC_OCE_CTR"]
   },
   {
     "id": "GCCCRCE",
-    "positionPriority": []
+    "positionPriority": ["GCCC_C_CTR","GCCC_CTR"]
   },
   {
     "id": "GCCCRCW",
-    "positionPriority": []
+    "positionPriority": ["GCCC_C_CTR","GCCC_CTR"]
   },
   {
     "id": "GCCCRNW",
-    "positionPriority": []
+    "positionPriority": ["GCCC_CTR"]
   },
   {
     "id": "GCCCRST",
-    "positionPriority": []
+    "positionPriority": ["GCCC_CTR"]
   },
   {
     "id": "GCCCRWW",
-    "positionPriority": []
+    "positionPriority": ["GCCC_CTR"]
   },
   {
     "id": "GCTSAPP",
-    "positionPriority": []
+    "positionPriority": ["GCTS_APP","GCNB_W_CTR","GCCC_CTR"]
   },
   {
     "id": "GCXOAPP",
-    "positionPriority": []
+    "positionPriority": ["GCXO_APP","GCNB_W_CTR","GCCC_CTR"]
   }
 ]
