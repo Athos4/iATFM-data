@@ -414,7 +414,7 @@
     "id": "LFBOFIS",
     "positionPriority": [
       "LFBO_APP",
-      "LFBB_N_CTR",
+      "LFBB_S_CTR",
       "LFBB_CTR"
     ]
   },
@@ -422,7 +422,7 @@
     "id": "LFBPFIS",
     "positionPriority": [
       "LFBP_APP",
-      "LFBB_N_CTR",
+      "LFBB_S_CTR",
       "LFBB_CTR"
     ]
   },
@@ -430,7 +430,7 @@
     "id": "LFBZFIS",
     "positionPriority": [
       "LFBZ_APP",
-      "LFBB_N_CTR",
+      "LFBB_S_CTR",
       "LFBB_CTR"
     ]
   },
