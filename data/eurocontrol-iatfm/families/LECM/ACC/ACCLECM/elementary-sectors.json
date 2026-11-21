@@ -50,11 +50,17 @@
   },
   {
     "id": "LECMCJL",
-    "positionPriority": []
+    "positionPriority": [
+      "LECM_ZTI_CTR",
+      "LECM_R2_CTR"
+    ]
   },
   {
     "id": "LECMCJU",
-    "positionPriority": []
+    "positionPriority": [
+      "LECM_ZTI_CTR",
+      "LECM_R2_CTR"
+    ]
   },
   {
     "id": "LECMDGL",
@@ -157,7 +163,10 @@
   },
   {
     "id": "LECMTER",
-    "positionPriority": []
+    "positionPriority": [
+      "LECM_ZTI_CTR",
+      "LECM_R2_CTR"
+    ]
   },
   {
     "id": "LECMTEUT",
@@ -203,7 +212,10 @@
   },
   {
     "id": "LECMZGZ",
-    "positionPriority": []
+    "positionPriority": [
+      "LECM_CZI_CTR",
+      "LECM_R2_CTR"
+    ]
   },
   {
     "id": "LECMZML",
@@ -723,7 +735,11 @@
   },
   {
     "id": "LESATA",
-    "positionPriority": []
+    "positionPriority": [
+      "LESA_APP",
+      "LECM_ZTI_CTR",
+      "LECM_R2_CTR"
+    ]
   },
   {
     "id": "LESOTA",
