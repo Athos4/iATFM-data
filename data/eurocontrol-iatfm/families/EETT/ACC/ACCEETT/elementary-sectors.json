@@ -1,27 +1,50 @@
 [
   {
     "id": "EEEITA",
-    "positionPriority": []
+    "positionPriority": [
+      "EEEI_TWR",
+      "EETN_APP",
+      "EETT_W_CTR",
+      "EETT_CTR"
+    ]
   },
   {
     "id": "EETNTMA2",
-    "positionPriority": []
+    "positionPriority": [
+      "EETN_APP",
+      "EETT_W_CTR",
+      "EETT_CTR"
+    ]
   },
   {
     "id": "EETNTMA3",
-    "positionPriority": []
+    "positionPriority": [
+      "EETN_APP",
+      "EETT_W_CTR",
+      "EETT_CTR"
+    ] 
   },
   {
     "id": "EETTE1",
-    "positionPriority": []
+    "positionPriority": [
+      "EETT_E_CTR",
+      "EETT_CTR"
+    ]
   },
   {
     "id": "EETTE2",
-    "positionPriority": []
+    "positionPriority": [
+      "EETT_E_CTR",
+      "EETT_CTR"
+    ]
   },
   {
     "id": "EETTFED",
-    "positionPriority": []
+    "positionPriority": [
+      "EETN_APP",
+      "EETT_W_CTR",
+      "EETT_CTR"
+    ]
   },
   {
     "id": "EETTFIS",
@@ -29,26 +52,44 @@
   },
   {
     "id": "EETTW11",
-    "positionPriority": []
+    "positionPriority": [
+      "EETT_W_CTR",
+      "EETT_CTR"
+    ]
   },
   {
     "id": "EETTW12",
-    "positionPriority": []
+    "positionPriority": [
+      "EETT_W_CTR",
+      "EETT_CTR"
+    ]
   },
   {
     "id": "EETTW21",
-    "positionPriority": []
+    "positionPriority": [
+      "EETT_W_CTR",
+      "EETT_CTR"
+    ]
   },
   {
     "id": "EETTW23",
-    "positionPriority": []
+    "positionPriority": [
+      "EETT_W_CTR",
+      "EETT_CTR"
+    ]
   },
   {
     "id": "EETTW31",
-    "positionPriority": []
+    "positionPriority": [
+      "EETT_W_CTR",
+      "EETT_CTR"
+    ]
   },
   {
     "id": "EETTW32",
-    "positionPriority": []
+    "positionPriority": [
+      "EETT_W_CTR",
+      "EETT_CTR"
+    ]
   }
 ]
