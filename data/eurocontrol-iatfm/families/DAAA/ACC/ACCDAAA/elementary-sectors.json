@@ -1,34 +1,58 @@
 [
   {
     "id": "DAAANW",
-    "positionPriority": []
+    "positionPriority": [
+      "DAAA_NW_CTR",
+      "DAAA_CTR"
+    ]
   },
   {
     "id": "DAAASC",
-    "positionPriority": []
+    "positionPriority": [
+      "DAAA_SC_CTR",
+      "DAAA_CTR"
+    ]
   },
   {
     "id": "DAAASE",
-    "positionPriority": []
+    "positionPriority": [
+      "DAAA_SE_CTR",
+      "DAAA_CTR"
+    ]
   },
   {
     "id": "DAAASS",
-    "positionPriority": []
+    "positionPriority": [
+      "DAAA_SS_CTR",
+      "DAAA_CTR"
+    ]
   },
   {
     "id": "DAAASW",
-    "positionPriority": []
+    "positionPriority": [
+      "DAAA_SW_CTR",
+      "DAAA_CTR"
+    ]
   },
   {
     "id": "DAAATCL",
-    "positionPriority": []
+    "positionPriority": [
+      "DAAA_C_CTR",
+      "DAAA_CTR"
+    ]
   },
   {
     "id": "DAAATCU",
-    "positionPriority": []
+    "positionPriority": [
+      "DAAA_C_CTR",
+      "DAAA_CTR"
+    ]
   },
   {
     "id": "DAAATNE",
-    "positionPriority": []
+    "positionPriority": [
+      "DAAA_NE_CTR",
+      "DAAA_CTR"
+    ]
   }
 ]
