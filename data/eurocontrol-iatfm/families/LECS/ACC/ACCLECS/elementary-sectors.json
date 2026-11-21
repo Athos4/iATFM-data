@@ -18,31 +18,52 @@
   },
   {
     "id": "LECSALML",
-    "positionPriority": []
+    "positionPriority": [
+      "LECS_CEN_CTR",
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LECSASN",
-    "positionPriority": []
+    "positionPriority": [
+      "LEZL_APT_APP",
+      "LECS_SEL_CTR",
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LECSASV",
-    "positionPriority": []
+    "positionPriority": [
+      "LEZL_ASV_APP",
+      "LEZL_APT_APP",
+      "LECS_SEL_CTR",
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LECSBER",
-    "positionPriority": []
+    "positionPriority": [
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LECSBLNX",
-    "positionPriority": []
+    "positionPriority": [
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LECSGAL",
-    "positionPriority": []
+    "positionPriority": [
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LECSMALL",
-    "positionPriority": []
+    "positionPriority": [
+      "LECS_CEN_CTR",
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LECSMARX",
@@ -60,7 +81,10 @@
   },
   {
     "id": "LECSSEU",
-    "positionPriority": []
+    "positionPriority": [
+      "LECS_SEL_CTR",
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LECSSEVL",
@@ -72,34 +96,71 @@
   },
   {
     "id": "LECSYES",
-    "positionPriority": []
+    "positionPriority": [
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LEGRTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LEGR_TWR",
+      "LECS_CEN_CTR",
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LEMGFDE",
-    "positionPriority": []
+    "positionPriority": [
+      "LEMG_E_APP",
+      "LECS_CEN_CTR",
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LEMGFDW",
-    "positionPriority": []
+    "positionPriority": [
+      "LEMG_W_APP",
+      "LEMG_E_APP",
+      "LECS_CEN_CTR",
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LEMGFNNE",
-    "positionPriority": []
+    "positionPriority": [
+      "LEMG_FNL_APP",
+      "LEMG_E_APP",
+      "LECS_CEN_CTR",
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LEMGFNNW",
-    "positionPriority": []
+    "positionPriority": [
+      "LEMG_FNL_APP",
+      "LEMG_W_APP",
+      "LEMG_E_APP",
+      "LECS_CEN_CTR",
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LEMGFNSE",
-    "positionPriority": []
+    "positionPriority": [
+      "LEMG_FNL_APP",
+      "LEMG_E_APP",
+      "LECS_CEN_CTR",
+      "LECS_CTR"   
+    ]
   },
   {
     "id": "LEMGFNSW",
-    "positionPriority": []
+    "positionPriority": [
+      "LEMG_FNL_APP",
+      "LEMG_W_APP",
+      "LEMG_E_APP",
+      "LECS_CEN_CTR",
+      "LECS_CTR"
+    ]
   }
 ]
