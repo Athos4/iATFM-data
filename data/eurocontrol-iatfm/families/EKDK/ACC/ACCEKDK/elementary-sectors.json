@@ -1,7 +1,10 @@
 [
   {
     "id": "EKDKA",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_A_CTR",
+      "EKDK_CTR",
+    ]
   },
   {
     "id": "EKDKAOR",
@@ -9,19 +12,32 @@
   },
   {
     "id": "EKDKB",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_A_CTR",
+      "EKDK_CTR",
+    ]
   },
   {
     "id": "EKDKC",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_A_CTR",
+      "EKDK_CTR",
+    ]
   },
   {
     "id": "EKDKD",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_A_CTR",
+      "EKDK_CTR",
+    ]
   },
   {
     "id": "EKDKE",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_V_CTR",
+      "EKDK_NV_CTR",
+      "EKDK_CTR"
+    ]
   },
   {
     "id": "EKDKEXEKKA",
@@ -41,35 +57,64 @@
   },
   {
     "id": "EKDKI",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_A_CTR",
+      "EKDK_CTR",
+    ]
   },
   {
     "id": "EKDKL",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_V_CTR",
+      "EKDK_NV_CTR",
+      "EKDK_CTR"
+    ]
   },
   {
     "id": "EKDKN",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_N_CTR",
+      "EKDK_NV_CTR",
+      "EKDK_CTR"
+    ]
   },
   {
     "id": "EKDKUA",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_A_CTR",
+      "EKDK_CTR",
+    ]
   },
   {
     "id": "EKDKUC",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_A_CTR",
+      "EKDK_CTR",
+    ]
   },
   {
     "id": "EKDKUN",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_N_CTR",
+      "EKDK_NV_CTR",
+      "EKDK_CTR"
+    ]
   },
   {
     "id": "EKDKUV",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_V_CTR",
+      "EKDK_NV_CTR",
+      "EKDK_CTR"
+    ]
   },
   {
     "id": "EKDKV",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_V_CTR",
+      "EKDK_NV_CTR",
+      "EKDK_CTR"
+    ]
   },
   {
     "id": "EKDKXSIL",
@@ -77,7 +122,11 @@
   },
   {
     "id": "EKDKY",
-    "positionPriority": []
+    "positionPriority": [
+      "EKDK_N_CTR",
+      "EKDK_NV_CTR",
+      "EKDK_CTR"
+    ]
   },
   {
     "id": "EKDKZNSH",
