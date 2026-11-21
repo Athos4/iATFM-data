@@ -1,62 +1,149 @@
 [
   {
     "id": "EDYYB5KH",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_BKN_CTR",
+      "EDYY_BRU_CTR",
+      "EDYY_CTR",
+      "EBBU_W_CTR",
+      "EBBU_CTR",
+    ]
   },
   {
     "id": "EDYYB5KL",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_BKN_CTR",
+      "EDYY_BRU_CTR",
+      "EDYY_CTR",
+      "EBBU_W_CTR",
+      "EBBU_CTR",
+    ]
   },
   {
     "id": "EDYYB5LH",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_BOL_CTR",
+      "EDYY_BRU_CTR",
+      "EDYY_CTR",
+      "EBBU_E_CTR",
+      "EBBU_CTR",
+    ]
   },
   {
     "id": "EDYYB5LL",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_BOL_CTR",
+      "EDYY_BRU_CTR",
+      "EDYY_CTR",
+      "EBBU_E_CTR",
+      "EBBU_CTR",
+    ]
   },
   {
     "id": "EDYYB5NH",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_BKN_CTR",
+      "EDYY_BRU_CTR",
+      "EDYY_CTR",
+      "EBBU_W_CTR",
+      "EBBU_CTR",
+    ]
   },
   {
     "id": "EDYYB5NL",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_BKN_CTR",
+      "EDYY_BRU_CTR",
+      "EDYY_CTR",
+      "EBBU_W_CTR",
+      "EBBU_CTR",
+    ]
   },
   {
     "id": "EDYYB5OH",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_BOL_CTR",
+      "EDYY_BRU_CTR",
+      "EDYY_CTR",
+      "EBBU_E_CTR",
+      "EBBU_CTR",
+    ]
   },
   {
     "id": "EDYYB5OL",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_BOL_CTR",
+      "EDYY_BRU_CTR",
+      "EDYY_CTR",
+      "EBBU_E_CTR",
+      "EBBU_CTR",
+    ]
   },
   {
     "id": "EDYYD3WL",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_DD_CTR",
+      "EDYY_DEC_CTR",
+      "EDYY_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EDYYD3WM",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_DD_CTR",
+      "EDYY_DEC_CTR",
+      "EDYY_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EDYYD6HH",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_DJH_CTR",
+      "EDYY_DEC_CTR",
+      "EDYY_CTR",
+      "EDWW_W_CTR",
+      "EDWW_CTR"
+    ]
   },
   {
     "id": "EDYYD6HL",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_DJH_CTR",
+      "EDYY_DEC_CTR",
+      "EDYY_CTR",
+      "EDWW_W_CTR",
+      "EDWW_CTR"
+    ]
   },
   {
     "id": "EDYYD6JH",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_DJH_CTR",
+      "EDYY_DEC_CTR",
+      "EDYY_CTR",
+      "EDWW_W_CTR",
+      "EDWW_CTR"
+    ]
   },
   {
     "id": "EDYYD6JL",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_DJH_CTR",
+      "EDYY_DEC_CTR",
+      "EDYY_CTR",
+      "EDWW_W_CTR",
+      "EDWW_CTR"
+    ]
   },
   {
     "id": "EDYYD6WH",
-    "positionPriority": []
+    "positionPriority": [
+      "EDYY_DD_CTR",
+      "EDYY_DEC_CTR",
+      "EDYY_CTR",
+      "EHAA_CTR"
+    ]
   }
 ]
