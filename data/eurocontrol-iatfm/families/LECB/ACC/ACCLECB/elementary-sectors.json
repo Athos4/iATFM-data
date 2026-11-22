@@ -1,227 +1,465 @@
 [
   {
     "id": "LEBLBL1",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLBL2",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_T2_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLDDN",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLDDS",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLDEC",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLDED",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLDEI",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLDEL",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLDER",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLDEX",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLDEZ",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLDWD",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLDWI",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLDWL",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLDWR",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLFEC",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLFED",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLFEI",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLFEN",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLFES",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLFNN",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLFWD",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLFWI",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_FNL_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLGARI",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_T2_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLGONA",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_T4_APP",
+      "LEBL_T34_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLGR2",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_T2_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLNIC",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_T3_APP",
+      "LEBL_T34_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLNW4",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_T4_APP",
+      "LEBL_T34_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLSABA",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_T4_APP",
+      "LEBL_T34_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLSW3",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_T3_APP",
+      "LEBL_T34_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLVIBI",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBL_T3_APP",
+      "LEBL_T34_APP",
+      "LEBL_T1_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEBLXAL",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_E_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBCCL",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_E_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBCCU",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_E_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBGO1",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBGO2",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBGO3",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBLVL",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBLVS",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBLVU",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBMNL",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_E_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBMNU",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_E_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBMSL",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_E_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBMSU",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_E_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBP2R",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBVNI",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_E_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBVSL",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_E_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECBVSU",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_E_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECLNARN",
-    "positionPriority": []
+    "positionPriority": [
+      "LEAL_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECLNARS",
-    "positionPriority": []
+    "positionPriority": [
+      "LEAL_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECLTME",
-    "positionPriority": []
+    "positionPriority": [
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECLVALT",
-    "positionPriority": []
+    "positionPriority": [
+      "LEAL_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECLVAP",
-    "positionPriority": []
+    "positionPriority": [
+      "LEVC_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECLVKAT",
-    "positionPriority": []
+    "positionPriority": [
+      "LEAL_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECLVMIT",
-    "positionPriority": []
+    "positionPriority": [
+      "LEAL_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LECLVSAL",
-    "positionPriority": []
+    "positionPriority": [
+      "LEAL_APP",
+      "LECB_W_CTR",
+      "LECB_CTR"
+    ]
   },
   {
     "id": "LEMHTA",
