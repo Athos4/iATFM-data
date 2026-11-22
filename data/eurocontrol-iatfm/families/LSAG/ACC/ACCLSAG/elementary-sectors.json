@@ -1,104 +1,101 @@
 [
   {
-    "id": "LSAG195A",
-    "positionPriority": []
-  },
-  {
-    "id": "LSAG195B",
-    "positionPriority": []
-  },
-  {
     "id": "LSAGE",
     "positionPriority": []
   },
   {
     "id": "LSAGFIS",
-    "positionPriority": []
-  },
-  {
-    "id": "LSAGL1",
     "positionPriority": [
+      "LSAG_INE_CTR",
+      "LSAG_INS_CTR",
       "LSAG_INS_CTR"
     ]
   },
   {
-    "id": "LSAGL12N",
-    "positionPriority": []
-  },
-  {
-    "id": "LSAGL12R",
-    "positionPriority": []
+    "id": "LSAGL1",
+    "positionPriority": [
+      "LSAG_L1_CTR",
+      "LSAG_INS_CTR"
+    ]
   },
   {
     "id": "LSAGL2",
     "positionPriority": [
+      "LSAG_L1_CTR",
       "LSAG_INS_CTR"
     ]
   },
   {
     "id": "LSAGL3",
     "positionPriority": [
+      "LSAG_L1_CTR",
       "LSAG_INS_CTR"
     ]
   },
   {
     "id": "LSAGL4",
     "positionPriority": [
+      "LSAG_L4_CTR",
+      "LSAG_L1_CTR",
       "LSAG_INS_CTR"
     ]
   },
   {
     "id": "LSAGL5",
     "positionPriority": [
+      "LSAG_L4_CTR",
+      "LSAG_L1_CTR",
       "LSAG_INS_CTR"
     ]
   },
   {
     "id": "LSAGL6",
     "positionPriority": [
+      "LSAG_L4_CTR",
+      "LSAG_L1_CTR",
       "LSAG_INS_CTR"
     ]
   },
   {
     "id": "LSAGL7",
     "positionPriority": [
+      "LSAG_L4_CTR",
+      "LSAG_L1_CTR",
       "LSAG_INS_CTR"
     ]
   },
   {
     "id": "LSAGN",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAG_INN_CTR",
+      "LSAG_INS_CTR"
+    ]
   },
   {
     "id": "LSAGS",
-    "positionPriority": []
-  },
-  {
-    "id": "LSAGSTAT",
-    "positionPriority": []
-  },
-  {
-    "id": "LSAGTOTAL",
-    "positionPriority": []
-  },
-  {
-    "id": "LSAGTSAW",
-    "positionPriority": []
-  },
-  {
-    "id": "LSAGXS",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAG_INS_CTR"
+    ]
   },
   {
     "id": "LSGGMID",
-    "positionPriority": []
+    "positionPriority": [
+      "LSGG_APP",
+      "LSAG_INS_CTR"
+    ]
   },
   {
     "id": "LSGGSUD",
-    "positionPriority": []
+    "positionPriority": [
+      "LSGG_APP",
+      "LSAG_INS_CTR"
+    ]
   },
   {
     "id": "LSGSTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LSGS_APP",
+      "LSAG_INS_CTR"
+    ]
   }
 ]
