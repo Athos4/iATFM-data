@@ -1,7 +1,10 @@
 [
   {
     "id": "LSAGE",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAG_INE_CTR",
+      "LSAG_INS_CTR"
+    ]
   },
   {
     "id": "LSAGFIS",
