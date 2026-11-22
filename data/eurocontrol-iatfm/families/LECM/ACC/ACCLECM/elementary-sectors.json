@@ -18,7 +18,7 @@
     "id": "LEBBTA",
     "positionPriority": [
       "LEBB_APP",
-      "LECM_BLL_VTR"
+      "LECM_BLL_VTR",
       "LECM_R1_CTR"
     ]
   },
