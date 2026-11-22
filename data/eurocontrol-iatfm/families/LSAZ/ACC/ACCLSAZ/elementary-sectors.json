@@ -1,74 +1,111 @@
 [
-  {
-    "id": "LSAZ195A",
-    "positionPriority": []
-  },
-  {
-    "id": "LSAZ195B",
-    "positionPriority": []
-  },
-  {
+{
     "id": "LSAZDELTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAZ_S_CTR",
+      "LSAS_LM1_CTR"
+    ]
   },
   {
     "id": "LSAZEDNY",
-    "positionPriority": []
-  },
-  {
-    "id": "LSAZEDNYX",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAZ_E_CTR",
+      "LSAZ_S_CTR",
+      "LSAS_LM1_CTR"
+    ]
   },
   {
     "id": "LSAZESL",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAZ_E_CTR",
+      "LSAZ_S_CTR",
+      "LSAS_LM1_CTR"
+    ]
   },
   {
     "id": "LSAZM1",
-    "positionPriority": []
-  },
-  {
-    "id": "LSAZM1ZS",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAZ_M1_CTR",
+      "LSAZ_S_CTR",
+      "LSAS_LM1_CTR"
+    ]
   },
   {
     "id": "LSAZM2",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAZ_M3_CTR",
+      "LSAZ_M1_CTR",
+      "LSAZ_S_CTR",
+      "LSAS_LM1_CTR"
+    ]
   },
   {
     "id": "LSAZM3",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAZ_M3_CTR",
+      "LSAZ_M1_CTR",
+      "LSAZ_S_CTR",
+      "LSAS_LM1_CTR"
+    ]
   },
   {
     "id": "LSAZM4",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAZ_M4_CTR",
+      "LSAZ_M1_CTR",
+      "LSAZ_S_CTR",
+      "LSAS_LM1_CTR"
+    ]
   },
   {
     "id": "LSAZM5",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAZ_M4_CTR",
+      "LSAZ_M1_CTR",
+      "LSAZ_S_CTR",
+      "LSAS_LM1_CTR"
+    ]
   },
   {
     "id": "LSAZM6",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAZ_M4_CTR",
+      "LSAZ_M1_CTR",
+      "LSAZ_S_CTR",
+      "LSAS_LM1_CTR"
+    ]
   },
   {
     "id": "LSAZM7",
-    "positionPriority": []
-  },
-  {
-    "id": "LSAZNEX",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAZ_M4_CTR",
+      "LSAZ_M1_CTR",
+      "LSAZ_S_CTR",
+      "LSAS_LM1_CTR"
+    ]
   },
   {
     "id": "LSAZNL",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAZ_N_CTR",
+      "LSAZ_S_CTR",
+      "LSAS_LM1_CTR"
+    ]
   },
   {
     "id": "LSAZSSLD",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAZ_S_CTR",
+      "LSAS_LM1_CTR"
+    ]
   },
   {
     "id": "LSAZWSL",
-    "positionPriority": []
+    "positionPriority": [
+      "LSAZ_W_CTR",
+      "LSAZ_N_CTR",
+      "LSAZ_S_CTR",
+      "LSAS_LM1_CTR"
+    ]
   }
 ]
