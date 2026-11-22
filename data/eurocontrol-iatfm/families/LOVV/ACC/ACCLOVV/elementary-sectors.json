@@ -1,246 +1,510 @@
 [
   {
     "id": "LOVVB1",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_B_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVB2",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_B_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVB3",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_B_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVB4",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_B_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVB5",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_B_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVB6",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_B_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVB7",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_B_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVE1",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVE2",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVE3",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVE4",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVE5",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVE6",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVE7",
-    "positionPriority": []
-  },
-  {
-    "id": "LOVVFR",
-    "positionPriority": []
-  },
-  {
-    "id": "LOVVINN",
-    "positionPriority": []
-  },
-  {
-    "id": "LOVVINN1",
-    "positionPriority": []
-  },
-  {
-    "id": "LOVVMUH",
-    "positionPriority": []
-  },
-  {
-    "id": "LOVVMUT",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVN1",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_N_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVN2",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_N_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVN3",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_N_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVN4",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_N_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVN5",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_N_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVN6",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_N_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVN7",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_N_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVS1",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_S_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVS2",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_S_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVS3",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_S_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVS4",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_S_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVS5",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_S_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVS6",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_S_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVS7",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_S_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVW1",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_W_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVW2",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_W_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVW3",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_W_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVW4",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_W_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVW5",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_W_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVW6",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_W_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOVVW7",
-    "positionPriority": []
+    "positionPriority": [
+      "LOVV_W_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWGATA",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWG_APP",
+      "LOVV_S_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    
+    ]
   },
   {
     "id": "LOWGBTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWG_APP",
+      "LOVV_S_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    
+    ]
   },
   {
     "id": "LOWIATA1",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWI_APP",
+      "LOVV_W_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWIATA2",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWI_APP",
+      "LOVV_W_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWIBTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWI_APP",
+      "LOVV_W_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWKATA",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWK_APP",
+      "LOVV_W_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWKBTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWK_APP",
+      "LOVV_W_CTR",
+      "LOVV_WS_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWLATA",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWL_APP",
+      "LOVV_N_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWLBTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWL_APP",
+      "LOVV_N_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWSATA",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWS_APP",
+      "LOVV_B_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWSBTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWS_APP",
+      "LOVV_B_CTR",
+      "LOVV_BN_CTR",
+      "LOVV_BNE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWWV5A",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWW_N_APP",
+      "LOWW_APP",
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWWV5B",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWW_N_APP",
+      "LOWW_APP",
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWWVBA",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWW_S_APP",
+      "LOWW_APP",
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWWVBB",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWW_S_APP",
+      "LOWW_APP",
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWWVMA",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWW_N_APP",
+      "LOWW_APP",
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWWVMB",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWW_N_APP",
+      "LOWW_APP",
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWWVNA",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWW_N_APP",
+      "LOWW_APP",
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWWVNB",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWW_N_APP",
+      "LOWW_APP",
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWWVPA",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWW_N_APP",
+      "LOWW_APP",
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   },
   {
     "id": "LOWWVPB",
-    "positionPriority": []
+    "positionPriority": [
+      "LOWW_N_APP",
+      "LOWW_APP",
+      "LOVV_E_CTR",
+      "LOVV_SE_CTR",
+      "LOVV_CTR"
+    ]
   }
 ]
