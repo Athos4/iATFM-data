@@ -1,42 +1,74 @@
 [
   {
     "id": "EHMCEHEHTA",
-    "positionPriority": []
+    "positionPriority": [
+      "EHEH_APP",
+      "EHMC_L2_CTR",
+      "EHMC_CTR"
+    ]
   },
   {
     "id": "EHMCEHKDTA",
-    "positionPriority": []
+    "positionPriority": [
+      "EHKD_APP",
+      "EHMC_L1_CTR",
+      "EHMC_CTR"
+    ]
   },
   {
     "id": "EHMCTMAA",
-    "positionPriority": []
+    "positionPriority": [
+      "EHMC_L1_CTR",
+      "EHMC_CTR"
+    ]
   },
   {
     "id": "EHMCTMAB",
-    "positionPriority": []
+    "positionPriority": [
+      "EHMC_L1_CTR",
+      "EHMC_CTR"
+    ]
   },
   {
     "id": "EHMCTMAC",
-    "positionPriority": []
+    "positionPriority": [
+      "EHMC_L1_CTR",
+      "EHMC_CTR"
+    ]
   },
   {
     "id": "EHMCTMAD",
-    "positionPriority": []
+    "positionPriority": [
+      "EHMC_L2_CTR",
+      "EHMC_CTR"
+    ]
   },
   {
     "id": "EHMCTMAE",
-    "positionPriority": []
+    "positionPriority": [
+      "EHMC_L1_CTR",
+      "EHMC_CTR"
+    ]
   },
   {
     "id": "EHMCTMAG1",
-    "positionPriority": []
+    "positionPriority": [
+      "EHMC_L2_CTR",
+      "EHMC_CTR"
+    ]
   },
   {
     "id": "EHMCTMAG2",
-    "positionPriority": []
+    "positionPriority": [
+      "EHMC_L2_CTR",
+      "EHMC_CTR"
+    ]
   },
   {
     "id": "EHMCTMAN",
-    "positionPriority": []
+    "positionPriority": [
+      "EHMC_L1_CTR",
+      "EHMC_CTR"
+    ]
   }
 ]
