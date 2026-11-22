@@ -1,82 +1,165 @@
 [
   {
-    "id": "EHAAALL55",
-    "positionPriority": []
-  },
-  {
-    "id": "EHAACBAS",
-    "positionPriority": []
-  },
-  {
     "id": "EHAACOD",
     "positionPriority": []
   },
   {
     "id": "EHAAFIS",
-    "positionPriority": []
+    "positionPriority": [
+      "EHAA_FSS",
+      "EHAA_W_CTR",
+      "EHAA_SW_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHAASECT1",
-    "positionPriority": []
+    "positionPriority": [
+      "EHAA_1_CTR",
+      "EHAA_E_CTR",
+      "EHAA_NE_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHAASECT2E",
-    "positionPriority": []
+    "positionPriority": [
+      "EHAA_2_CTR",
+      "EHAA_E_CTR",
+      "EHAA_NE_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHAASECT2I",
-    "positionPriority": []
+    "positionPriority": [
+      "EHAA_2_CTR",
+      "EHAA_E_CTR",
+      "EHAA_NE_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHAASECT3E",
-    "positionPriority": []
+    "positionPriority": [
+      "EHAA_3_CTR",
+      "EHAA_S_CTR",
+      "EHAA_SW_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHAASECT3I",
-    "positionPriority": []
+    "positionPriority": [
+      "EHAA_3_CTR",
+      "EHAA_S_CTR",
+      "EHAA_SW_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHAASECT4",
-    "positionPriority": []
+    "positionPriority": [
+      "EHAA_4_CTR",
+      "EHAA_W_CTR",
+      "EHAA_SW_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHAASECT5",
-    "positionPriority": []
+    "positionPriority": [
+      "EHAA_5_CTR",
+      "EHAA_W_CTR",
+      "EHAA_SW_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHAMTA",
-    "positionPriority": []
+    "positionPriority": [
+      "EHAM_W_APP",
+      "EHAA_SW_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHBKTA",
-    "positionPriority": []
+    "positionPriority": [
+      "EHBK_APP",
+      "EHAA_3_CTR",
+      "EHAA_S_CTR",
+      "EHAA_SW_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHGGTA",
-    "positionPriority": []
+    "positionPriority": [
+      "EHGG_APP",
+      "EHAA_1_CTR",
+      "EHAA_E_CTR",
+      "EHAA_NE_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHLETA1",
-    "positionPriority": []
+    "positionPriority": [
+      "EHLE_APP",
+      "EHAM_E_APP",
+      "EHAM_W_APP",
+      "EHAA_SW_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHLETA2",
-    "positionPriority": []
+    "positionPriority": [
+      "EHLE_APP",
+      "EHAM_E_APP",
+      "EHAM_W_APP",
+      "EHAA_SW_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHLETA3",
-    "positionPriority": []
+    "positionPriority": [
+      "EHLE_APP",
+      "EHAM_E_APP",
+      "EHAM_W_APP",
+      "EHAA_SW_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHLETA4",
-    "positionPriority": []
+    "positionPriority": [
+      "EHLE_APP",
+      "EHAM_E_APP",
+      "EHAM_W_APP",
+      "EHAA_SW_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHLETA5",
-    "positionPriority": []
+    "positionPriority": [
+      "EHLE_APP",
+      "EHAM_E_APP",
+      "EHAM_W_APP",
+      "EHAA_SW_CTR",
+      "EHAA_CTR"
+    ]
   },
   {
     "id": "EHRDTA",
-    "positionPriority": []
+    "positionPriority": [
+      "EHRD_APP",
+      "EHAM_W_APP",
+      "EHAA_SW_CTR",
+      "EHAA_CTR"
+    ]
   }
 ]
