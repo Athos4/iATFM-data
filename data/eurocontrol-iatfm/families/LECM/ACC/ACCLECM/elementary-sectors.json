@@ -1,19 +1,34 @@
 [
   {
     "id": "LEABTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LEAB_APP",
+      "LECS_CTR"
+    ]
   },
   {
     "id": "LEASTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LEAS_TWR",
+      "LECM_SAS_CTR",
+      "LECM_R1_CTR"
+    ]
   },
   {
     "id": "LEBBTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LEBB_APP",
+      "LECM_BLL_VTR"
+      "LECM_R1_CTR"
+    ]
   },
   {
     "id": "LECGTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LEST_APP",
+      "LECM_SAS_CTR",
+      "LECM_R1_CTR"
+    ]
   },
   {
     "id": "LECMASL",
@@ -22,10 +37,6 @@
       "LECM_SAI_CTR",
       "LECM_R1_CTR"
     ]
-  },
-  {
-    "id": "LECMASLF",
-    "positionPriority": []
   },
   {
     "id": "LECMASU",
@@ -70,31 +81,11 @@
     ]
   },
   {
-    "id": "LECMDGLT",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMDGLZ",
-    "positionPriority": []
-  },
-  {
     "id": "LECMDGU",
     "positionPriority": [
       "LECM_BDP_CTR",
       "LECM_R1_CTR"
     ]
-  },
-  {
-    "id": "LECMDGUT",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMDGUZ",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMOC",
-    "positionPriority": []
   },
   {
     "id": "LECMPAL",
@@ -104,35 +95,11 @@
     ]
   },
   {
-    "id": "LECMPALT",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMPALZ",
-    "positionPriority": []
-  },
-  {
     "id": "LECMPAU",
     "positionPriority": [
       "LECM_BDP_CTR",
       "LECM_R1_CTR"
     ]
-  },
-  {
-    "id": "LECMPAUT",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMPAUZ",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMSAMT",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMSANF",
-    "positionPriority": []
   },
   {
     "id": "LECMSAO",
@@ -143,23 +110,10 @@
   },
   {
     "id": "LECMSLE",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMSLFT",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMSTUT",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMSTVT",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMTELT",
-    "positionPriority": []
+    "positionPriority": [
+      "LECM_SAS_CTR",
+      "LECM_R1_CTR"
+    ]
   },
   {
     "id": "LECMTER",
@@ -169,10 +123,6 @@
     ]
   },
   {
-    "id": "LECMTEUT",
-    "positionPriority": []
-  },
-  {
     "id": "LECMTLL",
     "positionPriority": [
       "LECM_ZTI_CTR",
@@ -180,35 +130,11 @@
     ]
   },
   {
-    "id": "LECMTLLT",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMTLLZ",
-    "positionPriority": []
-  },
-  {
     "id": "LECMTLU",
     "positionPriority": [
       "LECM_ZTI_CTR",
       "LECM_R2_CTR"
     ]
-  },
-  {
-    "id": "LECMTLUT",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMTLUZ",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMZGLT",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMZGUT",
-    "positionPriority": []
   },
   {
     "id": "LECMZGZ",
@@ -226,7 +152,10 @@
   },
   {
     "id": "LECMZMM",
-    "positionPriority": []
+    "positionPriority": [
+      "LECM_ZTI_CTR",
+      "LECM_R2_CTR"
+    ]
   },
   {
     "id": "LECMZMU",
@@ -243,14 +172,6 @@
     ]
   },
   {
-    "id": "LECMZNMT",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMZNUT",
-    "positionPriority": []
-  },
-  {
     "id": "LECMZSLT",
     "positionPriority": [
       "LECM_ZTI_CTR",
@@ -258,16 +179,11 @@
     ]
   },
   {
-    "id": "LECMZSMT",
-    "positionPriority": []
-  },
-  {
-    "id": "LECMZSUT",
-    "positionPriority": []
-  },
-  {
     "id": "LELNTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LELN_APP",
+      "LECM_R1_CTR"
+    ]
   },
   {
     "id": "LEMD125A",
@@ -743,18 +659,27 @@
   },
   {
     "id": "LESOTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LESO_TWR",
+      "LECM_R1_CTR"
+    ]
   },
   {
     "id": "LEVTTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LECM_R1_CTR"
+    ]
   },
   {
     "id": "LEXJTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LECM_R1_CTR"
+    ]
   },
   {
     "id": "LEZGTA",
-    "positionPriority": []
+    "positionPriority": [
+      "LECM_R1_CTR"
+    ]
   }
 ]
