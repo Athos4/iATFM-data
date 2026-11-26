@@ -1,14 +1,23 @@
 [
   {
     "id": "DTTCNORLOW",
-    "positionPriority": []
+    "positionPriority": [
+      "DTTC_N_CTR",
+      "DTTC_CTR"
+    ]
   },
   {
     "id": "DTTCNORUPP",
-    "positionPriority": []
+    "positionPriority": [
+      "DTTC_U_CTR",
+      "DTTC_CTR"
+    ]
   },
   {
     "id": "DTTCSOUTH",
-    "positionPriority": []
+    "positionPriority": [
+      "DTTC_S_CTR",
+      "DTTC_CTR"
+    ]
   }
 ]
